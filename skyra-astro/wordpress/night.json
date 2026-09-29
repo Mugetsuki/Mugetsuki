@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "title": "Skyra Night",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "name": "Primary",
+          "color": "#CDB8E7"
+        },
+        {
+          "slug": "secondary",
+          "name": "Secondary",
+          "color": "#332A43"
+        },
+        {
+          "slug": "accent",
+          "name": "Accent",
+          "color": "#DFA6BC"
+        },
+        {
+          "slug": "background",
+          "name": "Background",
+          "color": "#17131F"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#241E2E"
+        },
+        {
+          "slug": "raised",
+          "name": "Raised",
+          "color": "#2D2539"
+        },
+        {
+          "slug": "text",
+          "name": "Text",
+          "color": "#F5F0F8"
+        },
+        {
+          "slug": "muted",
+          "name": "Muted",
+          "color": "#C0B4CB"
+        },
+        {
+          "slug": "border",
+          "name": "Border",
+          "color": "#4B4058"
+        },
+        {
+          "slug": "control",
+          "name": "Control",
+          "color": "#9D8CA9"
+        },
+        {
+          "slug": "hover",
+          "name": "Hover",
+          "color": "#DDCAF2"
+        },
+        {
+          "slug": "onprimary",
+          "name": "Onprimary",
+          "color": "#241E2E"
+        },
+        {
+          "slug": "night",
+          "name": "Night",
+          "color": "#100D17"
+        },
+        {
+          "slug": "focus",
+          "name": "Focus",
+          "color": "#CDB8E7"
+        },
+        {
+          "slug": "error",
+          "name": "Error",
+          "color": "#FFB1BE"
+        },
+        {
+          "slug": "success",
+          "name": "Success",
+          "color": "#9BD2B8"
+        },
+        {
+          "slug": "warning",
+          "name": "Warning",
+          "color": "#E4CC8B"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|background",
+      "text": "var:preset|color|text"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|body",
+      "fontSize": "var:preset|font-size|body",
+      "lineHeight": "1.65"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|heading",
+          "fontWeight": "600",
+          "lineHeight": "1.2"
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "14px"
+        },
+        "color": {
+          "background": "var:preset|color|primary",
+          "text": "var:preset|color|onprimary"
+        },
+        "spacing": {
+          "padding": {
+            "top": "14px",
+            "bottom": "14px",
+            "left": "22px",
+            "right": "22px"
+          }
+        }
+      }
+    }
+  }
+}

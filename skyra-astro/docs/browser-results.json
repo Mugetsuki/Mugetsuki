@@ -1,0 +1,24 @@
+{
+  "routeCount": 35,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "checks": [
+    "one H1",
+    "no horizontal main overflow",
+    "unique IDs",
+    "menu Escape and focus",
+    "theme persistence",
+    "form invalid and unknown time",
+    "result without private data in URL",
+    "newsletter demo states",
+    "filter empty state",
+    "compatibility demo",
+    "search escaping"
+  ],
+  "runtimeErrors": []
+}
