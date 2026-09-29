@@ -1,0 +1,142 @@
+[
+  {
+    "page": 1,
+    "title": "Gökyüzünü anla. Kendine alan aç.",
+    "category": "SKYRA ASTRO"
+  },
+  {
+    "page": 2,
+    "title": "Bu belgenin kullanımı",
+    "category": "OKUMA REHBERİ"
+  },
+  {
+    "page": 3,
+    "title": "Mevcut görsel kimlik",
+    "category": "MEVCUT SİTE ANALİZİ"
+  },
+  {
+    "page": 4,
+    "title": "Görsel dil & içerik yapısı",
+    "category": "MEVCUT SİTE ANALİZİ"
+  },
+  {
+    "page": 5,
+    "title": "Kullanıcı yolları & öncelikler",
+    "category": "MEVCUT SİTE ANALİZİ"
+  },
+  {
+    "page": 6,
+    "title": "Sakin, özenli, çağdaş.",
+    "category": "01–04 · MARKA TEMELİ"
+  },
+  {
+    "page": 7,
+    "title": "Sesi yakın. Sözü açık.",
+    "category": "05 · TONE OF VOICE"
+  },
+  {
+    "page": 8,
+    "title": "Açık renk dünyası",
+    "category": "06 · ANA RENK PALETİ"
+  },
+  {
+    "page": 9,
+    "title": "Gece, daha sakin.",
+    "category": "07 · DARK MODE"
+  },
+  {
+    "page": 10,
+    "title": "Quicksand × DM Sans",
+    "category": "08 · TYPOGRAPHY"
+  },
+  {
+    "page": 11,
+    "title": "Logo karakterini koru.",
+    "category": "09 · LOGO KULLANIMI"
+  },
+  {
+    "page": 12,
+    "title": "İnce çizgi, net işlev.",
+    "category": "10 · ICONOGRAPHY"
+  },
+  {
+    "page": 13,
+    "title": "Atmosfer, ölçülü detaylarda.",
+    "category": "11 · ILLUSTRATION & IMAGERY"
+  },
+  {
+    "page": 14,
+    "title": "Estetik, kullanım kolaylığıyla.",
+    "category": "12 · UI DESIGN PRENSİPLERİ"
+  },
+  {
+    "page": 15,
+    "title": "Katmanlar & köşeler",
+    "category": "13–14 · RADIUS & SHADOW"
+  },
+  {
+    "page": 16,
+    "title": "Boşluk, sistemin ritmi.",
+    "category": "15 · SPACING & RESPONSIVE"
+  },
+  {
+    "page": 17,
+    "title": "Işık, bir odak yaratır.",
+    "category": "16 · GRADIENT SİSTEMİ"
+  },
+  {
+    "page": 18,
+    "title": "Aksiyonun ağırlığı belli.",
+    "category": "17 · BUTTON SİSTEMİ"
+  },
+  {
+    "page": 19,
+    "title": "Kartlar, bilgiye düzen verir.",
+    "category": "18 · CARD SİSTEMİ"
+  },
+  {
+    "page": 20,
+    "title": "Formlar açık ve sakin.",
+    "category": "EK · FORM ELEMENTS"
+  },
+  {
+    "page": 21,
+    "title": "Üç işe hızlı erişim.",
+    "category": "EK · NAVIGATION & MICRO-INTERACTION"
+  },
+  {
+    "page": 22,
+    "title": "Quiet observatory",
+    "category": "19 · GENEL ART DIRECTION"
+  },
+  {
+    "page": 23,
+    "title": "Ana sayfanın görsel ritmi",
+    "category": "20 · ANA SAYFA ART DIRECTION"
+  },
+  {
+    "page": 24,
+    "title": "WordPress’e uygulanabilir sistem",
+    "category": "EK · UYGULAMA DEVRİ"
+  },
+  {
+    "page": 25,
+    "title": "Performans & veri disiplini",
+    "category": "EK · UYGULAMA DEVRİ"
+  },
+  {
+    "page": 26,
+    "title": "Claude için devam talimatı",
+    "category": "EK · TASARIMDAN UYGULAMAYA"
+  },
+  {
+    "page": 27,
+    "title": "Uygulama tokenları",
+    "category": "EK · KOPYALANABİLİR DEĞERLER"
+  },
+  {
+    "page": 28,
+    "title": "Kabul ölçütleri & kaynaklar",
+    "category": "EK · SON KONTROL"
+  }
+]

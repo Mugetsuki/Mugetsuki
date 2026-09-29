@@ -1,4 +1,12 @@
-# Skyra Astro — marka ve web tasarım paketi
+# Skyra Astro — bağımsız PDF Brand Kit
+
+**Ana teslimat:** [Skyra-Astro-Brand-Kit.pdf](Skyra-Astro-Brand-Kit.pdf). Claude için tek başına okunabilir, 28 sayfalık marka ve uygulama rehberi. Brand Kit web sitesinin bir sayfası olarak uygulanmamalıdır. Önceki HTML önizleme keşif çalışmasıdır; sonraki tasarımı bağlayan nihai ekran onayı değildir.
+
+PDF; mevcut site analizi, istenen 20 marka başlığı, görsel paletler, bileşen örnekleri, WordPress notları ve Claude devam talimatını içerir. `brand-kit/brand-book.html` baskı kaynağıdır; site şablonu değildir.
+
+PDF’yi tekrar üretmek için `python3 skyra-astro/scripts/build-brand-pdf.py`, ardından Playwright/Chromium kurulu ortamda `node skyra-astro/scripts/export-brand-pdf.cjs` çalıştırılır. Export aracı sayfa taşmalarını ve PDF sayfa sayısını kontrol eder.
+
+## Önceki araştırma ve önizleme paketi
 
 İlk aşama: mevcut site analizi + 20 başlıklı Brand Kit. İkinci aşama: tüm mevcut/yeni sayfa ailelerinin WordPress uyumlu UI/UX sistemi ve etkileşimli, responsive önizleme. Canlı sitenin header logo dosyası değiştirilmeden kullanılır.
 

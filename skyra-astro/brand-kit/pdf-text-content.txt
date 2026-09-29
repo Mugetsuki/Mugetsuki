@@ -1,0 +1,704 @@
+SKYRA ASTRO
+BRAND KIT · v1.1
+SKYRA ASTRO
+Gökyüzünü anla.
+Kendine alan aç.
+
+Soft celestial × premium editorial × modern digital product
+
+skyra
+ASTRO
+☾
+
+BRAND KIT
+& WEB DESIGN SYSTEM
+
+Bağımsız marka rehberi
+Claude için tasarım ve uygulama devri
+v1.1 · 30 Eylül 2026
+Bağımsız marka rehberi · Tasarım & uygulama devri
+01 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+OKUMA REHBERİ
+Bu belgenin kullanımı
+Birinci aşama teslimatı. Bu PDF markanın ayrı referans belgesidir. Marka rehberi son kullanıcı web sitesinin içine yerleştirilmez. Claude, ikinci aşamadaki sayfa tasarımlarını bu sistemi inceleyerek üretir.
+01 — Mevcut durum
+
+Kaynak incelemesi, görsel kimlik, içerik, kullanıcı yolları ve öncelikler.
+
+02 — Marka temeli
+
+Kişilik, konumlandırma, değerler, anahtar kelimeler ve ses tonu.
+
+03 — Görsel kimlik
+
+Açık/koyu renkler, tipografi, korunan logo, ikonlar ve görsel dil.
+
+04 — Tasarım sistemi
+
+UI ilkeleri, radius, shadow, spacing, gradient, buton, kart, form ve navigasyon.
+
+05 — Uygulama devri
+
+Ana sayfa yaklaşımı, WordPress eşlemesi, Claude talimatı, tokenlar ve kabul ölçütleri.
+
+Kararların statüsü
+
+Bu belgedeki tasarım sistemi önerilen v1.1 marka standardıdır; kullanıcı tarafından nihai onay verildiği iddia edilmez. Logo yapısı korunmalıdır. Kedi amblemi canlı header dosyasında doğrulandı; farklı bir onaylı logo master’ı varsa uygulamadan önce onunla karşılaştırılmalıdır.
+
+Tek başına kullanılabilir
+
+Tüm HEX değerleri, ölçüler, font rolleri ve uygulama kuralları PDF içinde bulunur. Ek kod dosyaları zorunlu değildir. Önceki site prototipi yalnız keşif çalışmasıdır; bu PDF’nin yerine geçmez.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+02 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+MEVCUT SİTE ANALİZİ
+Mevcut görsel kimlik
+Alan	Doğrulanan bulgu	Tasarım değerlendirmesi / öneri
+Logo	Header’da yıldız alınlı, lacivert konturlu sıcak sarı kedi amblemi; kaynak PNG 150 × 79. Görsel dosya yerelde korunmuştur.	Samimi ve ayırt edilebilir. Premium konumlandırmayla gerilim yaratabilecek oyuncu karakteri değiştirilmez; ciddi ürün tipografisi ve sade çevreyle dengelenir.
+Logo yerleşimi	56 × 56 koyu kutu; görsel CSS’de 48 × 48, object-fit:contain. Kaynak en-boy oranı yaklaşık 1,90.	Dosyadaki saydam boşluk, kare kutu içinde görünen amblemi küçük bırakabilir. Amblemi esnetmeden, saydam sınırları ölçülerek optik yerleştirme yapılmalı.
+Ana renkler	Mürekkep #0D0A1A, mor #6B4FA8, altın #C9A84C, inci #EDE8F5, lacivert #27356F, krem #FFF5DC, kâğıt #FAF8F2, ikincil metin #625D69, çizgi #DBD6CF.	Açık editorial zemin iyi bir temel. Sarı krem + altın + lacivert birlikteliği yeni ürün yönünde sadeleştirilmeli; logo sarısı kurumsal sarı palete yayılmamalı.
+Tipografi	Başlıklar Cormorant Garamond 500; gövde DM Sans 18px / 1,75; navigasyon 14px / 500.	Editorial karakter mevcut. Quicksand yalnızca kimlik ve ana başlıklarda; DM Sans gövde ve veri arayüzünde korunarak süreklilik sağlanabilir. Fontun kaynakta tanımlanması gerçek yüklenme hızını kanıtlamaz.
+İnceleme kaynağı: skyraastro.com ana sayfa HTML/CSS ve header logo dosyası. İnceleme tarihi 30 Eylül 2026. Canlı sitenin Lighthouse, conversion veya kullanıcı araştırması ölçümü yapılmadı. Kaynaktaki değerler ölçülmüş performans olarak yorumlanmamalı.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+03 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+MEVCUT SİTE ANALİZİ
+Görsel dil & içerik yapısı
+Alan	Doğrulanan bulgu	Tasarım değerlendirmesi / öneri
+Yerleşim	1200px kapsayıcı; masaüstünde 40px, küçük ekranda 20/17px yatay boşluk; kartlar yaklaşık 8–12px radius.	Bileşen mantığı mevcut. Daha tutarlı token ölçeği, veri kartları ve net birincil aksiyon gerekir.
+Hero	Soyut kişisel keşif mesajı; haftalık yorum ve tarot danışmanlığına bağlantılar. İnce orbital SVG, altın/lacivert kullanımı.	Orbital dil hedefe yakın. Yeni hero günlük keşif ile kişisel harita arasındaki farkı net anlatmalı.
+İkonlar	Rehber ve taş kartlarında emoji; burçlarda Unicode semboller.	Emoji platforma göre değişir ve premium tutarlılığı zayıflatır. Tek stroke ailesi ve normalize edilmiş zodiac SVG seti önerilir.
+Mobil	CSS’de responsive menü, 44px kontrol alanları, mobilde gizlenen hero dekoru.	Mobil düşünülmüş. Gerçek klavye, zoom, menü odağı ve cihaz davranışı ayrıca test edilmeli.
+İçerik hiyerarşisi
+
+Ana sayfa sırası: hero → haftalık enerji ve 12 burç → üç keşif kategorisi → doğal taşlar → tarot → son yazılar → danışmanlık → footer. Navigasyon altı konu sunuyor: astroloji, haftalık yorum, doğal taşlar, tarot, blog ve danışmanlık. Footer’da astroloji alt konuları aynı kategori bağlantısına yönleniyor; detay sayfasına giden gerçek rotalar ayrıca doğrulanmalı.
+
+Bu yapı konu keşfini destekliyor, ancak günlük geri dönüş ve kişisel harita üretme hedefi için iki temel iş görünür değil. Taş ve tarot içerikleri kaldırılmadan ikincil “Rehberler” kümesine taşınmalı. Haftalık yorum mevcut kullanıcılar için devam etmeli; günlük yorum yeni bir yayın akışı olarak kurulmalı.
+
+Ana sayfada 14 Mart 2026 tarihli bir deneme blog girdisi görünüyor. Yayın öncesi içerik temizliği kritik. Taş açıklamalarındaki şifa/enerji dili ve danışmanlık metinleri marka editörü tarafından gözden geçirilmeli; yeni marka kesin sonuç veya sağlık etkisi vaadi yerine sembolik yorum ve öz farkındalık dili kullanmalı. Ana sayfadaki ay fazı etiketi için doğrulanmış veri kaynağı ve güncelleme zamanı görünmüyor; sabit metin canlı astronomik veri gibi sunulmamalı.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+04 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+MEVCUT SİTE ANALİZİ
+Kullanıcı yolları & öncelikler
+Kullanıcı işi	Mevcut karşılık	Yeni karşılık
+Bugün gökyüzünde ne var?	Haftalık atmosfer ve ay evresi etiketi	Tarih, Europe/Istanbul saat dilimi, güncelleme saati ve veri kaynağı içeren dört bilgi kartı
+Burcum bugün ne söylüyor?	Haftalık burç seçimi	Hero’dan günlük yorumlara tek bağlantı; 12 burç direkt bağlantıları; günlük/haftalık geçiş
+Doğum haritamı nasıl görürüm?	Astroloji rehberinde konu olarak anılıyor	Header ve hero’da tek birincil CTA; üç alanlı form; harita + metinsel sonuç
+İçeriğin güvenilirliği nedir?	Blog ve rehberler, danışmanlık sosyal medya bağlantısı	Yazar profili, düzenleme tarihi, yöntem açıklaması, veri/yorum ayrımı
+Danışmanlığa nasıl ulaşırım?	Instagram üzerinden başvuru	Kapsam, süre, ücret bilgisi için yapılandırılmış sayfa; mevcut iletişim bağlantısı korunur
+Öncelikler
+
+P0: deneme içeriğini temizle, logo ana dosyasını teyit et, günlük yorum ve hesaplama için veri/yayın sahipliği belirle, mobil üç temel yolu görünür yap. P1: renk/tipografi tokenlarını uygula, navigasyonu sadeleştir, formların hata/boş/bekleme durumlarını tasarla, eski URL’leri koru. P2: editoryal fotoğraf kütüphanesi, newsletter, koyu tema, kişisel transit deneyimi.
+
+Kanıtın sınırları
+
+Kaynak HTML’de wp-theme-skyra-editorial is-block-theme ve Gutenberg varlıkları görüldü. Bu, WordPress blok teması kullanımını destekler; admin kurulumu incelenmedi. Header ve favicon farklı logo dosyalarına işaret ediyor; favicon görseli incelenmedi. Kaynak CSS’de performans veya sürüm açıklaması bulunması üretim uyumluluğunu kanıtlamaz. Mevcut sitenin Core Web Vitals, renk kontrastının tamamı ve ziyaretçi conversion oranı ölçülmedi. Bu belgede hedefler gerçek ölçüm gibi sunulmaz.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+05 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+01–04 · MARKA TEMELİ
+Sakin, özenli, çağdaş.
+1. Marka kişiliği
+
+Sakin bir rehber; bilgili ama buyurgan değil. İncelikli, meraklı, sıcak ve çağdaş. Mistik atmosferi küçük detaylarla kurar; belirsizliği korkutucu tahminlerle doldurmaz. Premium algıyı boşluk, metin kalitesi, ölçülü renk ve kusursuz kullanım üzerinden oluşturur.
+
+2. Marka konumlandırması
+
+Skyra Astro, Türkiye’den doğan; astrolojiyi kişisel farkındalık, editoryal içerik ve kolay kullanılan araçlarla birleştiren dijital bir keşif markasıdır. Ana hedef grup: yoğun hayat içinde kendine alan açmak isteyen, estetik ve açıklık arayan yetişkin kullanıcılar. İkinci grup: harita ve transit bilgilerini düzenli takip eden deneyimli okuyucular. Yerel dil ve kültürel yakınlık korunurken UI kalitesi global ürün standardına taşınır. Bu konumlandırma stratejik öneridir; pazar araştırması bulgusu değildir.
+
+3. Marka değerleri
+
+Açıklık: veri, yorum ve öneriyi ayır. Özen: her etiket, tarih ve hata metni işlevli olsun. Kullanıcı iradesi: kehanet veya korku yerine seçenek ve düşünme alanı sun. Mahremiyet: doğum bilgilerini gereksiz saklama. Erişilebilirlik: estetik okunabilirliği azaltmasın. Tutarlılık: günlük içerik takvimi, kaynak ve yazar görünür olsun.
+
+4. Brand keywords
+
+Celestial, considered, intimate, editorial, grounded, fluid, luminous, contemporary. Türkçe karşılıklar: göksel, özenli, yakın, editoryal, dengeli, akışkan, aydınlık, çağdaş. Kaçınılacak çağrışımlar: fal panosu, neon galaksi, çocuk oyunu, korku, şatafatlı lüks.
+
+Marka vaadi: Günlük gökyüzü ritmini ve kişisel astrolojik sembolleri sade, özenli bir dijital deneyimde keşfetmek.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+06 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+05 · TONE OF VOICE
+Sesi yakın. Sözü açık.
+
+“Sen” dili; kısa, doğal, sakin cümleler. Başlıklarda cümle düzeni, gereksiz büyük harf yok. Teknik terimin ilk kullanımında kısa açıklama. Astrolojik yorum olasılık ve sembolik okuma olarak sunulur; kesin bilimsel sonuç gibi yazılmaz. Verinin kaynağı yoruma ek güven üretmek için değil, hesaplamanın izlenebilirliği için gösterilir.
+
+Bağlam	Önerilen metin	Kaçınılacak ifade
+Hero	Gökyüzünü anla. Kendine alan aç.	Kaderinin sırrını hemen öğren!
+CTA	Doğum haritamı keşfet	Şimdi mucizeyi yaşa
+Günlük yorum	Bugün ilişkilerine daha dikkatli bakmak isteyebilirsin.	Bugün aşkı kesin bulacaksın.
+Form hatası	Doğum tarihini gün, ay ve yıl olarak gir.	Geçersiz veri!
+Saat bilinmiyor	Saatini bilmiyorsan devam edebilirsin. Yükselen ve evler gösterilmez.	Tahmini saatle kesin yükselenin
+Newsletter	Gökyüzünden haftalık bir not.	Hiçbir kozmik fırsatı kaçırma!
+Bağımsız marka rehberi · Tasarım & uygulama devri
+07 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+06 · ANA RENK PALETİ
+Açık renk dünyası
+
+Primary
+#665080
+
+Secondary
+#E6DDED
+
+Accent
+#A45C74
+
+Background
+#F8F5EF
+
+Surface
+#FFFDF9
+
+Surface raised
+#EEE7F3
+
+Text primary
+#292333
+
+Text secondary
+#695E71
+
+Border
+#DAD1DF
+
+Control border
+#887790
+
+Hover
+#523E6B
+
+On primary
+#FFFDF9
+
+Night
+#211B30
+
+Focus
+#665080
+
+Error
+#A43448
+
+Success
+#34644F
+
+Warning
+#806016
+
+Uygulama dengesi
+
+Yüzeylerin yaklaşık %75’i krem/nötr, %20’si lavanta/gece moru, %5’i pembe vurgu. Bu oran bir sanat yönetimi rehberidir; piksel bazlı zorunluluk değildir. Logo sarısı amblem içinde kalır.
+
+Primary ana aksiyon; secondary yardımcı yüzey; accent küçük editoryal vurgu. Border dekoratif ayırıcıdır; form kontrolleri control border kullanır. On primary yalnız primary buton yazısıdır.
+
+Pudra #F1E1E7 ve açık bej #EEE6DA dekoratif yardımcı tonlardır. Küçük yazıda kullanılmaz. Hover, focus ve semantik durumlar ayrı tokenlarla tanımlanır.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+08 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+07 · DARK MODE
+Gece, daha sakin.
+
+Primary
+#CDB8E7
+
+Secondary
+#332A43
+
+Accent
+#DFA6BC
+
+Background
+#17131F
+
+Surface
+#241E2E
+
+Surface raised
+#2D2539
+
+Text primary
+#F5F0F8
+
+Text secondary
+#C0B4CB
+
+Border
+#4B4058
+
+Control border
+#9D8CA9
+
+Hover
+#DDCAF2
+
+On primary
+#241E2E
+
+Night
+#100D17
+
+Focus
+#CDB8E7
+
+Error
+#FFB1BE
+
+Success
+#9BD2B8
+
+Warning
+#E4CC8B
+
+Koyu tema kuralları
+
+Primary #CDB8E7 üstünde yazı #241E2E. Açık modun beyaz primary yazısı koyu moda doğrudan taşınmaz. Katman farkını surface ve surface raised kurar; gölgeye tek başına güvenilmez.
+
+Kedi amblemi açık krem bir logo yüzeyinde korunur. Otomatik invert veya hue filtresi uygulanmaz. Gece arka planında lavanta bir odak, küçük pembe vurgu; neon ve yoğun galaksi yok.
+
+Tema seçimi kullanıcı tercihine göre çalışabilir. WordPress editör style variation’ı ile ziyaretçi bazlı runtime tema kontrolü farklı mekanizmalardır.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+09 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+08 · TYPOGRAPHY
+Quicksand × DM Sans
+
+Quicksand + DM Sans. Quicksand’ın yuvarlak karakteri kimliğe yakınlık katar; DM Sans’ın daha nötr yapısı okuma ve yoğun arayüzü dengeler. Mevcut sitedeki DM Sans kullanımı korunur. İki aile ile font yükü sınırlanır. Mevcut raster logonun içindeki şekil/yazı yeniden dizilmez; Quicksand yalnızca çevresindeki yeni canlı marka metni için önerilir.
+
+Rol	Aile / ağırlık	Desktop / mobile	Line-height / tracking
+Marka metni	Quicksand 600	25 / 22px	1.2 / -0.03em
+H1	Quicksand 500	64 / 38px	1.08 / -0.045em
+H2	Quicksand 600	40 / 28px	1.2 / -0.035em
+H3	Quicksand 600	24 / 22px	1.3 / -0.02em
+Body	DM Sans 400	17 / 16px	1.65 / 0
+Menü	DM Sans 500	14 / 18px	1.5 / 0
+Buton	DM Sans 600	15 / 15px	1.3 / 0
+Kart başlığı	DM Sans 600	20 / 18px	1.35 / -0.015em
+Astro veri	DM Sans 500	16 / 16px	1.5 / tabular-nums
+Veri etiketi	DM Sans 500	13 / 13px	1.5 / 0.02em
+Blog gövdesi	DM Sans 400	19 / 17px	1.8 / 0; 65ch maksimum
+Eyebrow	DM Sans 600	12 / 12px	1.5 / 0.12em
+
+H1 fluid clamp(2.375rem, 5vw, 4rem); başlıklar gerçek heading elemanları. ğ, Ğ, ı, İ, ş, Ş, ç, Ç, ö, Ö, ü, Ü test dizisiyle Türkçe glyph kontrolü. WOFF2 dosyaları yayında yerelde barındırılmalı, lisansları saklanmalı ve font-display:swap kullanılmalı. Önizleme Google Fonts’a bağlanır; çevrimdışı sistem sans fallback kullanır. 500/600 Quicksand ve 400/500/600 DM Sans dışında ağırlık yüklenmez.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+10 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+09 · LOGO KULLANIMI
+Logo karakterini koru.
+
+Canlı header’dan alınan orijinal PNG aynen korunur. Korunacak özellikler: kedi silueti, yıldız, yüz ifadesi, sıcak dolgu ve koyu kontur. Etrafında en az görünür amblem yüksekliğinin %25’i kadar temiz alan. Öneri: header’da amblem yaklaşık 42–48px yüksek; mobilde 36–40px. Kaynak 150 × 79 olduğu için büyütülmez; baskı ve retina kullanımında yetkili SVG/yüksek çözünürlüklü ana dosya gerekir.
+
+Mevcut PNG’de saydam boşluk var; CSS kutusu dışında gerçek görünür sınırlar ayrıca ölçülmeli. İyileştirme adayları: saydam kenar boşluğunun temizlenmesi, optik merkezleme, ana dosyada kontur tutarlılığı ve vektör export. Bu teslimatta dosya değiştirilmedi; kesme, kontur veya renk değişikliği uygulanmadı. Logo kimliğini koruyan küçük müdahaleler ana dosya üzerinden karşılaştırmalı kontrolle yapılır.
+
+Açık krem zemin tercih edilir; koyu modda açık bir logo yüzeyi kullanılır. Otomatik invert/renk filtresi, esnetme, glow, gölge, yeniden çizim ve orbital şekli yeni logo gibi sunma yok. Favicon için mevcut varyantın ana amblemle eşleşmesi kontrol edilmeli. Yeni Quicksand marka metni logodan ayrı canlı metindir.
+
+Kimlik ayrımı: orbital çizimler dekorasyondur; yeni bir logo olarak kullanılmaz. Quicksand canlı marka metni, raster amblemin yeniden çizimi değildir.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+11 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+10 · ICONOGRAPHY
+İnce çizgi, net işlev.
+
+UI: 24 × 24 grid, 1.5px stroke, yuvarlak uç ve birleşimler, currentColor. 16/20/24px boyutlar; etkileşim alanı en az 44px. Zodiac: 12 sembol tek SVG ailesinde ve aynı optik ağırlıkta; isim her zaman metin olarak yanında. Prototip Unicode zodiac glyphleriyle yer tutar, yayında fonta bağlı glyphler normalize edilmiş SVG ile değiştirilir. Dekoratif ikon aria-hidden; yalnız ikon butonları erişilebilir isim taşır. Emoji UI kimliği olarak kullanılmaz.
+
+Zodiac çizim standardı
+
+12 sembol aynı viewBox ve optik ağırlıkla hazırlanır. Küçük boyutta çizgi kopması olmamalı. Burç adları mutlaka metin olarak görünür. Unicode glyphler final ikon dosyası sayılmaz.
+
+Kullanım bağlamları
+
+Arama, menü ve kapatma gibi yalnız ikon içeren kontroller erişilebilir isim taşımalı. Transit verisinde gezegen sembolü yanında gezegen adı bulunmalı. İkonlar CTA metninin anlamını destekler; anlatımın yerine geçmez.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+12 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+11 · ILLUSTRATION & IMAGERY
+Atmosfer, ölçülü detaylarda.
+
+Orbital çizim: 1px çizgiler, bir merkez, en çok üç yörünge, az sayıda düğüm. Bu dekorasyon bilimsel harita sanılmamalı. Gerçek doğum haritası ayrı veri görselleştirmesidir. İnce constellation çizgisi yalnız arka plan veya kenarda. Grain %2–3 opaklık, statik ve küçük; mobilde opsiyonel.
+
+Fotoğraf yönü: taş yüzey, gölgeli eller, doğal kumaş, mimari kemer, gün doğumu; nötr ışık, düşük doygunluk, doğal doku. Model yüzleri klişe spiritüel pozlarla kullanılmaz. Blog görseli 4:3; featured 16:10; metin fotoğraf üstüne bindirilmez. AVIF/WebP + ölçülü srcset. Görsellerin lisans/kaynak kayıtları tutulur. Önizlemedeki soyut CSS kompozisyonlar fotoğraf yer tutucusudur.
+
+Lunar light
+Natural texture
+Orbital line art
+Yukarıdaki kompozisyonlar görsel yön örneğidir. Nihai fotoğraf seçimi, kullanım lisansı ve crop kontrolü uygulama aşamasında yapılır.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+13 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+12 · UI DESIGN PRENSİPLERİ
+Estetik, kullanım kolaylığıyla.
+
+Tek bölümde tek baskın aksiyon. Günlük bilgi → yorum → kişisel araç akışı. Kart başlığı ve aksiyon açık; hover olmadan bilgi erişilebilir. Astro veri her zaman tarih ve saat dilimiyle; güncel veri yoksa “Veri güncelleniyor” ve son güvenilir zaman. Sayfa başına tek H1; içerik genişliği ve başlık hiyerarşisi tutarlı. Ana metin en az 4.5:1, büyük metin ve gerekli UI sınırı en az 3:1; görünür odak ve klavye erişimi. 44px hedef marka standardıdır; WCAG 2.2 minimum hedef kuralıyla karıştırılmaz. Ayrıntılar WCAG referansında.
+
+Üç temel kullanıcı işi
+“Bugün gökyüzünde ne var?” — tarihli, kaynaklı veri kartlarına hızlı erişim.
+“Burcum için bugün ne söyleniyor?” — tek burç seçimiyle günlük yorum.
+“Doğum haritamı nasıl görebilirim?” — açık CTA ve kısa form.
+İçerik ve durum
+
+Veri, editoryal yorum ve hesaplama yöntemi ayrı etiketlenir. Empty, error ve loading durumları boş bırakılmaz. Kullanıcı girdisi hatada korunur. Sonucu tamamlamak için gereksiz hesap oluşturma adımı eklenmez.
+
+Ölçülebilir hedefler
+
+Klavye erişimi; 320 CSS px reflow; 200% yazı zoom; reduced-motion desteği. Bunlar üretim kabul hedefleridir. Mevcut canlı sitenin tam WCAG uyumluluğu doğrulanmadı.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+14 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+13–14 · RADIUS & SHADOW
+Katmanlar & köşeler
+13. Border radius
+
+xs 6px: badge. sm 10px: input. md 14px: buton ve küçük kart. lg 24px: içerik kartı. xl 32px: büyük CTA. pill 999px: filtre chip. Bütün site baloncuk haline gelmez; editorial görsellerde 14px yeterlidir.
+
+6px
+xs
+10px
+sm
+14px
+md
+24px
+lg
+32px
+xl
+999px
+pill
+14. Shadow sistemi
+
+sm 0 2px 8px rgba(41,35,51,.04); md 0 12px 32px rgba(41,35,51,.07); lg 0 24px 60px rgba(41,35,51,.10). Hover: md; her kart default gölgeli değil. Dark modda 0 12px 32px rgba(0,0,0,.24) ve görünür sınır birlikte. Inset/glow yalnız hero dekorunda.
+
+sm
+md
+lg
+Bağımsız marka rehberi · Tasarım & uygulama devri
+15 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+15 · SPACING & RESPONSIVE
+Boşluk, sistemin ritmi.
+
+4px taban: 4, 8, 12, 16, 24, 32, 48, 64, 96, 128. İkon/metin 8; label/input 8; form alanları 16/24; kart içi 24 desktop / 20 mobile; bölüm arası 96 desktop / 64 tablet / 48 mobile. Container 1200px; uzun okuma 720px / 65ch. Grid desktop 12 kolon, 24px gutter; tablet 8/20; mobile 4/16. Kenar boşluğu desktop 40, tablet 28, mobile 20px.
+
+4px
+8px
+12px
+16px
+24px
+32px
+48px
+64px
+96px
+128px
+Ortam	Breakpoint	Grid	Yatay kenar
+Mobile	320–767px	4 kolon / 16px gutter	20px; 320px’de 16px
+Tablet	768–1023px	8 kolon / 20px gutter	28px
+Desktop	1024px ve üstü	12 kolon / 24px gutter	40px
+
+Mobilde burçlar ve gökyüzü kartları iki kolon; araçlar, formlar ve uzun içerik tek kolon. Menü 1024px altında açılır paneldir. 1200px container büyüyen ekranda sabit üst sınırdır.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+16 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+16 · GRADIENT SİSTEMİ
+Işık, bir odak yaratır.
+dawn
+lunar
+night
+dark-aura
+
+Dawn linear-gradient(135deg,#F8F5EF 0%,#E6DDED 60%,#F1E1E7 100%); Lunar linear-gradient(145deg,#EEE7F3,#D9CAE6); Night linear-gradient(135deg,#211B30,#3B2B50); Dark aura radial-gradient(ellipse at 75% 25%,#493354 0%,#17131F 70%). 1–2 ana gradient alanı / sayfa; primary buton düz renk. Hareketli gradient ve sürekli shader yok.
+
+Gradient arkasında metin varsa tüm geçiş boyunca kontrast doğrulanır. Dekoratif gradient tek başına okunur metin yüzeyi kabul edilmez.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+17 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+17 · BUTTON SİSTEMİ
+Aksiyonun ağırlığı belli.
+Haritamı keşfet ↗
+Günlük yorumum
+Daha fazla ↗
+◐
+Tip	Default	Hover	Kullanım
+Primary	Primary + on-primary	Hover + on-primary	Harita oluşturma, form gönderme
+Secondary	Surface + primary, control border	Secondary yüzey	Günlük yorumlar, diğer seçenek
+Ghost	Saydam + primary	Secondary yüzey	Daha fazla, sayfa içi aksiyon
+Icon	Surface + text primary, border	Secondary	Tema, menü, filtre
+
+Default yükseklik 48px, yatay 22px; small 44px/16px; large 56px/28px. Focus tümünde 3px outline + offset. Active 1px aşağı kayma; disabled text-secondary / surface-raised ve native disabled, hover yok. Loading mevcut genişliği korur, aria-busy, açıklamalı durum mesajı ve çift gönderimi önler. Reduced motion hareketi kapatır. Navigation linktir; mutasyon ve toggle button’dır.
+
+Durum matrisi
+Durum	Görsel davranış	Etkileşim
+Default	Rolüne uygun renk	Link veya native button
+Hover	Yüzey/renk geçişi 160–220ms	Yalnız hover destekleyen cihazda
+Focus	3px focus outline + 3px offset	Her zaman görünür; renk tek sinyal değil
+Active	En çok 1px aşağı kayma	Reduced motion’da hareket yok
+Disabled	Muted + raised; hover yok	Native disabled; açıklama gerekirse yanında
+Loading	Boyut korunur, durum metni	aria-busy; çift gönderim önlenir
+Bağımsız marka rehberi · Tasarım & uygulama devri
+18 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+18 · CARD SİSTEMİ
+Kartlar, bilgiye düzen verir.
+Kart	Hiyerarşi	Aksiyon / durum
+Burç	Sembol → isim → tarih aralığı	Tek burç bağlantısı; hover sınır ve yüzey değişir
+Günlük yorum	Burç + gün → ana tema → 2 satır özet	Yorumu oku; seçili burç metinle belirtilir
+Doğum haritası	Kullanıcı girdi özeti → harita → üç temel yerleşim	Sonuç detay; saat bilinmiyorsa eksik veri notu
+Blog	4:3 görsel → kategori → başlık → yazar/süre	Tek başlık bağlantısı; önemli metadata gizlenmez
+Olay	Gün/ay → olay adı → saat dilimi → kısa açıklama	Takvim detay; geçmiş/gelecek ayrımı metinle
+Transit	Gezegen çifti → açı → orb → tarih aralığı	Veri kaynağı + yorum; natal bağlantı yoksa genel transit etiketi
+
+Tüm kartlar surface, dekoratif border, 24px radius; seçimde control border. Kart içinde nested link kullanılmaz. Loading aynı boyda statik placeholder + durum metni; empty açıklama + ilgili aksiyon; error tekrar dene + son güncelleme. Örnek transitler canlı veri gibi sunulmaz.
+
+GÜNLÜK YORUM · ÖRNEK
+Terazi
+
+Dengeye alan aç.
+
+Yorumu oku ↗
+GENEL TRANSİT · ÖRNEK
+Venüs △ Jüpiter
+
+Tarih · orb · kaynak
+
+Detaya bak ↗
+Bağımsız marka rehberi · Tasarım & uygulama devri
+19 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · FORM ELEMENTS
+Formlar açık ve sakin.
+
+Input/select: 48px minimum yükseklik, 16px metin (mobil zoomu azaltır), 10px radius, control-border, 12px yatay boşluk. Label her zaman görünür; placeholder etiket yerine geçmez. Gerekli alan işareti metinle açıklanır. Focus 3px; error metin+ikon+aria-invalid ve aria-describedby; disabled native. Otomatik doldurma için uygun autocomplete.
+
+Date picker: yerel kontrol ilk tercih; format yardımcı metni ve mantıklı min/max. Takvim custom olacaksa tam klavye desteği gerekir. Time picker: 24 saat, saat:dakika; “Saatimi bilmiyorum” tarih hassasiyetini açıklayan seçenek. Location input: yazılı sorgu → şehir/ülke listesi; sunucuda koordinat ve doğum tarihinde tarihsel saat dilimi çözümü; yalnız şehir adıyla kesin harita üretilmez. Combobox’ta oklar, Enter, Escape, listbox ve “sonuç bulunamadı” desteklenir. Önizlemede serbest yer alanı vardır, gerçek geocoding yoktur.
+
+Submit: alan hatalarını alan altında göster, ilk hataya odaklan, girdi korunur. Loading etiketi “Hesaplanıyor”; çift tıklama önlenir; sonuç başarısızsa yeniden dene. Özel veriler analytics, query string veya sayfa cache’ine taşınmaz. Sonuç URL’si kişisel doğum bilgisi içermez. Hesaplama backend’i theme’den ayrı plugin/service olur.
+
+Doğum tarihi · gerekli
+Gün / ay / yıl
+Doğum saati
+Saat : dakika
+□ Saatimi bilmiyorum — yükselen ve evler gösterilmez.
+Doğum yeri · gerekli
+Şehir, ülke
+Doğum haritamı keşfet ↗
+Bağımsız marka rehberi · Tasarım & uygulama devri
+20 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · NAVIGATION & MICRO-INTERACTION
+Üç işe hızlı erişim.
+
+Desktop: orijinal logo + Skyra Astro → Bugün → Burçlar → Araçlar → Dergi → Rehberler → primary “Doğum haritam”. Tema kontrolü ayrı icon button. Header 80px, sticky, opak surface; agresif blur yok. Menü alanı yetmediğinde 1024px altında açılır mobil navigasyon.
+
+Mobile: logo, tema, menü; 72px header. Menü sayfa içinde açılan dikey panel, aria-expanded, Escape ile kapanır ve odak tetikleyiciye döner; modal olmadığı için focus trap yok. Harita CTA’sı menüde ve hero’da. Otomatik açılan popup veya yatay sürükleme zorunluluğu yok. İçeriğe atla linki ve sticky yüksekliğini telafi eden scroll-margin.
+
+Footer: Keşfet / Rehberler / Skyra grupları; hakkımızda, yöntem, iletişim, gizlilik, KVKK, çerezler ve erişilebilirlik. Danışmanlık ayrı bağlantı olarak korunur. Gelecekte dil seçimi yalnız gerçek çeviriler yayımlandığında eklenir.
+
+Hareket ve cihaz davranışı
+
+Mobile 320–767px: tek ana kolon, burçlar iki kolon, gökyüzü iki kolon, 20px kenar (320px’de 16px), tüm form aksiyonları tam genişlik. Tablet 768–1023: iki/üç kolon, 28px kenar. Desktop ≥1024: 1200px container, 40px kenar, 12 kolon. Menünün 1024px’de sığması ayrıca test edilir. 200% metin zoom ve 320 CSS px reflow kontrol edilir; geniş harita tablosu dışında yatay kaydırma gerekmez. Harita tablosunun metinsel görünümü şarttır.
+
+Micro-interaction 160–220ms ease-out: border/background/opacity; kart hareketi en çok 2px. prefers-reduced-motion animasyon ve smooth scroll’u kapatır. Hover yalnız uygun cihazda; kritik içerik hover tooltip’e saklanmaz. Parallax, autoplay video, canvas yıldız yağmuru yok.
+
+Menü hiyerarşisi: Bugün · Burçlar · Araçlar · Dergi · Rehberler. Doğum haritası tek baskın CTA; tarot danışmanlığı alt gezinmede korunur.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+21 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+19 · GENEL ART DIRECTION
+Quiet observatory
+
+“Quiet observatory”: ışıklı krem bir yayın alanı; az sayıda gece moru odak; kontrollü lavanta geçişleri; geniş boşluk; işlevsel veri kutuları. Logo sıcaklığı insanî temas; içerik ve arayüz yetişkin bir ritim taşır. Ay/yıldız yalnız anlamı güçlendirdiğinde. Sahte altın, neon ve yoğun galaksi kullanılmaz. Global kalite iddiası pazarlama sıfatıyla değil detay kalitesiyle görünür olur.
+
+ASTROLOGY × EDITORIAL × WELLNESS × DIGITAL PRODUCT
+Bilgiye yaklaş.
+Kendine yer aç.
+Özenli boşluk
+İnce çizgi
+Sıcak nötrler
+Sade veri
+Sanat yönetimi kararları
+Editorial ritim: kısa başlıklar, uzun okumada dar kolon, düzenli metadata.
+Wellness hissi: sakin yüzeyler, baskısız aksiyonlar, kullanıcı iradesini koruyan ses.
+SaaS disiplini: açık alan etiketleri, tutarlı kontrol durumları, hızlı geri bildirim.
+Celestial atmosfer: ince orbital geometri, sınırlı ışık, seyrek sembol.
+Görsel sınırlar
+
+Yoğun yıldız alanı, neon mor, galaksi fotoğraf yığını, ucuz zodiac görselleri, altın efektleri ve sürekli animasyonlar kullanılmaz. Mevcut logo sarısı paletin bütününe yayılmaz.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+22 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+20 · ANA SAYFA ART DIRECTION
+Ana sayfanın görsel ritmi
+
+Asimetrik hero: solda güçlü Quicksand mesaj ve iki CTA; sağda lavanta orbital kompozisyon ve sade editoryal not. Hemen ardından dört gökyüzü kartı; 12 burçta açık yüzeyler. Doğum haritası bölümünde tek gece moru odak, açık form. Araçlar küçük indeksli kartlar; blog magazine kompozisyonu; deneyim bölümünde üç kısa kanıt; newsletter sakin lavanta panel; footer minimal çizgiler. Mobilde içerik önce, dekor sonra; günlük bilgi ve yorum bağlantısı ilk ekranın yakınında.
+
+Bölüm	Tasarım / içerik	Aksiyon ve responsive davranış
+1 Hero	Sol 7 kolon: slogan, 2 cümle; sağ 5 kolon: orbital kompozisyon	Haritamı keşfet primary; günlük yorum secondary. Mobil dekor küçülür ve metinden sonra gelir.
+2 Bugün gökyüzünde	Tarih + Europe/Istanbul; Ay burcu, fazı, transit, tema	Dört kart desktop; 2×2 tablet/mobile. Veri ve yorum etiketleri ayrı.
+3 Günlük burçlar	12 kart, sembol + isim + tarih aralığı	6/4/2 kolon; her burç tek bağlantıyla günlük detaya. Haftalık arşiv linki.
+4 Haritanı keşfet	Gece moru sol metin + açık form sağ	Tarih, saat, yer; saat bilinmiyor seçeneği. 1 kolon mobile.
+5 Araçlar	7 araç; kısa açıklama + indeks	3/2/1 kolon; en çok iki satır başlık.
+6 Dergi	Bir büyük editorial kart + iki küçük	2:1:1 oran / mobil alt alta. Kategori + süre + yazar.
+7 Skyra deneyimi	Açık dil, kişisel keşif, özenli deneyim	Ölçülmemiş başarı veya sahte yorum/sayı kullanılmaz. Yöntem linki.
+8 Newsletter	Sakin lavanta panel, email, açık kayıt açıklaması	Tek alan + buton; mobil stacked. Double opt-in yayında.
+9 Footer	Az metin, düzenli gruplar, haklar	4/2/1 kolon; linklerde yeterli touch hedefi.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+23 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · UYGULAMA DEVRİ
+WordPress’e uygulanabilir sistem
+Bileşen	Gutenberg	Elementor	Bricks
+Header/footer	Template part + Navigation	Theme Builder header/footer	Header/footer template
+Hero / CTA / newsletter	Group/Columns/Button pattern	Container + global widgets	Section/container + component
+Burç / gökyüzü / araç	CSS grid + pattern; veri için dynamic block	Loop/grid + dynamic fields	Query loop + dynamic data
+Blog arşivi/detay	Query Loop + single.html	Loop + single template	Query loop + single template
+Rehber/tarot/taş	CPT archive/single template	CPT templates	CPT templates
+Harita/transit	Özel plugin’in dynamic block’u	Plugin shortcode/widget wrapper	Plugin shortcode/component wrapper
+Forms	Güvenli form/plugin block’u	Form widget veya backend plugin	Form element veya backend plugin
+Ortak token sistemi
+
+tokens.json kaynak; tokens.css light/dark runtime karşılığıdır. wordpress/theme.json global palette/typography/spacing/gradient önerisidir; mevcut temanın dosyasıyla birleştirilir, körlemesine üzerine yazılmaz. wordpress/night.json style variation örneğidir; temanın styles/night.json konumuna taşınabilir. Tema varyasyonu editör seçimiyle site genelinde değişir; kullanıcı bazlı runtime dark-mode toggle ayrıca CSS/JS ister. JSON font ailelerini tanımlar, font dosyalarını kaydetmez; WordPress font library veya yerel @font-face ile gerçek WOFF2 yükleme yapılmalıdır. WordPress’in global styles rehberi.
+
+Global stilleri kullan: primary vb. renkleri widget bazında tekrar yazma. Gutenberg patterns header, hero, sky-today, zodiac-grid, chart-cta, tools-grid, editorial-grid, experience, newsletter ve footer olarak bölünür. Layout sabitken metin editörü güvenli içerik alanlarını düzenler. Site editor’da critical layout block locking uygulanabilir.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+24 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · UYGULAMA DEVRİ
+Performans & veri disiplini
+
+Mevcut CMS envanterini dışa aktar; tema kaynağı Skyra Content eklentisini anıyor fakat plugin verisi incelenmedi. Yeni model mevcut CPT’lerle eşlenmeli, aynı içerik iki kez oluşturulmamalı.
+
+Horoscope: burç taxonomisi, period (daily/weekly), period start/end, timezone, publish/update, author, theme, content.
+Sky event: event type, UTC start/exact/end, planet(s), angle/orb, ephemeris version, source, local display timezone.
+Rehber/blog: topic taxonomy, gerçek author, reviewed date, kaynaklar, ilgili içerik, image alt/lisans.
+Tarot/stone: existing slug, isim, sınıflandırma, açıklama, görsel, kaynak.
+Chart result: doğum bilgisi ve koordinat/geçmiş timezone çözümü; anonim kullanıcı için kalıcı saklama varsayılan değil. Görsel harita yanında semantik tablo.
+
+Günlük gökyüzü hesaplaması efemeris ve doğrulanmış saat dilimi çözümü gerektirir. Natal hesaplama sunucu plugin/service içinde; UTC dönüşümü doğum tarihindeki yaz saati/geçmiş dilimle yapılır. Yayın kontrolü: veri → editör yorumu → onay → zamanlı publish; başarısız güncellemede eski verinin tarihi açık gösterilir. Temanın işi sunumdur.
+
+Performans hedefleri
+
+Hedef (ölçüm değildir): gerçek kullanıcı p75 LCP ≤2.5s, INP ≤200ms, CLS ≤0.1. Kaynak: Web Vitals. Başlangıç bütçesi: compressed critical CSS ≤35KB, ana sayfa JS ≤30KB, ilk ekran medya ≤200KB, fontlar toplam ≤150KB; uygulamada ölçülüp revize edilir. Hero video yok, ana görsel lazy-load edilmez; aşağıdaki görseller lazy. Tüm medyada width/height veya aspect-ratio. Font swap ve uygun preload; gereksiz font ağırlığı/ikon fontu yok. Astro backend yalnız araç sayfasında yüklenir; builder add-on yığınından kaçınılır.
+
+Full-page cache halka açık yorumlar için; kişisel harita ve form yanıtı cache dışında. Günlük/transit cache expiry veri güncellemeyle eşlenir. Newsletter double opt-in, backend validation, erişilebilir hata, rate limit ve spam önlemi. Preview formu veri göndermez ve gerçek kayıt yaptığı izlenimi vermez.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+25 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · TASARIMDAN UYGULAMAYA
+Claude için devam talimatı
+PDF’yi önce incele. Kullanıcının istediği çıktı, bu bağımsız Brand Kit üzerinden WordPress uyumlu web UI/UX tasarımıdır. Brand Kit sayfası, token katalogu, debug notları veya tasarım devir metinleri son kullanıcı arayüzüne eklenmemelidir.
+Uygulama sırası
+Mevcut WordPress kaynaklarını ve sayfa envanterini incele. Tema/builder, CPT’ler, plugin’ler, gerçek logo master’ı ve mevcut URL’leri doğrula.
+PDF’deki renkleri, font rollerini, spacing, radius ve durum tokenlarını merkezi olarak tanımla. Tek tek widget değerleriyle parçalı bir sistem kurma.
+Önce mobile-first ana sayfa, desktop/tablet adaptasyonu ve ortak header/footer’ı tasarla. Dokuz bölüm sırasını ve üç temel kullanıcı işini koru.
+Burç arşivi/detayı, harita formu/sonucu, araçlar, transit/takvim, blog arşivi/yazı, astroloji/taş/tarot rehberleri, hakkında, danışmanlık, iletişim, arama ve 404 sayfalarını aynı bileşen ailesiyle tamamla.
+Gerçek gökyüzü verisi ve hesaplama entegrasyonu varsa mevcut servisi doğrula. Yoksa bağlantı ihtiyacını açıkça belirt; sonuç uydurma. Demo uyarıları yalnız geliştirme/staging ortamında tutulur.
+Önce içerik ve erişilebilirlik, ardından performans ve SEO geçiş kontrollerini tamamla.
+Sabit tutulacaklar
+Logo yapısı ve marka karakteri; kedi amblemi yeniden tasarlanmaz.
+Quicksand ana başlık/marka metni; DM Sans gövde ve ürün arayüzü.
+Açık/koyu semantik renk rolleri ve erişilebilir form sınırları.
+Günlük gökyüzü, burç yorumu ve kişisel haritaya hızlı erişim.
+Mevcut haftalık/blog/rehber URL’leri veya kontrollü 301 eşlemesi.
+Çözülmesi gereken girdiler
+
+Yetkili logo SVG/master dosyası; CMS envanteri; efemeris ve tarihsel timezone çözümü; gerçek yayın takvimi ve yazarlar; görsel lisansları; newsletter servisi; onaylı hukuki metinler. Bu bilgiler bu PDF ile doğrulanmış sayılmaz.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+26 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · KOPYALANABİLİR DEĞERLER
+Uygulama tokenları
+/* Typography */
+--font-heading: "Quicksand", "Segoe UI", sans-serif;
+--font-body: "DM Sans", "Segoe UI", sans-serif;
+--h1: clamp(2.375rem, 5vw, 4rem);
+--h2: clamp(1.75rem, 3vw, 2.5rem);
+
+/* Radius */
+--radius-xs: 6px;   --radius-sm: 10px;
+--radius-md: 14px;  --radius-lg: 24px;
+--radius-xl: 32px;  --radius-pill: 999px;
+
+/* Spacing (px): 4 8 12 16 24 32 48 64 96 128 */
+--container: 1200px;
+--reading: 720px; /* body: 65ch maximum */
+
+/* Motion */
+--duration-ui: 180ms;
+--easing-ui: ease-out;
+/* prefers-reduced-motion: no animation or smooth scroll */
+
+/* Form / action */
+--control-height: 48px;
+--target-minimum: 44px;
+--focus-width: 3px;
+--focus-offset: 3px;
+
+Renk tokenlarının tamamı açık ve koyu palet sayfalarında bulunur. Token isimleri platforma göre eşlenebilir; roller ve değerler tutarlı kalmalıdır. Shadow ve gradient CSS değerleri ilgili bölümlerde tam olarak yazılmıştır.
+Bağımsız marka rehberi · Tasarım & uygulama devri
+27 / 28
+SKYRA ASTRO
+BRAND KIT · v1.1
+EK · SON KONTROL
+Kabul ölçütleri & kaynaklar
+Tasarım kabul ölçütleri
+Mevcut logo değişmemiş; görsel sınırlar ve çevre boşluğu tutarlı.
+Tek H1, açık menü, günlük bilgi/yorum/haritaya hızlı erişim.
+Light/dark ana metin çiftleri ≥4.5:1; büyük metin ve gerekli kontrol sınırları ≥3:1.
+Mobile 320–767, tablet 768–1023 ve desktop ≥1024px; 200% metin zoom ve klavye akışları kontrol edilmiş.
+Form hata, bekleme, boş sonuç, unknown-time ve backend failure durumları tamamlanmış.
+Astrolojik verilerde tarih/saat dilimi/kaynak; metinlerde gerçek yazar ve düzenleme tarihi.
+WordPress global tokens, tekrar kullanılabilir components; kişisel sonuç cache/analytics izolasyonu.
+Doğrulanan / doğrulanmayan
+
+Bu palette önemli 24 renk çifti kontrast testinden geçti. Örnek uygulamada 35 rota, 5 genişlikte kontrol edildi; bu PDF’nin ikinci aşama tasarımına bağlayıcı bir ekran onayı olduğu anlamına gelmez. Canlı site Core Web Vitals ve gerçek hesaplama sonuçları ölçülmedi. Nihai uygulama ayrıca doğrulanmalıdır.
+
+Kaynaklar
+Mevcut site ve kaynak incelemesi: https://skyraastro.com/
+WordPress global styles: https://developer.wordpress.org/themes/global-settings-and-styles/
+WCAG 2.2 referansı: https://www.w3.org/WAI/WCAG22/quickref/
+Core Web Vitals: https://web.dev/articles/vitals
+Font aileleri: Quicksand ve DM Sans, Google Fonts.
+
+Bu belge önerilen marka ve tasarım sistemini tanımlar. Marka rehberi son kullanıcı sitesine yerleştirilmez; bağımsız tasarım referansı olarak saklanır.
+
+Bağımsız marka rehberi · Tasarım & uygulama devri
+28 / 28
