@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/editorial-grid",
+	"title": "Blog vitrini",
+	"category": "skyra",
+	"icon": "welcome-write-blog",
+	"description": "Bir öne çıkan yazı ve üç ikincil yazı.",
+	"textdomain": "skyra",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Blog"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Skyra'dan yazılar"
+		},
+		"intro": {
+			"type": "string",
+			"default": ""
+		},
+		"category": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

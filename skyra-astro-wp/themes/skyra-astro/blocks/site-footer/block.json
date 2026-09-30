@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra-theme/site-footer",
+	"title": "Skyra footer",
+	"category": "theme",
+	"icon": "align-wide",
+	"description": "Marka kapanışı: logo, marka cümlesi, footer menüleri, sosyal bağlantılar ve bülten.",
+	"textdomain": "skyra",
+	"supports": { "html": false, "multiple": false, "reusable": false },
+	"render": "file:./render.php"
+}
