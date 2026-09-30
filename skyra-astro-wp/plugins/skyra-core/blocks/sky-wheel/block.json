@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/sky-wheel",
+	"title": "Gökyüzü kompozisyonu",
+	"category": "skyra",
+	"icon": "marker",
+	"description": "Gezegenlerin şu anki gerçek konumlarıyla çizilen hero görseli ve veri notu.",
+	"textdomain": "skyra",
+	"attributes": {
+		"caption": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

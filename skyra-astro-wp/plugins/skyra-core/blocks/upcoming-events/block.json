@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/upcoming-events",
+	"title": "Yaklaşan gökyüzü olayları",
+	"category": "skyra",
+	"icon": "clock",
+	"description": "Hesaplanan yeni ay, dolunay, tutulma, retro ve burç geçişleri.",
+	"textdomain": "skyra",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Astroloji takvimi"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Yaklaşan gökyüzü olayları"
+		},
+		"intro": {
+			"type": "string",
+			"default": ""
+		},
+		"count": {
+			"type": "integer",
+			"default": 6
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

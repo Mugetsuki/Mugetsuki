@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/transits",
+	"title": "Transitler",
+	"category": "skyra",
+	"icon": "update",
+	"description": "Gezegenlerin güncel konumları, retrolar ve aralarındaki açılar.",
+	"textdomain": "skyra",
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

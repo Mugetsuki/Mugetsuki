@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/today-sky",
+	"title": "Bugün Gökyüzünde",
+	"category": "skyra",
+	"icon": "calendar-alt",
+	"description": "Ay burcu, Ay fazı, günün açısı, retro gezegenler ve günün teması.",
+	"textdomain": "skyra",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Günlük veri"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Bugün Gökyüzünde"
+		},
+		"intro": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}
