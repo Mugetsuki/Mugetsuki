@@ -6,7 +6,7 @@ Bu klasör iki parçadan oluşur:
 
 | Parça | Görev |
 | --- | --- |
-| `themes/skyra` | Blok teması (Gutenberg / Site Editor). Brand Kit tokenları `theme.json`'da; header, footer, şablonlar, gerçek koyu mod, mobil öncelikli CSS. |
+| `themes/skyra-astro` | Blok teması (Gutenberg / Site Editor). Brand Kit tokenları `theme.json`'da; header, footer, şablonlar, gerçek koyu mod, mobil öncelikli CSS. |
 | `plugins/skyra-core` | İçerik modeli (CPT'ler), astroloji hesaplama motoru, REST API, 24 dinamik blok, bülten ve iletişim formları, SEO/schema, tek tıkla kurulum. |
 
 Hesaplamalar gerçektir: gezegen konumları, Ay fazı, yükselen burç, evler, tutulmalar, retro istasyonları ve burç geçişleri sitenin kendi efemeris motoruyla sunucuda hesaplanır ve bağımsız bir referans kütüphaneyle test edilir. Hiçbir sonuç sabit metin ya da uydurma değildir.
@@ -29,7 +29,8 @@ Ağ kısıtlı bir ortamda `downloads.w.org` erişilemiyorsa WordPress zip'ini b
 
 ## Gerçek bir WordPress'e kurulum
 
-1. `themes/skyra` → `wp-content/themes/skyra`, `plugins/skyra-core` → `wp-content/plugins/skyra-core`.
+1. `themes/skyra-astro` → `wp-content/themes/skyra-astro`, `plugins/skyra-core` → `wp-content/plugins/skyra-core`.
+   Klasör adı bilerek `skyra-astro`: sitede daha önce `skyra` adlı bir tema kullanıldığı için Site Editörü'nde kaydedilmiş eski şablonlar o ada bağlı; aynı adı kullanmak eski header, ana sayfa ve footer'ı geri getirir.
 2. Eklentiyi, sonra temayı etkinleştir. PHP 8.1+, WordPress 6.6+ (7.1 ile test edildi).
 3. **Araçlar → Skyra kurulum → Kurulumu çalıştır.** Var olan içerik (aynı kısa ad) değiştirilmez; tekrar çalıştırılabilir. WP-CLI: `wp skyra setup`.
 4. **Ayarlar → Genel → Site dili: Türkçe.**
@@ -73,6 +74,6 @@ Son çalıştırma: efemeris 29/29, uçtan uca 49/49 geçti. Ayrıntılar ve Lig
 ## Kaynaklar ve lisanslar
 
 - Konum verisi: [GeoNames](https://www.geonames.org/) cities15000 (CC BY 4.0), `tools/build-places.py` ile üretildi; sitede atıf var.
-- Fontlar: Quicksand ve DM Sans (SIL OFL 1.1), yerelde barındırılır; lisanslar `themes/skyra/assets/fonts/`.
+- Fontlar: Quicksand ve DM Sans (SIL OFL 1.1), yerelde barındırılır; lisanslar `themes/skyra-astro/assets/fonts/`.
 - Logo: canlı siteden alınan kedi amblemi değiştirilmedi (`skyra-logo-original.png`, SHA-256 `c37ece38…43d0fe`). `skyra-mark.png` yalnızca saydam kenarları kırpılıp ortalanmış kopyasıdır; piksel, renk ve çizgiye dokunulmadı.
 - Yörünge elemanları ve düzeltme terimleri: Paul Schlyter, *How to compute planetary positions*; tutulma sınıflandırması: Jean Meeus, *Astronomical Algorithms*, bölüm 54.

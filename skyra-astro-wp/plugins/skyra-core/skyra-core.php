@@ -3,7 +3,7 @@
  * Plugin Name:       Skyra Core
  * Plugin URI:        https://skyraastro.com/
  * Description:       Skyra Astro içerik modeli (burçlar, yorumlar, gökyüzü olayları), astroloji hesaplama motoru, REST API ve dinamik bloklar.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.6
  * Requires PHP:      8.1
  * Author:            Skyra Astro
@@ -17,7 +17,7 @@ namespace Skyra\Core;
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SKYRA_CORE_VERSION', '1.0.0' );
+define( 'SKYRA_CORE_VERSION', '1.0.1' );
 define( 'SKYRA_CORE_FILE', __FILE__ );
 define( 'SKYRA_CORE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SKYRA_CORE_URL', plugin_dir_url( __FILE__ ) );
@@ -25,7 +25,7 @@ define( 'SKYRA_CORE_URL', plugin_dir_url( __FILE__ ) );
 foreach ( array( 'ephemeris', 'zodiac', 'houses', 'events', 'chart', 'readings', 'sky' ) as $skyra_file ) {
 	require_once SKYRA_CORE_DIR . "includes/astro/class-{$skyra_file}.php";
 }
-foreach ( array( 'data', 'places', 'icons', 'wheel', 'view', 'results', 'post-types', 'rest', 'blocks', 'forms', 'settings', 'seo', 'setup' ) as $skyra_file ) {
+foreach ( array( 'data', 'places', 'icons', 'wheel', 'view', 'results', 'post-types', 'rest', 'blocks', 'forms', 'settings', 'seo', 'setup', 'color-mode' ) as $skyra_file ) {
 	require_once SKYRA_CORE_DIR . "includes/class-{$skyra_file}.php";
 }
 unset( $skyra_file );
@@ -37,6 +37,7 @@ Forms::init();
 Settings::init();
 Seo::init();
 Setup::init();
+Color_Mode::init();
 
 register_activation_hook(
 	__FILE__,

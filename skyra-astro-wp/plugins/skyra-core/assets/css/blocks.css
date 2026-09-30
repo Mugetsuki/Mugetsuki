@@ -6,7 +6,8 @@
 	--color-primary: #665080; --color-secondary: #E6DDED; --color-accent: #A45C74; --color-accent-text: #934A63; --color-background: #F8F5EF;
 	--color-surface: #FFFDF9; --color-surface-raised: #EEE7F3; --color-text: #292333; --color-text-muted: #695E71;
 	--color-border: #DAD1DF; --color-control: #887790; --color-hover: #523E6B; --color-on-primary: #FFFDF9;
-	--color-blush: #F1E1E7; --color-sand: #EEE6DA; --color-error: #A43448; --color-success: #34644F;
+	--color-blush: #F1E1E7; --color-sand: #EEE6DA; --color-error: #A43448; --color-success: #34644F; --color-night: #211B30;
+	--gradient-dawn: linear-gradient(135deg, #F8F5EF 0%, #E6DDED 60%, #F1E1E7 100%); --gradient-lunar: linear-gradient(145deg, #EEE7F3, #D9CAE6); --gradient-night: linear-gradient(135deg, #211B30, #3B2B50);
 	--el-ates: #A45C74; --el-toprak: #A8957A; --el-hava: #B9A7D3; --el-su: #665080;
 	--font-display: "Quicksand", system-ui, sans-serif; --font-body: "DM Sans", system-ui, sans-serif;
 	--radius-xs: 6px; --radius-sm: 10px; --radius-md: 14px; --radius-lg: 24px; --radius-xl: 32px; --radius-pill: 999px;

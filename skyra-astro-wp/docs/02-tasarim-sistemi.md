@@ -71,6 +71,8 @@ Hero (dawn gradyan) → Bugün (krem, dashboard + editoryal) → Günlük burçl
 
 Koyu mod preset renklerini yeniden tanımlar; her blok ve takma ad otomatik uyar. Sistem tercihi varsayılan, header'daki düğme kalıcı olarak (`localStorage`) değiştirir; tema, ilk boyamadan önce satır içi betikle uygulanır (flaş yok). Yüzey katmanları (background/surface/raised) gölgeye değil ton farkına dayanır; harita, Ay ve element renkleri koyu zemin için ayrıca ayarlandı. Editörler site genelinde koyu görünüm isterse **Görünüm → Editör → Stiller → Gece** varyasyonu var.
 
+Skyra Astro teması aktif değilken (ör. Skyra Editorial) koyu modu Skyra Core üstlenir (`includes/class-color-mode.php`): header'daki ilk gezinme bloğunun yanına aynı anahtar eklenir (gezinme yoksa sağ altta sabit durur), bloklar ve Skyra Editorial renkleri `assets/css/color-mode.css` ile koyuya geçer. Skyra teması aktifken bu katman devre dışıdır; `skyra_color_mode` filtresiyle kapatılabilir.
+
 ## Responsive
 
 Mobile-first; 360, 390, 430, 768, 1024, 1440 px'de yatay taşma yok (otomatik test). Mobilde: tek kolon, büyük tam genişlik CTA'lar, burç kartları kaydırmalı (düğmeli), araçlar kompakt satır, burçlar 2 kolon, blog yatay kart, footer menüleri 2 kolon. Masaüstü mobilin büyütülmüşü değildir: hero 7/5 kolon ve taşan gökyüzü kompozisyonu, Bugün paneli 4 kolon + büyük Ay kartı, araçlar 12 kolon bento, takvimde yapışkan ay başlığı ve mini ay görünümü. Tam ekran yükseklikleri `svh`/`dvh` ile.

@@ -12,7 +12,7 @@ Tüm Skyra blokları **dinamiktir** (PHP ile sunucuda render edilir). Böylece g
 ## Klasörler
 
 ```
-themes/skyra/
+themes/skyra-astro/
   theme.json            Brand Kit tokenları (renk, font, boşluk, gölge, radius) + core blok stilleri
   styles/night.json     Site genelinde koyu stil varyasyonu (editör seçimi)
   templates/            front-page, page, single, home (blog), archive, search, 404,
