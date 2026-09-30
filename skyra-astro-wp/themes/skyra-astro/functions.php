@@ -10,7 +10,7 @@ namespace Skyra\Theme;
 
 defined( 'ABSPATH' ) || exit;
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 
 add_action(
 	'after_setup_theme',
@@ -167,8 +167,8 @@ add_filter( 'excerpt_more', static fn() => '…' );
  */
 function logo( bool $link = true ): string {
 	$img  = sprintf(
-		'<span class="sk-logo__mark"><img src="%s" width="92" height="92" alt="" decoding="async"></span>',
-		esc_url( get_theme_file_uri( 'assets/img/skyra-mark.png' ) )
+		'<span class="sk-logo__mark"><img src="%s" width="184" height="184" alt="" decoding="async"></span>',
+		esc_url( add_query_arg( 'ver', VERSION, get_theme_file_uri( 'assets/img/skyra-mark.png' ) ) )
 	);
 	$text = '<span class="sk-logo__text"><span class="sk-logo__name">skyra</span> <span class="sk-logo__sub">ASTRO</span></span>';
 	if ( ! $link ) {

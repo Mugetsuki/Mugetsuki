@@ -42,7 +42,7 @@ Fontlar yerelde (WOFF2, latin + latin-ext, toplam 116 KB), `font-display: swap`.
 
 ## Logo
 
-Kedi amblemi değiştirilmedi. Yapılanlar yalnızca Brand Kit'in izin verdiği optik düzeltmeler: saydam kenarlar kırpılıp amblem kare bir tuvalde ortalandı (`skyra-mark.png`), her zaman krem bir yüzey üzerinde (koyu modda da, invert yok) 44–48 px kutuda gösterilir; yanında canlı Quicksand "skyra / ASTRO" yazısı. Retina/baskı için yetkili SVG master hâlâ gerekiyor.
+Kedi amblemi değiştirilmedi. Yapılanlar yalnızca Brand Kit'in izin verdiği optik düzeltmeler: amblem, sitedeki 1024 px'lik saydam ana dosyadan (medya kütüphanesindeki `cropped-` kopyası kulak uçlarını kesiyordu) kulaklarıyla birlikte kırpılıp 184 × 184 kare tuvalde ortalandı (`skyra-mark.png`), her zaman krem bir yüzey üzerinde (koyu modda da, invert yok) 44–48 px kutuda gösterilir; yanında canlı Quicksand "skyra / ASTRO" yazısı. Retina/baskı için yetkili SVG master hâlâ gerekiyor.
 
 ## İkonlar
 
