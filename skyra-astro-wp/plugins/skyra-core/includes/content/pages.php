@@ -122,64 +122,100 @@ TXT,
 		'title'   => 'İletişim',
 		'excerpt' => 'Soruların, önerilerin ve iş birliği fikirlerin için bize yaz.',
 		'body'    => <<<'TXT'
-Soruların, içerik önerilerin ya da iş birliği fikirlerin için aşağıdaki formu kullanabilirsin. Mesajların bize ulaşır ve e-posta ile yanıt veririz. Danışmanlık başvuruları için Instagram hesabımızdan da yazabilirsin.
+Soruların, içerik önerilerin ya da iş birliği fikirlerin için aşağıdaki formu kullanabilirsin. Mesajların bize ulaşır ve e-posta ile yanıt veririz.
 [[skyra/contact-form {}]]
 TXT,
 	),
 	array(
 		'slug'    => 'kvkk',
 		'title'   => 'KVKK Aydınlatma Metni',
-		'excerpt' => 'Kişisel verilerinin hangi amaçla işlendiği ve haklarına ilişkin aydınlatma metni.',
+		'excerpt' => 'Kişisel verilerinin hangi amaçla, hangi hukuki sebeple işlendiği ve hakların.',
 		'body'    => <<<'TXT'
-Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10. maddesi uyarınca, Skyra Astro web sitesinde işlenen kişisel verilere ilişkin olarak hazırlanmıştır.
+Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun (KVKK) 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca, Skyra Astro web sitesinde (skyraastro.com) işlenen kişisel verilerin hakkında seni bilgilendirmek için hazırlandı.
 ## Veri sorumlusu
-[Veri sorumlusunun unvanı, adresi ve iletişim e-postası yayından önce eklenecektir.]
-## Hangi verileri, hangi amaçla işliyoruz?
-- Bülten: e-posta adresin ve onay zamanı, yalnızca haftalık bülteni gönderebilmek için. Kayıt, e-postandaki bağlantıyı onaylaman halinde tamamlanır (çift onay).
-- İletişim formu: adın, e-posta adresin, seçtiğin konu ve mesajın, yalnızca sana yanıt verebilmek için.
-- Doğum haritası ve hesaplama araçları: doğum tarihin, saatin ve yerin yalnızca hesaplama anında kullanılır; saklanmaz, loglanmaz, üçüncü kişilerle paylaşılmaz.
-## Hukuki sebep
-Bülten için açık rızan; iletişim formu için bir sözleşmenin kurulması veya ifası ile doğrudan ilgili olması ve meşru menfaat; hesaplama araçları için ise talebinin yerine getirilmesi hukuki sebeplerine dayanırız.
-## Saklama süresi
-Bülten kaydın, bültenden ayrılana kadar saklanır; her e-postada ayrılma bağlantısı bulunur. Onaylanmayan kayıtlar gönderim listesine eklenmez. İletişim mesajları yönetim panelinde tutulur ve [saklama süresi yayından önce belirlenecektir].
-## Aktarım
-Verilerin, sitenin barındırıldığı sunucuda tutulur [barındırma sağlayıcısı ve sunucu konumu yayından önce eklenecektir]. Bülten gönderimi için bir e-posta servis sağlayıcısı kullanılması halinde bu metin güncellenecektir.
+Skyra Astro, Şuara Güncü tarafından işletilir. KVKK kapsamındaki veri sorumlusu Şuara Güncü’dür. İletişim ve başvuru adresi: <a href="mailto:skyra.astro@gmail.com">skyra.astro@gmail.com</a>
+## Hangi verileri, hangi amaçla ve hangi hukuki sebeple işliyoruz?
+### İletişim formu
+Formu kullandığında adını, e-posta adresini, seçtiğin konuyu ve mesajını alırız. Bu bilgileri yalnızca mesajını okuyup sana yanıt vermek için kullanırız. Hukuki sebebimiz, genel sorularda veri sorumlusunun meşru menfaatidir (KVKK m.5/2-f); mesajın bir sözleşmenin kurulması veya ifasıyla doğrudan ilgiliyse KVKK m.5/2-c’dir. Mesaj sitenin yönetim panelinde saklanır ve bir kopyası e-posta adresimize iletilir. Mesajına konuyla ilgisi olmayan sağlık, din, kimlik belgesi gibi bilgileri ya da başka kişilerin özel bilgilerini eklememeni rica ederiz.
+### Kötüye kullanımı önleme
+İletişim formunu gönderdiğinde, art arda gönderimleri sınırlamak için IP adresin geri döndürülmesi zor biçimde şifrelenmiş (hash) olarak bir saatliğine tutulur; süre sonunda kendiliğinden geçersiz olur. Hukuki sebep: meşru menfaat (KVKK m.5/2-f).
+### Doğum haritası ve hesaplama araçları
+Doğum haritası, yükselen burç ve Ay burcu araçlarında girdiğin doğum tarihi, saati ve doğum yeri, istediğin hesaplamanın yapılabilmesi için site sunucusuna gönderilir. Sitenin yazılımı bu bilgileri veritabanına kaydetmez ve hesaplama bittikten sonra saklamaz. Yer aramasına yazdığın ifade, aramanın yapılabilmesi için sunucuya iletilir; bu sorgu sayfa adresinin bir parçası olarak gittiği için barındırma sağlayıcısının teknik erişim kayıtlarında yer alabilir. Hukuki sebep: talep ettiğin hesaplama hizmetinin sunulması (KVKK m.5/2-c).
+### Sitenin barındırılması ve teknik kayıtlar
+Siteyi ziyaret ettiğinde tarayıcın, sayfanın sana gönderilebilmesi için IP adresini, tarayıcı ve cihaz bilgisini, istenen sayfa adresini ve zaman bilgisini barındırma sağlayıcısına iletir. Görseller, site ikonu ve yazı tipleri de aynı sağlayıcının içerik dağıtım altyapısından yüklenir. Bu kayıtlar sitenin çalışması, güvenliği ve ilgili mevzuattan doğan yükümlülükler için tutulur. Hukuki sebep: meşru menfaat (KVKK m.5/2-f) ve kanunlarda öngörülme ile hukuki yükümlülük (KVKK m.5/2-a ve ç). Bu kayıtların içeriği ve saklama süresi barındırma sağlayıcısının politikalarına göre belirlenir.
+### Ziyaret istatistikleri ve performans ölçümü (yalnızca iznin varsa)
+Çerez tercihlerinden izin verirsen Jetpack İstatistik ve WordPress.com performans ölçümü çalışır. Bu araçlar IP adresini, görüntülediğin sayfayı, seni yönlendiren adresi, tarayıcı ve cihaz bilgisini ve zaman bilgisini işler. Amaç, hangi sayfaların ne kadar ziyaret edildiğini ve sitenin ne kadar hızlı açıldığını görmektir. Hukuki sebep: açık rızan (KVKK m.5/1). İzin vermezsen bu araçlar hiç çalışmaz ve site aynı şekilde kullanılabilir. İznini istediğin zaman <a href="#cerez-tercihleri">çerez tercihlerinden</a> geri alabilirsin.
+### Tarayıcında tutulan tercihler
+Tema tercihin, seçtiğin burç ve çerez tercihin yalnızca kendi tarayıcında saklanır ve bize gönderilmez. Ayrıntılar <a href="/cerez-politikasi/">Çerez Politikası</a>’nda.
+### Daha önceki bülten kayıtları
+Bülten hizmeti şu anda sunulmuyor ve yeni kayıt alınmıyor. Daha önce bültene kaydolduysan e-posta adresin ve onay kaydın sitenin veritabanında durmaktadır; bu adreslere bülten gönderilmemektedir. Bu kayıtların silinmesi planlanmaktadır. Kaydının hemen silinmesini istersen daha önce aldığın e-postadaki “ayrıl” bağlantısını kullanabilir ya da bize yazabilirsin.
+## Verilerin kimlere aktarılır?
+- Barındırma, içerik dağıtımı ve (iznin varsa) ölçüm: Automattic Inc. (WordPress.com, Jetpack). Automattic ABD merkezli bir şirkettir ve verileri yurt dışındaki sunucularda işleyebilir.
+- E-posta: İletişim formu mesajlarının kopyası ve bize yazdığın e-postalar, Google LLC tarafından sağlanan Gmail hizmetindeki skyra.astro@gmail.com kutusunda tutulur. Google da verileri yurt dışındaki sunucularda işleyebilir.
+- Yetkili kamu kurum ve kuruluşları: yalnızca kanunların öngördüğü durumlarda ve talep edilen ölçüde.
+## Yurt dışına aktarım
+Yukarıdaki hizmet sağlayıcılar nedeniyle kişisel verilerin yurt dışındaki sunucularda işlenmektedir. Ölçüm araçları yalnızca açık rızanla çalışır. Barındırma ve e-posta hizmetleri için KVKK’nın 9. maddesinde öngörülen aktarım güvencelerine ilişkin değerlendirme sürmektedir; tamamlandığında bu bölüm güncellenecektir.
+## Saklama süreleri
+- İletişim mesajları: talebin sonuçlandıktan sonra en fazla 6 ay; bir uyuşmazlık veya yasal yükümlülük varsa bunun gerektirdiği süre boyunca.
+- Kötüye kullanım önleme kaydı (şifrelenmiş IP): 1 saat.
+- Hesaplama araçlarına girdiğin bilgiler: site yazılımı tarafından saklanmaz.
+- Barındırma sağlayıcısının teknik kayıtları ve ölçüm verileri: sağlayıcının politikalarında belirtilen süre. Jetpack İstatistik, IP adreslerini içeren kayıtları 28 gün tuttuğunu açıklamaktadır.
+Saklama sebebi ortadan kalkan veriler silinir, yok edilir veya anonim hâle getirilir.
 ## Hakların
-KVKK’nın 11. maddesi kapsamında verilerinin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini veya silinmesini isteme ve itiraz etme haklarına sahipsin. Taleplerini İletişim sayfasındaki form aracılığıyla iletebilirsin.
+KVKK’nın 11. maddesi uyarınca; kişisel verilerinin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK’nın 7. maddesindeki şartlar çerçevesinde silinmesini veya yok edilmesini isteme, bu düzeltme ve silme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz edilmesi nedeniyle aleyhine bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı işleme sebebiyle zarara uğraman hâlinde zararın giderilmesini talep etme haklarına sahipsin.
+## Başvuru
+Başvurunu <a href="mailto:skyra.astro@gmail.com">skyra.astro@gmail.com</a> adresine iletebilirsin. Başvurunda adını ve soyadını, iletişim bilgini ve talebini açıkça belirtmen gerekir; kimliğini doğrulamak için yalnızca gerekli olan bilgiyi isteriz. Başvurunu en kısa sürede ve en geç 30 gün içinde ücretsiz olarak yanıtlarız; işlemin ayrıca bir maliyet gerektirmesi hâlinde Kurulca belirlenen tarifedeki ücret alınabilir.
+Son güncelleme: 8 Ekim 2026
 TXT,
 	),
 	array(
 		'slug'    => 'gizlilik-politikasi',
 		'title'   => 'Gizlilik Politikası',
-		'excerpt' => 'Skyra Astro’da hangi bilgilerin toplandığı, nasıl kullanıldığı ve nasıl korunduğu.',
+		'excerpt' => 'Skyra Astro’da hangi bilgilerin nereden geçtiği ve nasıl korunduğu.',
 		'body'    => <<<'TXT'
-Skyra Astro’yu kullanırken mahremiyetine saygı duyarız. Bu sayfa, sitenin gerçekte neyi topladığını ve neyi toplamadığını sade bir dille anlatır.
+Skyra Astro’yu kullanırken hangi bilgilerin nereden geçtiğini açık ve sade bir dille anlatmak istiyoruz. Siteyi Şuara Güncü işletir. Hukuki sebepler, aktarımlar ve hakların <a href="/kvkk/">KVKK Aydınlatma Metni</a>’nde; tarayıcında tutulan kayıtlar <a href="/cerez-politikasi/">Çerez Politikası</a>’nda ayrıntılı olarak yer alır.
+## Hesap ve üyelik yok
+Sitede üyelik, hesap ya da ödeme yoktur. Siteyi kullanmak için kimliğini paylaşman gerekmez.
 ## Doğum bilgilerin
-Doğum haritası, yükselen burç ve Ay burcu araçlarına girdiğin tarih, saat ve yer yalnızca hesaplama için sunucuya gönderilir. Yanıt “önbelleğe alınmaz” olarak işaretlenir, bilgi veritabanına yazılmaz ve sayfa adresine eklenmez. Ana sayfadaki özetten tam haritaya geçerken bilgiler yalnızca tarayıcı sekmende (sessionStorage) geçici olarak tutulur ve sekme kapandığında silinir.
-## Bülten ve iletişim
-Bülten için e-posta adresini, iletişim formu için adını, e-postanı ve mesajını alırız. Ayrıntılar KVKK Aydınlatma Metni’nde yer alır.
-## Analitik ve reklam
-Site, bu sürümde analitik ya da reklam takibi yapan üçüncü taraf bir betik içermez. Fontlar ve görseller sitenin kendi sunucusundan yüklenir.
-## Tercihlerin
-Açık/koyu tema tercihin ve seçtiğin burç, yalnızca kendi tarayıcında (localStorage) saklanır ve sunucuya gönderilmez.
-## İletişim
-Sorularını İletişim sayfasından iletebilirsin.
+Doğum haritası ve burç araçlarına girdiğin tarih, saat ve yer yalnızca hesaplama için site sunucusuna gönderilir. Sitenin yazılımı bu bilgileri veritabanına yazmaz ve sayfa adresine eklemez. Ana sayfadaki özetten tam haritaya geçerken bilgiler tarayıcı sekmende (sessionStorage) kısa süre tutulur ve harita sayfası açıldığında silinir. Yer aramasına yazdığın ifade sunucuya sorgu olarak iletilir; arama sitenin içindeki yer listesinde yapılır, bu arama için başka bir hizmete istek gönderilmez.
+## İletişim formu
+Formda verdiğin ad, e-posta, konu ve mesaj yalnızca talebini ele almak için kullanılır; sitenin yönetim panelinde saklanır ve bir kopyası e-posta adresimize iletilir.
+## Barındırma ve içerik dağıtımı
+Site WordPress.com (Automattic Inc.) altyapısında barındırılır. Sayfalar, görseller, site ikonu ve yazı tipleri bu altyapıdan yüklendiği için tarayıcın IP adresini ve teknik istek bilgilerini Automattic’e iletir. Bu, sitenin çalışması için gereklidir.
+## Ziyaret istatistikleri
+Jetpack İstatistik ve WordPress.com performans ölçümü yalnızca <a href="#cerez-tercihleri">çerez tercihlerinden</a> izin verirsen çalışır. İzin vermezsen bu araçlara hiçbir istek gönderilmez. Sitede reklam, yeniden hedefleme ya da sosyal medya takip pikseli yoktur.
+## Bülten
+Bülten hizmeti şu anda sunulmuyor ve sitede bülten kayıt formu bulunmuyor. Daha önceki kayıtlarla ilgili bilgi KVKK Aydınlatma Metni’nde yer alır.
+## Dış bağlantılar
+Sayfalardaki Instagram veya GeoNames bağlantılarına tıkladığında ilgili hizmetin sitesine geçersin; oradaki işlemler o hizmetin kendi gizlilik kurallarına tabidir. Bu bağlantılar sen tıklamadıkça arka planda hiçbir şey yüklemez.
+## Güvenlik
+Verilere erişimi site yönetimiyle sınırlı tutarız. İnternet üzerinden yapılan hiçbir aktarım için mutlak güvenlik garantisi verilemeyeceğini de açıkça belirtmek isteriz.
+## Değişiklikler ve iletişim
+Veri akışları değişirse bu sayfayı ve ilgili metinleri yeni işlem başlamadan önce güncelleriz. Soruların ve KVKK başvuruların için: <a href="mailto:skyra.astro@gmail.com">skyra.astro@gmail.com</a>
+Son güncelleme: 8 Ekim 2026
 TXT,
 	),
 	array(
 		'slug'    => 'cerez-politikasi',
 		'title'   => 'Çerez Politikası',
-		'excerpt' => 'Skyra Astro’nun kullandığı çerezler ve tarayıcı depolaması.',
+		'excerpt' => 'Skyra Astro’nun tarayıcında tuttuğu kayıtlar ve izne bağlı ölçüm araçları.',
 		'body'    => <<<'TXT'
-Skyra Astro, ziyaretçiler için takip veya reklam çerezi kullanmaz.
-## Kullanılan depolama
-- Tema tercihi (skyra-theme): açık ya da koyu görünümü hatırlamak için tarayıcındaki localStorage’da tutulur.
-- Burç tercihi (skyra-sign): günlük yorumlarda burcunu öne çıkarmak için localStorage’da tutulur.
-- Harita aktarımı (skyra-birth): ana sayfadaki özetten tam harita sayfasına geçerken sessionStorage’da geçici olarak tutulur; sekme kapandığında silinir.
-## Zorunlu çerezler
-Yalnızca site yöneticileri ve editörler için, WordPress oturumunu yöneten zorunlu çerezler kullanılır.
-## Tercihlerini silmek
-Tarayıcının site verilerini temizleme seçeneğiyle bu kayıtları istediğin zaman silebilirsin.
+Skyra Astro ziyaretçilerine çerez yazmaz. Bazı tercihlerini hatırlamak için tarayıcının kendi depolama alanını (localStorage ve sessionStorage) kullanır. Bu kayıtlar cihazında kalır ve bize gönderilmez. Ziyaret istatistikleri ise çerez kullanmasa da teknik veri işlediği için yalnızca iznin varsa çalışır.
+<a href="#cerez-tercihleri">Çerez tercihlerini aç</a>
+## Gerekli kayıtlar (her zaman açık)
+Bunlar senin istediğin bir işlevin çalışması için gereklidir:
+- skyra-theme (localStorage): açık ya da koyu görünüm tercihini hatırlar. Sen silene kadar kalır.
+- skyra-sign (localStorage): hesaplama sonucundaki ya da seçtiğin burcu hatırlar ve günlük yorumlarda öne çıkarır. Burç sayfalarındaki “burcum” seçimini kaldırarak ya da tarayıcı verilerini silerek temizleyebilirsin.
+- skyra-birth (sessionStorage): ana sayfadaki özetten tam harita sayfasına geçerken doğum bilgilerini taşır; harita sayfası açıldığında silinir.
+- skyra-consent (localStorage): çerez ve ölçüm tercihini ve tercih tarihini hatırlar, böylece her sayfada yeniden sorulmaz.
+Site yöneticileri ve editörler yönetim paneline giriş yaptığında WordPress oturum çerezleri kullanılır; bunlar ziyaretçilere yazılmaz.
+## İzne bağlı ölçüm araçları (varsayılan olarak kapalı)
+- Jetpack İstatistik (Automattic Inc.): hangi sayfaların ne kadar ziyaret edildiğini ölçer. IP adresi, sayfa adresi, yönlendiren adres, tarayıcı ve cihaz bilgisi işlenir. Çerez yazmaz. Automattic, IP adreslerini içeren istatistik kayıtlarını 28 gün tuttuğunu açıklamaktadır.
+- WordPress.com performans ölçümü (Automattic Inc.): sayfanın ne kadar hızlı yüklendiğini ölçer; IP adresi ve teknik sayfa yükleme bilgileri işlenir.
+Bu iki araç, izin vermediğin sürece tarayıcında hiç çalışmaz ve onlara hiçbir istek gönderilmez. “Tümünü Reddet” seçeneği sitenin hiçbir işlevini kısıtlamaz.
+## Tercihini değiştirmek
+Sayfaların en altındaki “Çerez tercihleri” bağlantısından ya da bu sayfadaki bağlantıdan iznini istediğin zaman verebilir veya geri alabilirsin. Tarayıcının site verilerini silme seçeneğiyle bu kayıtların tamamını da temizleyebilirsin; bu durumda tercihin yeniden sorulur. Tarayıcındaki kayıtları silmek, ölçüm araçlarının daha önce topladığı verileri kendiliğinden silmez; bunun için KVKK Aydınlatma Metni’ndeki başvuru yolunu kullanabilirsin.
+Son güncelleme: 8 Ekim 2026
 TXT,
 	),
 );

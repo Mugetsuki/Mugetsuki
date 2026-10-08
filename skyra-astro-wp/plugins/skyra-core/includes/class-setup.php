@@ -33,6 +33,7 @@ final class Setup {
 		);
 		add_action( 'admin_menu', array( self::class, 'menu' ) );
 		add_action( 'admin_post_skyra_setup', array( self::class, 'handle' ) );
+		add_action( 'admin_post_skyra_legal', array( self::class, 'handle_legal' ) );
 		if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			\WP_CLI::add_command(
 				'skyra setup',
@@ -60,7 +61,73 @@ final class Setup {
 		if ( $log ) {
 			echo '<h2>Son çalıştırma</h2><ul><li>' . implode( '</li><li>', array_map( 'esc_html', $log ) ) . '</li></ul>';
 		}
+
+		echo '<hr><h2>Yasal metinleri güncelle</h2>';
+		echo '<p>KVKK Aydınlatma Metni, Gizlilik Politikası ve Çerez Politikası sayfalarının içeriğini bu eklenti sürümündeki metinlerle değiştirir. Sayfaların önceki hâli revizyon olarak saklanır; Sayfalar → ilgili sayfa → Revizyonlar ekranından geri yüklenebilir.</p>';
+		$done = get_option( 'skyra_legal_version' );
+		if ( $done ) {
+			echo '<p>Son güncelleme: metin sürümü ' . esc_html( (string) $done ) . '.</p>';
+		}
+		echo '<form method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '">';
+		wp_nonce_field( 'skyra_legal' );
+		echo '<input type="hidden" name="action" value="skyra_legal">';
+		submit_button( 'Yasal metinleri güncelle', 'secondary' );
+		echo '</form>';
+		$legal = get_transient( 'skyra_legal_log' );
+		if ( $legal ) {
+			echo '<ul><li>' . implode( '</li><li>', array_map( 'esc_html', $legal ) ) . '</li></ul>';
+		}
 		echo '</div>';
+	}
+
+	/** Slugs whose content the legal update replaces. */
+	public const LEGAL = array( 'kvkk', 'gizlilik-politikasi', 'cerez-politikasi' );
+
+	public static function handle_legal(): void {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die( 'Yetkin yok.' );
+		}
+		check_admin_referer( 'skyra_legal' );
+		set_transient( 'skyra_legal_log', self::update_legal(), HOUR_IN_SECONDS );
+		wp_safe_redirect( admin_url( 'tools.php?page=skyra-setup' ) );
+		exit;
+	}
+
+	/**
+	 * Replace the legal pages' content with this version's texts. Each
+	 * update stores a revision, so the previous text can be restored.
+	 *
+	 * @return string[] Log lines.
+	 */
+	public static function update_legal(): array {
+		$log = array();
+		foreach ( require SKYRA_CORE_DIR . 'includes/content/pages.php' as $p ) {
+			if ( ! in_array( $p['slug'], self::LEGAL, true ) ) {
+				continue;
+			}
+			$content  = self::blocks( $p['body'] );
+			$existing = get_page_by_path( $p['slug'] );
+			if ( ! $existing ) {
+				self::create_page( $p['slug'], $p['title'], $content, $p['excerpt'], 0, $log );
+				continue;
+			}
+			if ( $existing->post_content === $content ) {
+				$log[] = 'Değişiklik yok: /' . $p['slug'] . '/';
+				continue;
+			}
+			$id    = wp_update_post(
+				array(
+					'ID'           => $existing->ID,
+					'post_title'   => $p['title'],
+					'post_content' => $content,
+					'post_excerpt' => $p['excerpt'],
+				),
+				true
+			);
+			$log[] = is_wp_error( $id ) ? 'Hata: /' . $p['slug'] . '/ — ' . $id->get_error_message() : 'Güncellendi: /' . $p['slug'] . '/';
+		}
+		update_option( 'skyra_legal_version', SKYRA_CORE_VERSION, false );
+		return $log;
 	}
 
 	public static function handle(): void {
@@ -676,7 +743,7 @@ HTML;
 				'<!-- wp:skyra/zodiac-explorer /-->',
 				'<!-- wp:skyra/editorial-grid /-->',
 				$about,
-				'<!-- wp:skyra/newsletter /-->',
+				Forms::newsletter_enabled() ? '<!-- wp:skyra/newsletter /-->' : '',
 				'<!-- wp:skyra/social-links /-->',
 			)
 		);

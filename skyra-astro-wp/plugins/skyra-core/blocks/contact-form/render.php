@@ -24,7 +24,7 @@ $field  = static function ( string $name, string $label, string $control ) use (
 	<div class="sk-hp" aria-hidden="true"><label for="<?php echo esc_attr( $id ); ?>-web">Web sitesi</label><input id="<?php echo esc_attr( $id ); ?>-web" type="text" name="website" tabindex="-1" autocomplete="off"></div>
 	<div class="sk-field">
 		<label for="<?php echo esc_attr( $id ); ?>-topic">Konu</label>
-		<select id="<?php echo esc_attr( $id ); ?>-topic" name="topic"><option>Genel soru</option><option>İçerik önerisi</option><option>Danışmanlık</option><option>İş birliği</option><option>Teknik sorun</option></select>
+		<select id="<?php echo esc_attr( $id ); ?>-topic" name="topic"><option>Genel soru</option><option>İçerik önerisi</option><option>İş birliği</option><option>Teknik sorun</option></select>
 	</div>
 	<?php echo $field( 'name', 'Adın', sprintf( '<input id="%1$s-name" type="text" name="name" required autocomplete="name" aria-describedby="%1$s-name-err">', esc_attr( $id ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 	<?php echo $field( 'email', 'E-posta adresin', sprintf( '<input id="%1$s-email" type="email" name="email" required autocomplete="email" inputmode="email" aria-describedby="%1$s-email-err">', esc_attr( $id ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>

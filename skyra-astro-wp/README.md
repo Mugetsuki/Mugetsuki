@@ -2,12 +2,13 @@
 
 Brand Kit v1.1 → tasarım sistemi → UX mimarisi → çalışan WordPress sitesi.
 
-Bu klasör iki parçadan oluşur:
+Bu klasör üç parçadan oluşur:
 
 | Parça | Görev |
 | --- | --- |
 | `themes/skyra-astro` | Blok teması (Gutenberg / Site Editor). Brand Kit tokenları `theme.json`'da; header, footer, şablonlar, gerçek koyu mod, mobil öncelikli CSS. |
-| `plugins/skyra-core` | İçerik modeli (CPT'ler), astroloji hesaplama motoru, REST API, 24 dinamik blok, bülten ve iletişim formları, SEO/schema, tek tıkla kurulum. |
+| `plugins/skyra-core` | İçerik modeli (CPT'ler), astroloji hesaplama motoru, REST API, dinamik bloklar, iletişim formu, çerez onayı, yasal metinler, SEO/schema, tek tıkla kurulum. Bülten şimdilik kapalı (`skyra_newsletter_enabled` filtresi). |
+| `plugins/skyra-tarot` | Bağımsız, etkileşimli tarot açılımı (`/tarot/`). Varsayılan olarak test modunda: sayfa özeldir, yalnızca yöneticiler görür. Ayrıntılar: [docs/06](docs/06-kvkk-cerez-tarot.md). |
 
 Hesaplamalar gerçektir: gezegen konumları, Ay fazı, yükselen burç, evler, tutulmalar, retro istasyonları ve burç geçişleri sitenin kendi efemeris motoruyla sunucuda hesaplanır ve bağımsız bir referans kütüphaneyle test edilir. Hiçbir sonuç sabit metin ya da uydurma değildir.
 

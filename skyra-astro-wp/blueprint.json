@@ -12,6 +12,7 @@
 	"steps": [
 		{ "step": "setSiteLanguage", "language": "tr_TR" },
 		{ "step": "activatePlugin", "pluginPath": "skyra-core/skyra-core.php" },
+		{ "step": "activatePlugin", "pluginPath": "skyra-tarot/skyra-tarot.php" },
 		{ "step": "activateTheme", "themeFolderName": "skyra-astro" },
 		{ "step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; \\Skyra\\Core\\Setup::run();" }
 	]

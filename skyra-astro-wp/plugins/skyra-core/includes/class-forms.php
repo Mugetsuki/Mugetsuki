@@ -14,37 +14,29 @@ defined( 'ABSPATH' ) || exit;
 
 final class Forms {
 
+	/**
+	 * The newsletter is switched off for now: no sign-up form, no new
+	 * subscriptions or confirmations. Existing records stay untouched and
+	 * unsubscribe links in sent e-mails keep working.
+	 * Re-enable with: add_filter( 'skyra_newsletter_enabled', '__return_true' );
+	 */
+	public static function newsletter_enabled(): bool {
+		return (bool) apply_filters( 'skyra_newsletter_enabled', false );
+	}
+
 	public static function init(): void {
 		add_action( 'rest_api_init', array( self::class, 'routes' ) );
-		foreach ( array( 'skyra_newsletter', 'skyra_contact' ) as $action ) {
+		$actions = self::newsletter_enabled() ? array( 'skyra_newsletter', 'skyra_contact' ) : array( 'skyra_contact' );
+		foreach ( $actions as $action ) {
 			add_action( 'admin_post_' . $action, array( self::class, 'fallback' ) );
 			add_action( 'admin_post_nopriv_' . $action, array( self::class, 'fallback' ) );
 		}
 	}
 
 	public static function routes(): void {
-		register_rest_route(
-			Rest::NS,
-			'/newsletter',
-			array(
-				'methods'             => 'POST',
-				'permission_callback' => '__return_true',
-				'callback'            => static fn( \WP_REST_Request $r ) => self::respond( self::subscribe( $r->get_params() ) ),
-			)
-		);
-		register_rest_route(
-			Rest::NS,
-			'/newsletter/confirm',
-			array(
-				'methods'             => 'GET',
-				'permission_callback' => '__return_true',
-				'callback'            => static function ( \WP_REST_Request $r ) {
-					$ok = self::verify( (int) $r['id'], (string) $r['token'], 'confirm' );
-					wp_safe_redirect( add_query_arg( 'bulten', $ok ? 'onaylandi' : 'gecersiz', home_url( '/' ) ) );
-					exit;
-				},
-			)
-		);
+		if ( self::newsletter_enabled() ) {
+			self::newsletter_routes();
+		}
 		register_rest_route(
 			Rest::NS,
 			'/newsletter/unsubscribe',
@@ -65,6 +57,31 @@ final class Forms {
 				'methods'             => 'POST',
 				'permission_callback' => '__return_true',
 				'callback'            => static fn( \WP_REST_Request $r ) => self::respond( self::contact( $r->get_params() ) ),
+			)
+		);
+	}
+
+	private static function newsletter_routes(): void {
+		register_rest_route(
+			Rest::NS,
+			'/newsletter',
+			array(
+				'methods'             => 'POST',
+				'permission_callback' => '__return_true',
+				'callback'            => static fn( \WP_REST_Request $r ) => self::respond( self::subscribe( $r->get_params() ) ),
+			)
+		);
+		register_rest_route(
+			Rest::NS,
+			'/newsletter/confirm',
+			array(
+				'methods'             => 'GET',
+				'permission_callback' => '__return_true',
+				'callback'            => static function ( \WP_REST_Request $r ) {
+					$ok = self::verify( (int) $r['id'], (string) $r['token'], 'confirm' );
+					wp_safe_redirect( add_query_arg( 'bulten', $ok ? 'onaylandi' : 'gecersiz', home_url( '/' ) ) );
+					exit;
+				},
 			)
 		);
 	}

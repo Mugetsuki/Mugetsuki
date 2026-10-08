@@ -64,6 +64,9 @@ final class Blocks {
 
 		$names = array();
 		foreach ( glob( SKYRA_CORE_DIR . 'blocks/*/block.json' ) as $file ) {
+			if ( 'newsletter' === basename( dirname( $file ) ) && ! Forms::newsletter_enabled() ) {
+				continue; // Not registered: saved newsletter blocks and the footer slot render nothing.
+			}
 			$type = register_block_type( dirname( $file ) );
 			if ( $type ) {
 				$names[] = $type->name;
