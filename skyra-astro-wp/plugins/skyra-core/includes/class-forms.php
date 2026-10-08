@@ -26,6 +26,14 @@ final class Forms {
 
 	public static function init(): void {
 		add_action( 'rest_api_init', array( self::class, 'routes' ) );
+		if ( ! self::newsletter_enabled() ) {
+			add_action(
+				'wp_enqueue_scripts',
+				static function () {
+					wp_enqueue_style( 'skyra-footer', SKYRA_CORE_URL . 'assets/css/footer.css', array(), SKYRA_CORE_VERSION );
+				}
+			);
+		}
 		$actions = self::newsletter_enabled() ? array( 'skyra_newsletter', 'skyra_contact' ) : array( 'skyra_contact' );
 		foreach ( $actions as $action ) {
 			add_action( 'admin_post_' . $action, array( self::class, 'fallback' ) );

@@ -23,6 +23,7 @@ Ziyaretçiye hiç çerez yazılmıyor. Tarayıcı depolaması: `skyra-theme`, `s
 ## Bülten
 
 - Kayıt formu ve `/newsletter` (kayıt, onay) uçları kapatıldı. `skyra/newsletter` bloğu kaydedilmediği için ana sayfadaki ve footer'daki alanlar boş görünür.
+- Footer, bülten sütunu boşken `assets/css/footer.css` ile dengelenir (logo solda, menüler sağda); bülten yeniden açılırsa temanın düzeni aynen geri gelir.
 - Mevcut abone kayıtları silinmedi. Gönderilmiş e-postalardaki "ayrıl" bağlantısı çalışmaya devam eder.
 - Yeniden açmak için: `add_filter( 'skyra_newsletter_enabled', '__return_true' );`
 
