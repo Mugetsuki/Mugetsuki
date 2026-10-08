@@ -135,10 +135,8 @@ Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun (KVKK) 10. ma
 ## Veri sorumlusu
 Skyra Astro, Şuara Güncü tarafından işletilir. KVKK kapsamındaki veri sorumlusu Şuara Güncü’dür. İletişim ve başvuru adresi: <a href="mailto:skyra.astro@gmail.com">skyra.astro@gmail.com</a>
 ## Hangi verileri, hangi amaçla ve hangi hukuki sebeple işliyoruz?
-### İletişim formu
-Formu kullandığında adını, e-posta adresini, seçtiğin konuyu ve mesajını alırız. Bu bilgileri yalnızca mesajını okuyup sana yanıt vermek için kullanırız. Hukuki sebebimiz, genel sorularda veri sorumlusunun meşru menfaatidir (KVKK m.5/2-f); mesajın bir sözleşmenin kurulması veya ifasıyla doğrudan ilgiliyse KVKK m.5/2-c’dir. Mesaj sitenin yönetim panelinde saklanır ve bir kopyası e-posta adresimize iletilir. Mesajına konuyla ilgisi olmayan sağlık, din, kimlik belgesi gibi bilgileri ya da başka kişilerin özel bilgilerini eklememeni rica ederiz.
-### Kötüye kullanımı önleme
-İletişim formunu gönderdiğinde, art arda gönderimleri sınırlamak için IP adresin geri döndürülmesi zor biçimde şifrelenmiş (hash) olarak bir saatliğine tutulur; süre sonunda kendiliğinden geçersiz olur. Hukuki sebep: meşru menfaat (KVKK m.5/2-f).
+### E-posta ile iletişim
+Bize skyra.astro@gmail.com adresinden yazdığında adını, e-posta adresini ve mesajında paylaştığın bilgileri alırız. Bu bilgileri yalnızca mesajını okuyup sana yanıt vermek için kullanırız. Hukuki sebebimiz, genel sorularda veri sorumlusunun meşru menfaatidir (KVKK m.5/2-f); yazışma bir sözleşmenin kurulması veya ifasıyla doğrudan ilgiliyse KVKK m.5/2-c’dir. Mesajına konuyla ilgisi olmayan sağlık, din, kimlik belgesi gibi bilgileri ya da başka kişilerin özel bilgilerini eklememeni rica ederiz.
 ### Doğum haritası ve hesaplama araçları
 Doğum haritası, yükselen burç ve Ay burcu araçlarında girdiğin doğum tarihi, saati ve doğum yeri, istediğin hesaplamanın yapılabilmesi için site sunucusuna gönderilir. Sitenin yazılımı bu bilgileri veritabanına kaydetmez ve hesaplama bittikten sonra saklamaz. Yer aramasına yazdığın ifade, aramanın yapılabilmesi için sunucuya iletilir; bu sorgu sayfa adresinin bir parçası olarak gittiği için barındırma sağlayıcısının teknik erişim kayıtlarında yer alabilir. Hukuki sebep: talep ettiğin hesaplama hizmetinin sunulması (KVKK m.5/2-c).
 ### Sitenin barındırılması ve teknik kayıtlar
@@ -153,18 +151,17 @@ Tema tercihin, seçtiğin burç ve çerez tercihin yalnızca kendi tarayıcında
 Bülten hizmeti şu anda sunulmuyor ve yeni kayıt alınmıyor. Daha önce bültene kaydolduysan e-posta adresin ve onay kaydın sitenin veritabanında durmaktadır; bu adreslere bülten gönderilmemektedir. Bu kayıtlar en geç 8 Kasım 2026 tarihinde silinecektir. Kaydının daha önce silinmesini istersen daha önce aldığın e-postadaki “ayrıl” bağlantısını kullanabilir ya da bize yazabilirsin.
 ## Verilerin kimlere aktarılır?
 - Barındırma, içerik dağıtımı ve (iznin varsa) ölçüm: Automattic Inc. (WordPress.com, Jetpack). Automattic ABD merkezli bir şirkettir ve verileri yurt dışındaki sunucularda işleyebilir.
-- E-posta: İletişim formu mesajlarının kopyası ve bize yazdığın e-postalar, Google LLC tarafından sağlanan Gmail hizmetindeki skyra.astro@gmail.com kutusunda tutulur. Google da verileri yurt dışındaki sunucularda işleyebilir.
+- E-posta: Bize yazdığın e-postalar, Google LLC tarafından sağlanan Gmail hizmetindeki skyra.astro@gmail.com kutusunda tutulur. Google da verileri yurt dışındaki sunucularda işleyebilir.
 - Yetkili kamu kurum ve kuruluşları: yalnızca kanunların öngördüğü durumlarda ve talep edilen ölçüde.
 ## Yurt dışına aktarım
 Yukarıdaki hizmet sağlayıcılar nedeniyle kişisel verilerin yurt dışındaki sunucularda işlenmektedir. Ölçüm araçları yalnızca açık rızanla çalışır. Barındırma ve e-posta hizmetleri için KVKK’nın 9. maddesinde öngörülen aktarım güvencelerine ilişkin değerlendirme sürmektedir; tamamlandığında bu bölüm güncellenecektir.
 ## Saklama süreleri
-- İletişim mesajları: talebin sonuçlandıktan sonra en fazla 6 ay; bir uyuşmazlık veya yasal yükümlülük varsa bunun gerektirdiği süre boyunca.
-- Kötüye kullanım önleme kaydı (şifrelenmiş IP): 1 saat.
+- E-posta yazışmaları: talebin sonuçlandıktan sonra en fazla 6 ay; bir uyuşmazlık veya yasal yükümlülük varsa bunun gerektirdiği süre boyunca.
 - Hesaplama araçlarına girdiğin bilgiler: site yazılımı tarafından saklanmaz.
 - Barındırma sağlayıcısının teknik kayıtları ve ölçüm verileri: sağlayıcının politikalarında belirtilen süre. Jetpack İstatistik, IP adreslerini içeren kayıtları 28 gün tuttuğunu açıklamaktadır.
 Saklama sebebi ortadan kalkan veriler silinir, yok edilir veya anonim hâle getirilir.
 ## Çocuklar
-Skyra Astro 18 yaşından küçükleri hedeflemez. İletişim formunu kullanmak için 18 yaşını doldurmuş olmalısın. 18 yaşından küçük birinin bize kişisel bilgi gönderdiğini fark edersen bize yazabilirsin; bu bilgileri sileriz.
+Skyra Astro 18 yaşından küçükleri hedeflemez. Bize yazmak için 18 yaşını doldurmuş olmalısın. 18 yaşından küçük birinin bize kişisel bilgi gönderdiğini fark edersen bize yazabilirsin; bu bilgileri sileriz.
 ## Hakların
 KVKK’nın 11. maddesi uyarınca; kişisel verilerinin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK’nın 7. maddesindeki şartlar çerçevesinde silinmesini veya yok edilmesini isteme, bu düzeltme ve silme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz edilmesi nedeniyle aleyhine bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı işleme sebebiyle zarara uğraman hâlinde zararın giderilmesini talep etme haklarına sahipsin.
 ## Başvuru
@@ -182,8 +179,8 @@ Skyra Astro’yu kullanırken hangi bilgilerin nereden geçtiğini açık ve sad
 Sitede üyelik, hesap ya da ödeme yoktur. Siteyi kullanmak için kimliğini paylaşman gerekmez.
 ## Doğum bilgilerin
 Doğum haritası ve burç araçlarına girdiğin tarih, saat ve yer yalnızca hesaplama için site sunucusuna gönderilir. Sitenin yazılımı bu bilgileri veritabanına yazmaz ve sayfa adresine eklemez. Ana sayfadaki özetten tam haritaya geçerken bilgiler tarayıcı sekmende (sessionStorage) kısa süre tutulur ve harita sayfası açıldığında silinir. Yer aramasına yazdığın ifade sunucuya sorgu olarak iletilir; arama sitenin içindeki yer listesinde yapılır, bu arama için başka bir hizmete istek gönderilmez.
-## İletişim formu
-Formda verdiğin ad, e-posta, konu ve mesaj yalnızca talebini ele almak için kullanılır; sitenin yönetim panelinde saklanır ve bir kopyası e-posta adresimize iletilir.
+## E-posta ile iletişim
+Bize e-postayla yazdığında paylaştığın bilgiler yalnızca talebini ele almak için kullanılır. Sitede iletişim formu bulunmuyor.
 ## Barındırma ve içerik dağıtımı
 Site WordPress.com (Automattic Inc.) altyapısında barındırılır. Sayfalar, görseller, site ikonu ve yazı tipleri bu altyapıdan yüklendiği için tarayıcın IP adresini ve teknik istek bilgilerini Automattic’e iletir. Bu, sitenin çalışması için gereklidir.
 ## Tarot sayfası
