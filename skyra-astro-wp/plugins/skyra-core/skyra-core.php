@@ -3,7 +3,7 @@
  * Plugin Name:       Skyra Core
  * Plugin URI:        https://skyraastro.com/
  * Description:       Skyra Astro içerik modeli (burçlar, yorumlar, gökyüzü olayları), astroloji hesaplama motoru, REST API ve dinamik bloklar.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 6.6
  * Requires PHP:      8.1
  * Author:            Skyra Astro
@@ -17,7 +17,7 @@ namespace Skyra\Core;
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SKYRA_CORE_VERSION', '1.1.0' );
+define( 'SKYRA_CORE_VERSION', '1.1.1' );
 define( 'SKYRA_CORE_FILE', __FILE__ );
 define( 'SKYRA_CORE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SKYRA_CORE_URL', plugin_dir_url( __FILE__ ) );

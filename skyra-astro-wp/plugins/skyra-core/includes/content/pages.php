@@ -145,10 +145,12 @@ Doğum haritası, yükselen burç ve Ay burcu araçlarında girdiğin doğum tar
 Siteyi ziyaret ettiğinde tarayıcın, sayfanın sana gönderilebilmesi için IP adresini, tarayıcı ve cihaz bilgisini, istenen sayfa adresini ve zaman bilgisini barındırma sağlayıcısına iletir. Görseller, site ikonu ve yazı tipleri de aynı sağlayıcının içerik dağıtım altyapısından yüklenir. Bu kayıtlar sitenin çalışması, güvenliği ve ilgili mevzuattan doğan yükümlülükler için tutulur. Hukuki sebep: meşru menfaat (KVKK m.5/2-f) ve kanunlarda öngörülme ile hukuki yükümlülük (KVKK m.5/2-a ve ç). Bu kayıtların içeriği ve saklama süresi barındırma sağlayıcısının politikalarına göre belirlenir.
 ### Ziyaret istatistikleri ve performans ölçümü (yalnızca iznin varsa)
 Çerez tercihlerinden izin verirsen Jetpack İstatistik ve WordPress.com performans ölçümü çalışır. Bu araçlar IP adresini, görüntülediğin sayfayı, seni yönlendiren adresi, tarayıcı ve cihaz bilgisini ve zaman bilgisini işler. Amaç, hangi sayfaların ne kadar ziyaret edildiğini ve sitenin ne kadar hızlı açıldığını görmektir. Hukuki sebep: açık rızan (KVKK m.5/1). İzin vermezsen bu araçlar hiç çalışmaz ve site aynı şekilde kullanılabilir. İznini istediğin zaman <a href="#cerez-tercihleri">çerez tercihlerinden</a> geri alabilirsin.
+### Tarot sayfası
+Tarot sayfasında soru yazma alanı yoktur. Kart seçimlerin ve açılımın yalnızca tarayıcında oluşturulur; sunucuya gönderilmez ve kaydedilmez. Sayfanın açılmasına ilişkin teknik erişim kayıtları, diğer sayfalarda olduğu gibi barındırma sağlayıcısında tutulabilir.
 ### Tarayıcında tutulan tercihler
 Tema tercihin, seçtiğin burç ve çerez tercihin yalnızca kendi tarayıcında saklanır ve bize gönderilmez. Ayrıntılar <a href="/cerez-politikasi/">Çerez Politikası</a>’nda.
 ### Daha önceki bülten kayıtları
-Bülten hizmeti şu anda sunulmuyor ve yeni kayıt alınmıyor. Daha önce bültene kaydolduysan e-posta adresin ve onay kaydın sitenin veritabanında durmaktadır; bu adreslere bülten gönderilmemektedir. Bu kayıtların silinmesi planlanmaktadır. Kaydının hemen silinmesini istersen daha önce aldığın e-postadaki “ayrıl” bağlantısını kullanabilir ya da bize yazabilirsin.
+Bülten hizmeti şu anda sunulmuyor ve yeni kayıt alınmıyor. Daha önce bültene kaydolduysan e-posta adresin ve onay kaydın sitenin veritabanında durmaktadır; bu adreslere bülten gönderilmemektedir. Bu kayıtlar en geç 8 Kasım 2026 tarihinde silinecektir. Kaydının daha önce silinmesini istersen daha önce aldığın e-postadaki “ayrıl” bağlantısını kullanabilir ya da bize yazabilirsin.
 ## Verilerin kimlere aktarılır?
 - Barındırma, içerik dağıtımı ve (iznin varsa) ölçüm: Automattic Inc. (WordPress.com, Jetpack). Automattic ABD merkezli bir şirkettir ve verileri yurt dışındaki sunucularda işleyebilir.
 - E-posta: İletişim formu mesajlarının kopyası ve bize yazdığın e-postalar, Google LLC tarafından sağlanan Gmail hizmetindeki skyra.astro@gmail.com kutusunda tutulur. Google da verileri yurt dışındaki sunucularda işleyebilir.
@@ -161,6 +163,8 @@ Yukarıdaki hizmet sağlayıcılar nedeniyle kişisel verilerin yurt dışındak
 - Hesaplama araçlarına girdiğin bilgiler: site yazılımı tarafından saklanmaz.
 - Barındırma sağlayıcısının teknik kayıtları ve ölçüm verileri: sağlayıcının politikalarında belirtilen süre. Jetpack İstatistik, IP adreslerini içeren kayıtları 28 gün tuttuğunu açıklamaktadır.
 Saklama sebebi ortadan kalkan veriler silinir, yok edilir veya anonim hâle getirilir.
+## Çocuklar
+Skyra Astro 18 yaşından küçükleri hedeflemez. İletişim formunu kullanmak için 18 yaşını doldurmuş olmalısın. 18 yaşından küçük birinin bize kişisel bilgi gönderdiğini fark edersen bize yazabilirsin; bu bilgileri sileriz.
 ## Hakların
 KVKK’nın 11. maddesi uyarınca; kişisel verilerinin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK’nın 7. maddesindeki şartlar çerçevesinde silinmesini veya yok edilmesini isteme, bu düzeltme ve silme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz edilmesi nedeniyle aleyhine bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı işleme sebebiyle zarara uğraman hâlinde zararın giderilmesini talep etme haklarına sahipsin.
 ## Başvuru
@@ -182,6 +186,8 @@ Doğum haritası ve burç araçlarına girdiğin tarih, saat ve yer yalnızca he
 Formda verdiğin ad, e-posta, konu ve mesaj yalnızca talebini ele almak için kullanılır; sitenin yönetim panelinde saklanır ve bir kopyası e-posta adresimize iletilir.
 ## Barındırma ve içerik dağıtımı
 Site WordPress.com (Automattic Inc.) altyapısında barındırılır. Sayfalar, görseller, site ikonu ve yazı tipleri bu altyapıdan yüklendiği için tarayıcın IP adresini ve teknik istek bilgilerini Automattic’e iletir. Bu, sitenin çalışması için gereklidir.
+## Tarot sayfası
+Tarot sayfasında soru yazma alanı yoktur. Kart seçimlerin ve açılımın yalnızca tarayıcında oluşturulur; sunucuya gönderilmez, kaydedilmez ve tarayıcında da saklanmaz.
 ## Ziyaret istatistikleri
 Jetpack İstatistik ve WordPress.com performans ölçümü yalnızca <a href="#cerez-tercihleri">çerez tercihlerinden</a> izin verirsen çalışır. İzin vermezsen bu araçlara hiçbir istek gönderilmez. Sitede reklam, yeniden hedefleme ya da sosyal medya takip pikseli yoktur.
 ## Bülten
@@ -208,6 +214,7 @@ Bunlar senin istediğin bir işlevin çalışması için gereklidir:
 - skyra-sign (localStorage): hesaplama sonucundaki ya da seçtiğin burcu hatırlar ve günlük yorumlarda öne çıkarır. Burç sayfalarındaki “burcum” seçimini kaldırarak ya da tarayıcı verilerini silerek temizleyebilirsin.
 - skyra-birth (sessionStorage): ana sayfadaki özetten tam harita sayfasına geçerken doğum bilgilerini taşır; harita sayfası açıldığında silinir.
 - skyra-consent (localStorage): çerez ve ölçüm tercihini ve tercih tarihini hatırlar, böylece her sayfada yeniden sorulmaz.
+Tarot sayfası tarayıcında hiçbir kayıt tutmaz.
 Site yöneticileri ve editörler yönetim paneline giriş yaptığında WordPress oturum çerezleri kullanılır; bunlar ziyaretçilere yazılmaz.
 ## İzne bağlı ölçüm araçları (varsayılan olarak kapalı)
 - Jetpack İstatistik (Automattic Inc.): hangi sayfaların ne kadar ziyaret edildiğini ölçer. IP adresi, sayfa adresi, yönlendiren adres, tarayıcı ve cihaz bilgisi işlenir. Çerez yazmaz. Automattic, IP adreslerini içeren istatistik kayıtlarını 28 gün tuttuğunu açıklamaktadır.
