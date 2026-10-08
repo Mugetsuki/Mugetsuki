@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra-tarot/reading",
+	"title": "Skyra Tarot açılımı",
+	"category": "widgets",
+	"icon": "star-filled",
+	"description": "Etkileşimli, sembolik tarot açılımı. Test modundayken yalnızca yöneticilere görünür.",
+	"textdomain": "skyra-tarot",
+	"supports": { "html": false, "multiple": false, "reusable": false, "align": [ "wide", "full" ] },
+	"attributes": { "align": { "type": "string", "default": "wide" } },
+	"editorScript": "skyra-tarot-editor",
+	"style": "skyra-tarot",
+	"viewScript": [ "skyra-tarot-engine", "skyra-tarot" ],
+	"render": "file:./render.php"
+}

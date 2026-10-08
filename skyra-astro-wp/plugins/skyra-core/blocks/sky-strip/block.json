@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/sky-strip",
+	"title": "Canlı gökyüzü şeridi",
+	"category": "skyra",
+	"icon": "star-half",
+	"description": "Hero altında o anki Güneş, Ay ve Ay fazı verisi.",
+	"textdomain": "skyra",
+	"attributes": {
+		"link": {
+			"type": "string",
+			"default": "#bugun"
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}
