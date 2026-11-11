@@ -1,0 +1,200 @@
+/* Kaesu Film Atölyesi · ortak tasarım sistemi
+   Bütün sayfalar bu dosyayı kullanır. Renk, font, ızgara ve yazı ölçeği yalnızca burada tanımlıdır. */
+
+/* ---------- Fontlar (gömülü, OFL lisanslı) ---------- */
+@font-face { font-family: "Nunito"; src: url(fonts/Nunito-400.ttf); font-weight: 400; }
+@font-face { font-family: "Nunito"; src: url(fonts/Nunito-600.ttf); font-weight: 600; }
+@font-face { font-family: "Nunito"; src: url(fonts/Nunito-700.ttf); font-weight: 700; }
+@font-face { font-family: "Nunito"; src: url(fonts/Nunito-800.ttf); font-weight: 800; }
+@font-face { font-family: "Nunito"; src: url(fonts/Nunito-900.ttf); font-weight: 900; }
+@font-face { font-family: "Fraunces"; src: url(fonts/Fraunces-600.ttf); font-weight: 600; }
+@font-face { font-family: "Fraunces"; src: url(fonts/Fraunces-800.ttf); font-weight: 800; }
+@font-face { font-family: "Fraunces"; src: url(fonts/Fraunces-900.ttf); font-weight: 900; }
+
+/* ---------- Renkler ----------
+   Her film: --dark (yazı ve zemin, siyah-beyazda koyu gri), --mid, --light (açık zemin), --accent.
+   Koyu tonlar siyah-beyaz baskıda beyaz yazıyla okunacak kadar koyu seçildi. */
+:root {
+  --ink: #16161d;
+  --ink-soft: #3d3d48;
+  --paper: #ffffff;
+  --line: #9a9aa6;
+  --camp-dark: #22223b;
+  --camp-light: #f2f0ea;
+
+  --s1: 3mm; --s2: 5mm; --s3: 8mm; --s4: 12mm; --s5: 18mm;   /* boşluk ölçeği */
+  --margin: 12mm;                                            /* güvenli kenar (yazıcı kesmez) */
+}
+.t-truman { --dark: #0f3460; --mid: #2f7bc4; --light: #e3effa; --accent: #f2b705; }
+.t-io2    { --dark: #3b1e61; --mid: #8a4fd0; --light: #f1e9fb; --accent: #f77f00; }
+.t-wonder { --dark: #101a3a; --mid: #3a4f9a; --light: #e8ebf6; --accent: #e9a800; }
+.t-zoo    { --dark: #0d4448; --mid: #2a8a84; --light: #e2f2ef; --accent: #e07a2e; }
+.t-soul   { --dark: #4a1238; --mid: #a63d6b; --light: #f8e8ef; --accent: #e3a72f; }
+.t-camp   { --dark: #22223b; --mid: #4a4e69; --light: #f2f0ea; --accent: #c9822b; }
+
+/* ---------- Sayfa ---------- */
+@page { size: A4 portrait; margin: 0; }
+@page land { size: A4 landscape; margin: 0; }
+@page flow { size: A4 portrait; margin: 11mm 12mm 11mm 12mm; }
+
+* { box-sizing: border-box; }
+html { font-family: "Nunito", sans-serif; font-size: 11pt; color: var(--ink); line-height: 1.3; }
+body { margin: 0; }
+h1, h2, h3, h4, p { margin: 0; }
+
+.sheet { position: relative; width: 210mm; height: 297mm; overflow: hidden; break-after: page; background: var(--paper); }
+.sheet.land { page: land; width: 297mm; height: 210mm; }
+.sheet:last-child { break-after: auto; }
+.flowpage { page: flow; break-after: page; }
+.flowpage:last-child { break-after: auto; }
+
+/* ---------- Yazı ölçeği (pt) ---------- */
+.f-xs { font-size: 9pt; } .f-s { font-size: 11pt; } .f-m { font-size: 14pt; } .f-l { font-size: 20pt; }
+.f-xl { font-size: 28pt; } .f-2xl { font-size: 40pt; } .f-3xl { font-size: 54pt; } .f-4xl { font-size: 80pt; }
+.serif { font-family: "Fraunces", serif; }
+.caps { letter-spacing: 0.12em; font-weight: 800; }
+
+/* ---------- Ortak başlık: kamp etiketi ---------- */
+.kicker { font-weight: 800; letter-spacing: 0.14em; font-size: 11pt; }
+.chip { display: inline-block; background: var(--dark); color: #fff; border-radius: 2mm; padding: 1.2mm 3mm; font-weight: 800; letter-spacing: 0.1em; }
+.chip.light { background: #fff; color: var(--dark); }
+
+/* Motif bandı: SVG kutuyu doldurur */
+.band { position: absolute; left: 0; top: 0; width: 100%; overflow: hidden; background: var(--dark); }
+.band svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.scrim { position: absolute; background: var(--dark); color: #fff; border-radius: 3mm; padding: 3mm 5mm; }
+
+/* Kamp şeridi: beş film rengi */
+.stripe { display: flex; height: 3mm; }
+.stripe span { flex: 1; }
+.stripe .c1 { background: #2f7bc4; } .stripe .c2 { background: #8a4fd0; } .stripe .c3 { background: #101a3a; }
+.stripe .c4 { background: #2a8a84; } .stripe .c5 { background: #a63d6b; }
+
+.footer { position: absolute; left: var(--margin); right: var(--margin); bottom: 8mm; font-size: 9pt; color: var(--ink-soft); }
+.footer .stripe { margin-bottom: 2mm; }
+
+/* ---------- 1. Günün afişi ---------- */
+.poster .band { height: 105mm; }
+.poster .badge { left: var(--margin); bottom: 10mm; top: auto; }
+.poster .badge .kicker { color: #fff; opacity: 0.95; }
+.poster .badge .day { font-family: "Fraunces"; font-weight: 900; font-size: 64pt; line-height: 1; margin-top: 1mm; }
+.poster .body { position: absolute; top: 117mm; left: var(--margin); right: var(--margin); }
+.poster .film { font-family: "Fraunces"; font-weight: 800; font-size: 34pt; color: var(--dark); line-height: 1.05; }
+.poster .tema { margin-top: 4mm; font-size: 16pt; color: var(--ink-soft); }
+.poster .tema .chip { font-size: 16pt; margin-right: 3mm; }
+.poster .rule { height: 1.2mm; width: 40mm; background: var(--accent); margin: 9mm 0 6mm; }
+.poster .label { font-weight: 900; letter-spacing: 0.14em; font-size: 17pt; color: var(--dark); }
+.poster .soru { font-family: "Fraunces"; font-weight: 800; font-size: 50pt; line-height: 1.08; color: var(--ink); margin-top: 4mm; }
+
+/* ---------- Kesim ızgaraları (A6 × 4, A5 × 2) ---------- */
+.grid4 { position: absolute; inset: 0; }
+.cell { position: absolute; width: 105mm; height: 148.5mm; padding: 8mm 8mm 7mm; }
+.cell.c0 { left: 0; top: 0; } .cell.c1 { left: 105mm; top: 0; }
+.cell.c2 { left: 0; top: 148.5mm; } .cell.c3 { left: 105mm; top: 148.5mm; }
+.cut-v { position: absolute; left: 105mm; top: 0; height: 297mm; border-left: 0.3mm dashed #6b6b78; }
+.cut-h { position: absolute; top: 148.5mm; left: 0; width: 210mm; border-top: 0.3mm dashed #6b6b78; }
+.scissor { position: absolute; width: 6mm; height: 6mm; }
+.cell2 { position: absolute; left: 0; width: 210mm; height: 148.5mm; padding: 9mm 10mm 8mm; }
+.cell2.c0 { top: 0; } .cell2.c1 { top: 148.5mm; }
+
+/* ---------- 2. Not kartı ---------- */
+.card { position: relative; height: 100%; display: flex; flex-direction: column; }
+.card > *, .col > * { flex-shrink: 0; }
+.col { display: flex; flex-direction: column; flex: 1; }
+.card .head { position: relative; height: 21mm; border-radius: 3mm; overflow: hidden; background: var(--dark); flex: none; }
+.card .head svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.card .head .scrim { left: 2.5mm; bottom: 2.5mm; padding: 1.4mm 3mm; border-radius: 2mm; font-size: 11pt; font-weight: 800; }
+.card .lbl { font-weight: 900; letter-spacing: 0.1em; font-size: 11pt; color: var(--dark); margin-top: 3.5mm; }
+.card .task { font-size: 11.5pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+.card .box { margin-top: 3mm; border: 0.4mm solid var(--dark); border-radius: 2.5mm; padding: 1.8mm 3mm 0; flex: 1 0 auto; }
+.card .box .lbl { margin-top: 0; }
+.card .note { font-size: 11pt; color: var(--ink-soft); margin-top: 2mm; font-style: normal; }
+.lines { margin-top: 1mm; }
+.lines div { height: 7.4mm; border-bottom: 0.25mm solid var(--line); }
+
+/* ---------- 3. İkilem tabelası ---------- */
+.dilemma .letter { position: absolute; left: 14mm; top: 38mm; width: 124mm; height: 136mm; background: var(--dark); color: #fff; border-radius: 6mm;
+  font-family: "Fraunces"; font-weight: 900; font-size: 330pt; line-height: 136mm; text-align: center; }
+.dilemma .side { position: absolute; left: 150mm; right: 14mm; top: 38mm; }
+.dilemma .side .kicker { color: var(--dark); font-size: 14pt; }
+.dilemma .side .head { font-family: "Fraunces"; font-weight: 800; font-size: 44pt; line-height: 1.04; margin-top: 4mm; color: var(--ink); }
+.dilemma .side .sub { font-size: 19pt; line-height: 1.25; margin-top: 6mm; color: var(--ink); font-weight: 600; }
+.dilemma .band { height: 26mm; }
+.dilemma .band .scrim { left: 14mm; top: 5mm; font-size: 14pt; font-weight: 800; letter-spacing: 0.08em; padding: 2mm 4mm; }
+.dilemma .q { position: absolute; left: 14mm; right: 14mm; bottom: 10mm; font-size: 16pt; color: var(--ink-soft); font-weight: 700; }
+
+/* ---------- Kamp afişleri ---------- */
+.camp-title { font-family: "Fraunces"; font-weight: 900; color: var(--camp-dark); line-height: 0.95; }
+.legend { display: flex; gap: 4mm; }
+.legend .item { flex: 1; border-radius: 3mm; overflow: hidden; border: 0.4mm solid var(--dark); }
+.legend .item .sw { height: 16mm; position: relative; background: var(--dark); }
+.legend .item .sw svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.legend .item .tx { padding: 2mm 3mm; font-size: 12pt; font-weight: 800; color: var(--dark); }
+.legend .item .tx span { display: block; font-weight: 600; color: var(--ink); font-size: 11pt; }
+.pill { display: inline-block; border: 0.5mm solid var(--camp-dark); border-radius: 10mm; padding: 2mm 6mm; font-size: 18pt; font-weight: 800; margin: 0 3mm 3mm 0; }
+
+.rule-row { display: flex; align-items: flex-start; margin-bottom: 10mm; }
+.rule-row .num { flex: none; width: 28mm; height: 28mm; border-radius: 14mm; background: var(--camp-dark); color: #fff; font-family: "Fraunces"; font-weight: 900; font-size: 46pt; text-align: center; line-height: 28mm; margin-right: 8mm; }
+.rule-row .t { font-family: "Fraunces"; font-weight: 800; font-size: 34pt; line-height: 1.05; }
+.rule-row .s { font-size: 20pt; font-weight: 600; color: var(--ink-soft); margin-top: 2mm; }
+.bubble { border: 0.7mm solid var(--camp-dark); border-radius: 6mm; padding: 5mm 7mm; font-family: "Fraunces"; font-weight: 800; font-size: 31pt; margin-bottom: 7mm; }
+
+/* ---------- Beş Kapı ---------- */
+.door .band { height: 120mm; }
+.door .band .scrim { left: var(--margin); bottom: 10mm; }
+.door .band .scrim .n { font-family: "Fraunces"; font-weight: 900; font-size: 56pt; line-height: 1; }
+.door .body { position: absolute; top: 132mm; left: var(--margin); right: var(--margin); }
+.door .hero { font-family: "Fraunces"; font-weight: 900; font-size: 72pt; color: var(--dark); line-height: 1; }
+.door .film { font-size: 16pt; font-weight: 700; color: var(--ink-soft); margin-top: 2mm; }
+.door .choice { font-family: "Fraunces"; font-weight: 800; font-size: 44pt; line-height: 1.1; margin-top: 9mm; }
+.door .alt { font-size: 22pt; font-weight: 700; margin-top: 6mm; padding-top: 4mm; border-top: 0.5mm solid var(--line); }
+.door .q { position: absolute; left: var(--margin); right: var(--margin); bottom: 18mm; font-size: 18pt; font-weight: 700; color: var(--ink-soft); }
+
+/* ---------- Formlar ---------- */
+.form { padding: var(--margin); }
+.form-head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 0.6mm solid var(--camp-dark); padding-bottom: 3mm; margin-bottom: 4mm; }
+.form-head .ttl { font-family: "Fraunces"; font-weight: 900; font-size: 24pt; color: var(--camp-dark); line-height: 1; }
+.form-head .kicker { color: var(--camp-dark); font-size: 10pt; }
+.cb { display: inline-block; width: 4.6mm; height: 4.6mm; border: 0.4mm solid var(--ink); border-radius: 0.8mm; vertical-align: -0.9mm; background: #fff; }
+.cb.sm { width: 3.6mm; height: 3.6mm; vertical-align: -0.5mm; }
+.code { display: inline-block; vertical-align: middle; }
+.code i { display: inline-block; width: 7mm; height: 8mm; border: 0.4mm solid var(--ink); border-radius: 1mm; margin-right: 1mm; background: #fff; }
+.daybox i { display: inline-block; width: 6.5mm; height: 6.5mm; border: 0.4mm solid var(--ink); border-radius: 1mm; margin-right: 1mm; text-align: center; font-style: normal; font-weight: 800; line-height: 6mm; font-size: 10pt; }
+.fill { display: inline-block; border-bottom: 0.3mm solid var(--ink); min-width: 18mm; }
+.sec { font-weight: 900; letter-spacing: 0.1em; color: var(--camp-dark); font-size: 12pt; margin: 3.4mm 0 1.6mm; }
+table.lik { width: 100%; border-collapse: collapse; table-layout: fixed; }
+table.lik th { font-size: 9.5pt; hyphens: manual; font-weight: 800; text-align: center; padding: 1mm; vertical-align: bottom; line-height: 1.1; }
+table.lik td { border-top: 0.25mm solid var(--line); padding: 1.5mm 1mm; font-size: 11pt; vertical-align: middle; }
+table.lik td.c { text-align: center; }
+table.lik tr:nth-child(even) td { background: #f3f3f6; }
+table.plain { width: 100%; border-collapse: collapse; table-layout: fixed; }
+table.plain th, table.plain td { border: 0.3mm solid var(--line); padding: 1.2mm 2mm; text-align: left; vertical-align: top; font-size: 10pt; }
+table.plain th { background: #ececf1; font-weight: 800; }
+.q-open { margin-top: 3mm; }
+.form .lines div { height: 7mm; }
+.q-open .qt { font-weight: 800; font-size: 11pt; }
+
+/* ---------- Moderatör kağıdı (akışlı sayfa) ---------- */
+.mod { font-size: 10.6pt; line-height: 1.3; }
+.mod .mhead { position: relative; height: 17mm; border-radius: 3mm; overflow: hidden; background: var(--dark); margin-bottom: 3mm; }
+.mod .mhead svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.mod .mhead .scrim { left: 3mm; top: 2.5mm; padding: 1.5mm 3.5mm; }
+.mod .mhead .scrim b { font-family: "Fraunces"; font-weight: 900; font-size: 15pt; }
+.mod .mhead .side { position: absolute; right: 3mm; top: 4mm; background: #fff; color: var(--dark); border-radius: 2mm; padding: 1.2mm 3mm; font-weight: 900; letter-spacing: 0.1em; font-size: 10pt; }
+.mod h3 { display: none; }
+.mod p { margin: 0 0 1.6mm; }
+.mod strong { color: var(--dark); font-weight: 800; }
+.mod ol, .mod ul { margin: 0 0 1.6mm; padding-left: 5mm; }
+.mod li { margin-bottom: 0.6mm; }
+.mod table { width: 100%; border-collapse: collapse; margin: 1mm 0 2.4mm; }
+.mod th, .mod td { border: 0.25mm solid var(--line); padding: 1.1mm 1.8mm; text-align: left; vertical-align: top; }
+.mod th { background: var(--light); font-weight: 800; }
+.mod hr { display: none; }
+.mod .fill { min-width: 26mm; }
+.mod .notes { margin-top: 3mm; font-weight: 800; color: var(--dark); }
+.mod .cb { width: 3.6mm; height: 3.6mm; vertical-align: -0.6mm; margin-right: 0.4mm; }
+.mod.gold h2 { font-family: "Fraunces"; font-weight: 900; font-size: 22pt; color: var(--camp-dark); margin-bottom: 1mm; }
+.mod.gold { font-size: 12pt; line-height: 1.35; }
+.mod.gold ul { list-style: none; padding-left: 0; }
+.mod.gold ul li { display: inline-block; border: 0.35mm solid var(--camp-dark); border-radius: 4mm; padding: 1mm 3.5mm; margin: 0 2mm 2mm 0; font-weight: 700; }
+.mod.gold ol li { margin-bottom: 1.2mm; }

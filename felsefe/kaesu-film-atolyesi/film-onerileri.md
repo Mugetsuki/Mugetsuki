@@ -22,6 +22,7 @@ Hedef grup: 11–17 yaş, karışık ortaokul–lise · Kamp: 5 gün, her gün b
 | [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md) | Aynı program, model B ile (her gün 2–3 durak). Sonunda "B mi, C mi?" karşılaştırması |
 | [moderator-kagidi.md](moderator-kagidi.md) | Moderatörün altın kuralları ve her gün için tek sayfalık (ön-arka) yönetim kağıdı, gözlem alanıyla |
 | [olcme-degerlendirme.md](olcme-degerlendirme.md) | Anket, çıkış kartı, "Felsefe Her Yerde" görevi, gözlem rubriği, kartpostal, etik not ve veli onay formu, başarı ölçütleri ve kamp sonu rapor şablonu |
+| [gorseller/](gorseller/README.md) | Yazdırmaya hazır görsel kit (PDF): günlük afişler, not kartları, ikilem tabelaları, kamp afişleri, Beş Kapı kartları, bütün formlar ve moderatör kağıdı. Baskı talimatı README'de |
 
 ### Belgede geçen kavramlar
 
