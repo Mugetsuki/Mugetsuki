@@ -14,6 +14,15 @@ Hedef grup: 11–17 yaş, karışık ortaokul–lise · Kamp: 5 gün, her gün b
 4. **Bölüm 4**'te her filmin ayrıntılı modülü var: kilit anlar, atlanacak sahneler, durma noktası, sorular ve kapanış ikilemi. Önce programdaki 5 film, ardından yedek filmler geliyor.
 5. **Bölüm 5**'te ısınma için kısa filmler var.
 
+**Kampta kullanılacak ek dosyalar** (bu belgeyle aynı klasörde):
+
+| Dosya | Ne işe yarar |
+|---|---|
+| [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) | Önerilen model C için 5 günün okunarak yönetilebilir senaryosu: dakika dakika akış, öğrencilere söylenecek hazır metinler, duraklar, enerji oyunları, "şu olursa ne yaparım" kutuları |
+| [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md) | Aynı program, model B ile (her gün 2–3 durak). Sonunda "B mi, C mi?" karşılaştırması |
+| [moderator-kagidi.md](moderator-kagidi.md) | Moderatörün altın kuralları ve her gün için tek sayfalık (ön-arka) yönetim kağıdı, gözlem alanıyla |
+| [olcme-degerlendirme.md](olcme-degerlendirme.md) | Anket, çıkış kartı, "Felsefe Her Yerde" görevi, gözlem rubriği, kartpostal, etik not ve veli onay formu, başarı ölçütleri ve kamp sonu rapor şablonu |
+
 ### Belgede geçen kavramlar
 
 | Kavram | Anlamı |
