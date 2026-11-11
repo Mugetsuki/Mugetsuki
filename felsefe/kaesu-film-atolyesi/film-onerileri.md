@@ -375,7 +375,7 @@ Seçim önerisi: Ortaokul için **The Present** ve **La Luna**, lise için **Ali
 
 ### 2. Ters Yüz 2
 
-- **Neden:** Riley 13 yaşında, yani grubun tam ortasında. Ortaokullu için güncel bir deneyim, liseli için yakın bir geçmiş. Kimlik, kaygı ve arkadaşlık bu yaşın en yakıcı konuları. Kullanıcının önceki çocuk atölyesindeki Prindle *Inside Out* modülünün doğal devamı. Felsefi olarak benlik meselesine (Locke, Hume) kapı açar.
+- **Neden:** Riley 13 yaşında, yani grubun tam ortasında. Ortaokullu için güncel bir deneyim, liseli için yakın bir geçmiş. Kimlik, kaygı ve arkadaşlık bu yaşın en yakıcı konuları. Prindle'ın 5–8 yaş için hazırladığı *Inside Out* modülünün bu yaşa uygun doğal devamı. Felsefi olarak benlik meselesine (Locke, Hume) kapı açar.
 - **Kamp için:** İkinci gün. Kaygı sahnesi öncesinde kısa uyarı. Duyguların konuşulabildiği bir güven ortamı gerektirir.
 
 ### 3. Zootropolis
