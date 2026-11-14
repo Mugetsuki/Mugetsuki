@@ -13,3 +13,4 @@ Bu afişler yalnızca **moderatör kitapçığında**, filmi tanımak için kü�
 | `gun4-zoo.jpg` | Zootopia (2016) | https://en.wikipedia.org/wiki/File:Zootopia_(movie_poster).jpg |
 | `gun5-soul.jpg` | Soul (2020) | https://en.wikipedia.org/wiki/File:Soul_(2020_film)_poster.jpg |
 | `yedek-gun2-robot.jpg` | The Wild Robot (2024), yedek film | https://en.wikipedia.org/wiki/File:The_Wild_Robot_poster.jpg |
+| `yedek-gun4-12adam.jpg` | 12 Angry Men (1957), yedek film | https://en.wikipedia.org/wiki/File:12_Angry_Men_(1957_film_poster).jpg (Wikimedia Commons) |

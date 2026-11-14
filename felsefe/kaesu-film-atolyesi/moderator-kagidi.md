@@ -531,8 +531,9 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 | Yedek film | Yerine geçtiği gün | Asıl filmden farkı | Ne zaman seçilir |
 |---|---|---|---|
 | Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Bana verilen bir şey ne zaman benim olur?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
+| 12 Kızgın Adam | 4. gün (Toplum) | “Eşitlik” yerine **başka bir ilk cevabı** sınar: “Kimseyle ters düşmemek.” Soru: “Bir grubun verdiği karar ne zaman adil olur?” | Lise ağırlıklı grupta, ya da Başlangıç yapraklarında “herkesle iyi geçinmek” cevabı sıksa |
 
-*Diğer yedek filmler (12 Kızgın Adam, WALL-E, Küçük Prens ve 1. gün için bir yedek) onaydan sonra eklenecek.*
+*Sıradaki yedekler: WALL-E (5. gün), Küçük Prens (3. gün), Lego Filmi (1. gün).*
 
 **Yedek film gösterilirse yapılacaklar:**
 1. **Rozet:** `rozet-yapragi.pdf`'ten yedek filmin rozetini kes. Başlangıç ve Varış yapraklarındaki patikada o günün rozetinin üstüne, rozet rozete oturacak şekilde yapıştır. Etiket kâğıdına basıldıysa yapıştırıcı gerekmez.
@@ -632,3 +633,95 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 6. **Felsefe köşesi:** “Aristoteles ‘Yapa yapa o oluruz’, Sartre ‘Bizden yapılanla ne yaptığımız önemli’ demiş. Hangisine yakınsın?”
 
 **Hassas içerik:** “Gerçek anne” ifadesini kullanma, gelirse genelleştir: “Birini anne ya da baba yapan ne?” “Kanında var” sözünde “aile = kan” varsayımına katılma. Kimsenin etiketini (tembel, yaramaz) örnek yapma. Kapı ikileminde A'dakilerden kişisel gerekçe isteme. Doğada ölüm şakaları var. Final duygusal, arayı kısaltma.
+
+---
+
+## YEDEK · 4. GÜN · 12 Kızgın Adam
+
+### ÖN YÜZ
+
+**IMDb:** <https://www.imdb.com/title/tt0050083/>
+
+- **Yerine geçtiği gün:** 4. gün (Toplum). Zootropolis yerine.
+- **Başka bir ilk cevap:** Bu yedek “eşitlik” cevabını **sınamaz**. Sınadığı cevap: “İyi bir hayat, kimseyle ters düşmeden, herkesle uyum içinde yaşanan hayattır.”
+- **Aynı durak, farklı yol:** Zootropolis gruplar hakkında yargıyı sorar. Bu film grup olarak yargılamayı sorar: çoğunluk, şüphe, tek başına itiraz.
+- **Günün kavram sorusu:** Bir grubun verdiği karar ne zaman adil olur? Çoğunluğun istemesi yeter mi?
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için herkesle uyum içinde olmak mı gerekir, yoksa bazen tek başına “hayır” diyebilmek mi?
+- **İzleme görevi:** Kimin oyu neden değişiyor? Oyunu değiştiren birini seç: Onu kanıt mı ikna etti, başka bir şey mi?
+
+[[ÜST BLOK SONU]]
+
+**Film yalnızca köprü.** Jüri odası = sınıf, takım, arkadaş grubu. 11'e 1 = grup sohbetinde herkesin aynı şeyi söylediği an. 8 numaranın (tek başına “suçsuz” oyu veren jüri üyesi) “Konuşalım” demesi = çoğunluğa “Bir dakika” demek. Tartışma davanın ayrıntılarına kayarsa: “Film ‘kim yaptı’yı hiç cevaplamıyor. Senin bir grupta tek kaldığın an?”
+
+**Zaman çizelgesi**
+
+| Bölüm | C | B |
+|---|---|---|
+| Dünkü gün kartı, hayattan sorular | 9 dk | 9 dk |
+| İzleme görevi, “jüri” ve “makul şüphe”, hassas içerik notu | 6 dk | 6 dk |
+| Film (96 dk, siyah-beyaz) + duraklar | 1 × 5 dk | 2 × 6 dk |
+| Ara + “Gruplan!” | 10 dk | 10 dk |
+| Tartışma | 60 dk | 60 dk |
+| Köprü ve hayattan soru görevi | 3 dk | 3 dk |
+| **Toplam** | **~3 sa 9 dk** | **~3 sa 16 dk** |
+
+**Durma noktaları**
+
+| C (1 yazma durağı) | B (2 konuşmalı durak) |
+|---|---|
+| **1. Bıçak sahnesinden sonraki gizli oylamada ilk kez biri oyunu değiştirince.** Yaz: “9 numara neden oyunu değiştirdi?” Sor: “9 numara (oyunu ilk değiştiren yaşlı jüri üyesi) emin olduğu için değil, 8 numaranın tek başına durmasına saygı duyduğu için değiştirdiğini söylüyor. Bir fikre, kim söylediği için mi katılırız, ne söylendiği için mi?” | **1.** Aynı yer, aynı soru. |
+| | **2. 10 numaranın (sanığı “bu insanlar” diye yargılayan jüri üyesi) konuşmasında herkes ona sırtını dönünce.** “Kimse ‘sus’ demedi, sadece sırtlarını döndüler. Bir grup kötü bir söze nasıl itiraz edebilir? Sessiz kalmak da bir cevap mı?” (su molası) |
+
+**Dünden köprü (açılış):** “Dün bir kişiye nasıl davrandığımızı konuştuk. Ama bazen kararı bir grup verir. Bugün on iki kişinin, tanımadıkları bir genç hakkında vereceği karara bakacağız.”
+
+**Soruların altındaki soru (dk 5–12):** “7 numara (maça yetişmek için acele eden jüri üyesi) neden oyunu değiştirdi?” sorusu “Doğru bir kararı yanlış bir sebeple vermek onu daha az doğru yapar mı?” olur. Ortak soru: **Bir grubun verdiği karar ne zaman adil olur?**
+
+**Kapanış ikilemi: okulun kopya kuralı (dk 42–50).** “Okulda kopya çekildi, kim olduğu kesin bilinmiyor. Müdür bundan sonra hep geçerli olacak bir kural seçmeli.”
+- **A:** Kesin kanıt yoksa ceza yok. Suçsuz biri asla ceza almaz, ama kopya çekenler bazen kaçar.
+- **B:** Güçlü şüphe yeterli. Kopya çekenler neredeyse hiç kaçmaz, ama arada bir suçsuz biri ceza alır.
+- **Ters köşe, A'ya:** “Kopya çekenler kaçtıkça dürüst çalışanlara yapılan da haksızlık değil mi?”
+- **Ters köşe, B'ye:** “Ceza alan o suçsuz kişi sen olsan? Ya da en yakın arkadaşın?”
+
+### ARKA YÜZ
+
+**Soru merdiveni (dk 12–42).** Öğrenci şunu derse, sen şunu sor.
+
+**Basamak 1: Filmden kavrama.** “Oda 11'e 1'di. Sıcak vardı, maç bileti vardı, acele vardı. 8 numara ‘Emin değilim, konuşalım’ dedi. Bir kişinin ‘bekleyin’ demesi adil miydi, yoksa herkesi oyalamak mı?”
+- *“Adildi, hayat söz konusu.”* “Söz konusu sınıfın gezi yeri olsaydı? Kararın önemine mi bağlı?”
+- *“Oyalamaktı.”* “Sınıfta herkes bir arkadaşınızın bir şeyi aldığını söylüyor, sen emin değilsin. Susar mısın?”
+- *“Haklı çıktı ki.”* “Yanıldığı anlaşılsaydı, ‘bekleyin’ demesi yine doğru muydu?”
+- *“Herkes düşünüyorsa doğrudur.”* “Kaç kişinin düşündüğü bir şeyi doğru yapar mı?” (1. günle köprü)
+
+**Basamak 2: Düşünce deneyi, çizgi deneyi.** “Üç çizgiden hangisi örnekle aynı uzunlukta? Senden önceki yedi kişi ‘B’ diyor. Sen açıkça C'yi görüyorsun. Sıra sende.”
+- *“C derim.”* “Yedi kişi yanılıyor, sen mi haklısın? Ne zaman kendi gözümüze, ne zaman gruba güvenmeliyiz?”
+- *“B derim.”* “Bu yalan mı, uyum mu? Çizgi yerine bir arkadaşın hakkında karar verilseydi?”
+- *“Önce sorarım.”* “8 numara da önce ‘Konuşalım’ demişti. Soru sormak itirazdan neden kolay?”
+- *“Böyle olmaz.”* “Asch'ın deneyinde katılımcıların dörtte üçe yakını en az bir kez gruba uydu. Neden?”
+
+**Basamak 3: Kamp sorusuna bağlantı.** “‘İyi bir hayat kimseyle ters düşmediğin hayattır’ diyoruz. 8 numara o gün bütün odayla ters düştü. O gün kötü bir gün müydü?”
+- *“Kötü, herkes kızdı.”* “Sussaydı ve bir genç haksız ceza alsaydı rahat uyur muydu? Huzurlu olmak ile iyi yaşamak aynı mı?”
+- *“İyi, doğruyu savundu.”* “Herkesle ters düşen hep mi haklıdır?”
+- *“Uyum da önemli.”* “Uyum ne zaman korunmalı, ne zaman bozulmalı? Bir ölçüt?”
+- *“Bilmiyorum.”* “Bir grupta tek başına ‘hayır’ dedin mi, ya da diyemedin mi?”
+
+**Basamak 4: Düşünce deneyi, oylamayla bulunan kopyacı.** “Bir sınıf kopyacıyı oylayarak seçiyor: sessiz, arkadaşı az bir öğrenci. Başka bir sınıfta öğretmen yazı-tura atıyor. İkisinde de seçilen gerçekten kopya çekmiş. İki karar da adil miydi?”
+- *“Adildi, doğru kişi bulundu.”* “Kopya çekmemiş olsaydı aynı oylama ona ceza verecekti. Şansla doğru sonuç adil mi?”
+- *“Oylama adil.”* “Neden onu seçtiler: kanıt mı, ‘arkadaşı az’ olması mı?”
+- *“İkisi de değil.”* “Adil karar için neler gerekir? Tahtaya liste: kanıt, dinlemek, itiraz hakkı, acele etmemek.”
+- *“Nasıl bulunduğu önemli değil.”* “Yarın aynı oylama seni seçerse?”
+
+**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘kimseyle ters düşmemek’ cevabını sınadık. Ne ekliyoruz?” Örnek: “Uyum değerli, ama birinin haksızlığa uğramasıyla kurulan uyum değil.” Grubun cümlesini 4. gün kartına yaz.
+
+**Gün yaprağı (dk 55–60):** 12 Kızgın Adam yaprağı.
+
+**Yarına köprü (3 dk):** “Gerçek, kendin olmak, iyilik, adalet: dört parça topladık. Hepsine sahip bir hayat bile neden yaşamaya değer? Yarın son günümüz.” **Hayattan soru görevi:** “Kampta bir grubun birlikte karar verdiği bir an yakala. Herkes dinlendi mi?”
+
+**Tıkanırsam**
+1. **Herkes A'da:** “Biri her gün çantanızdan bir şey alıyor, kanıt yok, ceza yok. Bu düzende yaşar mısınız?”
+2. **Herkes B'de:** “Şüphelenilen hep aynı tip çocuk olursa? Güçlü şüphe bazen önyargı olabilir mi?”
+3. **Herkes “çoğunluk adildir”:** “Yedi kişi yanılabiliyorsa otuz kişi de yanılabilir mi?”
+4. **Herkes “8 numara haklıydı”:** “İnatçı biri ile 8 numarayı nasıl ayırt ederiz?”
+5. **Sessizlik:** İkili konuşma (2 dk): “Bir grupta sustuğun ya da tek başına itiraz ettiğin bir an.”
+6. **Felsefe köşesi:** “2.400 yıl önce 500 kişilik bir jüri Sokrates'i oy çokluğuyla ölüme mahkûm etti. Adil miydi?”
+
+**Hassas içerik:** Cinayet davası ve idam konuşulur, şiddet gösterilmez. Sanığın babası tarafından dövüldüğü anlatılır, paylaşım gelirse yumuşakça karşıla. 10 numaranın önyargılı konuşması gerçek gruplara taşınırsa kavram düzeyinde tut. Kopyacı deneyinde kamptan gerçek kimseyi örnek gösterme. Sigara dönemin normu.

@@ -191,7 +191,7 @@ Ayrıntı: [kamp-omurgasi.md](kamp-omurgasi.md) ve [moduller/](moduller/). Okuna
 
 **Günün iskeleti:** açılış (dünkü gün kartı, hayattan sorular, izleme görevi) → film ve duraklar → 10 dk ara ve enerji oyunu → 60 dk tartışma (ilk tepki, soruların altındaki soru, soru merdiveni, ikilem, kamp sorusuna dönüş, defter) → 3 dk köprü. Her gün yaklaşık 3–3,5 saat.
 
-**Lise ağırlıklı bir grup gelirse:** 4. günde Zootropolis yerine **12 Kızgın Adam** gösterilebilir. Yeni derinlikteki modülü Parça 2'de hazırlanacak.
+**Lise ağırlıklı bir grup gelirse:** 4. günde Zootropolis yerine **12 Kızgın Adam** gösterilebilir: [moduller/yedek-gun4-12-kizgin-adam.md](moduller/yedek-gun4-12-kizgin-adam.md).
 
 ## 3. Hassas İçerik: Tamamı İzlenen Filmler İçin Karar
 
@@ -388,8 +388,10 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
   3. *Kış fırtınası:* Birbirini avlayan hayvanlar Roz'un sığınağında ateşkes yapar.
 - **Atlanacak / dikkat edilecek sahneler:** Atlanacak sahne yok. Hayvan ölümleri (ezilen yuvadaki yumurtalar dahil) ve küçük bir sahnede ölüm şakaları var. Ortaokul için uygun.
 
-#### 12 Kızgın Adam (12 Angry Men, Sidney Lumet) · 4. günün yerine geçebilir (lise ağırlıklı grupta)
+#### 12 Kızgın Adam (12 Angry Men, Sidney Lumet) · 4. günün yerine geçer (lise ağırlıklı grupta)
 
+- **Yeni derinlikte modül (aynı durak, farklı yol):** [moduller/yedek-gun4-12-kizgin-adam.md](moduller/yedek-gun4-12-kizgin-adam.md). Sorular, duraklar, düşünce deneyleri ve ikilem orada. Görseller: `gorseller/pdf/yedek-gun4-adam-*`, gün yaprağı ve rozet.
+- **Başka bir ilk cevap:** Zootropolis “eşitlik” cevabını sınar. Bu film “İyi bir hayat kimseyle ters düşmediğin, herkesle uyum içinde olduğun hayattır” cevabını sınar. **Kavram sorusu:** “Bir grubun verdiği karar ne zaman adil olur?” Jüri odası yalnızca köprüdür: sınıf, takım, arkadaş grubu. Düşünce deneyleri insan üzerine kurulu (çizgi deneyi, oylamayla bulunan kopyacı), ikilem “okulun kopya kuralı”dır.
 - **IMDb:** https://www.imdb.com/title/tt0050083/ · Türkçe Vikipedi'deki adı: *12 Öfkeli Adam*
 - **Yıl / süre:** 1957 · 96 dk · siyah-beyaz · **Yaş sınırı:** O dönemin "Approved" belgesi (sonradan bazı listelerde G ya da derecelendirilmemiş) · Türkiye: doğrulanamadı
 - **Özet:** On iki jüri üyesi, babasını öldürmekle suçlanan 18 yaşındaki bir gencin kararını vermek için sıcak bir odaya kapanıyor. Mahkûmiyet idam demek ve oybirliği gerekiyor. İlk oylamada 11'e karşı 1 "suçlu" çıkıyor. Tek muhalif 8 numaralı jüri üyesi, diğerlerini kanıtları yeniden düşünmeye zorluyor.
@@ -399,15 +401,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
   2. *Bıçak sahnesi:* "Eşi benzeri olmayan" denen sustalı bıçağın aynısını cebinden çıkarıp masaya saplar.
   3. *10 numaranın önyargılı konuşması:* Sanığın "o insanlar"dan olduğunu söylerken diğer jüri üyeleri tek tek kalkıp ona sırtını döner.
   4. *Gözlük izleri:* Kadın tanığın burnundaki gözlük izleri üzerine tartışma.
-- **Durma noktası (yaklaşık ilk üçte bir):** Bıçak sahnesinden sonra yapılan gizli oylamada ilk kez bir jüri üyesi oyunu değiştirdiğinde. **Soru:** "Sen o odada olsaydın, şu an oyunu değiştirir miydin? Neden?" **Süre:** 5 dk. (Bu film Model B'ye de uyar: her yeni oylama turu doğal bir duraktır.)
 - **Atlanacak / dikkat edilecek sahneler:** Atlanacak sahne yok. Bir cinayet davası ve idam cezası konuşuluyor ama şiddet gösterilmiyor. 10 numaranın konuşması önyargı içerir, filmin merkezinde olduğu için atlanmaz. Neredeyse herkes sigara içiyor, dönemin normu olduğunu söyleyin. Siyah-beyaz ve tek mekân olduğu için ilk 5 dakikada direnç olabilir. İzleme görevi ("Kimin oyu neden değişiyor?") dikkat çeker.
-- **Sorular:**
-  - **Görev sorusu:** "Kesin bilmek" ile "makul şüphenin ötesinde bilmek" arasındaki fark ne?
-  - *Bilgi:* (1) Bir tanık yalan söylemiyorsa doğruyu mu söylüyordur? (2) Gerçekten kesin bildiğimiz bir şey var mı?
-  - *Çoğunluk ve önyargı:* (3) Çoğunluğa karşı çıkmak cesaret mi inat mı? Nasıl ayırt ederiz? (4) Kişisel deneyimden tamamen bağımsız bir yargı mümkün mü?
-  - *Adalet:* (5) Film sanığın suçsuz olduğunu hiç kanıtlamaz. Gerçek bir suçluyu serbest bırakmış olabilirler. Bu adalet mi? (6) Jüride hiç kadın ve farklı kökenden kimse yok. Bu adil bir yargılamayı etkiler mi?
-  - **Eğer'leme:** "Peki ya karar oybirliği değil, oy çokluğuyla verilseydi?"
-- **Kapanış ikilemi:** A sisteminde suçsuz kimse cezalandırılmıyor ama bazı suçlular serbest kalıyor. B sisteminde hiçbir suçlu kaçmıyor ama arada bir suçsuz biri ceza alıyor. Hangisi daha adil?
 
 #### Gattaca (Andrew Niccol) · Ana programa önerilmez, yalnızca 15+ lise grubu
 

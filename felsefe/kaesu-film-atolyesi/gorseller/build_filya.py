@@ -27,6 +27,7 @@ GUNLER = {
     5: dict(film="Soul", tema="Anlam", afis="gun5-soul.jpg", imdb="tt2948372", kunye="Pete Docter, Kemp Powers, 2020, 100 dk"),
 }
 YEDEK_KITAP = {
+    "12 Kızgın Adam": dict(gun=4, film="12 Kızgın Adam", tema="Toplum", afis="yedek-gun4-12adam.jpg", imdb="tt0050083", kunye="Sidney Lumet, 1957, 96 dk, siyah-beyaz"),
     "Vahşi Robot": dict(gun=2, film="Vahşi Robot", tema="Benlik", afis="yedek-gun2-robot.jpg", imdb="tt29623480", kunye="Chris Sanders, 2024, 102 dk"),
 }
 
@@ -69,7 +70,12 @@ def yedek_yaprak_robot():
                          "Kampta “Sen zaten böylesin” ya da “Ben böyle biriyim” dediğin veya duyduğun bir an. Gerçekten öyle mi? Yarın sabaha kadar yakalayıp buraya yaz.", "robot", yedek=True)
 
 
-ROZET_SIRASI = ["truman", "io2", "wonder", "zoo", "soul", "robot"]
+def yedek_yaprak_adam():
+    return yp.yaprak_gun(4, "12 Kızgın Adam", "Bir grubun verdiği karar ne zaman adil olur?",
+                         "Kampta bir grubun birlikte karar verdiği bir an: oyun seçimi, sıra, bir kural. Herkes dinlendi mi? Yarın sabaha kadar yakalayıp buraya yaz.", "adam", yedek=True)
+
+
+ROZET_SIRASI = ["truman", "io2", "wonder", "zoo", "soul", "robot", "adam"]
 ROZET_BILGI = {}
 
 
@@ -221,8 +227,9 @@ URUNLER = {
     "defter-yaprak-6-varis": ("Düşünce yolculuğum · Varış yaprağı", yp.yaprak_varis, 3),
     "defter-dusunce-yolculugum": ("Düşünce yolculuğum · bütün yapraklar", tum_defter, 10),
     "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
+    "defter-yaprak-yedek-gun4-12-kizgin-adam": ("Düşünce yolculuğum · yedek film · 12 Kızgın Adam", yedek_yaprak_adam, 1),
     "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
-    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 15),
+    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 17),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
 }

@@ -13,7 +13,7 @@ import re
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 MODULLER = ["gun1-truman.md", "gun2-ters-yuz-2.md", "gun3-mucize.md", "gun4-zootropolis.md", "gun5-soul.md"]
-YEDEKLER = ["yedek-gun2-vahsi-robot.md"]   # her yedek için senaryoya kısa ek
+YEDEKLER = ["yedek-gun2-vahsi-robot.md", "yedek-gun4-12-kizgin-adam.md"]   # her yedek için senaryoya kısa ek
 
 # Günlerin zaman dilimleri: (ad, dakika). "FILM" yer tutucusu duraklarla birlikte filmi temsil eder.
 GUNLER = {

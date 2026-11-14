@@ -1108,6 +1108,31 @@ Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller
 
 *Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
+## Yedek film · 4. günün yerine · 12 Kızgın Adam · Toplum
+
+**Künye:** *12 Angry Men* (Türkçe Vikipedi'deki adı *12 Öfkeli Adam*), Sidney Lumet, 1957, 96 dk, siyah-beyaz, o dönemin “Approved” belgesi · IMDb: https://www.imdb.com/title/tt0050083/
+
+Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun4-12-kizgin-adam.md](moduller/yedek-gun4-12-kizgin-adam.md). Moderatör kitapçığında “Yedek filmler” bölümü.
+
+- **Günün kavram sorusu:** Bir grubun verdiği karar ne zaman adil olur?
+- **İzleme görevi:** **“Kimin oyu neden değişiyor? Oyunu değiştiren birini seç: Onu kanıt mı ikna etti, başka bir şey mi?”**
+
+### Durak 1: Bıçak sahnesinden sonraki gizli oylamada ilk kez bir jüri üyesi oyunu değiştirip nedenini söyleyince (yaklaşık ilk üçte bir)
+
+**Süre:** 6 dk
+
+“9 numara (oyunu ilk değiştiren yaşlı jüri üyesi) sanığın suçsuz olduğundan emin olduğunu söylemiyor. 8 numaranın (tek başına ‘suçsuz’ oyu veren jüri üyesi) tek başına durmasına saygı duyduğunu ve daha çok dinlemek istediğini söylüyor. Bir fikre, kim söylediği için mi katılırız, ne söylendiği için mi?”
+
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+
+### Durak 2: 10 numaranın (sanığı “bu insanlar” diye yargılayan jüri üyesi) uzun konuşması sırasında diğerleri kalkıp ona sırtını dönünce (son üçte bir). Ön izlemede yerini işaretleyin.
+
+**Süre:** 6 dk
+
+“Kimse bağırmadı, kimse ‘sus’ demedi. Sadece kalkıp sırtlarını döndüler. Bir grup, kötü bir söze karşı nasıl itiraz edebilir? Sessiz kalmak da bir cevap olabilir mi?” (Su molası)
+
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+
 ---
 
 # B mi, C mi? Hangisini ne zaman seçmeli?

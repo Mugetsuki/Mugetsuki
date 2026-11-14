@@ -1037,6 +1037,23 @@ Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller
 
 *Önce 2 dakika sessiz yazma, sonra 2–3 kısa cevap, 1 dakika su ve tuvalet. Tartışma açılmaz. Uzatan olursa:* “Kartına yaz, tartışmada buna döneceğiz.”
 
+## Yedek film · 4. günün yerine · 12 Kızgın Adam · Toplum
+
+**Künye:** *12 Angry Men* (Türkçe Vikipedi'deki adı *12 Öfkeli Adam*), Sidney Lumet, 1957, 96 dk, siyah-beyaz, o dönemin “Approved” belgesi · IMDb: https://www.imdb.com/title/tt0050083/
+
+Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun4-12-kizgin-adam.md](moduller/yedek-gun4-12-kizgin-adam.md). Moderatör kitapçığında “Yedek filmler” bölümü.
+
+- **Günün kavram sorusu:** Bir grubun verdiği karar ne zaman adil olur?
+- **İzleme görevi:** **“Kimin oyu neden değişiyor? Oyunu değiştiren birini seç: Onu kanıt mı ikna etti, başka bir şey mi?”**
+
+### Durak 1: Bıçak sahnesinden sonraki gizli oylamada ilk kez bir jüri üyesi oyunu değiştirip nedenini söyleyince (yaklaşık ilk üçte bir)
+
+**Süre:** 5 dk
+
+**Yaz:** “9 numara neden oyunu değiştirdi?” **Sor (2–3 kısa cevap):** “9 numara (oyunu ilk değiştiren yaşlı jüri üyesi) sanığın suçsuz olduğundan emin olduğunu söylemiyor. 8 numaranın (tek başına ‘suçsuz’ oyu veren jüri üyesi) tek başına durmasına saygı duyduğunu ve daha çok dinlemek istediğini söylüyor. Bir fikre, kim söylediği için mi katılırız, ne söylendiği için mi?”
+
+*Önce 2 dakika sessiz yazma, sonra 2–3 kısa cevap, 1 dakika su ve tuvalet. Tartışma açılmaz. Uzatan olursa:* “Kartına yaz, tartışmada buna döneceğiz.”
+
 ---
 
 # B mi, C mi? Hangisini ne zaman seçmeli?

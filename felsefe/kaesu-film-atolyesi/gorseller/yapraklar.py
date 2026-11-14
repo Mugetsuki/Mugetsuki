@@ -16,6 +16,7 @@ ROZETLER = {
     "zoo": (4, "Zootropolis"),
     "soul": (5, "Soul"),
     "robot": (2, "Vahşi Robot"),
+    "adam": (4, "12 Kızgın Adam"),
 }
 ANA = ["truman", "io2", "wonder", "zoo", "soul"]
 
@@ -66,6 +67,8 @@ def _mini(key, u):
         g.append(kit._sparkle(0, -9, 7, "#3cc6e0"))
     elif key == "robot":
         g.append(kit.robot_mini())
+    elif key == "adam":
+        g.append(kit.adam_mini())
     return "".join(g)
 
 

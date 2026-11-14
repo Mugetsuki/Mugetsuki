@@ -36,11 +36,15 @@ Her yedek film kendi görselleriyle gelir. Yedek film gösterilirse o günün af
 |---|---|---|
 | `pdf/yedek-gun2-robot-afis.pdf` | Vahşi Robot (2. günün yerine): günün afişi | A4 dikey |
 | `pdf/yedek-gun2-robot-not-karti.pdf` | Filme özel izleme görevli not kartı (4 × A6) | A4 dikey, kesim çizgili |
-| `pdf/yedek-gun2-robot-ikilem.pdf` | Fabrika ayarı ikilemi: A ve B tabelaları | A4 yatay, 2 sayfa |
+| `pdf/yedek-gun2-robot-ikilem.pdf` | En baştan başlama kapısı ikilemi: A ve B tabelaları | A4 yatay, 2 sayfa |
 | `pdf/defter-yaprak-yedek-gun2-vahsi-robot.pdf` | Gün yaprağı | A4 dikey |
+| `pdf/yedek-gun4-adam-afis.pdf` | 12 Kızgın Adam (4. günün yerine): günün afişi | A4 dikey |
+| `pdf/yedek-gun4-adam-not-karti.pdf` | Filme özel izleme görevli not kartı (4 × A6) | A4 dikey, kesim çizgili |
+| `pdf/yedek-gun4-adam-ikilem.pdf` | Okulun kopya kuralı ikilemi: A ve B tabelaları | A4 yatay, 2 sayfa |
+| `pdf/defter-yaprak-yedek-gun4-12-kizgin-adam.pdf` | Gün yaprağı | A4 dikey |
 | `pdf/rozet-yapragi.pdf` | Rozet (bütün rozetlerle birlikte) | A4, %100 |
 
-Moderatör kitapçığının sonundaki “Yedek filmler” bölümünde her yedeğin ön-arka tam sayfası var. Diğer yedekler onaydan sonra eklenecek.
+Moderatör kitapçığının sonundaki “Yedek filmler” bölümünde her yedeğin ön-arka tam sayfası var. Hazır yedekler: Vahşi Robot (2. gün), 12 Kızgın Adam (4. gün). Sıradakiler: WALL-E (5. gün), Küçük Prens (3. gün), Lego Filmi (1. gün).
 
 ## Kamp geneli
 
@@ -62,7 +66,7 @@ Bu ürünler Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı #F
 | `pdf/defter-yaprak-1-gun1.pdf` … `defter-yaprak-5-gun5.pdf` | Her günün son 5 dakikası | A4, tek yüz | Her günden öğrenci başına 1 |
 | `pdf/defter-yaprak-6-varis.pdf` | 5. gün sonunda | 2 yaprak: 1–2. sayfa **çift yüz**, 3. sayfa tek yüz | Öğrenci başına 1 takım |
 | `pdf/defter-dusunce-yolculugum.pdf` | Bütün yapraklar sırayla (10 sayfa) | Arşiv ve önizleme için. Basarken tek tek dosyaları kullanın, çift yüz ayarı karışmasın. | 1 |
-| `pdf/defter-yaprak-yedek-gun2-vahsi-robot.pdf` | Yedek film kullanılırsa, o günün yaprağı yerine | A4, tek yüz | Gerekirse öğrenci başına 1 |
+| `pdf/defter-yaprak-yedek-*.pdf` | Yedek film kullanılırsa, o günün yaprağı yerine | A4, tek yüz | Gerekirse öğrenci başına 1 |
 
 **Bir arada tutmak:** Her çocuğa bir A4 şeffaf kapaklı telli dosya önerilir. Başlangıç yaprağı ilk sayfadır. Moderatör her akşam o günün yaprağını takar. Daha ucuz yol: karton kapak yaprağı ve kamp sonunda tek zımba.
 
@@ -76,7 +80,7 @@ Bu ürünler Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı #F
 
 - **Nasıl kullanılır:** Bir gün yedek film gösterilirse, o filmin rozetini kesikli çizgiden kesin. Başlangıç ve Varış yapraklarındaki patikada o günün rozetinin üstüne, rozet rozete oturacak şekilde yapıştırın. Parça, eski rozeti ve altındaki etiketi tamamen kapatır.
 - **Set mantığı:** Bir set, bir çocuğun Başlangıç ve Varış yaprakları içindir. Yani her rozetten 2 kopya.
-- **Bir A4'te kaç set var?** Sayfaya 48 parça sığıyor (6 sütun × 8 satır). Şu anki içerik 6 rozet (5 ana film ve Vahşi Robot), yani set başına 12 parça. Böylece **bir A4'te 4 set** çıkıyor. Bütün yedek filmler eklendiğinde (5 ana ve 5 yedek, set başına 20 parça) **bir A4'te 2 set** olacak. 20 çocuk için 10 A4 yeter.
+- **Bir A4'te kaç set var?** Sayfaya 48 parça sığıyor (6 sütun × 8 satır). Şu anki içerik 7 rozet (5 ana film, Vahşi Robot ve 12 Kızgın Adam), yani set başına 14 parça. Böylece **bir A4'te 3 set** çıkıyor. Bütün yedek filmler eklendiğinde (5 ana ve 5 yedek, set başına 20 parça) **bir A4'te 2 set** olacak. 20 çocuk için 10 A4 yeter.
 - **Baskı ipucu:** Rozet yaprağını **A4 etiket (sticker) kağıdına** basarsanız yapıştırıcı gerekmez. Kesip arkasındaki kâğıdı soyup yapıştırmanız yeter. Mat etiket kağıdı krem zemini daha doğru gösterir.
 
 ### Moderatör kitapçığı ve formlar

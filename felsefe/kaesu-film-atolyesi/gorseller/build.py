@@ -71,11 +71,18 @@ YEDEKLER = [
          A=("Kapıdan geçerim", "Temiz bir sayfadan, sıfırdan başlarım. Herkes beni yeniden tanır."),
          B=("Bugünkü hâlimle kalırım", "Geçmem. Bütün yaşadıklarımla, öğrendiklerimle ve sevdiklerimle kalırım."),
          hero="Roz", kapi="Kendisine verilenin üstüne kendi seçtiği biri oldu.", kapi_alt=None),
+    dict(n=4, key="adam", t="t-adam", film="12 Kızgın Adam", TEMA="TOPLUM", tema_alt="Çoğunluk ve adil karar",
+         soru="Bir grubun verdiği karar ne zaman adil olur?",
+         gorev="Kimin oyu neden değişiyor? Oyunu değiştiren birini seç: Onu kanıt mı ikna etti, başka bir şey mi?",
+         ikilem_q="Okulda kopya çekildi ama kimin çektiği kesin bilinmiyor. Müdür bundan sonra hep geçerli olacak bir kural seçmeli. Hangisi daha adil?",
+         A=("Kesin kanıt yoksa ceza yok", "Suçsuz biri asla ceza almaz, ama kopya çekenler bazen kaçar."),
+         B=("Güçlü şüphe yeterli", "Kopya çekenler neredeyse hiç kaçmaz, ama arada bir suçsuz biri ceza alır."),
+         hero="8 numara", kapi="Herkes aynı fikirdeyken “Emin değilim, konuşalım” dedi.", kapi_alt=None),
 ]
 BYKEY = {d["key"]: d for d in DAYS + YEDEKLER}
 
 # Motif hizalaması: dar şeritlerde motifin en karakteristik kısmı görünsün
-ALIGN = dict(truman="xMidYMid", io2="xMidYMid", wonder="xMidYMid", zoo="xMidYMax", soul="xMidYMax", robot="xMidYMid", camp="xMidYMid")
+ALIGN = dict(truman="xMidYMid", io2="xMidYMid", wonder="xMidYMid", zoo="xMidYMax", soul="xMidYMax", robot="xMidYMid", adam="xMidYMid", camp="xMidYMid")
 
 
 # --------------------------------------------------------------------------------------
@@ -289,7 +296,49 @@ def robot_mini():
     return "".join(g)
 
 
-MOTIFS = dict(truman=m_truman, io2=m_io2, wonder=m_wonder, zoo=m_zoo, soul=m_soul, robot=m_robot)
+def m_adam(u):
+    """12 Kızgın Adam: yağmurlu pencere, uzun masa ve çevresinde on iki sandalye, biri ayrık (siyah-beyaz, tek vurgu)."""
+    defs = (f'<linearGradient id="{u}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b2b2b"/>'
+            f'<stop offset="1" stop-color="#5d5d5d"/></linearGradient>')
+    s = [f'<rect width="400" height="200" fill="url(#{u}g)"/>']
+    # pencere ve yağmur
+    s.append('<rect x="18" y="30" width="78" height="140" fill="#8a8a8a" fill-opacity=".35" stroke="#d9d9d9" stroke-opacity=".6" stroke-width="2"/>'
+             '<line x1="57" y1="30" x2="57" y2="170" stroke="#d9d9d9" stroke-opacity=".6" stroke-width="2"/>'
+             '<line x1="18" y1="100" x2="96" y2="100" stroke="#d9d9d9" stroke-opacity=".6" stroke-width="2"/>')
+    rnd = random.Random(12)
+    for _ in range(26):
+        x, y = rnd.uniform(22, 92), rnd.uniform(34, 160)
+        s.append(f'<line x1="{x:.1f}" y1="{y:.1f}" x2="{x - 3:.1f}" y2="{y + 9:.1f}" stroke="#ffffff" stroke-opacity=".55" stroke-width="1"/>')
+    # tavan vantilatörü (soyut)
+    s.append('<g transform="translate(330,46)" fill="#bdbdbd" fill-opacity=".7"><circle r="4"/>'
+             '<ellipse cx="-17" cy="0" rx="15" ry="3.2"/><ellipse cx="17" cy="0" rx="15" ry="3.2"/></g>'
+             '<line x1="330" y1="0" x2="330" y2="44" stroke="#bdbdbd" stroke-opacity=".7" stroke-width="1.5"/>')
+    # uzun masa ve sandalyeler (üstten)
+    s.append('<rect x="132" y="84" width="196" height="34" rx="6" fill="#d8d4c8"/>')
+    for i in range(5):
+        x = 152 + i * 39
+        for y in (72, 130):
+            s.append(f'<circle cx="{x}" cy="{y}" r="7.5" fill="#efece4" stroke="#1d1d1d" stroke-width="1.4"/>')
+    s.append('<circle cx="344" cy="101" r="7.5" fill="#efece4" stroke="#1d1d1d" stroke-width="1.4"/>')
+    s.append('<circle cx="116" cy="101" r="8.5" fill="#c0392b" stroke="#1d1d1d" stroke-width="1.4"/>')
+    # oy pusulaları
+    for (x, y, a) in [(160, 94, -8), (205, 99, 6), (250, 92, -4), (292, 100, 10)]:
+        s.append(f'<rect x="{x}" y="{y}" width="12" height="9" transform="rotate({a} {x} {y})" fill="#ffffff" stroke="#6b6b6b" stroke-width=".6"/>')
+    return _svg("".join(s), defs, ALIGN["adam"])
+
+
+def adam_mini():
+    g = ['<rect x="-25" y="-25" width="50" height="50" fill="#4a4a4a"/>', '<rect x="-15" y="-5" width="30" height="10" rx="2" fill="#d8d4c8"/>']
+    for x in (-10, 0, 10):
+        for y in (-10, 10):
+            g.append(f'<circle cx="{x}" cy="{y}" r="3" fill="#efece4" stroke="#1d1d1d" stroke-width=".6"/>')
+    g.append('<circle cx="-19" cy="0" r="3.4" fill="#c0392b" stroke="#1d1d1d" stroke-width=".6"/>')
+    for x in (12, 16, 20):
+        g.append(f'<line x1="{x}" y1="-22" x2="{x - 2}" y2="-16" stroke="#fff" stroke-opacity=".6" stroke-width=".8"/>')
+    return "".join(g)
+
+
+MOTIFS = dict(truman=m_truman, io2=m_io2, wonder=m_wonder, zoo=m_zoo, soul=m_soul, robot=m_robot, adam=m_adam)
 _uid = [0]
 
 
