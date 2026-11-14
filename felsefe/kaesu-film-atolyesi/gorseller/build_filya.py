@@ -65,8 +65,8 @@ def tum_defter():
 
 
 def yedek_yaprak_robot():
-    return yp.yaprak_gun(2, "Vahşi Robot", "Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?",
-                         "Kampta “Ben böyle biriyim, değişmem” dediğin ya da duyduğun bir an. Yarın sabaha kadar yakalayıp buraya yaz.", "robot", yedek=True)
+    return yp.yaprak_gun(2, "Vahşi Robot", "Bana verilen bir şey ne zaman gerçekten “benim” olur?",
+                         "Kampta “Sen zaten böylesin” ya da “Ben böyle biriyim” dediğin veya duyduğun bir an. Gerçekten öyle mi? Yarın sabaha kadar yakalayıp buraya yaz.", "robot", yedek=True)
 
 
 ROZET_SIRASI = ["truman", "io2", "wonder", "zoo", "soul", "robot"]

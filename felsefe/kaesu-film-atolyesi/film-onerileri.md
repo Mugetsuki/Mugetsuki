@@ -377,6 +377,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 #### Vahşi Robot (The Wild Robot, Chris Sanders) · 2. günün yerine geçer
 
 - **Yeni derinlikte modül (aynı durak, farklı yol):** [moduller/yedek-gun2-vahsi-robot.md](moduller/yedek-gun2-vahsi-robot.md). Sorular, duraklar, düşünce deneyleri ve ikilem orada. Görseller: `gorseller/pdf/yedek-gun2-robot-*`, gün yaprağı ve rozet.
+- **Kavram sorusu:** “Bana verilen bir şey ne zaman gerçekten ‘benim’ olur?” Roz yalnızca köprüdür: programı doğuştan getirdiklerimizin, adada öğrendikleri ailemizin öğrettiklerinin, ona takılan “canavar” adı bize biçilen rollerin resmidir. Düşünce deneyleri insan üzerine kuruludur (yetenekli ama istemeyen Deniz, değiştirme düğmesi), ikilem “en baştan başlama kapısı”dır.
 - **IMDb:** https://www.imdb.com/title/tt29623480/
 - **Yıl / süre:** 2024 · 102 dk · **Yaş sınırı:** MPAA PG (aksiyon/tehlike, tematik öğeler) · Türkiye: Beyazperde "6 yaş altı aile eşliğinde" notu veriyor, resmi kayıt doğrulanamadı.
 - **Özet:** Bir kargo kazasında ıssız bir adaya düşen hizmet robotu Roz, yapacak bir görev arıyor. Kazayla bir kaz yuvasını ezer ve tek kalan yumurtadan çıkan yavru kaz Brightbill onu annesi sanır. Roz, kurnaz tilki Fink'in de yardımıyla yavruya yemek yemeyi, yüzmeyi ve göç için uçmayı öğretmeye çalışır.

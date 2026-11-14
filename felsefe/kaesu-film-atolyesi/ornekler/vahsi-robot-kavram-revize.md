@@ -1,7 +1,7 @@
 # Örnek: Vahşi Robot yedeği · kavram sorusu revizyonu
 
 Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
-**Durum: onay bekleyen örnek.** Onaydan önce modül, yaprak, tabela, not kartı ve kitapçık değişmedi. Bu dosya yalnızca önerilen yeni çekirdeği gösteriyor.
+**Durum: onaylandı (2026-11-14) ve uygulandı.** Modül, yaprak, tabelalar, kitapçık, senaryo eki ve film kartı bu çekirdeğe göre güncellendi.
 
 ## Sorun
 

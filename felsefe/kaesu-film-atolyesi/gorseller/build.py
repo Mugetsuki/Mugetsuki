@@ -64,13 +64,13 @@ DAYS = [
 ]
 # Yedek filmler (AYNI DURAK, FARKLI YOL): n = yerine geçtiği gün
 YEDEKLER = [
-    dict(n=2, key="robot", t="t-robot", film="Vahşi Robot", TEMA="BENLİK", tema_alt="Yapıldığın şey mi, seçtiğin şey mi",
-         soru="Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?",
+    dict(n=2, key="robot", t="t-robot", film="Vahşi Robot", TEMA="BENLİK", tema_alt="Bana verilen ve benim seçtiğim",
+         soru="Bana verilen bir şey ne zaman gerçekten “benim” olur?",
          gorev="Roz (adada mahsur kalan robot) programında olmayan neler yapmaya başlıyor? Sen izlerken hangi anda “Bu artık bir makine değil” dedin?",
-         ikilem_q="Roz’u fabrika ayarlarına döndürebilirler: kusursuz çalışacak ama adada öğrendiği her şeyi ve Brightbill’i unutacak. Roz’un yerinde olsan?",
-         A=("Fabrika ayarına dönerim", "Kusursuz ve sorunsuz çalışırım, ama adada öğrendiklerimi ve sevdiklerimi hatırlamam."),
-         B=("Bugünkü hâlimle kalırım", "Bazen hata yapar, “bozuk” sayılırım, ama adada kim olduysam o olarak kalırım."),
-         hero="Roz", kapi="Yapıldığı şeyin ötesine geçip kendi seçtiği biri oldu.", kapi_alt=None),
+         ikilem_q="Bir kapıdan geçersen en başa dönersin. Doğuştan getirdiklerin kalır, ama öğrendiklerin, alışkanlıkların, yaşadıkların ve sana takılan adlar silinir. Geçer misin?",
+         A=("Kapıdan geçerim", "Temiz bir sayfadan, sıfırdan başlarım. Herkes beni yeniden tanır."),
+         B=("Bugünkü hâlimle kalırım", "Geçmem. Bütün yaşadıklarımla, öğrendiklerimle ve sevdiklerimle kalırım."),
+         hero="Roz", kapi="Kendisine verilenin üstüne kendi seçtiği biri oldu.", kapi_alt=None),
 ]
 BYKEY = {d["key"]: d for d in DAYS + YEDEKLER}
 

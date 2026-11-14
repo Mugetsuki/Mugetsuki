@@ -1026,7 +1026,7 @@ Yedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme gör
 
 Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun2-vahsi-robot.md](moduller/yedek-gun2-vahsi-robot.md). Moderatör kitapçığında “Yedek filmler” bölümü.
 
-- **Günün kavram sorusu:** Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?
+- **Günün kavram sorusu:** Bana verilen bir şey ne zaman gerçekten “benim” olur?
 - **İzleme görevi:** **“Roz (adada mahsur kalan robot) programında olmayan neler yapmaya başlıyor? Sen izlerken hangi anda ‘Bu artık bir makine değil’ dedin?”**
 
 ### Durak 1: Roz'un yavru kazı büyütmeyi kendine görev edindiği bölüm bitince (yaklaşık ilk üçte bir)

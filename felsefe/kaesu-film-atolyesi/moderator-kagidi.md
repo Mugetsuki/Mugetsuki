@@ -530,7 +530,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 
 | Yedek film | Yerine geçtiği gün | Asıl filmden farkı | Ne zaman seçilir |
 |---|---|---|---|
-| Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Ben, yapıldığım şey mi, seçtiğim şey mi?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
+| Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Bana verilen bir şey ne zaman benim olur?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
 
 *Diğer yedek filmler (12 Kızgın Adam, WALL-E, Küçük Prens ve 1. gün için bir yedek) onaydan sonra eklenecek.*
 
@@ -549,12 +549,15 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 **IMDb:** <https://www.imdb.com/title/tt29623480/>
 
 - **Yerine geçtiği gün:** 2. gün (Benlik). Ters Yüz 2 yerine.
-- **Sınanan ilk cevap:** “İyi bir hayat kendin olabildiğin hayattır.” Bu film cevabın içindeki varsayımı sınar: “Kendin”, sana verilen doğa mı?
-- **Günün kavram sorusu:** Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?
-- **Kamp sorusuna bağlanan soru:** İyi bir hayat için doğana uygun mu yaşamalı, yoksa kim olacağını kendin mi seçmelisin?
-- **İzleme görevi:** Roz (adada mahsur kalan, insanlara hizmet için yapılmış robot) programında olmayan neler yapmaya başlıyor? Hangi anda “Bu artık bir makine değil” dedin?
+- **Aynı durak, farklı yol:** Ters Yüz 2 zamanı sorar (“ben” değişiyor). Bu film kökeni sorar: “Ben”in parçaları nereden geliyor?
+- **Sınanan ilk cevap:** “İyi bir hayat kendin olabildiğin hayattır.” Varsayım: “Kendin” sana hazır verilmiş bir şeydir (“Ben böyleyim”).
+- **Günün kavram sorusu:** Bana verilen bir şey ne zaman gerçekten “benim” olur?
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için bana verilenle barışmak mı gerekir, yoksa ondan kendime ait bir şey kurmak mı?
+- **İzleme görevi:** Roz (adada mahsur kalan, insanlara hizmet için programlanmış robot) programında olmayan neler yapmaya başlıyor? Hangi anda “Bu artık bir makine değil” dedin?
 
 [[ÜST BLOK SONU]]
+
+**Film yalnızca köprü.** Roz'un programı = doğuştan getirdiklerimiz. Adada öğrendikleri = ailemizin öğrettikleri. Hayvanların ona taktığı “canavar” adı = bize biçilen roller. Her gün tekrarladığı görevler = alışkanlıklar. “Biz robot değiliz” denirse: “Haklısın, Roz'u bırakalım. Ailenden aldığın bir huy var mı? Şimdi o kimin?”
 
 **Zaman çizelgesi**
 
@@ -576,56 +579,56 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 | **1. Roz'un yavru kazı büyütmeyi kendine görev edindiği bölüm bitince.** Yaz: “Roz şu an ne için çalışıyor?” Sor: “Brightbill'e (Roz'un büyüttüğü yetim kaz yavrusu) bakmayı ‘görev’ olarak üstlendi. Bir şeyi görev olduğu için yapmak ile isteyerek yapmak arasında fark var mı?” | **1.** Aynı yer, aynı soru. |
 | | **2. Brightbill sürüyle göçe çıkınca.** “Birini sevmek, onun gitmesine izin vermek mi? Seni sen yapan biri gidince sen yine aynı kişi misin?” (su molası) |
 
-**Dünden köprü (açılış):** “Dün Truman'ın hayatının başkaları tarafından yazıldığını gördük. Bugün hayatı bir fabrikada programlanmış biriyle tanışacağız. Kendi hayatımızın ne kadarı bize ait?”
+**Dünden köprü (açılış):** “Dün Truman'ın hayatının başkaları tarafından yazıldığını gördük. Bugün hayatı programlanmış biriyle tanışacağız. Ama asıl soru bizimle ilgili: Hayatımızın ne kadarı bize hazır verildi, ne kadarını biz seçtik?”
 
-**Soruların altındaki soru (dk 5–12):** “Fink (adada kimsenin güvenmediği yalnız tilki) neden Roz'a yardım etti?” sorusu “Herkesin ‘kötü’ dediği biri iyi olmayı seçebilir mi?” olur. Ortak soru: **Bizi biz yapan ne?**
+**Soruların altındaki soru (dk 5–12):** “Roz gerçekten hissediyor muydu?” sorusu “Bize öğretilen bir davranışı yaparken o davranış bizim mi olur?” olur. Ortak soru: **Bana verilen bir şey ne zaman gerçekten “benim” olur?**
 
-**Kapanış ikilemi: fabrika ayarı (dk 42–50).** Roz'u fabrika ayarlarına döndürebilirler. Kusursuz çalışacak ama adada öğrendiği her şeyi ve Brightbill'i unutacak.
-- **A:** Fabrika ayarına dönerim.
-- **B:** Bugünkü hâlimle kalırım.
-- **Ters köşe, A'ya:** “Brightbill sana uçup geliyor ve sen onu tanımıyorsun. Yine de?”
-- **Ters köşe, B'ye:** “Adada öğrendiklerin yüzünden bazen yanlış karar verip acı çekiyorsun. ‘Bozuk’ olmak gerçekten daha iyi mi?”
+**Kapanış ikilemi: en baştan başlama kapısı (dk 42–50).** “Bir kapıdan geçersen en başa dönersin. Doğuştan getirdiklerin (mizaç, yetenek, görünüş) kalır. Öğrendiklerin, alışkanlıkların, yaşadıkların ve sana takılan adlar silinir.”
+- **A:** Kapıdan geçerim, sıfırdan başlarım.
+- **B:** Geçmem, bugünkü hâlimle kalırım.
+- **Ters köşe, A'ya:** “En yakın arkadaşın seni tanımayacak. Kapıdan çıkan hâlâ sen misin?”
+- **Ters köşe, B'ye:** “Sevmediğin alışkanlıkların ve ‘Sen zaten böylesin’ de seninle kalıyor. Onları da ‘ben’ diye mi taşıyacaksın?”
 
 ### ARKA YÜZ
 
 **Soru merdiveni (dk 12–42).** Öğrenci şunu derse, sen şunu sor.
 
-**Basamak 1: Filmden kavrama.** “Roz, Brightbill'e annelik etmeye başladı. Bu bir ‘görev’ miydi, yoksa sevgi mi?”
-- *“Görev, o bir robot.”* “Görevi bitince de onu düşünmeye devam etti. Görev bitince süren şeyin adı ne?”
-- *“Sevgi.”* “Bir robot sevebilir mi? Sevgiyi neye bakarak anlarız?” (1. günle köprü)
-- *“İkisi aynı.”* “Annenin sana bakması bir görev mi? Görev olunca değeri azalır mı?”
-- *“Programı öyle.”* “O zaman senin iyiliğin de bir ‘program’ mı?”
+**Basamak 1: Filmden kavrama.** “Roz hayvanların dilini onları izleyerek öğrendi, sonra Brightbill'e bakmaya başladı. Bu şefkat kimin: onu yapanların mı, ona öğreten adanın mı, Roz'un mu?”
+- *“Fabrikanın.”* “Program ‘yardım et’ diyordu, ‘sev’ demiyordu. Konuştuğun dili sana kim öğretti? O dil şimdi kimin?”
+- *“Roz'un, seçti.”* “Biri sana nazik olmayı öğretti. Nazik davranman seçimin mi, alışkanlığın mı?”
+- *“Adanın.”* “Başka bir şehirde büyüseydin bugünkü sen olur muydun?”
+- *“Biz robot değiliz.”* “Haklısın. Ailenden aldığın bir huy var mı? Onu seçmedin. Şimdi o kimin?”
 
-**Basamak 2: Düşünce deneyi, bal yapmak istemeyen arı.** “Kovanın kuralı: herkes bal yapar. Bir arı bal yapmaktan hoşlanmıyor, çiçeklerin resmini yapmak istiyor. Doğası bal yapmak mı, ne istediği mi?”
-- *“Bal yapmalı.”* “Doğduğumuz şey kim olacağımızı belirler mi? Çiftçinin çocuğu çiftçi mi olmalı?”
-- *“İstediğini yapmalı.”* “Herkes yalnızca istediğini yaparsa kovan yaşar mı?”
-- *“Başka kovan bulmalı.”* “Ada da Roz'un kovanı değildi ama evini orada buldu. Ait olduğun yeri seçebilir misin?”
-- *“Bilmiyorum.”* “Senin ‘Ama ben böyle yapılmışım’ dediğin bir şey var mı?”
+**Basamak 2: Düşünce deneyi, yetenekli ama istemeyen Deniz.** “Deniz on üç yaşında, ailesinde herkes müzisyen. Kemanda gerçekten yetenekli. Herkes ‘Kanında var, sen zaten böylesin’ diyor. Ama Deniz kemanı sevmiyor, robot yapmak istiyor. Deniz'in ‘kendisi’ hangisi: yeteneği mi, isteği mi?”
+- *“Bırakmalı.”* “Verilen bir yeteneği kullanmamak kayıp mı, hak mı? Orkestranın tek kemancısıysa?”
+- *“Çalmalı.”* “Neden yetenek, istekten daha ‘gerçek’ Deniz sayılsın?”
+- *“Çala çala sever.”* “O zaman o sevgi kimin: Deniz'in mi, ailenin mi?”
+- *“‘Sen böylesin’ demek yanlış.”* “Sana hiç söylendi mi? Söylenene benzemeye başladın mı?”
 
-**Basamak 3: Kamp sorusuna bağlantı.** “Roz'un ‘kendi’ hangisi: fabrikadan çıktığı hâli mi, adadaki hâli mi?”
-- *“Fabrika hâli.”* “Senin gerçek hâlin doğduğun gündeki hâlin mi?”
-- *“Adadaki hâli.”* “Bizi yaşadıklarımız mı yapıyor? Kötü şeyler yaşayan biri kötü mü olur?”
-- *“İkisi birden.”* “Hangi parçasını seçemezdi? Senin seçemediğin bir parçan var mı?”
-- *“Kendini seçti.”* “Fink adada herkesin gözünde ‘kurnaz tilki’ydi. Başkalarının verdiği ad da bizi yapar mı?”
+**Basamak 3: Kamp sorusuna bağlantı.** “‘Kendin ol’ derken hangi ‘kendin’: doğduğun hâl mi, sana öğretilenler mi, seçtiklerin mi?”
+- *“Doğduğum hâl.”* “Doğduğun gün konuşamıyordun. Sonradan öğrendiklerin ‘sen’ değil mi?”
+- *“Seçtiklerim.”* “Adını, ilk dilini, yüzünü seçmedin. Seçmediğin parçalar ‘sahte’ mi?”
+- *“Hepsi.”* “Mizacın utangaç ama sahneye çıkmak istiyorsun. ‘Kendin ol’ hangisini söylüyor?”
+- *“Başkalarının dediği.”* “Fink (herkesin ‘kurnaz’ dediği yalnız tilki) bir süre öyle davrandı. Takılan ad bir gün ‘bizim’ olur mu?”
 
-**Basamak 4: Düşünce deneyi, fabrika ayarı.** “Kusursuz ama hatırasız mı, hatalı ama kendin mi?”
-- *“Dönmem, anılarım benim.”* “Bir şeyi unutursan biraz daha az mı ‘sen’ olursun?”
-- *“Dönerim, acı çekmem.”* “Acı çekmeyen ama kimseyi tanımayan biri iyi bir hayat mı yaşıyor?” (deneyim makinesi)
-- *“Brightbill için dönmem.”* “Seni sen yapan başkalarıyla bağın mı? ‘Ben’ yalnız başına var olabilir mi?”
-- *“Bilmiyorum.”* “Biri ‘kusursuz ol’, diğeri ‘hatırla’ diyor. Hangisi daha yüksek sesle konuşuyor?”
+**Basamak 4: Düşünce deneyi, değiştirme düğmesi.** “Sevmediğin bir özelliğini bir düğmeyle anında değiştirebilirsin. Ya da aylarca uğraşıp kendin değiştirirsin. Hangisinin sonucu daha çok ‘senin’?”
+- *“Basarım.”* “Yeni hâlini düğme verdi. O da sana ‘verildi’. Hangisi daha çok senin?”
+- *“Basmam, o da benim.”* “Zarar veren bir huy olsa da mı?”
+- *“Kendim değiştiririm.”* “Emek bir şeyi bizim mi yapıyor?” (Aristoteles)
+- *“Bilmiyorum.”* “Arkadaşın bir gecede değişse aynı arkadaşın mı?”
 
-**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘kendin olmak’ı bir robotla sınadık. Ne ekliyoruz?” Grubun cümlesini 2. gün kartına yaz.
+**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘kendin olmak’ı sınadık. Ne ekliyoruz?” Örnek: “Bize verilen bir şey, onu bilerek sürdürdüğümüzde bizim olur.” Grubun cümlesini 2. gün kartına yaz.
 
 **Gün yaprağı (dk 55–60):** Vahşi Robot yaprağı.
 
-**Yarına köprü (3 dk):** “Roz'u en çok Brightbill, Fink ve adanın hayvanları değiştirdi. ‘Ben’ başkalarıyla birlikte oluşuyor. Başkaları benim iyi hayatımın neresinde? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Kampta ‘Ben böyle biriyim, değişmem’ dediğin ya da duyduğun bir an yakala.”
+**Yarına köprü (3 dk):** “Roz'u en çok başkaları değiştirdi. Bizi de ailemiz, arkadaşlarımız, bize ‘sen böylesin’ diyenler değiştiriyor. Başkaları benim iyi hayatımın neresinde? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Kampta ‘Sen zaten böylesin’ ya da ‘Ben böyle biriyim’ dediğin veya duyduğun bir an yakala.”
 
 **Tıkanırsam**
-1. **Herkes B'de:** “Çok acı bir anıyı silebilseydin ve bu seni mutlu etseydi? Her anıyı korumak zorunda mıyız?”
-2. **Herkes “istediğini yap” diyor:** “İstediğimiz şey ile ihtiyaç duyulan şey çatışırsa?”
-3. **Herkes “Roz sevgiyle yaptı” diyor:** “Roz'un hissettiğini nereden biliyoruz? Peki birbirimizin?”
-4. **Olaylara kaydı:** “Roz'u bırakalım. Senin ‘ben böyle yapılmışım’ dediğin bir şey?”
-5. **Sessizlik:** İkili konuşma (2 dk): “Seçemediğin bir özelliğin ve seçtiğin bir özelliğin.”
-6. **Felsefe köşesi:** “Aristoteles ‘Her şeyin bir amacı vardır’, Sartre ‘İnsan amacını kendisi seçer’ demiş. Roz hangisine benziyor?”
+1. **Herkes B'de:** “Herkesin lakap taktığı biri için kapı yeni bir başlangıç. Onun için de ‘geçmemeli’ der misiniz?”
+2. **Herkes A'da:** “Kapıdan çıkan kişi size ‘Merhaba, ben yeniyim’ dese, onu ‘sen’ sayar mısınız?”
+3. **Herkes “seçtiklerimiz”:** “Seçme biçimimiz de bize verilmiş olabilir mi?”
+4. **Olaylara kaydı:** “Roz'u bırakalım. Ailenden aldığın bir huy?”
+5. **Sessizlik:** İkili konuşma (2 dk): “Sana verilmiş ve sonra ‘benim’ dediğin bir şey.”
+6. **Felsefe köşesi:** “Aristoteles ‘Yapa yapa o oluruz’, Sartre ‘Bizden yapılanla ne yaptığımız önemli’ demiş. Hangisine yakınsın?”
 
-**Hassas içerik:** Brightbill annesiz kalır. Grupta evlat edinilmiş ya da koruyucu aile yanında büyüyen öğrenci olabilir. “Gerçek anne” ifadesini kullanma, gelirse genelleştir: “Birini anne ya da baba yapan ne?” Doğada avlanma ve ölüm şakaları var. Göç ve final duygusal, arayı kısaltma.
+**Hassas içerik:** “Gerçek anne” ifadesini kullanma, gelirse genelleştir: “Birini anne ya da baba yapan ne?” “Kanında var” sözünde “aile = kan” varsayımına katılma. Kimsenin etiketini (tembel, yaramaz) örnek yapma. Kapı ikileminde A'dakilerden kişisel gerekçe isteme. Doğada ölüm şakaları var. Final duygusal, arayı kısaltma.
