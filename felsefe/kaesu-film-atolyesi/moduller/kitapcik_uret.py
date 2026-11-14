@@ -231,7 +231,8 @@ def main():
     yeni = uret(dosya, baslik)
     s = KITAP.read_text(encoding="utf-8")
     a = s.index(baslik + "\n")
-    b = s.index("\n## ", a + len(baslik)) + 1
+    b = s.find("\n## ", a + len(baslik))
+    b = len(s) if b < 0 else b + 1
     KITAP.write_text(s[:a] + yeni + s[b:], encoding="utf-8")
     print(f"{baslik}: {len(yeni.splitlines())} satır yazıldı")
 

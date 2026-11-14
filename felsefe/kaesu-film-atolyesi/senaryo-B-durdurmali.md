@@ -1257,24 +1257,56 @@ Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller
 
 Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun4-12-kizgin-adam.md](moduller/yedek-gun4-12-kizgin-adam.md). Moderatör kitapçığında “Yedek filmler” bölümü.
 
-- **Günün kavram sorusu:** Bir grubun verdiği karar ne zaman adil olur?
-- **İzleme görevi:** **“Kimin oyu neden değişiyor? Oyunu değiştiren birini seç: Onu kanıt mı ikna etti, başka bir şey mi?”**
+- **Günün Açık Sorusu (tahtada tek başına):** **Bir grubun verdiği karar ne zaman adil olur?** <span class="et">Açık Soru · s. 34</span>
+- **İzleme görevi:** **“Film boyunca tek bir soruyu aklınızda tutun: Oylar değişirken kanıt mı konuşuyor, başka bir şey mi? Film bitince ne düşüneceksiniz, bakalım.”**
 
-### Durak 1: Bıçak sahnesinden sonraki gizli oylamada ilk kez bir jüri üyesi oyunu değiştirip nedenini söyleyince (yaklaşık ilk üçte bir)
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
 
-**Süre:** 6 dk
+Üç durak aynı kavramı (adil karar) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
 
-“9 numara (oyunu ilk değiştiren yaşlı jüri üyesi) sanığın suçsuz olduğundan emin olduğunu söylemiyor. 8 numaranın (tek başına ‘suçsuz’ oyu veren jüri üyesi) tek başına durmasına saygı duyduğunu ve daha çok dinlemek istediğini söylüyor. Bir fikre, kim söylediği için mi katılırız, ne söylendiği için mi?”
+### Durak 1 · yaklaşık 20–30. dk · Gizli oylama
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Sahne:** İlk oylama 11'e 1 bitiyor. 8 numara (tek başına “suçsuz” oyu veren jüri üyesi) bıçağın sanıldığı kadar ender olmadığını gösteriyor, ama kimseyi ikna edemiyor ve gizli bir oylama öneriyor. Bir “suçsuz” oyu daha çıkıyor: 9 numara (oyunu ilk değiştiren yaşlı jüri üyesi), daha çok konuşulması gerektiğini düşündüğünü söylüyor. Bu konuşma bitince durdur.
 
-### Durak 2: 10 numaranın (sanığı “bu insanlar” diye yargılayan jüri üyesi) uzun konuşması sırasında diğerleri kalkıp ona sırtını dönünce (son üçte bir). Ön izlemede yerini işaretleyin.
+**Koşul:** Bir kişi tek başına kalıyor.
 
-**Süre:** 6 dk
+**Açık Soru:** “9 numara sanığın suçsuz olduğundan emin değil. Daha çok dinlemek istiyor. Bir fikre, kim söylediği için mi katılırız, ne söylendiği için mi, yoksa başka bir şey için mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
 
-“Kimse bağırmadı, kimse ‘sus’ demedi. Sadece kalkıp sırtlarını döndüler. Bir grup, kötü bir söze karşı nasıl itiraz edebilir? Sessiz kalmak da bir cevap olabilir mi?” (Su molası)
+**Gizli Sorular:**
+- “Eğer oylama açık olsaydı, 9 numara yine elini kaldırır mıydı?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- “Sınıfta herkes bir şeyde hemfikirken senin emin olmadığın bir an oldu mu? Ne yaptın?”
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Tartışmada geri çağır:** 1. basamak (11'e 1).
+
+### Durak 2 · yaklaşık 45–55. dk · Öfke
+
+**Sahne:** Tartışma kızışıyor. 3 numara (sanığa en sert davranan jüri üyesi) 8 numaranın bir sözüne öfkelenip ona saldırmaya çalışıyor ve onu öldüreceğini bağırıyor. Herkes susuyor: Bu sözün gerçek bir niyet olmadığını, öfkeyle söylendiğini anlıyorlar. Bu an bitince durdur.
+
+**Koşul:** Öfke karara karışıyor.
+
+**Açık Soru:** “3 numara öfkeyle ağır bir söz söyledi, ama kimse bunu gerçek bir tehdit saymadı. Karar veren birinin öfkesi karara karışırsa, karar adil olabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer öfkeyle söylenen bir sözü gerçek saymıyorsak, o zaman sanığın babasına öfkeyle söylediği söz de mi gerçek değildi?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Çok kızgınken bir karar verip sonra pişman olduğun oldu mu?”
+
+**Tartışmada geri çağır:** 4. basamak (oylamayla bulunan kopyacı).
+
+### Durak 3 · yaklaşık 70–80. dk · Sırtlar · düğüm noktası
+
+**Sahne:** 10 numara (sanığı “bu insanlar” diye yargılayan jüri üyesi), yoksul mahallelerden gelen insanlar hakkında önyargılı, uzun bir konuşma yapıyor. Diğerleri birer birer kalkıp ondan uzaklaşıyor, sırtlarını dönüyor. Konuşma bitince durdur.
+
+**Koşul:** Çoğunluk bu kez bir kişiyi yalnız bırakıyor.
+
+**Açık Soru:** “Filmin başında çoğunluk 8 numarayı yalnız bırakmıştı. Şimdi çoğunluk 10 numarayı yalnız bırakıyor. Bir grubun bir kişiyi yalnız bırakması ne zaman adil, ne zaman haksızlıktır?” <span class="et">Açık Soru · s. 34</span> <span class="et">Fikir çatışması oyunu · s. 57</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Grup bir fikri yalnız bırakıyorsa? Ya da bir insanı yalnız bırakıyorsa? İkisi aynı şey mi?” <span class="et">Ya… ya da… · s. 59–60</span>
+- “Kimse bağırmadı, sadece sırt döndüler. Sessiz kalmak da bir itiraz olabilir mi?” <span class="et">Açma soruları · s. 36</span>
+
+**Tartışmada geri çağır:** 3. basamak (kamp sorusuna köprü).
+
+*Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
 
 ---
 

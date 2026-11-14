@@ -300,6 +300,7 @@ SORU_KAYNAKLARI = {
     "soru-kaynaklari-gun4": ("gun4-zootropolis.md", "SORU KAYNAKLARI · 4. GÜN YAPRAĞI", "Zootropolis", 4),
     "soru-kaynaklari-gun5": ("gun5-soul.md", "SORU KAYNAKLARI · 5. GÜN VE VARIŞ YAPRAĞI", "Soul", 4),
     "soru-kaynaklari-yedek-gun2-vahsi-robot": ("yedek-gun2-vahsi-robot.md", "SORU KAYNAKLARI · YEDEK FİLM · 2. GÜNÜN YERİNE", "Vahşi Robot", 4),
+    "soru-kaynaklari-yedek-gun4-12-kizgin-adam": ("yedek-gun4-12-kizgin-adam.md", "SORU KAYNAKLARI · YEDEK FİLM · 4. GÜNÜN YERİNE", "12 Kızgın Adam", 4),
 }
 
 
@@ -327,7 +328,7 @@ URUNLER = {
     "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
     "defter-yaprak-yedek-gun4-12-kizgin-adam": ("Düşünce yolculuğum · yedek film · 12 Kızgın Adam", yedek_yaprak_adam, 1),
     "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
-    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 40),
+    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 44),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
     "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),
