@@ -1,9 +1,9 @@
 # Kamp omurgası: “İyi bir hayat nedir?”
 
 Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş
-Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · **Durum: onay bekleyen taslak**
+Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · **Durum: Genel Müdür tarafından onaylandı**
 
-Bu belge kampın kalbidir. Onaydan sonra senaryolar, moderatör kitapçığı, ölçme belgesi ve görseller buna göre güncellenecek. Örnekler [ornekler/](ornekler/) klasöründe:
+Bu belge kampın kalbidir. Günlük modüller [moduller/](moduller/) klasöründe. Senaryolar, moderatör kitapçığı ve ölçme belgesi bu omurgaya göre yazıldı. Onaya sunulan ilk örnekler [ornekler/](ornekler/) klasöründe duruyor:
 - 1. gün modülü
 - Düşünce yolculuğu sayfası
 - Moderatör kitapçığının 1. gün sayfası
@@ -52,7 +52,7 @@ Ortak sorun şu: her film bir ders veriyor ve dersi soran soru dersi geri alıyo
 | 4 | Zootropolis | “Herkesin eşit olması.” | Adil olmak herkese aynı davranmak mı? | Hepsi olsa bile hayatı yaşamaya değer kılan ne? |
 | 5 | Soul | “Hayallerine ulaşmak.” | Hayatı değerli kılan amaca ulaşmak mı, yaşamanın kendisi mi? | Sentez: herkesin kendi büyük sorusu |
 
-Eski sıra (bilgi, benlik, öteki, toplum, anlam) korunuyor ama artık bir hat: önce gerçek, sonra ben, sonra sen, sonra biz, sonra hepsinin anlamı. 2–5. günlerin kavram soruları taslaktır.
+Eski sıra (bilgi, benlik, öteki, toplum, anlam) korunuyor ama artık bir hat: önce gerçek, sonra ben, sonra sen, sonra biz, sonra hepsinin anlamı. Her günün tam hâli: [moduller/](moduller/).
 
 ---
 
@@ -142,6 +142,6 @@ Bu ilkelerin uygulanmış hâli: [ornekler/gun1-ornek.md](ornekler/gun1-ornek.md
 
 ---
 
-## Onay bekleyen küçük karar
+## Onaylanan küçük karar
 
-**Ters Yüz 2 ikileminde hap yerine:** Filmde Kaygı, Neşe'yi ve eski duyguları bir kavanoza kapatıp Riley'nin sırlar kasasına gönderiyor. Yeni ikilem bu sahneyi tersine çeviriyor: “Zihin merkezinin başında sen varsın. Kaygı'yı kavanoza kapatıp kasaya kilitlersen bir daha hiç kaygılanmayacaksın, ama geleceği düşünüp ona hazırlanmanı sağlayan ses de susacak. Kilitler misin?” (A duvarı: “Kaygı'yı kasaya kilitlerim.” B duvarı: “Kaygı konsolda kalsın.”)
+**Ters Yüz 2 ikileminde hap yerine (onaylandı):** Filmde Kaygı, Neşe'yi ve eski duyguları bir kavanoza kapatıp Riley'nin sırlar kasasına gönderiyor. Yeni ikilem bu sahneyi tersine çeviriyor: “Zihin merkezinin başında sen varsın. Kaygı'yı kavanoza kapatıp kasaya kilitlersen bir daha hiç kaygılanmayacaksın, ama geleceği düşünüp ona hazırlanmanı sağlayan ses de susacak. Kilitler misin?” (A duvarı: “Kaygı'yı kasaya kilitlerim.” B duvarı: “Kaygı konsolda kalsın.”)

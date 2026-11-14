@@ -8,21 +8,25 @@ Hedef grup: 11–17 yaş, karışık ortaokul–lise · Kamp: 5 gün, her gün b
 
 ## Bu belge nasıl kullanılır?
 
+> **Kampın ana rehberi artık [kamp-omurgasi.md](kamp-omurgasi.md) ve [moduller/](moduller/) klasöründeki beş günlük modüldür.** Kamp tek bir büyük soru, “İyi bir hayat nedir?”, üzerine kurulu. Her gün, çocukların sık verdiği bir ilk cevabı sınar. Bu belge artık filmlerin **bilgi kaynağıdır**: film seçimi ve gerekçesi, künye, özet, kilit anlar, atlanacak sahneler ve hassas içerik kararları burada. Soru merdivenleri, duraklar ve ikilemler modüllerde.
+
 1. **Bölüm 1**'de atölyeyi nasıl yürüteceğinize karar verin. Filmden sonra mı tartışacaksınız, arada durduracak mısınız? Dört model ve bir öneri var.
-2. **Bölüm 2** 5 günlük programı gün gün veriyor. Kampta elinizdeki ana rehber bu bölüm.
+2. **Bölüm 2** 5 günlük programın kısa özetini veriyor. Ayrıntı modüllerde.
 3. **Bölüm 3** hassas içerikli filmler hakkındaki kararı açıklıyor.
-4. **Bölüm 4**'te her filmin ayrıntılı modülü var: kilit anlar, atlanacak sahneler, durma noktası, sorular ve kapanış ikilemi. Önce programdaki 5 film, ardından yedek filmler geliyor.
+4. **Bölüm 4**'te her filmin bilgi kartı var: künye, özet, felsefi temalar, kilit anlar, atlanacak sahneler. Programdaki 5 filmin soruları modüllerde. Yedek filmlerin soruları henüz eski biçimde, Parça 2'de yeni derinlikte yazılacak.
 5. **Bölüm 5**'te ısınma için kısa filmler var.
 
 **Kampta kullanılacak ek dosyalar** (bu belgeyle aynı klasörde):
 
 | Dosya | Ne işe yarar |
 |---|---|
+| [kamp-omurgasi.md](kamp-omurgasi.md) | **Kampın kalbi:** teşhis, kamp sorusu, A ve B noktası, Düşünce Yolculuğum defteri, soru tasarımı ilkeleri |
+| [moduller/](moduller/) | Beş günün modülleri: sınanan ilk cevap, kavram sorusu, soru merdiveni, düşünce deneyleri, ikilem, kamp sorusuna dönüş, köprü |
 | [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) | Önerilen model C için 5 günün okunarak yönetilebilir senaryosu: dakika dakika akış, öğrencilere söylenecek hazır metinler, duraklar, enerji oyunları, "şu olursa ne yaparım" kutuları |
 | [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md) | Aynı program, model B ile (her gün 2–3 durak). Sonunda "B mi, C mi?" karşılaştırması |
-| [moderator-kagidi.md](moderator-kagidi.md) | Moderatörün altın kuralları ve her gün için tek sayfalık (ön-arka) yönetim kağıdı, gözlem alanıyla |
-| [olcme-degerlendirme.md](olcme-degerlendirme.md) | Anket, çıkış kartı, "Felsefe Her Yerde" görevi, gözlem rubriği, kartpostal, etik not ve veli onay formu, başarı ölçütleri ve kamp sonu rapor şablonu |
-| [gorseller/](gorseller/README.md) | Yazdırmaya hazır görsel kit (PDF): günlük afişler, not kartları, ikilem tabelaları, kamp afişleri, Beş Kapı kartları, bütün formlar ve moderatör kağıdı. Baskı talimatı README'de |
+| [moderator-kagidi.md](moderator-kagidi.md) | Moderatör kitapçığının kaynağı: altın kurallar, kamp omurgasının özeti ve her gün için ön-arka yaprak (film afişi ve IMDb bağlantısıyla). Basılı hâli `gorseller/pdf/moderator-kitapcigi.pdf` |
+| [olcme-degerlendirme.md](olcme-degerlendirme.md) | Düşünce Yolculuğum defteri, gözlem formu ve rubrik, etik not ve veli onay formu, başarı ölçütleri ve kamp sonu rapor şablonu |
+| [gorseller/](gorseller/README.md) | Yazdırmaya hazır görsel kit (PDF): defter, moderatör kitapçığı, gözlem ve veli onay formları, günlük afişler, not kartları, ikilem tabelaları. Baskı talimatı README'de. Film görselleri Parça 3'te yeni içeriğe göre güncellenecek. |
 
 ### Belgede geçen kavramlar
 
@@ -36,8 +40,15 @@ Hedef grup: 11–17 yaş, karışık ortaokul–lise · Kamp: 5 gün, her gün b
 | **Not kartı** | İzlerken öğrencinin elinde duran küçük kart. Aklına takılan anı ve soruyu yazar. |
 | **Durak** | Filmi planlı olarak kısa süre durdurduğunuz an. Tartışma yapılmaz, sadece not ve bir kısa soru. |
 | **Kilit an** | Filmin felsefi soruyu en açık ortaya koyduğu an. Tartışmada "Şu sahneyi hatırlayın…" diye geri döneceğiniz yer. |
-| **Görev sorusu** | Peter Worley'nin (Felsefe Makinesi) kullandığı, kolaylaştırıcının önceden hazırladığı ana tartışma sorusu. Bu belgede yedek olarak kullanılıyor (bkz. Bölüm 1). |
-| **İç içe sorular** | Görev sorusunun altında yatan küçük kavram soruları. Worley'nin terimi. Örnek: "Sahte ne demek?" |
+| **Kamp sorusu** | Bütün kampı taşıyan tek soru: “İyi bir hayat nedir?” Her gün ona bir parça eklenir. |
+| **Kavram sorusu** | Günün merkezindeki soru. Filmin olayını değil kavramı sorar. Peter Worley'nin (Felsefe Makinesi) “görev sorusu”nun karşılığı. |
+| **Soruların altındaki soru** | Film sorusunu insan sorusuna çevirmek: “Truman neden…?” yerine “Bir insan neden…?” Kampın temel becerisi. |
+| **Soru merdiveni** | Kavram sorusundan başlayan, filmden kavrama, düşünce deneyine ve kamp sorusuna çıkan dört basamaklı tartışma planı. Her basamakta beklenen cevaplar ve moderatörün hamleleri yazılı. |
+| **Düşünce deneyi** | “Diyelim ki…” diye kurulan hayalî durum. Bir ilkeyi uç noktada dener. Örnek: deneyim makinesi. |
+| **Ters köşe sorusu** | İkilemde her iki tarafı da rahatsız eden soru. Tartışmanın tek cevapla kapanmasını önler. |
+| **Düşünce Yolculuğum** | Her çocuğun defteri. İlk gün ilk cevap, her gün bir blok, son gün Varış. |
+| **Yolculuk Duvarı** | Ortada kamp sorusu, etrafında gün kartları. Grubun her gün eklediği parça ve açık kalan soru. |
+| **İç içe sorular** | Kavram sorusunun altında yatan küçük sorular. Worley'nin terimi. Artık soru merdiveninin içinde. |
 | **Eğer'leme** | Tartışma tıkanınca bir varsayım eklemek: "Peki ya Truman hiç öğrenmeseydi?" Worley'nin "iffing" dediği teknik. |
 | **Kapanış ikilemi** | Tartışmanın sonunda öğrencinin iki zor seçenekten birini seçip gerekçesini söylediği soru. |
 | **İskele** | Öğrenciye başta verilen, beceri geliştikçe azaltılan destek. Programda duraklar gün gün azalıyor. |
@@ -160,149 +171,27 @@ Her filmin durma noktası, o noktada sorulacak kısa soru ve süresi Bölüm 4't
 
 ## 2. 5 Günlük Kamp Programı
 
-### Genel bakış
+Ayrıntı: [kamp-omurgasi.md](kamp-omurgasi.md) ve [moduller/](moduller/). Okunarak yönetilecek metin: [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) ve [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md).
 
-Günler arasında bir yay var: **bilgi → benlik → öteki → toplum → anlam.** Kolaydan zora, somuttan soyuta ve "dışarıdaki dünya"dan "içimdeki dünya"ya, oradan da "birlikte nasıl yaşamalıyız" ve "neden yaşıyoruz" sorusuna gidiyor.
+**Kamp sorusu:** İyi bir hayat nedir? Her gün, çocukların ilk gün sık verdiği bir cevabı sınar ve bir öncekinin açık bıraktığı soruyu devralır.
 
-| Gün | Film | Felsefi dal | Günün ana sorusu | Toplam süre (yaklaşık) |
-|---|---|---|---|---|
-| 1 | The Truman Show (103 dk) | Bilgi: gerçeklik ve bilgi | Gerçek olduğunu nasıl bilebiliriz? | 3 saat 20 dk |
-| 2 | Ters Yüz 2 (96 dk) | Benlik: zihin ve kimlik | Beni "ben" yapan ne? | 3 saat |
-| 3 | Wonder (113 dk) | Öteki: bireysel etik | Haklı olmak mı, iyi olmak mı? | 3 saat 20 dk |
-| 4 | Zootropolis (108 dk) | Toplum: adalet ve önyargı | Bir grup hakkında genelleme yapmak adil mi? | 3 saat 15 dk |
-| 5 | Soul (100 dk) | Anlam: iyi bir hayat | Hayatı yaşamaya değer kılan ne? | 3 saat (+30 dk isteğe bağlı) |
+| Gün | Film | Sınanan ilk cevap | Günün kavram sorusu | Düşünce deneyi ve ikilem | Modül |
+|---|---|---|---|---|---|
+| 1 | The Truman Show | “Mutlu olmak.” | Bilmek nedir? Hiç yanılmadığımız bir şey var mı? | Rüya, deneyim makinesi | [gun1-truman.md](moduller/gun1-truman.md) |
+| 2 | Ters Yüz 2 | “Kendin olmak.” | “Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa? | Bloklardan ev, kasadaki Kaygı | [gun2-ters-yuz-2.md](moduller/gun2-ters-yuz-2.md) |
+| 3 | Mucize (Wonder) | “İyi biri olmak, sevilmek.” | İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi? | Görünmezlik yüzüğü, kırılan güven | [gun3-mucize.md](moduller/gun3-mucize.md) |
+| 4 | Zootropolis | “Herkesin eşit olması.” | Adil olmak herkese aynı davranmak mı? | Kimin olacağını bilmediğin şehir, genelleme mi birey mi | [gun4-zootropolis.md](moduller/gun4-zootropolis.md) |
+| 5 | Soul | “Hayallerine ulaşmak.” | Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi? | İki hayat, Beş Kapı, Varış | [gun5-soul.md](moduller/gun5-soul.md) |
 
 **Neden bu beş film?**
-- Her iki yaşa da uygun (MPAA PG). Hiçbirinde intihar ya da ağır şiddet sahnesi yok, film baştan sona güvenle izlenebilir (Wonder'daki bir cümle için bkz. modül).
-- Üçü animasyon, ikisi gerçek oyunculu. Liseliler "çizgi film kampı" hissine kapılmaz.
-- Filmlerin kahramanları grubun yaş aralığını kapsıyor: Auggie 10, Riley 13, Via lise öğrencisi, Truman ve Joe yetişkin.
-- Wonder ile Zootropolis ikisi de önyargıya dokunuyor ama farklı düzeyde. Wonder bireyin seçimine ("ben ne yapmalıyım?"), Zootropolis toplumun yapısına ("biz nasıl bir şehir kuruyoruz?") odaklanıyor. Bu fark 3. ve 4. günü birbirine bağlar.
+- Hepsi her iki yaşa da uygun (MPAA PG). Hiçbirinde baştan sona izlemeyi engelleyecek bir sahne yok (Mucize'deki bir cümle için modüle bakın).
+- Üçü animasyon, ikisi gerçek oyunculu. Liseliler “çizgi film kampı” hissine kapılmaz.
+- Kahramanlar grubun yaş aralığını kapsıyor: Auggie 10, Riley 13, Via lise öğrencisi, Truman ve Joe yetişkin.
+- Sıra bir düşünce hattı kuruyor: önce gerçek (bilgi), sonra ben (benlik), sonra sen (öteki), sonra biz (toplum), sonra hepsinin anlamı.
 
-**Lise ağırlıklı bir grup gelirse:** 4. günde Zootropolis yerine **12 Kızgın Adam** gösterilebilir. Aynı önyargı ve adalet temasını daha derin işler (bkz. Yedek filmler).
+**Günün iskeleti:** açılış (dünkü gün kartı, hayattan sorular, izleme görevi) → film ve duraklar → 10 dk ara ve enerji oyunu → 60 dk tartışma (ilk tepki, soruların altındaki soru, soru merdiveni, ikilem, kamp sorusuna dönüş, defter) → 3 dk köprü. Her gün yaklaşık 3–3,5 saat.
 
-### Günlük zaman çizelgesi (her gün aynı iskelet)
-
-| Bölüm | Süre | Not |
-|---|---|---|
-| Açılış ve izleme görevi | 5–10 dk (1. gün 15 dk) | Kartlar dağıtılır, görev tahtaya yazılır |
-| Film | 96–113 dk | Jenerik atlanırsa 5–10 dk kazanılır |
-| Durak(lar) | 5 dk (1. gün 2 × 5 dk, 5. gün yok) | Su ve tuvalet molası da burada |
-| Film sonrası ara | 10 dk | Hareket, atıştırmalık. Tartışmaya doğrudan geçmeyin |
-| Tartışma | 60 dk | Akış aşağıda |
-
-**Öneri:** Filmi sabah geç saatte ya da öğleden sonra erken saatte başlatın. Akşam yemeğinden sonra başlayan 3 saatlik bir oturum, özellikle küçükler için fazla yorucu olur.
-
-### 60 dakikalık tartışmanın standart akışı
-
-| Dakika | Adım | Ne yapılır |
-|---|---|---|
-| 0–5 | İlk tepki turu | Herkes tek kelime ya da tek cümle söyler: "Film bana … hissettirdi." Pas geçmek serbest. Duygular burada boşalır, sonra düşünmeye geçilir. |
-| 5–15 | Soru üretme | Karışık üçlüler (en az bir ortaokullu, bir liseli). Kartlara bakarak bir felsefi soru yazarlar. **Kural:** Soruyu grubun en küçüğü yazar, böylece liseli domine etmez. Felsefi soru = cevabı filmde olmayan, "neden / olmalı mı / ne demek" soruları. |
-| 15–22 | Soru seçme | Sorular tahtaya yazılır, benzerler gruplanır. Herkes iki oy verir. En çok oyu alan soru tartışılır. |
-| 22–47 | Sorgulama | Seçilen soru tartışılır. Kolaylaştırıcı "Neden?", "Örnek verir misin?", "Buna kim katılmıyor?" diye sorar. Kilit anlara geri dönülür. Tartışma dağılırsa görev sorusu ya da iç içe sorular devreye girer. |
-| 47–55 | Kapanış ikilemi | Odanın iki duvarı iki seçeneği temsil eder. Öğrenciler tarafını seçip o duvara gider (ortada durmak da serbest ama "neden ortadasın" sorulur). Her taraftan 2–3 gerekçe dinlenir. Fikrini değiştiren yer değiştirebilir, ona "seni ne ikna etti?" diye sorulur. |
-| 55–60 | Son söz | Herkes tek cümle: "Fikrim değişti / değişmedi, çünkü…" Günün seçilen sorusu "Soru Duvarı"na asılır. |
-
-**Soru Duvarı:** Kamp boyunca bir duvarda her günün seçilen sorusu ve kapanış ikileminde çoğunluğun hangi tarafa geçtiği yazılı kalır. 5. günün sentez etkinliği bu duvarla yapılır.
-
-**Konuşma nesnesi:** Elinde top ya da küçük bir nesne olan konuşur. Kalabalık ve karışık yaşlı grupta sırayı ve sessizliği korumanın en kolay yolu.
-
----
-
-### 1. Gün: The Truman Show · Bilgi
-
-- **Günün ana sorusu:** Gerçek olduğunu nasıl bilebiliriz?
-- **Açılış (15 dk):**
-  1. *Topluluk kuralları (5 dk):* Aynı anda tek kişi konuşur (konuşma nesnesi). Kişiye değil fikre itiraz edilir. "Katılıyorum / katılmıyorum, çünkü…" kalıbı. Pas geçmek serbest.
-  2. *Yöntem alıştırması (7 dk):* Kısa film **The Present** (yaklaşık 4 dk) izlenir. Herkes karta bir soru yazar. 2–3 soru okunur ve "Bu soru filmde cevaplanıyor mu, yoksa filmin dışında da mı tartışılabilir?" diye bakılır. Felsefi sorunun ne olduğu böyle öğretilir.
-  3. *İzleme görevi (3 dk):* "Truman neyin gerçek, neyin sahte olduğunu nasıl anlıyor? Siz izlerken hangi an 'bu sahte' dediniz? Kartınıza yazın."
-- **İzleme sırasında:** İki durak (bkz. modül: Truman Show, Durma noktası). Her biri 5 dakika.
-- **60 dakika:** Standart akış. Sorgulama bölümünde Platon'un mağara benzetmesini sonda, tek cümleyle ve "Bu fikri 2.400 yıl önce bir filozof da düşünmüş" diye verin.
-- **Kolaylaştırıcı notları:**
-  - İlk gün, öğrenciler "doğru cevabı" bekler. Sizin bir cevabınız olmadığını, sadece soru soracağınızı baştan söyleyin.
-  - Liseliler hızla sosyal medyaya bağlar. Bu güzel bir bağlantı ama tartışmayı "Sosyal medya kötü mü?" sorusuna kaydırmayın. Asıl soru "nasıl biliyoruz?"
-  - Seçilen soru Soru Duvarı'na ilk soru olarak asılır.
-- **Toplam süre:** 15 (açılış) + 103 (film) + 10 (iki durak) + 10 (ara) + 60 (tartışma) = **198 dk, yaklaşık 3 saat 20 dk**.
-
-### 2. Gün: Ters Yüz 2 · Benlik
-
-- **Günün ana sorusu:** Beni "ben" yapan ne: anılarım mı, duygularım mı, seçimlerim mi?
-- **Açılış (10 dk):**
-  1. *Dünle bağ (2 dk):* "Dün Truman'ın dünyası sahteydi. Peki ya içimizdeki dünya? Kendimiz hakkında bildiklerimiz gerçek mi?"
-  2. *Hassas içerik uyarısı (2 dk):* "Filmin sonuna doğru Riley çok yoğun bir kaygı yaşıyor, panik atak geçiriyor. İzlerken zorlanan olursa dışarı çıkabilir, bana işaret etmesi yeter."
-  3. *İzleme görevi (3 dk):* "Riley'nin 'ben kimim' cümlesi film boyunca nasıl değişiyor? Hangi duygunun haklı olduğunu düşündüğünüz anları kartınıza yazın."
-  4. *İsteğe bağlı:* Zaman varsa kısa film **Purl** (yaklaşık 9 dk), açılışı 20 dakikaya çıkarır.
-- **İzleme sırasında:** Bir durak (bkz. modül).
-- **60 dakika:** Standart akış. İlk tepki turunu atlamayın, bu film duygusal olarak yoğun biter.
-- **Kolaylaştırıcı notları:**
-  - Tartışmada kimse kendi kaygısını anlatmak zorunda değil. Sorular "sen" değil "insan" üzerinden sorulur: "Senin kaygın" değil, "Kaygı bir insana ne yapar?"
-  - Bir öğrenci kişisel bir şey paylaşırsa teşekkür edin, ama soruyu genelleştirerek gruba geri verin.
-  - Film sonrası arada yalnız kalan ya da sarsılmış görünen öğrenciyle kısa bir göz teması ya da "iyi misin" yeterli.
-- **Toplam süre:** 10 + 96 + 5 + 10 + 60 = **181 dk, yaklaşık 3 saat**.
-
-### 3. Gün: Wonder · Öteki (bireysel etik)
-
-- **Günün ana sorusu:** Haklı olmak ile iyi (nazik) olmak çatıştığında hangisini seçmeli?
-- **Açılış (10 dk):**
-  1. *Dünle bağ (2 dk):* "Dün 'ben kimim' diye sorduk. Bugün başka biri bize baktığında ne gördüğünü ve ona nasıl davranmamız gerektiğini soracağız."
-  2. *Hatırlatma (1 dk):* 1. gün izlenen The Present'i hatırlatın: "Çocuk köpeği neden önce reddetmişti?"
-  3. *Hassas içerik uyarısı (2 dk):* "Filmde zorbalık var ve bir sahnede bir karakter çok kırıcı bir şey söylüyor. Ayrıca evcil bir hayvanın ölümü var."
-  4. *İzleme görevi (3 dk):* "Film birkaç farklı karakterin gözünden anlatılıyor. Her bölüm başladığında, o kişinin derdinin ne olduğunu kartınıza bir kelimeyle yazın."
-- **İzleme sırasında:** Bir durak, Cadılar Bayramı sahnesinden hemen sonra (bkz. modül). Bu durak aynı zamanda hassas cümleyi ele alma fırsatı.
-- **60 dakika:** Standart akış. Kapanış ikilemi ihanet ve affetme üzerine olduğu için ikilemi "sen olsan" yerine "bir insan" diye sorun.
-- **Kolaylaştırıcı notları:**
-  - Bu filmde grupta gerçek zorbalık yaşamış ya da yapmış öğrenciler olabilir. Tartışmayı kişiselleştirmeyin, isim verilmesine izin vermeyin.
-  - Liseliler Via'nın bölümüyle (ailenin bütün ilgisinin kardeşine gitmesi) daha çok bağ kurar. Bu bakış açısını tartışmaya özellikle davet edin.
-  - En uzun film bu gün. Jenerik atlanabilir.
-- **Toplam süre:** 10 + 113 + 5 + 10 + 60 = **198 dk, yaklaşık 3 saat 20 dk**.
-
-### 4. Gün: Zootropolis · Toplum
-
-- **Günün ana sorusu:** Bir grup hakkında genelleme yapmak ne zaman adil, ne zaman haksızlık?
-- **Açılış (10 dk):**
-  1. *Dünle bağ (2 dk):* "Dün tek bir çocuğa nasıl davrandığımızı konuştuk. Bugün bütün bir şehrin, bir toplumun nasıl davrandığına bakacağız."
-  2. *İzleme görevi (3 dk):* "Filmde kim kimi önyargıyla yargılıyor? Kartınıza en az bir örnek yazın. Kahramanların da önyargılı olduğu anlara dikkat edin."
-  3. *İsteğe bağlı:* Zaman varsa kısa film **Alike** (yaklaşık 8 dk). Toplumun bireyi nasıl biçimlendirdiğine giriş olur.
-- **İzleme sırasında:** Bir durak (bkz. modül).
-- **60 dakika:** Standart akış. Kapanış ikilemi (genelleme mi, bireye bakmak mı) bu günün en güçlü anı olabilir. İkileme 10 dakika ayırın.
-- **Kolaylaştırıcı notları:**
-  - Filmin hayvan metaforu gerçek gruplara (etnik köken, din, göçmenler, cinsiyet) uyarlanabilir. Öğrenciler bunu kendiliğinden yaparsa engellemeyin ama tartışmayı kavram düzeyinde tutun: "Önyargı nedir?", "Genelleme ne zaman haklıdır?" Belirli bir grubu hedef alan bir yoruma "Bu bir genelleme mi? Gerekçen ne?" diye sorun.
-  - 3. günle bağ kurun: "Dün Jack bir hata yaptı ve özür diledi. Bugün Judy de. İki özür arasında fark var mı?"
-- **Toplam süre:** 10 + 108 + 5 + 10 + 60 = **193 dk, yaklaşık 3 saat 15 dk**.
-
-### 5. Gün: Soul · Anlam (sentez günü)
-
-- **Günün ana sorusu:** Hayatı yaşamaya değer kılan ne?
-- **Açılış (10 dk):**
-  1. *Soru Duvarı yürüyüşü (5 dk):* Öğrenciler sessizce duvardaki dört soruyu okur.
-  2. *İzleme görevi (3 dk):* "Bu filmi izlerken önceki dört filmden bir karakteri hatırlatan anları yazın. Örneğin 'Bu an bana Truman'ı hatırlattı, çünkü…'"
-  3. *Hassas içerik notu (2 dk):* Film bir ölüme yakın deneyimle açılıyor. Yakın zamanda yas yaşayan öğrenci varsa ona önceden söyleyin.
-- **İzleme sırasında:** Durak yok. Film kesintisiz izlenir. (Grup çok yorgunsa isteğe bağlı durak için bkz. modül.)
-- **60 dakika (sentez akışı):**
-
-| Dakika | Adım | Ne yapılır |
-|---|---|---|
-| 0–5 | İlk tepki turu | Standart |
-| 5–12 | Soru üretme | Üçlüler bir soru yazar, ama bu kez **kartlardaki film bağlantısından** yola çıkarak |
-| 12–17 | Soru seçme | Standart |
-| 17–37 | Sorgulama | Seçilen soru. Kolaylaştırıcı önceki filmlere köprü kurar: "Joe'nun hayali ile Truman'ın kaçışı arasında bir fark var mı?" |
-| 37–52 | **Beş Kapı** (kapanış etkinliği) | Aşağıda |
-| 52–60 | Kampın son sözü | Herkes tek cümle: "Kampa … sorusuyla geldim, … sorusuyla gidiyorum." |
-
-- **Beş Kapı etkinliği:** Odanın beş köşesine birer film afişi ya da adı konur. Her köşede o filmin kahramanının yaptığı seçim yazar:
-  - Truman: Güvenli sahtelik yerine bilinmeyen gerçeği seçti.
-  - Riley: Mükemmel bir "ben" yerine iyisi ve kötüsüyle karmaşık bir "ben"i kabul etti.
-  - Auggie: Saklanmak yerine görünmeyi seçti. (İsterseniz Jack: haklı çıkmak yerine özür dilemeyi seçti.)
-  - Judy: Haklı olduğunu savunmak yerine yanıldığını kabul etti.
-  - Joe: Büyük hayalinin yanında sıradan anların değerini gördü.
-
-  Soru: **"Bu beş seçimden hangisi, iyi bir hayat için en önemlisi?"** Öğrenciler köşelere dağılır. Her köşe 2 dakikada gerekçesini toplar ve bir sözcü söyler. Sonra "Başka bir köşeye geçmek isteyen var mı? Seni ne ikna etti?" diye sorulur. Bu etkinlik kampın bütün filmlerini tek bir soruda, "İyi bir hayat nedir?" sorusunda birleştirir.
-- **Kolaylaştırıcı notları:**
-  - Bu günün amacı yeni bir konu açmak değil, beş günü birbirine bağlamak. Soul'un kendi tartışmasını kısa tutun.
-  - Zaman varsa (isteğe bağlı +30 dk): Öğrenciler Soru Duvarı'ndan en sevdikleri soruyu seçip kampın sonunda ailelerine sorabilecekleri bir "eve götürülecek soru" kartı yazar. Kısa film **La Luna** (yaklaşık 7 dk) kendi yolunu bulma temasıyla bu kapanışa çok uyar.
-- **Toplam süre:** 10 + 100 + 0 + 10 + 60 = **180 dk, yaklaşık 3 saat** (isteğe bağlı uzatmayla 3,5 saat).
-
----
+**Lise ağırlıklı bir grup gelirse:** 4. günde Zootropolis yerine **12 Kızgın Adam** gösterilebilir. Yeni derinlikteki modülü Parça 2'de hazırlanacak.
 
 ## 3. Hassas İçerik: Tamamı İzlenen Filmler İçin Karar
 
@@ -332,6 +221,8 @@ Filmler baştan sona izleneceği için hassas sahneler artık "seçmeyiz, olur b
 
 ### Modüllerin yapısı
 
+> **Programdaki beş film için** sorular, duraklar ve ikilemler artık [moduller/](moduller/) klasöründe. Aşağıdaki bilgi kartlarında yalnızca künye, özet, temalar, kilit anlar ve atlanacak sahneler duruyor. Yedek filmlerde eski yapı (aşağıdaki liste) Parça 2'ye kadar geçerli.
+
 Her modülde şu başlıklar var:
 - **Künye ve özet:** Yıl, süre, yaş sınırı, kısa özet.
 - **Felsefi temalar:** Filmin kapı açtığı konular ve ilgili filozof ya da kavram.
@@ -351,6 +242,9 @@ Her modülde şu başlıklar var:
 
 #### 1. Gün · The Truman Show (Peter Weir)
 
+- **Sorular, duraklar ve ikilem:** [moduller/gun1-truman.md](moduller/gun1-truman.md)
+
+- **IMDb:** https://www.imdb.com/title/tt0120382/
 - **Yıl / süre:** 1998 · 103 dk (bazı kaynaklarda 102–104)
 - **Yaş sınırı:** MPAA PG (tematik öğeler, hafif küfür) · Türkiye: doğrulanamadı
 - **Özet:** Truman Burbank otuz yıldır mutlu bir kasabada yaşadığını sanıyor. Aslında doğduğu günden beri dev bir stüdyoda, gizli kameralarla dünyaya canlı yayınlanan bir dizinin habersiz başrolü. Küçük tuhaflıklar biriktikçe Truman bu dünyadan çıkmaya karar veriyor.
@@ -360,28 +254,14 @@ Her modülde şu başlıklar var:
   2. *İlk yarı:* Truman'ın, gençliğinde tanıştığı Sylvia'yı hatırladığı geçmiş sahnesi. Sylvia ona etrafındaki her şeyin bir oyun olduğunu söylemeye çalışır ama zorla götürülür.
   3. *Ortalar:* Truman kasabadan çıkmaya çalışır. Seyahat acentesi, bozulan otobüs ve yoldaki engeller.
   4. *Final:* Truman tekneyle ufka ulaşır, gökyüzü sandığı duvara çarpar. Yapımcı Christof gökten onunla konuşur ve dışarıda daha fazla gerçek olmadığını söyler. Truman kapıdan çıkıp çıkmamaya karar verir.
-- **Durma noktaları (1. gün, iki durak):**
-  - *Durak 1, yaklaşık ilk üçte birin sonu:* Truman'ın Sylvia'yı hatırladığı geçmiş sahnesi bitip şimdiki zamana dönüldüğünde. **Soru:** "Truman'ın hayatında şimdiye kadar 'tuhaf' bulduğunuz bir şey oldu mu? Kartınıza yazın." Ardından tek bir kısa soru: "Sylvia doğruyu söylüyorsa, Truman ona inanmalı mı? Neden?" **Süre:** 5 dk (2 dk sessiz yazma, 3 dk 2–3 cevap).
-  - *Durak 2, son çeyreğin başı:* Yapım ekibi Truman'ın evden kaybolduğunu fark ettiği ve onu aramaya başladığı an (Truman'ın denize açılışından hemen önce). **Soru:** "Christof'un yerinde olsaydınız ne yapardınız? Truman'ın kaçmaya hakkı var mı?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:**
   - Atlanması gereken bir sahne yok.
   - *Dikkat:* Truman, çocukken babasını denizde kaybettiğini sanır ve bu travma geri dönüşlerle gösterilir. Finalde Christof'un emriyle fırtına çıkarılır ve Truman boğulma tehlikesi yaşar. Ağır değil, ama yakın zamanda yakınını kaybetmiş ya da boğulma travması olan öğrenci varsa açılışta kısaca söyleyin.
-- **Sorular:**
-  - **Görev sorusu:** Truman'ın hayatı sahte miydi?
-  - *Gerçeklik ve bilgi*
-    1. Truman'ın sevdiği insanlar oyuncuysa, onun duyduğu sevgi de sahte miydi? Bir duygu, yöneldiği şey sahte olunca sahte mi olur?
-    2. Christof, insanların kendilerine sunulan dünyayı gerçek kabul ettiğini söylüyor. Senin hayatının bir "Truman Şovu" olmadığından nasıl emin olabilirsin?
-  - *Özgürlük ve güvenlik*
-    3. Christof, Truman'ı tehlikeli dünyadan koruduğunu iddia ediyor. Birini korumak için ona yalan söylemek ne zaman haklı olabilir?
-    4. Bir kafes rahatsa yine de kafes midir?
-  - *Etik ve izleyici*
-    5. Şovu yıllarca izleyen milyonlarca insan da suçlu mu? İzlemek bir eylem midir?
-    6. Bugün başkalarının hayatını sosyal medyada izlerken biz de Truman Şovu izleyicisi miyiz?
-  - **Eğer'leme:** "Peki ya Truman hiç öğrenmeseydi ve ölene kadar mutlu yaşasaydı? Bu kötü bir hayat olur muydu?"
-- **Kapanış ikilemi:** İki kapı var. Birincisinde her şeyin senin için tasarlandığı, güvenli ve mutlu ama hiçbir şeyin kesin gerçek olmadığı bir dünya. İkincisinde neyle karşılaşacağını bilmediğin ama gerçek bir dünya. Hangisini seçersin?
 
 #### 2. Gün · Ters Yüz 2 (Inside Out 2, Kelsey Mann)
 
+- **Sorular, duraklar ve ikilem:** [moduller/gun2-ters-yuz-2.md](moduller/gun2-ters-yuz-2.md)
+- **IMDb:** https://www.imdb.com/title/tt22022452/
 - **Yıl / süre:** 2024 · 96 dk (kaynaklarda 96–100)
 - **Yaş sınırı:** MPAA PG (bazı tematik öğeler) · Türkiye: Beyazperde **7A** gösteriyor (7 yaş altı aile eşliğinde). JustWatch 6A diyor. Resmi kayıt doğrulanamadı.
 - **Özet:** Riley 13 yaşına girmiş, en yakın iki arkadaşıyla bir buz hokeyi kampına gidiyor. Ergenlik alarmıyla birlikte zihin merkezine yeni duygular geliyor: Kaygı, Kıskançlık, Can Sıkıntısı ve Utanç. Kaygı, Riley'nin başarılı olması için eski duyguları kenara itiyor ve Riley'nin "ben iyi bir insanım" diye kurulmuş benlik duygusunu söküp yerine yenisini koyuyor.
@@ -391,26 +271,14 @@ Her modülde şu başlıklar var:
   2. *Kaygı'nın devralması (yaklaşık ilk üçte bir):* Kaygı eski duyguları kenara iter ve benlik duygusunu söker.
   3. *Uyum sağlama (ortalar):* Riley popüler oyuncu Val'e yaklaşır ve eski arkadaşları Bree ile Grace'ten uzaklaşır. Yeni benlik "yeterince iyi değilim" diye kurulur.
   4. *Ceza kulübesi (final):* Riley maçta panik atak geçirir. Sonunda hiçbir duygunun Riley'nin kim olduğunu tek başına seçemeyeceği kabul edilir. İyi ve kötü anılardan oluşan karmaşık bir benlik duygusu oluşur.
-- **Durma noktası (yaklaşık ilk üçte bir):** Kaygı ve yeni duyguların eski duyguları kenara itip Riley'nin benlik duygusunu söktüğü bölümün hemen sonunda. **Soru:** "Neşe, Riley'yi yalnızca iyi anılarla kurdu. Kaygı onu 'daha başarılı bir Riley' için değiştirmek istiyor. Şu an hangisi haklı görünüyor?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:**
   - *Panik atak sahnesi (final):* **Atlanamaz.** Filmin doruk noktası ve ana fikri burada. Çok gerçekçi çizildiği için kaygı bozukluğu yaşayan öğrenciler için zorlayıcı olabilir.
   - *Nasıl ele alınır:* Açılışta önceden haber verin ve dışarı çıkma hakkı tanıyın. Film sonrası 10 dakikalık arayı mutlaka verin. Tartışmada kişisel kaygı deneyimi paylaşmayı zorlamayın. Biri paylaşırsa teşekkür edip soruyu genele çevirin.
-- **Sorular:**
-  - **Görev sorusu:** Sadece iyi yanlarımızdan oluşan bir "ben", gerçek bir "ben" midir?
-  - *Benlik*
-    1. "Ben iyi bir insanım" ve "Ben bencilim" aynı anda doğru olabilir mi?
-    2. Kimliğimizi duygularımız mı, anılarımız mı, seçimlerimiz mi belirler?
-  - *Duygular*
-    3. Kaygı kötü mü? Riley'yi korumaya çalışıyordu. Kaygı ne zaman yardım eder, ne zaman zarar verir?
-    4. Bir duyguyu bastırmak ile onu kontrol etmek aynı şey mi?
-  - *Arkadaşlık*
-    5. Riley yeni bir grupta kabul görmek için eski arkadaşlarından uzaklaştı. Uyum sağlamak ile kendini kaybetmek arasındaki çizgi nerede?
-    6. 1. günle köprü: Truman'ın dünyası sahteydi. Neşe'nin kurduğu "mükemmel Riley" de sahte miydi?
-  - **Eğer'leme:** "Peki ya bütün kötü anılarını silebilseydin? Hâlâ aynı kişi olur muydun?"
-- **Kapanış ikilemi:** Bir hap var. Yutarsan hiç kaygı hissetmeyeceksin, ama geleceği düşünme ve ona hazırlanma yeteneğin de azalacak. Hapı yutar mısın? (Prindle'ın "her şeyi hatırlamak mı, her şeyi unutmak mı" ikileminin ergenlik versiyonu.)
 
-#### 3. Gün · Wonder (Stephen Chbosky)
+#### 3. Gün · Mucize (Wonder, Stephen Chbosky)
 
+- **Sorular, duraklar ve ikilem:** [moduller/gun3-mucize.md](moduller/gun3-mucize.md)
+- **IMDb:** https://www.imdb.com/title/tt2543472/ · Türkçe Vikipedi'deki adı: *Mucize*
 - **Yıl / süre:** 2017 · 113 dk
 - **Yaş sınırı:** MPAA PG (zorbalık dahil tematik öğeler, hafif küfür) · Türkiye: doğrulanamadı
 - **Özet:** Doğuştan yüz farklılığı olan (Treacher Collins sendromu) 10 yaşındaki Auggie Pullman, evde eğitim gördükten sonra ilk kez okula, 5. sınıfa başlıyor. Film Auggie'nin yanında lise öğrencisi ablası Via'nın, arkadaşı Jack'in ve başkalarının gözünden de anlatılıyor ve herkesin kendi görünmeyen derdi olduğunu gösteriyor.
@@ -420,27 +288,15 @@ Her modülde şu başlıklar var:
   2. *Cadılar Bayramı:* Auggie kostümü yüzünden tanınmaz ve en yakın arkadaşı Jack'in, Julian ve diğerlerinin yanında onunla zorla arkadaş olduğunu söylediğini duyar.
   3. *Via'nın bölümü:* Ailenin bütün ilgisinin Auggie'ye gittiğini, kendisinin görünmez olduğunu anlatır.
   4. *Müdürün odası:* Müdür Tushman, Julian'ın ailesiyle görüşürken Julian'ın annesinin sınıf fotoğrafından Auggie'yi çıkardığını ortaya koyar.
-- **Durma noktası (yaklaşık filmin ortası):** Cadılar Bayramı sahnesinin hemen ardından, Auggie'nin Jack'in sözlerini duyduğu andan sonraki ilk sahne geçişinde. **Soru:** "Jack neden böyle söyledi? Bir arkadaş başkalarının yanında farklı davranabilir mi?" **Süre:** 5 dk. Bu durak aynı zamanda hassas cümleyi ele alma fırsatı (aşağıya bakın).
 - **Atlanacak / dikkat edilecek sahneler:**
   - *Cadılar Bayramı cümlesi:* Jack, Auggie gibi görünseydi kendini öldüreceğini söyler. **Atlanmaması önerilir:** Bu sahne filmin olay örgüsünün merkezinde, atlanırsa Auggie'nin kırgınlığı ve Jack'in özrü anlaşılmaz. *Nasıl ele alınır:* Duraktaki kısa soruya ek olarak tek cümle söyleyin: "Jack çok kırıcı ve ağır bir şey söyledi. İnsanlar bazen bir grupta kabul görmek için, gerçekte düşünmedikleri ağır şeyler söyler." Konuyu intihar üzerine açmayın. Bir öğrenci açarsa kısaca ve ciddiyetle karşılık verin, gerekirse oturum sonrası birebir konuşun.
   - *Köpek Daisy'nin ölümü (ikinci yarı):* Aile köpeğiyle vedalaşır. Kısa bir sahne, atlamak mümkün ama gerek yok. Yakın zamanda evcil hayvanını kaybetmiş öğrenci varsa önceden söyleyin.
   - *Doğa kampı (ikinci yarı):* Büyük çocukların Auggie ve Jack'e saldırdığı kısa bir zorbalık sahnesi. Hafif, atlanması gerekmez.
-- **Sorular:**
-  - **Görev sorusu:** Haklı olmak ile nazik olmak gerçekten çatışır mı?
-  - *İyilik ve haklılık*
-    1. Nazik olmak her zaman doğru mu? Birine acı bir gerçeği söylemek ne zaman nazikliktir?
-    2. Bay Browne'ın ilkesine katılıyor musun? Haklı olanın nazik olmadığı bir örnek bulabilir misin?
-  - *Bakış açısı*
-    3. Ailenin bütün ilgisini Auggie'ye vermesi Via'ya haksızlık mıydı? Adil olmak herkese eşit davranmak mıdır?
-    4. Jack arkadaşlarının yanında başka, Auggie'nin yanında başka davrandı. Gerçek Jack hangisi? (2. günle köprü: Riley de Val'in yanında başka biri oldu.)
-  - *Sorumluluk*
-    5. Julian'ın davranışında annesinin payı var mı? Bir çocuğun yaptığından ebeveyn ne kadar sorumludur?
-    6. İnsanlara görünüşleri yüzünden farklı davranmak her zaman yanlış mı?
-  - **Eğer'leme:** "Peki ya Auggie, Jack'in sözlerini hiç duymasaydı? Jack yine de yanlış bir şey yapmış olur muydu?"
-- **Kapanış ikilemi:** Bir insanın en yakın arkadaşı, o yokken onu başkalarına kötülemiş. Sonra içtenlikle özür diliyor. Arkadaşlığa eskisi gibi devam etmek mi, güveni bir kez kırılan ilişkiyi bitirmek mi? Affetmek, unutmak demek mi?
 
 #### 4. Gün · Zootropolis (Zootopia, Byron Howard & Rich Moore)
 
+- **Sorular, duraklar ve ikilem:** [moduller/gun4-zootropolis.md](moduller/gun4-zootropolis.md)
+- **IMDb:** https://www.imdb.com/title/tt2948356/ · Türkçe Vikipedi'deki adı: *Zootropolis: Hayvanlar Şehri*
 - **Yıl / süre:** 2016 · 108 dk
 - **Yaş sınırı:** MPAA PG (kaba mizah, aksiyon, bazı tematik öğeler) · Türkiye: doğrulanamadı
 - **Özet:** Tavşan Judy Hopps, "herkes her şey olabilir" diye inandığı Zootropolis şehrinin ilk tavşan polisi oluyor. Kayıp hayvanlar davasını çözmek için düzenbaz tilki Nick Wilde ile çalışmak zorunda kalıyor. Avcı hayvanların "vahşileşmesi" şehri korkuya ve ayrımcılığa sürüklüyor.
@@ -450,26 +306,14 @@ Her modülde şu başlıklar var:
   2. *Nick'in çocukluk anısı:* Nick, Genç İzciler'e katılmak istediği gün diğer çocukların onu tilki olduğu için tuttuğunu ve ağzına burunluk taktığını anlatır.
   3. *Basın toplantısı (yaklaşık son üçte birin başı):* Judy, vahşileşen avcıların "doğal içgüdülerine dönüyor" olabileceğini ima eder. Yanında duran Nick derinden incinir ve onu bırakıp gider. Şehirde avcılara karşı korku yayılır.
   4. *Özür sahnesi:* Judy Nick'ten özür diler.
-- **Durma noktası (yaklaşık son üçte birin başı):** Basın toplantısından sonra Nick, Judy'yi bırakıp gittiğinde. **Soru:** "Judy önyargılı mı? Kötü bir niyeti yoktu. Yine de yanlış bir şey yaptı mı?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:**
   - *Çıplaklar kulübü (filmin ilk yarısı):* Judy ile Nick, ipucu ararken hayvanların çıplak gezdiği bir doğa kulübüne giderler. Çizgi film tarzında, ayrıntısız ve mizahi bir sahne. **Atlamak mümkün:** Sahne kısa ve olay örgüsüne katkısı küçük (burada bir aracın plaka bilgisini öğrenirler). Genelde atlamaya gerek yok. Kampın ya da ailelerin hassasiyeti varsa sahne başladığında ileri sarın ve "Judy ile Nick burada aradıkları aracın plakasını öğrendi" deyin.
   - *Vahşileşen hayvanların saldırıları:* Bir jaguarın Judy ile Nick'i kovaladığı gibi korku ve gerilim sahneleri var. 11 yaş için uygun düzeyde, atlanması gerekmez.
-- **Sorular:**
-  - **Görev sorusu:** İyi niyetli biri de önyargılı olabilir mi?
-  - *Önyargı*
-    1. Judy'nin ailesinin ona tilki kovucu sprey vermesi önyargı mı, yoksa makul bir önlem mi? Fark nerede?
-    2. "Bu onların doğasında var" demek ne zaman doğru, ne zaman tehlikeli?
-  - *Beklenti ve sorumluluk*
-    3. Nick, herkes ona hilekâr bir tilki gibi davrandığı için hilekâr oldu. Başkalarının beklentileri bizi değiştirir mi? O zaman Nick'in yaptıklarından kim sorumlu?
-    4. Bir toplumun korkusu, yani çoğunluğun ne düşündüğü, doğru olanı belirleyebilir mi?
-  - *Özür*
-    5. İyi bir özrün içinde ne olmalı? Nick'in Judy'yi affetme zorunluluğu var mıydı?
-    6. 3. günle köprü: Jack'in özrü ile Judy'nin özrü arasında bir fark var mı?
-  - **Eğer'leme:** "Peki ya avcıların gerçekten de bir gün vahşileşme ihtimali olsaydı? O zaman onlardan korkmak haklı olur muydu?"
-- **Kapanış ikilemi:** Bir grup hakkında istatistiksel olarak doğru bir genelleme var, ama karşındaki bireye bunu uygulamak ona haksızlık edebilir. Genellemeyi kullanarak kendini korumak mı, her bireye sıfırdan bakmak mı? Hangisi daha adil?
 
 #### 5. Gün · Soul (Pete Docter)
 
+- **Sorular, duraklar ve ikilem:** [moduller/gun5-soul.md](moduller/gun5-soul.md)
+- **IMDb:** https://www.imdb.com/title/tt2948372/
 - **Yıl / süre:** 2020 · yaklaşık 100 dk
 - **Yaş sınırı:** MPAA PG (tematik öğeler, biraz kaba dil) · Türkiye: doğrulanamadı (Disney+'ta yayınlandı)
 - **Özet:** Ortaokul müzik öğretmeni Joe Gardner, hayalindeki caz konserini kazandığı gün bir kazayla ruhların dünyasına düşer. Dünya'ya gitmek istemeyen huysuz ruh 22 ile karşılaşır. Joe bedenine dönmeye çalışırken ikisi "kıvılcım"ın ne olduğunu ve hayatın amacını yeniden sorgular.
@@ -479,24 +323,10 @@ Her modülde şu başlıklar var:
   2. *22'nin Joe'nun bedeninde Dünya'yı keşfetmesi (ortalar):* Pizza, berberde sohbet ve havada süzülerek düşen akçaağaç tohumu. 22 sıradan şeylerden zevk alır.
   3. *Konserden sonra (son bölüm):* Joe hayalini gerçekleştirmiştir ama boşluk hisseder. Caz sanatçısı Dorothea ona okyanusu arayan genç balığın hikâyesini anlatır: yaşlı balık genç balığa zaten okyanusta olduğunu söyler, genç balık "bu sadece su" der.
   4. *Piyano başında:* Joe sıradan günlerinin anılarını hatırlar.
-- **Durma noktası:** 5. gün **durak yok**, film kesintisiz izlenir. Grup çok yorgunsa isteğe bağlı durak: ortalarda, 22'nin Joe'nun bedenindeyken akçaağaç tohumunu tuttuğu ve Dünya'da kalmak istediğini fark ettiği bölümden sonra. **Soru:** "22 neden birden yaşamak istedi? Ne değişti?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:**
   - *Açılıştaki kaza:* Joe bir rögar kapağından düşer ve ruhu bedeninden ayrılır. Ölüme yakın bir deneyim, ama mizahi ve soyut işlenmiş. Atlanamaz, hikâyenin başlangıcı.
   - *"Öte" sahneleri:* Ruhların ışığa doğru giden bir yolda ilerlediği sahneler. Yakın zamanda yas yaşayan öğrenci için duygusal olabilir. Açılışta kısaca haber verin.
   - *Kayıp ruhlar:* Saplantılı insanların kara, ürkütücü yaratıklar olarak gösterildiği sahneler. Hafif, sorun değil.
-- **Sorular:**
-  - **Görev sorusu:** Hayatın bir amacı olmak zorunda mı?
-  - *Anlam ve amaç*
-    1. Joe en büyük hayaline ulaştı ve boşluk hissetti. Bir hedefe ulaşmak neden bazen mutlu etmez?
-    2. Amacı olmayan bir hayat anlamsız mıdır?
-  - *Benlik*
-    3. 22, Joe'nun bedenindeyken etrafındakiler onu Joe sandı. Bir insanı o insan yapan şey bedeni mi, anıları mı, yoksa başka bir şey mi? (2. günle köprü)
-    4. Bir şeyi denemeden sevebilir miyiz? 22 yaşamayı neden sevmedi?
-  - *An*
-    5. Dorothea'nın balık hikâyesi ne anlatıyor? Senin "su" sandığın "okyanus" ne olabilir?
-    6. Tutku ile saplantı arasındaki sınır nerede?
-  - **Eğer'leme:** "Peki ya Joe konserde hiç çalamasaydı? Hayatı daha mı az anlamlı olurdu?"
-- **Kapanış ikilemi:** 5. gün kapanış ikilemi yerine **Beş Kapı** etkinliği yapılır (bkz. Bölüm 2, 5. Gün). Soul'u ayrı kullanırsanız: Hayatını tek bir büyük hedefe adayıp ona ulaşmak mı, yoksa büyük bir hedefin olmadan her günün küçük şeylerinden keyif almak mı? İkisi birden mümkün değilse hangisini seçersin?
 
 ---
 
@@ -506,6 +336,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### WALL-E (Andrew Stanton) · 5. günün yerine geçebilir
 
+- **IMDb:** https://www.imdb.com/title/tt0910970/ · Türkçe Vikipedi'deki adı: *VOL-İ*
 - **Yıl / süre:** 2008 · 98 dk · **Yaş sınırı:** MPAA G · Türkiye: doğrulanamadı
 - **Özet:** İnsanların çöpe boğduğu Dünya'da yalnız kalmış küçük temizlik robotu WALL-E, yüzyıllardır çöp topluyor ve ilginç eşyalar biriktiriyor. Bir keşif robotunun peşine takılıp insanların yaşadığı uzay gemisi Axiom'a gidiyor. Orada her işi makinelere bırakmış, ekranlara gömülü ve neredeyse hiç yürümeyen insanlarla karşılaşıyor.
 - **Felsefi temalar:** İyi yaşam ve konfor (**Aristoteles**: mutluluk zevk değil, iyi yaşanmış bir hayattır. **Nozick'in deneyim makinesi**: sana istediğin her deneyimi yaşatan bir makineye bağlanır mıydın?), tüketim ve çevre etiği, insanı insan yapan şey, makinelerin bilinci, kurala itaat ve sorumluluk.
@@ -525,6 +356,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### Küçük Prens (The Little Prince, Mark Osborne) · 5. günün yerine geçebilir
 
+- **IMDb:** https://www.imdb.com/title/tt1754656/
 - **Yıl / süre:** 2015 (Fransız yapımı) · yaklaşık 106 dk (kaynaklarda 106–108) · **Yaş sınırı:** MPAA PG (hafif tematik öğeler) · Türkiye: doğrulanamadı (Netflix'te yayınlandı)
 - **Özet:** Annesinin dakika dakika planladığı bir "Hayat Planı"yla prestijli bir okula hazırlanan küçük bir kız, yan evdeki yaşlı pilotla arkadaş olur. Pilot ona yıllar önce çölde tanıştığı Küçük Prens'in hikâyesini anlatır (bu bölümler stop-motion, yani kare kare canlandırılmış kuklalarla çekilmiş). Pilot hastalanınca kız Prens'i bulmak için yola çıkar ve büyüyüp her şeyi unutmuş bir yetişkinler dünyasıyla karşılaşır.
 - **Felsefi temalar:** Büyümek ve unutmak, "faydalı" olan ile "özsel" olan, dostluk ve bağ kurmak (**Aristoteles**: gerçek dostluk çıkar için değil, karşındakinin kendisi için kurulur), kayıp, planlı hayat ve özgürlük.
@@ -544,6 +376,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### Vahşi Robot (The Wild Robot, Chris Sanders) · 2. günün yerine geçebilir (küçük yaş ağırlıklı grupta)
 
+- **IMDb:** https://www.imdb.com/title/tt29623480/
 - **Yıl / süre:** 2024 · 102 dk · **Yaş sınırı:** MPAA PG (aksiyon/tehlike, tematik öğeler) · Türkiye: Beyazperde "6 yaş altı aile eşliğinde" notu veriyor, resmi kayıt doğrulanamadı.
 - **Özet:** Bir kargo kazasında ıssız bir adaya düşen hizmet robotu Roz, yapacak bir görev arıyor. Kazayla bir kaz yuvasını ezer ve tek kalan yumurtadan çıkan yavru kaz Brightbill onu annesi sanır. Roz, kurnaz tilki Fink'in de yardımıyla yavruya yemek yemeyi, yüzmeyi ve göç için uçmayı öğretmeye çalışır.
 - **Felsefi temalar:** Doğa mı yetiştirme mi (**Rousseau**: insanın doğası iyidir, onu toplum değiştirir), programlanmış olmak ve özgür irade, bakım etiği (**Nel Noddings**: ahlakın temeli birine özen göstermektir), "güçlü zayıfı yer" kuralı, farklı türlerin bir arada yaşaması.
@@ -563,6 +396,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### 12 Kızgın Adam (12 Angry Men, Sidney Lumet) · 4. günün yerine geçebilir (lise ağırlıklı grupta)
 
+- **IMDb:** https://www.imdb.com/title/tt0050083/ · Türkçe Vikipedi'deki adı: *12 Öfkeli Adam*
 - **Yıl / süre:** 1957 · 96 dk · siyah-beyaz · **Yaş sınırı:** O dönemin "Approved" belgesi (sonradan bazı listelerde G ya da derecelendirilmemiş) · Türkiye: doğrulanamadı
 - **Özet:** On iki jüri üyesi, babasını öldürmekle suçlanan 18 yaşındaki bir gencin kararını vermek için sıcak bir odaya kapanıyor. Mahkûmiyet idam demek ve oybirliği gerekiyor. İlk oylamada 11'e karşı 1 "suçlu" çıkıyor. Tek muhalif 8 numaralı jüri üyesi, diğerlerini kanıtları yeniden düşünmeye zorluyor.
 - **Felsefi temalar:** Makul şüphe ve bilginin sınırları, önyargının yargıya sızması, çoğunluk baskısı (**Asch deneyleri**: insanlar gruba uymak için açıkça yanlış olana bile katılabilir), **Sokrates**'in sorgulama yöntemi, adil usul.
@@ -583,6 +417,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### Gattaca (Andrew Niccol) · Ana programa önerilmez, yalnızca 15+ lise grubu
 
+- **IMDb:** https://www.imdb.com/title/tt0119177/
 - **Yıl / süre:** 1997 · yaklaşık 106 dk (kaynaklarda 106–112) · **Yaş sınırı:** MPAA PG-13 · Türkiye: doğrulanamadı
 - **Özet:** Yakın gelecekte çocuklar genetik olarak tasarlanıyor ve iş hayatı genlere göre belirleniyor. Doğal yolla doğmuş, kalp hastalığı riski yüksek "geçersiz" Vincent, uzaya gitme hayalini gerçekleştirmek için bir kazada felç olmuş "geçerli" Jerome'un kimliğini ve genetik örneklerini ödünç alıyor.
 - **Felsefi temalar:** Genetik determinizm ve özgür irade, **Sartre** (insan önce var olur, ne olacağını sonra seçer), liyakat ve adalet, tasarım bebekler (biyoetik), kandırmanın etiği.
@@ -605,6 +440,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### Bugün Aslında Dündü (Groundhog Day, Harold Ramis) · Ana programa önerilmez, yalnızca lise grubu ve atlamayla
 
+- **IMDb:** https://www.imdb.com/title/tt0107048/
 - **Yıl / süre:** 1993 · 101 dk · **Yaş sınırı:** MPAA PG (bazı tematik öğeler). Common Sense Media 11+ öneriyor. Türkiye: doğrulanamadı.
 - **Özet:** Kendini beğenmiş TV hava durumu sunucusu Phil Connors, küçük bir kasabada "Köstebek Günü"nü haberleştirirken aynı günü yeniden yaşamaya başlar. Önce bundan zevk alır, sonra umutsuzluğa düşer. Sonunda o tek günü bir insan olarak gelişmek için kullanır.
 - **Felsefi temalar:** **Nietzsche**'nin bengi dönüşü (bu hayatı sonsuz kez aynen yaşamak zorunda olsan ne olurdu?), **Camus**'nün Sisifos'u (sonsuza kadar taşı tepeye itmeye mahkûm bir adam mutlu olabilir mi?), **Aristoteles**: erdem alışkanlıkla kazanılır, sonuçları olmayan eylemlerin ahlakı.
@@ -626,6 +462,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
 
 #### Dalga (Die Welle, Dennis Gansel) · Ana programa önerilmez, yalnızca 15+ lise grubu
 
+- **IMDb:** https://www.imdb.com/title/tt1063669/ · Türkçe Vikipedi'deki adı: *Tehlikeli Oyun*
 - **Yıl / süre:** 2008 (Almanya) · 107 dk · **Yaş sınırı:** Almanya FSK 12. ABD'de derecelendirilmemiş. Türkiye: doğrulanamadı.
 - **Özet:** Lise öğretmeni Rainer Wenger, proje haftasında "otokrasi" (tek kişinin yönetimi) dersini anlatırken öğrencilerin Almanya'da yeniden bir diktatörlük olamayacağına inandığını görür. Bir haftalık bir deney başlatır: ortak kıyafet, selam, bir isim ("Dalga") ve disiplin. Birkaç günde hareket sınıfın kontrolünden çıkar. 1967'de ABD'de yapılan gerçek bir sınıf deneyinden (Ron Jones, "Üçüncü Dalga") esinlenilmiştir.
 - **Felsefi temalar:** Otorite ve itaat (**Milgram deneyi**: sıradan insanlar bir otorite emrettiği için başkasına zarar verebilir mi?), aidiyet ve kalabalık psikolojisi, **Hannah Arendt**'in "kötülüğün sıradanlığı" (büyük kötülükleri canavarlar değil, düşünmeden itaat eden sıradan insanlar yapar), eşitlik ile tek tipleşme, eğitimde etik.

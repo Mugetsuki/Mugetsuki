@@ -1,839 +1,1077 @@
-# Uygulama Senaryosu B: Durdurmalı İzleme
+# Uygulama senaryosu B: Durdurmalı izleme
 
 Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş, karışık grup
-Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-12
-İlgili dosyalar: [film-onerileri.md](film-onerileri.md) (filmler ve modüller) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) (diğer senaryo) · [moderator-kagidi.md](moderator-kagidi.md) (günlük tek sayfa) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (formlar)
+Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/senaryo_uret.py` ile günlük modüllerden üretilir, elle düzenlenmez.
+İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md) (kampın kalbi)** · [moduller/](moduller/) (günlük modüller) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) (diğer senaryo) · [moderator-kagidi.md](moderator-kagidi.md) (moderatör kitapçığı) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (defter ve ölçme)
 
 ---
 
 ## Bu senaryo nasıl okunur?
 
 - Metni elinizde tutup sırayla okuyarak atölyeyi yönetebilirsiniz.
-- **Tırnak içindeki metinler** öğrencilere söyleyeceğiniz cümlelerdir. Aynen okuyabilir ya da kendi sözlerinizle söyleyebilirsiniz.
-- *Eğik yazılar* sizin için nottur. Öğrencilere okunmaz.
-- Saatler günün başından itibaren sayılır: "00:15" günün 15. dakikası demek. Film süreleri jenerik dahildir.
-- **Durma noktaları dakika olarak değil, sahne tarifiyle verildi.** Dakikaları doğrulayamadım. Kamptan önce her filmi bir kez izleyip durak yerlerini oynatıcınızda işaretleyin.
+- **Tırnak içindeki metinler** öğrencilere söyleyeceğiniz cümlelerdir. *Eğik yazılar* sizin için nottur.
+- Filmden geçen yer, kişi ve kavramların yanında kısa bir hatırlatma parantezi vardır. Filmi izlememiş biri de soruyu anlasın diye. Öğrencilere okurken parantezi atlayabilirsiniz.
+- Saatler günün başından itibaren sayılır. Film süreleri jenerik dahildir.
+- **Durma noktaları dakika olarak değil, sahne tarifiyle verildi.** Kamptan önce her filmi bir kez izleyip durak yerlerini oynatıcınızda işaretleyin.
 
-## Model B'nin özü (bir paragraf)
+**Kamp sorusu:** İyi bir hayat nedir? Her gün, çocukların ilk gün sık verdiği bir cevabı sınar: mutlu olmak, kendin olmak, iyi biri olmak, herkesin eşit olması, hayallerine ulaşmak.
 
-Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakta kolaylaştırıcı (siz) **bir kısa soru** sorar, 3–4 öğrenci cevap verir, cevaplar tahtaya tek satırla not edilir ve film devam eder. Her durak yaklaşık **6 dakika** sürer. Film bitince 60 dakikalık tartışmada önce duraklardaki cevaplara dönülür, sonra sizin hazırladığınız **görev sorusu** tartışılır. Tartışmanın sonuna doğru öğrenciler kendi sorularını da yazar. Bu modelde öğrencilerin elinde not kartı yoktur. İzleme görevi sözlü verilir.
+## Model B'nin özü
 
-**Günlere göre durak sayısı:** 1., 3. ve 4. gün 3 durak, 2. ve 5. gün 2 durak. 2. ve 5. günün filmleri duygusal olarak yoğun bittiği için duraklar filmin ilk üçte ikisine konmuştur.
+Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakta siz bir kısa soru sorarsınız, 3–4 öğrenci cevap verir, cevaplar tahtaya tek satırla yazılır ve film devam eder. Her durak yaklaşık **6 dakika** sürer. Öğrencilerin elinde not kartı yoktur, izleme görevi sözlü verilir. Film bitince tartışma, tahtadaki durak cevaplarından “soruların altındaki soru”ya ve oradan soru merdivenine geçer.
+
+**Duraklar için altın kural:** Durak tartışma değildir. Bir soru, 3–4 cevap, tahtaya not, devam. Durak 7 dakikayı geçerse grup filmden kopar. Öğrenci uzatırsa: “Çok güzel bir nokta. Tahtaya yazıyorum, film bitince ilk buna döneceğiz.”
 
 ## Hazırlık ve malzeme (her gün)
 
 | Malzeme | Not |
 |---|---|
-| Tahta ya da büyük kâğıt, kalın kalem | Durak cevapları buraya tek satırla yazılır. Film bitince bu kâğıda döneceksiniz. |
-| Yardımcı bir yetişkin (mümkünse) | Duraklarda tahtaya yazar, siz soruyu yönetirsiniz. Işıkları açar. |
+| **Düşünce Yolculuğum** defteri (öğrenci başına 1) | Kapağında yalnızca kamp adı. Her akşam toplanır, sabah dağıtılır. Not vermek ya da düzeltmek için okunmaz. `gorseller/pdf/defter-dusunce-yolculugum.pdf` |
+| Yardımcı bir yetişkin (mümkünse) | Duraklarda cevapları tahtaya yazar, ışıkları açıp kapatır. |
 | Konuşma nesnesi | Küçük top ya da peluş. Elinde olan konuşur. |
-| İki duvar tabelası: **A** ve **B** | Kapanış ikilemi için. |
-| Soru Duvarı | Kamp boyunca kalır. Her günün sorusu asılır. |
-| Hayattan Sorular panosu | "Felsefe Her Yerde" kartları buraya asılır. |
-| Çıkış kartları, Felsefe Her Yerde kartları, küçük kâğıtlar | Formlar: [olcme-degerlendirme.md](olcme-degerlendirme.md) |
-| Moderatör kağıdı | O günün sayfası: [moderator-kagidi.md](moderator-kagidi.md) |
+| İki duvar tabelası: **A** ve **B** | Kapanış ikilemi için. 5. gün yerine beş köşe kartı. |
+| **Yolculuk Duvarı** | Ortada kamp sorusu, etrafında beş gün kartı. Her kartta üç satır: “Bugün eklediğimiz parça”, “Açık kalan soru”, “Hayattan yakaladığımız soru”. Kalın kalem. |
+| Tahta ya da büyük kâğıt | Soruları yazmak için. Günün kavram sorusu en üstte kalır. |
+| Moderatör kitapçığı ve gözlem formu | `gorseller/pdf/moderator-kitapcigi.pdf` · `gorseller/pdf/form-gozlem.pdf` |
 
-**Oturma düzeni:** Film için sinema düzeni, ama duraklarda birbirini görebilecek kadar yarım daire olursa daha iyi. Tartışma için çember.
+**Oturma düzeni:** Film için sinema düzeni, tartışma için çember. Çemberde ortaokullu ve liseli karışık otursun.
 
-**Duraklarda ışık:** Durakta ışığı yarı açın. Tam karanlıkta konuşmak zor, tam aydınlıkta filme dönüş zor.
-
-## Duraklar için altın kural
-
-Durak **tartışma değildir.** Bir soru, 3–4 cevap, tahtaya not, devam. Durak 7 dakikayı geçerse film yarım kalır ve grup filmden kopar. Öğrenci uzatırsa:
-
-"Çok güzel bir nokta. Tahtaya yazıyorum, film bitince ilk buna döneceğiz."
+**Her akşam (10 dk):** Defterleri okuyun, ertesi sabah okunacak 2–3 “hayattan soru” seçin, gözlem formunu tamamlayın.
 
 ## Her gün geçerli: hassas paylaşım protokolü
 
-1. Paylaşan öğrenciye teşekkür edin: "Bunu bizimle paylaştığın için teşekkür ederim."
-2. Soruyu kişiden alıp genele çevirin: "Bir insan böyle bir şey yaşadığında ne hisseder sizce?"
+1. Paylaşan öğrenciye teşekkür edin: “Bunu bizimle paylaştığın için teşekkür ederim.”
+2. Soruyu kişiden alıp genele çevirin: “Bir insan böyle bir şey yaşadığında ne hisseder sizce?”
 3. Kimse kişisel bir şey anlatmaya zorlanmaz. Grubun başkasının paylaşımına gülmesine izin vermeyin.
-4. Oturumdan sonra o öğrenciyle birebir, kısa konuşun: "Biraz önce anlattıkların aklımda kaldı. Nasılsın?"
-5. **Öğrenci kendine ya da başkasına zarar verme, istismar ya da ciddi bir tehlike anlatırsa bunu gizli tutmazsınız.** Aynı gün kampın sorumlu yetkilisine ve varsa rehber öğretmene ya da psikolojik danışmana bildirin. Acil durumda 112. Öğrenciye bunu dürüstçe söyleyin: "Senin güvende olman benim için önemli, bu yüzden bunu yardım edebilecek biriyle paylaşmam gerekiyor."
+4. Oturumdan sonra o öğrenciyle birebir, kısa konuşun: “Biraz önce anlattıkların aklımda kaldı. Nasılsın?”
+5. **Öğrenci kendine ya da başkasına zarar verme, istismar ya da ciddi bir tehlike anlatırsa bunu gizli tutmazsınız.** Aynı gün kampın sorumlu yetkilisine ve varsa rehber öğretmene ya da psikolojik danışmana bildirin. Acil durumda 112. Öğrenciye bunu dürüstçe söyleyin: “Senin güvende olman benim için önemli, bu yüzden bunu yardım edebilecek biriyle paylaşmam gerekiyor.”
 
-**Durakta hassas bir şey gelirse:** Filmi hemen başlatmayın. Protokolün ilk iki adımını uygulayın, sonra "Bunu konuşmaya film bittikten sonra devam edebiliriz" deyip devam edin.
-
-## 60 dakikalık tartışmanın standart akışı (1–4. gün)
+## 60 dakikalık tartışmanın akışı (1–4. gün)
 
 | Dakika | Adım | Özet |
 |---|---|---|
-| 0–5 | İlk tepki turu | Herkes tek kelime ya da cümle. Pas serbest. |
-| 5–10 | Duraklara dönüş | Tahtadaki durak cevaplarına bakılır: "Film bitti. Hâlâ öyle mi düşünüyorsunuz?" |
-| 10–35 | Görev sorusu ile sorgulama | Kolaylaştırıcının sorusu, iç içe sorular, eğer'leme. |
-| 35–45 | Kendi sorumuz | Karışık üçlüler bir felsefi soru yazar. En çok oyu alan Soru Duvarı'na. |
-| 45–55 | Kapanış ikilemi | İki duvar. Öğrenciler tarafını seçip yürür. |
-| 55–60 | Son söz | "Fikrim değişti / değişmedi, çünkü…" |
+| 0–5 | İlk tepki | Tek kelime ya da cümle. Pas serbest. |
+| 5–12 | Soruların altındaki soru | Tahtadaki durak cevaplarına bakılır: “Film bitti, hâlâ öyle mi düşünüyorsunuz?” Film soruları insan sorusuna çevrilir ve altlarındaki ortak soru, yani günün kavram sorusu gösterilir. |
+| 12–42 | Soru merdiveni | Dört basamak. En az bir düşünce deneyi. Öğrenci şunu derse, siz şunu sorarsınız. |
+| 42–50 | Kapanış ikilemi (hareketli) | İki duvar. Her iki tarafa da bir “ters köşe” sorusu. |
+| 50–55 | Kamp sorusuna dönüş | Grubun bugün eklediği parça ve açık kalan soru gün kartına yazılır. |
+| 55–60 | Defter | Sessiz, günlük blok. |
 
-Ardından her gün **5 dk kapanış:** çıkış kartı ve "Felsefe Her Yerde" görevi.
+Ardından **3 dk kapanış:** köprü cümlesi ve hayattan soru görevi. 5. gün farklıdır: merdivenden sonra Beş Kapı ve Varış.
 
 ---
 
 # 1. GÜN · The Truman Show · Bilgi
 
-**Ana soru:** Gerçek olduğunu nasıl bilebiliriz?
-**Kapanış ikilemi:** Güvenli ama tasarlanmış bir dünya mı, bilinmeyen ama gerçek bir dünya mı?
-**Toplam süre:** yaklaşık **3 saat 36 dk** (216 dk)
+**Künye:** Peter Weir, 1998, 103 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt0120382/
 
-## Akış
+Tam modül: [moduller/gun1-truman.md](moduller/gun1-truman.md) · Toplam süre: yaklaşık **3 sa 41 dk** (221 dk)
+
+## Günün yolculuktaki yeri
+
+- **Sınanan ilk cevap:** “İyi bir hayat mutlu bir hayattır.”
+- **Kavram:** Bilmek ve gerçek.
+- **Günün kavram sorusu:** Bilmek nedir? Hiç yanılmadığımız bir şey var mı?
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için gerçeği bilmek gerekir mi, yoksa mutlu olmak yeter mi?
+- **Neden bu film:** Truman otuz yıl mutludur ve her şey sahtedir. “Mutluluk yeter” cevabını sınamak için en temiz örnek.
+
+## Günün akışı
 
 | Saat | Süre | Bölüm |
 |---|---|---|
-| 00:00–00:05 | 5 dk | Kamp başı anketi |
-| 00:05–00:10 | 5 dk | Hoş geldiniz, topluluk kuralları |
-| 00:10–00:17 | 7 dk | Kısa film *The Present* ve yöntem alıştırması |
-| 00:17–00:20 | 3 dk | Durak kuralları, sözlü izleme görevi |
-| 00:20–02:21 | 103 + 18 dk | Film (üç durak, her biri 6 dk) |
-| 02:21–02:31 | 10 dk | Ara (son 3 dakikası enerji oyunu) |
-| 02:31–03:31 | 60 dk | Tartışma |
-| 03:31–03:36 | 5 dk | Çıkış kartı, Felsefe Her Yerde görevi |
+| 00:00–00:05 | 5 dk | Hoş geldiniz, topluluk kuralları |
+| 00:05–00:17 | 12 dk | Başlangıç sayfası: kamp sorusu ve ilk cevap |
+| 00:17–00:24 | 7 dk | *The Present* ve “soruların altındaki soru” |
+| 00:24–00:27 | 3 dk | İzleme görevi |
+| 00:27–02:28 | 103 + 18 dk | Film (3 konuşmalı durak, her biri 6 dk) |
+| 02:28–02:38 | 10 dk | Ara (son 3 dakikası enerji oyunu “Christof der ki”) |
+| 02:38–03:38 | 60 dk | Tartışma |
+| 03:38–03:41 | 3 dk | Köprü ve hayattan soru görevi |
 
-## 00:00 Kamp başı anketi (5 dk)
+## Hoş geldiniz ve topluluk kuralları (5 dk)
 
-"Hoş geldiniz! Başlamadan önce size kısa bir anket dağıtıyorum. Sınav değil, doğru ya da yanlış cevabı yok. Adınızı yazmıyorsunuz, sadece en üstteki küçük kodu dolduruyorsunuz. Beş dakikanız var."
+“Hoş geldiniz! Bu kampta beş gün boyunca beş film izleyeceğiz. Ama sadece film izlemeyeceğiz. Filmlerin aklımıza getirdiği büyük soruları birlikte düşüneceğiz. Benim size vereceğim hazır bir cevap yok. Ben soru soracağım, siz düşüneceksiniz.”
 
-*Anket ve kod yönergesi: [olcme-degerlendirme.md](olcme-degerlendirme.md), Araç 1.*
-
-## 00:05 Hoş geldiniz ve kurallar (5 dk)
-
-"Bu kampta beş gün boyunca beş film izleyeceğiz. Ama sadece film izlemeyeceğiz. Filmlerin aklımıza getirdiği büyük soruları birlikte düşüneceğiz. Benim size vereceğim hazır bir cevap yok. Ben soru soracağım, siz düşüneceksiniz. Burada yanlış cevap yok."
-
-"Dört kuralımız var:
+“Dört kuralımız var:
 1. Aynı anda tek kişi konuşur. Bu top kimdeyse o konuşur.
 2. Kişiye değil, fikre itiraz ederiz.
-3. Konuşurken 'Katılıyorum, çünkü…' ya da 'Katılmıyorum, çünkü…' diye başlarız. 'Çünkü' en önemli kelimemiz.
-4. Pas geçmek serbest. Kimse konuşmak zorunda değil."
+3. Konuşurken ‘Katılıyorum, çünkü…’ ya da ‘Katılmıyorum, çünkü…’ diye başlarız. ‘Çünkü’ en önemli kelimemiz.
+4. Pas geçmek serbest. Kimse konuşmak zorunda değil.”
 
-## 00:10 The Present ve yöntem alıştırması (7 dk)
+*Defterleri dağıtın. Herkes kapağa kamp adını yazsın:* “Bu defter beş gün boyunca sizinle. Adı **Düşünce Yolculuğum.** Kimse buna not vermeyecek, yanlış diye bir şey yok. Her akşam ben toplayacağım, sabah geri vereceğim.”
 
-"Önce dört dakikalık çok kısa bir film izleyeceğiz."
+## Başlangıç sayfası (12 dk)
 
-*Filmi oynatın. Bitince:*
+Moderatör kamp sorusunu tek cümleyle tanıtır, açıklama yapmaz:
 
-"Bu filmi izlerken aklınıza hangi soru geldi? İki üç kişiden duyalım."
+“Bu kampta beş film izleyeceğiz ama aslında tek bir soruyu düşüneceğiz: **İyi bir hayat nedir?** Her film bu soruya bir parça ekleyecek. Şimdi, daha hiçbir film izlemeden, bu soruya sizin cevabınızı istiyorum. Doğru cevap yok. Beşinci gün bu sayfaya geri döneceğiz ve ilk gün ne düşündüğünüzü göreceğiz.”
 
-*2–3 soru tahtaya. Her birine:*
+Çocuk sırasıyla şunları yazar:
+1. **İlk cevabı:** “Bence iyi bir hayat … çünkü …”
+2. **Beş ifade**, beşer kutulu ölçek:
+   - Zor soruların tek bir doğru cevabı vardır.
+   - Fikrimi söylerken nedenini de söylerim.
+   - İyi bir gerekçe duyarsam fikrimi değiştiririm.
+   - Felsefe filozofların ve büyüklerin işidir.
+   - Yemek, oyun, kurallar gibi sıradan şeylerin altında da büyük sorular vardır.
+3. **Açık soru:** “Günlük hayatımda felsefe … karşıma çıkar.” Bilmiyorsa “bilmiyorum” yazması serbest.
 
-"Bu sorunun cevabı filmde var mı? Yoksa film bittikten sonra da tartışabileceğimiz bir soru mu?"
+*Moderatöre not:* İlk cevaplara o gün bakmayın, yorum yapmayın. Akşam defterleri okurken en sık geçen 3–4 cevabı not edin, 5. gün işinize yarayacak. Çoğu çocuk “mutlu olmak” yazacak. Bugünkü film tam olarak bunu sınıyor.
 
-"Cevabı filmde olan sorulara 'film sorusu' diyoruz. Mesela 'Köpeğin kaç bacağı vardı?' Cevabı filmde olmayan, 'neden', 'olmalı mı', 'ne demek' diye başlayan sorulara da 'felsefi soru' diyoruz. Mesela 'Başkasında beğenmediğimiz bir şey, bazen kendimizde de olabilir mi?' Bu kampta felsefi soruların peşindeyiz."
+## The Present ve “soruların altındaki soru” alıştırması (7 dk)
 
-## 00:17 Durak kuralları ve izleme görevi (3 dk)
+Kısa film izlenir (yaklaşık 4 dk). Moderatör 2–3 soru alır, tahtaya yazar. Sonra tek bir hamleyi gösterir:
 
-"Şimdi asıl filmimiz: *The Truman Show*. Bu filmi üç kez durduracağım. Her durduğumda size bir soru soracağım. Üç dört kişiden kısa cevap duyacağım, cevapları tahtaya yazacağım ve filme devam edeceğiz. Uzun konuşmayı filmin sonuna saklıyoruz."
+“Mesela biri ‘Çocuk köpeği (annesinin hediye ettiği üç bacaklı yavru) neden reddetti?’ dedi. Bunun cevabı filmde var: üç bacağı olduğu için. Şimdi bu soruyu bir **insan sorusuna** çevirelim. ‘Çocuk’ yerine ‘insan’ koyalım: ‘İnsan, başkasında beğenmediği bir şeyi neden reddeder?’ Bu sorunun cevabı filmde yok. Akıllı insanlar farklı cevaplar verir. İşte bu kampta bu tür sorularla uğraşacağız.”
 
-"İzlerken aklınızda şu soru olsun: **Truman neyin gerçek, neyin sahte olduğunu nasıl anlıyor? Siz izlerken hangi anda 'bu sahte' dediniz?**"
+**Bu tek hamle bütün kampın becerisidir:** film sorusunu insan sorusuna çevirmek. 5. günün sonunda çocuk bunu kendi hayatındaki sorulara da yapabilmeli.
+
+## İzleme görevi
+
+*Görev sözlü verilir, not kartı yok.*
+
+**“Truman (hayatı habersizce canlı yayınlanan film kahramanı) bir şeyin gerçek olduğuna neye bakarak karar veriyor? Sen izlerken neye bakarak ‘bu sahte’ dedin?”**
 
 ## Film ve duraklar
 
-### Durak 1 (yaklaşık ilk üçte birin sonu)
-
-**Sahne:** Truman'ın gençliğinde tanıştığı Sylvia'yı hatırladığı geçmiş sahnesi biter ve film şimdiki zamana döner.
+### Durak 1: Sylvia sahnesi bitince (yaklaşık ilk üçte birin sonu)
 
 **Süre:** 6 dk
 
-"Filmi durduruyorum. Bir soru soruyorum, önce yarım dakika düşünün, sonra elini kaldıranlardan duyacağım: **Sylvia doğruyu söylüyorsa, Truman ona inanmalı mı? Neden?**"
+“Sylvia (Truman'ın gençliğinde tanıştığı, ona her şeyin bir oyun olduğunu anlatmaya çalışan kız) tek bir kişi, kasaba yüzlerce kişi. Birine inanmak için neye bakarız: kaç kişinin söylediğine mi, başka bir şeye mi?”
 
-*3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazsın.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-*Ek soru (zaman varsa, tek cevap):* "Şimdiye kadar Truman'ın dünyasında tuhaf bulduğunuz bir şey oldu mu?"
-
-**Geçiş:** "Bu cevapları tahtada tutuyoruz. Filme dönüyoruz."
-
-### Durak 2 (yaklaşık filmin ortası)
-
-**Sahne:** Truman, Meryl ile birlikte arabayla kasabadan çıkmaya çalışır. Trafik sıkışıklığı, orman yangını ve bir yol barikatıyla karşılaşır, sonunda yakalanıp eve geri getirilir. Bu bölümün bittiği ilk sahne geçişinde durun.
-
-**Süre:** 6 dk (su ve tuvalet molası da burada)
-
-"Durduruyorum. Soru şu: **Truman artık bir şeylerin yanlış olduğundan emin. Ama elinde kesin bir kanıt yok. Bir şeyi kanıtı olmadan bilebilir miyiz?**"
-
-*3–4 cevap, tahtaya not.*
-
-**Geçiş:** "Su içmek ya da tuvalete gitmek isteyen iki dakika içinde dönsün. Sonra devam."
-
-### Durak 3 (son çeyreğin başı)
-
-**Sahne:** Yapım ekibi Truman'ın evde olmadığını fark eder ve onu aramaya başlar. Truman'ın denize açıldığı görülmeden hemen önce.
+### Durak 2: Arabayla kaçış girişimi engellenip Truman eve getirilince (yaklaşık ortası)
 
 **Süre:** 6 dk
 
-"Son durak. **Christof'un yerinde olsaydınız şimdi ne yapardınız? Truman'ın kaçmaya hakkı var mı?**"
+“Truman (hayatı habersizce canlı yayınlanan film kahramanı) bir şeylerin yanlış olduğundan emin ama elinde kanıt yok. Kanıtın olmadan bildiğin bir şey var mı?” (Su molası)
 
-*3–4 cevap, tahtaya not.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Sonunu birlikte görelim. Bitince on dakika ara vereceğiz, sonra bu tahtaya döneceğiz."
+### Durak 3: Ekip Truman'ın kaybolduğunu fark edince (son çeyreğin başı)
 
-## 02:21 Ara (10 dk)
+**Süre:** 6 dk
 
-*İlk 7 dakika serbest. Bu sırada sandalyeleri çember yapın.*
+“Birini korumak için ondan gerçeği saklamak ne zaman doğru olabilir, ne zaman olamaz?”
 
-### Enerji oyunu: "Christof der ki" (3 dk, hareketli)
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-"Herkes çemberde ayağa kalksın. Ben 'Christof der ki' diye başlarsam yaparsınız. Başlamazsam yapmazsınız. Yapan oturur. Christof der ki elinizi kaldırın. Christof der ki tek ayak üstünde durun. Zıplayın!"
+Duraklarda da soru dört testi geçer. Evet/hayır ya da olay sorusu sorulmaz.
+Durma noktaları sahne tarifiyle verildi. Dakikalar ön izlemede oynatıcıda işaretlenmeli.
 
-*Bitirirken:* "Bir dakikalığına hepiniz Christof'un dediğini yaptınız. Truman da otuz yıl boyunca öyle yaptı. Oturalım."
+## Ara (10 dk)
 
-## 02:31 Tartışma (60 dk)
+*İlk 7 dakika serbest: su, atıştırmalık, hareket. Bu sırada sandalyeleri çember yapın.*
 
-### dk 0–5 · İlk tepki turu
+**Enerji oyunu “Christof der ki” (3 dk, hareketli):** “Herkes çemberde ayağa kalksın. Ben ‘Christof der ki’ diye başlarsam yaparsınız, başlamazsam yapmazsınız. Yapan oturur. Christof der ki elinizi kaldırın. Christof der ki tek ayak üstünde durun. Zıplayın!” *Bitirirken:* “Bir dakikalığına hepiniz Christof'un (Truman'ın hayatını yöneten yapımcı) dediğini yaptınız. Truman da otuz yıl öyle yaptı.”
 
-"Herkesten tek kelime ya da tek cümle: **Film bana … hissettirdi.** Pas serbest."
+## Tartışma (60 dk)
 
-### dk 5–10 · Duraklara dönüş
+### dk 0–5 · İlk tepki
 
-"Tahtaya bakalım. Birinci durakta 'Truman Sylvia'ya inanmalı mı?' diye sormuştum ve şunları söylemiştiniz. Filmin sonunu gördünüz. Hâlâ öyle mi düşünüyorsunuz? Fikri değişen var mı?"
+“Film bana … hissettirdi.” Tek kelime ya da cümle, pas serbest.
 
-### dk 10–35 · Sorgulama
+### dk 5–12 · Soruların altındaki soru
 
-"Bugünün sorusu: **Truman'ın hayatı sahte miydi?**"
+Tahtadaki durak cevaplarına bakılır: “Film bitti, hâlâ öyle mi düşünüyorsunuz?” Moderatör soruları tahtaya yazar.
 
-*Hep şu dört soruyla ilerleyin:*
-- "Neden öyle düşünüyorsun?"
-- "Bir örnek verebilir misin?"
-- "Buna katılmayan var mı?"
-- "Filmde bunu gösteren bir an hatırlıyor musunuz?"
+**Beklenen kart soruları ve altlarındaki soru:**
 
-*İç içe sorular:*
-- "Sahte ne demek? Bir şeyin sahte olduğunu nasıl anlarız?"
-- "Truman'ın sevdiği insanlar oyuncuysa, onun duyduğu sevgi de sahte miydi?"
-- "Bir kafes rahatsa yine de kafes midir?"
-- "Senin hayatının bir Truman Şovu olmadığından nasıl emin olabilirsin?"
-
-*Eğer'leme:* "Peki ya Truman hiç öğrenmeseydi ve ölene kadar mutlu yaşasaydı? Bu kötü bir hayat olur muydu?"
-
-*Son 2 dakikada:* "Bu soruyu 2.400 yıl önce Platon adında bir filozof da sormuş. Hayatı boyunca bir mağarada, duvardaki gölgeleri gerçek sanan insanları hayal etmiş. Yani bugün siz de filozofların yaptığını yaptınız."
-
-### dk 35–45 · Kendi sorumuz
-
-*Karışık üçlüler kurun.*
-
-"Şimdi soruyu siz soracaksınız. Üçlü gruplar kurun, her grupta en az bir ortaokullu ve bir liseli olsun. Bugün konuştuklarımızdan sonra aklınızda kalan **bir felsefi soru** yazın. Soruyu grubun en küçüğü yazıyor. Beş dakikanız var."
-
-*Sorular okunur, tahtaya yazılır, herkes bir oy verir.*
-
-"En çok oyu alan soru Soru Duvarı'mıza ilk soru olarak asılıyor."
-
-### dk 45–55 · Kapanış ikilemi (hareketli)
-
-"Ayağa kalkıyoruz.
-
-**A duvarı:** Her şeyin senin için tasarlandığı, güvenli ve mutlu, ama hiçbir şeyin kesin gerçek olmadığı bir dünya.
-**B duvarı:** Neyle karşılaşacağını bilmediğin, ama gerçek bir dünya.
-
-Hangisini seçersin? Tarafını seç ve o duvara yürü. Ortada durmak serbest, ama 'neden ortadasın' diye soracağım."
-
-*Her taraftan 2–3 gerekçe. Sonra:* "Taraf değiştirmek isteyen var mı? Seni ne ikna etti?"
-
-### dk 55–60 · Son söz
-
-"Çembere dönelim. Herkesten tek cümle: **'Fikrim değişti' ya da 'Fikrim değişmedi', çünkü…**"
-
-## 03:31 Kapanış (5 dk)
-
-"Çıkmadan önce çıkış kartı: iki dakika, adınızı yazmıyorsunuz, sadece kodunuzu."
-
-"Bir de yarına kadar göreviniz var: **'Felsefe Her Yerde'**. Felsefi sorular sadece filmlerde değil, her yerde. Yemekte, oyunda, kurallarda, arkadaşlıkta. Mesela: 'Yemek sırasında en aç olan önce yiyemez mi? Sıra beklemek her zaman adil mi?' Akşama kadar kampta böyle bir soru yakalayın ve bu küçük karta yazın. Yarın sabah ilk iş birkaçını okuyacağız."
-
-## Şu olursa ne yaparım? (1. gün)
-
-| Durum | Ne yaparım |
+| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
 |---|---|
-| **Durak uzarsa** | "Harika fikirler, tahtaya yazdım. Film bitince ilk buna döneceğiz." Filmi başlatın. Durak 7 dakikayı geçmesin. |
-| **Tartışma tıkanırsa** | Tahtaya dönün: "Durakta şunu söylemiştiniz. Film bitince bu cevap doğru çıktı mı?" Olmazsa eğer'leme. Hâlâ olmazsa 2 dk ikili konuşma. |
-| **Bir öğrenci domine ederse** | Duraklarda aynı kişiye iki kez söz vermeyin. Tartışmada: "Şimdi daha konuşmamış birinden duymak istiyorum." |
-| **Grup sıkılırsa / dağılırsa** | Hızlı duvar sorusu: "Sosyal medyada gördüğümüz hayatlar gerçek mi? Gerçek diyenler sağa, sahte diyenler sola." 1 dk gerekçe. |
-| **Hassas paylaşım gelirse** | Babasını ya da bir yakınını kaybetmiş biri bundan söz edebilir. Protokolü uygulayın. Filme geri dönün: "Truman da babasının kaybıyla korkutulmuştu. Korku insanı nasıl bir kafese koyar?" |
-| **"Bu çok saçma, film zaten kurgu" denirse** | "Güzel bir itiraz. O zaman soralım: Kurgu bir şey bize gerçek bir şey öğretebilir mi?" |
+| “Meryl (Truman'ın karısı; aslında şovda rol yapan bir oyuncu) Truman'ı seviyor muydu?” | “Birinin bizi gerçekten sevdiğini nasıl biliriz?” |
+| “Truman (hayatı habersizce canlı yayınlanan film kahramanı) neden gitmek istedi?” | “Mutlu olduğun bir yerden neden ayrılmak isteyesin?” |
+| “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) neden bunu yaptı?” | “Birini korumak, ona yalan söylemeyi haklı çıkarır mı?” |
+| “İzleyiciler neden izliyordu?” | “Başkasının hayatını izlemek ne zaman yanlış olur?” |
+
+Moderatör: “Bu soruların hepsinin altında ortak bir şey var: Bir şeyin gerçek olduğunu nasıl biliriz? Bugün buradan başlıyoruz.” Kavram sorusu tahtanın en üstüne yazılır: **“Bilmek nedir? Hiç yanılmadığımız bir şey var mı?”**
+
+### dk 12–42 · Soru merdiveni
+
+**Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
+
+“Truman (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıl boyunca ‘Karım beni seviyor’, ‘Babam denizde boğuldu’ (şov, Truman'ı denizden korkutmak için babasının boğulmasını sahnelemişti) diye biliyordu. Bunlar bilgi miydi?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Hayır, çünkü yanlıştı.” | “O zaman bir şeyi bilmek için doğru olması gerekiyor. Ama Truman (hayatı habersizce canlı yayınlanan film kahramanı) yanlış olduğunu bilmiyordu. Senin şu an ‘biliyorum’ dediğin ama yanlış çıkabilecek bir şey var mı?” (Basamak 2'ye hazırlar) |
+| “Evet, onun için bilgiydi.” | “Herkesin kendi bilgisi mi var? Biri ‘Dünya düz’ diye ‘biliyorsa’ bu onun için bilgi mi olur? Bilmek ile inanmak arasındaki fark ne?” (Kavram ayrımı) |
+| “Herkes öyle söylüyordu, inanması normaldi.” | “Seahaven'da (Truman'ın yaşadığı kasaba; aslında dev bir stüdyo seti) herkes aynı şeyi söylüyordu ve hepsi yanılıyordu ya da yalan söylüyordu. Çok kişinin söylemesi bir şeyi doğru yapar mı? Sen bir şeye kimden duyunca inanırsın?” (Karşı örnek) |
+| “Kanıtı vardı: fotoğraflar, belgeler.” | “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) kanıtları da kurgulayabiliyordu. Kanıt da sahte olabiliyorsa neye güveneceğiz?” (Sonuç takibi) |
+
+**Basamak 2: Düşünce deneyi, rüya (yaklaşık 8 dk)**
+
+“Dün gece bir rüya gördün ve rüyadayken her şeyi gerçek sandın. Şu an rüya görmediğini nasıl kanıtlarsın?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Kendimi çimdiklerim.” | “Rüyanda hiç acı hissetmedin mi? Rüyadaki acı ile gerçek acı arasında hissedilen bir fark var mı?” |
+| “Rüyalar saçmadır, bu çok mantıklı.” | “Rüyadayken saçma geliyor mu? Ya bu, gördüğün en mantıklı rüyaysa?” |
+| “Uyanınca anlarım.” | “Truman (hayatı habersizce canlı yayınlanan film kahramanı) da bir anlamda ‘uyandı’. Ama ya uyandığın yer de bir rüyaysa? Ne zaman ‘artık kesin uyanığım’ diyebiliriz?” |
+| “O zaman hiçbir şey bilemeyiz.” | “Hiçbir şey bilemiyorsak, ‘hiçbir şey bilemeyiz’ cümlesini bildiğimizi nasıl biliyoruz? Rüya görüyor olsan bile şu an düşündüğünden emin misin? Hiç yanılmadığın bir şey var mı?” |
+
+*Moderatöre not:* Grubun “hiçbir şey bilemeyiz” noktasına gelmesi bir son değil, merdivenin ortasıdır. Ne tamamen kesin bilgiye ne de “hiçbir şey bilinmez”e yaslanmasına izin verin. İki ucu da yukarıdaki sorularla sınayın.
+
+**Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
+
+“Diyelim ki hiçbir şeyden tam emin olamıyoruz. O zaman gerçeği bilmek neden önemli? Truman (hayatı habersizce canlı yayınlanan film kahramanı) mutluydu. Neden kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktı?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Gerçek, gerçek olduğu için önemli.” | “Bu bir gerekçe mi, yoksa aynı şeyi iki kez mi söyledik? Gerçeği bilmek sana ne kazandırır?” |
+| “Kendi seçimlerini yapabilmek için.” | “Yani gerçek, özgür olmak için gerekli. Ama yanlış bir şeye inanırken de seçim yapıyoruz. Truman'ın (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıldaki seçimleri onun seçimi miydi?” (İki kavramı bağlar: bilgi ve özgürlük) |
+| “Bazen bilmemek daha iyidir.” | “Ne zaman? Bir örnek ver. Peki bir gerçeği bilmemeye kim karar vermeli: sen mi, başkası mı? Christof'un (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) yaptığı da bu değil miydi?” |
+| “Önemli değil, mutluysa yeter.” | “Bunu bir deneyle sınayalım.” (Basamak 4'e geçiş) |
+
+**Basamak 4: Düşünce deneyi, deneyim makinesi (yaklaşık 8 dk)**
+
+“Bir makine var. Bağlandığında istediğin her şeyi yaşıyormuş gibi hissediyorsun: maçı kazanıyorsun, arkadaşların seni çok seviyor, hiç sıkılmıyorsun. Bağlandıktan sonra makinede olduğunu unutuyorsun. Ömür boyu bağlanır mısın?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, mutlu olurum.” | “O zaman Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) Truman'a iyilik mi yaptı? Filmde neden onu kötü bulduk?” Ya da: “Makinedeki arkadaşların seni sevmiyor, sadece seviyormuş gibi görünüyor. Bu fark eder mi?” |
+| “Hayır, çünkü gerçek değil.” | “Video oyunu da gerçek değil ama oynuyoruz. Makine ile oyun arasındaki fark ne? Bir saatliğine bağlanır mısın? Bir yıllığına? Sınır nerede?” |
+| “Ailem de gelirse bağlanırım.” | “Makinedeki aile gerçek ailen mi, yoksa onların bir kopyası mı? Sevdiğin onlar mı, onlarla ilgili hissin mi?” |
+| “Bilmiyorum, ikisi de olur.” | “Seni ikiye bölen ne? İçindeki bir ses ‘bağlan’ diyor, bir ses ‘bağlanma’. Her biri ne söylüyor?” (İki ilkeyi adlandırır: mutluluk ve gerçek) |
+
+### dk 42–50 · Kapanış ikilemi: deneyim makinesi (hareketli)
+
+“Ayağa kalkıyoruz.
+**A duvarı:** Makineye bağlanırım. Mutlu ama gerçek olmayan bir hayat.
+**B duvarı:** Bağlanmam. Gerçek ama zor olabilecek bir hayat.
+Tarafınızı seçin. Ortada durmak serbest, ama ‘Seni ortada tutan ne?’ diye soracağım.”
+
+Her taraftan 2–3 gerekçe alınır. Sonra her iki tarafa da **ters köşe** sorusu sorulur. Amaç her iki tarafı da rahatsız etmek:
+- **A tarafına:** “Sana her zaman seni mutlu eden yalanlar söyleyen bir arkadaşın olsun ister misin?”
+- **B tarafına:** “Hiç ‘Keşke bunu bilmeseydim’ dediğin bir şey oldu mu? Gerçek her zaman mutluluktan daha mı önemli?”
+
+“Bu sorulardan sonra yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yer değiştirmeyenlere de sorulur: “Seni yerinde tutan ne?”
+
+### dk 50–55 · Kamp sorusuna dönüş
+
+“Sabah ‘İyi bir hayat nedir?’ diye sorduk. Birçoğunuz ‘mutlu olmak’ yazdınız. Bugünden sonra bu cevaba ne eklemek ya da neyi değiştirmek gerekiyor?”
+
+2–3 öğrenci söyler. Moderatör grubun kendi sözleriyle duvardaki 1. gün kartına yazar. Grubun varabileceği yerlere örnekler (moderatör bunları söylemez, yalnızca tanır):
+- “Mutluluk yetmeyebilir. Mutluluğun gerçek bir şeye dayanması gerekebilir.”
+- “Gerçeği bilmek, kendi seçimimi yapmak için gerekli.”
+- “Ama hiçbir şeyden tam emin olamıyoruz.”
+
+**Açık kalan soru** da karta yazılır, ya grubun ya moderatörün sözleriyle.
+
+### dk 55–60 · Defter: Gün 1
+
+“Defterlerinizi açın, ‘1. gün’ bloğu. Beş dakika, sessiz. Kamp sorusuna bugünkü cevabınız: Sabahki cevabınız aynı mı kaldı, değişti mi? Değiştiyse yeni cevabınızı, değişmediyse ‘Değişmedi, çünkü …’ yazın. Altına bugün kafanızı en çok karıştıran soruyu yazın.”
+
+## Kapanış: gerilim ve köprü (3 dk)
+
+“Bugün dışarıdaki dünyanın gerçek olup olmadığını sorduk. Ama bir soru açık kaldı: Truman (hayatı habersizce canlı yayınlanan film kahramanı) kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktığında kim olacak? Otuz yıl boyunca ‘Truman’ bir rolün adıydı. Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Yarın içerideki dünyaya bakacağız.”
+
+**Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bundan gerçekten emin miyim?’ diye düşündüğün bir an yakala. Defterindeki ‘hayattan bir soru’ satırına yaz. Örnek: ‘Arkadaşım bana kızgın değilim dedi. Gerçekten kızgın olmadığını nasıl bilirim?’”
+
+## Tartışma tek cevapla kapanırsa (1. gün)
+
+| Durum | Hamle |
+|---|---|
+| Herkes B duvarına (gerçek) gidiyor | Ters tarafı siz kurun: “Size bir itiraz getireyim. Bir doktor çok küçük bir çocuğa korkutucu bir gerçeği hemen söylemeli mi? Herkes her gerçeği her zaman bilmeli mi?” |
+| Herkes “hiçbir şey bilemeyiz” diyor | “Bu cümlenin kendisini biliyor muyuz? Yarın güneşin doğacağını bilmiyor muyuz?” |
+| Herkes “mutluysa yeter” diyor | Deneyim makinesine geçin ve makinedeki arkadaşın “sahte sevgisini” sorun. |
+| Tartışma Truman'ın olaylarına kayıyor | “Truman'ı (hayatı habersizce canlı yayınlanan film kahramanı) bir kenara bırakalım. Bu soru senin hayatında nerede karşına çıkar?” |
+| Sessizlik | İkili konuşma (2 dk): “Yanındakine makineye bağlanıp bağlanmayacağını ve nedenini anlat.” Sonra: “Yanındakinin söylediği en ilginç şey neydi?” |
+
+## Hassas içerik
+
+Truman'ın babasını denizde kaybettiğini sandığı geri dönüşler ve finaldeki fırtına var. Ağır değil. Yakın zamanda yakınını ya da birini denizde kaybetmiş öğrenci varsa önceden birebir söyleyin. Rüya ve deneyim makinesi soruları bazı çocuklarda “Hiçbir şey gerçek değilse?” kaygısı uyandırabilir. Kapanışta şunu söyleyin: “Bunlar düşünme oyunları. Sevdiklerinizin gerçek olduğundan şüphe etmenizi istemiyoruz. Ama ‘nasıl biliyoruz’ diye sormak düşünmeyi güçlendirir.”
+
+## Moderatör için felsefe köşesi
+
+Derste ders anlatılmaz. En fazla bir isim, en sonda, tek cümle:
+- **Platon, mağara benzetmesi:** Hayatı boyunca mağara duvarındaki gölgeleri gerçek sanan insanlar.
+- **Descartes, rüya kuşkusu:** “Rüya görmediğimi nasıl bilirim?” Her şeyden şüphe etse bile şüphe eden olarak düşündüğünden emin olabildiğini söyledi.
+- **Robert Nozick, deneyim makinesi (1974):** Bağlanmak istemiyorsak, iyi bir hayat için mutlu hissetmekten fazlasını istiyoruz demektir.
+
+Söylenebilecek tek cümle: “Bugün sorduğunuz soruyu yaklaşık 400 yıl önce Descartes adında bir filozof da sormuş: Rüya görmediğimi nasıl bilirim?”
 
 ---
 
 # 2. GÜN · Ters Yüz 2 · Benlik
 
-**Ana soru:** Beni "ben" yapan ne: anılarım mı, duygularım mı, seçimlerim mi?
-**Kapanış ikilemi:** Hiç kaygı hissetmeni sağlayan ama geleceğe hazırlanma yeteneğini de azaltan bir hapı yutar mısın?
-**Toplam süre:** yaklaşık **3 saat 18 dk** (198 dk)
+**Künye:** *Inside Out 2*, Kelsey Mann, 2024, 96 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt22022452/
 
-## Akış
+Tam modül: [moduller/gun2-ters-yuz-2.md](moduller/gun2-ters-yuz-2.md) · Toplam süre: yaklaşık **3 sa 16 dk** (196 dk)
+
+## Günün yolculuktaki yeri
+
+- **Dünden devralınan soru:** “Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Truman kapıdan çıktığında kim olacak?”
+- **Sınanan ilk cevap:** “İyi bir hayat, kendin olabildiğin hayattır.”
+- **Kavram:** Benlik.
+- **Günün kavram sorusu:** “Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için “gerçek ben”i bulmak mı gerekir, yoksa kim olacağını seçmek mi?
+- **Neden bu film:** Riley'nin “ben kimim” cümleleri film boyunca sökülüp yeniden kuruluyor. Benliğin değişebildiğini somut olarak gösteren en açık örnek.
+
+## Günün akışı
 
 | Saat | Süre | Bölüm |
 |---|---|---|
-| 00:00–00:07 | 7 dk | Hayattan Sorular paylaşımı |
-| 00:07–00:09 | 2 dk | Dünle bağ |
+| 00:00–00:04 | 4 dk | Dünkü gün kartı |
+| 00:04–00:09 | 5 dk | Hayattan sorular |
 | 00:09–00:11 | 2 dk | Hassas içerik uyarısı |
-| 00:11–00:15 | 4 dk | Sözlü izleme görevi |
-| 00:15–02:03 | 96 + 12 dk | Film (iki durak) |
-| 02:03–02:13 | 10 dk | Ara (son 3 dakikası enerji oyunu) |
+| 00:11–00:15 | 4 dk | İzleme görevi |
+| 00:15–02:03 | 96 + 12 dk | Film (2 konuşmalı durak, her biri 6 dk) |
+| 02:03–02:13 | 10 dk | Ara (son 3 dakikası enerji oyunu “Duygu heykelleri”) |
 | 02:13–03:13 | 60 dk | Tartışma |
-| 03:13–03:18 | 5 dk | Çıkış kartı, Felsefe Her Yerde |
+| 03:13–03:16 | 3 dk | Köprü ve hayattan soru görevi |
 
-*İsteğe bağlı:* Kısa film *Purl* (yaklaşık 9 dk) açılışa eklenebilir.
+İsteğe bağlı: Kısa film *Purl* (yaklaşık 9 dk, uyum sağlamak için kendini değiştiren bir yün yumağı) açılışa eklenebilir.
 
-## 00:00 Hayattan Sorular (7 dk)
+## Açılış (15 dk)
 
-"Günaydın! Dün size bir görev vermiştim: kamp hayatında bir felsefi soru yakalamak. Kartını getiren kim? Üç dört kişiden duyalım."
+**Dünkü gün kartı (4 dk).** Bir öğrenci Yolculuk Duvarı'ndaki 1. gün kartını okur: “Dün şuna vardık: … Ama şu soru açık kaldı: …” Moderatör tek cümleyle bağlar: “Dün dışarıdaki dünyayı sorduk. Bugün içerideki dünyaya bakıyoruz. Kendimizi biliyor muyuz?”
 
-*Her soruyu okuyan öğrenciye:* "Bu soruyu nerede, ne olurken yakaladın?" *Kartları panoya asın.*
+**Hayattan sorular (5 dk).** Moderatörün dün akşam defterlerden seçtiği 2–3 “Bundan gerçekten emin miyim?” sorusu okunur. Her birine tek soru: “Bunu nerede, ne olurken yakaladın?” Biri 1. gün kartının “Hayattan yakaladığımız soru” satırına yazılır.
 
-"Gördünüz mü? Film izlemeden de felsefe yaptınız. Bu görev her gün devam ediyor."
+**Hassas içerik uyarısı (2 dk).** “Filmin sonuna doğru Riley (13 yaşına giren, hokey kampına giden kız) çok yoğun bir kaygı yaşıyor, bir panik atak geçiriyor. Sahne epey gerçekçi. Zorlanan olursa dışarı çıkabilir, bana bir işaret etmesi yeter.”
 
-## 00:07 Dünle bağ (2 dk)
+**İzleme görevi (4 dk).**
+*Görev sözlü verilir, not kartı yok.*
 
-"Dün Truman'ın dünyasının sahte olduğunu gördük. Bugün içimizdeki dünyaya bakacağız. Kendimiz hakkında bildiklerimiz gerçek mi? Bizi biz yapan ne?"
-
-## 00:09 Hassas içerik uyarısı (2 dk)
-
-"Filmin sonuna doğru Riley çok yoğun bir kaygı yaşıyor, bir panik atak geçiriyor. Bu sahne epey gerçekçi. İzlerken zorlanan olursa dışarı çıkabilir, bana bir işaret etmesi yeter."
-
-## 00:11 İzleme görevi (4 dk)
-
-"Bugün filmi iki kez durduracağım. İzlerken aklınızda şu soru olsun: **Riley'nin 'ben kimim' cümlesi film boyunca nasıl değişiyor? Hangi duygu ne zaman haklı?**"
-
-*Son yarım saatte durak yok, final kesintisiz izlenecek.*
+**“Riley'nin (13 yaşına giren kız) ‘ben kimim’ cümlesi film boyunca nasıl değişiyor? Sen izlerken hangi anda ‘Bu artık Riley değil’ dedin?”**
 
 ## Film ve duraklar
 
-### Durak 1 (yaklaşık ilk üçte bir)
-
-**Sahne:** Kaygı ve yeni duygular eski duyguları kenara iter ve Riley'nin "ben iyi bir insanım" benlik duygusunu söker. Bu bölümün bittiği ilk sahne geçişi.
+### Durak 1: Kaygı'nın eski duyguları kenara itip benlik duygusunu söktüğü bölüm bitince (yaklaşık ilk üçte bir)
 
 **Süre:** 6 dk
 
-"Durduruyorum. **Neşe, Riley'yi sadece iyi anılarla kurdu. Kaygı onu 'daha başarılı bir Riley' için değiştirmek istiyor. Şu an hangisi haklı görünüyor?**"
+“Kaygı (ergenlikle Riley'nin zihnine gelen, hep geleceği planlayan yeni duygu), Riley'yi ‘daha başarılı biri’ yapmak için değiştirmeye başladı. Biri seni ‘daha iyi’ yapmak için değiştirirse, hâlâ sen misin?”
 
-*3–4 cevap, tahtaya not.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Tahtada duruyor. Bakalım filmin sonunda ne düşüneceksiniz."
+### Durak 2: Riley'nin Bree ve Grace'i ilk kez açıkça yalnız bıraktığı an (yaklaşık ortası). Uzaklaşma adım adım olur, ön izlemede anı seçin.
 
-### Durak 2 (yaklaşık filmin ortası)
+**Süre:** 6 dk
 
-**Sahne:** Riley, Val ve büyük oyuncuların grubuna kabul edilmek için en yakın arkadaşları Bree ve Grace'i görmezden gelmeye başlar. Bu uzaklaşma adım adım olur. Ön izlemede, Riley'nin arkadaşlarını ilk kez açıkça yalnız bıraktığı anı seçin ve ondan sonraki ilk sahne geçişinde durun.
+“Riley, Val (Riley'nin hayran olduğu büyük, popüler hokey oyuncusu) ve grubuna kabul edilmek için en yakın arkadaşları Bree ve Grace'ten (Riley'nin başka liseye gidecekleri ortaya çıkan iki yakın arkadaşı) uzaklaşıyor. Yeni bir gruba uymak için değişmek, kendini kaybetmek mi, büyümek mi? Fark nerede?” (Su molası)
 
-**Süre:** 6 dk (su ve tuvalet molası da burada)
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-"Durduruyorum. **Riley yeni bir grupta kabul görmek için eski arkadaşlarından uzaklaştı. Uyum sağlamak ile kendini kaybetmek arasındaki çizgi nerede?**"
+**Son yarım saatte durak yok.** Panik atak ve final kesintisiz izlenir.
 
-*3–4 cevap, tahtaya not.*
+## Ara (10 dk)
 
-**Geçiş:** "İki dakika su molası. Bundan sonra filmi sonuna kadar durdurmayacağım."
+*İlk 7 dakika serbest: su, atıştırmalık, hareket. Bu sırada sandalyeleri çember yapın.*
 
-## 02:03 Ara (10 dk)
+**Enerji oyunu “Duygu heykelleri” (3 dk, hareketli):** “Herkes ayağa! Bir duygunun adını söyleyeceğim, o duygunun heykeli olup donacaksınız. Neşe! … Can Sıkıntısı! … Kaygı! … Şimdi zor olanı: Neşe ve Kaygı aynı anda!” *Bitirirken:* “Aynı anda iki duygu zor ama mümkünmüş. Riley (filmin 13 yaşındaki kahramanı) de öyleydi.”
 
-*Panik atak sahnesinden sonra bu arayı kısaltmayın. Sarsılmış görünen öğrenciyle göz teması kurun, gerekirse "İyi misin?" diye sorun.*
+## Tartışma (60 dk)
 
-### Enerji oyunu: "Duygu heykelleri" (3 dk, hareketli)
+### dk 0–5 · İlk tepki
 
-"Herkes ayağa! Ben bir duygunun adını söyleyeceğim, siz o duygunun heykeli olup donacaksınız. **Neşe!** … **Can Sıkıntısı!** … **Kaygı!** … Şimdi zor olanı: **Neşe ve Kaygı aynı anda!**"
+“Bu film duygusal bitti. Önce hislerimizi söyleyelim: **Film bana … hissettirdi.**” Bu turu atlamayın.
 
-*Bitirirken:* "Aynı anda iki duygu zor ama mümkünmüş. Riley de öyleydi. Oturalım."
+### dk 5–12 · Soruların altındaki soru
 
-## 02:13 Tartışma (60 dk)
+Tahtadaki durak cevaplarına bakılır: “Film bitti, hâlâ öyle mi düşünüyorsunuz?” Sonra 4–5 soru seçilir.
 
-### dk 0–5 · İlk tepki turu
-
-"Bu film duygusal bitti. Önce hislerimizi söyleyelim: **Film bana … hissettirdi.**" *Bu turu atlamayın.*
-
-### dk 5–10 · Duraklara dönüş
-
-"Birinci durakta 'Neşe mi haklı, Kaygı mı?' diye sormuştum. Filmin sonunda kim haklı çıktı? Yoksa ikisi de mi haksızdı?"
-
-### dk 10–35 · Sorgulama
-
-"Bugünün sorusu: **Sadece iyi yanlarımızdan oluşan bir 'ben', gerçek bir 'ben' midir?**"
-
-*İç içe sorular:*
-- "'Ben iyi bir insanım' ve 'Ben bencilim' aynı anda doğru olabilir mi?"
-- "Kimliğimizi duygularımız mı, anılarımız mı, seçimlerimiz mi belirler?"
-- "Kaygı kötü mü? Riley'yi korumaya çalışıyordu. Ne zaman yardım eder, ne zaman zarar verir?"
-- "Bir duyguyu bastırmak ile onu kontrol etmek aynı şey mi?"
-
-*Eğer'leme:* "Peki ya bütün kötü anılarını silebilseydin? Hâlâ aynı kişi olur muydun?"
-
-*1. günle köprü:* "Dün Truman'ın dünyası sahteydi. Neşe'nin kurduğu 'mükemmel Riley' de sahte miydi?"
-
-*Soruları "sen" değil "insan" üzerinden sorun: "Senin kaygın" değil, "Kaygı bir insana ne yapar?"*
-
-### dk 35–45 · Kendi sorumuz
-
-"Üçlüler, bir felsefi soru. Bir ipucu: Riley'yi değil, **insanı** sorun. En küçüğünüz yazıyor."
-
-*Oylama, en çok oy alan Soru Duvarı'na.*
-
-### dk 45–55 · Kapanış ikilemi (hareketli)
-
-"Ayağa kalkıyoruz. Bir hap var. Yutarsan hiç kaygı hissetmeyeceksin. Ama geleceği düşünme ve ona hazırlanma yeteneğin de azalacak.
-
-**A duvarı:** Hapı yutarım.
-**B duvarı:** Yutmam.
-
-Tarafınızı seçin."
-
-### dk 55–60 · Son söz
-
-"Fikrim değişti ya da değişmedi, çünkü…"
-
-## 03:13 Kapanış (5 dk)
-
-"Çıkış kartı, iki dakika. Sonra Felsefe Her Yerde. Bugünün ipucu: **kendinizle ilgili bir soru.** Mesela 'Arkadaşlarımın yanında başka, ailemin yanında başka biri miyim?'"
-
-## Şu olursa ne yaparım? (2. gün)
-
-| Durum | Ne yaparım |
+| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
 |---|---|
-| **Durak uzarsa** | Özellikle 2. durak (arkadaşlık) uzayabilir, herkesin bir hikâyesi vardır. "Bunu çok iyi biliyorsunuz, film bitince devam edeceğiz" deyin. |
-| **Tartışma tıkanırsa** | Tahtadaki 2. durak cevaplarına dönün. Ya da eğer'leme. Ya da ikili konuşma (2 dk). |
-| **Bir öğrenci domine ederse** | "Bugün durakta hiç konuşmayan birinden duymak istiyorum." Almazsa ısrar etmeyin. |
-| **Grup sıkılırsa / dağılırsa** | Köşe sorusu: "Kaygı dostumuz mu, düşmanımız mı? Dost diyenler pencereye, düşman diyenler kapıya." |
-| **Hassas paylaşım gelirse** | Bu gün en olası gün. Biri kendi kaygısını ya da panik atağını anlatabilir. Protokolü uygulayın. |
-| **Bir öğrenci sahnede dışarı çıkarsa** | Yardımcı yetişkin peşinden gitsin. Filmi durdurmayın. Arada öğrenciyle kısa konuşun. |
+| “Kaygı (Riley'nin zihnine gelen yeni duygu) neden Neşe'yi (Riley'nin zihnini çocukluğundan beri yöneten duygu) kilitledi?” | “Bizi korumaya çalışan bir duygu bize zarar verebilir mi?” |
+| “Riley neden Bree ve Grace'i (Riley'nin en yakın iki arkadaşı) bıraktı?” | “Yeni bir gruba ait olmak için eskilerini bırakmak ne zaman kendini kaybetmektir?” |
+| “Riley neden panik atak geçirdi?” | “İnsan kendinden fazla şey beklediğinde ne olur?” |
+| “Riley takıma girdi mi?” | “Başarılı olmak bizi ‘daha iyi biri’ yapar mı?” |
+
+Moderatör: “Bu soruların hepsinin altında ortak bir şey var: ‘Ben’ kim? Bugün buradan başlıyoruz.” Tahtanın en üstüne: **“Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?**
+
+### dk 12–42 · Soru merdiveni
+
+**Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
+
+“Filmin başında Riley'nin benlik duygusu (Riley'nin seçilmiş anılarından büyüyen, ‘Ben iyi bir insanım’ diyen inançlar yapısı) vardı. Kaygı onu söküp yerine ‘Ben yeterince iyi değilim’ diyen bir başkasını kurdu. Hangisi gerçek Riley'di?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “İlki, çünkü o onun doğal hâli.” | “Doğal hâlimiz hangisi: beş yaşındaki sen mi, bugünkü sen mi? Değişmek doğallıktan çıkmak mı?” |
+| “İkisi de eksikti.” | “O zaman gerçek Riley neyden oluşuyor? Sadece iyi yanlarından oluşan bir ‘ben’, gerçek bir ‘ben’ mi?” (Kavram ayrımı) |
+| “Sonundaki karmaşık hâli.” | “Peki yarın yine değişirse? Gerçek ‘ben’ hep son hâlim mi?” (Sonuç takibi) |
+| “Duygular seçti, Riley değil.” | “Sen kendi seçimlerini mi yapıyorsun, duyguların mı? ‘Ben’ ile ‘duygularım’ aynı şey mi?” |
+
+**Basamak 2: Düşünce deneyi, bloklardan ev (yaklaşık 8 dk)**
+
+“Bloklardan bir ev yaptın. Her gün bir bloğu yenisiyle değiştiriyorsun. Bir yıl sonra eski blokların hiçbiri kalmadı. Hâlâ aynı ev mi? Senin de anıların, zevklerin, arkadaşların değişiyor. On yıl önceki sen ile bugünkü sen aynı kişi misiniz?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, adım aynı.” | “Adın değişseydi başka biri mi olurdun? Seni sen yapan bir isim mi?” |
+| “Hayır, tamamen başka biriyim.” | “O zaman çocukken yaptığın bir hatadan bugün sorumlu musun? Çocukken sana verilen bir sözü bugünkü sen isteyebilir mi?” (Karşı örnek) |
+| “Anılarım aynı kaldıkça aynı kişiyim.” | “Riley'nin zihnin arkasına gönderilen anıları ne olacak? Bir anını unutursan biraz daha az mı ‘sen’ olursun?” |
+| “Bilmiyorum.” | “Seni sen yapan bir parçanı söyle. O değişseydi hâlâ sen olur muydun?” |
+
+**Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
+
+“Birçoğumuz ‘İyi bir hayat kendin olabildiğin hayattır’ diyoruz. Ama ‘ben’ değişiyorsa ‘kendin ol’ ne demek?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Kimseyi taklit etmemek.” | “Riley, Val'i (Riley'nin hayran olduğu büyük hokey oyuncusu) taklit etti. Ama hepimiz başkalarından öğreniyoruz. Taklit etmek ile örnek almak arasındaki fark ne?” |
+| “İçinden geleni yapmak.” | “İçinden gelen bazen kaygı, bazen öfke. İçindeki seslerden hangisi ‘sen’?” |
+| “Kendini olduğun gibi kabul etmek.” | “Kötü yanlarını da kabul etmek, onları değiştirmeye çalışmamak mı demek?” |
+| “Kim olacağını seçmek.” | “Kim olacağını gerçekten sen mi seçiyorsun? Hangi parçanı seçemezsin?” |
+
+**Basamak 4: Düşünce deneyi, kasadaki Kaygı (yaklaşık 8 dk)**
+
+“Filmde Kaygı, Neşe'yi ve eski duyguları bir kavanoza kapatıp sırlar kasasına (Riley'nin bastırdığı şeylerin saklandığı karanlık yer) gönderdi. Şimdi zihin merkezinin başında sen varsın. Kaygı'yı kavanoza kapatıp kasaya kilitlersen bir daha hiç kaygılanmayacaksın. Ama geleceği düşünüp ona hazırlanmanı sağlayan ses de susacak. Kilitler misin?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, kaygı kötü bir şey.” | “Sınavdan önce hiç kaygılanmasan çalışır mıydın? Kaygı'nın sana hiç faydası olmadı mı?” |
+| “Hayır, kaygı da gerekli.” | “Peki Utanç'ı (Riley'nin zihnine gelen, kızarıp saklanmak isteyen duygu) kilitler misin? Hangi duyguyu kilitlemek seni ‘daha iyi’ yapar, hangisi ‘daha az sen’?” |
+| “Biraz kısarım.” | “Duygularımızın ses ayarı bizde mi? Sen mi duygularını yönetiyorsun, onlar mı seni?” |
+| “Hepsini kilitlerim.” | “Hiçbir şey hissetmeyen biri hâlâ ‘biri’ midir?” |
+
+### dk 42–50 · Kapanış ikilemi: kasadaki Kaygı (hareketli)
+
+“Ayağa kalkıyoruz.
+**A duvarı:** Kaygı'yı kasaya kilitlerim.
+**B duvarı:** Kaygı konsolda (zihin merkezinde duyguların Riley'yi yönettiği pano) kalsın.
+Tarafınızı seçin. Ortada durmak serbest, ama ‘Seni ortada tutan ne?’ diye soracağım.”
+
+Her taraftan 2–3 gerekçe alınır. Sonra ters köşe soruları:
+- **A tarafına:** “Bir daha hiç heyecanlanmayacaksın. Maçtan önce kalbinin hızlanmasını, bir doğum gününü beklemeyi hiç hissetmeyeceksin. Yine de kilitler misin?”
+- **B tarafına:** “Kaygı bazen geceleri uyutmuyor, karnını ağrıtıyor. Hiç ‘Keşke şu an kaygılanmasam’ demedin mi? O an kilitlemek istemez miydin?”
+
+“Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara da sorulur: “Seni yerinde tutan ne?”
+
+### dk 50–55 · Kamp sorusuna dönüş
+
+“Dün ‘mutlu olmak yetmeyebilir, gerçek de önemli’ dedik. Bugün ‘kendin olmak’ cevabını sınadık. İyi bir hayat sorusuna bugün ne ekliyoruz?”
+
+Grubun cümlesi 2. gün kartına yazılır. Grubun varabileceği yerlere örnekler (moderatör söylemez, tanır):
+- “Kendin olmak sabit bir ‘ben’ bulmak değil. İyisiyle kötüsüyle kendini tanımak olabilir.”
+- “Kendimiz olmak bazen duygularımızı dinlemek, bazen onlara rağmen seçmek.”
+
+**Açık kalan soru** da yazılır.
+
+### dk 55–60 · Defter: 2. gün
+
+“Kamp sorusuna bugünkü cevabınız. Dünkü cevabınız aynı mı kaldı, değişti mi? Değişmediyse ‘Değişmedi, çünkü …’ yazın. Altına bugün kafanızı en çok karıştıran soru.”
+
+## Kapanış: gerilim ve köprü (3 dk)
+
+“Riley kendini en çok ne zaman kaybetti? Başkalarına beğendirmeye çalışırken. Demek ki ‘ben’ hep başkalarıyla birlikte oluşuyor. Ama başkaları benim iyi hayatımın neresinde? Onlara nasıl davrandığım da benim hayatımın bir parçası mı? Yarın başkalarına bakacağız.”
+
+**Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Burada başka biri gibi davranıyorum’ dediğin bir an yakala. Örnek: ‘Yeni tanıştığım birinin yanında farklı konuşuyorum. Hangisi ben?’”
+
+## Tartışma tek cevapla kapanırsa (2. gün)
+
+| Durum | Hamle |
+|---|---|
+| Herkes B'de (Kaygı kalsın) | Ters tarafı siz kurun: “Size bir itiraz getireyim. Bazı insanların kaygısı o kadar büyük ki okula gidemiyor. Onlar için de ‘Kaygı kalsın’ der misiniz?” Bu soruyu genel tutun, kimsenin kişisel durumuna bağlamayın. |
+| Herkes “ben hep aynıyım” diyor | “Beş yaşındaki hâlinle aynı şeylerden hoşlanıyor musun? Aynı şeylerden korkuyor musun?” |
+| Herkes “kendini kabul et” diyor | “Kendini kabul eden biri hiç değişmeye çalışmamalı mı? Kötü bir alışkanlığını da kabul mü etmeli?” |
+| Tartışma Riley'nin olaylarına kayıyor | “Riley'yi bir kenara bırakalım. Bu soru senin hayatında nerede karşına çıkar?” |
+| Sessizlik | İkili konuşma (2 dk): “Yanındakine, seni sen yapan bir şeyi ve o değişseydi ne olacağını anlat.” |
+
+## Hassas içerik
+
+- **Panik atak sahnesi (final):** Atlanmaz, filmin doruk noktası. Açılışta haber verin, dışarı çıkma hakkı tanıyın, film sonrası arayı kısaltmayın.
+- **Kişisel paylaşım:** Tartışmada kimse kendi kaygısını anlatmak zorunda değil. Soruları “sen” değil “insan” üzerinden sorun: “Kaygı bir insana ne yapar?” Biri paylaşırsa hassas paylaşım protokolünü uygulayın.
+- **Kasa imgesi:** Kaygı'yı kilitlemek filmin kendi dünyasından bir imgedir. Bir ilaç ya da madde çağrışımı yapacak bir benzetmeye kaymayın.
+
+## Moderatör için felsefe köşesi
+
+En fazla bir isim, en sonda, tek cümle:
+- **John Locke:** Bir kişiyi o kişi yapan anılarıdır.
+- **David Hume:** “Ben” denen şey aslında bir algılar ve duygular demetidir.
+- **Theseus'un gemisi (Plutarkhos):** Bütün parçaları değiştirilen bir gemi hâlâ aynı gemi midir? Bloklardan ev deneyi bunun çocuk sürümüdür.
+
+Söylenebilecek tek cümle: “Bugünkü blok sorusunu yaklaşık 2.000 yıl önce Yunanlılar bir gemi için sormuş: Bütün tahtaları değiştirilen gemi hâlâ aynı gemi midir?”
 
 ---
 
-# 3. GÜN · Wonder · Öteki (bireysel etik)
+# 3. GÜN · Mucize (Wonder) · Öteki
 
-**Ana soru:** Haklı olmak ile iyi (nazik) olmak çatıştığında hangisini seçmeli?
-**Kapanış ikilemi:** En yakın arkadaşı, o yokken onu başkalarına kötülemiş ve sonra içtenlikle özür dilemiş biri arkadaşlığa devam etmeli mi, yoksa ilişkiyi bitirmeli mi?
-**Toplam süre:** yaklaşık **3 saat 41 dk** (221 dk). Kampın en uzun günü. Jenerik atlanabilir.
+**Künye:** *Wonder* (Türkiye'deki adı *Mucize*), Stephen Chbosky, 2017, 113 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt2543472/
 
-## Akış
+Tam modül: [moduller/gun3-mucize.md](moduller/gun3-mucize.md) · Toplam süre: yaklaşık **3 sa 39 dk** (219 dk)
+
+## Günün yolculuktaki yeri
+
+- **Dünden devralınan soru:** “‘Ben’ hep başkalarıyla birlikte oluşuyor. Başkaları benim iyi hayatımın neresinde?”
+- **Sınanan ilk cevap:** “İyi bir hayat, iyi biri olmaktır, sevilmektir.”
+- **Kavram:** İyilik.
+- **Günün kavram sorusu:** İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?
+- **Kamp sorusuna bağlanan soru:** Başkalarına nasıl davrandığım benim iyi hayatımın bir parçası mı?
+- **Neden bu film:** Film aynı olayları birkaç farklı kişinin gözünden anlatıyor ve herkesin görünmeyen bir derdi olduğunu gösteriyor. İyiliğin, haklılığın ve affetmenin çatıştığı anlar bol.
+
+## Günün akışı
 
 | Saat | Süre | Bölüm |
 |---|---|---|
-| 00:00–00:07 | 7 dk | Hayattan Sorular paylaşımı |
-| 00:07–00:09 | 2 dk | Dünle bağ, The Present hatırlatması |
+| 00:00–00:04 | 4 dk | Dünkü gün kartı |
+| 00:04–00:09 | 5 dk | Hayattan sorular |
 | 00:09–00:11 | 2 dk | Hassas içerik uyarısı |
-| 00:11–00:15 | 4 dk | Sözlü izleme görevi |
-| 00:15–02:26 | 113 + 18 dk | Film (üç durak) |
-| 02:26–02:36 | 10 dk | Ara (son 3 dakikası enerji oyunu) |
+| 00:11–00:15 | 4 dk | İzleme görevi |
+| 00:15–02:26 | 113 + 18 dk | Film (3 konuşmalı durak, her biri 6 dk) |
+| 02:26–02:36 | 10 dk | Ara (son 3 dakikası enerji oyunu “Ayna”) |
 | 02:36–03:36 | 60 dk | Tartışma |
-| 03:36–03:41 | 5 dk | Çıkış kartı, Felsefe Her Yerde |
+| 03:36–03:39 | 3 dk | Köprü ve hayattan soru görevi |
 
-## 00:00 Hayattan Sorular (7 dk)
+En uzun film bu gün. Jenerik atlanabilir.
 
-"Dünkü ipucu kendinizle ilgili bir soruydu. Kim yakaladı? Üç dört kişiden duyalım." *Kartları panoya asın.*
+## Açılış (15 dk)
 
-## 00:07 Dünle bağ (2 dk)
+**Dünkü gün kartı (4 dk).** Bir öğrenci 2. gün kartını okur. Moderatör: “Dün ‘ben’ hep başkalarıyla birlikte oluşuyor dedik. Bugün başkalarına bakıyoruz: Onlara nasıl davrandığım benim iyi hayatımın bir parçası mı?”
 
-"Dün 'Ben kimim?' diye sorduk. Bugün başka birine bakacağız: Biri bize baktığında ne görüyor? Ve biz ona nasıl davranmalıyız? İlk gün izlediğimiz kısa filmi hatırlıyor musunuz? Çocuk köpeği neden önce reddetmişti?"
+**Hayattan sorular (5 dk).** Dün akşam seçilen 2–3 “Burada başka biri gibi davranıyorum” sorusu okunur. Biri 2. gün kartına yazılır.
 
-## 00:09 Hassas içerik uyarısı (2 dk)
+**Hassas içerik uyarısı (2 dk).** “Bugünkü filmde zorbalık var. Bir sahnede bir karakter çok kırıcı ve ağır bir şey söylüyor. Ayrıca bir evcil hayvanın ölümü var. Zorlanan olursa bana işaret etsin.”
 
-"Bugünkü filmde zorbalık var. Bir sahnede bir karakter çok kırıcı ve ağır bir şey söylüyor. Ayrıca bir evcil hayvanın ölümü var. Zorlanan olursa bana işaret etsin."
-
-## 00:11 İzleme görevi (4 dk)
-
-"Bu film birkaç farklı kişinin gözünden anlatılıyor. Ekranda bir isim çıktığında yeni bir bölüm başlıyor. İzlerken şuna dikkat edin: **Her bölümde o kişinin derdi ne?** Filmi üç kez durduracağım."
+**İzleme görevi (4 dk).** **“Film birkaç kişinin gözünden anlatılıyor. Ekranda yeni bir isim çıkınca o kişinin derdi ne? O kişi kime iyi, kime haksız davranıyor?”**
 
 ## Film ve duraklar
 
-### Durak 1 (filmin ilk bölümü)
-
-**Sahne:** Auggie'nin okuldaki ilk günleri. Öğretmen Bay Browne ilk dersinde tahtaya ayın ilkesini yazar: "Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç." Bu dersten sonraki ilk sahne geçişinde durun.
+### Durak 1: Bay Browne'ın ilk dersinden sonraki ilk sahne geçişi (filmin ilk bölümü)
 
 **Süre:** 6 dk
 
-"Durduruyorum. Bay Browne tahtaya bir cümle yazdı. **Bu cümleye katılıyor musunuz? Haklı olmak ile nazik olmak hiç çatışır mı?**"
+“Bay Browne (Auggie'nin her ay tahtaya bir ilke yazan öğretmeni) şunu yazdı: ‘Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç.’ Haklı olmak ile nazik olmak ne zaman çatışır? Bir örnek ver.”
 
-*3–4 cevap, tahtaya not. Bu cevaplar tartışmanın temeli olacak.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Bu cümleyi aklınızda tutun. Film boyunca kim haklı, kim nazik, bakalım."
-
-### Durak 2 (yaklaşık filmin ortası)
-
-**Sahne:** Cadılar Bayramı. Auggie kostümünün içinde tanınmaz ve en yakın arkadaşı Jack'in, Julian ve diğerlerinin yanında onunla zorla arkadaş olduğunu söylediğini duyar. Bu sahneden sonraki ilk sahne geçişinde durun.
-
-**Süre:** 6 dk (su ve tuvalet molası da burada)
-
-"Filmi durduruyorum. Önce bir şey söylemek istiyorum. Jack biraz önce çok kırıcı ve ağır bir şey söyledi. İnsanlar bazen bir grupta kabul görmek için, gerçekte düşünmedikleri ağır şeyler söyleyebiliyor."
-
-"Soru şu: **Jack neden böyle söyledi? Bir arkadaş başkalarının yanında farklı davranabilir mi?**"
-
-*3–4 cevap, tahtaya not. Konuyu intihar üzerine açmayın. Bir öğrenci açarsa kısa ve ciddi karşılık verin:* "Bu çok önemli bir konu ve şaka değil. İstersen sonra seninle ayrıca konuşalım." *Oturumdan sonra konuşun.*
-
-**Geçiş:** "İki dakika su molası. Bu arkadaşlığa ne olacak, göreceğiz."
-
-### Durak 3 (son bölüm)
-
-**Sahne:** Müdür Tushman, Julian'ın ailesiyle görüşür ve Julian'ın annesinin sınıf fotoğrafından Auggie'yi çıkardığını ortaya koyar. Bu sahneden sonraki ilk sahne geçişinde durun.
+### Durak 2: Cadılar Bayramı sahnesinden sonra (yaklaşık ortası)
 
 **Süre:** 6 dk
 
-"Son durak. **Julian'ın yaptıklarında annesinin payı var mı? Bir çocuğun yaptığından ailesi ne kadar sorumlu?**"
+Önce tek cümle: “Jack biraz önce çok kırıcı ve ağır bir şey söyledi. İnsanlar bazen bir grupta kabul görmek için gerçekte düşünmedikleri ağır şeyler söyler.” “Jack (Auggie'nin okuldaki ilk yakın arkadaşı) bir grubun yanında arkadaşını kötüledi. Yalnızken söylemeyeceğimiz bir şeyi kalabalıkta söylüyorsak, hangisi gerçekten ‘biz’iz?”
 
-*3–4 cevap, tahtaya not.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Filmin sonunu görelim."
+### Durak 3: Müdür odasında Julian'ın ailesiyle yapılan görüşmeden sonra (son bölüm)
 
-## 02:26 Ara (10 dk)
+**Süre:** 6 dk
 
-### Enerji oyunu: "Ayna" (3 dk, hareketli)
+“Julian'ın (Auggie'ye zorbalık eden sınıf arkadaşı) annesi sınıf fotoğrafından Auggie'yi sildirmişti. Bir çocuğun yaptığından ailesi ne kadar sorumlu?”
 
-"İkili olun, karşı karşıya durun. Biriniz yavaşça hareket ediyor, diğeri onun aynası oluyor. Konuşmak yok. … Şimdi değişin."
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-*Bitirirken:* "Başkasının hareketini taklit etmek için ona çok dikkatli bakmanız gerekti. Bugünkü film de herkes başka birinin gözünden anlatılıyordu. Oturalım."
+**Cadılar Bayramı cümlesi:** Jack, Auggie gibi görünseydi kendini öldüreceğini söyler. Atlanmaz, durakta yukarıdaki tek cümleyle ele alınır. Konu intihar üzerine açılmaz. Bir öğrenci açarsa kısa ve ciddi cevap verilir: “Bu çok önemli bir konu ve şaka değil. İstersen sonra seninle ayrıca konuşalım.” Oturumdan sonra o öğrenciyle konuşulur.
 
-## 02:36 Tartışma (60 dk)
+## Ara (10 dk)
 
-### dk 0–5 · İlk tepki turu
+*İlk 7 dakika serbest: su, atıştırmalık, hareket. Bu sırada sandalyeleri çember yapın.*
 
-*Standart.*
+**Enerji oyunu “Ayna” (3 dk, hareketli):** “İkili olun, karşı karşıya durun. Biriniz yavaşça hareket ediyor, diğeri onun aynası oluyor. Konuşmak yok. … Şimdi değişin.” *Bitirirken:* “Başkasının hareketini taklit etmek için ona çok dikkatli bakmanız gerekti. Bugünkü film de herkesi başka birinin gözünden anlatıyordu.”
 
-### dk 5–10 · Duraklara dönüş
+## Tartışma (60 dk)
 
-"Birinci durakta Bay Browne'ın cümlesine katılıp katılmadığınızı sormuştum. Filmi bitirdiniz. Filmde haklı olmak ile nazik olmanın çatıştığı bir an gördünüz mü?"
+### dk 0–5 · İlk tepki
 
-### dk 10–35 · Sorgulama
+“Film bana … hissettirdi.” Pas serbest.
 
-"Bugünün sorusu: **Haklı olmak ile nazik olmak gerçekten çatışır mı?**"
+### dk 5–12 · Soruların altındaki soru
 
-*İç içe sorular:*
-- "Nazik olmak her zaman doğru mu? Birine acı bir gerçeği söylemek ne zaman nazikliktir?"
-- "Ailenin bütün ilgisini Auggie'ye vermesi Via'ya haksızlık mıydı? Adil olmak herkese eşit davranmak mıdır?"
-- "Jack arkadaşlarının yanında başka, Auggie'nin yanında başka davrandı. Gerçek Jack hangisi?" *(2. günle köprü: "Riley de Val'in yanında başka biri olmuştu.")*
-- "İnsanlara görünüşleri yüzünden farklı davranmak her zaman yanlış mı?"
-
-*Eğer'leme:* "Peki ya Auggie, Jack'in sözlerini hiç duymasaydı? Jack yine de yanlış bir şey yapmış olur muydu?"
-
-*Liseliler Via'nın bölümüyle daha çok bağ kurar. Bu bakışı davet edin:* "Via'nın yerinde olsaydınız ne hissederdiniz?"
-
-### dk 35–45 · Kendi sorumuz
-
-"Üçlüler, bugün konuştuklarımızdan bir felsefi soru. En küçüğünüz yazıyor." *Oylama, Soru Duvarı.*
-
-### dk 45–55 · Kapanış ikilemi (hareketli)
-
-"Ayağa kalkıyoruz. Bu soruyu 'sen' diye değil, 'bir insan' diye soruyorum. Bir insanın en yakın arkadaşı, o yokken onu başkalarına kötülemiş. Sonra içtenlikle özür diliyor.
-
-**A duvarı:** Arkadaşlığa eskisi gibi devam etmeli.
-**B duvarı:** Güveni bir kez kırılan bu ilişkiyi bitirmeli.
-
-Seçin ve yürüyün."
-
-*Gerekçelerden sonra:* "Affetmek, unutmak demek mi?"
-
-### dk 55–60 · Son söz
-
-*Standart.*
-
-## 03:36 Kapanış (5 dk)
-
-"Çıkış kartı. Sonra Felsefe Her Yerde. Bugünün ipucu: **başkalarına nasıl davrandığımızla ilgili bir soru.** Mesela 'Bir oyunda kuralları bilmeyen yeni birine kazanmak için kural öğretmemek haksızlık mı?'"
-
-## Şu olursa ne yaparım? (3. gün)
-
-| Durum | Ne yaparım |
+| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
 |---|---|
-| **Durak uzarsa** | 1. durak (Bay Browne'ın cümlesi) uzun tartışmaya çok açık. "Bu cümle bugünün ana sorusu, film bitince bütün gücümüzle döneceğiz" deyip devam edin. |
-| **Tartışma tıkanırsa** | Tahtadaki 3. durak cevaplarına dönün: "Julian'ın annesi hakkında şunu demiştiniz. Peki Julian'ın kendisi?" Ya da eğer'leme. |
-| **Bir öğrenci domine ederse** | "Bugün Via gibi biraz görünmez kalan birinden duymak istiyorum." Topu yaşça küçük, konuşmamış birine verin. |
-| **Grup sıkılırsa / dağılırsa** | Hızlı duvar sorusu: "Beyaz yalan söylemek bazen iyi midir? Evet sağa, hayır sola." |
-| **Hassas paylaşım gelirse** | Zorbalık yaşamış ya da yapmış öğrenciler olabilir. İsim verilmesine izin vermeyin: "Burada kimsenin adını konuşmuyoruz, fikirleri konuşuyoruz." Protokolü uygulayın. Kampta süren bir zorbalık varsa aynı gün kamp sorumlusuna bildirin. |
-| **Biri Auggie'nin görünüşüyle dalga geçerse** | Durdurun: "Bu grupta kimsenin görünüşüyle dalga geçmiyoruz. Bugünkü film tam olarak bunu konuşuyor." |
+| “Jack neden Auggie'yi kötüledi?” | “Bir grubun içindeyken yaptığımız şeyden tek başımıza mı sorumluyuz?” |
+| “Julian (Auggie'ye zorbalık eden çocuk) neden öyleydi?” | “Bir insan kötü mü doğar, kötü mü olur?” |
+| “Via (Auggie'nin, ailesinin ilgisinin hep kardeşine gittiğini hisseden lise öğrencisi ablası) neden kırgındı?” | “Adil olmak herkese eşit ilgi göstermek mi?” |
+| “Summer (öğle yemeğinde Auggie'nin yanına kendiliğinden oturan kız) neden Auggie'nin yanına oturdu?” | “Birine acıdığımız için mi, onu sevdiğimiz için mi iyilik yaparız? Fark eder mi?” |
+
+Moderatör: “Bu soruların hepsinin altında aynı şey var: İyi olmak ne demek? Ve iyi biri olmak, iyi bir hayat yaşamak mı demek?” Tahtaya: **İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?**
+
+### dk 12–42 · Soru merdiveni
+
+**Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
+
+“Bay Browne (Auggie'nin öğretmeni) tahtaya şu ilkeyi yazdı: ‘Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç.’ Bu ilke her zaman doğru mu?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, nazik olmak hep daha iyi.” | “Arkadaşın çok zayıf bir resim yapmış ve bir yarışmaya göndermek üzere. Nazik olup ‘Harika’ dersen kaybetmesine sebep olmaz mısın? Nazik olmak, yalan söylemek mi?” (Karşı örnek) |
+| “Hayır, doğruyu söylemek lazım.” | “Auggie'nin yüzünün farklı olduğu doğru. Ama bunu ona söylemek gerekli mi? Doğru olan her şey söylenmeli mi?” |
+| “Duruma göre.” | “Hangi durumda? Kuralını söyle: ne zaman nazik, ne zaman haklı?” |
+| “İkisi birden olunur.” | “Nasıl? Bir örnek ver. Yine de ikisinin çatıştığı bir an düşünebiliyor musun?” |
+
+**Basamak 2: Düşünce deneyi, görünmezlik yüzüğü (yaklaşık 8 dk)**
+
+“Seni görünmez yapan bir yüzük buldun. Kimse ne yaptığını görmeyecek. Kimse seni övmeyecek, kimse cezalandırmayacak. Yine de iyi davranır mısın? Neden?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Hayır, kimse görmüyorsa önemli değil.” | “O zaman iyi olmamızın tek nedeni görülmek mi? Jack, Auggie'nin duymadığını sandığında onu kötüledi. Gerçek Jack o muydu?” |
+| “Evet, çünkü vicdanım var.” | “Vicdan nereden geliyor? Seni kimse görmese de sen kendini görüyorsun, öyle mi?” |
+| “Biraz yaramazlık yaparım.” | “Nerede durursun? Neden orada?” (Sınır arama) |
+| “İyilik yapmak beni mutlu ediyor.” | “Kendini iyi hissetmek için iyilik yapmak hâlâ iyilik mi? Kimse teşekkür etmese de yapar mısın?” |
+
+**Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
+
+“Via (Auggie'nin ablası) yıllarca ailesinden ilgi istemedi, ‘iyi kız’ oldu, ama çok yalnızdı. İyi biri olmak, iyi bir hayatı garanti eder mi?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, iyilik geri döner.” | “Her zaman mı? Auggie iyi bir çocuktu, yine de zorbalığa uğradı. İyi olup da kötü şeyler yaşayan birini düşünebilir misin?” |
+| “Hayır, iyi insanlar da kaybeder.” | “O zaman neden iyi olalım? İyilik kendi başına mı değerli, yoksa getirdiği şey için mi?” |
+| “Önce kendine iyi davranmalısın.” | “Kendine iyi davranmak ile bencillik arasındaki sınır nerede? Via ne zaman kendini düşünmeliydi?” |
+| “Sevilmek yeter.” | “Julian'ı da annesi çok seviyordu. Sevilmek bizi iyi yapar mı?” |
+
+**Basamak 4: Düşünce deneyi, kırılan güven (yaklaşık 8 dk)**
+
+“Jack, Auggie'yi kötüledi, sonra içtenlikle özür diledi ve Auggie onu affetti. Biri özür dilediğinde onu affetmek zorunda mıyız? Affetmek bir iyilik mi, bir borç mu?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, özür dilediyse affetmeli.” | “Aynı şeyi üçüncü kez yaparsa? Affetmenin bir sınırı var mı?” |
+| “Hayır, güven bir kez kırıldı.” | “Sen hiç hata yapmadın mı? Senin hatanı hiç affetmeyen birine ne derdin?” |
+| “Affederim ama unutmam.” | “Affetmek ile unutmak arasındaki fark ne? Unutmadan gerçekten affedebilir miyiz?” |
+| “Özrün ne kadar içten olduğuna bağlı.” | “Bir özrün içten olduğunu nasıl anlarız?” (1. günle köprü: “Nasıl biliriz?”) |
+
+### dk 42–50 · Kapanış ikilemi: kırılan güven (hareketli)
+
+“Ayağa kalkıyoruz. Bu soruyu ‘sen’ diye değil, ‘bir insan’ diye soruyorum. Bir insanın en yakın arkadaşı, o yokken onu başkalarına kötülemiş. Sonra içtenlikle özür diliyor.
+**A duvarı:** Arkadaşlığa eskisi gibi devam etmeli.
+**B duvarı:** Güveni bir kez kırılan bu arkadaşlığı bitirmeli.
+Seçin ve yürüyün.”
+
+Ters köşe soruları:
+- **A tarafına:** “Arkadaşı bu kez onu değil, küçük kardeşini herkesin önünde kötüledi. Yine de eskisi gibi devam eder mi?”
+- **B tarafına:** “O arkadaş daha önce onu üç kez korumuştu. Bir hata, üç iyiliği siler mi?”
+
+“Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?”
+
+### dk 50–55 · Kamp sorusuna dönüş
+
+“Dün ‘kendin olmak’ı sınadık. Bugün ‘iyi biri olmak’ı sınadık. İyi bir hayat sorusuna bugün ne ekliyoruz?”
+
+Grubun varabileceği yerlere örnekler:
+- “İyi bir hayat başkalarını da içerir. Onlara nasıl davrandığım benim hayatımın parçası.”
+- “İyi olmak iyi bir hayatı garanti etmez, ama iyi olmadan iyi bir hayat da eksik kalabilir.”
+
+Grubun cümlesi ve açık kalan soru 3. gün kartına yazılır.
+
+### dk 55–60 · Defter: 3. gün
+
+“Kamp sorusuna bugünkü cevabınız: değişti mi? Bugün kafanızı en çok karıştıran soru.”
+
+## Kapanış: gerilim ve köprü (3 dk)
+
+“Bugün tek tek insanlara baktık: Auggie, Jack, Via. Ama Julian'ın yaptıklarını bütün bir sınıf gördü ve uzun süre kimse durdurmadı. Bir kişiye iyi davranmak yetmeyebilir. Bütün bir grup birine haksızlık ederse ne olur? Yarın bütün bir şehre bakacağız.”
+
+**Hayattan soru görevi:** “Yarın sabaha kadar kampta kimsenin görmediği bir anı yakala ve kendine sor: ‘Kimse görmeseydi yine böyle davranır mıydım?’”
+
+## Tartışma tek cevapla kapanırsa (3. gün)
+
+| Durum | Hamle |
+|---|---|
+| Herkes “nazik ol” diyor | “Bir doktor hastasına nazik olmak için hastalığını saklamalı mı?” |
+| Herkes A'da (devam etmeli) | “Bir insan sana her hafta zarar verip her hafta özür dilese? İyilik, kendine zarar verilmesine izin vermek mi?” |
+| Herkes B'de (bitirmeli) | “Herkes bir hatada bitirilseydi, kimin arkadaşı kalırdı?” |
+| Herkes “Julian kötü” diyor | “Julian'ı kim öyle yaptı? Bir çocuğu kötü yapan şeyden o çocuk tek başına sorumlu mu?” |
+| Sessizlik | İkili konuşma (2 dk): “Yanındakine, kimse görmediğinde yaptığın iyi ya da kötü bir şeyi anlat. İstemiyorsan uydurma bir örnek de olur.” |
+
+## Hassas içerik
+
+- **Cadılar Bayramı cümlesi:** Duraklar bölümüne bakın. Atlanmaz, tek cümleyle ele alınır.
+- **Zorbalık:** Grupta zorbalık yaşamış ya da yapmış öğrenciler olabilir. İsim verilmesine izin vermeyin: “Burada kimsenin adını konuşmuyoruz, fikirleri konuşuyoruz.” Kampta süren bir zorbalık varsa aynı gün kamp sorumlusuna bildirin.
+- **Görünüş:** Biri Auggie'nin görünüşüyle dalga geçerse durdurun: “Bu grupta kimsenin görünüşüyle dalga geçmiyoruz. Bugünkü film tam olarak bunu konuşuyor.”
+- **Daisy (ailenin yaşlı köpeği) ölür:** Yakın zamanda evcil hayvanını kaybeden öğrenciye önceden söyleyin.
+
+## Moderatör için felsefe köşesi
+
+- **Platon, Gyges'in yüzüğü:** Platon *Devlet*'te görünmez yapan bir yüzük hikâyesiyle sorar: “İnsanlar yakalanmayacaklarını bilseler de adil davranır mı?”
+- **Aristoteles:** İyi insan, iyi davranışları alışkanlık haline getiren kişidir. İyi bir hayat (eudaimonia) de böyle bir karakterle yaşanan hayattır.
+
+Söylenebilecek tek cümle: “Görünmezlik yüzüğü sorusunu 2.400 yıl önce Platon da sormuş: Kimse görmese insanlar yine iyi davranır mı?”
 
 ---
 
 # 4. GÜN · Zootropolis · Toplum
 
-**Ana soru:** Bir grup hakkında genelleme yapmak ne zaman adil, ne zaman haksızlık?
-**Kapanış ikilemi:** Bir grup hakkında doğru bir genelleme var ama karşındaki bireye uygulamak ona haksızlık edebilir. Genellemeyle kendini korumak mı, her bireye sıfırdan bakmak mı?
-**Toplam süre:** yaklaşık **3 saat 36 dk** (216 dk)
+**Künye:** *Zootopia* (Türkiye'deki adı *Zootropolis: Hayvanlar Şehri*), Byron Howard ve Rich Moore, 2016, 108 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt2948356/
 
-## Akış
+Tam modül: [moduller/gun4-zootropolis.md](moduller/gun4-zootropolis.md) · Toplam süre: yaklaşık **3 sa 34 dk** (214 dk)
+
+## Günün yolculuktaki yeri
+
+- **Dünden devralınan soru:** “Bir kişiye iyi davranmak yetmeyebilir. Bütün bir grup birine haksızlık ederse ne olur?”
+- **Sınanan ilk cevap:** “İyi bir hayat, herkesin eşit olduğu bir dünyada yaşanır.”
+- **Kavram:** Adalet.
+- **Günün kavram sorusu:** Adil olmak herkese aynı davranmak mı? Birini bir grubun üyesi olarak tanımanın neresi yanlış?
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat yalnızca benim elimde mi, yoksa içinde yaşadığım düzene de mi bağlı?
+- **Neden bu film:** Filmde önyargı yalnızca kötü karakterlerde değil, iyi niyetli kahramanlarda da var. Ayrıca bir şehrin korkuyla nasıl haksızlığa sürüklendiği görülüyor.
+
+## Günün akışı
 
 | Saat | Süre | Bölüm |
 |---|---|---|
-| 00:00–00:07 | 7 dk | Hayattan Sorular paylaşımı |
-| 00:07–00:09 | 2 dk | Dünle bağ |
-| 00:09–00:15 | 6 dk | Sözlü izleme görevi, "önyargı" kavramı |
-| 00:15–02:21 | 108 + 18 dk | Film (üç durak) |
-| 02:21–02:31 | 10 dk | Ara (son 3 dakikası enerji oyunu) |
+| 00:00–00:04 | 4 dk | Dünkü gün kartı |
+| 00:04–00:09 | 5 dk | Hayattan sorular |
+| 00:09–00:15 | 6 dk | İzleme görevi ve “önyargı” kavramı |
+| 00:15–02:21 | 108 + 18 dk | Film (3 konuşmalı durak, her biri 6 dk) |
+| 02:21–02:31 | 10 dk | Ara (son 3 dakikası enerji oyunu “Gruplan!”) |
 | 02:31–03:31 | 60 dk | Tartışma |
-| 03:31–03:36 | 5 dk | Çıkış kartı, Felsefe Her Yerde |
+| 03:31–03:34 | 3 dk | Köprü ve hayattan soru görevi |
 
-*İsteğe bağlı:* Kısa film *Alike* (yaklaşık 8 dk). *Lise ağırlıklı grupta:* *12 Kızgın Adam*. Her oylama turu doğal bir durak olduğu için B modeline çok uyar (bkz. [film-onerileri.md](film-onerileri.md), Yedek filmler).
+## Açılış (15 dk)
 
-## 00:00 Hayattan Sorular (7 dk)
+**Dünkü gün kartı (4 dk).** 3. gün kartı okunur. Moderatör: “Dün tek tek insanlara nasıl davrandığımızı konuştuk. Bugün bütün bir şehre bakıyoruz.”
 
-"Dünkü ipucu başkalarına nasıl davrandığımızdı. Kim yakaladı?" *3–4 kart okunur, panoya asılır.* "Panoda kaç soru oldu, sayalım." *(Sayıyı not edin.)*
+**Hayattan sorular (5 dk).** “Kimse görmeseydi yine böyle davranır mıydım?” sorularından 2–3'ü okunur. Biri 3. gün kartına yazılır.
 
-## 00:07 Dünle bağ (2 dk)
+**İzleme görevi ve önyargı kavramı (6 dk).** “Önyargı ne demek? Bir kişiyi tanımadan, sadece ait olduğu grup yüzünden hakkında bir yargıya varmak. Bugünkü filmde hassas bir sahne yok, sadece birkaç kovalama ve korku anı var.”
 
-"Dün tek bir çocuğa nasıl davrandığımızı konuştuk. Bugün bütün bir şehre bakacağız. Bir toplum bir gruba nasıl davranır?"
+*Görev sözlü verilir, not kartı yok.*
 
-## 00:09 İzleme görevi (6 dk)
+**“Filmde kim kimi önyargıyla yargılıyor? Kahramanların da önyargılı olduğu anlara dikkat et.”**
 
-"Önyargı ne demek, bilen var mı? … Bir kişiyi tanımadan, sadece ait olduğu grup yüzünden hakkında bir yargıya varmak."
-
-"İzlerken şuna dikkat edin: **Filmde kim kimi önyargıyla yargılıyor? Kahramanların da önyargılı olduğu anlar var mı?** Filmi üç kez durduracağım."
-
-*Kamp ya da veliler hassassa:* İlk yarıdaki çıplaklar kulübü sahnesi başladığında ileri sarın ve "Judy ile Nick burada aradıkları aracın plakasını öğrendi" deyin. Genelde gerek yok.
+*Kamp ya da veliler hassassa:* İlk yarıdaki çıplaklar kulübü sahnesi başladığında ileri sarın ve “Judy ile Nick burada aradıkları aracın plakasını öğrendi” deyin.
 
 ## Film ve duraklar
 
-### Durak 1 (filmin ilk bölümü)
-
-**Sahne:** Judy, ilk görev gününde tilki Nick'e iyilik yaptığını sanır, sonra Nick'in onu bir dolandırıcılıkta kullandığını öğrenir. Yüzleştiklerinde Nick, herkesin ancak "olduğu şey" olabileceğini söyler: "kurnaz tilki, aptal tavşan". Bu konuşmadan sonraki ilk sahne geçişinde durun.
+### Durak 1: Nick'in Judy'yi kandırdığı ortaya çıkıp “kurnaz tilki, aptal tavşan” dediği konuşmadan sonra (ilk bölüm)
 
 **Süre:** 6 dk
 
-"Durduruyorum. **Judy, Nick'ten ilk gördüğü anda şüphelendi. Tilki olduğu için mi, yoksa yaptığı bir şey yüzünden mi? Nick de 'kurnaz tilki, aptal tavşan' dedi. Kim önyargılı?**"
+“Nick (şehirde küçük dolandırıcılıklarla geçinen bir tilki) ‘Herkes ancak olduğu şey olabilir: kurnaz tilki, aptal tavşan’ dedi. Bir insan ‘olduğu şeyi’ değiştirebilir mi, yoksa başkaları onu çoktan belirlemiş midir?”
 
-*3–4 cevap, tahtaya not.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Tahtada duruyor. Bu ikili ilerde birlikte çalışacak, bakalım fikirleri değişecek mi."
-
-### Durak 2 (yaklaşık filmin ortası)
-
-**Sahne:** Nick, çocukken izcilere katılmak istediği gün diğer çocukların onu tilki olduğu için tuttuğunu ve ağzına burunluk taktığını Judy'ye anlatır. Bu sahneden sonraki ilk sahne geçişinde durun.
-
-**Süre:** 6 dk (su ve tuvalet molası da burada)
-
-"Durduruyorum. **Nick, herkes ona hilekâr bir tilki gibi davrandığı için hilekâr olmaya karar verdi. Başkalarının bizden beklediği şey bizi değiştirir mi?**"
-
-*3–4 cevap, tahtaya not.*
-
-**Geçiş:** "İki dakika su molası, sonra devam."
-
-### Durak 3 (yaklaşık son üçte birin başı)
-
-**Sahne:** Basın toplantısı. Judy, vahşileşen avcıların "doğal içgüdülerine dönüyor" olabileceğini ima eder. Nick derinden incinir ve Judy'yi bırakıp gider. Nick'in gidişinden sonraki ilk sahne geçişinde durun.
+### Durak 2: Nick'in çocukken izcilerde yaşadıklarını anlattığı sahneden sonra (yaklaşık ortası)
 
 **Süre:** 6 dk
 
-"Son durak. **Judy önyargılı mı? Kötü bir niyeti yoktu. Yine de yanlış bir şey yaptı mı?**"
+“Nick çocukken izcilere (çocukların yemin edip üniforma giydiği bir topluluk) katılmak istedi. Diğer çocuklar tilki olduğu için ona güvenmedi ve ağzına burunluk taktı. Başkalarının bizden beklediği şey bizi değiştirir mi?” (Su molası)
 
-*3–4 cevap, tahtaya not.*
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Bakalım Judy bundan sonra ne yapacak."
+### Durak 3: Basın toplantısından sonra, Nick Judy'yi bırakıp gidince (son üçte birin başı)
 
-## 02:21 Ara (10 dk)
+**Süre:** 6 dk
 
-### Enerji oyunu: "Gruplan!" (3 dk, hareketli)
+“Judy (şehrin ilk tavşan polisi) basın toplantısında avcı hayvanların ‘doğalarına döndüğünü’ ima etti. Kötü niyeti yoktu. Kötü niyeti olmayan biri de haksızlık yapabilir mi?”
 
-"Herkes ayağa. Ben bir şey söyleyeceğim, ona göre hızla gruplanacaksınız. **Doğduğunuz mevsime göre!** … **Sabah mı akşam mı insanısınız?** … **Tatlı mı tuzlu mu?**"
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-*Hassas kategoriler (din, köken, cinsiyet, beden) kullanmayın. Bitirirken:*
+## Ara (10 dk)
 
-"Her seferinde başka bir grupta yer aldınız. Kimse tek bir gruptan ibaret değil. Oturalım."
+*İlk 7 dakika serbest: su, atıştırmalık, hareket. Bu sırada sandalyeleri çember yapın.*
 
-## 02:31 Tartışma (60 dk)
+**Enerji oyunu “Gruplan!” (3 dk, hareketli):** “Herkes ayağa. Söylediğim şeye göre hızla gruplanın: Doğduğunuz mevsim! … Sabah mı akşam mı insanısınız? … Tatlı mı tuzlu mu?” *Hassas kategoriler (din, köken, cinsiyet, beden) kullanmayın. Bitirirken:* “Her seferinde başka bir grupta yer aldınız. Kimse tek bir gruptan ibaret değil.”
 
-### dk 0–5 · İlk tepki turu
+## Tartışma (60 dk)
 
-*Standart.*
+### dk 0–5 · İlk tepki
 
-### dk 5–10 · Duraklara dönüş
+“Film bana … hissettirdi.”
 
-"Üç durakta da önyargıyı konuştuk. Tahtaya bakın: Birinci durakta Judy ile Nick'ten hangisinin önyargılı olduğunu sormuştum. Şimdi ne dersiniz?"
+### dk 5–12 · Soruların altındaki soru
 
-### dk 10–33 · Sorgulama
-
-"Bugünün sorusu: **İyi niyetli biri de önyargılı olabilir mi?**"
-
-*İç içe sorular:*
-- "Judy'nin ailesinin ona tilki kovucu sprey vermesi önyargı mı, yoksa makul bir önlem mi? Fark nerede?"
-- "'Bu onların doğasında var' demek ne zaman doğru, ne zaman tehlikeli?"
-- "Çoğunluğun düşündüğü şey doğru olanı belirler mi?"
-- "İyi bir özrün içinde ne olmalı? Nick'in Judy'yi affetme zorunluluğu var mıydı?"
-
-*Eğer'leme:* "Peki ya avcıların gerçekten bir gün vahşileşme ihtimali olsaydı? O zaman onlardan korkmak haklı olur muydu?"
-
-*3. günle köprü:* "Dün Jack bir hata yaptı ve özür diledi. Bugün Judy de. İki özür arasında bir fark var mı?"
-
-### dk 33–43 · Kendi sorumuz
-
-"Üçlüler, bir felsefi soru. En küçüğünüz yazıyor." *Oylama, Soru Duvarı.*
-
-### dk 43–55 · Kapanış ikilemi (hareketli, bugün 12 dk)
-
-"Ayağa kalkıyoruz. Bir grup hakkında, sayılara bakınca doğru görünen bir genelleme var. Ama karşınızdaki tek bir kişiye bunu uygulamak ona haksızlık edebilir.
-
-**A duvarı:** Genellemeyi kullanıp kendimi korurum.
-**B duvarı:** Her kişiye sıfırdan bakarım.
-
-Hangisi daha adil?"
-
-*Gerekçelerden sonra:* "Ortada duran var mı? Hangi durumda A, hangi durumda B dersin?"
-
-### dk 55–60 · Son söz
-
-*Standart.*
-
-## 03:31 Kapanış (5 dk)
-
-"Çıkış kartı. Sonra Felsefe Her Yerde. Bugünün ipucu: **kurallarla ya da adaletle ilgili bir soru.** Mesela 'Yatakhanede ışıkların ne zaman sönmesi gerektiğine kim karar vermeli?' Yarın son günümüz."
-
-## Şu olursa ne yaparım? (4. gün)
-
-| Durum | Ne yaparım |
+| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
 |---|---|
-| **Durak uzarsa** | 2. durak (Nick'in çocukluğu) kişisel hikâyeler çağırabilir. "Bu çok önemli, film bitince yer açacağız" deyip devam edin. |
-| **Tartışma tıkanırsa** | Tahtadaki 2. durak cevaplarına dönün: "Beklentiler bizi değiştirir demiştiniz. O zaman Nick'in yaptıklarından kim sorumlu?" |
-| **Bir öğrenci domine ederse** | "Senin fikrini anladım. Şimdi buna katılmayan birini duymak istiyorum." |
-| **Grup sıkılırsa / dağılırsa** | Fikir çizgisi: "Odanın bir ucu 'tamamen katılıyorum', diğer ucu 'hiç katılmıyorum'. Cümle: İlk izlenim çoğu zaman doğrudur. Yerinizi alın." |
-| **Hassas paylaşım gelirse** | Öğrenciler benzetmeyi gerçek gruplara uygulayabilir. Engellemeyin, kavram düzeyinde tutun. Belirli bir grubu hedef alan söze: "Bu bir genelleme mi? Gerekçen ne?" Ayrımcılığa uğradığını anlatan öğrenciye protokolü uygulayın. |
-| **Gruptan biri hedef alınırsa** | Hemen durdurun: "Burada kimseyi bir grubun üyesi olarak yargılamıyoruz. Bugünkü film bunun ne kadar acı verdiğini anlatıyor." |
+| “Nick (kurnaz tilki) neden düzenbaz oldu?” | “Başkalarının bizden beklediği şey bizi değiştirir mi?” |
+| “Judy basın toplantısında neden öyle dedi?” | “İyi niyetli biri de önyargılı olabilir mi?” |
+| “Bellwether (belediye başkan yardımcısı koyun; avcıları vahşileştirip şehri korkutan kişi) neden avcıları kötü gösterdi?” | “Korku bir toplumu nasıl yönetir?” |
+| “Neden küçük hayvanlar ayrı mahallede yaşıyor?” | “Herkese aynı davranmak her zaman adil mi?” |
+
+Moderatör: “Bu soruların altında tek bir soru var: Adil olmak ne demek?” Tahtaya: **Adil olmak herkese aynı davranmak mı? Birini bir grubun üyesi olarak tanımanın neresi yanlış?**
+
+### dk 12–42 · Soru merdiveni
+
+**Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
+
+“Judy şehre giderken ailesi ona tilki kovucu sprey (tilkilerin tehlikeli olduğuna inanan ailesinin onu korumak için verdiği sprey) verdi. Bu bir önyargı mı, yoksa makul bir önlem mi?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Önyargı, hiçbir tilkiyi tanımıyorlardı.” | “Peki tanımadığımız birine karşı hiç önlem almamalı mıyız? Gece tek başına yürürken tanımadığın birinden uzak durmak da önyargı mı?” (Karşı örnek) |
+| “Önlem, tilkiler tehlikeli olabilir.” | “‘Tilkiler’ derken bütün tilkileri mi kastediyorsun? Kaç tilki tanıyorsun? Bu bilgi nereden geliyor?” (1. günle köprü: “Nasıl biliyoruz?”) |
+| “İkisi de.” | “Önyargı ile önlem arasındaki çizgi nerede? Bir kural söyle.” (Kavram ayrımı) |
+| “Aile korur, bu normal.” | “Korumak için bütün bir grubu kötülemek doğru mu? Christof (1. gün filminde Truman'ı ‘korumak’ için ona yalan söyleyen yapımcı) da korumak istiyordu.” |
+
+**Basamak 2: Düşünce deneyi, kimin olacağını bilmediğin şehir (yaklaşık 8 dk)**
+
+“Yeni bir şehir kuruyoruz ve kurallarını sen yazacaksın. Ama bir şart var: Kurallar yazıldıktan sonra o şehirde hangi hayvan olarak doğacağını bilmiyorsun. Tavşan da olabilirsin, tilki de, fil de, fare de. Hangi kuralları yazarsın?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Herkese aynı kural.” | “Fare ile fil aynı kapıdan mı girsin? Zootropolis'te (avcı ve av hayvanlarının bir arada yaşadığı büyük şehir) küçük hayvanlar için ayrı küçük kapılar vardı. Herkese aynı davranmak bazen haksızlık olur mu?” |
+| “Güçlülere daha çok hak.” | “Peki ya fare olarak doğarsan?” |
+| “Avcılara özel kurallar, çünkü tehlikeliler.” | “Ya tilki olarak doğarsan ve hiç kimseye zarar vermemişsen? O kural sana adil gelir mi?” |
+| “Bilmiyorum.” | “Tek bir kural yaz. Bu kural en zayıf hayvanı korur mu?” |
+
+**Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
+
+“Nick çocukken haksızlığa uğradı ve ‘Herkes beni düzenbaz sanıyorsa düzenbaz olurum’ diyerek kendi küçük dünyasını kurdu. Haksız bir şehirde iyi bir hayat yaşanabilir mi?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Evet, kendi küçük dünyanı kurarsın.” | “Senin dünyan iyiyken yanındaki biri haksızlığa uğruyorsa, senin hayatın hâlâ iyi mi? Bundan sorumlu musun?” |
+| “Hayır, önce dünyanın düzelmesi lazım.” | “O zaman haksız bir yerde yaşayan herkesin hayatı kötü mü? O insanlar ne yapabilir?” |
+| “Nick haklıydı.” | “Başkalarının beklentisi bizi değiştiriyorsa, Nick'in yaptıklarından kim sorumlu: Nick mi, ona öyle davrananlar mı?” |
+| “Bireye bağlı.” | “Judy kurallara karşı geldi ve şehri değiştirdi. İyi bir hayat için herkes Judy olmak zorunda mı?” |
+
+**Basamak 4: İki ilkenin çatışması, genelleme mi birey mi (yaklaşık 8 dk)**
+
+“Bir grup hakkında, sayılara bakınca doğru görünen bir genelleme var. Ama karşındaki tek kişiye bunu uygulamak ona haksızlık edebilir. Kendini korumak mı daha önemli, karşındakine sıfırdan bakmak mı?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| “Her kişiye sıfırdan bakarım.” | “Bir sokaktaki köpeklerin çoğu ısırıyorsa, yanına koşan köpeğe de sıfırdan mı bakarsın? Deneyimden hiç öğrenmemek mi demek bu?” |
+| “Kendimi korurum.” | “Nick'in ağzına burunluk takan çocuklar da kendilerini koruduklarını düşünüyordu. Seninki ile onlarınki arasında fark ne?” |
+| “Genelleme doğruysa sorun yok.” | “Senin yaşın için yapılan bir genelleme düşün: ‘Gençler sorumsuzdur.’ Bazı gençler için doğru olabilir. Sana uygulandığında ne hissedersin?” |
+| “Duruma göre.” | “Hangi durumda genelleme, hangisinde birey? Kuralını söyle.” |
+
+### dk 42–50 · Kapanış ikilemi: genelleme mi birey mi (hareketli)
+
+“Ayağa kalkıyoruz.
+**A duvarı:** Genellemeyi kullanır, kendimi korurum.
+**B duvarı:** Her kişiye sıfırdan bakarım.
+Hangisi daha adil?”
+
+Ters köşe soruları:
+- **A tarafına:** “‘Gençler sorumsuzdur’ diye sana hiçbir sorumluluk verilmezse adil mi?”
+- **B tarafına:** “Seni üç kez kandıran birine dördüncü kez sıfırdan mı bakarsın? Sıfırdan bakmak deneyimi yok saymak mı?”
+
+“Ortada duran var mı? Hangi durumda A, hangi durumda B dersin?” Bu günün ikilemi en güçlüsü olabilir. Gerekirse 2 dakika uzatın.
+
+### dk 50–55 · Kamp sorusuna dönüş
+
+“Dört gündür iyi bir hayatın parçalarını topluyoruz. Bugün ‘herkesin eşit olduğu bir dünya’ cevabını sınadık. Ne ekliyoruz?”
+
+Grubun varabileceği yerlere örnekler:
+- “İyi bir hayat tek başına kurulmaz. İçinde yaşadığımız düzen de hayatımızın parçası.”
+- “Adil olmak herkese aynı davranmak değil, herkese kendisi olarak bakmak olabilir.”
+
+Grubun cümlesi ve açık kalan soru 4. gün kartına yazılır.
+
+### dk 55–60 · Defter: 4. gün
+
+“Kamp sorusuna bugünkü cevabınız: değişti mi? Bugün kafanızı en çok karıştıran soru.”
+
+## Kapanış: gerilim ve köprü (3 dk)
+
+“Dört gündür iyi bir hayatın parçalarını topladık. Duvara bakın: gerçek, kendin olmak, iyilik, adalet. Ama bir soru açık: Bunların hepsine sahip bir hayat bile neden yaşamaya değer? Yarın son filmimizde bir adam hayalinin peşinde ölümün kıyısına kadar gidiyor.”
+
+**Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bu kural herkes için aynı, ama herkes için adil mi?’ dediğin bir an yakala.”
+
+## Tartışma tek cevapla kapanırsa (4. gün)
+
+| Durum | Hamle |
+|---|---|
+| Herkes B'de (sıfırdan bakarım) | “Gece tek başına eve dönerken karşıdan tanımadığın biri geliyor. Yine de sıfırdan mı bakarsın? Neden?” |
+| Herkes A'da (kendimi korurum) | “Biri seni sadece yaşına ya da okuluna bakarak yargıladı mı hiç? Ne hissettin?” |
+| Herkes “herkese aynı kural” diyor | “Görme engelli bir arkadaşın için sınavda aynı kâğıdı vermek adil mi?” |
+| Tartışma gerçek bir gruba yöneliyor | Engellemeyin ama kavram düzeyinde tutun: “Bu bir genelleme mi? Gerekçen ne? Bu gruptan kaç kişi tanıyorsun?” Bir grubu hedef alan söze izin vermeyin. |
+| Sessizlik | İkili konuşma (2 dk): “Yanındakine, kimin olacağını bilmediğin şehir için yazacağın tek kuralı anlat.” |
+
+## Hassas içerik
+
+- **Gerçek gruplar:** Öğrenciler hayvan benzetmesini gerçek gruplara (köken, din, göçmenler, cinsiyet) uygulayabilir. Engellemeyin ama kavram düzeyinde tutun. Belirli bir grubu hedef alan bir söze: “Bu bir genelleme mi? Gerekçen ne?” Ayrımcılığa uğradığını anlatan öğrenciye hassas paylaşım protokolünü uygulayın.
+- **Gruptan biri hedef alınırsa:** Hemen durdurun: “Burada kimseyi bir grubun üyesi olarak yargılamıyoruz. Bugünkü film bunun ne kadar acı verdiğini anlatıyor.”
+- **Çıplaklar kulübü sahnesi:** Mizahi ve ayrıntısız. Gerekirse ileri sarılabilir.
+- **Kovalama ve korku sahneleri:** 11 yaş için uygun.
+- **Enerji oyunu:** “Gruplan!” oyununda hassas kategoriler (din, köken, cinsiyet, beden) kullanmayın.
+
+## Moderatör için felsefe köşesi
+
+- **John Rawls, cehalet peçesi (1971):** Toplumun kurallarını, o toplumda kim olacağını bilmeden seçersek adil kurallar seçeriz. “Kimin olacağını bilmediğin şehir” deneyi bunun çocuk sürümüdür.
+
+Söylenebilecek tek cümle: “Bugünkü şehir deneyini yaklaşık 50 yıl önce John Rawls adında bir filozof önermiş: Adil kuralları, kim olacağımızı bilmeden seçeriz.”
 
 ---
 
-# 5. GÜN · Soul · Anlam (sentez günü)
+# 5. GÜN · Soul · Anlam (sentez ve varış)
 
-**Ana soru:** Hayatı yaşamaya değer kılan ne?
-**Kapanış:** İkilem yerine **Beş Kapı** etkinliği: Beş kahramanın seçiminden hangisi iyi bir hayat için en önemli?
-**Toplam süre:** yaklaşık **3 saat 42 dk** (222 dk). Kamp kapanışı dahil.
+**Künye:** *Soul*, Pete Docter ve Kemp Powers, 2020, yaklaşık 100 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt2948372/
 
-## Akış
+Tam modül: [moduller/gun5-soul.md](moduller/gun5-soul.md) · Toplam süre: yaklaşık **3 sa 42 dk** (222 dk)
+
+## Günün yolculuktaki yeri
+
+- **Dünden devralınan soru:** “Gerçek, kendin olmak, iyilik, adalet… Bunların hepsine sahip bir hayat bile neden yaşamaya değer?”
+- **Sınanan ilk cevap:** “İyi bir hayat, hayallerine ulaştığın hayattır.”
+- **Kavram:** Anlam ve amaç.
+- **Günün kavram sorusu:** Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?
+- **Kamp sorusuna bağlantı:** Bu gün kamp sorusunun kendisine döner. Beş günün parçaları Beş Kapı'da yan yana konur ve her çocuk Varış sayfasında kendi cevabını ve kendi büyük sorusunu yazar.
+- **Neden bu film:** Joe hayaline ulaşır ve boşluk hisseder. Hiçbir şeyden hoşlanmayan 22 ise sıradan şeylerde yaşamak için bir sebep bulur. “Hayallerine ulaşmak” cevabını sınamak için en temiz örnek.
+
+## Günün akışı
 
 | Saat | Süre | Bölüm |
 |---|---|---|
-| 00:00–00:05 | 5 dk | Hayattan Sorular paylaşımı |
-| 00:05–00:10 | 5 dk | Soru Duvarı yürüyüşü (hareketli) |
-| 00:10–00:12 | 2 dk | Hassas içerik notu |
-| 00:12–00:15 | 3 dk | Sözlü izleme görevi |
-| 00:15–02:07 | 100 + 12 dk | Film (iki durak) |
-| 02:07–02:17 | 10 dk | Ara (son 3 dakikası enerji oyunu) |
-| 02:17–03:17 | 60 dk | Sentez tartışması ve Beş Kapı |
-| 03:17–03:42 | 25 dk | Kamp kapanışı: Kartpostal, kamp sonu anketi, son çıkış kartı |
+| 00:00–00:04 | 4 dk | Dünkü gün kartı |
+| 00:04–00:08 | 4 dk | Hayattan sorular |
+| 00:08–00:12 | 4 dk | Yolculuk Duvarı yürüyüşü |
+| 00:12–00:13 | 1 dk | Hassas içerik notu |
+| 00:13–00:15 | 2 dk | İzleme görevi |
+| 00:15–02:07 | 100 + 12 dk | Film (2 konuşmalı durak, her biri 6 dk) |
+| 02:07–02:17 | 10 dk | Ara (son 3 dakikası enerji oyunu “Kıvılcım”) |
+| 02:17–03:17 | 60 dk | Tartışma |
+| 03:17–03:42 | 25 dk | Varış ve paylaşım çemberi |
 
-## 00:00 Hayattan Sorular (5 dk)
+İsteğe bağlı: Kısa film *La Luna* (yaklaşık 7 dk, ailesinin yolu yerine kendi yolunu bulan bir çocuk) Varış'tan sonra gösterilebilir.
 
-"Dünkü ipucu kurallar ve adaletti. Kim yakaladı?" *Kartları asın, panodaki toplam soruyu birlikte sayın.*
+## Açılış (15 dk)
 
-"Dört günde kamp hayatından … soru yakaladınız. Hiçbiri filmden değil."
+**Dünkü gün kartı (4 dk).** 4. gün kartı okunur. Moderatör: “Dört parçamız var: gerçek, kendin olmak, iyilik, adalet. Ama dün bir soru açık kaldı: Hepsi olsa bile hayatı yaşamaya değer kılan ne?”
 
-## 00:05 Soru Duvarı yürüyüşü (5 dk, hareketli)
+**Hayattan sorular (4 dk).** “Bu kural herkes için aynı, ama herkes için adil mi?” sorularından 2–3'ü okunur. Biri 4. gün kartına yazılır.
 
-"Herkes ayağa kalksın. Sessizce duvarın önünden geçin. Dört günde seçtiğiniz soruları ve Hayattan Sorular panosunu okuyun. Hâlâ aklınızda olan soruya bir kalp çizebilirsiniz."
+**Yolculuk Duvarı yürüyüşü (4 dk, hareketli).** “Herkes ayağa kalksın. Sessizce duvarın önünden geçin. Dört günün kartlarını okuyun: eklediğimiz parçalar, açık kalan sorular, hayattan sorular. Hâlâ aklınızda olan bir soruya küçük bir işaret koyun.”
 
-## 00:10 Hassas içerik notu (2 dk)
+**Hassas içerik notu (1 dk).** “Film, bir adamın bir kazayla ruhlar dünyasına düşmesiyle başlıyor. Mizahlı ve hayal ürünü anlatılmış. Ama yakın zamanda bir kayıp yaşayan için duygusal olabilir. Zorlanan bana işaret etsin.”
 
-"Bugünkü film, bir adamın bir kaza sonrası ruhlar dünyasına düşmesiyle başlıyor. Mizahlı ve hayal ürünü anlatılmış. Ama yakın zamanda bir kayıp yaşayan için duygusal olabilir. Zorlanan bana işaret etsin."
+**İzleme görevi (2 dk).**
+*Görev sözlü verilir, not kartı yok.*
 
-## 00:12 İzleme görevi (3 dk)
-
-"Son filmimiz. İzlerken şuna dikkat edin: **Bu film size önceki dört filmden hangi karakteri hatırlatıyor? Hangi anda?** Filmi iki kez durduracağım, finali kesintisiz izleyeceğiz."
+**“Joe'nun (caz piyanisti olmayı hayal eden ortaokul müzik öğretmeni) ‘iyi bir hayat’ cevabı film boyunca nasıl değişiyor? Önceki dört filmden bir an aklına gelirse onu da yaz.”**
 
 ## Film ve duraklar
 
-### Durak 1 (filmin ilk bölümü)
-
-**Sahne:** Joe ile 22 Dünya'ya düşer. 22'nin yanlışlıkla Joe'nun bedenine, Joe'nun da bir kedinin bedenine girdiği anlaşılır. Bu bölümün bittiği ilk sahne geçişinde durun.
+### Durak 1: 22'nin Joe'nun bedenine, Joe'nun bir kedinin bedenine girdiği anlaşılınca (ilk bölüm)
 
 **Süre:** 6 dk
 
-"Durduruyorum. **Şu an Joe'nun bedeninde 22 var. Etrafındakiler onu Joe sanacak. Bir insanı o insan yapan ne: bedeni mi, anıları mı, başka bir şey mi?**"
+“Şu an Joe'nun bedeninde 22 (Dünya'ya gitmek istemeyen, hiçbir şeyden hoşlanmayan bir ruh) var. Etrafındakiler onu Joe sanacak. Bir insanı o insan yapan ne: bedeni mi, anıları mı, başka bir şey mi?” (2. günle köprü)
 
-*3–4 cevap, tahtaya not. 2. günle köprü kurun:* "Riley'yi Riley yapan neydi, hatırlıyor musunuz?"
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-**Geçiş:** "Bakalım 22 bu bedende neler yaşayacak."
+### Durak 2: 22'nin havada süzülen akçaağaç tohumunu yakaladığı ve Dünya'da kalmak istediğini fark ettiği bölümden sonra (yaklaşık ortası)
 
-### Durak 2 (yaklaşık filmin ortası)
+**Süre:** 6 dk
 
-**Sahne:** 22, Joe'nun bedenindeyken havada süzülerek düşen akçaağaç tohumunu tutar ve Dünya'da kalmak istediğini fark eder. Bu bölümün bittiği ilk sahne geçişinde durun.
+“22 hiçbir şeyden hoşlanmıyordu. Şimdi bir tohum, bir dilim pizza, bir sohbet onu yaşamak istetiyor. Bir şeyi sevmek için önce onu yaşamak mı gerekir?” (Su molası)
 
-**Süre:** 6 dk (su ve tuvalet molası da burada)
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
 
-"Durduruyorum. **22 hiçbir şeyden hoşlanmıyordu. Şimdi birden yaşamak istiyor. Ne değişti?**"
+## Ara (10 dk)
 
-*3–4 cevap, tahtaya not.*
+*İlk 7 dakika serbest: su, atıştırmalık, hareket. Bu sırada sandalyeleri çember yapın.*
 
-**Geçiş:** "İki dakika su molası. Bundan sonra filmi sonuna kadar durdurmuyorum."
+**Enerji oyunu “Kıvılcım” (3 dk, hareketli):** “Çember olun. Yanımdakine el çırparak bir ‘kıvılcım’ gönderiyorum, o da yanındakine. … Daha hızlı! … Biri ‘Dön!’ derse yön değişiyor.” *Bitirirken:* “Filmde ruhlar Dünya'ya gitmek için bir kıvılcım (bir ruhun Dünya'ya gidebilmesi için bulması gereken şey) arıyordu. Bakalım kıvılcım neymiş.”
 
-## 02:07 Ara (10 dk)
+## Tartışma (60 dk)
 
-### Enerji oyunu: "Kıvılcım" (3 dk, hareketli)
+### dk 0–5 · İlk tepki
 
-"Çember olun. Yanımdakine el çırparak bir 'kıvılcım' gönderiyorum, o da yanındakine. … Daha hızlı! … Biri 'Dön!' derse yön değişiyor."
+“Film bana … hissettirdi.”
 
-*Bitirirken:* "Filmde ruhlar Dünya'ya gitmek için bir kıvılcım arıyordu. Bakalım kıvılcım neymiş. Oturalım."
+### dk 5–10 · Soruların altındaki soru
 
-## 02:17 Sentez tartışması (60 dk)
-
-| Dakika | Adım |
+| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
 |---|---|
-| 0–5 | İlk tepki turu |
-| 5–10 | Duraklara dönüş |
-| 10–37 | Sorgulama, filmler arası köprüler |
-| 37–52 | Beş Kapı (hareketli) |
-| 52–60 | Kampın son sözü |
+| “22 neden Dünya'ya gitmek istemedi?” | “Bir şeyi denemeden onu sevmeyeceğimizi bilebilir miyiz?” |
+| “Joe neden bedenine geri dönmek istedi?” | “Bir hayalin peşinde olmak ne zaman tutku, ne zaman saplantıdır?” |
+| “Kıvılcım (bir ruhun Dünya'ya gidebilmesi için bulması gereken şey) neydi?” | “Hayatın bir amacı olmak zorunda mı?” |
 
-*Bu gün "Kendi sorumuz" adımı yok. Onun yerine Beş Kapı var.*
+Moderatör: “Hepsinin altında kamp sorumuz var. Bugün ona en yakından bakıyoruz.” Tahtaya: **Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?**
 
-### dk 0–5 · İlk tepki turu
+### dk 10–35 · Soru merdiveni
 
-*Standart.*
+5. gün merdiveni üç basamaklıdır. Dördüncü basamak Beş Kapı'dır.
 
-### dk 5–10 · Duraklara dönüş
+**Basamak 1: Filmden kavrama (yaklaşık 8 dk)**
 
-"İkinci durakta 22'nin neden yaşamak istediğini sormuştum. Filmin sonunda Joe da bir şey fark etti. Joe'nun fark ettiği ile 22'nin fark ettiği aynı şey mi?"
+“Joe yirmi yıl hayalini kurduğu konsere çıktı, alkışlandı. Sonra kendini boşlukta hissetti. Bir hedefe ulaşmak neden bazen mutlu etmez?”
 
-### dk 10–37 · Sorgulama
-
-"Bugünün sorusu: **Hayatın bir amacı olmak zorunda mı?**"
-
-*İç içe sorular ve köprüler:*
-- "Joe en büyük hayaline ulaştı ve boşluk hissetti. Bir hedefe ulaşmak neden bazen mutlu etmez?"
-- "Dorothea'nın balık hikâyesini hatırlayın. Senin 'su' sandığın 'okyanus' ne olabilir?"
-- "Tutku ile saplantı arasındaki sınır nerede?"
-- "Joe'nun hayali ile Truman'ın kaçışı arasında bir fark var mı?" *(1. günle köprü)*
-
-*Eğer'leme:* "Peki ya Joe konserde hiç çalamasaydı? Hayatı daha mı az anlamlı olurdu?"
-
-*Bu günün amacı yeni bir konu açmak değil, beş günü birbirine bağlamak. Soul'un kendi tartışmasını kısa tutun.*
-
-### dk 37–52 · Beş Kapı (hareketli)
-
-*Odanın beş köşesine birer film adı ve kahramanın seçimi asılmış olsun:*
-
-| Kapı | Kahramanın seçimi |
+| Öğrenci şunu derse | Sen şunu sor |
 |---|---|
-| Truman | Güvenli sahtelik yerine bilinmeyen gerçeği seçti. |
-| Riley | Mükemmel bir "ben" yerine iyisi ve kötüsüyle karmaşık bir "ben"i kabul etti. |
-| Auggie (ya da Jack) | Saklanmak yerine görünmeyi seçti. (Jack: haklı çıkmak yerine özür dilemeyi seçti.) |
-| Judy | Haklı olduğunu savunmak yerine yanıldığını kabul etti. |
-| Joe | Büyük hayalinin yanında sıradan anların değerini gördü. |
+| “Çünkü hedef bitti.” | “O zaman hiç bitmeyecek hedefler mi seçmeliyiz? Asla ulaşamayacağın bir hedefin anlamı ne?” (Sonuç takibi) |
+| “Yanlış hedefti.” | “Doğru hedefi nasıl anlarız? Joe yirmi yıl o hedefi istedi. Sen bir hedefin doğru olduğunu nasıl bilirsin?” (1. günle köprü) |
+| “Asıl önemli olan yolculuktu.” | “O zaman hedeflere gerek yok mu? Hedefi olmayan bir yolculuk nasıl bir şey olurdu?” |
+| “Sadece yorgundu.” | “Peki 22 neden hiçbir hedefi olmadan bir pizza dilimiyle mutlu olabildi?” |
 
-"Herkes ayağa. Odanın beş köşesinde beş kapı var. Her kapıda beş günün bir kahramanı ve onun yaptığı seçim yazıyor. Son büyük soru: **Bu beş seçimden hangisi, iyi bir hayat için en önemlisi?** Bir kapı seçin ve önüne gidin."
+**Basamak 2: Düşünce deneyi, iki hayat (yaklaşık 9 dk)**
 
-*Herkes yerleşince:* "Her kapı iki dakika içinde gerekçesini toplasın ve bir sözcü seçsin."
+“İki hayat düşün. Birincisinde büyük bir hayalin var ve sonunda ona ulaşıyorsun, ama yol boyunca hiçbir günün tadını çıkarmıyorsun. İkincisinde hiçbir büyük hayalin yok, ama her gün küçük şeylerden keyif alıyorsun: bir dilim pizza, bir sohbet, havada süzülen bir tohum. Hangisi daha iyi bir hayat?”
 
-*Sözcüler konuşur. Sonra:* "Başka bir kapıya geçmek isteyen var mı? Seni ne ikna etti?"
-
-*Bitirirken:* "Beş farklı film, beş farklı soru izledik. Ama sonunda hepsi aynı büyük soruya çıktı: İyi bir hayat nedir? İşte felsefe bu."
-
-*Kapıların fotoğrafını çekin (öğrenci yüzleri olmadan) ve seçimleri sayın. Rapor için gerekli.*
-
-### dk 52–60 · Kampın son sözü
-
-"Çembere dönelim. Herkes şu cümleyi tamamlasın: **'Kampa … sorusuyla geldim, … sorusuyla gidiyorum.'** Pas serbest."
-
-## 03:17 Kamp kapanışı (25 dk)
-
-### Kartpostal (10 dk)
-
-*Yöntem ve etik not: [olcme-degerlendirme.md](olcme-degerlendirme.md), Araç 5.*
-
-"Size birer kartpostal dağıtıyorum. Bu kampa gelmemiş bir arkadaşınıza yazıyorsunuz. Kartpostalda dört soru var, istediklerinizi cevaplayın. Doğru cevap yok, bize iyi şeyler söylemek zorunda değilsiniz. Gerçekten ne düşünüyorsanız onu yazın."
-
-"Kartın altında bir kutu var. Yazdıklarınızdan bir cümleyi atölyeyi tanıtırken kullanmak isteyebiliriz. İzin verip vermediğinizi, verirseniz adınızın yazılıp yazılmayacağını siz seçiyorsunuz. Hiçbir şey işaretlemezseniz kullanmayız."
-
-### Kamp sonu anketi (10 dk)
-
-"Kampın ilk dakikasında doldurduğunuz anketin aynısı. Yine aynı kodu yazın. Sonunda birkaç yeni soru var. Bugün ne düşünüyorsanız onu işaretleyin."
-
-### Son çıkış kartı ve veda (5 dk)
-
-"Son çıkış kartınız. … Beş gün boyunca birlikte düşündünüz, birbirinizi dinlediniz, fikir değiştirdiniz. Felsefe filozofların kitaplarında değil, sizin sorularınızda. Bu sorular kampla bitmiyor. Teşekkür ederim."
-
-## Şu olursa ne yaparım? (5. gün)
-
-| Durum | Ne yaparım |
+| Öğrenci şunu derse | Sen şunu sor |
 |---|---|
-| **Durak uzarsa** | 1. durak (beden ve kimlik) 2. günün tartışmasını yeniden açabilir. "Bunu 2. gün de konuşmuştuk, şimdi Soul ne diyecek bakalım" deyip devam edin. |
-| **Tartışma tıkanırsa** | Soru Duvarı'na dönün: "Duvardaki dört sorudan hangisine Soul bir cevap veriyor?" |
-| **Bir öğrenci domine ederse** | "Son gün, kampta en az konuşan sesleri duymak istiyorum." Beş Kapı'da aynı kişi iki kez sözcü olmasın. |
-| **Grup sıkılırsa / dağılırsa** | Son gün yorgunluğu beklenir. Sorgulamayı 15 dakikaya indirip Beş Kapı'ya erken geçin. |
-| **Hassas paylaşım gelirse** | Ölüm ve yas gelebilir. Protokolü uygulayın. "Hayatın değeri" sorusu bir öğrencide kendi hayatına dair karanlık bir düşünce çağırırsa bunu ciddiye alın ve aynı gün yetkiliye bildirin. |
-| **Bir kapıda tek kişi kalırsa** | "Tek başına bir seçimi savunmak cesaret ister. Gerekçeni duymak istiyoruz." Boş kapı için: "Bu kapıyı kimse seçmedi. Neden olabilir?" |
+| “Birincisi, başarı kalıcıdır.” | “Joe başardı ve boşluk hissetti. Başarının kalıcı olması onu mutlu etti mi?” |
+| “İkincisi, an önemlidir.” | “Kimse büyük hayaller kurmasaydı ilaçlar, şarkılar, köprüler olur muydu? Senin keyif aldığın şeylerin çoğunu birilerinin büyük hayalleri yapmadı mı?” |
+| “İkisi birden.” | “Güzel, ama çatıştıklarında? Sınavdan önceki akşam arkadaşınla oyun mu, ders mi? Neyi seçersin, neden?” (İki ilkenin çatışması) |
+| “İkisi de değil.” | “O zaman üçüncü bir hayat anlat. İçinde ne olurdu?” |
+
+**Basamak 3: Kavram, okyanus ve su (yaklaşık 8 dk)**
+
+“Dorothea (Joe'nun hayalindeki grubu yöneten caz saksafoncusu) Joe'ya bir hikâye anlattı: Genç bir balık okyanusu arıyor. Yaşlı balık ‘Zaten içindesin’ diyor. Genç balık ‘Bu mu? Bu sadece su’ diyor. Senin ‘su’ sandığın ‘okyanus’ ne olabilir?”
+
+| Öğrenci şunu derse | Sen şunu sor |
+|---|---|
+| Somut bir örnek (ailem, arkadaşlarım, sağlığım) | “Neden onu fark etmiyoruz? Okyanusu görmek için ondan ayrılmak mı gerekir?” |
+| “Bu kamp.” | “Kamp bittiğinde okyanus da biter mi, yoksa sen onu yanında mı götürürsün?” |
+| “Hiçbir şey, her şey sıradan.” | “22 de öyle düşünüyordu. Ne değişti? Sıradan bir şeyi değerli yapan ne?” |
+| “Anlamadım.” | “Truman (1. gün filminin, hayatı habersizce yayınlanan kahramanı) hep bir dünyanın içindeydi ama onu göremiyordu. Sen hangi dünyanın içinde olup onu göremiyor olabilirsin?” |
+
+### dk 35–45 · Beş Kapı (hareketli)
+
+Odanın beş köşesine, Yolculuk Duvarı'ndaki beş günün “Bugün eklediğimiz parça” cümleleri asılır. Her köşede grubun **kendi sözleri** yazar. Moderatörün sözleri değil. Örnek köşeler:
+- 1. gün: gerçek
+- 2. gün: kendin olmak
+- 3. gün: iyilik
+- 4. gün: adalet
+- 5. gün: yaşamanın kendisi
+
+“Herkes ayağa. Beş köşede beş günün parçası var. Son büyük soru: **İyi bir hayat için hangisi olmazsa olmaz?** Bir köşe seçin ve önüne gidin.”
+
+Herkes yerleşince: “Her köşe iki dakika içinde gerekçesini toplasın ve bir sözcü seçsin. Aynı kişi iki kez sözcü olmasın.”
+
+Sözcülerden sonra her köşeye bir ters köşe sorusu:
+- **Gerçek köşesine:** “Gerçek ama kimsenin seni sevmediği bir hayat iyi mi?”
+- **Kendin olmak köşesine:** “Kendin ama yalnız bir hayat iyi mi?”
+- **İyilik köşesine:** “İyi ama yalan içinde bir hayat iyi mi?”
+- **Adalet köşesine:** “Adil ama hiç sevinç olmayan bir hayat iyi mi?”
+- **Yaşamanın kendisi köşesine:** “Keyifli ama başkalarının haksızlığa uğradığı bir dünyada iyi mi?”
+
+“Başka bir köşeye geçmek isteyen var mı? Seni ne ikna etti?” Bitirirken: “Beş film, beş soru. Ama hepsi aynı büyük soruya çıktı. Ve görüyorsunuz, tek bir köşe yetmiyor. Parçalar birbirine ihtiyaç duyuyor.”
+
+### dk 45–60 · Kampın son tartışması: parçalar çatışırsa
+
+“Son 15 dakika. Bu parçalar bazen çatışıyor. Truman gerçeği seçince mutluluğu riske attı. Jack iyi olmak için grubunu kaybetti. Judy (4. gün filminin tavşan polisi) haksızlığa yol açtığını anlayınca rozetini bıraktı. İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek bulabilir misin?”
+
+Bu bölümde moderatör yalnızca soru sorar ve tahtaya yazar. Amaç Varış'tan önce çocuğun kendi hayatından bir çatışmayı adlandırmasıdır. “Çünkü” istemeye devam edin.
+
+## Varış (25 dk)
+
+Ayrıntı: [../kamp-omurgasi.md](../kamp-omurgasi.md), 4. bölüm. Basılı defterin 4. sayfası.
+
+| Süre | Adım | Moderatörün söyleyeceği |
+|---|---|---|
+| 3 dk | **Yan yana koyma** | “Defterinizin ilk sayfasını açın. İlk gün ne yazmıştınız? Sesli okumak yok, sadece kendinize okuyun.” |
+| 4 dk | **Şimdiki cevabım** | “Şimdi aynı soruya bugünkü cevabınız: ‘Bence iyi bir hayat … çünkü …’” |
+| 4 dk | **Ne değişti, neden?** | “Ne değişti, neden? Hiçbir şey değişmediyse neden değişmediğini yazın. Bu da iyi bir cevap.” |
+| 5 dk | **Benim büyük sorum** | “Defterinizdeki ‘kafamı karıştıran sorulara’ bakın. Birini seçin ya da yenisini yazın. Bu sizin büyük sorunuz. Altına ‘Şimdilik cevabım … çünkü …’ yazın.” |
+| 3 dk | **Hayatımda nerede?** | “Bu soru günlük hayatınızda nerede karşınıza çıkıyor? Bir yer, bir an, bir kişi.” Ardından beş ifade ve “Kamp genel olarak” satırı, sonra izin kutusu. |
+| 6 dk | **Paylaşım çemberi** | “Herkes büyük sorusunu tek cümleyle söylesin. Pas serbest. İsteyen şimdilik cevabını da okusun.” |
+
+**Kampın son sözü:** “Beş gün boyunca birlikte düşündünüz, birbirinizi dinlediniz, bazen fikir değiştirdiniz, bazen değiştirmeden nedenini söylediniz. Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.”
+
+Defterler toplanır. İsteyen çocuğa defterinin bir kopyası verilir.
+
+## Tartışma tek cevapla kapanırsa (5. gün)
+
+| Durum | Hamle |
+|---|---|
+| Herkes “an önemli, hedef gereksiz” diyor | “Hiç hedefi olmayan biri sabah neden kalkar? Senin şu anki en büyük hedefin ne ve ondan vazgeçer misin?” |
+| Herkes “hayaline ulaş” diyor | “Joe ulaştı ve boşluk hissetti. Ulaştığında boşluk hissetmeyeceğini nereden biliyorsun?” |
+| Beş Kapı'da herkes tek köşede | O köşenin ters köşe sorusunu sorun, sonra: “Bu köşeyi kimse seçmedi. Neden olabilir? Biri bu köşeyi savunsa ne derdi?” |
+| Son gün yorgunluğu | Merdiveni 2 basamakla bitirip Beş Kapı'ya erken geçin. Hareketli kısım enerjiyi geri getirir. |
+| Sessizlik | İkili konuşma (2 dk): “Yanındakine, ‘su’ sandığın ama aslında ‘okyanus’ olan bir şeyi anlat.” |
+
+## Hassas içerik
+
+- **Açılıştaki kaza:** Joe bir rögar kapağından düşer ve ruhu bedeninden ayrılır. Mizahi ve soyut işlenmiş, atlanamaz.
+- **“Öte” sahneleri:** Ruhların ışığa doğru giden bir yolda ilerlediği sahneler yası tetikleyebilir. Yakın zamanda yas yaşayan öğrenciye önceden birebir söyleyin.
+- **Kayıp ruhlar:** Bir saplantıya kapılıp yolunu kaybetmiş insanların ruhları karanlık, ürkütücü yaratıklar olarak gösterilir. Hafif.
+- **“Hayatı yaşamaya değer kılan ne?” sorusu:** Bu soru bir öğrencide kendi hayatına dair karanlık bir düşünce çağırabilir. Bunu ciddiye alın, hassas paylaşım protokolünü uygulayın ve aynı gün kamp yetkilisine bildirin.
+
+## Moderatör için felsefe köşesi
+
+- **Aristoteles, eudaimonia:** İyi bir hayat bir anlık duygu değil, bütün bir hayat boyunca iyi yaşamaktır.
+- **Jean-Paul Sartre:** İnsan önce var olur, amacını sonra kendisi yaratır.
+- **Stoacılar:** Elimizde olan tek şey şimdiki andır.
+
+Söylenebilecek tek cümle: “Bugün sorduğunuz soruyu 2.300 yıl önce Aristoteles de sormuş: İyi bir hayat nedir? Onun cevabı da sizinkiler gibi tek bir parça değildi.”
 
 ---
 
@@ -841,19 +1079,19 @@ Hangisi daha adil?"
 
 *Bu not iki senaryo dosyasında da aynıdır.*
 
-**Temel fark:** B'de soruları **kolaylaştırıcı** sorar. Film 2–3 kez durur, her durakta 5–7 dakika kısa bir sohbet olur, film sonrası tartışma kolaylaştırıcının hazırladığı görev sorusuyla yürür. C'de soruları **öğrenciler** üretir. Film en fazla bir kez kısa süre durur, durakta konuşulmaz, yazılır. Tartışma öğrencilerin kartlarından çıkan soruyla yürür.
+**Temel fark:** İki modelde de film sonrası tartışma aynıdır: soruların altındaki soru, soru merdiveni, ikilem, kamp sorusuna dönüş ve defter. Fark film sırasındadır.
+- **B'de** film 2–3 kez durur. Her durakta siz bir soru sorarsınız ve kısa bir sohbet olur.
+- **C'de** öğrencinin elinde bir not kartı vardır. Film en fazla bir kez durur, durakta konuşulmaz, yazılır. Tartışma öğrencilerin kendi kart sorularından başlar.
 
 | Durum | Seçim |
 |---|---|
-| Grup P4C'yi ilk kez deneyecek, siz de kolaylaştırıcılıkta yenisiniz | **B** ile başlayın. Akış daha öngörülebilir, ne konuşulacağını siz belirlersiniz. |
+| Grup P4C'yi ilk kez deneyecek, siz de kolaylaştırıcılıkta yenisiniz | **B** ile başlayın. Duraklarda grubu tanırsınız. |
 | Grupta 11–12 yaş ağırlıkta, dikkat süresi kısa | **B**. Sık duraklar dikkati tazeler. |
-| Amaç öğrencilerin kendi sorularını sormayı öğrenmesi (ölçme dosyasındaki (b) ve (c) hedefleri) | **C**. Soru üretme becerisi ancak öğrenci soru ürettiğinde gelişir. |
-| Grup lise ağırlıklı | **C**. Liseliler sık durdurulmayı "okul dersi" gibi bulur. |
+| Amaç öğrencilerin kendi sorularını sormayı öğrenmesi | **C**. Soru sorma becerisi ancak öğrenci soru yazdığında gelişir. |
+| Grup lise ağırlıklı | **C**. Liseliler sık durdurulmayı “okul dersi” gibi bulur. |
 | Film duygusal ya da gerilimli (Ters Yüz 2, Soul) | **C**. Duraklar filmin etkisini bozar. |
-| Filmin doğal bölümleri var (Truman Show, 12 Kızgın Adam) | İkisi de uyar. B burada en az zararla uygulanır. |
-| Gün uzun, zaman dar | **C**. B güne 10–15 dk daha ekler. |
-| Kampın amacı atölyeyi tanıtmak için öğrenci sözü toplamak | **C**. Öğrencinin kendi sözü kartlarda ve sorularda zaten birikir. |
+| Gün uzun, zaman dar | **C**. B güne 7–13 dk ekler. |
 
-**Karma yol:** İlk iki günü B ile, son üç günü C ile yapabilirsiniz. Böylece grup önce kolaylaştırıcının nasıl soru sorduğunu görür, sonra kendi soruları devralır. Ana sorular ve kapanış ikilemleri iki senaryoda aynı olduğu için geçiş kolaydır. Tek dikkat edilecek şey: C'ye geçtiğiniz gün not kartı ve izleme görevi yöntemini 3 dakikayla tanıtın.
+**Karma yol:** İlk iki günü B ile, son üç günü C ile yapabilirsiniz. Geçiş günü not kartını ve izleme görevini 3 dakikayla tanıtın.
 
-**Önerim:** Ölçme hedefleriniz (özellikle "felsefenin hayatın her yerinde olduğunu fark etmek") öğrencinin kendi sorusunu üretmesine dayandığı için **C**. B'yi, kolaylaştırıcı yeniyse ya da grup çok küçük yaş ağırlıklıysa seçin.
+**Önerim:** **C**, çünkü kampın B noktası (“sıradan şeylerin altında da soru var”) çocuğun kendi sorusunu yazmasına dayanıyor. B'yi, kolaylaştırıcı yeniyse ya da grup çok küçük yaş ağırlıklıysa seçin.

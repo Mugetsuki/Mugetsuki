@@ -1,462 +1,287 @@
-# Ölçme ve Değerlendirme
+# Ölçme ve değerlendirme
 
 Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş
-Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-12
-İlgili dosyalar: [film-onerileri.md](film-onerileri.md) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) · [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md) · [moderator-kagidi.md](moderator-kagidi.md)
+Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-12 · Defter temelli sürüm: 2026-11-14
+İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md)** · [moduller/](moduller/) · [moderator-kagidi.md](moderator-kagidi.md) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) · [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md)
 
 ---
 
 ## Neyi doğrulamak istiyoruz?
 
-Kamp sonunda üç şeyi doğrulamak istiyoruz:
+Genel Müdür kamp sonunda üç şeyi doğrulamak istiyor:
 
 - **(a) Sevdiler ve sıkılmadılar.**
 - **(b) Bir şeyler öğrendiler ve bunu kendi sözleriyle anlatabiliyorlar.**
-- **(c) Felsefenin hayatın her alanında olduğunu fark ettiler ve kamptan bu bilinçle ayrıldılar.** En önemli hedef bu.
+- **(c) Felsefenin hayatın her alanında olduğunu fark ettiler ve kamptan bu bilinçle ayrıldılar.**
 
-Bu dosyada altı araç var. Hepsi kısa ve çocuklara uygun, toplamda kampa günde 2–7 dakika ekliyor. Formların yazdırılacak hali her aracın içinde.
+Bu üç hedef, omurgadaki **A noktasından B noktasına** yolculuğun ölçülebilir hâlidir (bkz. [kamp-omurgasi.md](kamp-omurgasi.md), 2. bölüm).
 
-### Hangi araç hangi hedefe kanıt veriyor?
+## Üç araç
 
-| Araç | Ne zaman | Süre | (a) Sevdi | (b) Öğrendi | (c) Her yerde |
+Eski sürümde yedi ayrı form vardı: iki anket, çıkış kartı, Felsefe Her Yerde kartı, kartpostal, gözlem formu ve veli onayı. Genel Müdür'ün “karmaşık” eleştirisi üzerine üçe indi. Eski formlar görsel kitten de kaldırıldı.
+
+| Araç | Kim kullanır | Ne zaman | (a) Sevdi | (b) Öğrendi | (c) Her yerde |
 |---|---|---|---|---|---|
-| 1. Kamp başı ve kamp sonu anketi | 1. gün başı, 5. gün sonu | 5 dk + 10 dk | ● | ● | ● |
-| 2. Günlük çıkış kartı | Her gün sonu | 2 dk | ● | ● | ● |
-| 3. Felsefe Her Yerde görevi | Her gün, ertesi sabah paylaşım | 5–7 dk | | | ●● (ana kanıt) |
-| 4. Moderatör gözlem rubriği | Her tartışmada | Ek süre yok | ● | ●● | ● |
-| 5. Kartpostal (katılımcı görüşleri) | 5. gün sonu | 10 dk | ● | ● | ● |
-| 6. Rapor şablonu | Kamp sonrası | | Hepsini birleştirir | | |
+| **1. Düşünce Yolculuğum defteri** | Her çocuk | 1. gün başı, her gün sonu (5 dk), 5. gün sonu | ● | ●● | ●● |
+| **2. Gözlem formu ve rubrik** | Moderatör ya da gözlemci | Her tartışmada | ● | ●● | ● |
+| **3. Veli onay formu** | Veli | Kamptan önce | | | |
+
+Defter dört eski formun yerini aldı. **Ön ve son ölçüm aynı defterde** (Başlangıç ve Varış sayfaları). Bu yüzden kod ya da eşleştirme gerekmiyor.
+
+### Kamp adı
+
+Defterin kapağına çocuğun **kamp adı** yazılır (“Bulut”, “Koşan” gibi). Adlar farklı uzunlukta olduğu için kutu yok, tek bir uzun satır var. Kamp adının tek görevi defteri her sabah sahibine geri vermektir.
+
+**Dikkat:** Kamp adı tam bir gizlilik sağlamaz, kamp personeli kimin hangi adı taşıdığını bilir. Bu yüzden:
+- Raporda ve tanıtım materyallerinde kamp adı da kullanılmaz.
+- Alıntılar yalnızca Varış sayfasındaki izin kutusuna göre kullanılır.
 
 ### Uygulama takvimi
 
-| Gün | Ne yapılır |
+| Ne zaman | Ne yapılır |
 |---|---|
-| Kamptan önce | Veli onay formu toplanır (Araç 5'in etik notu). Kodlama yönergesi ve formlar basılır. |
-| 1. gün | Başta kamp başı anketi. Sonda çıkış kartı. Felsefe Her Yerde görevi verilir. |
-| 2–4. gün | Açılışta Hayattan Sorular paylaşımı. Sonda çıkış kartı. Moderatör kağıdındaki gözlem alanı her gün doldurulur. |
-| 5. gün | Açılışta Hayattan Sorular. Sonda kartpostal, kamp sonu anketi, son çıkış kartı. |
-| Kamp sonrası (1 hafta içinde) | Veriler girilir, açık uçlu cevaplar kodlanır, rapor şablonu doldurulur. |
-
-### Anonim eşleştirme kodu
-
-Anketlerde ve çıkış kartlarında ad yazılmaz. Ama kamp başı ve kamp sonu cevaplarını aynı kişi için karşılaştırabilmek için her öğrenci kendi kodunu üretir. Kod her formda aynıdır.
-
-**Kod yönergesi (formların en üstünde yazacak):**
-
-> Kodunu şöyle oluştur:
-> 1. Annenin ya da seni büyüten kişinin adının **ilk iki harfi**
-> 2. Doğduğun **günün** rakamı (iki hane: 05, 23 gibi)
-> 3. Oturduğun sokağın ya da mahallenin adının **ilk harfi**
->
-> Örnek: Annesi Zeynep, 7 Mart doğumlu, Çınar Sokak → **ZE07Ç**
-
-*Kolaylaştırıcı için:* Kodu hatırlamayan olursa aynı yönergeyle yeniden üretir. Kodlar kimseyle paylaşılmaz. Kod ile kimlik arasında bir liste tutulmaz.
+| Kamptan önce | Veli onay formu toplanır. Defterler (öğrenci başına 2 yaprak, çift yüz, zımbalı) ve gözlem formları basılır. |
+| 1. gün, filmden önce | Başlangıç sayfası (12 dk) |
+| Her gün, tartışmanın son 5 dakikası | Defterin o güne ait bloğu |
+| Her akşam | Moderatör defterleri toplar ve 10 dakikada okur. Ertesi sabah için 2–3 “hayattan soru” seçer. Gözlem formunu tamamlar. |
+| 5. gün sonu | Varış sayfası (15 dk) ve paylaşım çemberi |
+| Kamp sonrası, 1 hafta içinde | Veriler girilir, açık uçlu cevaplar kodlanır, rapor şablonu doldurulur. |
 
 ---
 
-## Araç 1: Kamp Başı ve Kamp Sonu Anketi
+## Araç 1: Düşünce Yolculuğum defteri
 
-**Amaç:** Aynı soruları kampın ilk ve son dakikasında sorarak değişimi görmek.
-**Süre:** Kamp başı 5 dk. Kamp sonu 10 dk (ek bölüm var).
-**Uygulama:** Sınav havası vermeyin. "Doğru cevap yok, adınızı yazmıyorsunuz" deyin. Okumakta zorlanan küçüklere maddeleri sesli okuyun.
+Dört sayfa: Başlangıç, 1–3. günler, 4–5. günler, Varış. Basılı hâli: `gorseller/pdf/defter-dusunce-yolculugum.pdf`.
 
-### FORM: Kamp Başı / Kamp Sonu Anketi
+### FORM: 1. sayfa · Başlangıç
 
-> **KAESU FİLM ATÖLYESİ · ANKET**
-> ☐ Kamp başı ☐ Kamp sonu
-> Kodum: ☐☐☐☐☐ Yaşım: ____ ☐ Ortaokul ☐ Lise
+> **Düşünce Yolculuğum**
+> Kamp adım: ______________________________ Yaşım: ____ ☐ Ortaokul ☐ Lise
 >
-> Bu bir sınav değil. Doğru ya da yanlış cevap yok. Her cümle için sana en uygun kutuyu işaretle.
+> **Kamp sorusu: İyi bir hayat nedir?**
+> Daha hiçbir film izlemeden, şu an ne düşünüyorsun? Doğru cevap yok.
 >
-> **BÖLÜM A**
+> Bence iyi bir hayat ______________________________________
+> çünkü ______________________________________
 >
-> | | Hiç katılmıyorum | Katılmıyorum | Kararsızım | Katılıyorum | Tamamen katılıyorum |
+> **Bu cümlelere ne kadar katılıyorsun?** (1 = hiç katılmıyorum · 5 = tamamen katılıyorum)
+>
+> | | 1 | 2 | 3 | 4 | 5 |
 > |---|---|---|---|---|---|
-> | 1. Cevabı kesin olmayan zor sorular üzerine düşünmekten hoşlanırım. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 2. Felsefe yalnızca filozofların ve çok bilgili insanların işidir. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 3. Günlük hayatımda "neden?", "doğru mu?" gibi sorular sorarım. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 4. Bir film izlerken aklıma filmin dışında da önemli olan sorular gelir. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 5. Bir fikrimi söylerken nedenini de açıklarım. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 6. Biri benden farklı düşündüğünde onu sonuna kadar dinlerim. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 7. İyi bir gerekçe duyarsam fikrimi değiştirebilirim. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 8. Arkadaşlık, kurallar ve adalet gibi konular felsefenin konusudur. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 9. Bir grubun önünde fikrimi söylemekte rahatım. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 10. Felsefe sıkıcıdır. | ☐ | ☐ | ☐ | ☐ | ☐ |
+> | A. Zor soruların tek bir doğru cevabı vardır. | ☐ | ☐ | ☐ | ☐ | ☐ |
+> | B. Fikrimi söylerken nedenini de söylerim. | ☐ | ☐ | ☐ | ☐ | ☐ |
+> | C. İyi bir gerekçe duyarsam fikrimi değiştiririm. | ☐ | ☐ | ☐ | ☐ | ☐ |
+> | D. Felsefe filozofların ve büyüklerin işidir. | ☐ | ☐ | ☐ | ☐ | ☐ |
+> | E. Yemek, oyun, kurallar gibi sıradan şeylerin altında da büyük sorular vardır. | ☐ | ☐ | ☐ | ☐ | ☐ |
 >
-> **BÖLÜM B** (Kısa yazman yeterli. Bilmiyorsan "bilmiyorum" yazabilirsin.)
->
-> 11. Felsefe nedir? Kendi sözlerinle anlat.
-> ______________________________________________
->
-> 12. Günlük hayatında felsefe nerede karşına çıkar? Bir örnek yaz.
-> ______________________________________________
->
-> ---
-> **BÖLÜM C** (Yalnızca kamp sonunda)
->
-> | | Hiç katılmıyorum | Katılmıyorum | Kararsızım | Katılıyorum | Tamamen katılıyorum |
-> |---|---|---|---|---|---|
-> | 13. Bu atölyeyi sevdim. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 14. Atölyelerde sık sık sıkıldım. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 15. Bu atölyeyi bir arkadaşıma önerirdim. | ☐ | ☐ | ☐ | ☐ | ☐ |
-> | 16. Tartışmalarda fikrimin önemsendiğini hissettim. | ☐ | ☐ | ☐ | ☐ | ☐ |
->
-> 17. Bu kampta öğrendiğim ya da fark ettiğim en önemli şey:
-> ______________________________________________
->
-> 18. En çok hangi bölümü sevdin? (Birden fazla işaretleyebilirsin)
-> ☐ Film ☐ Duraklar ☐ Soru yazmak ☐ Tartışma ☐ Duvara yürüme / köşe seçme ☐ Oyunlar ☐ Hayattan Sorular
->
-> 19. Bir şeyi değiştirebilseydin neyi değiştirirdin?
-> ______________________________________________
+> **Günlük hayatımda felsefe** ______________________________ **karşıma çıkar.** (Bilmiyorsan “bilmiyorum” yaz.)
 
-### Puanlama notları (kolaylaştırıcı için, formda yazmaz)
+### FORM: 2. ve 3. sayfa · Günlük bloklar (2. sayfada 1–3. gün, 3. sayfada 4–5. gün)
 
-- Likert: Hiç katılmıyorum = 1 … Tamamen katılıyorum = 5.
-- **Ters maddeler:** 2, 10 ve 14. Ortalama alırken ters çevirin (1↔5, 2↔4). Raporda ters çevrilmiş halini yazın ve bunu belirtin.
-- **Madde grupları:**
-  - (a) Sevme: 1, 10 (ters), 13, 14 (ters), 15, 16
-  - (b) Düşünme becerisi: 5, 6, 7, 9
-  - (c) Felsefe her yerde: 2 (ters), 3, 4, 8
-- Madde 11 ve 12, aşağıdaki kodlama anahtarıyla 0–3 arası puanlanır. Madde 17 de kodlanır.
+> **N. gün · [film adı]**
+>
+> **Kamp sorusuna bugünkü cevabım:** İyi bir hayat ______________________________ çünkü ______________________________
+> (Değişmediyse: “Değişmedi, çünkü …”)
+>
+> **Bugün kafamı en çok karıştıran soru:** ______________________________
+>
+> **Hayattan bir soru** (kampta yakaladığım): ______________________________
+>
+> **Bugün atölye:** 1 ○ 2 ○ 3 ○ 4 ○ 5 ○ (1 = hiç sevmedim · 5 = çok sevdim)
 
-### Kodlama anahtarı: Madde 11 "Felsefe nedir?"
+### FORM: 4. sayfa · Varış
 
-| Puan | Tanım | Örnek cevap |
+> **Varış** · Önce 1. sayfayı aç ve ilk gün ne yazdığını oku. Sesli okumak yok.
+>
+> 1. **Şimdi:** Bence iyi bir hayat ______________________________ çünkü ______________________________
+> 2. **Ne değişti, neden?** (Değişmediyse neden değişmediğini yaz.) ______________________________
+> 3. **Benim büyük sorum:** (Defterindeki “kafamı karıştıran sorular”dan birini seçebilirsin.) ______________________________
+>    **Şimdilik cevabım:** ______________________________ çünkü ______________________________
+> 4. **Bu soru hayatımda nerede karşıma çıkıyor?** (Bir yer, bir an, bir kişi) ______________________________
+> 5. Aynı beş cümle (A–E) ve “Günlük hayatımda felsefe … karşıma çıkar.”
+> 6. **Kamp genel olarak:** 1 ○ 2 ○ 3 ○ 4 ○ 5 ○ · **Değişmesini istediğim bir şey:** ______________________________
+> 7. **Yazdıklarım kullanılabilir mi?** (Birini işaretle. Hiçbirini işaretlemezsen kullanılmaz.)
+>    ☐ Hiçbir yerde kullanılmasın. ☐ Adım olmadan kullanılabilir. ☐ Adım ve yaşımla kullanılabilir. Adım: ________
+
+### Puanlama ve kodlama
+
+**Beş cümle (A–E):**
+- 1–5 puanlanır. **A** ve **D** ters maddelerdir: ortalama alırken çevirin (1↔5, 2↔4).
+- A, B ve C maddeleri (b) hedefine, D ve E maddeleri (c) hedefine bakar.
+
+**Kodlama anahtarı 1: Kamp sorusuna cevap (Başlangıç, günlük bloklar, Varış).** (b) hedefinin ana ölçüsü budur.
+
+| Düzey | Tanım | Örnek |
 |---|---|---|
-| 0 | Boş, "bilmiyorum" ya da ilgisiz | "Bir ders." · "Zor bir şey." |
-| 1 | Bir konu ya da kişiyle tanımlıyor | "Filozofların işi." · "Hayat hakkında bilgi." |
-| 2 | Bir etkinlik olarak tanımlıyor: soru sormak, düşünmek, tartışmak | "Bir şeyler hakkında derin düşünmek." · "Neden diye sormak." |
-| 3 | Etkinlik + ayırt edici bir özellik: gerekçe, cevabı kesin olmayan sorular, farklı görüşler | "Cevabı belli olmayan soruları nedenleriyle tartışmak." · "Herkesin farklı düşünebileceği soruları birlikte düşünmek." |
+| 0 | Boş ya da tek kelime, gerekçe yok | “Mutluluk.” |
+| 1 | Bir liste ya da tek bir değer, gerekçesiz ya da gerekçe tekrar | “Ailemle mutlu olmak, çünkü mutluluk güzel.” |
+| 2 | Bir değer ve gerçek bir gerekçe | “Kendin olabildiğin bir hayat, çünkü başkası gibi yaşarsan o hayat senin olmaz.” |
+| 3 | En az bir gerilimi adlandırıyor ya da koşul koyuyor | “Mutlu olmak önemli ama mutluluk gerçek bir şeye dayanmalı. Yoksa Truman gibi olursun.” |
 
-### Kodlama anahtarı: Madde 12 "Günlük hayatında felsefe nerede?" ((c) için ana ölçü)
+**Kodlama anahtarı 2: “Günlük hayatımda felsefe … karşıma çıkar” ve “Bu soru hayatımda nerede?”** (c) hedefinin ana ölçüsü budur.
 
-| Puan | Tanım | Örnek cevap |
+| Puan | Tanım | Örnek |
 |---|---|---|
-| 0 | Boş, "bilmiyorum", "hiçbir yerde" | "Karşıma çıkmıyor." |
-| 1 | Yalnızca okul, kitap, film ya da filozof | "Felsefe dersinde." · "Filmlerde." |
-| 2 | **Film dışı bir hayat alanının adını veriyor**, örnek yok | "Arkadaşlıkta." · "Ailemle konuşurken." · "Oyunlarda." |
-| 3 | **Film dışı bir hayat alanında somut bir durum ya da soru veriyor** | "Arkadaşım bir sır söylediğinde başkasına anlatmalı mıyım diye düşünürken." · "Yemekte sıra beklemenin adil olup olmadığını düşündüğümde." |
+| 0 | Boş, “bilmiyorum”, “hiçbir yerde” | |
+| 1 | Yalnızca okul, kitap, film ya da filozof | “Felsefe dersinde.” |
+| 2 | **Film dışı bir hayat alanının adını veriyor**, örnek yok | “Arkadaşlıkta.” |
+| 3 | **Film dışı bir hayat alanında somut bir durum ya da soru veriyor** | “Arkadaşım bana kızgın değilim dediğinde, gerçekten öyle mi diye düşünürken.” |
 
-**"Film dışı bir hayat alanı yazdı" = 2 ya da 3 puan.** Başarı ölçütlerinde bu tanım kullanılır.
+**“Film dışı bir hayat alanı yazdı” = 2 ya da 3 puan.**
 
-### Kodlama anahtarı: Madde 17 "Öğrendiğim ya da fark ettiğim en önemli şey"
+**Kodlama anahtarı 3: “Ne değişti, neden?”**
+- **D+ (değişti, gerekçeli):** Neyin değiştiğini ve nedenini söylüyor.
+- **S+ (değişmedi, gerekçeli):** “Değişmedi, çünkü …” Bu da başarılı bir cevaptır.
+- **G (gerekçesiz):** “Çok şey değişti”, “Bilmiyorum.”
 
-| Kod | Tanım |
-|---|---|
-| G (genel) | Somut içerik yok: "Çok şey öğrendim", "Güzeldi" |
-| F (fikir) | Kamptan somut bir fikir, kavram ya da soru: "Önyargının iyi niyetli insanlarda da olabileceğini" |
-| B (beceri) | Bir düşünme ya da konuşma becerisi: "Fikrimi söylerken 'çünkü' demeyi", "Başkasını dinlemeyi" |
-| H (hayat) | Felsefeyi hayatına bağlıyor: "Her yerde soru sorulabileceğini fark ettim" |
-
-Bir cevap birden fazla kod alabilir (ör. F + H). **"Kendi sözleriyle somut bir şey anlattı" = F, B ya da H kodlarından en az biri.**
+**“Hayattan bir soru” satırları ve “Benim büyük sorum”:** Araç 2'deki soru kalitesi rubriğiyle 1–4 puanlanır. Kamp hayatından gelip 3 ya da 4 alan satır **nitelikli hayat sorusu** sayılır.
 
 *Kodlamayı mümkünse iki kişi ayrı ayrı yapsın, anlaşamadıkları cevapları birlikte konuşsun.*
 
 ---
 
-## Araç 2: Günlük Çıkış Kartı
+## Araç 2: Gözlem formu ve rubrik
 
-**Amaç:** Her gün keyfi ölçmek ve o gün akılda kalanları görmek.
-**Süre:** 2 dk. Her günün sonunda, Felsefe Her Yerde görevinden önce.
-**Not:** 1. gün "felsefi an" kutusunun boş kalması normaldir. Günler içinde dolması (c) için bir işarettir.
-
-### FORM: Çıkış Kartı (A6, yarım sayfanın yarısı)
-
-> **ÇIKIŞ KARTI** · Gün: ① ② ③ ④ ⑤ · Kodum: ☐☐☐☐☐
->
-> **Bugünkü atölye nasıldı?**
-> 😣 1 ☐ 🙁 2 ☐ 😐 3 ☐ 🙂 4 ☐ 😄 5 ☐
->
-> **Bugün aklımda kalan soru:**
-> ______________________________________________
->
-> **Bugün kamp hayatında fark ettiğim felsefi bir an** (yemekte, oyunda, odada, bir konuşmada…). Yoksa boş bırak.
-> ______________________________________________
-
-### Okuma ve kodlama
-
-- **Keyif:** Her gün için ortalama ve 1–2 veren oran.
-- **Aklımda kalan soru:** Araç 4'teki soru kalitesi rubriğiyle 1–4 puanlanır. Bu, her öğrencinin soru sorma düzeyini bireysel olarak izlemenin en kolay yolu.
-- **Felsefi an:** Üç kodla işaretlenir:
-  - **0:** Boş ya da ilgisiz.
-  - **1:** Bir an var ama felsefi bir yönü yok: "Yemek güzeldi."
-  - **2:** Kamp hayatından bir an ve onun felsefi bir soruya ya da kavrama bağlanması: "Futbolda kimin takım kaptanı olacağına kim karar vermeli diye düşündüm."
-  - **"Anlamlı dolu" = 2.**
-
----
-
-## Araç 3: "Felsefe Her Yerde" Görevi
-
-**Amaç:** (c) hedefinin ana kanıtı. Öğrencinin filmlerin dışında, kendi kamp hayatında felsefi bir soru yakalaması.
-
-### Nasıl işler?
-
-1. **Her günün sonunda** öğrencilere küçük bir kart verilir. Görev: "Yarına kadar kamp hayatında (yemek, oyun, kurallar, arkadaşlık, oda düzeni…) bir felsefi soru yakalayın ve karta yazın."
-2. **Ertesi gün açılışta** (5–7 dk) 3–4 öğrenci kartını okur. Kolaylaştırıcı sorar: "Bu soruyu nerede, ne olurken yakaladın?"
-3. **Bütün kartlar** Soru Duvarı'nın yanındaki ayrı bölüme, **"Hayattan Sorular"** panosuna asılır. Okunmayan kartlar da asılır.
-4. Her gün bir **ipucu** verilir (senaryolarda yazıyor): 1. gün serbest, 2. gün kendinizle ilgili, 3. gün başkalarına davranışla ilgili, 4. gün kurallar ve adaletle ilgili.
-5. **5. gün açılışında** panodaki kartlar birlikte sayılır: "Dört günde kamp hayatından … soru yakaladınız."
-6. Kart yazmak zorunlu değildir. Yazmayana ısrar edilmez. Ama her gün kart herkese verilir.
-
-**Örnek sorular (1. gün kapanışında örnek olarak okunabilir):**
-- Yemek sırasında en aç olan önce yiyemez mi? Sıra beklemek her zaman adil mi?
-- Bir oyunda kuralları kim koymalı? Kurallar oyunun ortasında değişebilir mi?
-- Odada herkes uyumak isterken biri konuşmak isterse kimin isteği önemli?
-- Bir arkadaşım bir şeyi yanlış yaptığında ona söylemek mi doğru, susmak mı?
-
-### FORM: Felsefe Her Yerde Kartı (A7, kartvizit boyu)
-
-> **FELSEFE HER YERDE** · Gün: ① ② ③ ④ · Kodum: ☐☐☐☐☐
->
-> **Yakaladığım soru:**
-> ______________________________________________
->
-> **Nerede yakaladım?**
-> ☐ Yemekte ☐ Oyunda ☐ Odada ☐ Bir konuşmada ☐ Kurallarla ilgili ☐ Başka: ________
->
-> ☐ Bu kartın panoya asılmasına izin veriyorum.
-
-*Kodun amacı kimin yazdığını bulmak değil, kaç farklı öğrencinin katıldığını sayabilmektir.*
-
-### Okuma ve kodlama
-
-- **Kart sayısı:** Günlük ve toplam.
-- **Katılım:** En az bir kart yazan farklı kod sayısı / katılımcı sayısı.
-- **Nitelik:** Her kart soru kalitesi rubriğiyle (Araç 4) 1–4 puanlanır. **Kamp hayatından, rubrikte 3 ya da 4 alan kart = "nitelikli hayat sorusu".**
-- **Alan dağılımı:** Yemek / oyun / oda / konuşma / kurallar / başka. Raporda hangi hayat alanlarının yakalandığını gösterir.
-- Kamp bitince panonun fotoğrafını çekin. Kartları saklayın. Raporun en güçlü eki budur.
-
----
-
-## Araç 4: Moderatör Gözlem Rubriği
-
-**Amaç:** Soruların ve gerekçelerin niteliğini gözlemlenebilir tanımlarla izlemek. (b) için ana kanıt.
-
-**Kim doldurur?** Tartışmayı yönetirken her konuşmayı puanlamak zordur. **Mümkünse ikinci bir yetişkin gözlemci** olsun ve yalnızca bu formu doldursun. Gözlemci yoksa kolaylaştırıcı yalnızca **sorgulama bölümünün (C'de dk 22–47, B'de dk 10–35) 10 dakikalık bir diliminde** puanlama yapsın ve her gün aynı dilimi seçsin.
+Her tartışmada bir gözlem formu doldurulur. **Mümkünse ikinci bir yetişkin gözlemci** olsun ve yalnızca bu formu doldursun. Gözlemci yoksa kolaylaştırıcı yalnızca soru merdiveninin 10 dakikalık bir diliminde puanlama yapar ve her gün aynı dilimi seçer. Basılı hâli: `gorseller/pdf/form-gozlem.pdf` (ön yüz form, arka yüz rubrik).
 
 ### Rubrik 1: Soru kalitesi
 
-Üçlülerin ürettiği sorular, çıkış kartlarındaki "aklımda kalan soru" ve Felsefe Her Yerde kartları bu rubrikle puanlanır.
+“Soruların altındaki soru” adımındaki öğrenci soruları, defterdeki “kafamı karıştıran soru”, “hayattan bir soru” ve “büyük sorum” satırları bu rubrikle puanlanır.
 
 | Düzey | Adı | Gözlemlenebilir tanım | Örnek |
 |---|---|---|---|
-| 1 | Film sorusu | Cevabı filmde var. Bir olayı ya da bilgiyi soruyor. | "Truman neden tekneye bindi?" |
-| 2 | Görüş sorusu | Kişisel tercih ya da tahmin soruyor, ama bir kavramı tartışmaya açmıyor. | "Sen Truman olsan ne yapardın?" |
-| 3 | Felsefi soru | Genel ve tartışmaya açık. Bir kavram ya da değer içeriyor ("adil", "gerçek", "doğru", "iyi"). Akıllı insanlar farklı cevaplar verebilir. | "Birini korumak için ona yalan söylemek doğru mu?" |
-| 4 | Derin felsefi soru | Bir kavramın ne olduğunu sorguluyor, iki kavramı karşılaştırıyor ya da bir varsayımı açığa çıkarıyor. Filmin çok ötesine taşınabilir. | "Bir şeyin gerçek olduğunu bilmek için ne gerekir?" · "Mutlu ama sahte bir hayat, mutsuz ama gerçek bir hayattan daha mı kötü?" |
+| 1 | Film sorusu | Cevabı filmde var. Bir olayı ya da bilgiyi soruyor. | “Truman neden tekneye bindi?” |
+| 2 | Görüş sorusu | Kişisel tercih ya da tahmin soruyor, bir kavramı tartışmaya açmıyor. | “Sen Truman olsan ne yapardın?” |
+| 3 | Felsefi soru | Genel ve tartışmaya açık. Bir kavram ya da değer içeriyor (adil, gerçek, doğru, iyi). | “Birini korumak için ona yalan söylemek doğru mu?” |
+| 4 | Derin felsefi soru | Bir kavramın ne olduğunu sorguluyor, iki kavramı karşılaştırıyor ya da bir varsayımı açığa çıkarıyor. | “Bir şeyin gerçek olduğunu bilmek için ne gerekir?” |
 
 ### Rubrik 2: Gerekçe düzeyi
 
-Sorgulama bölümündeki konuşmalar bu rubrikle puanlanır. Her konuşma bir puan alır.
+Soru merdivenindeki her konuşma bir puan alır.
 
 | Düzey | Adı | Gözlemlenebilir tanım | Örnek |
 |---|---|---|---|
-| 1 | Yalnızca iddia | Bir fikir söylüyor, neden olduğunu söylemiyor. | "Bence yanlış." |
-| 2 | Tek gerekçe | "Çünkü" ile bir neden veriyor. | "Yanlış, çünkü yalan söylemek kötü." |
-| 3 | Gerekçe + destek | Nedene bir örnek, filmden bir an ya da hayattan bir durum ekliyor. | "Yanlış, çünkü Christof ona yalan söyledi ve Truman bu yüzden otuz yıl kendi hayatını yaşayamadı." |
-| 4 | Gerekçe + karşı görüş | Başka birinin fikrine adıyla ya da içeriğiyle cevap veriyor, bir karşı örnek veriyor ya da fikrinin geçerli olduğu koşulu belirtiyor. | "Elif korumak için yalan söylenebilir dedi. Ama bence koruma da yalanı haklı çıkarmaz, çünkü Truman'ın seçme hakkı elinden alındı. Belki çok küçük bir çocuk olsaydı farklı olurdu." |
+| 1 | Yalnızca iddia | Bir fikir söylüyor, nedenini söylemiyor. | “Bence yanlış.” |
+| 2 | Tek gerekçe | “Çünkü” ile bir neden veriyor. | “Yanlış, çünkü yalan söylemek kötü.” |
+| 3 | Gerekçe ve destek | Nedene bir örnek, filmden bir an ya da hayattan bir durum ekliyor. | “…çünkü Christof ona yalan söyledi ve Truman otuz yıl kendi hayatını yaşayamadı.” |
+| 4 | Gerekçe ve karşı görüş | Başka birinin fikrine cevap veriyor, karşı örnek veriyor ya da fikrinin geçerli olduğu koşulu belirtiyor. | “Elif korumak için yalan söylenebilir dedi. Ama bence koruma da yalanı haklı çıkarmaz, çünkü…” |
 
-### FORM: Günlük Gözlem Formu (A4, gözlemci için)
+### FORM: Gözlem formu (ön yüz)
 
-> **GÖZLEM FORMU** · Gün: ① ② ③ ④ ⑤ · Model: ☐ B ☐ C · Gözlemci: ________
+> **Gözlem formu** · Gün: ① ② ③ ④ ⑤ · Model: ☐ B ☐ C · Gözlemci: ________
 > Katılımcı sayısı: ____ · Gözlenen dilim: dk ____ – dk ____
 >
-> **1. Gerekçe düzeyi** (Her konuşmada ilgili satıra bir çentik)
+> **1. Gerekçe düzeyi:** Her konuşmada ilgili satıra bir çentik. Düzey 1, 2, 3 ve 4 için ayrı satırlar, en altta “3 ve 4'ün oranı: %____”.
 >
-> | Düzey | Çentik | Toplam |
-> |---|---|---|
-> | 1 · Yalnızca iddia | ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ | |
-> | 2 · Tek gerekçe | ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ | |
-> | 3 · Gerekçe + destek | ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ | |
-> | 4 · Gerekçe + karşı görüş | ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ | |
-> | **3 ve 4'ün oranı** | | **% ____** |
+> **2. Soruların altındaki soru:** Okunan öğrenci soruları (kısaca) ve düzeyleri (1–4). En altta “3 ve 4'ün oranı: %____”.
 >
-> **2. Üçlülerin soruları** (Her soru için düzey)
+> **3. Davranış göstergeleri** (çentik):
+> - Başka bir öğrencinin fikrine atıf yaptı
+> - Fikrini değiştirip nedenini söyledi
+> - Filmden günlük hayata bağlantı kurdu
+> - Moderatöre “Doğrusu ne?” diye sordu (A noktası göstergesi; günler içinde azalması beklenir)
 >
-> | Üçlü | Soru (kısaca) | Düzey 1–4 |
-> |---|---|---|
-> | 1 | | |
-> | 2 | | |
-> | 3 | | |
-> | 4 | | |
-> | 5 | | |
-> | 6 | | |
-> | 7 | | |
-> | 8 | | |
-> | **3 ve 4'ün oranı** | | **% ____** |
+> **4. Katılım:** En az bir kez konuşan öğrenci ____ / ____ (%____) · Ortaokullu ____ · Liseli ____
 >
-> **3. Davranış göstergeleri** (moderatör kağıdındaki sayımlar buraya aktarılır)
-> Gerekçe kullandı ____ · Başkasının fikrine atıf ____ · Günlük hayata bağlantı ____ · Fikir değiştirip nedenini söyledi ____ · Bugüne özel gösterge ____
+> **5. Kapanış ikilemi:** A ____ · B ____ · Ortada ____ · Gerekçeyle yer değiştiren ____
 >
-> **4. Katılım**
-> En az bir kez konuşan öğrenci: ____ / ____ (**% ____**)
-> Ortaokullu konuşan: ____ · Liseli konuşan: ____
+> **6. Duvara yazılanlar:** Bugün eklediğimiz parça ______ · Açık kalan soru ______
 >
-> **5. Not:** Dikkat çeken bir cümle (isim yazmadan), grubun enerjisi, değiştirilmesi gereken bir şey.
-> ______________________________________________
-
-### Beş günlük özet tablosu (rapora aktarılır)
-
-| | 1. gün | 2. gün | 3. gün | 4. gün | 5. gün |
-|---|---|---|---|---|---|
-| Gerekçe 3–4 oranı (%) | | | | | |
-| Üçlü soruları 3–4 oranı (%) | | | | | |
-| Çıkış kartı sorusu 3–4 oranı (%) | | | | | |
-| Konuşan öğrenci oranı (%) | | | | | |
-| Keyif ortalaması (1–5) | | | | | |
-| Keyif 1–2 veren oran (%) | | | | | |
-| "Felsefi an" anlamlı dolu oranı (%) | | | | | |
-| Yeni Hayattan Sorular kartı | | | | | |
+> **7. Not:** Dikkat çeken bir cümle (isimsiz), grubun enerjisi, değişmesi gereken bir şey.
 
 ---
 
-## Araç 5: Kapanış Etkinliği ve Katılımcı Görüşleri
+## Araç 3: Veli onayı ve etik not
 
-**Amaç:** Öğrencilerin "ne öğrendim, ne fark ettim" sözlerini kendi cümleleriyle toplamak. Bu sözler hem (b) ve (c) için kanıt hem de atölyeyi tanıtmak için kullanılacak.
+**1. Veli onayı (kamptan önce, kayıtla birlikte).**
+- Katılımcılar 18 yaşından küçük olduğu için veliden yazılı onay alınır.
+- Onay formu, kurumun KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) aydınlatma metniyle birlikte verilir.
+- Her izin ayrı bir kutudur. Tek bir “her şeye izin veriyorum” kutusu kullanılmaz.
 
-### Yöntem: "Gelmeyen Arkadaşa Kartpostal" (10 dk, 5. gün)
+Basılı hâli: `gorseller/pdf/form-veli-onay.pdf`
 
-Her öğrenci, bu kampa gelmemiş bir arkadaşına kartpostal yazar. Bir arkadaşa yazmak, kolaylaştırıcıyı memnun etme baskısını azaltır ve kendi diliyle yazmayı kolaylaştırır.
-
-**Kolaylaştırıcının söyleyeceği:** "Doğru cevap yok, bize iyi şeyler söylemek zorunda değilsiniz. Gerçekten ne düşünüyorsanız onu yazın. Beğenmediğiniz bir şey varsa onu da yazabilirsiniz."
-
-**Yönlendirici olmayan soru ilkeleri:**
-- "Kamp çok güzeldi, değil mi?" gibi cevabı içinde olan sorular sorulmaz.
-- "Ne öğrendin?" yerine "Ne anlatırdın?" diye sorulur. Öğrenmeyi varsaymaz.
-- Olumsuz görüşe de alan açılır (4. soru). Bu, olumlu cevapların inandırıcılığını artırır.
-- Örnek cevap okunmaz. Okunursa herkes onu tekrarlar.
-
-### FORM: Kartpostal (A6, ön yüzü tasarımcıdan)
-
-> **Sevgili ____________,**
->
-> İstediğin soruları cevapla, hepsini cevaplamak zorunda değilsin.
->
-> 1. Bu kampı hiç bilmeyen birine anlatsam şöyle derdim:
-> ______________________________________________
->
-> 2. Kampta aklımda kalan bir an ya da soru:
-> ______________________________________________
->
-> 3. Kamp bittikten sonra da aklımda kalacak bir soru var mı? Varsa nerede, ne olurken aklıma gelir? (Yoksa "yok" yazabilirsin.)
-> ______________________________________________
->
-> 4. Değişmesini istediğim bir şey:
-> ______________________________________________
->
-> Kodum: ☐☐☐☐☐ · Yaşım: ____
->
-> ---
-> **Yazdıklarımın kullanılması hakkında** (Birini işaretle. Hiçbirini işaretlemezsen yazdıkların kullanılmaz.)
-> ☐ Yazdıklarım hiçbir yerde kullanılmasın.
-> ☐ Adım yazılmadan kullanılabilir. (Örnek: "13 yaşında bir katılımcı")
-> ☐ Adım ve yaşımla kullanılabilir. Adım: ____________
-
-*Bu kutu yalnızca velinin onay formunda alıntıya izin verdiği öğrenciler için geçerlidir. Veli onayı yoksa çocuk "kullanılabilir" dese bile kullanılmaz.*
-
-### Kodlama
-
-- Soru 2 ve 3: Madde 12 ile aynı anahtarla (0–3). **"Hayat alanına atıf" = 2 ya da 3.**
-- Soru 1: Madde 17 ile aynı kodlarla (G, F, B, H).
-- Soru 4: Konu başlıklarına göre gruplanır (süre, film seçimi, oturma, oyunlar…). Bir sonraki kamp için kullanılır.
-
-### Etik not
-
-**1. Veli onayı (kamptan önce, kayıtla birlikte).** Katılımcılar 18 yaşından küçük olduğu için veliden yazılı onay alınır. Onay formu, kurumun KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) aydınlatma metniyle birlikte verilir. Her izin ayrı bir kutudur, tek bir "her şeye izin veriyorum" kutusu kullanılmaz.
-
-**FORM: Veli Onay Formu (izin kutuları bölümü)**
-
-> Kaesu Akademi Film Atölyesi'nde çocuğunuzun atölyeyle ilgili görüşleri ve kamp sırasındaki fotoğrafları, atölyeyi değerlendirmek ve tanıtmak için kullanılabilir. Lütfen izin verdiğiniz her madde için kutuyu ayrı ayrı işaretleyin. İşaretlemediğiniz maddeler için izin vermemiş sayılırsınız.
->
-> Çocuğun adı soyadı: ______________ Veli adı soyadı: ______________
->
-> ☐ Çocuğumun anket ve kartlardaki cevapları, **adı olmadan**, atölyenin değerlendirme raporunda kullanılabilir.
-> ☐ Çocuğumun yazdığı ya da söylediği cümleler, **adı olmadan** (örneğin "13 yaşında bir katılımcı"), atölyeyi tanıtan materyallerde alıntılanabilir.
+> **FORM: Veli onay formu (izin kutuları)**
+> ☐ Çocuğumun defterdeki cevapları, **adı olmadan**, atölyenin değerlendirme raporunda kullanılabilir.
+> ☐ Çocuğumun yazdığı ya da söylediği cümleler, **adı olmadan** (örneğin “13 yaşında bir katılımcı”), atölyeyi tanıtan materyallerde alıntılanabilir.
 > ☐ Çocuğumun cümleleri **adı ve yaşıyla** alıntılanabilir. (Çocuğun kendisi de kamp sırasında ayrıca onay verecektir.)
-> ☐ Çocuğumun **yüzünün göründüğü fotoğrafları** atölyeyi tanıtan materyallerde kullanılabilir.
+> ☐ Çocuğumun **yüzünün göründüğü** fotoğrafları atölyeyi tanıtan materyallerde kullanılabilir.
 > ☐ Çocuğumun **yüzünün görünmediği** fotoğrafları (arkadan, eller, kartlar) kullanılabilir.
->
-> İzninizi istediğiniz zaman geri alabilirsiniz. Geri alma talebi için: ______________
-> Tarih: ________ İmza: ________
 
-**2. Çocuğun kendi onayı.** Veli izin verse de çocuk kartpostaldaki kutuyla ayrıca karar verir. İkisinden biri "hayır" ise kullanılmaz. **Ad kullanımı için hem velinin hem çocuğun açık onayı gerekir.**
+**2. Çocuğun kendi onayı.** Veli izin verse de çocuk, Varış sayfasındaki kutuyla ayrıca karar verir. İkisinden biri “hayır” derse kullanılmaz. **Ad kullanımı için hem velinin hem çocuğun açık onayı gerekir.**
 
-**3. Fotoğraf.** Fotoğraf onayı alıntı onayından ayrıdır. Pratik öneri: Yüz fotoğrafına izni olmayan öğrencilere kamp başında renkli bir yaka kartı verilir. Fotoğraf çeken kişi bu öğrencilerin yüzünü kadraja almaz. Pano ve kart fotoğraflarında el yazısından kimse tanınmasın, kod ve isim görünmesin.
+**3. Yönlendirmeyen sorular.**
+- Defterdeki sorular öğrenmeyi varsaymaz: “Ne öğrendin?” değil, “Ne değişti, neden?” diye sorulur ve “değişmedi” de geçerli bir cevaptır.
+- Olumsuz görüşe yer açılır: “Değişmesini istediğim bir şey.”
+- Örnek cevap okunmaz.
 
-**4. Alıntı kullanırken.**
-- Cümle düzeltilmez, kısaltılırsa "…" ile gösterilir.
+**4. Fotoğraf.** Fotoğraf onayı alıntı onayından ayrıdır. Yüz fotoğrafına izni olmayan öğrencilere kamp başında renkli bir yaka kartı verilir. Defter ve duvar fotoğraflarında el yazısından kimse tanınmasın, kamp adı görünmesin.
+
+**5. Alıntı kullanırken.**
+- Cümle düzeltilmez, kısaltılırsa “…” ile gösterilir.
 - Hassas ya da kişisel bir içerik (aile, sağlık, zorbalık deneyimi) izin olsa bile tanıtımda kullanılmaz.
-- Yalnızca olumlu cümleler seçilmez. Raporda olumsuz görüşlere de yer verilir.
-- Tanıtım materyali basılmadan önce, adıyla alıntı yapılan öğrencinin velisine metin gösterilir.
+- Yalnızca olumlu cümleler seçilmez.
 
-**5. Saklama.** Formlar kilitli bir yerde saklanır. Veriler girildikten ve rapor yazıldıktan sonra, kurumun saklama süresi dolunca imha edilir. Kod ile isim arasında bir liste tutulmaz.
+**6. Saklama.** Defterler ve formlar kilitli bir yerde saklanır, kurumun saklama süresi dolunca imha edilir. İsteyen çocuğa defterinin bir kopyası verilebilir. Defter onun yolculuğunun kaydıdır.
 
 ---
 
-## Başarı Ölçütleri
+## Başarı ölçütleri
 
 **Nasıl okunur?** Her hedefin bir **ana ölçütü** ve birkaç **destek ölçütü** var.
 - **Doğrulandı:** Ana ölçüt ve destek ölçütlerinin en az yarısı karşılandı.
-- **Kısmen doğrulandı:** Ana ölçüt karşılandı ama destek ölçütlerinin yarısından azı karşılandı, ya da ana ölçüt kıl payı kaçtı ama destek ölçütlerinin çoğu karşılandı.
+- **Kısmen doğrulandı:** Ana ölçüt karşılandı ama destek ölçütlerinin yarısından azı karşılandı. Ya da ana ölçüt kıl payı kaçtı ama destek ölçütlerinin çoğu karşılandı.
 - **Doğrulanamadı:** Ana ölçüt karşılanmadı ve destek ölçütlerinin çoğu da karşılanmadı.
 
-**Eşikler hakkında:** Bu eşikler ilk kamp için önerilen, makul ama iddialı hedeflerdir. Elimizde bu kampın önceki verisi yok. İlk kamptan sonra gerçek sonuçlara göre ayarlanmalıdır.
+**Eşikler hakkında:** Bu eşikler ilk kamp için önerilen tahminlerdir, elimizde önceki bir kampın verisi yok. İlk kamptan sonra gerçek sonuçlara göre ayarlanmalı.
 
 ### (a) Sevdiler ve sıkılmadılar
 
 | | Ölçüt | Eşik | Kaynak |
 |---|---|---|---|
-| **Ana** | Son ankette "Bu atölyeyi sevdim" (madde 13) maddesine 4 ya da 5 veren oranı | **≥ %80** | Araç 1 |
-| Destek | Günlük keyif ortalaması | Her gün **≥ 3,8**, beş günün ortalaması **≥ 4,0** | Araç 2 |
-| Destek | Keyfe 1 ya da 2 veren oranı | Her gün **≤ %15** | Araç 2 |
-| Destek | "Sık sık sıkıldım" (madde 14) maddesine 4 ya da 5 veren oranı | **≤ %20** | Araç 1 |
-| Destek | "Arkadaşıma önerirdim" (madde 15) maddesine 4 ya da 5 veren oranı | **≥ %75** | Araç 1 |
-| Destek | Tartışmada en az bir kez konuşan öğrenci oranı | Her gün **≥ %70** | Araç 4 |
+| **Ana** | Varış: “Kamp genel olarak” sorusuna 4 ya da 5 veren oran | **≥ %80** | Defter |
+| Destek | Günlük “Bugün atölye” ortalaması | Her gün **≥ 3,8**, beş günün ortalaması **≥ 4,0** | Defter |
+| Destek | Günlük puana 1 ya da 2 veren oran | Her gün **≤ %15** | Defter |
+| Destek | Tartışmada en az bir kez konuşan öğrenci oranı | Her gün **≥ %70** | Gözlem |
 
 ### (b) Öğrendiler ve kendi sözleriyle anlatabiliyorlar
 
 | | Ölçüt | Eşik | Kaynak |
 |---|---|---|---|
-| **Ana** | Son ankette "Öğrendiğim ya da fark ettiğim en önemli şey" (madde 17) sorusuna kendi sözleriyle somut bir şey yazan oran (F, B ya da H kodu) | **≥ %70** | Araç 1 |
-| Destek | "Felsefe nedir?" (madde 11) sorusunda 2 ya da 3 puan alanların oranı | Son ölçümde **≥ %60** ve ön ölçüme göre **en az 25 puan artış** (ör. %30 → %55+) | Araç 1 |
-| Destek | Tartışmada 3–4. düzey gerekçe oranı | 5. günde 1. güne göre **en az 15 puan artış** | Araç 4 |
-| Destek | Üçlülerin sorularında 3–4. düzey oranı | 5. günde **≥ %60** | Araç 4 |
-| Destek | Düşünme becerisi maddeleri (5, 6, 7, 9) ortalaması | Ön ölçüme göre **en az 0,3 artış** | Araç 1 |
+| **Ana** | Varış'taki cevabı kodlama anahtarı 1'de **2 ya da 3** alanların oranı | **≥ %70**, ayrıca öğrencilerin **en az %50'si** Başlangıç'a göre en az bir düzey yükselmiş olmalı | Defter |
+| Destek | “Ne değişti, neden?” sorusuna gerekçeli cevap (D+ ya da S+) | **≥ %70** | Defter |
+| Destek | Tartışmada 3–4. düzey gerekçe oranı | 5. günde 1. güne göre **en az 15 puan artış** | Gözlem |
+| Destek | B ve C maddeleri ortalaması | Başlangıç'a göre **en az 0,3 artış** | Defter |
+| Destek | A maddesi (“tek bir doğru cevap vardır”) ortalaması | Başlangıç'a göre **en az 0,5 düşüş** | Defter |
 
 ### (c) Felsefenin hayatın her yerinde olduğunu fark ettiler
 
 | | Ölçüt | Eşik | Kaynak |
 |---|---|---|---|
-| **Ana** | Son ankette "Günlük hayatında felsefe nerede?" (madde 12) sorusuna **film dışı bir hayat alanı** yazan oran (2 ya da 3 puan) | **≥ %70** ve ön ölçüme göre **en az 20 puan artış** | Araç 1 |
-| Destek | Felsefe Her Yerde'ye en az bir kart yazan öğrenci oranı | **≥ %60** | Araç 3 |
-| Destek | Hayattan Sorular panosundaki toplam kart | **≥ katılımcı sayısı × 1,5** (ör. 20 kişide 30 kart) | Araç 3 |
-| Destek | Çıkış kartında "felsefi an" kutusunu anlamlı dolduran oran (kod 2) | 2. günden 5. güne artış ve 4–5. günde **≥ %60** | Araç 2 |
-| Destek | "Felsefe her yerde" maddeleri (2 ters, 3, 4, 8) ortalaması | Ön ölçüme göre **en az 0,5 artış** | Araç 1 |
-| Destek | Kartpostalda hayat alanına atıf yapan oran (soru 2 ya da 3'te 2–3 puan) | **≥ %50** | Araç 5 |
+| **Ana** | Varış'ta “Günlük hayatımda felsefe … karşıma çıkar” cümlesine **film dışı bir hayat alanı** yazan oran (2 ya da 3 puan) | **≥ %70**, ayrıca Başlangıç'a göre **en az 20 puan artış** | Defter |
+| Destek | “Bu soru hayatımda nerede?” sorusuna 2 ya da 3 puanlık cevap | **≥ %60** | Defter |
+| Destek | “Hayattan bir soru” satırını en az 3 gün dolduran öğrenci oranı | **≥ %60** | Defter |
+| Destek | En az bir nitelikli hayat sorusu (rubrikte 3–4) yazan öğrenci oranı | **≥ %50** | Defter |
+| Destek | D (ters) ve E maddeleri ortalaması | Başlangıç'a göre **en az 0,5 artış** | Defter |
 
 ### Sonuçları yorumlarken dikkat
 
-- **Grup küçük.** 20–30 kişilik bir grupta 2–3 öğrencinin cevabı oranı 10 puan değiştirebilir. Oranların yanında sayıyı da yazın: "%75 (18/24)".
-- **Karşılaştırma grubu yok.** Ön-son farkı kampın etkisini gösterir ama kanıtlamaz. Raporda "işaret" ve "eğilim" gibi ifadeler kullanın, "kanıtladı" demeyin.
-- **Sosyal beğenirlik.** Öğrenciler kolaylaştırıcıyı memnun etmek için olumlu cevap verebilir. Anonim kod, olumsuz görüş sorusu ve kartpostalın bir arkadaşa yazılması bunu azaltır ama ortadan kaldırmaz.
-- **Kamp sonu yorgunluğu.** Son anket uzun bir günün sonunda yapılıyor. Mümkünse 5. gün filmden önce ya da ertesi sabah yapın. Bu durumda zamanı raporda belirtin.
-- **Eşleşmeyen kodlar.** Kamp başı ve kamp sonu kodu eşleşmeyen formlar, grup ortalamasına katılır ama bireysel karşılaştırmaya katılmaz.
+- **Grup küçük.** 20–30 kişilik bir grupta 2–3 öğrencinin cevabı oranı 10 puan değiştirebilir. Oranların yanında sayıyı da yazın: “%75 (18/24)”.
+- **Karşılaştırma grubu yok.** Başlangıç ile Varış arasındaki fark kampın etkisine işaret eder ama kanıtlamaz. Raporda “işaret” ve “eğilim” deyin, “kanıtladı” demeyin.
+- **Sosyal beğenirlik.** Çocuklar moderatörü memnun etmek için cevabını “değiştirmiş” gösterebilir. “Değişmedi, çünkü …” cevabının da değerli olduğunu her gün açıkça söylemek bunu azaltır.
+- **Kamp sonu yorgunluğu.** Varış uzun bir günün sonunda yapılıyor. Mümkünse 5. gün filmden önce ya da ertesi sabah yapın ve zamanı raporda belirtin.
 
 ---
 
-## Araç 6: Kamp Sonu Rapor Şablonu
+## Kamp sonu rapor şablonu
 
 *Genel Müdür'ün doldurup kurumla paylaşacağı 1–2 sayfalık rapor. Köşeli parantez içindeki yerler doldurulacak.*
 
----
-
-> # Kaesu Akademi Film Atölyesi · Kamp Sonu Raporu
+> # Kaesu Akademi Film Atölyesi · Kamp sonu raporu
 >
 > **Kamp:** [tarih aralığı] · [yer]
 > **Katılımcı:** [sayı] öğrenci · Ortaokul [sayı], lise [sayı] · Yaş aralığı [__–__]
 > **Model:** ☐ B (durdurmalı) ☐ C (görevli izleme) ☐ Karma: [açıklama]
-> **Program:** Truman Show → Ters Yüz 2 → Wonder → Zootropolis → Soul
+> **Kamp sorusu:** İyi bir hayat nedir?
 > **Hazırlayan:** [ad] · **Tarih:** [tarih]
 >
 > ## Özet
@@ -468,62 +293,47 @@ Her öğrenci, bu kampa gelmemiş bir arkadaşına kartpostal yazar. Bir arkada�
 > | (b) Öğrendiler, kendi sözleriyle anlatabiliyorlar | ☐ Doğrulandı ☐ Kısmen ☐ Doğrulanamadı |
 > | (c) Felsefenin hayatın her yerinde olduğunu fark ettiler | ☐ Doğrulandı ☐ Kısmen ☐ Doğrulanamadı |
 >
-> ## (a) Sevme ve katılım
+> ## Yolculuk: Başlangıç ve Varış
 >
-> | Ölçüt | Eşik | Sonuç (oran ve sayı) | ✓ / ✗ |
-> |---|---|---|---|
-> | "Atölyeyi sevdim" 4–5 | ≥ %80 | [ % (__/__) ] | |
-> | Günlük keyif ortalaması | ≥ 3,8 her gün | 1: [ ] 2: [ ] 3: [ ] 4: [ ] 5: [ ] | |
-> | Keyfe 1–2 veren | ≤ %15 her gün | [ ] | |
-> | "Sık sık sıkıldım" 4–5 | ≤ %20 | [ ] | |
-> | "Arkadaşıma önerirdim" 4–5 | ≥ %75 | [ ] | |
-> | Konuşan öğrenci oranı | ≥ %70 her gün | [ ] | |
->
-> En sevilen bölümler (madde 18): [ilk üç]
->
-> ## (b) Öğrenme
->
-> | Ölçüt | Eşik | Kamp başı | Kamp sonu | ✓ / ✗ |
+> | Ölçüt | Başlangıç | Varış | Eşik | ✓ / ✗ |
 > |---|---|---|---|---|
-> | Somut "öğrendim" cevabı (F/B/H) | ≥ %70 | — | [ ] | |
-> | "Felsefe nedir?" 2–3 puan | ≥ %60, +25 puan | [ ] | [ ] | |
-> | Gerekçe 3–4. düzey | +15 puan | 1. gün: [ ] | 5. gün: [ ] | |
-> | Üçlü soruları 3–4. düzey | 5. gün ≥ %60 | 1. gün: [ ] | 5. gün: [ ] | |
-> | Düşünme becerisi maddeleri ort. | +0,3 | [ ] | [ ] | |
+> | Kamp sorusu cevabı 2–3. düzey | [ ] | [ ] | Varış ≥ %70 | |
+> | En az bir düzey yükselen öğrenci | — | [ ] | ≥ %50 | |
+> | “Günlük hayatımda felsefe” film dışı alan | [ ] | [ ] | ≥ %70, +20 puan | |
+> | A maddesi ort. (tek doğru cevap) | [ ] | [ ] | −0,5 | |
+> | B ve C maddeleri ort. | [ ] | [ ] | +0,3 | |
+> | D (ters) ve E maddeleri ort. | [ ] | [ ] | +0,5 | |
 >
-> **Öğrencilerin kendi sözleriyle** (yalnızca izinli alıntılar, 2–3 tane): [ "…" — 12 yaşında bir katılımcı ]
->
-> ## (c) Felsefe her yerde
->
-> | Ölçüt | Eşik | Kamp başı | Kamp sonu | ✓ / ✗ |
-> |---|---|---|---|---|
-> | "Günlük hayatta nerede?" film dışı alan | ≥ %70, +20 puan | [ ] | [ ] | |
-> | Felsefe Her Yerde'ye katılan öğrenci | ≥ %60 | — | [ ] | |
-> | Hayattan Sorular toplam kart | ≥ katılımcı × 1,5 | — | [ ] | |
-> | Çıkış kartı "felsefi an" anlamlı dolu | 4–5. gün ≥ %60 | 1. gün: [ ] | 5. gün: [ ] | |
-> | "Felsefe her yerde" maddeleri ort. | +0,5 | [ ] | [ ] | |
-> | Kartpostalda hayat alanına atıf | ≥ %50 | — | [ ] | |
->
-> **Hayattan Sorular panosundan örnekler** (3–5 soru, alanıyla): [ "…" (yemek) ]
-> **Hayat alanlarının dağılımı:** Yemek [ ] · Oyun [ ] · Oda [ ] · Konuşma [ ] · Kurallar [ ] · Başka [ ]
+> **Tipik bir yolculuk (izinli, isimsiz):** Başlangıç: “[…]” · Varış: “[…]”
 >
 > ## Günden güne
-> [Beş günlük özet tablosu buraya]
-> **Soru Duvarı'ndaki beş soru:** 1. [ ] 2. [ ] 3. [ ] 4. [ ] 5. [ ]
-> **Beş Kapı sonucu:** Truman [ ] · Riley [ ] · Auggie/Jack [ ] · Judy [ ] · Joe [ ]
+>
+> | | 1. gün | 2. gün | 3. gün | 4. gün | 5. gün |
+> |---|---|---|---|---|---|
+> | Bugün atölye ort. (1–5) | | | | | |
+> | Bugün atölyeye 1–2 veren (%) | | | | | |
+> | Konuşan öğrenci (%) | | | | | |
+> | Gerekçe 3–4. düzey (%) | | | | | |
+> | Öğrenci soruları 3–4. düzey (%) | | | | | |
+> | Hayattan soru yazan öğrenci (%) | | | | | |
+> | Duvardaki parça | | | | | |
+> | Duvardaki açık soru | | | | | |
+>
+> ## Öğrencilerin büyük soruları
+> [5–8 örnek, izinli ve isimsiz. Yanında “hayatımda nerede” cevabı.]
 >
 > ## Kolaylaştırıcı gözlemleri
 > [En iyi işleyen an · Zorlanılan an · Takip gereken bir durum olduysa (isimsiz) nasıl ele alındığı]
 >
 > ## Öğrencilerin değiştirmek istedikleri
-> [Madde 19 ve kartpostal 4. sorudan öne çıkan 3 konu]
+> [Varış'taki “Değişmesini istediğim bir şey” cevaplarından öne çıkan 3 konu]
 >
 > ## Sınırlılıklar
-> Grup küçük ve karşılaştırma grubu yok. Sonuçlar kampın etkisine işaret eder ama kesin kanıt değildir. [Son anketin yapıldığı zaman, eşleşmeyen form sayısı, eksik gün vb.]
+> Grup küçük ve karşılaştırma grubu yok. Sonuçlar kampın etkisine işaret eder ama kesin kanıt değildir. [Varış'ın yapıldığı zaman, eksik defter sayısı vb.]
 >
 > ## Bir sonraki kamp için öneriler
 > 1. [ ]
 > 2. [ ]
 > 3. [ ]
 >
-> **Ekler:** Soru Duvarı ve Hayattan Sorular panosunun fotoğrafları · Beş günlük özet tablosu · Boş form örnekleri
+> **Ekler:** Yolculuk Duvarı'nın fotoğrafı · Boş defter örneği
