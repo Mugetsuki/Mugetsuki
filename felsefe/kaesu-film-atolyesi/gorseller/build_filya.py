@@ -301,7 +301,7 @@ URUNLER = {
     "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
     "defter-yaprak-yedek-gun4-12-kizgin-adam": ("Düşünce yolculuğum · yedek film · 12 Kızgın Adam", yedek_yaprak_adam, 1),
     "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
-    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 20),
+    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 23),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
     "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),

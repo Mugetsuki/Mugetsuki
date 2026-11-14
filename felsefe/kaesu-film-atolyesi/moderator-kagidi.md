@@ -226,90 +226,141 @@ Ortada durmak serbest. Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa
 
 ## 2. GÜN · Ters Yüz 2 · Benlik
 
-### ÖN YÜZ
+### SAYFA · GÜN VE AKIŞ
 
 **IMDb:** <https://www.imdb.com/title/tt22022452/>
 
-- **Dünden devralınan:** Kendimizi biliyor muyuz?
-- **Bugün sınanan ilk cevap:** “İyi bir hayat kendin olabildiğin hayattır.”
-- **Günün kavram sorusu:** “Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?
-- **Kamp sorusuna bağlanan soru:** İyi bir hayat için “gerçek ben”i bulmak mı gerekir, yoksa kim olacağını seçmek mi?
-- **İzleme görevi:** Riley'nin (13 yaşına giren, hokey kampına giden kız) “ben kimim” cümlesi nasıl değişiyor? Hangi anda “Bu artık Riley değil” dedin?
+**Bugün ne oluyor?** Dün dışarıdaki dünyayı sorduk, bugün içerideki dünyaya bakıyoruz. Dünden devralınan soru: “Kendimizi biliyor muyuz?”
+- **Sınadığımız ilk cevap:** “İyi bir hayat, kendin olabildiğin hayattır.” Riley'nin (13 yaşına giren, hokey kampına giden kız) “ben kimim” inançları film boyunca sökülüp yeniden kuruluyor.
+- **Günün Açık Sorusu (tahtada tek başına):** **“Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?** <span class="et">Açık Soru · s. 34</span> <span class="et">Eğer sanatı · s. 27</span>
+- **Kamp sorusuna köprü:** İyi bir hayat için “gerçek ben”i bulmak mı gerekli, yoksa kim olacağını seçmek mi?
 
 [[ÜST BLOK SONU]]
 
-**Zaman çizelgesi**
+**Günün akışı** (yaklaşık 3 sa 22 dk)
 
-| Bölüm | C | B |
+| Saat | Ne yapıyoruz | Süre |
 |---|---|---|
-| Dünkü gün kartı, hayattan sorular | 9 dk | 9 dk |
-| Hassas içerik uyarısı (panik atak) | 2 dk | 2 dk |
-| İzleme görevi | 4 dk (kart) | 4 dk (sözlü) |
-| Film (96 dk) + duraklar | 1 × 5 dk | 2 × 6 dk |
-| Ara + “Duygu heykelleri” | 10 dk | 10 dk |
-| Tartışma | 60 dk | 60 dk |
-| Köprü ve hayattan soru görevi | 3 dk | 3 dk |
-| **Toplam** | **~3 sa 9 dk** | **~3 sa 16 dk** |
+| 0:00 | Dünkü gün kartı ve hayattan sorular | 9 dk |
+| 0:09 | Hassas içerik notu | 2 dk |
+| 0:11 | İzleme görevi tahtaya | 4 dk |
+| 0:15 | Film, üç durakla (son yarım saatte durak yok) | 96 + 18 dk |
+| 2:09 | Ara ve “Duygu heykelleri” | 10 dk |
+| 2:19 | Tartışma | 60 dk |
+| 3:19 | Köprü ve hayattan soru görevi | 3 dk |
 
-**Durma noktaları**
+**Hassas içerik notu (filmden önce):** “Filmin sonuna doğru Riley çok yoğun bir kaygı yaşıyor, bir panik atak geçiriyor. Zorlanan olursa dışarı çıkabilir, bana bir işaret etmesi yeter.”
 
-| C (1 yazma durağı) | B (2 konuşmalı durak) |
-|---|---|
-| **1. Kaygı benlik duygusunu söküp eski duyguları kenara itince.** Yaz: “Riley'nin içinde ne değişti?” Sor: “Kaygı (geleceği hep planlayan yeni duygu) Riley'yi ‘daha başarılı’ yapmak için değiştiriyor. Biri seni ‘daha iyi’ yapmak için değiştirirse hâlâ sen misin?” | **1.** Aynı yer, aynı soru. |
-| | **2. Riley, Bree ve Grace'i (en yakın iki arkadaşı) ilk kez açıkça yalnız bırakınca.** “Yeni bir gruba uymak için değişmek, kendini kaybetmek mi, büyümek mi?” (su molası) |
-| *Son yarım saatte durak yok.* | *Son yarım saatte durak yok.* |
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
 
-**Soruların altındaki soru (dk 5–12):** “Kaygı neden Neşe'yi (Riley'nin zihnini çocukluğundan beri yöneten duygu) kilitledi?” sorusu “Bizi korumaya çalışan bir duygu bize zarar verebilir mi?” olur. Ortak soru: **‘Ben’ kim?**
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Riley değiştiğinde hâlâ Riley mi? Film bitince ne düşüneceksiniz, bakalım.”</p>
 
-**Kapanış ikilemi: kasadaki Kaygı (dk 42–50).** Kaygı'yı, filmde Neşe'ye yapıldığı gibi kavanoza kapatıp sırlar kasasına (Riley'nin bastırdığı şeylerin saklandığı karanlık yer) kilitlemek.
-- **A:** Kaygı'yı kasaya kilitlerim.
-- **B:** Kaygı konsolda (duyguların Riley'yi yönettiği pano) kalsın.
-- **Ters köşe, A'ya:** “Bir daha hiç heyecanlanmayacaksın, bir doğum gününü beklemeyi hiç hissetmeyeceksin. Yine de?”
-- **Ters köşe, B'ye:** “Hiç ‘Keşke şu an kaygılanmasam’ demedin mi?”
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
 
-### ARKA YÜZ
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. Final maçı ve panik atak kesintisiz izlenir. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
 
-**Soru merdiveni (dk 12–42).** Öğrenci şunu derse, sen şunu sor.
+### SAYFA · 1. VE 2. DURAK
 
-**Basamak 1: Filmden kavrama.** “Riley'nin benlik duygusu (anılarından büyüyen, ‘Ben iyi bir insanım’ diyen inançlar yapısı) söküldü, yerine ‘Yeterince iyi değilim’ diyen başkası kuruldu. Hangisi gerçek Riley'di?”
-- *“İlki, doğal hâli.”* “Doğal hâlimiz hangisi: beş yaşındaki sen mi, bugünkü sen mi?”
-- *“İkisi de eksikti.”* “Sadece iyi yanlarından oluşan bir ‘ben’ gerçek mi?”
-- *“Sondaki karmaşık hâli.”* “Yarın yine değişirse? Gerçek ‘ben’ hep son hâlim mi?”
-- *“Duygular seçti.”* “‘Ben’ ile ‘duygularım’ aynı şey mi?”
+::: durak
+#### 1. durak · yaklaşık 25–35. dk · Sökülen benlik
 
-**Basamak 2: Düşünce deneyi, bloklardan ev.** “Her gün bir bloğunu değiştirdiğin ev, bir yıl sonra hâlâ aynı ev mi? On yıl önceki sen ile bugünkü sen aynı kişi misiniz?”
-- *“Evet, adım aynı.”* “Adın değişse başka biri mi olurdun?”
-- *“Tamamen başka biriyim.”* “O zaman çocukken yaptığın bir hatadan bugün sorumlu musun?”
-- *“Anılarım aynıysa aynıyım.”* “Bir anını unutursan biraz daha az mı ‘sen’ olursun?”
-- *“Bilmiyorum.”* “Seni sen yapan bir parçanı söyle. O değişse hâlâ sen olur muydun?”
+**Sahne:** Kampta işler ters gidince Kaygı (ergenlikle Riley'nin zihnine gelen, hep geleceği planlayan yeni duygu), Riley'nin benlik duygusunu (anılarından büyüyen, “Ben iyi bir insanım” diyen inançlar yapısı) zihnin arkasına fırlatıyor. Neşe ve eski duygular kavanozlara kapatılıp kasaya (Riley'nin bastırdığı şeylerin saklandığı yer) gönderiliyor. Bu bölüm bitince durdur. **Koşul:** “Ben” denen inançlar sökülüyor.
 
-**Basamak 3: Kamp sorusuna bağlantı.** “‘Ben’ değişiyorsa ‘kendin ol’ ne demek?”
-- *“Kimseyi taklit etmemek.”* “Riley, Val'i (hayran olduğu büyük hokey oyuncusu) taklit etti. Taklit etmek ile örnek almak arasındaki fark ne?”
-- *“İçinden geleni yapmak.”* “İçinden gelen bazen kaygı, bazen öfke. Hangisi ‘sen’?”
-- *“Kendini kabul etmek.”* “Kötü yanlarını da değiştirmeye çalışmamak mı?”
-- *“Kim olacağını seçmek.”* “Hangi parçanı seçemezsin?”
+**Açık Soru:** “Riley'nin ‘Ben iyi bir insanım’ diyen inançları söküldü, yerine yenileri kurulacak. Bir insanın inançları değişirse, hâlâ aynı kişi midir?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-**Basamak 4: Düşünce deneyi, kasadaki Kaygı.** “Kaygı'yı kasaya kilitlersen hiç kaygılanmazsın ama geleceğe hazırlanmanı sağlayan ses de susar. Kilitler misin?”
-- *“Evet, kaygı kötü.”* “Sınavdan önce hiç kaygılanmasan çalışır mıydın?”
-- *“Hayır, gerekli.”* “Peki Utanç'ı (kızarıp saklanmak isteyen duygu) kilitler misin? Hangisi seni ‘daha az sen’ yapar?”
-- *“Biraz kısarım.”* “Duygularının ses ayarı sende mi?”
-- *“Hepsini kilitlerim.”* “Hiçbir şey hissetmeyen biri hâlâ ‘biri’ midir?”
+**Gizli Sorular:** “Eğer bir gecede bütün inançların değişseydi, sabah uyanan kim olurdu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span> · “Senin için öyle bir özellik düşün ki o olmadan artık sen olmazsın.” <span class="et">Sine qua non · s. 62</span>
 
-**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘kendin olmak’ı sınadık. Ne ekliyoruz?” Grubun cümlesini 2. gün kartına yaz.
+**Tartışmada geri çağır:** 1. basamak.
+:::
 
-**Defter (dk 55–60):** Bugünkü cevap, değişti mi, kafamı karıştıran soru.
+::: durak
+#### 2. durak · yaklaşık 40–50. dk · Val'in grubu · düğüm noktası
 
-**Köprü (3 dk):** “Riley kendini en çok başkalarına beğendirmeye çalışırken kaybetti. Başkaları benim iyi hayatımın neresinde? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Kampta ‘Burada başka biri gibi davranıyorum’ dediğin bir an yakala.”
+**Sahne:** Riley, Val'e (Riley'nin hayran olduğu, büyük ve popüler hokey oyuncusu) ve grubuna yakınlaşmak için en yakın arkadaşları Bree ve Grace'ten (başka liseye gidecekleri ortaya çıkan iki yakın arkadaşı) uzaklaşıyor. Ön izlemede Riley'nin ikisini açıkça geride bıraktığı ilk anı seç, o an bitince durdur. **Koşul:** Başkalarına uymak için değişmek.
 
-**Tıkanırsam**
-1. **Herkes B'de:** “Bazı insanların kaygısı okula gidemeyecekleri kadar büyük. Onlar için de ‘kalsın’ der misiniz?” (Genel tut, kişiye bağlama.)
-2. **Herkes “hep aynıyım” diyor:** “Beş yaşındakiyle aynı şeylerden mi korkuyorsun?”
-3. **Herkes “kendini kabul et” diyor:** “Kötü bir alışkanlığını da mı?”
-4. **Olaylara kaydı:** “Riley'yi bırakalım. Bu soru senin hayatında nerede?”
-5. **Sessizlik:** İkili konuşma (2 dk): “Seni sen yapan bir şey ve o değişseydi?”
-6. **Felsefe köşesi:** “Bloklardan ev sorusunu 2.000 yıl önce Yunanlılar bir gemi için sormuş.”
+**Açık Soru:** “Riley yeni bir gruba girmek için başka biri gibi davranıyor. Bir insan başka biri gibi davrandığında kendini mi kaybediyor, büyüyor mu, yoksa başka bir şey mi oluyor?” <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
 
-**Hassas içerik:** Finaldeki panik atak atlanmaz. Önceden haber ver, dışarı çıkma hakkı tanı, arayı kısaltma. Kimse kendi kaygısını anlatmak zorunda değil. Soruları “sen” değil “insan” üzerinden sor.
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Riley Val'e gerçekten hayransa ve onun gibi olmak istiyorsa? Ya da sadece kabul edilmek için yapıyorsa? İkisi aynı şey mi?” <span class="et">Ya… ya da… · s. 59–60</span>
+- *“Kimseyi taklit etmemeliyiz.”* derse: “Konuşmayı, şakalaşmayı kimden öğrendin?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+
+**Zaman kalırsa:** “Eğer arkadaşlarının yanında başka, ailenin yanında başka konuşuyorsan, ‘gerçek sen’ hangisi?” <span class="et">Eğer şu şekilde düşünseydik · s. 53</span> **Geri çağır:** 3. basamak.
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 55–65. dk · Koçun defteri
+
+**Sahne:** Kaygı'nın yönettiği Riley, gizlice Koç Roberts'ın (kampı yöneten sert antrenör) odasına giriyor ve defterinden henüz takıma hazır görülmediğini öğreniyor. Bu bölüm bitince durdur. **Koşul:** “Ben”i bir duygu yönetiyor.
+
+**Açık Soru:** “Riley'yi bu odaya Kaygı soktu. Bir insan bir duygunun etkisiyle bir şey yaptığında, onu kendisi mi yapmış olur?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:** “Eğer bunu Kaygı yaptıysa, o zaman yaptığından Riley sorumlu mu?” <span class="et">Eğer… o zaman · s. 27</span> · “Çok kızgınken söylediğin bir sözü sen mi söyledin, öfken mi?” <span class="et">Çıkarımları sınamak · s. 58</span> **Geri çağır:** 4. basamak.
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · His turu ve Kavrama Zamanı.** Film duygusal bitti. Önce bir dakika: “Tek kelimeyle, film sana ne hissettirdi?” Pas serbest. Sonra: “Filmi birlikte anlatalım. Biri başlasın, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–12 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir: “Riley neden Bree ve Grace'i bıraktı?” sorusu “Yeni bir gruba ait olmak için eskilerini bırakmak ne zaman kendini kaybetmektir?” olur. Sonra demir at: “Bütün bunların altındaki soru ne?” Tahtaya yaz: **“Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
+
+**1. basamak · Hangisi gerçek Riley?** *Açık Soru:* “Filmin başında ‘Ben iyi bir insanım’ diyen bir Riley vardı. Kaygı onun yerine ‘Ben yeterince iyi değilim’ diyen bir Riley kurdu. Hangisi gerçek Riley'di, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli · s. 55</span>
+- *“İlki, doğal hâli.”* “Senin düşüncene göre gerçek ben en eski hâlim, öyle mi? O zaman beş yaşındaki sen daha mı gerçek?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Sonundaki karmaşık hâli.”* “Eğer yarın yine değişirse, o zaman gerçek ben hep son hâlim mi?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“İkisi de eksikti.”* “Bir ‘ben’in tam olması için ne gerekli? İyi yanlar yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Duygular seçti, Riley değil.”* “Az önce biri ‘Riley kendi seçti’ demişti. Bu ikisi nasıl yan yana durur?” <span class="et">Fikir çatışması oyunu · s. 57</span>
+
+### SAYFA · BLOKLAR, KÖPRÜ VE KASA
+
+**2. basamak · Bloklardan ev.** *Açık Soru:* “Eğer bloklardan yaptığın bir evin her gün bir bloğunu değiştirseydin ve bir yıl sonra eski blokların hiçbiri kalmasaydı, o hâlâ aynı ev olur muydu?” Sonra: “On yıl önceki sen ile bugünkü sen aynı kişi misiniz?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Evet, adı aynı.”* “Eğer adı değişseydi başka bir ev mi olurdu?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Hayır, başka bir ev.”* “Hangi blokta başka ev oldu? Aynı ev olması için kaç eski blok gerekli?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Ama ev canlı değil.”* “Evet ve… o zaman insanı evden ayıran ne? Anıları mı?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+- *“Anılarım aynı kaldıkça aynıyım.”* “Eğer bir anını unutsaydın biraz daha az mı sen olurdun?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+
+**3. basamak · Kamp sorusuna köprü.** *Geri çağır:* “Val'in grubunu hatırlıyor musunuz?” *Açık Soru:* “İyi bir hayat için ‘gerçek ben’i bulmak mı gerekli, yoksa kim olacağını seçmek mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Kimseyi taklit etmemek.”* “Senin düşüncene göre başkasından bir şey almak kendin olmamak, öyle mi? Taklit etmek ile örnek almak arasındaki fark ne?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“İçinden geleni yapmak.”* “Koçun odasına giren Riley de içinden geleni yaptı. Bu kendin olmak mıydı?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“Kim olacağını seçmek.”* “Eğer her şeyi seçebilseydin, o zaman seçen kim olurdu?” <span class="et">Eğer… o zaman · s. 27</span>
+- *Grup tek tarafta birleşirse:* “Finalde Kaygı, hiçbir duygunun Riley'nin kim olacağını seçemeyeceğini söylüyor. Kaygı olsaydınız bunu nasıl savunurdunuz?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+
+**4. basamak · Kasadaki Kaygı.** *Geri çağır:* “Koçun defterini hatırlıyor musunuz?” *Açık Soru:* “Eğer kendi kaygını bir kavanoza kapatıp kasaya kilitleyebilseydin, bir daha hiç kaygılanmasaydın ama geleceğe hazırlanmanı sağlayan ses de sussaydı, kilitler miydin?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Eğer sanatı · s. 27</span>
+- *“Evet, kaygı kötü.”* “Sınavdan önce hiç kaygılanmasaydın çalışır mıydın?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Ama duygu kilitlenmez ki.”* “Ama ya kilitlenebilseydi? Hiç geri açılmayacağını düşünelim.” <span class="et">Yeniden demir atmak · s. 54</span>
+- *“Biraz kısarım.”* “İki türlü düşünelim: Eğer ses ayarı sendeyse…? Ya da duyguların seni yönetiyorsa…?” <span class="et">Ya… ya da… · s. 59</span>
+- *“Hepsini kilitlerim.”* “Senin düşüncene göre hiçbir şey hissetmeyen biri de hâlâ ‘biri’dir, öyle mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+
+### SAYFA · İKİLEM VE KAPANIŞ
+
+**dk 42–50 · Kapanış ikilemi: kasadaki Kaygı.** Herkes ayağa kalkar ve bir duvar seçer. <span class="et">Ya… ya da… · s. 59</span>
+
+<table class="ikilem"><tr><td><div class="harf">A</div><b>Kaygı'yı kasaya kilitlerim.</b> Geleceği daha az düşünmek pahasına da olsa.<div class="ters">A'dakilere: “Bir daha hiç heyecanlanmayacaksın. Maçtan önce kalbinin hızlanmasını, bir doğum gününü beklemeyi hiç hissetmeyeceksin. Yine de kilitler misin?”</div></td><td><div class="harf">B</div><b>Kaygı konsolda (duyguların Riley'yi yönettiği pano) kalsın.</b> Kaygıyla yaşarım, geleceğe hazırlanırım.<div class="ters">B'dekilere: “Kaygı bazen geceleri uyutmuyor, karnını ağrıtıyor. Hiç ‘Keşke şu an kaygılanmasam’ demedin mi?”</div></td></tr></table>
+
+Ortada durmak serbest. Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span> Ters köşe soruları iki tarafa da onlara katılmayan birinin sesiyle sorulur. <span class="et">Hayali muhalif · s. 50</span> Sonra: “Yer değiştiren var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?”
+
+**dk 50–55 · Kamp sorusuna dönüş.** “Dün ‘mutlu olmak yetmeyebilir, gerçek de önemli’ dedik. Bugün ‘kendin olmak’ cevabını sınadık. Ne ekliyoruz?” Grubun kendi cümlesini ve açık kalan soruyu 2. gün kartına yaz.
+
+**dk 55–60 · Gün yaprağı.** Sessiz beş dakika.
+
+**Köprü (3 dk).** “Riley kendini en çok ne zaman kaybetti? Başkalarına beğendirmeye çalışırken. Demek ki ‘ben’ hep başkalarıyla birlikte oluşuyor. Ama başkaları benim iyi hayatımın neresinde? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Yarına kadar kampta ‘Burada başka biri gibi davranıyorum’ dediğin bir an yakala.”
+
+**Takılırsan.**
+- **Herkes B'deyse:** “Size katılmayan biri ne derdi? Bazı insanların kaygısı o kadar büyük ki okula gidemiyor. Onlar için de ‘Kaygı kalsın’ der misiniz?” Genel tut. <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “ben hep aynıyım” diyorsa:** “Değiştiğini gösteren tek bir örnek bulabilir misin?” <span class="et">Yanlışlama · s. 51</span>
+- **Konu Riley'nin olaylarına kaydıysa:** “Evet ve… o zaman ‘kendin ol’ ne demek?” <span class="et">Demir atmak · s. 48</span>
+- **“Belki Riley zaten öyle biriydi” derse:** “Eğer öyleyse, o zaman Kaygı onu değiştirmiş mi oldu?” <span class="et">“Belki” problemi · s. 53</span>
+- **Sessizlik varsa:** İki dakika ikili konuşma. <span class="et">Konuşma Zamanı · s. 34</span>
+
+**Hassas anlar.** Panik atak sahnesi atlanmaz. Kimse kendi kaygısını anlatmak zorunda değil, soruları “bir insan” üzerinden sor. Biri paylaşırsa teşekkür et, sonra kısaca yanına git. Kasa imgesini ilaç çağrışımına kaydırma.
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Bugünkü blok sorusunu yaklaşık 2.000 yıl önce Yunanlılar bir gemi için sormuş: Bütün tahtaları değiştirilen gemi hâlâ aynı gemi midir?”
 
 ---
 

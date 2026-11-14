@@ -31,7 +31,7 @@ GUNLER = {
     5: dict(film=100, oyun="“Kıvılcım”", acilis=[("Dünkü gün kartı", 4), ("Hayattan sorular", 4), ("Yolculuk Duvarı yürüyüşü", 4), ("Hassas içerik notu", 1), ("İzleme görevi", 2)],
             son=[("Varış ve paylaşım çemberi", 25)]),
 }
-DURAK = {"C": {1: 2, 2: 1, 3: 1, 4: 1, 5: 0}, "B": {1: 3, 2: 2, 3: 3, 4: 3, 5: 2}}
+DURAK = {"C": {1: 2, 2: 1, 3: 1, 4: 1, 5: 0}, "B": {1: 3, 2: 3, 3: 3, 4: 3, 5: 2}}
 DURAK_DK = {"C": 5, "B": 6}
 
 OYUNLAR = {
