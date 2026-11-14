@@ -848,6 +848,7 @@ Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 
 | Yedek film | Yerine geçtiği gün | Asıl filmden farkı | Ne zaman seçilir |
 |---|---|---|---|
+| Lego Filmi | 1. gün (Bilgi) | “Aldatılmak” yerine “sorgulamamak”: Kimse bizi aldatmasa da sorgusuz kabul ettiklerimizi biliyor muyuz? Soru: “Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?” | Grup Truman Show'u izlemişse, küçük yaş ağırlıklıysa ya da neşeli bir başlangıç isteniyorsa |
 | Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Bana verilen bir şey ne zaman benim olur?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
 | 12 Kızgın Adam | 4. gün (Toplum) | “Eşitlik” yerine **başka bir ilk cevabı** sınar: “Kimseyle ters düşmemek.” Soru: “Bir grubun verdiği karar ne zaman adil olur?” | Lise ağırlıklı grupta, ya da Başlangıç yapraklarında “herkesle iyi geçinmek” cevabı sıksa |
 
@@ -858,6 +859,157 @@ Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 2. **Gün yaprağı:** O günün yaprağı yerine yedek filmin yaprağını dağıt (`defter-yaprak-yedek-*.pdf`).
 3. **Duvar ve görseller:** Günün afişi, not kartı ve ikilem tabelaları yerine yedek filminkileri kullan (`gorseller/pdf/yedek-*`).
 4. **Köprüler:** Yedek sayfasındaki “dünden” ve “yarına” köprü cümlelerini kullan. Diğer günlerin sayfaları değişmez.
+
+---
+
+## YEDEK · 1. GÜN · Lego Filmi
+
+### SAYFA · GÜN VE AKIŞ
+
+**IMDb:** <https://www.imdb.com/title/tt1490017/>
+
+- **Sınadığımız ilk cevap:** “İyi bir hayat mutlu bir hayattır.” Bu film mutluluğun “sorgusuz uyum”dan gelen biçimini sınar.
+- **Günün Açık Sorusu (tahtada tek başına):** **Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?** <span class="et">Açık Soru · s. 34</span>
+- **Kamp sorusuna köprü:** İyi bir hayat için her şeyi sorgulamak mı gerekli, yoksa bazı şeylere güvenmek yeterli mi?
+
+[[ÜST BLOK SONU]]
+
+**Günün akışı** (yaklaşık 3 sa 38 dk)
+
+| Saat | Ne yapıyoruz | Süre |
+|---|---|---|
+| 0:00 | Hoş geldiniz, dört kural | 5 dk |
+| 0:05 | Başlangıç yaprağı | 12 dk |
+| 0:17 | *The Present* ve “soruların altındaki soru” alıştırması | 7 dk |
+| 0:24 | İzleme görevi tahtaya | 3 dk |
+| 0:27 | Film, üç durakla (6'şar dk) | 100 + 18 dk |
+| 2:25 | Ara ve enerji oyunu “Talimat der ki” | 10 dk |
+| 2:35 | Tartışma | 60 dk |
+| 3:35 | Köprü ve hayattan soru görevi | 3 dk |
+
+**Hassas içerik notu (filmden önce):** “Bugünkü film komik ve hızlı. Birkaç kovalama ve bir karakterin öldüğü kısa bir an var, ama ağır değil.”
+
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
+
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Emmet (talimatlara göre yaşayan inşaat işçisi) neyi biliyor, neyi sadece kabul ediyor? Film bitince ne düşüneceksiniz, bakalım.”</p>
+
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
+
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
+
+### SAYFA · 1. VE 2. DURAK
+
+::: durak
+#### 1. durak · yaklaşık 5–12. dk · Talimat kitabı
+
+**Sahne:** Emmet güne talimatları izleyerek başlıyor: ne yiyeceğini, nasıl selam vereceğini, nasıl mutlu olacağını bir kitaptan okuyor. Bütün şehir aynı şarkıyı söyleyerek işe gidiyor: “Her şey harika!” Emmet işe varınca durdur. **Koşul:** Bir şey yalnızca söylendiği için yapılıyor.
+
+**Açık Soru:** “Emmet her şeyi bir talimat kitabına göre yapıyor ve çok mutlu. Bir şeyi yalnızca söylendiği için yapıyorsak, neden yaptığımızı biliyor muyuz?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer talimatlar hep doğru çıkıyorsa, o zaman onları sorgulamadan izlemek bir sorun mu?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Senin her gün neden yaptığını hiç düşünmeden yaptığın bir şey var mı?”
+
+**Geri çağır:** 1. basamak (bilgi mi, alışkanlık mı?).
+:::
+
+::: durak
+#### 2. durak · yaklaşık 70–80. dk · Uydurma kehanet · düğüm noktası
+
+**Sahne:** Emmet ve arkadaşları yakalanıyor. Lord Business (her şeyi “olması gereken yerde” tutmak isteyen kötü lider) Vitruvius'u (Emmet'in “Özel” olduğuna dair kehaneti söyleyen bilge) yok ediyor. Vitruvius, Emmet'e kehaneti kendisinin uydurduğunu söylüyor. Sonra hayaleti dönüp Emmet'i “Özel” yapan şeyin kendine inanması olduğunu söylüyor. Bu konuşma bitince durdur. **Koşul:** İnandığımız bir şeyin uydurma olduğu ortaya çıkıyor.
+
+**Açık Soru:** “Emmet uydurma bir kehanete inandı ve bu inanç onu değiştirdi. Doğru olmadığı ortaya çıkan bir şeye inanmak, bir şey bilmek midir, sadece inanmak mı, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Emmet kehanetin uydurma olduğunu baştan bilseydi, yine aynı şeyleri yapar mıydı? Ya da hiç öğrenmeseydi?” <span class="et">Ya… ya da… · s. 59–60</span>
+- *“Ama sonunda işe yaradı.”* derse: “Senin düşüncene göre işe yarayan bir inanç doğrudur, öyle mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+
+**Geri çağır:** 3. basamak (kamp sorusuna köprü).
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 82–90. dk · Bodrum
+
+**Sahne:** Emmet uçurumdan düşüyor ve gerçek dünyada uyanıyor: Bütün Lego dünyası, bir bodrumda Finn adlı bir çocuğun, babasının Lego koleksiyonuyla oynadığı bir oyunmuş. Babası parçaları yapıştırıcıyla yerine sabitlemeye başlıyor. Emmet'in bu dünyayı gördüğü an bitince durdur. **Koşul:** Bütün dünyanın kendisi başka bir şey çıkıyor.
+
+**Açık Soru:** “Emmet, bildiği bütün dünyanın bir çocuğun oyunu olduğunu gördü. Bu, orada yaşadığı ve bildiği her şeyi daha az gerçek yapar mı?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer bizim dünyamız da başka birinin oyunu olsaydı, bildiklerimiz yine bilgi olur muydu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- “Bir şeyin gerçek olması için ne gerekli?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+
+**Geri çağır:** 4. basamak ve ikilem.
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · Kavrama Zamanı.** “Filmi birlikte anlatalım. Hızlı bir filmdi: Kim kimdi, ne oldu? Biri başlasın, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–12 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir. Sonra demir at: “Bütün bunların altındaki soru ne?” Tahtaya tek başına yaz: **Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
+
+### SAYFA · MERDİVEN: 1. VE 2. BASAMAK
+
+**1. basamak · Bilgi mi, alışkanlık mı?** *Geri çağır:* “Talimat kitabını hatırlıyor musunuz?” *Açık Soru:* “Emmet her sabah talimatlara göre yaşarken yaptıklarını biliyor muydu, yoksa sadece alışmış mıydı, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli · s. 55</span>
+- *“Biliyordu, kitapta yazıyordu.”* “Senin düşüncene göre bir kitapta yazıyorsa bilgidir, öyle mi? Kitapta yanlış bir şey yazamaz mı?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Bilmiyordu, sadece alışmıştı.”* “Sen de dişlerini neden fırçaladığını öğrenmeden önce fırçaladın. O zaman bilmiyor muydun?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Bilmek, bir şeyi bilmektir.”* “‘Bilmek’ kelimesini kullanmadan anlatabilir misin?” <span class="et">Döngüden çıkarmak · s. 52</span>
+- *“Ama mutluydu, ne önemi var?”* “Eğer mutluysa, o zaman neden yaptığını bilmesine gerek yok mu?” <span class="et">Eğer… o zaman · s. 27</span>
+
+**2. basamak · Islak saçla dışarı çıkmak** *Açık Soru:* “Eğer sana küçükken ‘Islak saçla dışarı çıkarsan hasta olursun’ dendiyse ve sen bunu hiç sınamadıysan, bunu biliyor musun?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Biliyorum, annem söyledi.”* “Annenin söylediği her şey doğru mu? Annen bunu nereden biliyor?” <span class="et">Açma soruları · s. 36</span>
+- *“Bilmiyorum, sadece inanıyorum.”* “O zaman Dünya'nın yuvarlak olduğunu da bilmiyor musun? Kendin gördün mü?” <span class="et">Karşı örnek · s. 51</span>
+- *“Denersem öğrenirim.”* “Her şeyi denemek gerekli mi? Zehirli bir mantarı da mı denersin?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Belki doğrudur, belki değildir.”* “Eğer hiç sınamadıysak, o zaman ‘biliyorum’ demeli miyiz, ‘inanıyorum’ mu?” <span class="et">“Belki” problemi · s. 53</span>
+
+### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN
+
+**3. basamak · Kamp sorusuna köprü** *Geri çağır:* “Uydurma kehaneti hatırlıyor musunuz?” *Açık Soru:* “İyi bir hayat için her şeyi sorgulamak mı gerekli, yoksa bazı şeylere güvenmek yeterli mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Her şeyi sorgulamak.”* “Senin düşüncene göre doğum gününü, adını, arkadaşının sözünü de sorgulamalısın, öyle mi? Böyle bir hayat nasıl olurdu?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Güvenmek yeter.”* “Bricksburg'da herkes güveniyordu ve Lord Business onları yapıştırmak üzereydi. Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Bazılarını sorgularım, bazılarına güvenirim.”* “Hangisini sorgulayacağına nasıl karar verirsin? Bir ölçüt söyle. Yoksa başka bir yol mu var?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+- *Grup tek tarafta birleşirse:* “Vitruvius olsaydınız, uydurma bir kehanet söylemeyi nasıl savunurdunuz?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+
+**4. basamak · Her soruya cevap veren kitap** *Geri çağır:* “Bodrumu hatırlıyor musunuz?” *Açık Soru:* “Eğer hayatındaki her karar için doğru cevabı veren bir kitap olsaydı ve ona uyarsan hep mutlu olacak olsaydın, ama neden öyle olduğunu hiç öğrenemeseydin, kitabı kullanır mıydın?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Eğer sanatı · s. 27</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+- *“Kullanırım, hata yapmam.”* “Kitap ‘bu arkadaşla konuşma’ derse? Nedenini bilmeden yapar mısın?” <span class="et">Eğer şu şekilde düşünseydik · s. 53</span>
+- *“Kullanmam, kendim düşünmek isterim.”* “Senin düşüncene göre kendi kararın yanlış da olsa daha değerli, öyle mi? Neden?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Ama kitap yanılabilir.”* “Hiç yanılmayacağını düşünelim.” <span class="et">Sınır çizen soru · s. 55</span>
+- *“Sadece zor kararlarda kullanırım.”* “Hangi kararlar zor? Bir arkadaşın hangisini kullanacağını söyleseydi, onunla çelişir miydin?” <span class="et">Fikir çatışması oyunu · s. 57</span>
+
+**Takılırsan.**
+- **Herkes B'de (kendi yolum):** “Size katılmayan biri ne derdi? Ağır bir hatanın bedelini başkası öderse?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes A'da (kitap):** “Size katılmayan biri ne derdi? Kitabın senin için seçtiği bir hayat senin mi?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “hiçbir şeyi bilemeyiz” diyor:** “Emin olduğun tek bir şey bulabilir misin?” <span class="et">Yanlışlama · s. 51</span>
+- **Konu filmin şakalarına kaydı:** “Evet ve… o zaman sorgulamadan kabul ettiğimiz bir şeyi biliyor muyuz?” <span class="et">Demir atmak · s. 48</span>
+- **Sessizlik:** İki dakika ikili konuşma: “Hiç sorgulamadan kabul ettiğin bir kuralı anlat.” <span class="et">Konuşma Zamanı · s. 34</span>
+
+### SAYFA · İKİLEM VE KAPANIŞ
+
+**dk 42–50 · Kapanış ikilemi: cevap kitabı (hareketli).** Herkes ayağa kalkar ve bir duvar seçer. “Her kararın için doğru cevabı veren bir kitap var. Ona uyarsan hep mutlu olursun, ama nedenini hiç öğrenemezsin.”
+
+<table class="ikilem"><tr><td><div class="harf">A</div><b>Kitabı kullanırım.</b> Mutlu ama nedenini bilmediğim bir hayat.<div class="ters">A'dakilere: “Kitap senin yerine düşünürse, o hayat kimin hayatı?”</div></td><td><div class="harf">B</div><b>Kullanmam.</b> Kendi yolumu bulurum, yanılsam da.<div class="ters">B'dekilere: “Kendi yolunu bulmaya çalışırken ağır bir hata yaparsan? Kitap bunu engelleyebilirdi.”</div></td></tr></table>
+
+Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span> Ters köşe soruları iki tarafa da onlara katılmayan birinin sesiyle sorulur. <span class="et">Hayali muhalif · s. 50</span> “Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?”
+
+**dk 50–55 · Kamp sorusuna dönüş.** “Sabah birçoğunuz ‘mutlu olmak’ yazdınız. Bricksburg'da herkes mutluydu. Bugünden sonra bu cevaba ne eklemek gerekiyor?” Grubun cümlesi ve açık kalan soru 1. gün kartına yazılır.
+
+**dk 55–60 · Gün yaprağı.** Sessiz beş dakika.
+
+**Köprü (3 dk).** “Bugün dışarıdaki dünyayı ve bize söylenenleri nasıl bildiğimizi sorduk. Emmet sonunda talimatsız bir şey yaptı. Ama bir soru açık kaldı: Talimatlar olmadan Emmet kim? Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Yarın içerideki dünyaya bakacağız.” **Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bunu neden böyle yapıyoruz?’ dediğin bir an yakala.”
+
+**Hassas anlar.**
+- **Vitruvius'un ölümü:** Kısa ve komik bir dille işleniyor, sonra hayaleti geri dönüyor. Yakın zamanda kayıp yaşamış bir çocuğa önceden kısaca söyle.
+- **Baba ile çocuk:** Finn'in babasının oyuncakları yapıştırması, katı kurallı bir evde büyüyen bir çocuğa dokunabilir. Soruları “bir insan” üzerinden sor, kimsenin ailesini örnek gösterme.
+- **“Islak saç” deneyi:** Ailelerin inançlarıyla dalga geçmeye dönmesin: “Burada kimin ailesinin haklı olduğunu değil, bir şeyi nasıl bildiğimizi konuşuyoruz.”
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Yaklaşık 2.400 yıl önce Sokrates adında bir filozof Atina sokaklarında insanlara tam bugünkü soruyu sordu: Bildiğini sandığın şeyi gerçekten biliyor musun?”
 
 ---
 

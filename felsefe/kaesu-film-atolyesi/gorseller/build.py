@@ -78,11 +78,18 @@ YEDEKLER = [
          A=("Kesin kanıt yoksa ceza yok", "Suçsuz biri asla ceza almaz, ama kopya çekenler bazen kaçar."),
          B=("Güçlü şüphe yeterli", "Kopya çekenler neredeyse hiç kaçmaz, ama arada bir suçsuz biri ceza alır."),
          hero="8 numara", kapi="Herkes aynı fikirdeyken “Emin değilim, konuşalım” dedi.", kapi_alt=None),
+    dict(n=1, key="lego", t="t-lego", film="Lego Filmi", TEMA="BİLGİ", tema_alt="Bilmek ve sorgusuz kabul",
+         soru="Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?",
+         gorev="Film boyunca tek bir soruyu aklında tut: Emmet neyi biliyor, neyi sadece kabul ediyor?",
+         ikilem_q="Her kararın için doğru cevabı veren bir kitap var. Ona uyarsan hep mutlu olursun, ama nedenini hiç öğrenemezsin. Kullanır mısın? Yoksa başka bir yol mu var?",
+         A=("Kitabı kullanırım", "Mutlu ama nedenini bilmediğim bir hayat."),
+         B=("Kendi yolumu bulurum", "Kullanmam. Yanılsam da kendim düşünürüm."),
+         hero="Emmet", kapi="Talimat kitabını bırakıp kendi parçasını kurdu.", kapi_alt=None),
 ]
 BYKEY = {d["key"]: d for d in DAYS + YEDEKLER}
 
 # Motif hizalaması: dar şeritlerde motifin en karakteristik kısmı görünsün
-ALIGN = dict(truman="xMidYMid", io2="xMidYMid", wonder="xMidYMid", zoo="xMidYMax", soul="xMidYMax", robot="xMidYMid", adam="xMidYMid", camp="xMidYMid")
+ALIGN = dict(truman="xMidYMid", io2="xMidYMid", wonder="xMidYMid", zoo="xMidYMax", soul="xMidYMax", robot="xMidYMid", adam="xMidYMid", lego="xMidYMid", prens="xMidYMax", walle="xMidYMax", camp="xMidYMid")
 
 
 # --------------------------------------------------------------------------------------
@@ -219,9 +226,15 @@ def m_zoo(u):
             for wx in range(int(x0 + 4), int(x0 + w - 5), 7):
                 if rnd.random() < 0.7:
                     front.append(f'<rect x="{wx}" y="{wy}" width="3.4" height="5" fill="#f4d35e"/>')
-    # çöl bölgesi: kubbeler
-    for (x0, r) in [(258, 22), (292, 16), (318, 26)]:
-        front.append(f'<path d="M{x0 - r},200 L{x0 - r},{200 - r * 1.6:.0f} A{r},{r} 0 0 1 {x0 + r},{200 - r * 1.6:.0f} L{x0 + r},200Z" fill="#e07a2e"/>')
+    # çöl bölgesi: kum rengi, basamaklı, pencereli binalar (eski turuncu kubbeler ağaç gibi görünüyordu)
+    for (x0, w, h) in [(244, 30, 66), (277, 22, 88), (302, 36, 58)]:
+        front.append(f'<rect x="{x0}" y="{200 - h}" width="{w}" height="{h}" fill="#c9965a"/>'
+                     f'<rect x="{x0 + w * 0.15:.1f}" y="{200 - h - 10}" width="{w * 0.7:.1f}" height="10" fill="#b8844a"/>'
+                     f'<rect x="{x0 + w * 0.32:.1f}" y="{200 - h - 17}" width="{w * 0.36:.1f}" height="7" fill="#a8763f"/>'
+                     f'<rect x="{x0}" y="{200 - h}" width="{w}" height="3" fill="#e2b77e"/>')
+        for wy in range(int(200 - h + 9), 190, 11):
+            for wx in range(int(x0 + 4), int(x0 + w - 5), 8):
+                front.append(f'<rect x="{wx}" y="{wy}" width="4" height="4" rx="1.5" fill="#6b4422" fill-opacity=".55"/>')
     # yağmur ormanı: yuvarlak tepeli kuleler
     for (x0, w, h) in [(346, 20, 110), (368, 26, 84), (392, 16, 96)]:
         front.append(f'<rect x="{x0}" y="{200 - h}" width="{w}" height="{h}" rx="{w / 2}" fill="#3f7d4f"/>'
@@ -338,7 +351,117 @@ def adam_mini():
     return "".join(g)
 
 
-MOTIFS = dict(truman=m_truman, io2=m_io2, wonder=m_wonder, zoo=m_zoo, soul=m_soul, robot=m_robot, adam=m_adam)
+def m_lego(u):
+    """Lego Filmi: talimat kitabı ızgarasında dizili aynı tuğlalar, biri dışarı taşmış farklı renkte (özgün çizim)."""
+    defs = (f'<linearGradient id="{u}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f6fb5"/>'
+            f'<stop offset="1" stop-color="#7fb2e3"/></linearGradient>')
+    s = [f'<rect width="400" height="200" fill="url(#{u}g)"/>']
+    # talimat ızgarası
+    for x in range(0, 401, 25):
+        s.append(f'<line x1="{x}" y1="0" x2="{x}" y2="200" stroke="#ffffff" stroke-opacity=".12" stroke-width="1"/>')
+    for y in range(0, 201, 25):
+        s.append(f'<line x1="0" y1="{y}" x2="400" y2="{y}" stroke="#ffffff" stroke-opacity=".12" stroke-width="1"/>')
+
+    def tugla(x, y, w, h, renk, n):
+        g = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="2" fill="{renk}" stroke="#1d2a3a" stroke-opacity=".35" stroke-width="1"/>']
+        aralik = w / n
+        for i in range(n):
+            cx = x + aralik * (i + .5)
+            g.append(f'<rect x="{cx - 6:.1f}" y="{y - 5}" width="12" height="6" rx="1.5" fill="{renk}" stroke="#1d2a3a" stroke-opacity=".35" stroke-width="1"/>')
+        return "".join(g)
+    # aynı tuğlalardan düzenli bir duvar
+    for sira in range(4):
+        y = 150 - sira * 26
+        kay = 0 if sira % 2 == 0 else 24
+        for i in range(5):
+            x = 40 + kay + i * 52
+            if x + 48 <= 330:
+                s.append(tugla(x, y, 48, 22, "#f2c230", 2))
+    # dışarı taşan, farklı bir tuğla
+    s.append(f'<g transform="rotate(-14 352 70)">{tugla(330, 58, 48, 22, "#e0533d", 2)}</g>')
+    s.append('<path d="M300 90 Q322 72 336 74" fill="none" stroke="#ffffff" stroke-opacity=".7" stroke-width="2" stroke-dasharray="4 4"/>')
+    return _svg("".join(s), defs, ALIGN["lego"])
+
+
+def lego_mini():
+    g = ['<rect x="-25" y="-25" width="50" height="50" fill="#2f6fb5"/>']
+    for (x, y, r) in [(-16, 6, "#f2c230"), (0, 6, "#f2c230"), (-8, -10, "#f2c230")]:
+        g.append(f'<rect x="{x}" y="{y}" width="15" height="10" rx="1.5" fill="{r}" stroke="#1d2a3a" stroke-opacity=".4" stroke-width=".6"/>'
+                 f'<rect x="{x + 2.5}" y="{y - 2.5}" width="4" height="3" fill="{r}"/><rect x="{x + 8.5}" y="{y - 2.5}" width="4" height="3" fill="{r}"/>')
+    g.append('<g transform="rotate(-18 16 -10)"><rect x="9" y="-14" width="15" height="10" rx="1.5" fill="#e0533d"/>'
+             '<rect x="11.5" y="-16.5" width="4" height="3" fill="#e0533d"/><rect x="17.5" y="-16.5" width="4" height="3" fill="#e0533d"/></g>')
+    return "".join(g)
+
+
+def m_prens(u):
+    """Küçük Prens: gece göğünde küçük bir gezegen, üstünde cam fanus altında tek bir gül ve uzakta bir uçak (özgün çizim)."""
+    defs = (f'<linearGradient id="{u}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2550"/>'
+            f'<stop offset="1" stop-color="#3d4f8f"/></linearGradient>')
+    s = [f'<rect width="400" height="200" fill="url(#{u}g)"/>']
+    rnd = random.Random(7)
+    for _ in range(40):
+        x, y, r = rnd.uniform(0, 400), rnd.uniform(0, 200), rnd.uniform(.6, 1.6)
+        s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" fill="#fff6d8" fill-opacity="{rnd.uniform(.4, .95):.2f}"/>')
+    s.append(_sparkle(318, 44, 9, "#ffd85f"))
+    # gezegen
+    s.append('<circle cx="200" cy="232" r="86" fill="#e9c98a"/><circle cx="200" cy="232" r="86" fill="none" stroke="#b48a4a" stroke-width="2"/>')
+    for (x, y, r) in [(150, 170, 6), (238, 168, 4.5), (196, 160, 3)]:
+        s.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="#c9a463"/>')
+    # gül ve fanus
+    s.append('<line x1="200" y1="146" x2="200" y2="122" stroke="#3f7a45" stroke-width="2.4"/>'
+             '<path d="M200 134 q-7 -3 -9 -9 q7 1 9 7" fill="#3f7a45"/>'
+             '<circle cx="200" cy="117" r="7" fill="#d6455d"/><path d="M194 116 q6 -9 12 0" fill="#b8324b"/>'
+             '<path d="M183 147 v-24 a17 17 0 0 1 34 0 v24 z" fill="#dff1ff" fill-opacity=".18" stroke="#dff1ff" stroke-opacity=".7" stroke-width="1.6"/>')
+    # uzakta uçak
+    s.append('<g transform="translate(70,58) rotate(-8)" fill="#f3eec8"><rect x="-14" y="-2.5" width="28" height="5" rx="2"/>'
+             '<rect x="-3" y="-11" width="6" height="22" rx="2"/><rect x="-14" y="-6" width="3" height="12" rx="1"/></g>')
+    return _svg("".join(s), defs, ALIGN["prens"])
+
+
+def prens_mini():
+    g = ['<rect x="-25" y="-25" width="50" height="50" fill="#1b2550"/>',
+         '<circle cx="0" cy="34" r="26" fill="#e9c98a"/>',
+         '<line x1="0" y1="8" x2="0" y2="-4" stroke="#3f7a45" stroke-width="1.6"/>',
+         '<circle cx="0" cy="-7" r="4.5" fill="#d6455d"/>',
+         '<path d="M-8 8 v-11 a8 8 0 0 1 16 0 v11 z" fill="none" stroke="#dff1ff" stroke-opacity=".8" stroke-width="1"/>']
+    for (x, y) in [(-16, -16), (15, -18), (18, -4), (-19, -2)]:
+        g.append(f'<circle cx="{x}" cy="{y}" r="1" fill="#fff6d8"/>')
+    return "".join(g)
+
+
+def m_walle(u):
+    """WALL-E: pus içinde sıkıştırılmış çöp küplerinden kuleler ve ön planda bir botun içinde tek bir filiz (özgün çizim)."""
+    defs = (f'<linearGradient id="{u}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3b36b"/>'
+            f'<stop offset="1" stop-color="#a86f3a"/></linearGradient>')
+    s = [f'<rect width="400" height="200" fill="url(#{u}g)"/>']
+    s.append('<circle cx="320" cy="48" r="24" fill="#fff3d6" fill-opacity=".55"/>')
+    rnd = random.Random(5)
+    for (x, katlar, ton) in [(24, 7, "#8a5a32"), (78, 9, "#7a4e2b"), (138, 5, "#946437"), (250, 8, "#7f532e"), (312, 6, "#8d5d34"), (360, 4, "#9a6a3c")]:
+        for k in range(katlar):
+            y = 180 - (k + 1) * 18
+            dx = rnd.uniform(-2.5, 2.5)
+            s.append(f'<rect x="{x + dx:.1f}" y="{y}" width="34" height="17" fill="{ton}" stroke="#4a2f19" stroke-opacity=".45" stroke-width="1"/>'
+                     f'<line x1="{x + dx + 4:.1f}" y1="{y + 6}" x2="{x + dx + 28:.1f}" y2="{y + 6}" stroke="#4a2f19" stroke-opacity=".3" stroke-width="1"/>')
+    s.append('<rect x="0" y="180" width="400" height="20" fill="#6e4423"/>')
+    # bot ve filiz
+    s.append('<path d="M176 182 v-26 h18 v14 h22 q8 0 8 8 v4 z" fill="#3c2a1e" stroke="#21160e" stroke-width="1.2"/>'
+             '<line x1="186" y1="156" x2="186" y2="132" stroke="#5aa547" stroke-width="2.6"/>'
+             '<path d="M186 140 q-11 -4 -13 -13 q10 2 13 11" fill="#5aa547"/><path d="M186 135 q10 -5 13 -14 q-10 3 -13 12" fill="#6fbf58"/>')
+    return _svg("".join(s), defs, ALIGN["walle"])
+
+
+def walle_mini():
+    g = ['<rect x="-25" y="-25" width="50" height="50" fill="#c88a4b"/>']
+    for (x, katlar) in [(-22, 3), (10, 4)]:
+        for k in range(katlar):
+            g.append(f'<rect x="{x}" y="{18 - (k + 1) * 9}" width="12" height="8" fill="#7a4e2b" stroke="#4a2f19" stroke-opacity=".5" stroke-width=".5"/>')
+    g.append('<path d="M-6 20 v-10 h7 v5 h8 q3 0 3 3 v2 z" fill="#3c2a1e"/>'
+             '<line x1="-2" y1="10" x2="-2" y2="-4" stroke="#5aa547" stroke-width="1.6"/>'
+             '<path d="M-2 0 q-6 -2 -7 -7 q6 1 7 6" fill="#5aa547"/><path d="M-2 -3 q6 -3 7 -8 q-6 2 -7 7" fill="#6fbf58"/>')
+    return "".join(g)
+
+
+MOTIFS = dict(truman=m_truman, io2=m_io2, wonder=m_wonder, zoo=m_zoo, soul=m_soul, robot=m_robot, adam=m_adam, lego=m_lego, prens=m_prens, walle=m_walle)
 _uid = [0]
 
 

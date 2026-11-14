@@ -30,6 +30,7 @@ GUNLER = {
 }
 YEDEK_KITAP = {
     "12 Kızgın Adam": dict(gun=4, film="12 Kızgın Adam", tema="Toplum", afis="yedek-gun4-12adam.jpg", imdb="tt0050083", kunye="Sidney Lumet, 1957, 96 dk, siyah-beyaz"),
+    "Lego Filmi": dict(gun=1, film="Lego Filmi", tema="Bilgi", afis="yedek-gun1-lego.jpg", imdb="tt1490017", kunye="Phil Lord, Christopher Miller, 2014, yaklaşık 100 dk"),
     "Vahşi Robot": dict(gun=2, film="Vahşi Robot", tema="Benlik", afis="yedek-gun2-robot.jpg", imdb="tt29623480", kunye="Chris Sanders, 2024, 102 dk"),
 }
 
@@ -72,12 +73,17 @@ def yedek_yaprak_robot():
                          "Kampta “Sen zaten böylesin” ya da “Ben böyle biriyim” dediğin veya duyduğun bir an. Gerçekten öyle mi? Yarın sabaha kadar yakalayıp buraya yaz.", "robot", yedek=True)
 
 
+def yedek_yaprak_lego():
+    return yp.yaprak_gun(1, "Lego Filmi", "Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?",
+                         "Kampta “Bunu neden böyle yapıyoruz?” dediğin bir an. Yarın sabaha kadar yakalayıp buraya yaz.", "lego", yedek=True)
+
+
 def yedek_yaprak_adam():
     return yp.yaprak_gun(4, "12 Kızgın Adam", "Bir grubun verdiği karar ne zaman adil olur?",
                          "Kampta bir grubun birlikte karar verdiği bir an: oyun seçimi, sıra, bir kural. Herkes dinlendi mi? Yarın sabaha kadar yakalayıp buraya yaz.", "adam", yedek=True)
 
 
-ROZET_SIRASI = ["truman", "io2", "wonder", "zoo", "soul", "robot", "adam"]
+ROZET_SIRASI = ["truman", "io2", "wonder", "zoo", "soul", "lego", "robot", "adam"]
 ROZET_BILGI = {}
 
 
@@ -299,6 +305,7 @@ SORU_KAYNAKLARI = {
     "soru-kaynaklari-gun3": ("gun3-mucize.md", "SORU KAYNAKLARI · 3. GÜN YAPRAĞI", "Mucize (Wonder)", 4),
     "soru-kaynaklari-gun4": ("gun4-zootropolis.md", "SORU KAYNAKLARI · 4. GÜN YAPRAĞI", "Zootropolis", 4),
     "soru-kaynaklari-gun5": ("gun5-soul.md", "SORU KAYNAKLARI · 5. GÜN VE VARIŞ YAPRAĞI", "Soul", 4),
+    "soru-kaynaklari-yedek-gun1-lego-filmi": ("yedek-gun1-lego-filmi.md", "SORU KAYNAKLARI · YEDEK FİLM · 1. GÜNÜN YERİNE", "Lego Filmi", 4),
     "soru-kaynaklari-yedek-gun2-vahsi-robot": ("yedek-gun2-vahsi-robot.md", "SORU KAYNAKLARI · YEDEK FİLM · 2. GÜNÜN YERİNE", "Vahşi Robot", 4),
     "soru-kaynaklari-yedek-gun4-12-kizgin-adam": ("yedek-gun4-12-kizgin-adam.md", "SORU KAYNAKLARI · YEDEK FİLM · 4. GÜNÜN YERİNE", "12 Kızgın Adam", 4),
 }
@@ -325,10 +332,11 @@ URUNLER = {
     "defter-yaprak-5-gun5": ("Düşünce yolculuğum · 5. gün", gun_yapragi(5), 1),
     "defter-yaprak-6-varis": ("Düşünce yolculuğum · Varış yaprağı", yp.yaprak_varis, 3),
     "defter-dusunce-yolculugum": ("Düşünce yolculuğum · bütün yapraklar", tum_defter, 10),
+    "defter-yaprak-yedek-gun1-lego-filmi": ("Düşünce yolculuğum · yedek film · Lego Filmi", yedek_yaprak_lego, 1),
     "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
     "defter-yaprak-yedek-gun4-12-kizgin-adam": ("Düşünce yolculuğum · yedek film · 12 Kızgın Adam", yedek_yaprak_adam, 1),
     "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
-    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 44),
+    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 50),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
     "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),

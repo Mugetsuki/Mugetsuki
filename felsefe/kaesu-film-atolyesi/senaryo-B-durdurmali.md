@@ -1194,6 +1194,63 @@ Söylenebilecek tek cümle: “Bugün sorduğunuz soruyu yaklaşık 2.300 yıl �
 
 Yedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme görevi, durma noktaları ve sorular (aşağıda), soru merdiveni, ikilem ve köprüler (modülde ve kitapçıkta). Patikadaki rozet `rozet-yapragi.pdf`'ten yapıştırılır, gün yaprağı yerine yedeğin yaprağı dağıtılır.
 
+## Yedek film · 1. günün yerine · Lego Filmi · Bilgi
+
+**Künye:** *The Lego Movie* (Türkiye'deki adı *Lego Filmi*), Phil Lord ve Christopher Miller, 2014, yaklaşık 100 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt1490017/
+
+Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun1-lego-filmi.md](moduller/yedek-gun1-lego-filmi.md). Moderatör kitapçığında “Yedek filmler” bölümü.
+
+- **Günün Açık Sorusu (tahtada tek başına):** **Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?** <span class="et">Açık Soru · s. 34</span>
+- **İzleme görevi:** **“Film boyunca tek bir soruyu aklınızda tutun: Emmet (talimatlara göre yaşayan inşaat işçisi) neyi biliyor, neyi sadece kabul ediyor? Film bitince ne düşüneceksiniz, bakalım.”**
+
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
+
+Üç durak aynı kavramı (bilgi) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
+
+### Durak 1 · yaklaşık 5–12. dk · Talimat kitabı
+
+**Sahne:** Emmet güne talimatları izleyerek başlıyor: ne yiyeceğini, nasıl selam vereceğini, nasıl mutlu olacağını bir kitaptan okuyor. Bütün şehir aynı şarkıyı söyleyerek işe gidiyor: “Her şey harika!” Emmet işe varınca durdur.
+
+**Koşul:** Bir şey yalnızca söylendiği için yapılıyor.
+
+**Açık Soru:** “Emmet her şeyi bir talimat kitabına göre yapıyor ve çok mutlu. Bir şeyi yalnızca söylendiği için yapıyorsak, neden yaptığımızı biliyor muyuz?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer talimatlar hep doğru çıkıyorsa, o zaman onları sorgulamadan izlemek bir sorun mu?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Senin her gün neden yaptığını hiç düşünmeden yaptığın bir şey var mı?”
+
+**Tartışmada geri çağır:** 1. basamak (bilgi mi, alışkanlık mı?).
+
+### Durak 2 · yaklaşık 70–80. dk · Uydurma kehanet · düğüm noktası
+
+**Sahne:** Emmet ve arkadaşları yakalanıyor. Lord Business (her şeyi “olması gereken yerde” tutmak isteyen kötü lider) Vitruvius'u (Emmet'in “Özel” olduğuna dair kehaneti söyleyen bilge) yok ediyor. Vitruvius, Emmet'e kehaneti kendisinin uydurduğunu söylüyor. Sonra hayaleti dönüp Emmet'i “Özel” yapan şeyin kendine inanması olduğunu söylüyor. Bu konuşma bitince durdur.
+
+**Koşul:** İnandığımız bir şeyin uydurma olduğu ortaya çıkıyor.
+
+**Açık Soru:** “Emmet uydurma bir kehanete inandı ve bu inanç onu değiştirdi. Doğru olmadığı ortaya çıkan bir şeye inanmak, bir şey bilmek midir, sadece inanmak mı, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Emmet kehanetin uydurma olduğunu baştan bilseydi, yine aynı şeyleri yapar mıydı? Ya da hiç öğrenmeseydi?” <span class="et">Ya… ya da… · s. 59–60</span>
+- *“Ama sonunda işe yaradı.”* derse: “Senin düşüncene göre işe yarayan bir inanç doğrudur, öyle mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+
+**Tartışmada geri çağır:** 3. basamak (kamp sorusuna köprü).
+
+### Durak 3 · yaklaşık 82–90. dk · Bodrum
+
+**Sahne:** Emmet uçurumdan düşüyor ve gerçek dünyada uyanıyor: Bütün Lego dünyası, bir bodrumda Finn adlı bir çocuğun, babasının Lego koleksiyonuyla oynadığı bir oyunmuş. Babası parçaları yapıştırıcıyla yerine sabitlemeye başlıyor. Emmet'in bu dünyayı gördüğü an bitince durdur.
+
+**Koşul:** Bütün dünyanın kendisi başka bir şey çıkıyor.
+
+**Açık Soru:** “Emmet, bildiği bütün dünyanın bir çocuğun oyunu olduğunu gördü. Bu, orada yaşadığı ve bildiği her şeyi daha az gerçek yapar mı?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer bizim dünyamız da başka birinin oyunu olsaydı, bildiklerimiz yine bilgi olur muydu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- “Bir şeyin gerçek olması için ne gerekli?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+
+**Tartışmada geri çağır:** 4. basamak ve ikilem.
+
+*Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
 ## Yedek film · 2. günün yerine · Vahşi Robot · Benlik
 
 **Künye:** *The Wild Robot* (Türkiye'deki adı *Vahşi Robot*), Chris Sanders, 2024, 102 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt29623480/

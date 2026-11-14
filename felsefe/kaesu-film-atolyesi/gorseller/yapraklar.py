@@ -17,6 +17,9 @@ ROZETLER = {
     "soul": (5, "Soul"),
     "robot": (2, "Vahşi Robot"),
     "adam": (4, "12 Kızgın Adam"),
+    "lego": (1, "Lego Filmi"),
+    "prens": (3, "Küçük Prens"),
+    "walle": (5, "WALL-E"),
 }
 ANA = ["truman", "io2", "wonder", "zoo", "soul"]
 
@@ -69,6 +72,12 @@ def _mini(key, u):
         g.append(kit.robot_mini())
     elif key == "adam":
         g.append(kit.adam_mini())
+    elif key == "lego":
+        g.append(kit.lego_mini())
+    elif key == "prens":
+        g.append(kit.prens_mini())
+    elif key == "walle":
+        g.append(kit.walle_mini())
     return "".join(g)
 
 
