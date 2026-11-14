@@ -111,3 +111,43 @@ table.form th { background: var(--hl-soft); font-weight: 700; }
 table.form td { background: var(--raised); }
 .gun-kutu i { display: inline-block; width: 6.5mm; height: 6.5mm; border: 0.35mm solid var(--line-strong); border-radius: 1.2mm; background: #fff; text-align: center; font-style: normal; font-weight: 700; line-height: 6mm; margin-right: 1mm; }
 .izin { display: flex; gap: 3mm; margin-bottom: 3.5mm; font-size: 11pt; }
+
+/* ---------- Defter yaprakları (gün gün dağıtılan, ferah) ---------- */
+.yaprak { padding: 15mm 17mm 14mm; font-size: 12pt; line-height: 1.4; }
+.yaprak .ust-serit { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; padding-bottom: 3mm; border-bottom: 0.4mm solid var(--line); }
+.yaprak .ust-serit .label { font-size: 9.5pt; }
+.yaprak .ust-serit .ad { display: flex; align-items: flex-end; gap: 2mm; font-weight: 700; font-size: 11pt; width: 78mm; }
+.yaprak .ust-serit .ad .fill { flex: 1; }
+.yaprak .alan { margin-top: 8mm; }
+.yaprak .alan-etiket { font-weight: 700; font-size: 13pt; }
+.yaprak .alan-ipucu { font-size: 10.5pt; color: var(--muted); margin-top: 0.5mm; }
+.lines.genis div { height: 11mm; border-bottom: 0.35mm solid var(--line-strong); }
+.yaprak .dot { width: 8mm; height: 8mm; border-width: 0.45mm; }
+.yaprak table.olcek td { padding: 4mm 0; font-size: 12pt; }
+.yaprak table.olcek th { font-size: 10.5pt; }
+.yaprak .keyif-genis { display: flex; align-items: center; gap: 5mm; margin-top: 3mm; }
+.yaprak .keyif-genis .sk { text-align: center; font-weight: 700; font-size: 10.5pt; }
+.yaprak .keyif-genis .sk .dot { display: block; margin: 0 auto 1mm; }
+.yaprak .soru-kutu { background: var(--hl-soft); border-radius: 5mm; padding: 5mm 6mm; margin-top: 6mm; }
+.yaprak .alt-not { position: absolute; left: 17mm; right: 17mm; bottom: 12mm; font-size: 10pt; color: var(--muted); border-top: 0.4mm solid var(--line); padding-top: 2.5mm; }
+
+/* ---------- Yaprak görselleri ---------- */
+.gun-bant { position: relative; height: 32mm; border-radius: 6mm; overflow: hidden; margin-top: 6mm; background: var(--koyu); }
+.gun-bant svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.gun-bant .etiket { position: absolute; left: 5mm; bottom: 4mm; background: var(--krem); color: var(--koyu); border-radius: 4mm; padding: 2.5mm 5mm 2.5mm 4mm; display: flex; align-items: center; gap: 3mm; }
+.gun-bant .etiket .title { font-size: 22pt; white-space: nowrap; }
+.gun-bant .etiket .pill { white-space: nowrap; flex: none; }
+.gun-bant .ilerleme { position: absolute; left: 5mm; top: 4mm; background: var(--krem); border-radius: 99mm; padding: 1.4mm 3.5mm; display: block; white-space: nowrap; font-size: 8.5pt; font-weight: 700; color: var(--koyu); line-height: 4.4mm; }
+.gun-bant .ilerleme i { display: inline-block; vertical-align: -0.9mm; margin-left: 1.4mm; width: 4mm; height: 4mm; border-radius: 50%; border: 0.35mm solid var(--koyu); background: #fff; }
+.gun-bant .ilerleme i.on { background: var(--sari); }
+
+.yaprak.gun .alan { margin-top: 5.5mm; }
+
+/* ---------- Patika (mm) ve rozetler ---------- */
+.patika { position: relative; width: 176mm; height: 43mm; margin-top: 4mm; }
+.patika svg { position: absolute; left: 0; top: 0; }
+.rz-et { position: absolute; width: 26mm; height: 7mm; overflow: hidden; font-size: 8.4pt; line-height: 1.12; color: var(--ink); }
+.rz-et b { display: block; font-weight: 700; }
+.rz-et span { display: block; color: var(--muted); font-size: 7.8pt; white-space: nowrap; }
+.rz-et.uc { width: 30mm; }
+.rz-parca { position: absolute; }

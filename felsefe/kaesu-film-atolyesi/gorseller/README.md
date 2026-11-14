@@ -36,24 +36,48 @@ Dosya adlarında: `gun1-truman` The Truman Show, `gun2-io2` Ters Yüz 2, `gun3-w
 | `pdf/kamp-bes-kapi.pdf` | Beş Kapı köşe kartları. Her sayfa bir filmin kimliğinde: kahraman ve onun seçimi | A4 dikey, 5 sayfa | %100 ölçek | 1 takım. 5. gün odanın beş köşesine asılır |
 | `pdf/kamp-topluluk-kurallari.pdf` | 1. Topluluk Kurallarımız (4 kural). 2. Konuşma Kalıpları. 3. Felsefi soru nedir? | A4 dikey, 3 sayfa | %100 ölçek | 1 takım. Kamp boyunca asılı kalır |
 
-## Defter, kitapçık ve formlar (Filya renkleri)
+## Düşünce Yolculuğum yaprakları, rozetler, kitapçık ve formlar (Filya renkleri)
 
-Bu dört ürün Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı #FFD85F, turuncu #F47A3C) ve Literata, Albert Sans fontlarıyla basılır. Logo kullanılmaz. Zemin krem olduğu için ev yazıcısı kenarda 3–5 mm beyaz bırakır, bu normaldir.
+Bu ürünler Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı #FFD85F, turuncu #F47A3C) ve Literata, Albert Sans fontlarıyla basılır. Logo kullanılmaz. Zemin krem olduğu için ev yazıcısı kenarda 3–5 mm beyaz bırakır, bu normaldir.
+
+### Düşünce Yolculuğum yaprakları (gün gün dağıtılır)
+
+| Dosya | Ne zaman dağıtılır | Kağıt ve baskı | Kaç adet |
+|---|---|---|---|
+| `pdf/defter-yaprak-0-baslangic.pdf` | 1. gün, filmden önce | A4, **çift yüz** (2 sayfa) | Öğrenci başına 1 |
+| `pdf/defter-yaprak-1-gun1.pdf` … `defter-yaprak-5-gun5.pdf` | Her günün son 5 dakikası | A4, tek yüz | Her günden öğrenci başına 1 |
+| `pdf/defter-yaprak-6-varis.pdf` | 5. gün sonunda | 2 yaprak: 1–2. sayfa **çift yüz**, 3. sayfa tek yüz | Öğrenci başına 1 takım |
+| `pdf/defter-dusunce-yolculugum.pdf` | Bütün yapraklar sırayla (10 sayfa) | Arşiv ve önizleme için. Basarken tek tek dosyaları kullanın, çift yüz ayarı karışmasın. | 1 |
+| `pdf/defter-yaprak-yedek-gun2-vahsi-robot.pdf` | Yedek film kullanılırsa, o günün yaprağı yerine | A4, tek yüz | Gerekirse öğrenci başına 1 |
+
+**Bir arada tutmak:** Her çocuğa bir A4 şeffaf kapaklı telli dosya önerilir. Başlangıç yaprağı ilk sayfadır. Moderatör her akşam o günün yaprağını takar. Daha ucuz yol: karton kapak yaprağı ve kamp sonunda tek zımba.
+
+**Patika ve rozetler:** Başlangıç ve Varış yapraklarında beş duraklı bir patika var. Her durak, o günün filminin rozetiyle işaretli. Rozet çapı 16 mm. Her rozetin altında 26 × 7 mm'lik bir etiket var (“2. gün · Ters Yüz 2”).
+
+### Rozet yaprağı (film değişirse)
+
+| Dosya | İçerik | Baskı |
+|---|---|---|
+| `pdf/rozet-yapragi.pdf` | Bütün ana filmlerin ve hazırlanan yedek filmlerin rozetleri. Her parça: 16 mm rozet ve altındaki etiket, çevresinde 1 mm taşma payı ve kesikli kesim çizgisi (28 × 26,5 mm). | A4, **%100 ölçek** (“gerçek boyut”). |
+
+- **Nasıl kullanılır:** Bir gün yedek film gösterilirse, o filmin rozetini kesikli çizgiden kesin. Başlangıç ve Varış yapraklarındaki patikada o günün rozetinin üstüne, rozet rozete oturacak şekilde yapıştırın. Parça, eski rozeti ve altındaki etiketi tamamen kapatır.
+- **Set mantığı:** Bir set, bir çocuğun Başlangıç ve Varış yaprakları içindir. Yani her rozetten 2 kopya.
+- **Bir A4'te kaç set var?** Sayfaya 48 parça sığıyor (6 sütun × 8 satır). Şu anki içerik 6 rozet (5 ana film ve Vahşi Robot), yani set başına 12 parça. Böylece **bir A4'te 4 set** çıkıyor. Bütün yedek filmler eklendiğinde (5 ana ve 5 yedek, set başına 20 parça) **bir A4'te 2 set** olacak. 20 çocuk için 10 A4 yeter.
+- **Baskı ipucu:** Rozet yaprağını **A4 etiket (sticker) kağıdına** basarsanız yapıştırıcı gerekmez. Kesip arkasındaki kâğıdı soyup yapıştırmanız yeter. Mat etiket kağıdı krem zemini daha doğru gösterir.
+
+### Moderatör kitapçığı ve formlar
 
 | Dosya | İçerik | Kağıt | Nasıl basılır | Kaç adet |
 |---|---|---|---|---|
-| `pdf/defter-dusunce-yolculugum.pdf` | **Düşünce Yolculuğum** defteri: 1. sayfa Başlangıç (ilk cevap, beş ifade), 2. sayfa 1–3. gün, 3. sayfa 4–5. gün, 4. sayfa Varış (şimdiki cevap, ne değişti, büyük soru, alıntı izni). Kapakta “Kamp adım: ______” satırı | A4 dikey, 4 sayfa | **Çift yüz** (uzun kenardan çevir), 2 yaprak, sol üstten zımbala | Öğrenci sayısı kadar (+2 yedek) |
-| `pdf/moderator-kitapcigi.pdf` | Altın kurallar, kamp omurgası ve her gün için ön-arka yaprak. Her günün ön yüzünde filmin küçük afişi ve IMDb bağlantısı var | A4 dikey, 12 sayfa | **Çift yüz**: 1–2. sayfa bir yaprak, sonra her gün bir yaprak | 1 takım (+1 yedek) |
+| `pdf/moderator-kitapcigi.pdf` | Altın kurallar, kamp omurgası, her gün için ön-arka yaprak ve sonda “Yedek filmler” bölümü. Her günün ön yüzünde filmin küçük afişi ve IMDb bağlantısı var. | A4 dikey | **Çift yüz**: her gün bir yaprak | 1 takım (+1 yedek) |
 | `pdf/form-gozlem.pdf` | 1. sayfa gözlem formu, 2. sayfa rubrik | A4 dikey, 2 sayfa | **Çift yüz** | Her gün 1 (5 adet) |
 | `pdf/form-veli-onay.pdf` | Veli onay formu: rapor, alıntı ve fotoğraf için ayrı ayrı izin kutuları | A4 dikey, 1 sayfa | Tek yüz | Kamptan önce, öğrenci sayısı kadar |
 
-**Defter değişiyor:** Genel Müdür dört sayfalık defteri sıkışık buldu. Yerine gün gün dağıtılan ferah yapraklar geliyor. Başlangıç ve 1. gün yaprağı onay için `../ornekler/` klasöründe (bkz. `../ornekler/DEFTER-YAPRAKLARI.md`). Onaydan sonra `defter-dusunce-yolculugum.pdf` yaprak setiyle değiştirilecek.
-
-**Kaldırılan eski formlar:** iki ayrı anket, çıkış kartı, Felsefe Her Yerde kartı ve kartpostal. Hepsi deftere katıldı (bkz. [../olcme-degerlendirme.md](../olcme-degerlendirme.md)).
+**Kaldırılan eski formlar:** iki ayrı anket, çıkış kartı, Felsefe Her Yerde kartı, kartpostal ve dört sayfalık eski defter.
 
 **Afişler:** `afisler/` klasöründeki film afişleri yalnızca moderatör kitapçığında kullanılır (telif). Kaynakları `afisler/KAYNAK.md`'de.
 
-**Not:** Film görselleri (günlük afiş, not kartı, ikilem tabelaları, Beş Kapı) ve kamp afişleri henüz eski içerikte. Tek istisna Ters Yüz 2 ikilem tabelası: hap imgesi kaldırıldı, yerine onaylanan kasa imgesi kondu. Bu görseller Parça 3'te yeni içeriğe ve Yolculuk Duvarı'na göre güncellenecek.
+**Not:** Ana filmlerin görselleri (günlük afiş, not kartı, ikilem tabelaları, Beş Kapı) ve kamp afişleri henüz eski içerikte (Parça 3). İstisnalar: Ters Yüz 2 ikilem tabelasında hap yerine kasa imgesi var. Yedek filmlerin görselleri (`yedek-*`) yeni içerikle üretiliyor.
 
 ## Tasarım sistemi
 

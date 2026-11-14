@@ -48,7 +48,7 @@ KURALLAR_GUN1 = """## Hoş geldiniz ve topluluk kuralları (5 dk)
 3. Konuşurken ‘Katılıyorum, çünkü…’ ya da ‘Katılmıyorum, çünkü…’ diye başlarız. ‘Çünkü’ en önemli kelimemiz.
 4. Pas geçmek serbest. Kimse konuşmak zorunda değil.”
 
-*Defterleri dağıtın. Herkes kapağa kamp adını yazsın:* “Bu defter beş gün boyunca sizinle. Adı **Düşünce Yolculuğum.** Kimse buna not vermeyecek, yanlış diye bir şey yok. Her akşam ben toplayacağım, sabah geri vereceğim.”
+*Dosyaları ve Başlangıç yaprağını dağıtın. Herkes yaprağın üstüne kamp adını yazsın:* “Bu dosya beş gün boyunca sizinle. Adı **Düşünce Yolculuğum.** Her gün içine bir yaprak ekleyeceğiz. Kimse not vermeyecek, yanlış diye bir şey yok. Her akşam ben toplayacağım, sabah geri vereceğim.”
 
 """
 
@@ -95,7 +95,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/se
 
 | Malzeme | Not |
 |---|---|
-| **Düşünce Yolculuğum** defteri (öğrenci başına 1) | Kapağında yalnızca kamp adı. Her akşam toplanır, sabah dağıtılır. Not vermek ya da düzeltmek için okunmaz. `gorseller/pdf/defter-dusunce-yolculugum.pdf` |
+| **Düşünce Yolculuğum** yaprakları ve her çocuğa bir A4 şeffaf kapaklı telli dosya | Başlangıç (1. gün), her gün bir gün yaprağı, 5. gün Varış. Her yaprakta kamp adı satırı var. Dosyalar her akşam toplanır, o günün yaprağı takılır, sabah dağıtılır. Not vermek ya da düzeltmek için okunmaz. `gorseller/pdf/defter-yaprak-*.pdf` |
 {malzeme_ek}| Konuşma nesnesi | Küçük top ya da peluş. Elinde olan konuşur. |
 | İki duvar tabelası: **A** ve **B** | Kapanış ikilemi için. 5. gün yerine beş köşe kartı. |
 | **Yolculuk Duvarı** | Ortada kamp sorusu, etrafında beş gün kartı. Her kartta üç satır: “Bugün eklediğimiz parça”, “Açık kalan soru”, “Hayattan yakaladığımız soru”. Kalın kalem. |
@@ -104,7 +104,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/se
 
 **Oturma düzeni:** Film için sinema düzeni, tartışma için çember. Çemberde ortaokullu ve liseli karışık otursun.
 
-**Her akşam (10 dk):** Defterleri okuyun, ertesi sabah okunacak 2–3 “hayattan soru” seçin, gözlem formunu tamamlayın.
+**Her akşam (10 dk):** Dosyalardaki gün yapraklarını okuyun, ertesi sabah okunacak 2–3 “hayattan soru” seçin, gözlem formunu tamamlayın.
 
 ## Her gün geçerli: hassas paylaşım protokolü
 
@@ -123,7 +123,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/se
 | 12–42 | Soru merdiveni | Dört basamak. En az bir düşünce deneyi. Öğrenci şunu derse, siz şunu sorarsınız. |
 | 42–50 | Kapanış ikilemi (hareketli) | İki duvar. Her iki tarafa da bir “ters köşe” sorusu. |
 | 50–55 | Kamp sorusuna dönüş | Grubun bugün eklediği parça ve açık kalan soru gün kartına yazılır. |
-| 55–60 | Defter | Sessiz, günlük blok. |
+| 55–60 | Gün yaprağı | Sessiz, o günün yaprağı. |
 
 Ardından **3 dk kapanış:** köprü cümlesi ve hayattan soru görevi. 5. gün farklıdır: merdivenden sonra Beş Kapı ve Varış.
 

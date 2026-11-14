@@ -73,7 +73,7 @@ Eski sıra (bilgi, benlik, öteki, toplum, anlam) korunuyor ama artık bir hat: 
 
 ### Düşünce Yolculuğum (her çocuğa bir defter)
 
-İki A4 yaprak, çift yüz, zımbalı. Kapakta yalnızca **kamp adı**. Örnek: [ornekler/dusunce-yolculugu-ornek.pdf](ornekler/dusunce-yolculugu-ornek.pdf).
+Gün gün dağıtılan ferah A4 yapraklar: Başlangıç (ön ve arka), 1.–5. gün yaprakları ve Varış (iki yaprak). Her yaprağın üstünde **kamp adı** satırı var. Yapraklar her çocuğun şeffaf kapaklı telli dosyasında birikir. Basılı hâli: `gorseller/pdf/defter-*.pdf`.
 
 | Sayfa | Ne zaman | İçerik |
 |---|---|---|

@@ -478,7 +478,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 - Adalet: “Hiç sevinç olmayan bir hayatta?”
 - Yaşamanın kendisi: “Başkalarının haksızlığa uğradığı bir dünyada?”
 
-**Parçalar çatışırsa (dk 45–60):** “İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek?” Yalnızca soru sor, tahtaya yaz.
+**Parçalar çatışırsa (dk 45–56):** “İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek?” Yalnızca soru sor, tahtaya yaz. **dk 56–60:** 5. gün yaprağı.
 
 ### ARKA YÜZ
 
@@ -502,7 +502,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 - *“Her şey sıradan.”* “22 de öyle düşünüyordu. Sıradan bir şeyi değerli yapan ne?”
 - *“Anlamadım.”* “Truman (1. gün filminin kahramanı) hep bir dünyanın içindeydi ama onu göremiyordu. Sen hangi dünyayı göremiyor olabilirsin?”
 
-**Varış (25 dk):** Defterin 4. sayfası.
+**Varış (25 dk):** Varış yaprağı (iki yaprak).
 1. **Yan yana (3 dk):** “İlk sayfayı açın, ilk gün ne yazdığınızı sessizce okuyun.”
 2. **Şimdiki cevabım (4 dk):** “Bence iyi bir hayat … çünkü …”
 3. **Ne değişti, neden? (4 dk):** “Değişmediyse neden değişmediğini yazın.”
@@ -510,7 +510,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 5. **Hayatımda nerede? (3 dk):** Sonra beş ifade, “Kamp genel olarak” ve izin kutusu.
 6. **Paylaşım çemberi (6 dk):** “Herkes büyük sorusunu tek cümleyle söylesin. Pas serbest.”
 
-**Kampın son sözü:** “Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.” Defterleri topla. İsteyen çocuğa defterinin kopyasını ver.
+**Kampın son sözü:** “Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.” Dosyaları topla. Kamp sonunda dosya çocuğa verilir (önce rapor için kopya al).
 
 **Tıkanırsam**
 1. **Herkes “an önemli”:** “Hiç hedefi olmayan biri sabah neden kalkar?”

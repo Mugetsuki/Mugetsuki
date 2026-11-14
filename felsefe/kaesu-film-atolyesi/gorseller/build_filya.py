@@ -15,6 +15,8 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+import yapraklar as yp  # defter yaprakları ve rozetler
 HTML_DIR, PDF_DIR, PNG_DIR = ROOT / "html", ROOT / "pdf", ROOT / "onizleme"
 
 GUNLER = {
@@ -23,6 +25,9 @@ GUNLER = {
     3: dict(film="Mucize (Wonder)", tema="Öteki", afis="gun3-wonder.jpg", imdb="tt2543472", kunye="Stephen Chbosky, 2017, 113 dk"),
     4: dict(film="Zootropolis", tema="Toplum", afis="gun4-zoo.jpg", imdb="tt2948356", kunye="Byron Howard, Rich Moore, 2016, 108 dk"),
     5: dict(film="Soul", tema="Anlam", afis="gun5-soul.jpg", imdb="tt2948372", kunye="Pete Docter, Kemp Powers, 2020, 100 dk"),
+}
+YEDEK_KITAP = {
+    "Vahşi Robot": dict(gun=2, film="Vahşi Robot", tema="Benlik", afis="yedek-gun2-robot.jpg", imdb="tt29623480", kunye="Chris Sanders, 2024, 102 dk"),
 }
 
 
@@ -48,93 +53,30 @@ def fill(w=None):
 
 
 # --------------------------------------------------------------------------------------
-# Düşünce Yolculuğum defteri
+# Düşünce Yolculuğum: gün gün yapraklar (yapraklar.py)
 # --------------------------------------------------------------------------------------
-IFADELER = [
-    ("A", "Zor soruların tek bir doğru cevabı vardır."),
-    ("B", "Fikrimi söylerken nedenini de söylerim."),
-    ("C", "İyi bir gerekçe duyarsam fikrimi değiştiririm."),
-    ("D", "Felsefe filozofların ve büyüklerin işidir."),
-    ("E", "Yemek, oyun, kurallar gibi sıradan şeylerin altında da büyük sorular vardır."),
-]
+def gun_yapragi(n):
+    film, kavram, ipucu, key = yp.GUN_YAPRAKLARI[n]
+    return lambda: yp.yaprak_gun(n, film, kavram, ipucu, key)
 
 
-def olcek():
-    rows = "".join(f'<tr><td><b>{k}.</b> {t}</td>' + "".join(f'<td class="c">{dot()}</td>' for _ in range(5)) + "</tr>" for k, t in IFADELER)
-    return (f'<table class="olcek"><tr><th style="width:58%"></th><th>1<br>hiç</th><th>2</th><th>3</th><th>4</th><th>5<br>tamamen</th></tr>{rows}</table>')
+def tum_defter():
+    return yp.yaprak_baslangic() + "".join(gun_yapragi(n)() for n in range(1, 6)) + yp.yaprak_varis()
 
 
-def gun_blok(n):
-    g = GUNLER[n]
-    return f'''<div class="kart gun">
-    <div class="bas"><span class="pill sari">{n}. gün</span><span class="film">{g["film"]}</span></div>
-    <div class="soru-etiketi" style="margin-top:1mm">Kamp sorusuna bugünkü cevabım</div>
-    <div class="ipucu">İyi bir hayat … çünkü … Değişmediyse “Değişmedi, çünkü …” yaz. Bu da iyi bir cevap.</div>{lines(2, "tight")}
-    <div class="soru-etiketi">Bugün kafamı en çok karıştıran soru</div>{lines(1, "tight")}
-    <div class="soru-etiketi">Hayattan bir soru <span class="ipucu" style="font-weight:400">(kampta yakaladığım)</span></div>{lines(1, "tight")}
-    <div class="keyif">Bugün atölye: <span class="n">hiç sevmedim</span> {dot()} {dot()} {dot()} {dot()} {dot()} <span class="n">çok sevdim</span></div>
-  </div>'''
+def yedek_yaprak_robot():
+    return yp.yaprak_gun(2, "Vahşi Robot", "Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?",
+                         "Kampta “Ben böyle biriyim, değişmem” dediğin ya da duyduğun bir an. Yarın sabaha kadar yakalayıp buraya yaz.", "robot", yedek=True)
 
 
-def defter():
-    s1 = f'''<section class="sheet">
-  <div class="label">KAESU FELSEFE ATÖLYESİ</div>
-  <div class="title" style="font-size:30pt;margin-top:1mm">Düşünce yolculuğum</div>
-  <div class="kimlik">
-    <div class="row"><span>Kamp adım:</span>{fill()}</div>
-    <div class="row"><span>Yaşım:</span>{fill("16mm")}<span style="margin-left:8mm">{cb()} Ortaokul</span><span style="margin-left:4mm">{cb()} Lise</span></div>
-  </div>
-  <div class="blok-sari" style="margin-top:4mm">
-    <div class="label" style="color:var(--koyu)">KAMP SORUSU</div>
-    <div class="title" style="font-size:34pt;margin-top:1mm">İyi bir hayat nedir?</div>
-  </div>
-  <div class="alan-baslik"><div class="title" style="font-size:18pt">Başlangıç</div><span class="pill turuncu">1. gün · filmden önce</span></div>
-  <p style="margin-top:2mm">Daha hiçbir film izlemeden, şu an ne düşünüyorsun? Doğru cevap yok. Beşinci gün bu sayfaya geri döneceksin.</p>
-  <div class="soru-etiketi">Bence iyi bir hayat</div>{lines(3)}
-  <div class="soru-etiketi">çünkü</div>{lines(3)}
-  <div class="kart" style="margin-top:6mm"><div style="font-weight:700;margin-bottom:2mm">Bu cümlelere ne kadar katılıyorsun?</div>{olcek()}</div>
-  <div class="soru-etiketi" style="margin-top:6mm">Günlük hayatımda felsefe … karşıma çıkar.</div>
-  <div class="ipucu">Bilmiyorsan “bilmiyorum” yaz. Bu da bir cevap.</div>{lines(2)}
-</section>'''
-    s2 = f'''<section class="sheet">
-  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
-  <div class="title" style="font-size:22pt;margin-top:1mm">Her günün sonunda</div>
-  <p class="muted" style="margin-top:1mm">Beş dakika, sessiz. Kimse not vermeyecek. Kamp adım: {fill("55mm")}</p>
-  {gun_blok(1)}{gun_blok(2)}{gun_blok(3)}
-</section>'''
-    s3 = f'''<section class="sheet">
-  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
-  <div class="title" style="font-size:22pt;margin-top:1mm">Her günün sonunda</div>
-  <p class="muted" style="margin-top:1mm">Beş dakika, sessiz. Kamp adım: {fill("55mm")}</p>
-  {gun_blok(4)}{gun_blok(5)}
-  <div class="kart gun">
-    <div class="soru-etiketi" style="margin-top:0">Kampta yakaladığım başka sorular</div>
-    <div class="ipucu">Yemekte, oyunda, odada, bir konuşmada… Aklına geldikçe yaz.</div>{lines(3, "tight")}
-  </div>
-</section>'''
-    s4 = f'''<section class="sheet">
-  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
-  <div class="alan-baslik" style="margin-top:1mm"><div class="title" style="font-size:24pt">Varış</div><span class="pill turuncu">5. gün · son</span></div>
-  <p style="margin-top:1.5mm">Önce ilk sayfayı aç ve ilk gün ne yazdığını oku. Sesli okumak yok.</p>
-  <div class="soru-etiketi">1. Şimdi: Bence iyi bir hayat … çünkü …</div>{lines(2, "tight")}
-  <div class="soru-etiketi">2. Ne değişti, neden? <span class="ipucu" style="font-weight:400">Değişmediyse neden değişmediğini yaz.</span></div>{lines(2, "tight")}
-  <div class="blok-sari" style="margin-top:3mm;padding:4mm 5mm">
-    <div class="soru-etiketi" style="margin-top:0">3. Benim büyük sorum <span style="font-weight:400">(defterindeki “kafamı karıştıran sorulardan” birini seçebilirsin)</span></div>{lines(1, "tight")}
-    <div class="soru-etiketi">Şimdilik cevabım … çünkü …</div>{lines(2, "tight")}
-  </div>
-  <div class="soru-etiketi">4. Bu soru hayatımda nerede karşıma çıkıyor? <span class="ipucu" style="font-weight:400">Bir yer, bir an, bir kişi.</span></div>{lines(1, "tight")}
-  <div class="kart" style="margin-top:3mm;padding:3mm 4mm">
-    <div style="font-weight:700;margin-bottom:1mm">5. Bu cümlelere şimdi ne kadar katılıyorsun?</div>{olcek()}
-    <div class="soru-etiketi" style="margin-top:2mm">Günlük hayatımda felsefe … karşıma çıkar.</div>{lines(1, "tight")}
-  </div>
-  <div class="keyif" style="margin-top:3mm">6. Kamp genel olarak: <span class="n">hiç sevmedim</span> {dot()} {dot()} {dot()} {dot()} {dot()} <span class="n">çok sevdim</span></div>
-  <div class="soru-etiketi" style="margin-top:2mm">Değişmesini istediğim bir şey</div>{lines(1, "tight")}
-  <div class="kart" style="margin-top:3mm;padding:2.5mm 4mm;font-size:10pt">
-    <b>7. Yazdıklarım kullanılabilir mi?</b> Birini işaretle. Hiçbirini işaretlemezsen kullanılmaz.<br>
-    {cb()} Hiçbir yerde kullanılmasın. &nbsp; {cb()} Adım olmadan kullanılabilir. &nbsp; {cb()} Adım ve yaşımla kullanılabilir. Adım: {fill("30mm")}
-  </div>
-</section>'''
-    return s1 + s2 + s3 + s4
+ROZET_SIRASI = ["truman", "io2", "wonder", "zoo", "soul", "robot"]
+ROZET_BILGI = {}
+
+
+def rozet_yapragi():
+    html, set_sayisi, kapasite = yp.rozet_yapragi(ROZET_SIRASI)
+    ROZET_BILGI.update(set=set_sayisi, kapasite=kapasite)
+    return html
 
 
 # --------------------------------------------------------------------------------------
@@ -166,10 +108,19 @@ def kitapcik():
         if baslik.startswith("KAMP OMURGASI"):
             out.append(f'<section class="kitap genel">{bant("MODERATÖR KİTAPÇIĞI", "Kamp omurgası", "Kamp sorusu: İyi bir hayat nedir?", "OMURGA")}{md2html(govde)}</section>')
             continue
-        m = re.match(r"(\d)\. GÜN", baslik)
-        if not m:
+        if baslik.startswith("YEDEK FİLMLER"):
+            out.append(f'<section class="kitap genel">{bant("MODERATÖR KİTAPÇIĞI", "Yedek filmler", "Aynı durak, farklı yol", "YEDEK")}{md2html(govde)}</section>')
             continue
-        n = int(m.group(1)); g = GUNLER[n]
+        my = re.match(r"YEDEK · (\d)\. GÜN · (.+)", baslik)
+        m = re.match(r"(\d)\. GÜN", baslik)
+        if my:
+            g = dict(YEDEK_KITAP[my.group(2).strip()]); n = g["gun"]
+            ust_etiket = f"MODERATÖR KİTAPÇIĞI · YEDEK FİLM · {n}. GÜNÜN YERİNE"
+        elif m:
+            n = int(m.group(1)); g = GUNLER[n]
+            ust_etiket = f"MODERATÖR KİTAPÇIĞI · {n}. GÜN"
+        else:
+            continue
         on = govde.split("### ÖN YÜZ", 1)[1].split("### ARKA YÜZ", 1)[0]
         arka = govde.split("### ARKA YÜZ", 1)[1]
         on = re.sub(r"\*\*IMDb:\*\*[^\n]*\n", "", on)
@@ -179,8 +130,8 @@ def kitapcik():
         ust, alt = on.split("[[ÜST BLOK SONU]]", 1)
         ust_blok = f'<table class="ust-blok"><tr><td>{md2html(ust)}</td><td class="afis-hucre">{afis}</td></tr></table>'
         alt_baslik = f'{g["tema"]} · Kamp sorusu: İyi bir hayat nedir?'
-        out.append(f'<section class="kitap">{bant(f"MODERATÖR KİTAPÇIĞI · {n}. GÜN", g["film"], alt_baslik, "ÖN YÜZ")}{ust_blok}{md2html(alt)}</section>')
-        out.append(f'<section class="kitap">{bant(f"MODERATÖR KİTAPÇIĞI · {n}. GÜN", g["film"], alt_baslik, "ARKA YÜZ")}{md2html(arka)}</section>')
+        out.append(f'<section class="kitap">{bant(ust_etiket, g["film"], alt_baslik, "ÖN YÜZ")}{ust_blok}{md2html(alt)}</section>')
+        out.append(f'<section class="kitap">{bant(ust_etiket, g["film"], alt_baslik, "ARKA YÜZ")}{md2html(arka)}</section>')
     return "".join(out)
 
 
@@ -261,7 +212,16 @@ def veli():
 
 
 URUNLER = {
-    "defter-dusunce-yolculugum": ("Düşünce yolculuğum", defter, 4),
+    "defter-yaprak-0-baslangic": ("Düşünce yolculuğum · Başlangıç yaprağı", yp.yaprak_baslangic, 2),
+    "defter-yaprak-1-gun1": ("Düşünce yolculuğum · 1. gün", gun_yapragi(1), 1),
+    "defter-yaprak-2-gun2": ("Düşünce yolculuğum · 2. gün", gun_yapragi(2), 1),
+    "defter-yaprak-3-gun3": ("Düşünce yolculuğum · 3. gün", gun_yapragi(3), 1),
+    "defter-yaprak-4-gun4": ("Düşünce yolculuğum · 4. gün", gun_yapragi(4), 1),
+    "defter-yaprak-5-gun5": ("Düşünce yolculuğum · 5. gün", gun_yapragi(5), 1),
+    "defter-yaprak-6-varis": ("Düşünce yolculuğum · Varış yaprağı", yp.yaprak_varis, 3),
+    "defter-dusunce-yolculugum": ("Düşünce yolculuğum · bütün yapraklar", tum_defter, 10),
+    "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
+    "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
     "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 12),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
@@ -294,7 +254,9 @@ def main():
         pdf.close()
         uyari = "" if n == beklenen else f"  <-- beklenen {beklenen} sayfa"
         hata |= bool(uyari)
-        print(f"{ad:28s} {n:2d} sayfa{uyari}")
+        print(f"{ad:38s} {n:2d} sayfa{uyari}")
+    if ROZET_BILGI:
+        print("rozet yaprağı:", ROZET_BILGI)
     sys.exit(1 if hata else 0)
 
 

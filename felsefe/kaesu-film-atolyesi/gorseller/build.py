@@ -62,10 +62,20 @@ DAYS = [
          B=("Her günün küçük anları", "Büyük bir hedef olmadan her günün küçük şeylerinden keyif almak."),
          hero="Joe", kapi="Büyük hayalinin yanında sıradan anların değerini gördü.", kapi_alt=None),
 ]
-BYKEY = {d["key"]: d for d in DAYS}
+# Yedek filmler (AYNI DURAK, FARKLI YOL): n = yerine geçtiği gün
+YEDEKLER = [
+    dict(n=2, key="robot", t="t-robot", film="Vahşi Robot", TEMA="BENLİK", tema_alt="Yapıldığın şey mi, seçtiğin şey mi",
+         soru="Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?",
+         gorev="Roz (adada mahsur kalan robot) programında olmayan neler yapmaya başlıyor? Sen izlerken hangi anda “Bu artık bir makine değil” dedin?",
+         ikilem_q="Roz’u fabrika ayarlarına döndürebilirler: kusursuz çalışacak ama adada öğrendiği her şeyi ve Brightbill’i unutacak. Roz’un yerinde olsan?",
+         A=("Fabrika ayarına dönerim", "Kusursuz ve sorunsuz çalışırım, ama adada öğrendiklerimi ve sevdiklerimi hatırlamam."),
+         B=("Bugünkü hâlimle kalırım", "Bazen hata yapar, “bozuk” sayılırım, ama adada kim olduysam o olarak kalırım."),
+         hero="Roz", kapi="Yapıldığı şeyin ötesine geçip kendi seçtiği biri oldu.", kapi_alt=None),
+]
+BYKEY = {d["key"]: d for d in DAYS + YEDEKLER}
 
 # Motif hizalaması: dar şeritlerde motifin en karakteristik kısmı görünsün
-ALIGN = dict(truman="xMidYMid", io2="xMidYMid", wonder="xMidYMid", zoo="xMidYMax", soul="xMidYMax", camp="xMidYMid")
+ALIGN = dict(truman="xMidYMid", io2="xMidYMid", wonder="xMidYMid", zoo="xMidYMax", soul="xMidYMax", robot="xMidYMid", camp="xMidYMid")
 
 
 # --------------------------------------------------------------------------------------
@@ -238,7 +248,48 @@ def m_soul(u):
     return _svg("".join(s), defs, ALIGN["soul"])
 
 
-MOTIFS = dict(truman=m_truman, io2=m_io2, wonder=m_wonder, zoo=m_zoo, soul=m_soul)
+def m_robot(u):
+    """Vahşi Robot: gün batımı göğü, çam ağaçlı ada, göç eden kaz sürüsü, yaprağa dönüşen devre çizgileri."""
+    rnd = random.Random(23)
+    defs = (f'<linearGradient id="{u}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a2a24"/>'
+            f'<stop offset="0.55" stop-color="#d9824a"/><stop offset="1" stop-color="#f6c98a"/></linearGradient>')
+    s = [f'<rect width="400" height="200" fill="url(#{u}g)"/>', '<circle cx="300" cy="104" r="26" fill="#fde7b8" fill-opacity="0.9"/>']
+    # göç eden kaz sürüsü (V)
+    for i in range(-4, 5):
+        x, y = 150 + i * 13, 84 + abs(i) * 6
+        s.append(f'<path d="M{x - 5},{y + 3} L{x},{y} L{x + 5},{y + 3}" fill="none" stroke="#2b1a14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>')
+    # deniz ve ada
+    s.append('<rect x="0" y="168" width="400" height="32" fill="#2f5d62"/>')
+    s.append('<path d="M-10,172 C60,140 140,138 210,150 C270,160 330,150 410,168 L410,200 L-10,200Z" fill="#1f3d2b"/>')
+    for x in range(8, 400, 17):
+        h = rnd.uniform(26, 52)
+        base = 168 - 22 * (1 - abs(x - 200) / 260)
+        s.append(f'<polygon points="{x - 8},{base + 6:.0f} {x},{base - h:.0f} {x + 8},{base + 6:.0f}" fill="#163323"/>')
+    # devre çizgileri yaprağa dönüşüyor (soyut, özgün)
+    s.append('<g fill="none" stroke="#e8eef0" stroke-width="2" stroke-linecap="round" opacity="0.85">'
+             '<path d="M70,168 L70,128 L95,110 L95,94"/><path d="M70,146 L45,128 L45,112"/><path d="M95,110 L120,102"/></g>')
+    for (x, y) in [(95, 90), (45, 108), (124, 101)]:
+        s.append(f'<circle cx="{x}" cy="{y}" r="3.2" fill="#e8eef0"/>')
+    for (x, y, a) in [(95, 84, -20), (40, 102, -50), (131, 96, 30)]:
+        s.append(f'<ellipse cx="{x}" cy="{y}" rx="7" ry="3.5" transform="rotate({a} {x} {y})" fill="#7fb069"/>')
+    return _svg("".join(s), defs, ALIGN["robot"])
+
+
+def robot_mini():
+    """Rozet içi küçük Vahşi Robot motifi: merkez (0,0), yarıçap 25, düz renkler."""
+    g = ['<rect x="-25" y="-25" width="50" height="50" fill="#d9824a"/><rect x="-25" y="-25" width="50" height="14" fill="#8a4330"/>',
+         '<circle cx="9" cy="-2" r="6" fill="#fde7b8"/>', '<rect x="-25" y="12" width="50" height="13" fill="#2f5d62"/>',
+         '<path d="M-25,14 C-10,4 10,4 25,12 L25,25 L-25,25Z" fill="#1f3d2b"/>']
+    for x in (-15, -6, 3, 12):
+        g.append(f'<polygon points="{x - 4},14 {x},2 {x + 4},14" fill="#163323"/>')
+    for i in (-1, 0, 1):
+        x, y = -6 + i * 5, -14 + abs(i) * 3
+        g.append(f'<path d="M{x - 2.2},{y + 1.3} L{x},{y} L{x + 2.2},{y + 1.3}" fill="none" stroke="#2b1a14" stroke-width="1.1" stroke-linecap="round"/>')
+    g.append('<path d="M-14,12 L-14,0 L-9,-4" fill="none" stroke="#e8eef0" stroke-width="1.2"/><circle cx="-9" cy="-4" r="1.4" fill="#e8eef0"/><ellipse cx="-8" cy="-7" rx="2.6" ry="1.3" fill="#7fb069"/>')
+    return "".join(g)
+
+
+MOTIFS = dict(truman=m_truman, io2=m_io2, wonder=m_wonder, zoo=m_zoo, soul=m_soul, robot=m_robot)
 _uid = [0]
 
 
@@ -397,6 +448,11 @@ def products():
         p[f"{g}-afis"] = (f"{d['n']}. Gün afişi · {d['film']}", poster(d), 1)
         p[f"{g}-not-karti"] = (f"{d['n']}. Gün not kartı · {d['film']}", notecard(d), 1)
         p[f"{g}-ikilem"] = (f"{d['n']}. Gün ikilem tabelaları · {d['film']}", dilemma(d, "A") + dilemma(d, "B"), 2)
+    for d in YEDEKLER:
+        g = f"yedek-gun{d['n']}-{d['key']}"
+        p[f"{g}-afis"] = (f"Yedek film · {d['n']}. gün afişi · {d['film']}", poster(d), 1)
+        p[f"{g}-not-karti"] = (f"Yedek film · {d['n']}. gün not kartı · {d['film']}", notecard(d), 1)
+        p[f"{g}-ikilem"] = (f"Yedek film · {d['n']}. gün ikilem tabelaları · {d['film']}", dilemma(d, "A") + dilemma(d, "B"), 2)
     p["kamp-soru-duvari-basliklari"] = ("Soru Duvarı ve Hayattan Sorular", wall_pages(), 2)
     p["kamp-bes-kapi"] = ("Beş Kapı köşe kartları", door_pages(), 5)
     p["kamp-topluluk-kurallari"] = ("Topluluk Kuralları", rules_pages(), 3)

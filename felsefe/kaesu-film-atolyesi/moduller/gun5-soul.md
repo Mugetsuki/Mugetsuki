@@ -129,28 +129,32 @@ Sözcülerden sonra her köşeye bir ters köşe sorusu:
 
 “Başka bir köşeye geçmek isteyen var mı? Seni ne ikna etti?” Bitirirken: “Beş film, beş soru. Ama hepsi aynı büyük soruya çıktı. Ve görüyorsunuz, tek bir köşe yetmiyor. Parçalar birbirine ihtiyaç duyuyor.”
 
-### dk 45–60 · Kampın son tartışması: parçalar çatışırsa
+### dk 45–56 · Kampın son tartışması: parçalar çatışırsa
 
 “Son 15 dakika. Bu parçalar bazen çatışıyor. Truman gerçeği seçince mutluluğu riske attı. Jack iyi olmak için grubunu kaybetti. Judy (4. gün filminin tavşan polisi) haksızlığa yol açtığını anlayınca rozetini bıraktı. İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek bulabilir misin?”
 
 Bu bölümde moderatör yalnızca soru sorar ve tahtaya yazar. Amaç Varış'tan önce çocuğun kendi hayatından bir çatışmayı adlandırmasıdır. “Çünkü” istemeye devam edin.
 
+### dk 56–60 · 5. gün yaprağı
+
+“5. gün yaprağınızı doldurun: bugün kafanızı en çok karıştıran soru ve kampta fark ettiğiniz sıradan ama değerli bir an. Kamp sorusuna bugünkü cevabınızı birazdan Varış yaprağına yazacaksınız.”
+
 ## Varış (25 dk)
 
-Ayrıntı: [../kamp-omurgasi.md](../kamp-omurgasi.md), 4. bölüm. Basılı defterin 4. sayfası.
+Ayrıntı: [../kamp-omurgasi.md](../kamp-omurgasi.md), 4. bölüm. Basılı hâli: Varış yaprağı (`gorseller/pdf/defter-yaprak-6-varis.pdf`).
 
 | Süre | Adım | Moderatörün söyleyeceği |
 |---|---|---|
-| 3 dk | **Yan yana koyma** | “Defterinizin ilk sayfasını açın. İlk gün ne yazmıştınız? Sesli okumak yok, sadece kendinize okuyun.” |
+| 3 dk | **Yan yana koyma** | “Dosyanızdan Başlangıç yaprağını çıkarın. İlk gün ne yazmıştınız? Sesli okumak yok, sadece kendinize okuyun.” |
 | 4 dk | **Şimdiki cevabım** | “Şimdi aynı soruya bugünkü cevabınız: ‘Bence iyi bir hayat … çünkü …’” |
 | 4 dk | **Ne değişti, neden?** | “Ne değişti, neden? Hiçbir şey değişmediyse neden değişmediğini yazın. Bu da iyi bir cevap.” |
-| 5 dk | **Benim büyük sorum** | “Defterinizdeki ‘kafamı karıştıran sorulara’ bakın. Birini seçin ya da yenisini yazın. Bu sizin büyük sorunuz. Altına ‘Şimdilik cevabım … çünkü …’ yazın.” |
-| 3 dk | **Hayatımda nerede?** | “Bu soru günlük hayatınızda nerede karşınıza çıkıyor? Bir yer, bir an, bir kişi.” Ardından beş ifade ve “Kamp genel olarak” satırı, sonra izin kutusu. |
+| 5 dk | **Benim büyük sorum** | “Yapraklarınızdaki ‘kafamı karıştıran sorulara’ bakın. Birini seçin ya da yenisini yazın. Bu sizin büyük sorunuz. Altına ‘Şimdilik cevabım … çünkü …’ yazın.” |
+| 3 dk | **Hayatımda nerede?** | “Bu soru günlük hayatınızda nerede karşınıza çıkıyor? Bir yer, bir an, bir kişi.” Ardından “Kamp genel olarak”, ikinci yapraktaki beş ifade ve izin kutusu. |
 | 6 dk | **Paylaşım çemberi** | “Herkes büyük sorusunu tek cümleyle söylesin. Pas serbest. İsteyen şimdilik cevabını da okusun.” |
 
 **Kampın son sözü:** “Beş gün boyunca birlikte düşündünüz, birbirinizi dinlediniz, bazen fikir değiştirdiniz, bazen değiştirmeden nedenini söylediniz. Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.”
 
-Defterler toplanır. İsteyen çocuğa defterinin bir kopyası verilir.
+Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir. Rapor için önce fotokopi ya da fotoğraf alınır (izin kutularına göre).
 
 ## Tartışma tek cevapla kapanırsa (5. gün)
 

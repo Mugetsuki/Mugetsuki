@@ -40,7 +40,7 @@ Defterin kapağına çocuğun **kamp adı** yazılır (“Bulut”, “Koşan”
 
 | Ne zaman | Ne yapılır |
 |---|---|
-| Kamptan önce | Veli onay formu toplanır. Defterler (öğrenci başına 2 yaprak, çift yüz, zımbalı) ve gözlem formları basılır. |
+| Kamptan önce | Veli onay formu toplanır. Defter yaprakları (Başlangıç, 1.–5. gün, Varış) ve gözlem formları basılır. Her çocuğa bir A4 şeffaf kapaklı telli dosya hazırlanır. |
 | 1. gün, filmden önce | Başlangıç sayfası (12 dk) |
 | Her gün, tartışmanın son 5 dakikası | Defterin o güne ait bloğu |
 | Her akşam | Moderatör defterleri toplar ve 10 dakikada okur. Ertesi sabah için 2–3 “hayattan soru” seçer. Gözlem formunu tamamlar. |
@@ -51,9 +51,9 @@ Defterin kapağına çocuğun **kamp adı** yazılır (“Bulut”, “Koşan”
 
 ## Araç 1: Düşünce Yolculuğum defteri
 
-Dört sayfa: Başlangıç, 1–3. günler, 4–5. günler, Varış. Basılı hâli: `gorseller/pdf/defter-dusunce-yolculugum.pdf`.
+Gün gün dağıtılan yapraklar: Başlangıç (ön ve arka), 1.–5. gün yaprakları (tek yüz) ve Varış (iki yaprak, üç yüz). Basılı hâli: tek tek `gorseller/pdf/defter-yaprak-*.pdf`, hepsi bir arada `gorseller/pdf/defter-dusunce-yolculugum.pdf`. Yedek film kullanılırsa o günün yaprağı yerine yedek filmin yaprağı dağıtılır.
 
-### FORM: 1. sayfa · Başlangıç
+### FORM: Başlangıç yaprağı (ön ve arka)
 
 > **Düşünce Yolculuğum**
 > Kamp adım: ______________________________ Yaşım: ____ ☐ Ortaokul ☐ Lise
@@ -76,9 +76,9 @@ Dört sayfa: Başlangıç, 1–3. günler, 4–5. günler, Varış. Basılı hâ
 >
 > **Günlük hayatımda felsefe** ______________________________ **karşıma çıkar.** (Bilmiyorsan “bilmiyorum” yaz.)
 
-### FORM: 2. ve 3. sayfa · Günlük bloklar (2. sayfada 1–3. gün, 3. sayfada 4–5. gün)
+### FORM: Gün yaprakları (1.–5. gün, her biri tek yaprak)
 
-> **N. gün · [film adı]**
+> **N. gün · [film adı]** · Bugünün sorusu: [günün kavram sorusu]
 >
 > **Kamp sorusuna bugünkü cevabım:** İyi bir hayat ______________________________ çünkü ______________________________
 > (Değişmediyse: “Değişmedi, çünkü …”)
@@ -89,18 +89,21 @@ Dört sayfa: Başlangıç, 1–3. günler, 4–5. günler, Varış. Basılı hâ
 >
 > **Bugün atölye:** 1 ○ 2 ○ 3 ○ 4 ○ 5 ○ (1 = hiç sevmedim · 5 = çok sevdim)
 
-### FORM: 4. sayfa · Varış
+### FORM: Varış yaprağı (iki yaprak)
 
-> **Varış** · Önce 1. sayfayı aç ve ilk gün ne yazdığını oku. Sesli okumak yok.
+*5. gün yaprağında “kamp sorusuna bugünkü cevap” alanı yoktur. O cevap Varış'ta yazılır.*
+
+> **Varış** · Önce Başlangıç yaprağını aç ve ilk gün ne yazdığını oku. Sesli okumak yok.
 >
 > 1. **Şimdi:** Bence iyi bir hayat ______________________________ çünkü ______________________________
 > 2. **Ne değişti, neden?** (Değişmediyse neden değişmediğini yaz.) ______________________________
-> 3. **Benim büyük sorum:** (Defterindeki “kafamı karıştıran sorular”dan birini seçebilirsin.) ______________________________
+> 3. **Benim büyük sorum:** (Yapraklarındaki “kafamı karıştıran sorulardan” birini seçebilirsin.) ______________________________
 >    **Şimdilik cevabım:** ______________________________ çünkü ______________________________
 > 4. **Bu soru hayatımda nerede karşıma çıkıyor?** (Bir yer, bir an, bir kişi) ______________________________
-> 5. Aynı beş cümle (A–E) ve “Günlük hayatımda felsefe … karşıma çıkar.”
-> 6. **Kamp genel olarak:** 1 ○ 2 ○ 3 ○ 4 ○ 5 ○ · **Değişmesini istediğim bir şey:** ______________________________
-> 7. **Yazdıklarım kullanılabilir mi?** (Birini işaretle. Hiçbirini işaretlemezsen kullanılmaz.)
+> 5. **Kamp genel olarak:** 1 ○ 2 ○ 3 ○ 4 ○ 5 ○
+> 6. **Değişmesini istediğim bir şey:** ______________________________
+> 7. Aynı beş cümle (A–E) ve “Günlük hayatımda felsefe … karşıma çıkar.”
+> 8. **Yazdıklarım kullanılabilir mi?** (Birini işaretle. Hiçbirini işaretlemezsen kullanılmaz.)
 >    ☐ Hiçbir yerde kullanılmasın. ☐ Adım olmadan kullanılabilir. ☐ Adım ve yaşımla kullanılabilir. Adım: ________
 
 ### Puanlama ve kodlama
