@@ -5,7 +5,7 @@ Bu klasörde 5 günlük kampın bütün basılı malzemesi var: günlük afişle
 - **Basılacak dosyalar** `pdf/` klasöründe.
 - **Sayfaların küçük önizlemeleri** `onizleme/` klasöründe (72 dpi PNG). Örneğin `gun1-truman-afis-s1.png`, o dosyanın 1. sayfası.
 
-İçerik kaynakları: [film-onerileri.md](../film-onerileri.md), [senaryo-C-gorevli-izleme.md](../senaryo-C-gorevli-izleme.md), [senaryo-B-durdurmali.md](../senaryo-B-durdurmali.md), [moderator-kagidi.md](../moderator-kagidi.md), [olcme-degerlendirme.md](../olcme-degerlendirme.md).
+İçerik kaynakları: [film-onerileri.md](../film-onerileri.md), [senaryo-B-durdurmali.md](../senaryo-B-durdurmali.md), [moderator-kagidi.md](../moderator-kagidi.md), [olcme-degerlendirme.md](../olcme-degerlendirme.md).
 
 ## Genel baskı kuralları
 
@@ -23,7 +23,7 @@ Dosya adlarında: `gun1-truman` The Truman Show, `gun2-io2` Ters Yüz 2, `gun3-w
 | Dosya | İçerik | Kağıt | Nasıl basılır | Kaç adet |
 |---|---|---|---|---|
 | `pdf/gunN-…-afis.pdf` | Günün afişi: gün numarası, film adı, tema sözcüğü, günün ana sorusu | A4 dikey, 1 sayfa | %100 ölçek | 1 (duvar için) |
-| `pdf/gunN-…-not-karti.pdf` | Öğrenci not kartı: izleme görevi, "Aklıma takılan an" ve "Benim sorum" alanları. Model C'de kullanılır | A4 dikey, sayfada 4 adet A6 kart | %100 ölçek, kesikli çizgilerden 4'e kesin | Öğrenci sayısı ÷ 4 sayfa + 1 yedek |
+| `pdf/gunN-…-not-karti.pdf` | Öğrenci not kartı: izleme görevi, "Aklıma takılan an" ve "Benim sorum" alanları. Ana akışta (B) isteğe bağlı; görevli izleme alternatifinde gerekir | A4 dikey, sayfada 4 adet A6 kart | %100 ölçek, kesikli çizgilerden 4'e kesin | Öğrenci sayısı ÷ 4 sayfa + 1 yedek |
 | `pdf/gunN-…-ikilem.pdf` | Kapanış ikilemi tabelaları: 1. sayfa **A duvarı**, 2. sayfa **B duvarı** | A4 yatay, 2 sayfa | %100 ölçek, tek yüz | 1 takım. Odanın karşılıklı iki duvarına asılır |
 
 **5. gün notu:** Programda 5. gün kapanış ikilemi yerine **Beş Kapı** etkinliği yapılır. `gun5-soul-ikilem.pdf` tabelaları "isteğe bağlı" diye işaretli. Yalnızca Soul ayrı bir oturumda kullanılırsa gerekir.

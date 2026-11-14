@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Günlük modüllerden (gunN-*.md) iki uygulama senaryosunu üretir:
+"""Günlük modüllerden (gunN-*.md) uygulama senaryosunu üretir:
 
-  ../senaryo-C-gorevli-izleme.md   Model C: not kartı, 0–2 yazma durağı
-  ../senaryo-B-durdurmali.md       Model B: 2–3 konuşmalı durak, sözlü izleme görevi
+  ../senaryo-B-durdurmali.md       Model B (ana akış): film durdurularak izlenir, sorular Felsefe Makinesi yöntemiyle
+
+Görevli izleme (eski model C) ana akıştan çıktı (GM kararı, 2026-11-14); senaryonun sonunda kısa bir alternatif notu olarak duruyor.
+Modüller iki biçimde olabilir: yeni biçim (Duraklar bölümünde `### N. durak` alt başlıkları) olduğu gibi aktarılır,
+eski biçimdeki B/C tablosundan yalnızca B sütunu alınır.
 
 İçeriğin kaynağı modüllerdir. Senaryolar elle düzenlenmez; modül değişince bu betik yeniden çalıştırılır.
 Kullanım: python3 senaryo_uret.py
@@ -66,9 +69,11 @@ Filmden önce öğrencilere bir **izleme görevi** verilir. Her öğrencinin eli
         baslik="# Uygulama senaryosu B: Durdurmalı izleme",
         oz="""## Model B'nin özü
 
-Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakta siz bir kısa soru sorarsınız, 3–4 öğrenci cevap verir, cevaplar tahtaya tek satırla yazılır ve film devam eder. Her durak yaklaşık **6 dakika** sürer. Öğrencilerin elinde not kartı yoktur, izleme görevi sözlü verilir. Film bitince tartışma, tahtadaki durak cevaplarından “soruların altındaki soru”ya ve oradan soru merdivenine geçer.
+Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Filmden önce tahtaya **izleme görevi** yazılır: film boyunca aklında tutulacak tek bir soru (demir). Her durakta tek bir **Açık Soru** sorulur. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevaplar tahtaya tek satırla yazılır ve film devam eder. Her durak yaklaşık **6 dakika** sürer. Üç durak aynı kavramı her seferinde yeni bir koşulla sınar, biri düğüm noktasıdır. Film bitince tartışma Kavrama Zamanı ile başlar, tahtadaki durak satırlarından “soruların altındaki soru”ya ve oradan soru merdivenine geçer.
 
-**Duraklar için altın kural:** Durak tartışma değildir. Bir soru, 3–4 cevap, tahtaya not, devam. Durak 7 dakikayı geçerse grup filmden kopar. Öğrenci uzatırsa: “Çok güzel bir nokta. Tahtaya yazıyorum, film bitince ilk buna döneceğiz.”""",
+Sorular Peter Worley'nin *Felsefe Makinesi* yöntemiyle kuruldu ([felsefe-makinesi-yontem.md](felsefe-makinesi-yontem.md)). Sorunun yanındaki küçük etiket aracı ve kitabın sayfasını gösterir. Çocuklara okunmaz.
+
+**Duraklar için altın kural:** Durak tartışma değildir. Bir soru, 3–4 cevap, tahtaya not, devam. Durak 7 dakikayı geçerse grup filmden kopar. Uzatan olursa: “Çok güzel bir nokta. Tahtaya yazıyorum, film bitince ilk buna döneceğiz.”""",
         malzeme_ek="| Yardımcı bir yetişkin (mümkünse) | Duraklarda cevapları tahtaya yazar, ışıkları açıp kapatır. |\n",
         alt_soru="Tahtadaki durak cevaplarına bakılır: “Film bitti, hâlâ öyle mi düşünüyorsunuz?”",
     ),
@@ -76,7 +81,7 @@ Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakt
 
 GIRIS = """Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş, karışık grup
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/senaryo_uret.py` ile günlük modüllerden üretilir, elle düzenlenmez.
-İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md) (kampın kalbi)** · [moduller/](moduller/) (günlük modüller) · [{diger}]({diger}) (diğer senaryo) · [moderator-kagidi.md](moderator-kagidi.md) (moderatör kitapçığı) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (defter ve ölçme)
+İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md) (kampın kalbi)** · [moduller/](moduller/) (günlük modüller) · [{diger}]({diger}) (moderatör kitapçığı) · [felsefe-makinesi-yontem.md](felsefe-makinesi-yontem.md) (yöntem) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (defter ve ölçme)
 
 ---
 
@@ -107,22 +112,18 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/se
 
 **Her akşam (10 dk):** Dosyalardaki gün yapraklarını okuyun, ertesi sabah okunacak 2–3 “hayattan soru” seçin, gözlem formunu tamamlayın.
 
-## Her gün geçerli: hassas paylaşım protokolü
+## Bir çocuk zor bir şey paylaşırsa
 
-1. Paylaşan öğrenciye teşekkür edin: “Bunu bizimle paylaştığın için teşekkür ederim.”
-2. Soruyu kişiden alıp genele çevirin: “Bir insan böyle bir şey yaşadığında ne hisseder sizce?”
-3. Kimse kişisel bir şey anlatmaya zorlanmaz. Grubun başkasının paylaşımına gülmesine izin vermeyin.
-4. Oturumdan sonra o öğrenciyle birebir, kısa konuşun: “Biraz önce anlattıkların aklımda kaldı. Nasılsın?”
-5. **Öğrenci kendine ya da başkasına zarar verme, istismar ya da ciddi bir tehlike anlatırsa bunu gizli tutmazsınız.** Aynı gün kampın sorumlu yetkilisine ve varsa rehber öğretmene ya da psikolojik danışmana bildirin. Acil durumda 112. Öğrenciye bunu dürüstçe söyleyin: “Senin güvende olman benim için önemli, bu yüzden bunu yardım edebilecek biriyle paylaşmam gerekiyor.”
+Teşekkür et: “Bunu bizimle paylaştığın için teşekkür ederim.” Soruyu kişiden alıp genele çevir: “Bir insan böyle bir şey yaşadığında ne hisseder sizce?” Kimse kişisel bir şey anlatmaya zorlanmaz, grubun gülmesine izin verme. Oturumdan sonra o çocukla kısaca konuş: “Biraz önce anlattıkların aklımda kaldı. Nasılsın?” Seni endişelendiren bir şey anlattıysa aynı gün kamp sorumlusuyla konuş.
 
 ## 60 dakikalık tartışmanın akışı (1–4. gün)
 
 | Dakika | Adım | Özet |
 |---|---|---|
-| 0–5 | İlk tepki | Tek kelime ya da cümle. Pas serbest. |
+| 0–5 | Kavrama Zamanı | Grup filmi birlikte anlatır, herkes şu ana kadar söylenmemiş bir şey ekler. (Henüz eski biçimdeki günlerde: ilk tepki.) |
 | 5–12 | Soruların altındaki soru | {alt_soru} Film soruları insan sorusuna çevrilir ve altlarındaki ortak soru, yani günün kavram sorusu gösterilir. |
-| 12–42 | Soru merdiveni | Dört basamak. En az bir düşünce deneyi. Öğrenci şunu derse, siz şunu sorarsınız. |
-| 42–50 | Kapanış ikilemi (hareketli) | İki duvar. Her iki tarafa da bir “ters köşe” sorusu. |
+| 12–42 | Soru merdiveni | Dört basamak, her birinde bir Açık Soru. Öğrenci şunu derse, gruba şunu sorarsın. |
+| 42–50 | Kapanış ikilemi (hareketli) | İki duvar, ortada durmak serbest: “Yoksa başka bir yol mu?” İki tarafa da hayali muhalifin sesiyle ters köşe sorusu. |
 | 50–55 | Kamp sorusuna dönüş | Grubun bugün eklediği parça ve açık kalan soru gün kartına yazılır. |
 | 55–60 | Gün yaprağı | Sessiz, o günün yaprağı. |
 
@@ -131,26 +132,11 @@ Ardından **3 dk kapanış:** köprü cümlesi ve hayattan soru görevi. 5. gün
 ---
 """
 
-BC_NOTU = """# B mi, C mi? Hangisini ne zaman seçmeli?
+BC_NOTU = """# Ek: Alternatif model (görevli izleme)
 
-*Bu not iki senaryo dosyasında da aynıdır.*
+*Ana akış B modelidir. Bu not yalnızca B'nin mümkün olmadığı durumlar içindir.*
 
-**Temel fark:** İki modelde de film sonrası tartışma aynıdır: soruların altındaki soru, soru merdiveni, ikilem, kamp sorusuna dönüş ve defter. Fark film sırasındadır.
-- **B'de** film 2–3 kez durur. Her durakta siz bir soru sorarsınız ve kısa bir sohbet olur.
-- **C'de** öğrencinin elinde bir not kartı vardır. Film en fazla bir kez durur, durakta konuşulmaz, yazılır. Tartışma öğrencilerin kendi kart sorularından başlar.
-
-| Durum | Seçim |
-|---|---|
-| Grup P4C'yi ilk kez deneyecek, siz de kolaylaştırıcılıkta yenisiniz | **B** ile başlayın. Duraklarda grubu tanırsınız. |
-| Grupta 11–12 yaş ağırlıkta, dikkat süresi kısa | **B**. Sık duraklar dikkati tazeler. |
-| Amaç öğrencilerin kendi sorularını sormayı öğrenmesi | **C**. Soru sorma becerisi ancak öğrenci soru yazdığında gelişir. |
-| Grup lise ağırlıklı | **C**. Liseliler sık durdurulmayı “okul dersi” gibi bulur. |
-| Film duygusal ya da gerilimli (Ters Yüz 2, Soul) | **C**. Duraklar filmin etkisini bozar. |
-| Gün uzun, zaman dar | **C**. B güne 7–13 dk ekler. |
-
-**Karma yol:** İlk iki günü B ile, son üç günü C ile yapabilirsiniz. Geçiş günü not kartını ve izleme görevini 3 dakikayla tanıtın.
-
-**Önerim:** **C**, çünkü kampın B noktası (“sıradan şeylerin altında da soru var”) çocuğun kendi sorusunu yazmasına dayanıyor. B'yi, kolaylaştırıcı yeniyse ya da grup çok küçük yaş ağırlıklıysa seçin.
+Filmi durdurmak mümkün değilse (ortak gösterim, zaman çok dar) film kesintisiz izlenir. Her çocuğa günün not kartı verilir: üstte izleme görevi, altta “Aklıma takılan an” ve “Benim sorum” (`gorseller/pdf/gunN-…-not-karti.pdf`). Durakların Açık Soruları film bittikten sonra, Kavrama Zamanından hemen sonra sırayla sorulur ve “O sahneyi hatırlıyor musunuz?” diye sahne tarif edilir. Tartışmanın geri kalanı aynıdır.
 """
 
 
@@ -201,7 +187,9 @@ def model_filtre(text, model):
 
 
 def duraklar(govde, model):
-    """Modüldeki B/C durak tablosunu modele özgü alt başlıklara çevirir."""
+    """Modüldeki B/C durak tablosunu modele özgü alt başlıklara çevirir. Yeni biçim olduğu gibi aktarılır."""
+    if re.search(r"(?m)^### \d\. durak", govde):
+        return re.sub(r"(?m)^### (\d)\. durak", r"### Durak \1", govde).strip() + "\n"
     lines = govde.split("\n")
     rows = [l for l in lines if l.startswith("| **")]
     rest = [l for l in lines if not l.startswith("|")]
@@ -264,6 +252,8 @@ def gun_bolumu(dosya, model):
     tablo, toplam = akis(n, model)
     out = [f"# {title.replace('. gün', '. GÜN')}\n\n{kunye}\n\nTam modül: [moduller/{dosya}](moduller/{dosya}) · Toplam süre: yaklaşık **{toplam // 60} sa {toplam % 60} dk** ({toplam} dk)\n"]
     for ad, govde in secs:
+        if ad.startswith("Kitaba göre denetim"):
+            continue
         if ad.startswith("Günün akışı"):
             ekler = "\n".join(l for l in govde.split("\n") if l.startswith("İsteğe bağlı") or l.startswith("En uzun"))
             out.append(f"## Günün akışı\n\n{tablo}\n{ekler}\n")
@@ -279,17 +269,17 @@ def gun_bolumu(dosya, model):
 
 
 def main():
-    for model, dosya, diger in (("C", "senaryo-C-gorevli-izleme.md", "senaryo-B-durdurmali.md"), ("B", "senaryo-B-durdurmali.md", "senaryo-C-gorevli-izleme.md")):
-        g = GENEL[model]
-        metin = g["baslik"] + "\n\n" + GIRIS.format(diger=diger, oz=g["oz"], malzeme_ek=g["malzeme_ek"], alt_soru=g["alt_soru"])
-        metin += "\n" + "".join(gun_bolumu(m, model) for m in MODULLER)
-        metin += ("# Yedek filmler: kısa ek\n\nYedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme görevi, durma noktaları ve sorular (aşağıda), "
-                  "soru merdiveni, ikilem ve köprüler (modülde ve kitapçıkta). Patikadaki rozet `rozet-yapragi.pdf`'ten yapıştırılır, gün yaprağı yerine yedeğin yaprağı dağıtılır.\n\n"
-                  + "".join(yedek_eki(m, model) for m in YEDEKLER) + "\n---\n\n")
-        metin += BC_NOTU
-        metin = re.sub(r"\n{3,}", "\n\n", metin)
-        (ROOT / dosya).write_text(metin, encoding="utf-8")
-        print(dosya, len(metin.splitlines()), "satır")
+    model, dosya = "B", "senaryo-B-durdurmali.md"
+    g = GENEL[model]
+    metin = g["baslik"] + "\n\n" + GIRIS.format(diger="moderator-kagidi.md", oz=g["oz"], malzeme_ek=g["malzeme_ek"], alt_soru=g["alt_soru"])
+    metin += "\n" + "".join(gun_bolumu(m, model) for m in MODULLER)
+    metin += ("# Yedek filmler: kısa ek\n\nYedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme görevi, durma noktaları ve sorular (aşağıda), "
+              "soru merdiveni, ikilem ve köprüler (modülde ve kitapçıkta). Patikadaki rozet `rozet-yapragi.pdf`'ten yapıştırılır, gün yaprağı yerine yedeğin yaprağı dağıtılır.\n\n"
+              + "".join(yedek_eki(m, model) for m in YEDEKLER) + "\n---\n\n")
+    metin += BC_NOTU
+    metin = re.sub(r"\n{3,}", "\n\n", metin)
+    (ROOT / dosya).write_text(metin, encoding="utf-8")
+    print(dosya, len(metin.splitlines()), "satır")
 
 
 if __name__ == "__main__":

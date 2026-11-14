@@ -2,7 +2,7 @@
 
 Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-12 · Defter temelli sürüm: 2026-11-14
-İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md)** · [moduller/](moduller/) · [moderator-kagidi.md](moderator-kagidi.md) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) · [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md)
+İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md)** · [moduller/](moduller/) · [moderator-kagidi.md](moderator-kagidi.md) · [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md)
 
 ---
 

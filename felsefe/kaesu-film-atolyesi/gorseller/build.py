@@ -27,11 +27,11 @@ HTML_DIR, PDF_DIR, PNG_DIR = ROOT / "html", ROOT / "pdf", ROOT / "onizleme"
 # --------------------------------------------------------------------------------------
 DAYS = [
     dict(n=1, key="truman", t="t-truman", film="The Truman Show", TEMA="BİLGİ", tema_alt="Gerçeklik ve bilgi",
-         soru="Gerçek olduğunu nasıl bilebiliriz?",
-         gorev="Truman neyin gerçek, neyin sahte olduğunu nasıl anlıyor? Sen izlerken hangi anda “bu sahte” dedin?",
-         ikilem_q="Hangisini seçersin? Tarafını seç ve o duvara yürü.",
-         A=("Güvenli ama tasarlanmış bir dünya", "Her şey senin için tasarlanmış. Güvenli ve mutlusun, ama hiçbir şeyin kesin gerçek olduğunu bilemiyorsun."),
-         B=("Bilinmeyen ama gerçek bir dünya", "Neyle karşılaşacağını bilmiyorsun, ama her şey gerçek."),
+         soru="Bilmek nedir?",
+         gorev="Film boyunca tek bir soruyu aklında tut: Truman neyi biliyor, neye sadece inanıyor?",
+         ikilem_q="Seni ömür boyu mutlu edecek bir makine olsaydı ve bağlandıktan sonra makinede olduğunu unutsaydın, bağlanır mıydın? Ortada durmak da serbest: Yoksa başka bir yol mu var?",
+         A=("Makineye bağlanırım", "Mutlu ama gerçek olmayan bir hayat."),
+         B=("Bağlanmam", "Gerçek ama zor olabilecek bir hayat."),
          hero="Truman", kapi="Güvenli sahtelik yerine bilinmeyen gerçeği seçti.", kapi_alt=None),
     dict(n=2, key="io2", t="t-io2", film="Ters Yüz 2", TEMA="BENLİK", tema_alt="Zihin ve kimlik",
          soru="Beni “ben” yapan ne: anılarım mı, duygularım mı, seçimlerim mi?",

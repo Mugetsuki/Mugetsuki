@@ -46,7 +46,7 @@ Ortak sorun şu: her film bir ders veriyor ve dersi soran soru dersi geri alıyo
 
 | Gün | Film | Sınanan ilk cevap | Günün kavram sorusu | Ertesi güne devreden soru |
 |---|---|---|---|---|
-| 1 | The Truman Show | “Mutlu olmak.” | Bilmek nedir? Mutlu ama yanılgı içinde bir hayat iyi midir? | Kendimizi biliyor muyuz? |
+| 1 | The Truman Show | “Mutlu olmak.” | Bilmek nedir? (Kamp köprüsü: Mutlu ama yanılgı içinde bir hayat iyi midir?) | Kendimizi biliyor muyuz? |
 | 2 | Ters Yüz 2 | “Kendin olmak.” | “Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa? | Başkaları benim iyi hayatımın neresinde? |
 | 3 | Wonder | “İyi biri olmak, sevilmek.” | İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi? | Bir grup birine haksızlık ederse? |
 | 4 | Zootropolis | “Herkesin eşit olması.” | Adil olmak herkese aynı davranmak mı? | Hepsi olsa bile hayatı yaşamaya değer kılan ne? |
@@ -129,7 +129,7 @@ Evet/hayır ile, olay örgüsüyle ya da filmin dersiyle cevaplanan sorular ana 
 
 | Dakika | Adım |
 |---|---|
-| 0–5 | İlk tepki |
+| 0–5 | Kavrama Zamanı: grup filmi birlikte anlatır (Worley, s. 35) |
 | 5–12 | Soruların altındaki soru: film sorularını insan sorusuna çevirme |
 | 12–42 | Soru merdiveni |
 | 42–50 | Kapanış ikilemi: son düşünce deneyi iki duvara dönüşür, iki tarafa da “ters köşe” sorusu |
@@ -141,6 +141,10 @@ Asıl düşünme 25 dakikadan 30 dakikaya çıktı. Soru üretme ve oylama 17 da
 Bu ilkelerin uygulanmış hâli: [ornekler/gun1-ornek.md](ornekler/gun1-ornek.md).
 
 ---
+
+## Yöntem (onaylandı, 2026-11-14)
+
+Soru tasarımının temeli Peter Worley'nin *Felsefe Makinesi* yöntemi: [felsefe-makinesi-yontem.md](felsefe-makinesi-yontem.md). Her gün: tek Açık Soru, film boyunca demir olan izleme görevi, aynı kavramı yeni koşullarla sınayan üç durak (biri düğüm noktası), Gizli Sorular, Kavrama Zamanı, gruba sorulan merdiven hamleleri, ikilemde “yoksa başka bir şey mi?” ve hayali muhalif. Model B (filmi durdurarak). İlk uygulanan gün: [moduller/gun1-truman.md](moduller/gun1-truman.md).
 
 ## Onaylanan küçük karar
 

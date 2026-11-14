@@ -101,6 +101,27 @@ def bant(ust, baslik, alt, etiket):
             f'<div class="t">{baslik}</div><div class="s">{alt}</div></div><span class="pill sari">{etiket}</span></div>')
 
 
+def kb_html(text):
+    """Yeni biçim: tablolar, md_in_html, `::: sınıf … :::` kartları."""
+    import markdown
+
+    def conv(t):
+        t = re.sub(r"(?m)^((?![ \t]*(?:[-*]|\d+\.)[ \t]).+)\n([ \t]*(?:[-*]|\d+\.)[ \t])", r"\1\n\n\2", t)
+        return markdown.markdown(t, extensions=["tables", "md_in_html"]).replace("<table>", '<table class="akis">')
+
+    parcalar = re.split(r"(?ms)^::: (\w+)\n(.*?)^:::\n", text)
+    out = [conv(parcalar[0])]
+    for i in range(1, len(parcalar), 3):
+        out.append(f'<div class="{parcalar[i]}">{conv(parcalar[i + 1])}</div>{conv(parcalar[i + 2])}')
+    return "".join(out)
+
+
+def kb_bant(ust, baslik, alt, etiket):
+    return (f'<div class="bant"><table><tr><td><div class="label" style="color:var(--krem)">{ust}</div>'
+            f'<div class="t">{baslik}</div><div class="s">{alt}</div></td>'
+            f'<td style="text-align:right"><span class="pill sari">{etiket}</span></td></tr></table></div>')
+
+
 def kitapcik():
     md = (ROOT.parent / "moderator-kagidi.md").read_text(encoding="utf-8")
     secs = re.split(r"(?m)^## ", md)[1:]
@@ -113,8 +134,11 @@ def kitapcik():
             govde = re.sub(r"(?m)^\*\(Kamp boyunca[^\n]*\n", "", govde)
             out.append(f'<section class="kitap genel">{bant("MODERATÖR KİTAPÇIĞI", "Moderatörün altın kuralları", "Kamp boyunca geçerli", "KURALLAR")}{md2html(govde)}</section>')
             continue
+        if baslik.startswith("KOLAYLAŞTIRICI"):
+            out.append(f'<section class="kb">{kb_bant("MODERATÖR KİTAPÇIĞI", "Kolaylaştırıcı için beş kural", "Felsefe Makinesi yöntemiyle · kamp boyunca geçerli", "KURALLAR")}{kb_html(govde)}</section>')
+            continue
         if baslik.startswith("KAMP OMURGASI"):
-            out.append(f'<section class="kitap genel">{bant("MODERATÖR KİTAPÇIĞI", "Kamp omurgası", "Kamp sorusu: İyi bir hayat nedir?", "OMURGA")}{md2html(govde)}</section>')
+            out.append(f'<section class="kb">{kb_bant("MODERATÖR KİTAPÇIĞI", "Kamp omurgası", "Kamp sorusu: İyi bir hayat nedir?", "OMURGA")}{kb_html(govde)}</section>')
             continue
         if baslik.startswith("YEDEK FİLMLER"):
             out.append(f'<section class="kitap genel">{bant("MODERATÖR KİTAPÇIĞI", "Yedek filmler", "Aynı durak, farklı yol", "YEDEK")}{md2html(govde)}</section>')
@@ -128,6 +152,22 @@ def kitapcik():
             n = int(m.group(1)); g = GUNLER[n]
             ust_etiket = f"MODERATÖR KİTAPÇIĞI · {n}. GÜN"
         else:
+            continue
+        url = f"https://www.imdb.com/title/{g['imdb']}/"
+        afis = (f'<div class="afis"><img src="../afisler/{g["afis"]}" alt="{g["film"]} afişi">'
+                f'<div class="k">{g["kunye"]}<br><a href="{url}">imdb.com/title/{g["imdb"]}</a><br>Afiş: İngilizce Vikipedi</div></div>')
+        alt_baslik = f'{g["tema"]} · Kamp sorusu: İyi bir hayat nedir?'
+        if "### SAYFA ·" in govde:   # yeni biçim (B modeli, Worley yöntemi)
+            sayfalar = re.split(r"(?m)^### SAYFA · (.+)\n", govde)[1:]
+            toplam = len(sayfalar) // 2
+            for i in range(toplam):
+                ad, metin = sayfalar[2 * i].strip(), re.sub(r"\*\*IMDb:\*\*[^\n]*\n", "", sayfalar[2 * i + 1])
+                if "[[ÜST BLOK SONU]]" in metin:
+                    ust, alt = metin.split("[[ÜST BLOK SONU]]", 1)
+                    icerik = f'<table class="ust-blok"><tr><td>{kb_html(ust)}</td><td class="afis-hucre">{afis}</td></tr></table>{kb_html(alt)}'
+                else:
+                    icerik = kb_html(metin)
+                out.append(f'<section class="kb">{kb_bant(ust_etiket, g["film"], alt_baslik, f"{i + 1}/{toplam} · {ad}")}{icerik}</section>')
             continue
         on = govde.split("### ÖN YÜZ", 1)[1].split("### ARKA YÜZ", 1)[0]
         arka = govde.split("### ARKA YÜZ", 1)[1]
@@ -261,7 +301,7 @@ URUNLER = {
     "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
     "defter-yaprak-yedek-gun4-12-kizgin-adam": ("Düşünce yolculuğum · yedek film · 12 Kızgın Adam", yedek_yaprak_adam, 1),
     "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
-    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 17),
+    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 20),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
     "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),

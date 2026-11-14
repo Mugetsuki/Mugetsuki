@@ -22,8 +22,8 @@ Hedef grup: 11–17 yaş, karışık ortaokul–lise · Kamp: 5 gün, her gün b
 |---|---|
 | [kamp-omurgasi.md](kamp-omurgasi.md) | **Kampın kalbi:** teşhis, kamp sorusu, A ve B noktası, Düşünce Yolculuğum defteri, soru tasarımı ilkeleri |
 | [moduller/](moduller/) | Beş günün modülleri: sınanan ilk cevap, kavram sorusu, soru merdiveni, düşünce deneyleri, ikilem, kamp sorusuna dönüş, köprü |
-| [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) | Önerilen model C için 5 günün okunarak yönetilebilir senaryosu: dakika dakika akış, öğrencilere söylenecek hazır metinler, duraklar, enerji oyunları, "şu olursa ne yaparım" kutuları |
-| [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md) | Aynı program, model B ile (her gün 2–3 durak). Sonunda "B mi, C mi?" karşılaştırması |
+| [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md) | **Ana akış (GM kararı, 14 Kasım): model B.** 5 günün okunarak yönetilebilir senaryosu: dakika dakika akış, hazır metinler, duraklar, enerji oyunları. Sonunda görevli izleme için kısa alternatif notu |
+| [felsefe-makinesi-yontem.md](felsefe-makinesi-yontem.md) | Soru tasarımının temeli: Worley, *Felsefe Makinesi*, araçlar ve sayfa referansları |
 | [moderator-kagidi.md](moderator-kagidi.md) | Moderatör kitapçığının kaynağı: altın kurallar, kamp omurgasının özeti ve her gün için ön-arka yaprak (film afişi ve IMDb bağlantısıyla). Basılı hâli `gorseller/pdf/moderator-kitapcigi.pdf` |
 | [olcme-degerlendirme.md](olcme-degerlendirme.md) | Düşünce Yolculuğum defteri, gözlem formu ve rubrik, etik not ve veli onay formu, başarı ölçütleri ve kamp sonu rapor şablonu |
 | [gorseller/](gorseller/README.md) | Yazdırmaya hazır görsel kit (PDF): defter, moderatör kitapçığı, gözlem ve veli onay formları, günlük afişler, not kartları, ikilem tabelaları. Baskı talimatı README'de. Film görselleri Parça 3'te yeni içeriğe göre güncellenecek. |
@@ -150,7 +150,9 @@ Dört modeli karşılaştırdım. Her modelde film baştan sona izleniyor ve son
 | Güne eklenen süre | 0 | 15–20 dk | 5–10 dk | Takvim kayar |
 | Hazırlık | Yok | Orta | Orta | Az |
 
-### ÖNERİ: Model C (Görevli izleme), günlere göre azalan duraklarla
+> **Güncel karar (Genel Müdür, 14 Kasım 2026):** Ana akış **model B** (filmi durdurarak). Aşağıdaki C önerisi ilk taslaktaki gerekçeyle arşiv olarak duruyor.
+
+### İlk taslaktaki öneri (arşiv): Model C (Görevli izleme), günlere göre azalan duraklarla
 
 | Gün | Durak sayısı | Neden |
 |---|---|---|
@@ -171,7 +173,7 @@ Her filmin durma noktası, o noktada sorulacak kısa soru ve süresi Bölüm 4't
 
 ## 2. 5 Günlük Kamp Programı
 
-Ayrıntı: [kamp-omurgasi.md](kamp-omurgasi.md) ve [moduller/](moduller/). Okunarak yönetilecek metin: [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) ve [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md).
+Ayrıntı: [kamp-omurgasi.md](kamp-omurgasi.md) ve [moduller/](moduller/). Okunarak yönetilecek metin: [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md).
 
 **Kamp sorusu:** İyi bir hayat nedir? Her gün, çocukların ilk gün sık verdiği bir cevabı sınar ve bir öncekinin açık bıraktığı soruyu devralır.
 

@@ -2,7 +2,7 @@
 
 Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş, karışık grup
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/senaryo_uret.py` ile günlük modüllerden üretilir, elle düzenlenmez.
-İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md) (kampın kalbi)** · [moduller/](moduller/) (günlük modüller) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) (diğer senaryo) · [moderator-kagidi.md](moderator-kagidi.md) (moderatör kitapçığı) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (defter ve ölçme)
+İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md) (kampın kalbi)** · [moduller/](moduller/) (günlük modüller) · [moderator-kagidi.md](moderator-kagidi.md) (moderatör kitapçığı) · [felsefe-makinesi-yontem.md](felsefe-makinesi-yontem.md) (yöntem) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (defter ve ölçme)
 
 ---
 
@@ -18,9 +18,11 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/se
 
 ## Model B'nin özü
 
-Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakta siz bir kısa soru sorarsınız, 3–4 öğrenci cevap verir, cevaplar tahtaya tek satırla yazılır ve film devam eder. Her durak yaklaşık **6 dakika** sürer. Öğrencilerin elinde not kartı yoktur, izleme görevi sözlü verilir. Film bitince tartışma, tahtadaki durak cevaplarından “soruların altındaki soru”ya ve oradan soru merdivenine geçer.
+Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Filmden önce tahtaya **izleme görevi** yazılır: film boyunca aklında tutulacak tek bir soru (demir). Her durakta tek bir **Açık Soru** sorulur. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevaplar tahtaya tek satırla yazılır ve film devam eder. Her durak yaklaşık **6 dakika** sürer. Üç durak aynı kavramı her seferinde yeni bir koşulla sınar, biri düğüm noktasıdır. Film bitince tartışma Kavrama Zamanı ile başlar, tahtadaki durak satırlarından “soruların altındaki soru”ya ve oradan soru merdivenine geçer.
 
-**Duraklar için altın kural:** Durak tartışma değildir. Bir soru, 3–4 cevap, tahtaya not, devam. Durak 7 dakikayı geçerse grup filmden kopar. Öğrenci uzatırsa: “Çok güzel bir nokta. Tahtaya yazıyorum, film bitince ilk buna döneceğiz.”
+Sorular Peter Worley'nin *Felsefe Makinesi* yöntemiyle kuruldu ([felsefe-makinesi-yontem.md](felsefe-makinesi-yontem.md)). Sorunun yanındaki küçük etiket aracı ve kitabın sayfasını gösterir. Çocuklara okunmaz.
+
+**Duraklar için altın kural:** Durak tartışma değildir. Bir soru, 3–4 cevap, tahtaya not, devam. Durak 7 dakikayı geçerse grup filmden kopar. Uzatan olursa: “Çok güzel bir nokta. Tahtaya yazıyorum, film bitince ilk buna döneceğiz.”
 
 ## Hazırlık ve malzeme (her gün)
 
@@ -38,22 +40,18 @@ Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakt
 
 **Her akşam (10 dk):** Dosyalardaki gün yapraklarını okuyun, ertesi sabah okunacak 2–3 “hayattan soru” seçin, gözlem formunu tamamlayın.
 
-## Her gün geçerli: hassas paylaşım protokolü
+## Bir çocuk zor bir şey paylaşırsa
 
-1. Paylaşan öğrenciye teşekkür edin: “Bunu bizimle paylaştığın için teşekkür ederim.”
-2. Soruyu kişiden alıp genele çevirin: “Bir insan böyle bir şey yaşadığında ne hisseder sizce?”
-3. Kimse kişisel bir şey anlatmaya zorlanmaz. Grubun başkasının paylaşımına gülmesine izin vermeyin.
-4. Oturumdan sonra o öğrenciyle birebir, kısa konuşun: “Biraz önce anlattıkların aklımda kaldı. Nasılsın?”
-5. **Öğrenci kendine ya da başkasına zarar verme, istismar ya da ciddi bir tehlike anlatırsa bunu gizli tutmazsınız.** Aynı gün kampın sorumlu yetkilisine ve varsa rehber öğretmene ya da psikolojik danışmana bildirin. Acil durumda 112. Öğrenciye bunu dürüstçe söyleyin: “Senin güvende olman benim için önemli, bu yüzden bunu yardım edebilecek biriyle paylaşmam gerekiyor.”
+Teşekkür et: “Bunu bizimle paylaştığın için teşekkür ederim.” Soruyu kişiden alıp genele çevir: “Bir insan böyle bir şey yaşadığında ne hisseder sizce?” Kimse kişisel bir şey anlatmaya zorlanmaz, grubun gülmesine izin verme. Oturumdan sonra o çocukla kısaca konuş: “Biraz önce anlattıkların aklımda kaldı. Nasılsın?” Seni endişelendiren bir şey anlattıysa aynı gün kamp sorumlusuyla konuş.
 
 ## 60 dakikalık tartışmanın akışı (1–4. gün)
 
 | Dakika | Adım | Özet |
 |---|---|---|
-| 0–5 | İlk tepki | Tek kelime ya da cümle. Pas serbest. |
+| 0–5 | Kavrama Zamanı | Grup filmi birlikte anlatır, herkes şu ana kadar söylenmemiş bir şey ekler. (Henüz eski biçimdeki günlerde: ilk tepki.) |
 | 5–12 | Soruların altındaki soru | Tahtadaki durak cevaplarına bakılır: “Film bitti, hâlâ öyle mi düşünüyorsunuz?” Film soruları insan sorusuna çevrilir ve altlarındaki ortak soru, yani günün kavram sorusu gösterilir. |
-| 12–42 | Soru merdiveni | Dört basamak. En az bir düşünce deneyi. Öğrenci şunu derse, siz şunu sorarsınız. |
-| 42–50 | Kapanış ikilemi (hareketli) | İki duvar. Her iki tarafa da bir “ters köşe” sorusu. |
+| 12–42 | Soru merdiveni | Dört basamak, her birinde bir Açık Soru. Öğrenci şunu derse, gruba şunu sorarsın. |
+| 42–50 | Kapanış ikilemi (hareketli) | İki duvar, ortada durmak serbest: “Yoksa başka bir yol mu?” İki tarafa da hayali muhalifin sesiyle ters köşe sorusu. |
 | 50–55 | Kamp sorusuna dönüş | Grubun bugün eklediği parça ve açık kalan soru gün kartına yazılır. |
 | 55–60 | Gün yaprağı | Sessiz, o günün yaprağı. |
 
@@ -71,9 +69,10 @@ Tam modül: [moduller/gun1-truman.md](moduller/gun1-truman.md) · Toplam süre: 
 
 - **Sınanan ilk cevap:** “İyi bir hayat mutlu bir hayattır.”
 - **Kavram:** Bilmek ve gerçek.
-- **Günün kavram sorusu:** Bilmek nedir? Hiç yanılmadığımız bir şey var mı?
-- **Kamp sorusuna bağlanan soru:** İyi bir hayat için gerçeği bilmek gerekir mi, yoksa mutlu olmak yeter mi?
+- **Günün Açık Sorusu (tahtada tek başına):** **Bilmek nedir?** <span class="et">Açık Soru · s. 34</span> Sorunun eski ikinci yarısı (“Hiç yanılmadığımız bir şey var mı?”) merdivende yanlışlama sorusu olarak kullanılır. <span class="et">Yanlışlama · s. 51</span>
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için gerçeği bilmek gerekli mi, yoksa mutlu olmak yeterli mi?
 - **Neden bu film:** Truman otuz yıl mutludur ve her şey sahtedir. “Mutluluk yeter” cevabını sınamak için en temiz örnek.
+- **Düğüm noktası:** 2. durak (iskeledeki söz). Bildiklerimizin çoğunu başkalarının sözünden biliyoruz. Bu durakta “bilmek” en çok zorlanıyor.
 
 ## Günün akışı
 
@@ -102,7 +101,7 @@ Tam modül: [moduller/gun1-truman.md](moduller/gun1-truman.md) · Toplam süre: 
 
 ## Başlangıç sayfası (12 dk)
 
-Moderatör kamp sorusunu tek cümleyle tanıtır, açıklama yapmaz:
+Kamp sorusunu tek cümleyle tanıt, açıklama yapma:
 
 “Bu kampta beş film izleyeceğiz ama aslında tek bir soruyu düşüneceğiz: **İyi bir hayat nedir?** Her film bu soruya bir parça ekleyecek. Şimdi, daha hiçbir film izlemeden, bu soruya sizin cevabınızı istiyorum. Doğru cevap yok. Beşinci gün bu sayfaya geri döneceğiz ve ilk gün ne düşündüğünüzü göreceğiz.”
 
@@ -114,52 +113,78 @@ Moderatör kamp sorusunu tek cümleyle tanıtır, açıklama yapmaz:
    - İyi bir gerekçe duyarsam fikrimi değiştiririm.
    - Felsefe filozofların ve büyüklerin işidir.
    - Yemek, oyun, kurallar gibi sıradan şeylerin altında da büyük sorular vardır.
-3. **Açık soru:** “Günlük hayatımda felsefe … karşıma çıkar.” Bilmiyorsa “bilmiyorum” yazması serbest.
+3. **Açık uçlu cümle:** “Günlük hayatımda felsefe … karşıma çıkar.” Bilmiyorsa “bilmiyorum” yazabilir.
 
-*Moderatöre not:* İlk cevaplara o gün bakmayın, yorum yapmayın. Akşam defterleri okurken en sık geçen 3–4 cevabı not edin, 5. gün işinize yarayacak. Çoğu çocuk “mutlu olmak” yazacak. Bugünkü film tam olarak bunu sınıyor.
+*Not:* İlk cevaplara o gün bakma, yorum yapma. Akşam en sık geçen 3–4 cevabı not et, 5. gün işine yarayacak. Çoğu çocuk “mutlu olmak” yazacak. Bugünkü film tam olarak bunu sınıyor.
 
 ## The Present ve “soruların altındaki soru” alıştırması (7 dk)
 
-Kısa film izlenir (yaklaşık 4 dk). Moderatör 2–3 soru alır, tahtaya yazar. Sonra tek bir hamleyi gösterir:
+Kısa film izlenir (yaklaşık 4 dk). 2–3 soru al, tahtaya yaz. Sonra tek bir hamleyi göster:
 
-“Mesela biri ‘Çocuk köpeği (annesinin hediye ettiği üç bacaklı yavru) neden reddetti?’ dedi. Bunun cevabı filmde var: üç bacağı olduğu için. Şimdi bu soruyu bir **insan sorusuna** çevirelim. ‘Çocuk’ yerine ‘insan’ koyalım: ‘İnsan, başkasında beğenmediği bir şeyi neden reddeder?’ Bu sorunun cevabı filmde yok. Akıllı insanlar farklı cevaplar verir. İşte bu kampta bu tür sorularla uğraşacağız.”
+“Mesela biri ‘Çocuk köpeği (annesinin hediye ettiği üç bacaklı yavru) neden reddetti?’ dedi. Bunun cevabı filmde var: üç bacağı olduğu için. Şimdi bu soruyu bir **insan sorusuna** çevirelim: ‘İnsan, başkasında beğenmediği bir şeyi neden reddeder?’ Bu sorunun cevabı filmde yok. Akıllı insanlar farklı cevaplar verir. Bu kampta bu tür sorularla uğraşacağız.”
 
-**Bu tek hamle bütün kampın becerisidir:** film sorusunu insan sorusuna çevirmek. 5. günün sonunda çocuk bunu kendi hayatındaki sorulara da yapabilmeli.
+Bu hamle bütün kampın becerisidir: film sorusunu insan sorusuna çevirmek.
 
 ## İzleme görevi
 
-*Görev sözlü verilir, not kartı yok.*
+Tahtaya yaz, film boyunca orada kalsın: <span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span>
 
-**“Truman (hayatı habersizce canlı yayınlanan film kahramanı) bir şeyin gerçek olduğuna neye bakarak karar veriyor? Sen izlerken neye bakarak ‘bu sahte’ dedin?”**
+**“Film boyunca tek bir soruyu aklınızda tutun: Truman (hayatı habersizce canlı yayınlanan film kahramanı) neyi biliyor, neye sadece inanıyor? Film bitince ne düşüneceksiniz, bakalım.”**
+
+Her durakta ve merdivende bu soruya dönülür. Film izlemek olay takibi olmaz, kavram takibi olur.
 
 ## Film ve duraklar
 
-### Durak 1: Sylvia sahnesi bitince (yaklaşık ilk üçte birin sonu)
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, sonra bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla: “Bunu Elif'in dediğiyle nasıl buluşturursun?” Her cevabı tahtaya tek satırla yaz. Bunlar tartışmada geri çağıracağın satırlar. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
 
-**Süre:** 6 dk
+Üç durak, *Sandalye* oturumundaki bölümler gibi aynı kavramı (bilmek) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
 
-“Sylvia (Truman'ın gençliğinde tanıştığı, ona her şeyin bir oyun olduğunu anlatmaya çalışan kız) tek bir kişi, kasaba yüzlerce kişi. Birine inanmak için neye bakarız: kaç kişinin söylediğine mi, başka bir şeye mi?”
+### Durak 1 · yaklaşık 25–35. dk · Dergilerden bir yüz
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Sahne:** Truman bodrumda, karısından gizli, dergi kupürlerinden Sylvia'nın (Truman'a her şeyin bir oyun olduğunu anlatmaya çalışan, sonra götürülen kız) yüzünü birleştirmeye çalışıyor. Bu bölüm bitince durdur.
 
-### Durak 2: Arabayla kaçış girişimi engellenip Truman eve getirilince (yaklaşık ortası)
+**Koşul:** Kanıt yok, ama bir sezgi var.
 
-**Süre:** 6 dk
+**Açık Soru:** “Truman'ın elinde hiçbir kanıt yok, ama bir şeylerin eksik olduğunu seziyor. Bir şeyi sezmek, onu bilmek midir?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-“Truman (hayatı habersizce canlı yayınlanan film kahramanı) bir şeylerin yanlış olduğundan emin ama elinde kanıt yok. Kanıtın olmadan bildiğin bir şey var mı?” (Su molası)
+**Gizli Sorular:**
+- “Eğer Truman'ın sezgisi yanlış çıksaydı, yine de bir şey bilmiş olur muydu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- “Bir şeyi bilmek için ne gerekli? Sezmek yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Tartışmada geri çağır:** 2. basamak (rüya).
 
-### Durak 3: Ekip Truman'ın kaybolduğunu fark edince (son çeyreğin başı)
+### Durak 2 · yaklaşık 65–72. dk · İskeledeki söz · düğüm noktası
 
-**Süre:** 6 dk
+**Sahne:** Gece bir iskelede Marlon (Truman'ın çocukluk arkadaşı; aslında şovda rol yapan bir oyuncu), Truman'a asla yalan söylemeyeceğini söylüyor. Biz bu cümleyi Christof'un (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) ona söylettiğini görüyoruz. Babasıyla kucaklaşma sahnesi bitince durdur.
 
-“Birini korumak için ondan gerçeği saklamak ne zaman doğru olabilir, ne zaman olamaz?”
+**Koşul:** Bilginin tek dayanağı başkasının sözü.
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Açık Soru:** “Truman'ın elinde Marlon'un sözünden başka kanıt yok. Ama sen de kendi doğum gününü, Dünya'nın yuvarlak olduğunu başkalarının sözünden biliyorsun. Birinin sözüne dayanarak bildiğimiz bir şey gerçekten bilgi midir, yoksa sadece bir güven mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli · s. 55</span>
 
-Duraklarda da soru dört testi geçer. Evet/hayır ya da olay sorusu sorulmaz.
-Durma noktaları sahne tarifiyle verildi. Dakikalar ön izlemede oynatıcıda işaretlenmeli.
+**Gizli Sorular:**
+- *“Gözüne bakarım, sesinden anlarım.”* derse: “Marlon da gözünün içine bakıyordu. Diyelim ki hiçbir ipucu yok, yalnızca bir ses var. O zaman?” <span class="et">Sınır çizen soru · s. 55</span>
+- *“Kendim görmediğimi bilmem.”* derse: “Doğum gününü kendin gördün mü?” Sonra gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- “İki türlü de düşünelim. Eğer Marlon cümleye kendisi de inanıyor olsaydı, Truman bilmiş olur muydu? Ya da Marlon bilerek yalan söylüyorsa?” <span class="et">Ya… ya da… · s. 59–60</span>
+
+**Zaman kalırsa:** “Cümleyi başkası yazdı. Ama belki Marlon, Truman'ı gerçekten seviyordu, film bunu söylemiyor. Sana yalan söyleyen biri yine de gerçek bir arkadaşın olabilir mi?” <span class="et">Eğer şu şekilde düşünseydik · s. 53</span>
+
+**Tartışmada geri çağır:** 1. basamak (bilgi mi, inanç mı?).
+
+### Durak 3 · yaklaşık 75–82. dk · Ekrandaki yüz
+
+**Sahne:** Gece kontrol odasında Christof, dev ekranda uyuyan Truman'ın görüntüsüne elini dokunduruyor. Arama başlayınca durdur.
+
+**Koşul:** Ne bilineceğine başkası karar veriyor.
+
+**Isınma (alt metin):** “Bu dokunuş sevgi mi, sahiplik mi, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Açık Soru:** “Christof, Truman'ın neyi bileceğine kendisi karar veriyor. Birinin senin adına neyi bilmeyeceğine karar vermesi doğru olabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Soru:** “Eğer Christof haklıysa, yani dışarıdaki dünya gerçekten daha acı doluysa, o zaman?” <span class="et">Destekle ve eleştir · s. 62</span>
+
+**Tartışmada geri çağır:** 3. basamak.
+
+*Dakikalar yaklaşıktır. Sahneler film özetleriyle karşılaştırıldı, ama zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
 
 ## Ara (10 dk)
 
@@ -169,129 +194,114 @@ Durma noktaları sahne tarifiyle verildi. Dakikalar ön izlemede oynatıcıda i�
 
 ## Tartışma (60 dk)
 
-### dk 0–5 · İlk tepki
+Hamleler cevap veren çocuğa değil, gruba sorulur: “Buna ne diyeceksiniz?” Konuşma senin üzerinden değil, çocuktan çocuğa aksın. <span class="et">Ağ dinamiği · s. 44</span>
 
-“Film bana … hissettirdi.” Tek kelime ya da cümle, pas serbest.
+### dk 0–5 · Kavrama Zamanı
+
+“Filmi birlikte anlatalım. Biri başlasın, sonra her biriniz şu ana kadar söylenmemiş bir şey eklesin.” Uzamasın. <span class="et">Kavrama Zamanı · s. 35</span>
 
 ### dk 5–12 · Soruların altındaki soru
 
-Tahtadaki durak cevaplarına bakılır: “Film bitti, hâlâ öyle mi düşünüyorsunuz?” Moderatör soruları tahtaya yazar.
-
-**Beklenen kart soruları ve altlarındaki soru:**
-
-| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
-|---|---|
-| “Meryl (Truman'ın karısı; aslında şovda rol yapan bir oyuncu) Truman'ı seviyor muydu?” | “Birinin bizi gerçekten sevdiğini nasıl biliriz?” |
-| “Truman (hayatı habersizce canlı yayınlanan film kahramanı) neden gitmek istedi?” | “Mutlu olduğun bir yerden neden ayrılmak isteyesin?” |
-| “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) neden bunu yaptı?” | “Birini korumak, ona yalan söylemeyi haklı çıkarır mı?” |
-| “İzleyiciler neden izliyordu?” | “Başkasının hayatını izlemek ne zaman yanlış olur?” |
-
-Moderatör: “Bu soruların hepsinin altında ortak bir şey var: Bir şeyin gerçek olduğunu nasıl biliriz? Bugün buradan başlıyoruz.” Kavram sorusu tahtanın en üstüne yazılır: **“Bilmek nedir? Hiç yanılmadığımız bir şey var mı?”**
+Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Çocukların film sorularını insan sorusuna çevir, örneğin “Meryl (Truman'ın karısı; aslında şovda rol yapan bir oyuncu) onu seviyor muydu?” sorusu “Birinin bizi sevdiğini nasıl biliriz?” olur. Sonra demir at: “Bütün bunların altındaki soru ne?” Tahtaya tek başına yaz: **Bilmek nedir?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
 
 ### dk 12–42 · Soru merdiveni
 
-**Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
+**1. basamak · Bilgi mi, inanç mı? (yaklaşık 7 dk)** *Açık Soru:* “Truman otuz yıl ‘Babam denizde boğuldu’ (şov, Truman'ı denizden korkutmak için babasının boğulmasını sahnelemişti) diye biliyordu. Bunu da söylenenlerden biliyordu, tıpkı iskeledeki sözü bildiği gibi. Bu bilgi miydi?”
 
-“Truman (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıl boyunca ‘Karım beni seviyor’, ‘Babam denizde boğuldu’ (şov, Truman'ı denizden korkutmak için babasının boğulmasını sahnelemişti) diye biliyordu. Bunlar bilgi miydi?”
+| Öğrenci şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Hayır, yanlıştı.” | “Senin düşüncene göre bir şeyi bilmek için doğru olması gerekiyor, öyle mi?” Gruba: “Doğru olması yeter mi?” | <span class="et">Çıkarımları sınamak · s. 58</span> <span class="et">Ne gerekli? Ne yeterli? · s. 51</span> |
+| “Onun için bilgiydi.” | “Eğer herkesin bilgisi kendine göreyse, o zaman ‘Dünya düz’ diye bilen biri de biliyor mu?” | <span class="et">Eğer… o zaman · s. 27</span> |
+| “Bilmek, bir şeyi bilmektir.” | “Peki ‘bilmek’ kelimesini kullanmadan anlatabilir misin?” | <span class="et">Döngüden çıkarmak · s. 52</span> |
+| Konuşma senin üzerinden gidiyorsa | “Sadece az önceki fikre cevap verecek olanlar parmak kaldırsın.” | <span class="et">Cevap detektörü · s. 61</span> |
 
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Hayır, çünkü yanlıştı.” | “O zaman bir şeyi bilmek için doğru olması gerekiyor. Ama Truman (hayatı habersizce canlı yayınlanan film kahramanı) yanlış olduğunu bilmiyordu. Senin şu an ‘biliyorum’ dediğin ama yanlış çıkabilecek bir şey var mı?” (Basamak 2'ye hazırlar) |
-| “Evet, onun için bilgiydi.” | “Herkesin kendi bilgisi mi var? Biri ‘Dünya düz’ diye ‘biliyorsa’ bu onun için bilgi mi olur? Bilmek ile inanmak arasındaki fark ne?” (Kavram ayrımı) |
-| “Herkes öyle söylüyordu, inanması normaldi.” | “Seahaven'da (Truman'ın yaşadığı kasaba; aslında dev bir stüdyo seti) herkes aynı şeyi söylüyordu ve hepsi yanılıyordu ya da yalan söylüyordu. Çok kişinin söylemesi bir şeyi doğru yapar mı? Sen bir şeye kimden duyunca inanırsın?” (Karşı örnek) |
-| “Kanıtı vardı: fotoğraflar, belgeler.” | “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) kanıtları da kurgulayabiliyordu. Kanıt da sahte olabiliyorsa neye güveneceğiz?” (Sonuç takibi) |
+**2. basamak · Rüya (yaklaşık 8 dk)** *Geri çağır:* “Dergilerden birleştirilen yüzü hatırlıyor musunuz? Truman'ın elinde kanıt yoktu.” *Açık Soru:* “Eğer şu an rüya görüyor olsaydın, bunu nasıl anlardın?” <span class="et">Eğer durum böyle olsaydı · s. 52–53</span>
 
-**Basamak 2: Düşünce deneyi, rüya (yaklaşık 8 dk)**
+| Öğrenci şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Kendimi çimdiklerim.” | “Rüyanda hiç acı hissetmedin mi?” Gruba: “Bu iyi bir karşı örnek mi?” | <span class="et">Karşı örnek · s. 51</span> |
+| “Ama bu bir rüya değil ki!” | “Ama ya olsaydı? Rüyayla uyanıklığı ayıran hiçbir iz olmadığını düşünelim.” | <span class="et">Yeniden demir atmak · s. 54</span> |
+| “Hiçbir şey bilemeyiz.” | “Hiç yanılmadığımız tek bir şey bulabilir misin?” | <span class="et">Yanlışlama · s. 51</span> |
+| “Belki Truman da rüyadaydı.” | “Eğer öyleyse, o zaman Truman bir şey biliyor muydu?” | <span class="et">“Belki” problemi · s. 53</span> |
 
-“Dün gece bir rüya gördün ve rüyadayken her şeyi gerçek sandın. Şu an rüya görmediğini nasıl kanıtlarsın?”
+*Not:* “Hiçbir şey bilemeyiz” noktası bir son değil, merdivenin ortasıdır. Grubun ne tam kesinliğe ne de “hiçbir şey bilinmez”e yaslanmasına izin ver.
 
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Kendimi çimdiklerim.” | “Rüyanda hiç acı hissetmedin mi? Rüyadaki acı ile gerçek acı arasında hissedilen bir fark var mı?” |
-| “Rüyalar saçmadır, bu çok mantıklı.” | “Rüyadayken saçma geliyor mu? Ya bu, gördüğün en mantıklı rüyaysa?” |
-| “Uyanınca anlarım.” | “Truman (hayatı habersizce canlı yayınlanan film kahramanı) da bir anlamda ‘uyandı’. Ama ya uyandığın yer de bir rüyaysa? Ne zaman ‘artık kesin uyanığım’ diyebiliriz?” |
-| “O zaman hiçbir şey bilemeyiz.” | “Hiçbir şey bilemiyorsak, ‘hiçbir şey bilemeyiz’ cümlesini bildiğimizi nasıl biliyoruz? Rüya görüyor olsan bile şu an düşündüğünden emin misin? Hiç yanılmadığın bir şey var mı?” |
+**3. basamak · Kamp sorusuna köprü (yaklaşık 7 dk)** *Geri çağır:* “Ekrana dokunan eli hatırlıyor musunuz?” *Açık Soru:* “İyi bir hayat için gerçeği bilmek gerekli mi, yoksa mutlu olmak yeterli mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
 
-*Moderatöre not:* Grubun “hiçbir şey bilemeyiz” noktasına gelmesi bir son değil, merdivenin ortasıdır. Ne tamamen kesin bilgiye ne de “hiçbir şey bilinmez”e yaslanmasına izin verin. İki ucu da yukarıdaki sorularla sınayın.
+| Öğrenci şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Mutlu olmak yeter.” | “Senin düşüncene göre, mutlu olduğumuz sürece yanıldığımız şeyler önemli değil, öyle mi?” | <span class="et">Çıkarımları sınamak · s. 58</span> |
+| “Gerçek gerekli.” | “Gerekli, peki tek başına yeter mi? Gerçeği bilen ama mutsuz biri iyi bir hayat yaşıyor mu?” | <span class="et">Ne gerekli? Ne yeterli? · s. 51</span> |
+| Grup tek tarafta birleşirse | “Christof finalde Truman'a, dışarıda onun yarattığı dünyadakinden daha fazla gerçek olmadığını söylüyor. Christof olsaydınız bunu nasıl savunurdunuz?” | <span class="et">Farklı bakış açıları · s. 60–61</span> |
+| “Hem evet hem hayır.” | “O zaman sence gerekli mi, yeterli mi? Yoksa başka bir şey mi?” | <span class="et">İkili karşıtlıkları çözmek · s. 56</span> |
 
-**Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
+**4. basamak · Deneyim makinesi (yaklaşık 8 dk)** *Açık Soru:* “Eğer seni ömür boyu mutlu edecek bir makine olsaydı ve bağlandıktan sonra makinede olduğunu unutsaydın, bağlanır mıydın?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Eğer sanatı · s. 27</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-“Diyelim ki hiçbir şeyden tam emin olamıyoruz. O zaman gerçeği bilmek neden önemli? Truman (hayatı habersizce canlı yayınlanan film kahramanı) mutluydu. Neden kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktı?”
-
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Gerçek, gerçek olduğu için önemli.” | “Bu bir gerekçe mi, yoksa aynı şeyi iki kez mi söyledik? Gerçeği bilmek sana ne kazandırır?” |
-| “Kendi seçimlerini yapabilmek için.” | “Yani gerçek, özgür olmak için gerekli. Ama yanlış bir şeye inanırken de seçim yapıyoruz. Truman'ın (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıldaki seçimleri onun seçimi miydi?” (İki kavramı bağlar: bilgi ve özgürlük) |
-| “Bazen bilmemek daha iyidir.” | “Ne zaman? Bir örnek ver. Peki bir gerçeği bilmemeye kim karar vermeli: sen mi, başkası mı? Christof'un (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) yaptığı da bu değil miydi?” |
-| “Önemli değil, mutluysa yeter.” | “Bunu bir deneyle sınayalım.” (Basamak 4'e geçiş) |
-
-**Basamak 4: Düşünce deneyi, deneyim makinesi (yaklaşık 8 dk)**
-
-“Bir makine var. Bağlandığında istediğin her şeyi yaşıyormuş gibi hissediyorsun: maçı kazanıyorsun, arkadaşların seni çok seviyor, hiç sıkılmıyorsun. Bağlandıktan sonra makinede olduğunu unutuyorsun. Ömür boyu bağlanır mısın?”
-
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Evet, mutlu olurum.” | “O zaman Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) Truman'a iyilik mi yaptı? Filmde neden onu kötü bulduk?” Ya da: “Makinedeki arkadaşların seni sevmiyor, sadece seviyormuş gibi görünüyor. Bu fark eder mi?” |
-| “Hayır, çünkü gerçek değil.” | “Video oyunu da gerçek değil ama oynuyoruz. Makine ile oyun arasındaki fark ne? Bir saatliğine bağlanır mısın? Bir yıllığına? Sınır nerede?” |
-| “Ailem de gelirse bağlanırım.” | “Makinedeki aile gerçek ailen mi, yoksa onların bir kopyası mı? Sevdiğin onlar mı, onlarla ilgili hissin mi?” |
-| “Bilmiyorum, ikisi de olur.” | “Seni ikiye bölen ne? İçindeki bir ses ‘bağlan’ diyor, bir ses ‘bağlanma’. Her biri ne söylüyor?” (İki ilkeyi adlandırır: mutluluk ve gerçek) |
+| Öğrenci şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Bozulur, fişini çekerler.” | “Hiç bozulmayacağını düşünelim.” | <span class="et">Sınır çizen soru · s. 55</span> |
+| “Evet, mutlu olurum.” | “Makinedeki arkadaşların seni sevmiyor, seviyormuş gibi görünüyor. İskeledeki söz gibi. Fark eder mi?” | <span class="et">Bağlantı kurma · s. 38</span> |
+| “Hayır, gerçek değil.” | “Video oyunu da gerçek değil. Bir saatliğine bağlanır mısın? Bir yıllığına? Sınır nerede?” | <span class="et">Karşı örnek · s. 51</span> |
+| Deney karmaşık geldiyse | Deneyi anlamış bir çocuk kendi kelimeleriyle anlatsın. | <span class="et">Akran ağı · s. 60</span> |
 
 ### dk 42–50 · Kapanış ikilemi: deneyim makinesi (hareketli)
 
 “Ayağa kalkıyoruz.
 **A duvarı:** Makineye bağlanırım. Mutlu ama gerçek olmayan bir hayat.
 **B duvarı:** Bağlanmam. Gerçek ama zor olabilecek bir hayat.
-Tarafınızı seçin. Ortada durmak serbest, ama ‘Seni ortada tutan ne?’ diye soracağım.”
+Tarafınızı seçin. Ortada durmak serbest.” <span class="et">Ya… ya da… · s. 59</span>
 
-Her taraftan 2–3 gerekçe alınır. Sonra her iki tarafa da **ters köşe** sorusu sorulur. Amaç her iki tarafı da rahatsız etmek:
-- **A tarafına:** “Sana her zaman seni mutlu eden yalanlar söyleyen bir arkadaşın olsun ister misin?”
-- **B tarafına:** “Hiç ‘Keşke bunu bilmeseydim’ dediğin bir şey oldu mu? Gerçek her zaman mutluluktan daha mı önemli?”
+Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
 
-“Bu sorulardan sonra yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yer değiştirmeyenlere de sorulur: “Seni yerinde tutan ne?”
+Her taraftan 2–3 gerekçe al. Sonra iki tarafa da, onlara katılmayan birinin sesiyle ters köşe sorusu sor: <span class="et">Hayali muhalif · s. 50</span>
+- **A tarafına:** “Sana hep seni mutlu eden yalanlar söyleyen bir arkadaşın olsun ister misin?”
+- **B tarafına:** “Hiç ‘Keşke bilmeseydim’ dediğin bir şey oldu mu?”
+
+“Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?”
 
 ### dk 50–55 · Kamp sorusuna dönüş
 
-“Sabah ‘İyi bir hayat nedir?’ diye sorduk. Birçoğunuz ‘mutlu olmak’ yazdınız. Bugünden sonra bu cevaba ne eklemek ya da neyi değiştirmek gerekiyor?”
-
-2–3 öğrenci söyler. Moderatör grubun kendi sözleriyle duvardaki 1. gün kartına yazar. Grubun varabileceği yerlere örnekler (moderatör bunları söylemez, yalnızca tanır):
+“Sabah birçoğunuz ‘mutlu olmak’ yazdınız. Bugünden sonra bu cevaba ne eklemek gerekiyor?” 2–3 çocuk söyler. Grubun kendi sözlerini duvardaki 1. gün kartına yaz. Grubun varabileceği yerler (sen söylemezsin, yalnızca tanırsın):
 - “Mutluluk yetmeyebilir. Mutluluğun gerçek bir şeye dayanması gerekebilir.”
-- “Gerçeği bilmek, kendi seçimimi yapmak için gerekli.”
+- “Bildiklerimizin çoğu güvene dayanıyor.”
 - “Ama hiçbir şeyden tam emin olamıyoruz.”
 
-**Açık kalan soru** da karta yazılır, ya grubun ya moderatörün sözleriyle.
+**Açık kalan soru** da karta yazılır.
 
-### dk 55–60 · Defter: Gün 1
+### dk 55–60 · Gün yaprağı
 
-“Defterlerinizi açın, ‘1. gün’ bloğu. Beş dakika, sessiz. Kamp sorusuna bugünkü cevabınız: Sabahki cevabınız aynı mı kaldı, değişti mi? Değiştiyse yeni cevabınızı, değişmediyse ‘Değişmedi, çünkü …’ yazın. Altına bugün kafanızı en çok karıştıran soruyu yazın.”
+“Beş dakika, sessiz. Kamp sorusuna bugünkü cevabınız: değişti mi? Değişmediyse ‘Değişmedi, çünkü …’ yazın. Altına bugün kafanızı en çok karıştıran soruyu yazın.”
 
 ## Kapanış: gerilim ve köprü (3 dk)
 
-“Bugün dışarıdaki dünyanın gerçek olup olmadığını sorduk. Ama bir soru açık kaldı: Truman (hayatı habersizce canlı yayınlanan film kahramanı) kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktığında kim olacak? Otuz yıl boyunca ‘Truman’ bir rolün adıydı. Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Yarın içerideki dünyaya bakacağız.”
+“Bugün dışarıdaki dünyayı nasıl bildiğimizi sorduk. Ama bir soru açık kaldı: Truman kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktığında kim olacak? Otuz yıl boyunca ‘Truman’ bir rolün adıydı. Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Yarın içerideki dünyaya bakacağız.”
 
-**Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bundan gerçekten emin miyim?’ diye düşündüğün bir an yakala. Defterindeki ‘hayattan bir soru’ satırına yaz. Örnek: ‘Arkadaşım bana kızgın değilim dedi. Gerçekten kızgın olmadığını nasıl bilirim?’”
+**Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bundan gerçekten emin miyim?’ diye düşündüğün bir an yakala. Yaprağındaki ‘hayattan bir soru’ satırına yaz. Örnek: ‘Arkadaşım bana kızgın değilim dedi. Gerçekten kızgın olmadığını nasıl bilirim?’”
 
-## Tartışma tek cevapla kapanırsa (1. gün)
+## Takılırsan (Gizli Sorular)
 
-| Durum | Hamle |
-|---|---|
-| Herkes B duvarına (gerçek) gidiyor | Ters tarafı siz kurun: “Size bir itiraz getireyim. Bir doktor çok küçük bir çocuğa korkutucu bir gerçeği hemen söylemeli mi? Herkes her gerçeği her zaman bilmeli mi?” |
-| Herkes “hiçbir şey bilemeyiz” diyor | “Bu cümlenin kendisini biliyor muyuz? Yarın güneşin doğacağını bilmiyor muyuz?” |
-| Herkes “mutluysa yeter” diyor | Deneyim makinesine geçin ve makinedeki arkadaşın “sahte sevgisini” sorun. |
-| Tartışma Truman'ın olaylarına kayıyor | “Truman'ı (hayatı habersizce canlı yayınlanan film kahramanı) bir kenara bırakalım. Bu soru senin hayatında nerede karşına çıkar?” |
-| Sessizlik | İkili konuşma (2 dk): “Yanındakine makineye bağlanıp bağlanmayacağını ve nedenini anlat.” Sonra: “Yanındakinin söylediği en ilginç şey neydi?” |
+| Durum | Hamle | Araç |
+|---|---|---|
+| Herkes B duvarında | “Size katılmayan biri ne derdi? Bir doktor çok küçük bir çocuğa korkutucu bir gerçeği hemen söylemeli mi?” | <span class="et">Hayali muhalif · s. 50</span> |
+| Herkes “bilemeyiz” diyor | “Yarın güneşin doğacağını bilmiyor muyuz? Emin olduğun tek bir şey bul.” | <span class="et">Yanlışlama · s. 51</span> |
+| Konu filmin olaylarına kaydı | “Evet ve… o zaman bu bilgi miydi?” Ya da: “Truman'ı bırakalım. Bu soru senin hayatında nerede karşına çıkıyor?” | <span class="et">Demir atmak · s. 48</span> |
+| Konu olgulara kaydı (“Bir insan otuz yıl gizlice çekilebilir mi?”) | “Bilmiyoruz, ama bir süre hayal edelim. Eğer çekilebilseydi…?” | <span class="et">Eğer durum böyle olsaydı · s. 53</span> |
+| Sessizlik | İki dakika ikili konuşma: “Yanındakine makineye bağlanıp bağlanmayacağını anlat.” | <span class="et">Konuşma Zamanı · s. 34</span> |
+| Çocuklar heyecanla kendi aralarında konuşuyor | Susturma. İki dakika ver, sonra “Neler konuştunuz?” | <span class="et">Uğultu · s. 43</span> |
 
 ## Hassas içerik
 
-Truman'ın babasını denizde kaybettiğini sandığı geri dönüşler ve finaldeki fırtına var. Ağır değil. Yakın zamanda yakınını ya da birini denizde kaybetmiş öğrenci varsa önceden birebir söyleyin. Rüya ve deneyim makinesi soruları bazı çocuklarda “Hiçbir şey gerçek değilse?” kaygısı uyandırabilir. Kapanışta şunu söyleyin: “Bunlar düşünme oyunları. Sevdiklerinizin gerçek olduğundan şüphe etmenizi istemiyoruz. Ama ‘nasıl biliyoruz’ diye sormak düşünmeyi güçlendirir.”
+Truman'ın babasını denizde kaybettiğini sandığı geri dönüşler ve finaldeki fırtına, yakın zamanda birini kaybetmiş bir çocuğa dokunabilir. Filmden önce kulağına bir cümle söylemen yeter. Rüya ve makine soruları bazen “Ya hiçbir şey gerçek değilse?” kaygısı uyandırır. Öyle olursa: “Bunlar düşünme oyunları. Sevdiklerinizden şüphe etmenizi istemiyoruz.”
 
 ## Moderatör için felsefe köşesi
 
-Derste ders anlatılmaz. En fazla bir isim, en sonda, tek cümle:
+Felsefe en sonda, çocuklar felsefe yaptıktan sonra söylenir. Böylece onlara ne yapacaklarını değil, az önce ne yaptıklarını anlatmış olursun. <span class="et">s. 65</span>
 - **Platon, mağara benzetmesi:** Hayatı boyunca mağara duvarındaki gölgeleri gerçek sanan insanlar.
-- **Descartes, rüya kuşkusu:** “Rüya görmediğimi nasıl bilirim?” Her şeyden şüphe etse bile şüphe eden olarak düşündüğünden emin olabildiğini söyledi.
+- **Descartes, rüya kuşkusu:** “Rüya görmediğimi nasıl bilirim?”
+- **Hume ve Reid, tanıklık:** Hume'a göre başkasının sözüne deneyimin gösterdiği kadar güvenmeliyiz. Reid'e göre insan önce güvenir, şüphe sonra gelir.
 - **Robert Nozick, deneyim makinesi (1974):** Bağlanmak istemiyorsak, iyi bir hayat için mutlu hissetmekten fazlasını istiyoruz demektir.
 
-Söylenebilecek tek cümle: “Bugün sorduğunuz soruyu yaklaşık 400 yıl önce Descartes adında bir filozof da sormuş: Rüya görmediğimi nasıl bilirim?”
+Söylenebilecek tek cümle. Tartışma rüyada yoğunlaştıysa: “Bu soruyu yaklaşık 400 yıl önce Descartes da sormuş: Rüya görmediğimi nasıl bilirim?” Sözde yoğunlaştıysa: “Yaklaşık 250 yıl önce iki İskoç filozof bunu tartışmış. Hume ‘Başkasının sözüne, deneyimin izin verdiği kadar güven’ demiş, Reid ‘Önce güvenmeseydik hiçbir şey öğrenemezdik’ demiş.”
 
 ---
 
@@ -1135,23 +1145,8 @@ Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller
 
 ---
 
-# B mi, C mi? Hangisini ne zaman seçmeli?
+# Ek: Alternatif model (görevli izleme)
 
-*Bu not iki senaryo dosyasında da aynıdır.*
+*Ana akış B modelidir. Bu not yalnızca B'nin mümkün olmadığı durumlar içindir.*
 
-**Temel fark:** İki modelde de film sonrası tartışma aynıdır: soruların altındaki soru, soru merdiveni, ikilem, kamp sorusuna dönüş ve defter. Fark film sırasındadır.
-- **B'de** film 2–3 kez durur. Her durakta siz bir soru sorarsınız ve kısa bir sohbet olur.
-- **C'de** öğrencinin elinde bir not kartı vardır. Film en fazla bir kez durur, durakta konuşulmaz, yazılır. Tartışma öğrencilerin kendi kart sorularından başlar.
-
-| Durum | Seçim |
-|---|---|
-| Grup P4C'yi ilk kez deneyecek, siz de kolaylaştırıcılıkta yenisiniz | **B** ile başlayın. Duraklarda grubu tanırsınız. |
-| Grupta 11–12 yaş ağırlıkta, dikkat süresi kısa | **B**. Sık duraklar dikkati tazeler. |
-| Amaç öğrencilerin kendi sorularını sormayı öğrenmesi | **C**. Soru sorma becerisi ancak öğrenci soru yazdığında gelişir. |
-| Grup lise ağırlıklı | **C**. Liseliler sık durdurulmayı “okul dersi” gibi bulur. |
-| Film duygusal ya da gerilimli (Ters Yüz 2, Soul) | **C**. Duraklar filmin etkisini bozar. |
-| Gün uzun, zaman dar | **C**. B güne 7–13 dk ekler. |
-
-**Karma yol:** İlk iki günü B ile, son üç günü C ile yapabilirsiniz. Geçiş günü not kartını ve izleme görevini 3 dakikayla tanıtın.
-
-**Önerim:** **C**, çünkü kampın B noktası (“sıradan şeylerin altında da soru var”) çocuğun kendi sorusunu yazmasına dayanıyor. B'yi, kolaylaştırıcı yeniyse ya da grup çok küçük yaş ağırlıklıysa seçin.
+Filmi durdurmak mümkün değilse (ortak gösterim, zaman çok dar) film kesintisiz izlenir. Her çocuğa günün not kartı verilir: üstte izleme görevi, altta “Aklıma takılan an” ve “Benim sorum” (`gorseller/pdf/gunN-…-not-karti.pdf`). Durakların Açık Soruları film bittikten sonra, Kavrama Zamanından hemen sonra sırayla sorulur ve “O sahneyi hatırlıyor musunuz?” diye sahne tarif edilir. Tartışmanın geri kalanı aynıdır.

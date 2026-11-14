@@ -132,7 +132,7 @@ IFADELER = [
 
 # Gün yaprakları: gün -> (film, kavram sorusu, hayattan soru ipucu, motif anahtarı)
 GUN_YAPRAKLARI = {
-    1: ("The Truman Show", "Bilmek nedir? Hiç yanılmadığımız bir şey var mı?",
+    1: ("The Truman Show", "Bilmek nedir?",
         "Kampta “Bundan gerçekten emin miyim?” dediğin bir an. Yarın sabaha kadar yakalayıp buraya yaz.", "truman"),
     2: ("Ters Yüz 2", "“Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?",
         "Kampta “Burada başka biri gibi davranıyorum” dediğin bir an. Yarın sabaha kadar yakalayıp buraya yaz.", "io2"),
