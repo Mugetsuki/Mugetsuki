@@ -10,7 +10,7 @@ CHROME="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
 
 mkdir -p "$GECICI/pikora-sosyal-kit/kaynak" "$GECICI/png"
 cp -r "$KOK/pikora-site" "$GECICI/"
-cp "$KOK/pikora-sosyal-kit/kaynak/kit.html" "$KOK/pikora-sosyal-kit/kaynak/hikaye.html" "$GECICI/pikora-sosyal-kit/kaynak/"
+cp "$KOK/pikora-sosyal-kit/kaynak/kit.html" "$KOK/pikora-sosyal-kit/kaynak/hikaye.html" "$KOK/pikora-sosyal-kit/kaynak/patiden.html" "$GECICI/pikora-sosyal-kit/kaynak/"
 W="$(wslpath -w "$GECICI")"
 URL="file:///${W//\\//}/pikora-sosyal-kit/kaynak/kit.html"
 URL="${URL// /%20}"
@@ -26,7 +26,7 @@ cek() { # cek <klasör/ad> <en> <boy> <sorgu>
   echo "$1.png"
 }
 
-if [ "${1:-hepsi}" != "hikaye" ]; then
+if [ "${1:-hepsi}" = "hepsi" ]; then
 cek "1-profil/profil-fotografi" 1080 1080 "t=avatar"
 cek "1-profil/profil-fotografi-bordo" 1080 1080 "t=avatar-ters"
 for k in urunler siparis kadro pay sorular; do cek "2-one-cikanlar/kapak-$k" 1080 1920 "t=kapak-$k"; done
@@ -36,6 +36,16 @@ cek "3-tanitim-gonderileri/3-pay" 1080 1350 "t=pay"
 for u in $(grep -o 'id: "[a-z-]*"' "$KOK/pikora-site/urunler.js" | cut -d'"' -f2); do cek "4-urun-gonderileri/$u" 1080 1350 "t=urun&u=$u"; done
 cek "5-hikaye/hikaye-zemin" 1080 1920 "t=hikaye-zemin"
 fi
+
+# "Patiden mesaj var" dizisi: hikâye (9:16) ve gönderi (4:5). Yalnız bunu üretmek için: bash uret.sh patiden
+if [ "${1:-hepsi}" != "hikaye" ]; then
+SAYFA="patiden.html"
+for m in $(grep -o '"[0-9]-[a-z-]*": {' "$KOK/pikora-sosyal-kit/kaynak/patiden.html" | cut -d'"' -f2); do
+  cek "7-patiden-mesaj/hikaye/$m" 1080 1920 "m=$m"
+  cek "7-patiden-mesaj/gonderi/$m" 1080 1350 "m=$m"
+done
+fi
+[ "${1:-hepsi}" = "patiden" ] && exit 0
 
 # Öne çıkan kategorilerine göre hikâyeler (6-hikayeler/<kategori>/)
 SAYFA="hikaye.html"

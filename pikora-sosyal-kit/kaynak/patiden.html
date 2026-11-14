@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Pikora · Patiden mesaj var</title>
+<!-- Müşterimiz kedi ve köpeklermiş gibi: hayvan yazar, Pikora insan sesiyle cevaplar.
+     Kullanım: patiden.html?m=<anahtar>  · 1080×1920 (hikâye) ya da 1080×1350 (gönderi), pencere boyuna göre yerleşir. -->
+<link rel="stylesheet" href="../../pikora-site/tokens.css">
+<style>
+  @font-face { font-family: "Baloo 2"; src: url("../../pikora-site/fonts/baloo-2-latin-ext-wght-normal.woff2") format("woff2-variations"); font-weight: 400 800; unicode-range: U+0100-02BA, U+1E00-1E9F, U+20A0-20C0; }
+  @font-face { font-family: "Baloo 2"; src: url("../../pikora-site/fonts/baloo-2-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 400 800; unicode-range: U+0000-00FF, U+0131, U+2000-206F; }
+  @font-face { font-family: "Nunito"; src: url("../../pikora-site/fonts/nunito-latin-ext-wght-normal.woff2") format("woff2-variations"); font-weight: 200 1000; unicode-range: U+0100-02BA, U+1E00-1E9F, U+20A0-20C0; }
+  @font-face { font-family: "Nunito"; src: url("../../pikora-site/fonts/nunito-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 200 1000; unicode-range: U+0000-00FF, U+0131, U+2000-206F; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 100vw; height: 100vh; overflow: hidden; }
+  body { background: var(--zemin); color: #1E2A4F; font: 600 40px/1.34 "Nunito", sans-serif; }
+  svg { display: block; }
+  .s { position: absolute; inset: 250px 64px 270px; display: flex; flex-direction: column; gap: 26px; }
+  .gonderi .s { inset: 54px 60px 48px; gap: 20px; }
+  .baslik { align-self: center; padding: 8px 36px; border-radius: 99px; background: var(--ip-sut); font: 700 50px/1.2 "Baloo 2"; rotate: -1.5deg; box-shadow: 0 5px 0 rgba(30, 42, 79, .14); }
+  .ust { display: flex; align-items: center; gap: 24px; padding: 20px 28px; border-radius: 40px; background: var(--ip-sut); box-shadow: var(--golge-1); }
+  .ust svg { width: 112px; height: 112px; flex: none; border-radius: 50%; background: var(--zemin); }
+  .ust b { display: block; font: 700 50px/1.1 "Baloo 2"; }
+  .ust span { font-size: 30px; font-weight: 600; opacity: .72; }
+  .akis { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 22px; }
+  .m { max-width: 82%; padding: 26px 36px; border-radius: 44px; box-shadow: var(--golge-1); }
+  .gonderi .m { padding: 20px 32px; font-size: 37px; }
+  .gonderi .akis { gap: 16px; }
+  .o { align-self: flex-start; background: var(--ip-sut); border-bottom-left-radius: 10px; font-family: "Baloo 2"; font-weight: 600; font-size: 44px; line-height: 1.2; }
+  .gonderi .o { font-size: 40px; }
+  .b { align-self: flex-end; background: var(--ip-bordo); color: var(--ip-sut); border-bottom-right-radius: 10px; }
+  .saat { align-self: center; font-size: 26px; font-weight: 700; opacity: .6; }
+  .kunye { display: flex; align-items: center; justify-content: space-between; font: 700 36px/1 "Baloo 2"; color: var(--ip-bordo); }
+  .kunye svg { height: 58px; width: auto; }
+  .kunye small { font: 600 24px/1.2 "Nunito"; color: #1E2A4F; opacity: .7; text-align: right; }
+</style>
+</head>
+<body>
+<script src="../../pikora-site/urunler.js"></script>
+<script>
+(function () {
+  var IG = "@" + window.PIKORA_AYAR.instagram;
+  var LOGO = '<svg viewBox="0 -8 650 178"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M30 140 V40 H62 A28 28 0 0 1 62 96 H30 M120 140 V40 M165 40 V140 M226 40 L172 92 L228 140 M380 140 V40 H412 A28 28 0 0 1 412 96 H380 M408 96 L442 140 M470 140 L507 40 L544 140 M484 104 H530" stroke="#8A2335" stroke-width="22"/><circle cx="300" cy="90" r="50" stroke="#F07A5E" stroke-width="22"/><path d="M266 66 C290 80 300 110 284 134 M290 42 C318 62 330 100 318 136 M254 98 C280 96 320 112 346 104" stroke="#E3A72F" stroke-width="9"/><path d="M544 140 C566 156 598 146 596 122 C594 100 566 104 570 124 C574 144 606 152 630 136" stroke="#E3A72F" stroke-width="9"/></g><path d="M120 26 C108 18 104 4 114 1 C118 0 120 3 120 5 C120 3 122 0 126 1 C136 4 132 18 120 26 Z" fill="#F07A5E"/></svg>';
+  // Yumak kedi ve sarkık kulaklı yumak köpek (profil resmi)
+  function kedi(g, s) {
+    return '<svg viewBox="0 0 512 512"><g transform="translate(46 60) scale(.82)"><path d="M128 182 L138 58 L222 118 Z M384 182 L374 58 L290 118 Z" fill="' + g + '" stroke="' + g + '" stroke-width="18" stroke-linejoin="round"/><circle cx="256" cy="266" r="150" fill="' + g + '"/><path d="M152 196 C222 236 250 326 206 394 M236 124 C326 176 360 286 322 398 M116 296 C196 286 316 336 394 306" fill="none" stroke="' + s + '" stroke-width="20" stroke-linecap="round"/></g></svg>';
+  }
+  function kopek(g, s) {
+    return '<svg viewBox="0 0 512 512"><g transform="translate(46 50) scale(.82)"><path d="M150 150 C70 130 40 230 78 330 C96 372 140 350 142 300 Z M362 150 C442 130 472 230 434 330 C416 372 372 350 370 300 Z" fill="' + s + '"/><circle cx="256" cy="266" r="150" fill="' + g + '"/><path d="M152 196 C222 236 250 326 206 394 M236 124 C326 176 360 286 322 398 M116 296 C196 286 316 336 394 306" fill="none" stroke="' + s + '" stroke-width="20" stroke-linecap="round"/></g></svg>';
+  }
+  var P = { // temsili profiller; kadro kedileri değil
+    portakal: { ad: "Portakal", durum: "sarman · az önce yumak devirdi", svg: kedi("#EE7B26", "#FFFAF2") },
+    komur: { ad: "Kömür", durum: "siyah kedi · koltuğun en üstünde", svg: kedi("#1D1716", "#E3A72F") },
+    fistik: { ad: "Fıstık", durum: "tekir · kutunun içinde", svg: kedi("#7A5B3E", "#1D1716") },
+    karamel: { ad: "Karamel", durum: "köpek · kapının önünde bekliyor", svg: kopek("#E3A72F", "#7A5B3E") },
+    pamuk: { ad: "Pamuk", durum: "beyaz kedi · klavyenin üstünde", svg: kedi("#FFFAF2", "#F07A5E") }
+  };
+  var Z = { lavanta: "#D9CCF0", seftali: "#FBC9B4", sari: "#F8DC8C", nane: "#C4EBDD", pembe: "#F9CAD5" };
+  // o: hayvan yazar · b: Pikora cevaplar (insan sesi; destek, fiyat ve güvenlik cümleleri marka kitiyle aynı)
+  var M = {
+    "1-pay": { kim: "portakal", zemin: "seftali", saat: "Bugün 14:02", s: [
+      ["o", "Miyav. Bir şey soracağım."], ["o", "Benim kolyemden barınaktaki arkadaşlara yüzde kaç pay düşüyor?"],
+      ["b", "Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır."],
+      ["o", "Yani mama mı oluyor?"], ["b", "Evet. Biriken payı mama olarak teslim ediyor, her teslimi Pay Notu'nda yazıyoruz."],
+      ["o", "Tamam. İki tane yazın. İnsanım ödeyecek."]] },
+    "2-ip": { kim: "fistik", zemin: "nane", saat: "Bugün 11:47", s: [
+      ["o", "Bu ipi nasıl kullanmam lazım? Yeniyor mu?"], ["b", "Yenmiyor. Boynuna takılır, süs için."],
+      ["o", "Ucundan çekip kovalayabilir miyim?"], ["b", "İp ve yumak oyunları yalnız insanın yanındayken: ip yutulursa tehlikeli olabilir."],
+      ["o", "Peki sıkılırsam?"], ["b", "İlk günlerde gözetim altında takılır. Rahatsız olursan insanın çıkarır."]] },
+    "3-olcu": { kim: "pamuk", zemin: "lavanta", saat: "Bugün 16:20", s: [
+      ["o", "Boynum kaç beden?"], ["b", "İnsanına söyle, mezurayla sıkmadan ölçsün. Kaç santim çıktığını yazsın, gerisini birlikte belirleriz."],
+      ["o", "İnsanım mezurayı getirdi."], ["o", "Mezurayı yakaladım."], ["b", "Acele yok. Sakin anını bekleriz."]] },
+    "4-fiyat": { kim: "karamel", zemin: "sari", saat: "Bugün 09:15", s: [
+      ["o", "Hav. Ben para kazanmıyorum."], ["o", "Bir bandana kaç ödül maması ediyor?"],
+      ["b", "Mamayla alamıyoruz. Bandana 390 ₺, kolye 300 ₺."], ["o", "Kim ödeyecek peki?"],
+      ["b", "İnsanın. Ona şu bakışı at, yeter."], ["o", "Bakışı attım. Kredi kartını arıyor."]] },
+    "5-saat-uc": { kim: "komur", zemin: "lavanta", saat: "Bugün 03:07", s: [
+      ["o", "Siparişim hazır mı?"], ["o", "Saat 3. Ben uyanığım. Siz niye uyuyorsunuz?"],
+      ["b", "Günaydın Kömür. Her parça elde, ilmek ilmek örülür. Ne zaman hazır olacağını sipariş verirken söylemiştik."],
+      ["o", "Tamam. Yarım saat sonra yine sorarım."]] },
+    "6-renk": { kim: "komur", zemin: "pembe", saat: "Bugün 18:40", s: [
+      ["o", "Ben simsiyahım. Bana ne yakışır?"], ["b", "Portakal Bahçesi ya da Minik Balık. Siyah kürkte açık renkler öne çıkar."],
+      ["o", "Balıklı olanı yiyebilir miyim?"], ["b", "O balık örgü. Takılıyor, yenmiyor."], ["o", "Hayal kırıklığı. Yine de alıyorum."]] },
+    "7-siparis": { kim: "portakal", zemin: "nane", saat: "Bugün 21:33", s: [
+      ["o", "İnsanımın telefonunu ele geçirdim. Nasıl sipariş veriyorum?"],
+      ["b", "Üç ilmekte: beğendiğini seç, bize yaz, sıranı örelim."], ["o", "Seçtim. Minik Portakal. Adımız aynı."],
+      ["b", "Güzel seçim. Şimdi telefonu insanına geri ver, ölçünü yazsın."], ["o", "Geri vermeyi düşüneceğim."]] },
+    "8-kopek": { kim: "karamel", zemin: "seftali", saat: "Bugün 12:05", s: [
+      ["o", "Hav. Ben köpeğim. Kediler takıyor, ben bakıyorum."], ["o", "Bana da olur mu?"],
+      ["b", "Boyun ölçünü yaz, sana göre bakalım."], ["o", "Ölçtürdüm. Kuyruğum sallanmaktan mezura düştü."], ["b", "Bir daha deneriz. Biz buradayız."]] }
+  };
+  var q = new URLSearchParams(location.search);
+  if (q.has("liste")) { document.body.textContent = Object.keys(M).join(" "); return; }
+  var m = M[q.get("m") || "1-pay"], p = P[m.kim];
+  if (innerHeight < 1600) document.body.className = "gonderi";
+  document.body.style.setProperty("--zemin", Z[m.zemin]);
+  document.body.innerHTML = '<div class="s"><p class="baslik">Patiden mesaj var</p><div class="ust">' + p.svg + "<div><b>" + p.ad + "</b><span>" + p.durum + '</span></div></div><div class="akis"><p class="saat">' + m.saat + "</p>" +
+    m.s.map(function (x) { return '<p class="m ' + x[0] + '">' + x[1] + "</p>"; }).join("") + '</div><div class="kunye">' + LOGO + "<div>" + IG + "<br><small>Temsili yazışma</small></div></div></div>";
+})();
+</script>
+</body>
+</html>

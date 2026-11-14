@@ -55,6 +55,27 @@ Her klasör bir öne çıkan başlığı. Hikâyeyi paylaş, sonra "Öne çıkar
 - Kadro'da kedilerin adı yok, renkleriyle anılıyorlar (Bombay, Tekir, Sarman, Smokin). Adlar gelince `kaynak/hikaye.html`'de değişir.
 - Kadro hikâyeleri kedi sesiyle; Pay, fiyat ve güvenlik hikâyeleri insan sesiyle yazıldı (marka kitindeki ses tonu kuralı).
 
+## 7. "Patiden mesaj var" dizisi (`7-patiden-mesaj/`)
+Tema: müşterimiz doğrudan kedi ve köpeklermiş gibi. Hayvan bize yazar, Pikora cevaplar. Sekiz yazışma, her biri hem hikâye (`hikaye/`, 1080×1920) hem gönderi (`gonderi/`, 1080×1350) boyunda.
+
+| Dosya | Kim yazıyor | Konu | Öne çıkan |
+|---|---|---|---|
+| `1-pay` | Portakal (sarman) | Satıştan yüzde kaç pay düşüyor | Pay |
+| `2-ip` | Fıstık (tekir) | Bu ip nasıl kullanılır, yenir mi | Sorular |
+| `3-olcu` | Pamuk (beyaz kedi) | Boynum kaç beden | Sipariş |
+| `4-fiyat` | Karamel (köpek) | Bandana kaç mama eder | Sipariş |
+| `5-saat-uc` | Kömür (siyah kedi) | Gece 3'te "siparişim hazır mı" | Sorular |
+| `6-renk` | Kömür | Siyah kediye ne yakışır | Ürünler |
+| `7-siparis` | Portakal | Telefonu ele geçirdim, nasıl sipariş veririm | Sipariş |
+| `8-kopek` | Karamel | Köpeğe de olur mu | Sorular |
+
+- Hayvanlar temsili; her görselin altında "Temsili yazışma" yazıyor. Kadro kedilerinin adları gelince profiller onlarla değişebilir.
+- Soruyu hayvan sorar, şakayı hayvan yapar. Pay, fiyat ve güvenlik cevaplarını Pikora sade dille verir; destek cümlesi marka kitindekiyle aynı.
+- Yeni yazışma eklemek: `kaynak/patiden.html` içindeki listeye bir blok ekle, `bash pikora-sosyal-kit/kaynak/uret.sh patiden` çalıştır.
+
+## 8. "Bizim gördüğümüz / Onun gördüğü" (`8-bizim-gordugumuz/`)
+Kurucunun dizisinin Pikora'ya bağlanan beş sürümü için hazır istemler: `istemler.md`. Görseller yapay zeka görsel aracıyla üretilecek.
+
 ## Yazarken dikkat
 - Destek cümlesi her yerde aynı: "Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır." "Satışın %10'u", "bağış yapıyoruz", "hayat kurtar" denmez.
 - Gerçek teslim yapılmadan "teslim ettik / aktardık" yazılmaz.
