@@ -374,6 +374,8 @@ def main():
         pp = ROOT / f"{ad}.pdf"
         weasyprint.HTML(filename=str(hp)).write_pdf(str(pp))
         pdf = pdfium.PdfDocument(str(pp))
+        for eski in ROOT.glob(f"{ad}-s*.png"):
+            eski.unlink()
         for i, sayfa in enumerate(pdf, 1):
             sayfa.render(scale=100 / 72).to_pil().save(ROOT / f"{ad}-s{i}.png", optimize=True)
             if inceleme:
