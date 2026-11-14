@@ -56,7 +56,7 @@ Moderatör kamp sorusunu tek cümleyle tanıtır, açıklama yapmaz:
 
 Kısa film izlenir (yaklaşık 4 dk). Moderatör 2–3 soru alır, tahtaya yazar. Sonra tek bir hamleyi gösterir:
 
-“Mesela biri ‘Çocuk köpeği neden reddetti?’ dedi. Bunun cevabı filmde var: üç bacağı olduğu için. Şimdi bu soruyu bir **insan sorusuna** çevirelim. ‘Çocuk’ yerine ‘insan’ koyalım: ‘İnsan, başkasında beğenmediği bir şeyi neden reddeder?’ Bu sorunun cevabı filmde yok. Akıllı insanlar farklı cevaplar verir. İşte bu kampta bu tür sorularla uğraşacağız.”
+“Mesela biri ‘Çocuk köpeği (annesinin hediye ettiği üç bacaklı yavru) neden reddetti?’ dedi. Bunun cevabı filmde var: üç bacağı olduğu için. Şimdi bu soruyu bir **insan sorusuna** çevirelim. ‘Çocuk’ yerine ‘insan’ koyalım: ‘İnsan, başkasında beğenmediği bir şeyi neden reddeder?’ Bu sorunun cevabı filmde yok. Akıllı insanlar farklı cevaplar verir. İşte bu kampta bu tür sorularla uğraşacağız.”
 
 **Bu tek hamle bütün kampın becerisidir:** film sorusunu insan sorusuna çevirmek. 5. günün sonunda çocuk bunu kendi hayatındaki sorulara da yapabilmeli.
 
@@ -65,7 +65,7 @@ Kısa film izlenir (yaklaşık 4 dk). Moderatör 2–3 soru alır, tahtaya yazar
 - **C:** Not kartının üstünde yazar.
 - **B:** Sözlü verilir.
 
-**“Truman bir şeyin gerçek olduğuna neye bakarak karar veriyor? Sen izlerken neye bakarak ‘bu sahte’ dedin?”**
+**“Truman (hayatı habersizce canlı yayınlanan film kahramanı) bir şeyin gerçek olduğuna neye bakarak karar veriyor? Sen izlerken neye bakarak ‘bu sahte’ dedin?”**
 
 ## Duraklar
 
@@ -73,9 +73,9 @@ Duraklarda da soru dört testi geçer. Evet/hayır ya da olay sorusu sorulmaz.
 
 | | C (2 yazma durağı, 5'er dk) | B (3 konuşmalı durak, 6'şar dk) |
 |---|---|---|
-| **Sylvia sahnesi bitince** (yaklaşık ilk üçte birin sonu) | **Yaz:** “Truman'ın ‘bildiği’ şeylerden hangisi yanlış çıkabilir?” **Sor (2–3 kısa cevap):** “Sylvia tek bir kişi, kasaba yüzlerce kişi. Birine inanmak için neye bakarız: kaç kişinin söylediğine mi, başka bir şeye mi?” | Aynı soru. 3–4 cevap tahtaya. |
-| **Arabayla kaçış girişimi engellenip Truman eve getirilince** (yaklaşık ortası) | Durak yok | “Truman bir şeylerin yanlış olduğundan emin ama elinde kanıt yok. Kanıtın olmadan bildiğin bir şey var mı?” (Su molası) |
-| **Ekip Truman'ın kaybolduğunu fark edince** (son çeyreğin başı) | **Yaz:** “Christof, Truman'ı dışarıdaki dünyadan koruduğunu söylüyor. Sen ne düşünüyorsun?” **Sor:** “Birini korumak için ondan gerçeği saklamak ne zaman doğru olabilir, ne zaman olamaz?” | Aynı soru. 3–4 cevap tahtaya. |
+| **Sylvia sahnesi bitince** (yaklaşık ilk üçte birin sonu) | **Yaz:** “Truman'ın (hayatı habersizce canlı yayınlanan film kahramanı) ‘bildiği’ şeylerden hangisi yanlış çıkabilir?” **Sor (2–3 kısa cevap):** “Sylvia (Truman'ın gençliğinde tanıştığı, ona her şeyin bir oyun olduğunu anlatmaya çalışan kız) tek bir kişi, kasaba yüzlerce kişi. Birine inanmak için neye bakarız: kaç kişinin söylediğine mi, başka bir şeye mi?” | Aynı soru. 3–4 cevap tahtaya. |
+| **Arabayla kaçış girişimi engellenip Truman eve getirilince** (yaklaşık ortası) | Durak yok | “Truman (hayatı habersizce canlı yayınlanan film kahramanı) bir şeylerin yanlış olduğundan emin ama elinde kanıt yok. Kanıtın olmadan bildiğin bir şey var mı?” (Su molası) |
+| **Ekip Truman'ın kaybolduğunu fark edince** (son çeyreğin başı) | **Yaz:** “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı), Truman'ı dışarıdaki dünyadan koruduğunu söylüyor. Sen ne düşünüyorsun?” **Sor:** “Birini korumak için ondan gerçeği saklamak ne zaman doğru olabilir, ne zaman olamaz?” | Aynı soru. 3–4 cevap tahtaya. |
 
 Durma noktaları sahne tarifiyle verildi. Dakikalar ön izlemede oynatıcıda işaretlenmeli.
 
@@ -93,9 +93,9 @@ C'de 4–5 öğrenci kartından birer soru okur. B'de tahtadaki durak cevapları
 
 | Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
 |---|---|
-| “Meryl Truman'ı seviyor muydu?” | “Birinin bizi gerçekten sevdiğini nasıl biliriz?” |
-| “Truman neden gitmek istedi?” | “Mutlu olduğun bir yerden neden ayrılmak isteyesin?” |
-| “Christof neden bunu yaptı?” | “Birini korumak, ona yalan söylemeyi haklı çıkarır mı?” |
+| “Meryl (Truman'ın karısı; aslında şovda rol yapan bir oyuncu) Truman'ı seviyor muydu?” | “Birinin bizi gerçekten sevdiğini nasıl biliriz?” |
+| “Truman (hayatı habersizce canlı yayınlanan film kahramanı) neden gitmek istedi?” | “Mutlu olduğun bir yerden neden ayrılmak isteyesin?” |
+| “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) neden bunu yaptı?” | “Birini korumak, ona yalan söylemeyi haklı çıkarır mı?” |
 | “İzleyiciler neden izliyordu?” | “Başkasının hayatını izlemek ne zaman yanlış olur?” |
 
 Moderatör: “Bu soruların hepsinin altında ortak bir şey var: Bir şeyin gerçek olduğunu nasıl biliriz? Bugün buradan başlıyoruz.” Kavram sorusu tahtanın en üstüne yazılır: **“Bilmek nedir? Hiç yanılmadığımız bir şey var mı?”**
@@ -104,14 +104,14 @@ Moderatör: “Bu soruların hepsinin altında ortak bir şey var: Bir şeyin ge
 
 **Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
 
-“Truman otuz yıl boyunca ‘Karım beni seviyor’, ‘Babam denizde boğuldu’ diye biliyordu. Bunlar bilgi miydi?”
+“Truman (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıl boyunca ‘Karım beni seviyor’, ‘Babam denizde boğuldu’ (şov, Truman'ı denizden korkutmak için babasının boğulmasını sahnelemişti) diye biliyordu. Bunlar bilgi miydi?”
 
 | Öğrenci şunu derse | Sen şunu sor |
 |---|---|
-| “Hayır, çünkü yanlıştı.” | “O zaman bir şeyi bilmek için doğru olması gerekiyor. Ama Truman yanlış olduğunu bilmiyordu. Senin şu an ‘biliyorum’ dediğin ama yanlış çıkabilecek bir şey var mı?” (Basamak 2'ye hazırlar) |
+| “Hayır, çünkü yanlıştı.” | “O zaman bir şeyi bilmek için doğru olması gerekiyor. Ama Truman (hayatı habersizce canlı yayınlanan film kahramanı) yanlış olduğunu bilmiyordu. Senin şu an ‘biliyorum’ dediğin ama yanlış çıkabilecek bir şey var mı?” (Basamak 2'ye hazırlar) |
 | “Evet, onun için bilgiydi.” | “Herkesin kendi bilgisi mi var? Biri ‘Dünya düz’ diye ‘biliyorsa’ bu onun için bilgi mi olur? Bilmek ile inanmak arasındaki fark ne?” (Kavram ayrımı) |
-| “Herkes öyle söylüyordu, inanması normaldi.” | “Seahaven'da herkes aynı şeyi söylüyordu ve hepsi yanılıyordu ya da yalan söylüyordu. Çok kişinin söylemesi bir şeyi doğru yapar mı? Sen bir şeye kimden duyunca inanırsın?” (Karşı örnek) |
-| “Kanıtı vardı: fotoğraflar, belgeler.” | “Christof kanıtları da kurgulayabiliyordu. Kanıt da sahte olabiliyorsa neye güveneceğiz?” (Sonuç takibi) |
+| “Herkes öyle söylüyordu, inanması normaldi.” | “Seahaven'da (Truman'ın yaşadığı kasaba; aslında dev bir stüdyo seti) herkes aynı şeyi söylüyordu ve hepsi yanılıyordu ya da yalan söylüyordu. Çok kişinin söylemesi bir şeyi doğru yapar mı? Sen bir şeye kimden duyunca inanırsın?” (Karşı örnek) |
+| “Kanıtı vardı: fotoğraflar, belgeler.” | “Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) kanıtları da kurgulayabiliyordu. Kanıt da sahte olabiliyorsa neye güveneceğiz?” (Sonuç takibi) |
 
 **Basamak 2: Düşünce deneyi, rüya (yaklaşık 8 dk)**
 
@@ -121,20 +121,20 @@ Moderatör: “Bu soruların hepsinin altında ortak bir şey var: Bir şeyin ge
 |---|---|
 | “Kendimi çimdiklerim.” | “Rüyanda hiç acı hissetmedin mi? Rüyadaki acı ile gerçek acı arasında hissedilen bir fark var mı?” |
 | “Rüyalar saçmadır, bu çok mantıklı.” | “Rüyadayken saçma geliyor mu? Ya bu, gördüğün en mantıklı rüyaysa?” |
-| “Uyanınca anlarım.” | “Truman da bir anlamda ‘uyandı’. Ama ya uyandığın yer de bir rüyaysa? Ne zaman ‘artık kesin uyanığım’ diyebiliriz?” |
+| “Uyanınca anlarım.” | “Truman (hayatı habersizce canlı yayınlanan film kahramanı) da bir anlamda ‘uyandı’. Ama ya uyandığın yer de bir rüyaysa? Ne zaman ‘artık kesin uyanığım’ diyebiliriz?” |
 | “O zaman hiçbir şey bilemeyiz.” | “Hiçbir şey bilemiyorsak, ‘hiçbir şey bilemeyiz’ cümlesini bildiğimizi nasıl biliyoruz? Rüya görüyor olsan bile şu an düşündüğünden emin misin? Hiç yanılmadığın bir şey var mı?” |
 
 *Moderatöre not:* Grubun “hiçbir şey bilemeyiz” noktasına gelmesi bir son değil, merdivenin ortasıdır. Ne tamamen kesin bilgiye ne de “hiçbir şey bilinmez”e yaslanmasına izin verin. İki ucu da yukarıdaki sorularla sınayın.
 
 **Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
 
-“Diyelim ki hiçbir şeyden tam emin olamıyoruz. O zaman gerçeği bilmek neden önemli? Truman mutluydu. Neden kapıdan çıktı?”
+“Diyelim ki hiçbir şeyden tam emin olamıyoruz. O zaman gerçeği bilmek neden önemli? Truman (hayatı habersizce canlı yayınlanan film kahramanı) mutluydu. Neden kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktı?”
 
 | Öğrenci şunu derse | Sen şunu sor |
 |---|---|
 | “Gerçek, gerçek olduğu için önemli.” | “Bu bir gerekçe mi, yoksa aynı şeyi iki kez mi söyledik? Gerçeği bilmek sana ne kazandırır?” |
-| “Kendi seçimlerini yapabilmek için.” | “Yani gerçek, özgür olmak için gerekli. Ama yanlış bir şeye inanırken de seçim yapıyoruz. Truman'ın otuz yıldaki seçimleri onun seçimi miydi?” (İki kavramı bağlar: bilgi ve özgürlük) |
-| “Bazen bilmemek daha iyidir.” | “Ne zaman? Bir örnek ver. Peki bir gerçeği bilmemeye kim karar vermeli: sen mi, başkası mı? Christof'un yaptığı da bu değil miydi?” |
+| “Kendi seçimlerini yapabilmek için.” | “Yani gerçek, özgür olmak için gerekli. Ama yanlış bir şeye inanırken de seçim yapıyoruz. Truman'ın (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıldaki seçimleri onun seçimi miydi?” (İki kavramı bağlar: bilgi ve özgürlük) |
+| “Bazen bilmemek daha iyidir.” | “Ne zaman? Bir örnek ver. Peki bir gerçeği bilmemeye kim karar vermeli: sen mi, başkası mı? Christof'un (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) yaptığı da bu değil miydi?” |
 | “Önemli değil, mutluysa yeter.” | “Bunu bir deneyle sınayalım.” (Basamak 4'e geçiş) |
 
 **Basamak 4: Düşünce deneyi, deneyim makinesi (yaklaşık 8 dk)**
@@ -143,7 +143,7 @@ Moderatör: “Bu soruların hepsinin altında ortak bir şey var: Bir şeyin ge
 
 | Öğrenci şunu derse | Sen şunu sor |
 |---|---|
-| “Evet, mutlu olurum.” | “O zaman Christof Truman'a iyilik mi yaptı? Filmde neden onu kötü bulduk?” Ya da: “Makinedeki arkadaşların seni sevmiyor, sadece seviyormuş gibi görünüyor. Bu fark eder mi?” |
+| “Evet, mutlu olurum.” | “O zaman Christof (şovun yaratıcısı; Truman'ın hayatını kontrol odasından yöneten yapımcı) Truman'a iyilik mi yaptı? Filmde neden onu kötü bulduk?” Ya da: “Makinedeki arkadaşların seni sevmiyor, sadece seviyormuş gibi görünüyor. Bu fark eder mi?” |
 | “Hayır, çünkü gerçek değil.” | “Video oyunu da gerçek değil ama oynuyoruz. Makine ile oyun arasındaki fark ne? Bir saatliğine bağlanır mısın? Bir yıllığına? Sınır nerede?” |
 | “Ailem de gelirse bağlanırım.” | “Makinedeki aile gerçek ailen mi, yoksa onların bir kopyası mı? Sevdiğin onlar mı, onlarla ilgili hissin mi?” |
 | “Bilmiyorum, ikisi de olur.” | “Seni ikiye bölen ne? İçindeki bir ses ‘bağlan’ diyor, bir ses ‘bağlanma’. Her biri ne söylüyor?” (İki ilkeyi adlandırır: mutluluk ve gerçek) |
@@ -178,7 +178,7 @@ Her taraftan 2–3 gerekçe alınır. Sonra her iki tarafa da **ters köşe** so
 
 ## Kapanış: gerilim ve köprü (3 dk)
 
-“Bugün dışarıdaki dünyanın gerçek olup olmadığını sorduk. Ama bir soru açık kaldı: Truman kapıdan çıktığında kim olacak? Otuz yıl boyunca ‘Truman’ bir rolün adıydı. Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Yarın içerideki dünyaya bakacağız.”
+“Bugün dışarıdaki dünyanın gerçek olup olmadığını sorduk. Ama bir soru açık kaldı: Truman (hayatı habersizce canlı yayınlanan film kahramanı) kapıdan (gökyüzü gibi boyanmış stüdyo duvarındaki çıkış kapısı) çıktığında kim olacak? Otuz yıl boyunca ‘Truman’ bir rolün adıydı. Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Yarın içerideki dünyaya bakacağız.”
 
 **Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bundan gerçekten emin miyim?’ diye düşündüğün bir an yakala. Defterindeki ‘hayattan bir soru’ satırına yaz. Örnek: ‘Arkadaşım bana kızgın değilim dedi. Gerçekten kızgın olmadığını nasıl bilirim?’”
 
@@ -189,7 +189,7 @@ Her taraftan 2–3 gerekçe alınır. Sonra her iki tarafa da **ters köşe** so
 | Herkes B duvarına (gerçek) gidiyor | Ters tarafı siz kurun: “Size bir itiraz getireyim. Bir doktor çok küçük bir çocuğa korkutucu bir gerçeği hemen söylemeli mi? Herkes her gerçeği her zaman bilmeli mi?” |
 | Herkes “hiçbir şey bilemeyiz” diyor | “Bu cümlenin kendisini biliyor muyuz? Yarın güneşin doğacağını bilmiyor muyuz?” |
 | Herkes “mutluysa yeter” diyor | Deneyim makinesine geçin ve makinedeki arkadaşın “sahte sevgisini” sorun. |
-| Tartışma Truman'ın olaylarına kayıyor | “Truman'ı bir kenara bırakalım. Bu soru senin hayatında nerede karşına çıkar?” |
+| Tartışma Truman'ın olaylarına kayıyor | “Truman'ı (hayatı habersizce canlı yayınlanan film kahramanı) bir kenara bırakalım. Bu soru senin hayatında nerede karşına çıkar?” |
 | Sessizlik | İkili konuşma (2 dk): “Yanındakine makineye bağlanıp bağlanmayacağını ve nedenini anlat.” Sonra: “Yanındakinin söylediği en ilginç şey neydi?” |
 
 ## Hassas içerik
