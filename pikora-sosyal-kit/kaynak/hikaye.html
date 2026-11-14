@@ -51,7 +51,8 @@
   .balon::after { content: ""; position: absolute; left: 150px; bottom: -58px; border: 34px solid transparent; border-top-color: var(--ip-sut); border-left-color: var(--ip-sut); }
   .kedi { width: 600px; height: 600px; margin: 40px 0 0 30px; }
   .kadro { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px 20px; text-align: center; font: 600 40px/1.1 "Baloo 2"; }
-  .kadro svg { width: 290px; height: 290px; margin: 0 auto; }
+  .kadro svg { width: 270px; height: 270px; margin: 0 auto; }
+  .kadro small { display: block; font: 600 28px/1.2 "Nunito"; color: var(--renk-metin-yumusak); }
   .mesaj { align-self: flex-end; max-width: 860px; padding: 40px 46px; border-radius: 48px 48px 10px 48px; background: #DCF3D3; box-shadow: var(--golge-1); font-size: 40px; line-height: 1.42; white-space: pre-line; }
   .form div { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 34px 40px; border-bottom: 3px dashed var(--renk-cizgi); font: 600 46px/1.2 "Baloo 2"; }
   .form div:last-child { border: 0; }
@@ -75,7 +76,7 @@
       '<path d="M152 196 C222 236 250 326 206 394 M236 124 C326 176 360 286 322 398 M116 296 C196 286 316 336 394 306" fill="none" stroke="' + sargi + '" stroke-width="20" stroke-linecap="round"/>' +
       '<path d="M396 326 C446 356 476 406 446 456 C426 486 396 466 416 446" fill="none" stroke="' + uc + '" stroke-width="20" stroke-linecap="round"/></svg>';
   }
-  var KEDI = { bombay: ["#1D1716", "#E3A72F", "#F07A5E"], tekir: ["#7A5B3E", "#1D1716", "#E3A72F"], sarman: ["#EE7B26", "#FFFAF2", "#8A2335"], smokin: ["#1D1716", "#FFFAF2", "#A6DCC9"], smokin2: ["#1D1716", "#FFFAF2", "#F4A5B8"] };
+  var KEDI = { karam: ["#1D1716", "#E3A72F", "#F07A5E"], kuytu: ["#7A5B3E", "#1D1716", "#E3A72F"], peri: ["#8E6B48", "#1D1716", "#F4A5B8"], chika: ["#EE7B26", "#FFFAF2", "#8A2335"], smokin: ["#1D1716", "#FFFAF2", "#A6DCC9"], kopuk: ["#1D1716", "#FFFAF2", "#F4A5B8"] };
   var k = function (ad, cls) { return kedi(KEDI[ad][0], KEDI[ad][1], KEDI[ad][2], cls); };
   var tur = function (t) { return U.filter(function (u) { return u.tur === t; }); };
   var gorsel = function (u) { return u.gorsel ? '<img src="../../pikora-site/' + u.gorsel + '-960.webp" alt="">' : C.kolyeSVG(u.cizim); };
@@ -99,17 +100,19 @@
     "urunler-5": tek("kolye-pembe-bahar"),
 
     /* ---------- SİPARİŞ ---------- */
-    "siparis-1": '<h1>Üç ilmekte sipariş</h1>' + adim(1, "#F07A5E", "Beğendiğini seç", "Yedi kolye, yedi bandana. Hepsi profilde.") + adim(2, "#E3A72F", "Bize yaz", "Instagram ya da WhatsApp. Ölçüyü ve teslimi orada konuşuruz.") + adim(3, "#A6DCC9", "Sıranı örelim", "Her parça elde örülür. Ne zaman hazır olacağını baştan söyleriz."),
-    "siparis-2": '<h1>Ölçü nasıl alınır?</h1>' + adim(1, "#F07A5E", "Mezurayı al", "Mezura yoksa bir ip de olur; sonra cetvelle ölçersin.") + adim(2, "#E3A72F", "Boynunu ölç", "Kedin sakinken, boynunun çevresini sıkmadan ölç.") + adim(3, "#A6DCC9", "Bize yaz", "Kaç santim çıktığını yaz. Ölçüyü kedinin boynuna göre birlikte belirleriz.") + '<p class="yumusak">Ölçemediysen sorun değil, mesajda birlikte bakarız.</p>',
-    "siparis-3": '<h1>Ne yazacağını bilemedin mi?</h1><p class="yumusak">Şöyle bir mesaj yeter:</p><div class="mesaj">Merhaba Pikora! Şunları istiyorum:\n• Bordo Güneş (kolye)\n• Gün Işığı (bandana)\nKedimin adı: Fıstık\nBoyun ölçüsü: 22 cm</div><p class="yumusak">Sitede ürünleri ipine dizersen bu mesaj kendiliğinden hazırlanır.</p>',
+    "siparis-1": '<h1>Üç ilmekte sipariş</h1>' + adim(1, "#F07A5E", "Beğendiğini seç", "Yedi kolye, yedi bandana. Hepsi profilde.") + adim(2, "#E3A72F", "Bize yaz", "Instagram ya da WhatsApp. Ölçü sormuyoruz; teslimi orada konuşuruz.") + adim(3, "#A6DCC9", "Sıranı örelim", "Her parça elde örülür. Ne zaman hazır olacağını baştan söyleriz."),
+    "siparis-2": '<h1>Ölçü vermene gerek yok</h1>' + adim(1, "#F07A5E", "İpler uzun bırakılır", "Kolyelerin ipleri bilerek uzun örülür.") + adim(2, "#E3A72F", "Boynuna göre bağla", "Patili dostunun boynuna göre sen bağlarsın; her boyuna uyar.") + adim(3, "#A6DCC9", "İlk günler yanında ol", "İlk günlerde gözetim altında tak; rahatsız olursa çıkar."),
+    "siparis-3": '<h1>Ne yazacağını bilemedin mi?</h1><p class="yumusak">Şöyle bir mesaj yeter:</p><div class="mesaj">Merhaba Pikora! Şunları istiyorum:\n• Bordo Güneş (kolye)\n• Gün Işığı (bandana)\nPatili dostumun adı: Chika</div><p class="yumusak">Sitede ürünleri ipine dizersen bu mesaj kendiliğinden hazırlanır.</p>',
     "siparis-4": '<h1>Fiyatlar</h1><div class="kutu satir"><h2>Kolye</h2><span class="hap">300 ₺</span></div><div class="kutu satir"><h2>Bandana</h2><span class="hap">390 ₺</span></div><p class="yumusak">Gönderimi mesajda konuşuruz.</p><div class="kutu hardal"><p>' + DESTEK + "</p></div>",
 
     /* ---------- KADRO (kedi sesi) ---------- */
-    "kadro-1": '<h1>Kadro: beş kedi</h1><p class="yumusak">Pikora, beş sahiplenilmiş kedinin evinde doğdu. İp kontrolü onlardan sorulur.</p><div class="kadro"><div>' + k("bombay") + "Bombay</div><div>" + k("tekir") + "Tekir</div><div>" + k("sarman") + "Sarman</div><div>" + k("smokin") + "Smokin</div><div>" + k("smokin2") + "Smokin iki</div></div>",
-    "kadro-2": '<div class="balon">Bugünün ip kontrolü: Bombay.<br>Sonuç: onaylandı, iki kez yuvarlandı.</div>' + k("bombay", "kedi"),
-    "kadro-3": '<div class="balon">Yumak masadaydı. Artık değil.<br>Kim yaptı, bilmiyorum.</div>' + k("tekir", "kedi"),
-    "kadro-4": '<div class="balon">Saat sabahın üçü.<br>Örgü sepetinin içinde ne var, bakmam lazım.</div>' + k("sarman", "kedi"),
-    "kadro-5": '<div class="balon">Bu kutu sipariş kutusuymuş.<br>Bence benim kutum.</div>' + k("smokin", "kedi"),
+    "kadro-1": '<h1>Kadro: altı kedi</h1><p class="yumusak">İp kontrolü onlardan sorulur.</p><div class="kadro"><div>' + k("kuytu") + "Kuytu<small>tekir</small></div><div>" + k("smokin") + "Smokin<small>smokin</small></div><div>" + k("kopuk") + "Köpük<small>smokin</small></div><div>" + k("karam") + "Karam<small>bombay</small></div><div>" + k("peri") + "Peri<small>tekir</small></div><div>" + k("chika") + "Chika<small>sarman</small></div></div>",
+    "kadro-2": '<div class="balon">Bugünün ip kontrolü: Karam.<br>Sonuç: onaylandı, iki kez yuvarlandı.</div>' + k("karam", "kedi"),
+    "kadro-3": '<div class="balon">Ben Kuytu. Yumak masadaydı. Artık değil.<br>Kim yaptı, bilmiyorum.</div>' + k("kuytu", "kedi"),
+    "kadro-4": '<div class="balon">Ben Chika. Saat sabahın üçü.<br>Örgü sepetinin içinde ne var, bakmam lazım.</div>' + k("chika", "kedi"),
+    "kadro-5": '<div class="balon">Ben Köpük. Bu kutu sipariş kutusuymuş.<br>Bence benim kutum.</div>' + k("kopuk", "kedi"),
+    "kadro-6": '<div class="balon">Ben Peri. Örgü sepeti boş duruyordu.<br>Artık boş değil. İçinde ben varım.</div>' + k("peri", "kedi"),
+    "kadro-7": '<div class="balon">Ben Smokin. Evet, adım da Smokin.<br>Papyon bana yakışır, tartışmaya kapalı.</div>' + k("smokin", "kedi"),
 
     /* ---------- PAY (insan sesi, sade) ---------- */
     "pay-1": '<p class="buyuk">Pikora bir sosyal girişim.</p><div class="kutu vurgu"><p style="font-weight:700;font-size:50px;line-height:1.3">' + DESTEK + '</p></div><p class="yumusak">Senden ayrıca bağış istemiyoruz; pay, Pikora\'nın kendi satış gelirinden ayrılır.</p>',
@@ -119,11 +122,12 @@
     "pay-5": '<h1 class="kucuk">Pay Notu</h1><div class="kutu form"><div>Ay<u></u></div><div>Ayrılan pay<u></u></div><div>Teslim edilen<u></u></div><div>Teslim yeri<u></u></div></div><p class="yumusak" style="font-size:32px">Şablon: boş alanları Instagram\'ın yazı aracıyla doldur. Teslim yapılmadan paylaşma.</p>',
 
     /* ---------- SORULAR ---------- */
-    "sorular-1": soru("Ölçüyü nasıl bileceğim?", "Kedinin boynunu mezurayla, sıkmadan ölç ve kaç santim çıktığını yaz. Ölçüyü kedinin boynuna göre mesajda birlikte belirleriz."),
+    "sorular-1": soru("Ölçü vermem gerekiyor mu?", "Hayır. Kolyelerin ipleri uzun bırakılır; patili dostunun boynuna göre bağlarsın."),
     "sorular-2": soru("Ne zaman hazır olur?", "Her parça elde, ilmek ilmek örülür. Ne zaman hazır olacağını sipariş verirken baştan söyleriz."),
     "sorular-3": soru("Kedim takınca nelere dikkat edeyim?", "Ürünler dekoratiftir. İlk günlerde gözetim altında tak; kedin rahatsız olursa çıkar.", "İp ve yumak oyunları yalnız gözetim altında: ip yutulursa tehlikeli olabilir."),
     "sorular-4": soru("Görseldekiyle aynı mı gelir?", "Her ürün elde örülür; renk ve ölçü görselden biraz farklı olabilir. Fabrika değil: her parça biraz farklı çıkar.", "Profildeki görseller tasarım örneğidir. Gerçek fotoğraflar geldikçe değiştireceğiz."),
-    "sorular-5": '<h1>Aklına takılan bir ilmek var mı?</h1><p class="yumusak">Sor, cevaplayalım.</p><div class="bosluk">Soru çıkartmasını buraya koy</div>'
+    "sorular-5": soru("Köpeğime de olur mu?", "Kolyelerin ipleri uzun bırakılır, boynuna göre bağlanır.", "Büyük cins köpekler için henüz ürünümüz yok."),
+    "sorular-6": '<h1>Aklına takılan bir ilmek var mı?</h1><p class="yumusak">Sor, cevaplayalım.</p><div class="bosluk">Soru çıkartmasını buraya koy</div>'
   };
 
   var q = new URLSearchParams(location.search);

@@ -24,8 +24,8 @@ Beş kapak, 1080×1920. Instagram kapağı ortadaki daireden keser.
 | Kapak | Öne çıkanın adı | İçine ne konur |
 |---|---|---|
 | `kapak-urunler` | Ürünler | Ürün hikâyeleri |
-| `kapak-siparis` | Sipariş | Nasıl sipariş verilir, ölçü nasıl alınır |
-| `kapak-kadro` | Kadro | Beş kedi |
+| `kapak-siparis` | Sipariş | Nasıl sipariş verilir, ölçü gerekmez, fiyatlar |
+| `kapak-kadro` | Kadro | Altı kedi: Kuytu, Smokin, Köpük, Karam, Peri, Chika |
 | `kapak-pay` | Pay | Pay Notları: ne ayrıldı, ne teslim edildi |
 | `kapak-sorular` | Sorular | Sık sorulanlar |
 
@@ -46,13 +46,14 @@ Her klasör bir öne çıkan başlığı. Hikâyeyi paylaş, sonra "Öne çıkar
 | Öne çıkan | Hikâyeler |
 |---|---|
 | **Ürünler** | 1 yedi kolye · 2 yedi bandana · 3 beş aile · 4 Gece Hilali · 5 Pembe Bahar |
-| **Sipariş** | 1 üç ilmekte sipariş · 2 ölçü nasıl alınır · 3 örnek mesaj · 4 fiyatlar |
-| **Kadro** | 1 beş kedi · 2 Bombay'ın ip kontrolü · 3 Tekir ve yumak · 4 Sarman, sabahın üçü · 5 Smokin ve kutu |
+| **Sipariş** | 1 üç ilmekte sipariş · 2 ölçü vermene gerek yok · 3 örnek mesaj · 4 fiyatlar |
+| **Kadro** | 1 altı kedi · 2 Karam'ın ip kontrolü · 3 Kuytu ve yumak · 4 Chika, sabahın üçü · 5 Köpük ve kutu · 6 Peri ve sepet · 7 Smokin ve papyon |
 | **Pay** | 1 Pikora bir sosyal girişim · 2 pay nasıl hesaplanır · 3 Pay Notu nedir · 4 kim örüyor · 5 Pay Notu şablonu (boş, doldurulur) |
-| **Sorular** | 1 ölçü · 2 ne zaman hazır · 3 takınca nelere dikkat · 4 görseldekiyle aynı mı · 5 soru kutusu zemini |
+| **Sorular** | 1 ölçü vermem gerekiyor mu · 2 ne zaman hazır · 3 takınca nelere dikkat · 4 görseldekiyle aynı mı · 5 köpeğime de olur mu · 6 soru kutusu zemini |
 
 - Başka bir ürünün tek ürün hikâyesi için `kaynak/hikaye.html` içindeki `tek("ürün-id")` satırını çoğalt.
-- Kadro'da kedilerin adı yok, renkleriyle anılıyorlar (Bombay, Tekir, Sarman, Smokin). Adlar gelince `kaynak/hikaye.html`'de değişir.
+- Kadro: Kuytu (tekir), Smokin (smokin), Köpük (smokin), Karam (bombay), Peri (tekir), Chika (sarman).
+- Ölçü sorulmaz: kolyelerin ipleri uzun bırakılır, boyna göre bağlanır. Büyük cins köpekler için henüz ürün yok.
 - Kadro hikâyeleri kedi sesiyle; Pay, fiyat ve güvenlik hikâyeleri insan sesiyle yazıldı (marka kitindeki ses tonu kuralı).
 
 ## 7. "Patiden mesaj var" dizisi (`7-patiden-mesaj/`)
@@ -60,16 +61,16 @@ Tema: müşterimiz doğrudan kedi ve köpeklermiş gibi. Hayvan bize yazar, Piko
 
 | Dosya | Kim yazıyor | Konu | Öne çıkan |
 |---|---|---|---|
-| `1-pay` | Portakal (sarman) | Satıştan yüzde kaç pay düşüyor | Pay |
-| `2-ip` | Fıstık (tekir) | Bu ip nasıl kullanılır, yenir mi | Sorular |
-| `3-olcu` | Pamuk (beyaz kedi) | Boynum kaç beden | Sipariş |
+| `1-pay` | Chika (sarman) | Satıştan yüzde kaç pay düşüyor | Pay |
+| `2-ip` | Kuytu (tekir) | Bu ip nasıl kullanılır, yenir mi | Sorular |
+| `3-olcu` | Köpük (smokin) | Ölçü vermem lazım mı | Sipariş |
 | `4-fiyat` | Karamel (köpek) | Bandana kaç mama eder | Sipariş |
-| `5-saat-uc` | Kömür (siyah kedi) | Gece 3'te "siparişim hazır mı" | Sorular |
-| `6-renk` | Kömür | Siyah kediye ne yakışır | Ürünler |
-| `7-siparis` | Portakal | Telefonu ele geçirdim, nasıl sipariş veririm | Sipariş |
-| `8-kopek` | Karamel | Köpeğe de olur mu | Sorular |
+| `5-saat-uc` | Karam (bombay) | Gece 3'te "siparişim hazır mı" | Sorular |
+| `6-renk` | Karam | Siyah kediye ne yakışır | Ürünler |
+| `7-siparis` | Chika | Telefonu ele geçirdim, nasıl sipariş veririm | Sipariş |
+| `8-kopek` | Karamel (temsili köpek) | Köpeğe de olur mu; büyük cinslere henüz yok | Sorular |
 
-- Hayvanlar temsili; her görselin altında "Temsili yazışma" yazıyor. Kadro kedilerinin adları gelince profiller onlarla değişebilir.
+- Yazanlar kadro kedileri (Karamel hariç, o temsili); yazışmalar kurgu, her görselin altında "Temsili yazışma" yazıyor.
 - Soruyu hayvan sorar, şakayı hayvan yapar. Pay, fiyat ve güvenlik cevaplarını Pikora sade dille verir; destek cümlesi marka kitindekiyle aynı.
 - Yeni yazışma eklemek: `kaynak/patiden.html` içindeki listeye bir blok ekle, `bash pikora-sosyal-kit/kaynak/uret.sh patiden` çalıştır.
 

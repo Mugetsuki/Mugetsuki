@@ -48,46 +48,48 @@
   function kopek(g, s) {
     return '<svg viewBox="0 0 512 512"><g transform="translate(46 50) scale(.82)"><path d="M150 150 C70 130 40 230 78 330 C96 372 140 350 142 300 Z M362 150 C442 130 472 230 434 330 C416 372 372 350 370 300 Z" fill="' + s + '"/><circle cx="256" cy="266" r="150" fill="' + g + '"/><path d="M152 196 C222 236 250 326 206 394 M236 124 C326 176 360 286 322 398 M116 296 C196 286 316 336 394 306" fill="none" stroke="' + s + '" stroke-width="20" stroke-linecap="round"/></g></svg>';
   }
-  var P = { // temsili profiller; kadro kedileri değil
-    portakal: { ad: "Portakal", durum: "sarman · az önce yumak devirdi", svg: kedi("#EE7B26", "#FFFAF2") },
-    komur: { ad: "Kömür", durum: "siyah kedi · koltuğun en üstünde", svg: kedi("#1D1716", "#E3A72F") },
-    fistik: { ad: "Fıstık", durum: "tekir · kutunun içinde", svg: kedi("#7A5B3E", "#1D1716") },
+  var P = { // kadro kedileri (Karamel hariç: temsili köpek); yazışmalar kurgu
+    chika: { ad: "Chika", durum: "sarman · az önce yumak devirdi", svg: kedi("#EE7B26", "#FFFAF2") },
+    karam: { ad: "Karam", durum: "bombay · koltuğun en üstünde", svg: kedi("#1D1716", "#E3A72F") },
+    kuytu: { ad: "Kuytu", durum: "tekir · kutunun içinde", svg: kedi("#7A5B3E", "#1D1716") },
     karamel: { ad: "Karamel", durum: "köpek · kapının önünde bekliyor", svg: kopek("#E3A72F", "#7A5B3E") },
-    pamuk: { ad: "Pamuk", durum: "beyaz kedi · klavyenin üstünde", svg: kedi("#FFFAF2", "#F07A5E") }
+    kopuk: { ad: "Köpük", durum: "smokin · klavyenin üstünde", svg: kedi("#1D1716", "#FFFAF2") }
   };
   var Z = { lavanta: "#D9CCF0", seftali: "#FBC9B4", sari: "#F8DC8C", nane: "#C4EBDD", pembe: "#F9CAD5" };
   // o: hayvan yazar · b: Pikora cevaplar (insan sesi; destek, fiyat ve güvenlik cümleleri marka kitiyle aynı)
   var M = {
-    "1-pay": { kim: "portakal", zemin: "seftali", saat: "Bugün 14:02", s: [
+    "1-pay": { kim: "chika", zemin: "seftali", saat: "Bugün 14:02", s: [
       ["o", "Miyav. Bir şey soracağım."], ["o", "Benim kolyemden barınaktaki arkadaşlara yüzde kaç pay düşüyor?"],
       ["b", "Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır."],
       ["o", "Yani mama mı oluyor?"], ["b", "Evet. Biriken payı mama olarak teslim ediyor, her teslimi Pay Notu'nda yazıyoruz."],
       ["o", "Tamam. İki tane yazın. İnsanım ödeyecek."]] },
-    "2-ip": { kim: "fistik", zemin: "nane", saat: "Bugün 11:47", s: [
+    "2-ip": { kim: "kuytu", zemin: "nane", saat: "Bugün 11:47", s: [
       ["o", "Bu ipi nasıl kullanmam lazım? Yeniyor mu?"], ["b", "Yenmiyor. Boynuna takılır, süs için."],
       ["o", "Ucundan çekip kovalayabilir miyim?"], ["b", "İp ve yumak oyunları yalnız insanın yanındayken: ip yutulursa tehlikeli olabilir."],
       ["o", "Peki sıkılırsam?"], ["b", "İlk günlerde gözetim altında takılır. Rahatsız olursan insanın çıkarır."]] },
-    "3-olcu": { kim: "pamuk", zemin: "lavanta", saat: "Bugün 16:20", s: [
-      ["o", "Boynum kaç beden?"], ["b", "İnsanına söyle, mezurayla sıkmadan ölçsün. Kaç santim çıktığını yazsın, gerisini birlikte belirleriz."],
-      ["o", "İnsanım mezurayı getirdi."], ["o", "Mezurayı yakaladım."], ["b", "Acele yok. Sakin anını bekleriz."]] },
+    "3-olcu": { kim: "kopuk", zemin: "lavanta", saat: "Bugün 16:20", s: [
+      ["o", "Boynum kaç beden? Ölçü vermem lazım mı?"], ["b", "Gerek yok. Kolyelerin ipleri uzun bırakılır; insanın boynuna göre bağlar."],
+      ["o", "Yani bana göre mi oluyor?"], ["b", "Bağlayınca evet."],
+      ["o", "İnsanım bağlamayı deniyor. İpin ucunu yakaladım."], ["b", "Acele yok. Sakin anını bekleriz."]] },
     "4-fiyat": { kim: "karamel", zemin: "sari", saat: "Bugün 09:15", s: [
       ["o", "Hav. Ben para kazanmıyorum."], ["o", "Bir bandana kaç ödül maması ediyor?"],
       ["b", "Mamayla alamıyoruz. Bandana 390 ₺, kolye 300 ₺."], ["o", "Kim ödeyecek peki?"],
       ["b", "İnsanın. Ona şu bakışı at, yeter."], ["o", "Bakışı attım. Kredi kartını arıyor."]] },
-    "5-saat-uc": { kim: "komur", zemin: "lavanta", saat: "Bugün 03:07", s: [
+    "5-saat-uc": { kim: "karam", zemin: "lavanta", saat: "Bugün 03:07", s: [
       ["o", "Siparişim hazır mı?"], ["o", "Saat 3. Ben uyanığım. Siz niye uyuyorsunuz?"],
-      ["b", "Günaydın Kömür. Her parça elde, ilmek ilmek örülür. Ne zaman hazır olacağını sipariş verirken söylemiştik."],
+      ["b", "Günaydın Karam. Her parça elde, ilmek ilmek örülür. Ne zaman hazır olacağını sipariş verirken söylemiştik."],
       ["o", "Tamam. Yarım saat sonra yine sorarım."]] },
-    "6-renk": { kim: "komur", zemin: "pembe", saat: "Bugün 18:40", s: [
+    "6-renk": { kim: "karam", zemin: "pembe", saat: "Bugün 18:40", s: [
       ["o", "Ben simsiyahım. Bana ne yakışır?"], ["b", "Portakal Bahçesi ya da Minik Balık. Siyah kürkte açık renkler öne çıkar."],
       ["o", "Balıklı olanı yiyebilir miyim?"], ["b", "O balık örgü. Takılıyor, yenmiyor."], ["o", "Hayal kırıklığı. Yine de alıyorum."]] },
-    "7-siparis": { kim: "portakal", zemin: "nane", saat: "Bugün 21:33", s: [
+    "7-siparis": { kim: "chika", zemin: "nane", saat: "Bugün 21:33", s: [
       ["o", "İnsanımın telefonunu ele geçirdim. Nasıl sipariş veriyorum?"],
-      ["b", "Üç ilmekte: beğendiğini seç, bize yaz, sıranı örelim."], ["o", "Seçtim. Minik Portakal. Adımız aynı."],
-      ["b", "Güzel seçim. Şimdi telefonu insanına geri ver, ölçünü yazsın."], ["o", "Geri vermeyi düşüneceğim."]] },
+      ["b", "Üç ilmekte: beğendiğini seç, bize yaz, sıranı örelim."], ["o", "Seçtim. Minik Portakal. Rengimiz aynı."],
+      ["b", "Güzel seçim. Şimdi telefonu insanına geri ver, mesajı o göndersin."], ["o", "Geri vermeyi düşüneceğim."]] },
     "8-kopek": { kim: "karamel", zemin: "seftali", saat: "Bugün 12:05", s: [
       ["o", "Hav. Ben köpeğim. Kediler takıyor, ben bakıyorum."], ["o", "Bana da olur mu?"],
-      ["b", "Boyun ölçünü yaz, sana göre bakalım."], ["o", "Ölçtürdüm. Kuyruğum sallanmaktan mezura düştü."], ["b", "Bir daha deneriz. Biz buradayız."]] }
+      ["b", "Küçüksen olur: ipler uzun bırakılır, boynuna göre bağlanır."], ["o", "Peki büyük abim?"],
+      ["b", "Büyük cins köpekler için henüz ürünümüz yok."], ["o", "Ona ben söylerim. Üzülmesin diye yavaş yavaş."]] }
   };
   var q = new URLSearchParams(location.search);
   if (q.has("liste")) { document.body.textContent = Object.keys(M).join(" "); return; }

@@ -22,7 +22,7 @@
 
   /* ================= Ürünleri diz ================= */
   var NOTLAR = {
-    kolye: "Ölçüyü ve teslimi mesajda konuşuruz. Beğendiğini ipine diz, gerisi bizde.",
+    kolye: "Ölçü vermene gerek yok: ipler uzun bırakılır, patili dostunun boynuna göre bağlarsın.",
     bandana: "Görseller tasarım örneğidir. Her ürün elde örülür ve biraz farklı olabilir."
   };
   ["kolye", "bandana"].forEach(function (tur) {
@@ -83,11 +83,10 @@
     ciz();
   }
   function mesaj() {
-    var ad = form.ad.value.trim(), olcu = form.olcu.value.trim();
+    var ad = form.ad.value.trim();
     var s = "Merhaba Pikora! İpime şunları dizdim:\n" + secili.map(function (id) { var u = bul(id); return "• " + u.ad + " (" + u.tur + (u.fiyat ? ", " + u.fiyat + " TL" : "") + ")"; }).join("\n");
-    if (ad) s += "\nKedimin adı: " + ad;
-    if (olcu) s += "\nBoyun ölçüsü: " + olcu + " cm";
-    return s + "\nÖlçü ve teslim için bilgi alabilir miyim?";
+    if (ad) s += "\nPatili dostumun adı: " + ad;
+    return s + "\nTeslim için bilgi alabilir miyim?";
   }
   $("#wa-gonder").addEventListener("click", function () {
     window.open("https://wa.me/" + (AYAR.whatsapp || "") + "?text=" + encodeURIComponent(mesaj()), "_blank", "noopener");
@@ -108,7 +107,7 @@
     ayrinti.style.setProperty("--aile", aile(u).renk);
     ayrinti.innerHTML = '<div class="ayrinti-ic"><div class="ayrinti-gorsel">' + gorselHTML(u, true) + rozet(u) + '</div><div class="ayrinti-metin">' +
       '<button class="kapat" type="button" data-kapat aria-label="Kapat">×</button><p class="aile">' + aile(u).ad + ' ailesi · ' + (u.tur === "kolye" ? "kolye" : "bandana") + '</p><h2 id="ayrinti-ad">' + u.ad + "</h2><p>" + u.tarif + "</p>" + fiyat(u) +
-      "<ul><li>Elde, ilmek ilmek örülür; her parça biraz farklı çıkar.</li><li>Ölçüyü kedinin boynuna göre mesajda birlikte belirleriz.</li><li>Dekoratiftir. İlk günlerde gözetim altında tak; kedin rahatsız olursa çıkar.</li><li>Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır.</li></ul>" +
+      "<ul><li>Elde, ilmek ilmek örülür; her parça biraz farklı çıkar.</li>" + (u.tur === "kolye" ? "<li>İpleri uzun bırakılır; patili dostunun boynuna göre bağlarsın. Ölçü vermene gerek yok.</li>" : "") + "<li>Dekoratiftir. İlk günlerde gözetim altında tak; kedin rahatsız olursa çıkar.</li><li>Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır.</li></ul>" +
       '<button class="diz" type="button" data-diz="' + u.id + '" aria-pressed="false">İpime diz</button></div></div>';
     ciz();
     ayrinti.showModal();
