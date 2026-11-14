@@ -675,89 +675,170 @@ Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakil
 
 ## 5. GÜN · Soul · Anlam (sentez ve varış)
 
-### ÖN YÜZ
+### SAYFA · GÜN VE AKIŞ
 
 **IMDb:** <https://www.imdb.com/title/tt2948372/>
 
-- **Dünden devralınan:** Hepsi olsa bile hayatı yaşamaya değer kılan ne?
-- **Bugün sınanan ilk cevap:** “İyi bir hayat hayallerine ulaştığın hayattır.”
-- **Günün kavram sorusu:** Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?
-- **Kamp sorusuyla bağ:** Kamp sorusunun kendisi. Beş Kapı ve Varış.
-- **İzleme görevi:** Joe'nun (caz piyanisti olmayı hayal eden müzik öğretmeni) “iyi bir hayat” cevabı nasıl değişiyor? Önceki filmlerden bir an aklına gelirse yaz.
+**Bugün ne oluyor?** Dünden devralınan soru: “Gerçek, kendin olmak, iyilik, adalet… Bunların hepsine sahip bir hayat bile neden yaşamaya değer?”
+- **Sınadığımız ilk cevap:** “İyi bir hayat, hayallerine ulaştığın hayattır.”
+- **Günün Açık Sorusu (tahtada tek başına):** **Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?** <span class="et">Açık Soru · s. 34</span> <span class="et">Ya… ya da… · s. 59</span>
+- **Kamp sorusuna köprü:** Bu gün kamp sorusunun kendisine döner. Beş günün parçaları Beş Kapı'da yan yana konur, her çocuk Varış yaprağına kendi cevabını ve kendi büyük sorusunu yazar.
 
 [[ÜST BLOK SONU]]
 
-**Zaman çizelgesi**
+**Günün akışı** (yaklaşık 3 sa 48 dk)
 
-| Bölüm | C | B |
+| Saat | Ne yapıyoruz | Süre |
 |---|---|---|
-| Dünkü kart, hayattan sorular, duvar yürüyüşü | 12 dk | 12 dk |
-| Hassas içerik notu, izleme görevi | 3 dk | 3 dk |
-| Film (100 dk) + duraklar | durak yok | 2 × 6 dk |
-| Ara + “Kıvılcım” | 10 dk | 10 dk |
-| Tartışma ve Beş Kapı | 60 dk | 60 dk |
-| Varış ve paylaşım çemberi | 25 dk | 25 dk |
-| **Toplam** | **~3 sa 30 dk** | **~3 sa 42 dk** |
+| 0:00 | Dünkü gün kartı | 4 dk |
+| 0:04 | Hayattan sorular | 4 dk |
+| 0:08 | Yolculuk Duvarı yürüyüşü (hareketli) | 4 dk |
+| 0:12 | Hassas içerik notu | 1 dk |
+| 0:13 | İzleme görevi tahtaya | 2 dk |
+| 0:15 | Film, üç kısa durakla (6'şar dk) | 100 + 18 dk |
+| 2:13 | Ara ve enerji oyunu “Kıvılcım” | 10 dk |
+| 2:23 | Tartışma ve Beş Kapı | 60 dk |
+| 3:23 | Varış ve paylaşım çemberi | 25 dk |
 
-**Durma noktaları**
+**Hassas içerik notu (filmden önce):** “Film, bir adamın bir kazayla ruhlar dünyasına düşmesiyle başlıyor. Mizahlı ve hayal ürünü anlatılmış. Ama yakın zamanda bir kayıp yaşayan için duygusal olabilir. Zorlanan bana işaret etsin.”
 
-| C (durak yok) | B (2 konuşmalı durak) |
-|---|---|
-| Film kesintisiz. Grup çok yorgunsa isteğe bağlı tek durak: B'deki 2. durak. | **1. 22'nin Joe'nun bedenine, Joe'nun kedinin bedenine girdiği anlaşılınca.** “Joe'nun bedeninde 22 (Dünya'ya gitmek istemeyen, hiçbir şeyden hoşlanmayan ruh) var. Bir insanı o insan yapan ne?” (2. günle köprü) |
-| | **2. 22 havada süzülen akçaağaç tohumunu yakalayınca.** “Bir şeyi sevmek için önce onu yaşamak mı gerekir?” (su molası) |
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
 
-**Soruların altındaki soru (dk 5–10):** “Kıvılcım (ruhun Dünya'ya gidebilmesi için bulması gereken şey) neydi?” sorusu “Hayatın bir amacı olmak zorunda mı?” olur.
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Bir hayatı yaşamaya değer kılan ne? Film bitince ne düşüneceksiniz, bakalım.”</p>
 
-**Beş Kapı (dk 35–45, hareketli).** Beş köşeye Yolculuk Duvarı'ndaki beş “parça” grubun kendi sözleriyle asılır. Soru: “**İyi bir hayat için hangisi olmazsa olmaz?**” Her köşe sözcüsünü seçer, aynı kişi iki kez sözcü olmaz. Ters köşe soruları:
-- Gerçek: “Kimsenin seni sevmediği bir hayatta?”
-- Kendin olmak: “Yalnız bir hayatta?”
-- İyilik: “Yalan içinde bir hayatta?”
-- Adalet: “Hiç sevinç olmayan bir hayatta?”
-- Yaşamanın kendisi: “Başkalarının haksızlığa uğradığı bir dünyada?”
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
 
-**Parçalar çatışırsa (dk 45–56):** “İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek?” Yalnızca soru sor, tahtaya yaz. **dk 56–60:** 5. gün yaprağı.
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
 
-### ARKA YÜZ
+### SAYFA · 1. VE 2. DURAK
 
-**Soru merdiveni (dk 10–35).** Öğrenci şunu derse, sen şunu sor. Bu gün üç basamaklı, dördüncü basamak Beş Kapı.
+::: durak
+#### 1. durak · yaklaşık 25–35. dk · Kayıp ruhlar
 
-**Basamak 1: Filmden kavrama.** “Joe hayalindeki konsere çıktı, alkışlandı, sonra boşluk hissetti. Bir hedefe ulaşmak neden bazen mutlu etmez?”
-- *“Hedef bitti.”* “O zaman hiç bitmeyecek hedefler mi seçmeliyiz?”
-- *“Yanlış hedefti.”* “Bir hedefin doğru olduğunu nasıl bilirsin?” (1. günle köprü)
-- *“Yolculuk önemliydi.”* “Hedefsiz bir yolculuk nasıl bir şey olurdu?”
-- *“Yorgundu.”* “Peki 22 neden hiçbir hedefi olmadan bir dilim pizzayla mutlu oldu?”
+**Sahne:** Joe (caz piyanisti olmayı hayal eden ortaokul müzik öğretmeni) ile 22 (binlerce yıldır Dünya'ya gitmek istemeyen, hiçbir şeyden hoşlanmayan bir ruh) Bölge'ye (insanların bir tutkuya tamamen kapıldığında girdiği yer) gidiyor. Burada bir şeye saplanıp yolunu kaybetmiş kayıp ruhlarla ve onları kurtarmaya çalışan Moonwind (tabela çeviren, ruhları kurtaran bir adam) ile karşılaşıyorlar. Bu bölüm bitince durdur. **Koşul:** Amaç bir saplantıya dönüşüyor.
 
-**Basamak 2: Düşünce deneyi, iki hayat.** “Birinci hayat: büyük hayaline ulaşıyorsun ama hiçbir günün tadını çıkarmıyorsun. İkinci hayat: büyük hayalin yok ama her gün küçük şeylerden keyif alıyorsun. Hangisi daha iyi?”
-- *“Birincisi.”* “Joe başardı ve boşluk hissetti. Başarının kalıcılığı onu mutlu etti mi?”
-- *“İkincisi.”* “Kimse büyük hayal kurmasa ilaçlar, şarkılar, köprüler olur muydu?”
-- *“İkisi birden.”* “Çatıştıklarında? Sınavdan önceki akşam oyun mu, ders mi?”
-- *“İkisi de değil.”* “Üçüncü bir hayat anlat.”
+**Açık Soru:** “Bölge'de bazı ruhlar bir şeyi o kadar çok istemiş ki yolunu kaybetmiş. Bir şeyi çok istemek ne zaman tutku, ne zaman saplantıdır?” <span class="et">Açık Soru · s. 34</span>
 
-**Basamak 3: Kavram, okyanus ve su.** “Dorothea (Joe'nun hayalindeki grubu yöneten saksafoncu) anlattı: Genç balık okyanusu arıyor, yaşlı balık ‘Zaten içindesin’ diyor. Senin ‘su’ sandığın ‘okyanus’ ne olabilir?”
-- *Somut örnek (ailem, sağlığım).* “Neden onu fark etmiyoruz?”
-- *“Bu kamp.”* “Kamp bitince okyanus da biter mi?”
-- *“Her şey sıradan.”* “22 de öyle düşünüyordu. Sıradan bir şeyi değerli yapan ne?”
-- *“Anlamadım.”* “Truman (1. gün filminin kahramanı) hep bir dünyanın içindeydi ama onu göremiyordu. Sen hangi dünyayı göremiyor olabilirsin?”
+**Gizli Sorular:**
+- “Tutkunun tutku olması için ne gerekli? Neyi kaybettiğinde saplantı olur?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Bir şeyi o kadar çok istediğin ve etrafındakileri unuttuğun bir an oldu mu?”
 
-**Varış (25 dk):** Varış yaprağı (iki yaprak).
-1. **Yan yana (3 dk):** “İlk sayfayı açın, ilk gün ne yazdığınızı sessizce okuyun.”
-2. **Şimdiki cevabım (4 dk):** “Bence iyi bir hayat … çünkü …”
-3. **Ne değişti, neden? (4 dk):** “Değişmediyse neden değişmediğini yazın.”
-4. **Benim büyük sorum (5 dk):** Defterdeki “kafamı karıştıran sorulardan” biri ya da yenisi, altına “Şimdilik cevabım … çünkü …”
-5. **Hayatımda nerede? (3 dk):** Sonra beş ifade, “Kamp genel olarak” ve izin kutusu.
-6. **Paylaşım çemberi (6 dk):** “Herkes büyük sorusunu tek cümleyle söylesin. Pas serbest.”
+**Geri çağır:** 1. basamak (hedefe ulaşmak).
+:::
 
-**Kampın son sözü:** “Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.” Dosyaları topla. Kamp sonunda dosya çocuğa verilir (önce rapor için kopya al).
+::: durak
+#### 2. durak · yaklaşık 45–60. dk · Tohum
 
-**Tıkanırsam**
-1. **Herkes “an önemli”:** “Hiç hedefi olmayan biri sabah neden kalkar?”
-2. **Herkes “hayaline ulaş”:** “Ulaştığında boşluk hissetmeyeceğini nereden biliyorsun?”
-3. **Beş Kapı'da herkes tek köşede:** O köşenin ters köşe sorusu, sonra: “Biri boş köşeyi savunsa ne derdi?”
-4. **Son gün yorgunluğu:** Merdiveni 2 basamakta bitir, Beş Kapı'ya erken geç.
-5. **Sessizlik:** İkili konuşma (2 dk): “‘Su’ sandığın ama ‘okyanus’ olan bir şey.”
-6. **Felsefe köşesi:** “Bu soruyu 2.300 yıl önce Aristoteles de sormuş. Onun cevabı da tek bir parça değildi.”
+**Sahne:** 22, Joe'nun bedeninde Dünya'yı geziyor ve küçük şeylerden keyif almaya başlıyor: bir dilim pizza, rüzgâr, müzik, Joe'nun annesiyle, öğrencisiyle ve berberiyle sohbetler. Havada süzülen bir akçaağaç tohumunu yakalıyor. Bu bölüm bitince durdur. **Koşul:** Hiçbir büyük amaç yok.
 
-**Hassas içerik:** Açılıştaki kaza ve “öte” sahneleri yası tetikleyebilir. Yas yaşayan öğrenciye önceden söyle. “Hayatı yaşamaya değer kılan ne?” sorusu karanlık bir düşünce çağırırsa ciddiye al, protokolü uygula, aynı gün yetkiliye bildir.
+**Açık Soru:** “22'nin hiçbir büyük amacı yok, ama bir dilim pizza, bir sohbet, havada süzülen bir tohum onu yaşamak istetiyor. Yaşamaya değer bir hayat için büyük bir amaç gerekli mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer 22 bu şeyleri başka birinin bedeninde değil kendi bedeninde yaşasaydı, bir şey değişir miydi?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- “Bugün kampta seni yaşadığına sevindiren küçük bir şey oldu mu?”
+
+**Geri çağır:** 3. basamak (okyanus ve su).
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 80–90. dk · Konserden sonra · düğüm noktası
+
+**Sahne:** Joe hayalindeki konsere çıkıyor ve konser çok iyi geçiyor. Ama Joe beklediği doluluğu hissetmiyor. Dorothea (Joe'nun hayalindeki grubu yöneten caz saksafoncusu) ona okyanusu arayan balığın hikâyesini anlatıyor. Bu konuşma bitince durdur. **Koşul:** Amaca ulaşıldı.
+
+**Açık Soru:** “Joe yirmi yıllık hayaline ulaştı, ama aradığı şeyi bulamadı. Hayatı yaşamaya değer kılan amaca ulaşmak mı, yaşamanın kendisi mi, yoksa başka bir şey mi?” <span class="et">Ya… ya da… · s. 59</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “Eğer Joe konserde hiç çalamasaydı, hayatı boşa mı geçmiş olurdu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Yanlış hedefti.”* derse: “Senin düşüncene göre doğru hedefe ulaşınca boşluk olmaz, öyle mi? Doğru hedefi nasıl anlarız?” <span class="et">Çıkarımları sınamak · s. 58</span>
+
+**Geri çağır:** 2. basamak (iki hayat).
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · His turu ve Kavrama Zamanı.** “Tek kelimeyle, film sana ne hissettirdi?” Pas serbest. Sonra: “Joe nerelere gitti, kimin bedenine girdi? Birlikte anlatalım, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–10 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir. Sonra demir at: “Hepsinin altında kamp sorumuz var.” Tahtaya tek başına yaz: **Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?** <span class="et">Demir atmak · s. 48</span>
+
+### SAYFA · MERDİVEN: 1. VE 2. BASAMAK
+
+**1. basamak · Hedefe ulaşmak** *Geri çağır:* “Konserden sonrasını hatırlıyor musunuz?” *Açık Soru:* “Bir hedefe ulaşmak neden bazen mutlu etmez?” <span class="et">Açık Soru · s. 34</span>
+- *“Çünkü hedef bitti.”* “Eğer hedef bitince boşluk geliyorsa, o zaman hiç bitmeyecek hedefler mi seçmeliyiz?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“Yanlış hedefti.”* “Joe yirmi yıl o hedefi istedi. Bir hedefin doğru olduğunu nasıl bilirsin? Birinci günü hatırlıyor musunuz?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“Asıl önemli olan yolculuktu.”* “Senin düşüncene göre hedef önemli değil, öyle mi? Hedefi olmayan bir yolculuk nasıl bir şey olurdu?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Belki sadece yorgundu.”* “Eğer yorgun değilse, o zaman?” <span class="et">“Belki” problemi · s. 53</span>
+
+**2. basamak · İki hayat** *Geri çağır:* “Tohumu hatırlıyor musunuz?” *Açık Soru:* “Eğer iki hayattan birini seçmen gerekseydi: Birincisinde büyük bir hayaline ulaşıyorsun ama yol boyunca hiçbir günün tadını çıkarmıyorsun. İkincisinde hiçbir büyük hayalin yok ama her gün küçük şeylerden keyif alıyorsun. Hangisi daha iyi bir hayat olurdu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span> <span class="et">Ya… ya da… · s. 59</span>
+- *“Birincisi, başarı kalıcıdır.”* “Joe başardı ve boşluk hissetti.” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“İkincisi, an önemlidir.”* “Kimse büyük hayaller kurmasaydı ilaçlar, şarkılar, köprüler olur muydu? Senin keyif aldığın şeylerin çoğunu birilerinin büyük hayalleri yapmadı mı?” <span class="et">Hayali muhalif · s. 50</span>
+- *“İkisi birden.”* “Güzel, ama çatıştıklarında? Sınavdan önceki akşam arkadaşınla oyun mu, ders mi? Yoksa başka bir şey mi?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+- *“İkisi de değil.”* “O zaman üçüncü bir hayat anlat. İçinde ne olması gerekli?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+
+### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN
+
+**3. basamak · Okyanus ve su** *Açık Soru:* “Dorothea'nın hikâyesinde genç balık okyanusu arıyor, yaşlı balık ‘Zaten içindesin’ diyor, genç balık ‘Bu mu? Bu sadece su’ diyor. Senin ‘su’ sandığın ‘okyanus’ ne olabilir?” <span class="et">Açık Soru · s. 34</span>
+- *Somut bir örnek (ailem, arkadaşlarım, sağlığım):* “Neden onu fark etmiyoruz? Okyanusu görmek için ondan ayrılmak mı gerekir?” <span class="et">Açma soruları · s. 36</span>
+- *“Bu kamp.”* “Eğer kamp bitseydi, okyanus da biter miydi, yoksa onu yanında mı götürürdün?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“Hiçbir şey, her şey sıradan.”* “22 de öyle düşünüyordu. Ne değişti? Sıradan bir şeyi değerli yapan ne?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“Anlamadım.”* Hikâyeyi anlamış bir çocuk kendi kelimeleriyle anlatsın. Sonra: “Truman hep bir dünyanın içindeydi ama onu göremiyordu. Sen hangi dünyanın içinde olup onu göremiyor olabilirsin?” <span class="et">Akran ağı · s. 60</span>
+
+**Takılırsan.**
+- **Herkes “an önemli, hedef gereksiz” diyor:** “Size katılmayan biri ne derdi? Hiç hedefi olmayan biri sabah neden kalkar? Senin şu anki en büyük hedefin ne?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “hayaline ulaş” diyor:** “Joe ulaştı ve boşluk hissetti. Ulaştığında boşluk hissetmeyeceğini nereden biliyorsun?” <span class="et">Karşı örnek · s. 51</span>
+- **Beş Kapı'da herkes tek köşede:** O köşenin ters köşe sorusunu sor, sonra: “Bu köşeyi kimse seçmedi. Biri bu köşeyi savunsa ne derdi?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+- **Son gün yorgunluğu:** Merdiveni iki basamakla bitirip Beş Kapı'ya erken geç. Hareketli kısım enerjiyi geri getirir.
+- **Sessizlik:** İki dakika ikili konuşma: “‘Su’ sandığın ama aslında ‘okyanus’ olan bir şeyi anlat.” <span class="et">Konuşma Zamanı · s. 34</span>
+
+### SAYFA · BEŞ KAPI, VARIŞ VE KAPANIŞ
+
+**dk 35–45 · Beş Kapı (hareketli).** Odanın beş köşesine, Yolculuk Duvarı'ndaki beş günün “Bugün eklediğimiz parça” cümleleri asılır. Her köşede grubun **kendi sözleri** yazar, senin sözlerin değil. Örnek köşeler: gerçek · kendin olmak · iyilik · adalet · yaşamanın kendisi.
+
+“Herkes ayağa. Beş köşede beş günün parçası var. Son büyük soru: **İyi bir hayat için hangisi olmazsa olmaz?** Bir köşe seçin ve önüne gidin. İki köşe arasında durmak da serbest.” <span class="et">Sine qua non · s. 62</span> <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+
+Her köşe iki dakika içinde gerekçesini toplasın ve bir sözcü seçsin. Sözcülerden sonra her köşeye, ona katılmayan birinin sesiyle bir ters köşe sorusu: <span class="et">Hayali muhalif · s. 50</span>
+- **Gerçek köşesine:** “Gerçek ama kimsenin seni sevmediği bir hayat iyi mi?”
+- **Kendin olmak köşesine:** “Kendin ama yalnız bir hayat iyi mi?”
+- **İyilik köşesine:** “İyi ama yalan içinde bir hayat iyi mi?”
+- **Adalet köşesine:** “Adil ama hiç sevinç olmayan bir hayat iyi mi?”
+- **Yaşamanın kendisi köşesine:** “Keyifli ama başkalarının haksızlığa uğradığı bir dünyada iyi mi?”
+
+“Başka bir köşeye geçmek isteyen var mı? Seni ne ikna etti?” Bitirirken: “Beş film, beş soru. Ama hepsi aynı büyük soruya çıktı. Ve görüyorsunuz, tek bir köşe yetmiyor.”
+
+**dk 45–56 · Kampın son tartışması: parçalar çatışırsa.** “Bu parçalar bazen çatışıyor. Truman gerçeği seçince mutluluğu riske attı. Jack iyi olmak için grubunu kaybetti. Judy (4. gün filminin tavşan polisi) haksızlığa yol açtığını anlayınca rozetini bıraktı. İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek bulabilir misin?” <span class="et">Fikir çatışması oyunu · s. 57</span>
+
+Bu bölümde yalnızca soru sor ve tahtaya yaz. Amaç, Varış'tan önce çocuğun kendi hayatından bir çatışmayı adlandırması. “Çünkü” istemeye devam et.
+
+**dk 56–60 · 5. gün yaprağı.** “5. gün yaprağınızı doldurun: bugün kafanızı en çok karıştıran soru ve kampta fark ettiğiniz sıradan ama değerli bir an. Kamp sorusuna bugünkü cevabınızı birazdan Varış yaprağına yazacaksınız.”
+
+**Hassas anlar.**
+- **Açılıştaki kaza:** Joe bir rögar kapağından düşer ve ruhu bedeninden ayrılır. Mizahi ve soyut işlenmiş, atlanamaz.
+- **“Öte” sahneleri:** Ruhların ışığa doğru giden bir yolda ilerlediği sahneler yası hatırlatabilir. Yakın zamanda yas yaşayan çocuğa önceden söyle.
+- **“Hayatı yaşamaya değer kılan ne?” sorusu:** Bu soru bir çocukta kendi hayatına dair karanlık bir düşünce çağırabilir. Bunu ciddiye al, sakin ve sıcak kal, o çocukla kısaca konuş ve aynı gün kamp sorumlusuyla konuş.
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Bugün sorduğunuz soruyu yaklaşık 2.300 yıl önce Aristoteles de sormuş: İyi bir hayat nedir? Onun cevabı da sizinkiler gibi tek bir parça değildi.”
+
+### SAYFA · VARIŞ (25 DK)
+
+Çocuklar Başlangıç yaprağını ve Varış yaprağını önlerine koyar. Her adımda tek bir cümle söylersin, sonra sessizlik.
+
+- **Yan yana koyma** (3 dk): “Dosyanızdan Başlangıç yaprağını çıkarın. İlk gün ne yazmıştınız? Sesli okumak yok, sadece kendinize okuyun.”
+- **Şimdiki cevabım** (4 dk): “Şimdi aynı soruya bugünkü cevabınız: ‘Bence iyi bir hayat … çünkü …’”
+- **Ne değişti, neden?** (4 dk): “Ne değişti, neden? Hiçbir şey değişmediyse neden değişmediğini yazın. Bu da iyi bir cevap.”
+- **Benim büyük sorum** (5 dk): “Yapraklarınızdaki ‘kafamı karıştıran sorulara’ bakın. Birini seçin ya da yenisini yazın. Bu sizin büyük sorunuz. Altına ‘Şimdilik cevabım … çünkü …’ yazın.”
+- **Hayatımda nerede?** (3 dk): “Bu soru günlük hayatınızda nerede karşınıza çıkıyor? Bir yer, bir an, bir kişi.” Ardından “Kamp genel olarak”, ikinci yapraktaki beş ifade ve izin kutusu.
+- **Paylaşım çemberi** (6 dk): “Herkes büyük sorusunu tek cümleyle söylesin. Pas serbest. İsteyen şimdilik cevabını da okusun.”
+
+**Kampın son sözü.** “Beş gün boyunca birlikte düşündünüz, birbirinizi dinlediniz, bazen fikir değiştirdiniz, bazen değiştirmeden nedenini söylediniz. Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.”
+
+Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 
 ---
 

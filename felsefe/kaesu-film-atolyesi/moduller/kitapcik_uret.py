@@ -204,11 +204,24 @@ def uret(dosya, kitap_baslik):
     if fk:
         p5.append(f'**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> {fk.group(1).strip()}\n')
 
+    p6 = []
+    varis = bul(secs, "Varış")
+    if varis:
+        p6.append("### SAYFA · VARIŞ (25 DK)\n")
+        p6.append("Çocuklar Başlangıç yaprağını ve Varış yaprağını önlerine koyar. Her adımda tek bir cümle söylersin, sonra sessizlik.\n")
+        for satir in varis.split("\n"):
+            if satir.startswith("| ") and not satir.startswith("| Süre") and not set(satir) <= set("|- "):
+                h = [c.strip() for c in satir.strip().strip("|").split("|")]
+                p6.append(f"- {h[1]} ({h[0]}): {h[2]}")
+        son = re.search(r"\*\*Kampın son sözü:\*\* (.+)", varis)
+        if son:
+            p6.append(f"\n**Kampın son sözü.** {son.group(1)}\n")
+        p6.append("Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.\n")
     p4.insert(0, "### SAYFA · MERDİVEN: 1. VE 2. BASAMAK\n")
     if p4b:
         p4b.insert(0, "### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN\n")
     p5.insert(0, "### SAYFA · " + ("BEŞ KAPI, VARIŞ VE KAPANIŞ" if any("Beş Kapı" in x for x in p5) else "İKİLEM VE KAPANIŞ") + "\n")
-    govde = "\n".join("\n".join(p) for p in (p1, p2, p3, p4, p4b, p5) if p)
+    govde = "\n".join("\n".join(p) for p in (p1, p2, p3, p4, p4b, p5, p6) if p)
     govde = re.sub(r"\n{3,}", "\n\n", govde)
     return f"{kitap_baslik}\n\n{govde}\n---\n\n"
 
