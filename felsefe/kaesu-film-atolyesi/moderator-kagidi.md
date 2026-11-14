@@ -521,89 +521,155 @@ Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakil
 
 ## 4. GÜN · Zootropolis · Toplum
 
-### ÖN YÜZ
+### SAYFA · GÜN VE AKIŞ
 
 **IMDb:** <https://www.imdb.com/title/tt2948356/>
 
-- **Dünden devralınan:** Bir grup birine haksızlık ederse ne olur?
-- **Bugün sınanan ilk cevap:** “İyi bir hayat herkesin eşit olduğu bir dünyadadır.”
-- **Günün kavram sorusu:** Adil olmak herkese aynı davranmak mı? Birini bir grubun üyesi olarak tanımanın neresi yanlış?
-- **Kamp sorusuna bağlanan soru:** İyi bir hayat yalnızca benim elimde mi, içinde yaşadığım düzene de mi bağlı?
-- **İzleme görevi:** Filmde kim kimi önyargıyla yargılıyor? Kahramanların da önyargılı olduğu anlara dikkat et.
+**Bugün ne oluyor?** Dünden devralınan soru: “Bir kişiye iyi davranmak yetmeyebilir. Bütün bir grup birine haksızlık ederse ne olur?”
+- **Sınadığımız ilk cevap:** “İyi bir hayat, herkesin eşit olduğu bir dünyada yaşanır.”
+- **Günün Açık Sorusu (tahtada tek başına):** **Adil olmak herkese aynı davranmak mı?** <span class="et">Açık Soru · s. 34</span>
+- **Kamp sorusuna köprü:** İyi bir hayat yalnızca benim elimde mi, yoksa içinde yaşadığım düzene de mi bağlı?
 
 [[ÜST BLOK SONU]]
 
-**Zaman çizelgesi**
+**Günün akışı** (yaklaşık 3 sa 34 dk)
 
-| Bölüm | C | B |
+| Saat | Ne yapıyoruz | Süre |
 |---|---|---|
-| Dünkü gün kartı, hayattan sorular | 9 dk | 9 dk |
-| İzleme görevi ve “önyargı” kavramı | 6 dk (kart) | 6 dk (sözlü) |
-| Film (108 dk) + duraklar | 1 × 5 dk | 3 × 6 dk |
-| Ara + “Gruplan!” | 10 dk | 10 dk |
-| Tartışma (ikileme 10 dk) | 60 dk | 60 dk |
-| Köprü ve hayattan soru görevi | 3 dk | 3 dk |
-| **Toplam** | **~3 sa 21 dk** | **~3 sa 34 dk** |
+| 0:00 | Dünkü gün kartı | 4 dk |
+| 0:04 | Hayattan sorular | 5 dk |
+| 0:09 | Öncü tartışma ve izleme görevi | 6 dk |
+| 0:15 | Film, üç durakla (6'şar dk) | 108 + 18 dk |
+| 2:21 | Ara ve enerji oyunu “Gruplan!” | 10 dk |
+| 2:31 | Tartışma | 60 dk |
+| 3:31 | Köprü ve hayattan soru görevi | 3 dk |
 
-**Durma noktaları**
+**Hassas içerik notu (filmden önce):** “Bugünkü filmde ağır bir sahne yok, birkaç kovalama ve korku anı var.” *Kamp ya da veliler hassassa:* İlk yarıdaki çıplaklar kulübü sahnesi başladığında ileri sar ve “Judy ile Nick burada aradıkları aracın izini buldu” de.
 
-| C (1 yazma durağı) | B (3 konuşmalı durak) |
-|---|---|
-| | **1. Nick'in “kurnaz tilki, aptal tavşan” dediği konuşmadan sonra.** “Nick (küçük dolandırıcılıklarla geçinen tilki) ‘Herkes ancak olduğu şey olabilir’ dedi. Bir insan ‘olduğu şeyi’ değiştirebilir mi?” |
-| | **2. Nick'in çocukken izcilerde ağzına burunluk takıldığını anlattığı sahneden sonra.** “Başkalarının bizden beklediği şey bizi değiştirir mi?” (su molası) |
-| **1. Basın toplantısından sonra, Nick gidince.** Yaz: “Nick neden bu kadar kırıldı?” Sor: “Judy (şehrin ilk tavşan polisi) avcıların ‘doğalarına döndüğünü’ ima etti. Kötü niyeti olmayan biri de haksızlık yapabilir mi?” | **3. Aynı yer, aynı soru.** |
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
 
-**Soruların altındaki soru (dk 5–12):** “Nick neden düzenbaz oldu?” sorusu “Başkalarının bizden beklediği şey bizi değiştirir mi?” olur. Ortak soru: **Adil olmak ne demek?**
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Kim, kimi yalnızca ait olduğu gruba bakarak yargılıyor? Film bitince ne düşüneceksiniz, bakalım.”</p>
 
-**Kapanış ikilemi: genelleme mi birey mi (dk 42–50).**
-- **A:** Genellemeyi kullanır, kendimi korurum.
-- **B:** Her kişiye sıfırdan bakarım.
-- **Ters köşe, A'ya:** “‘Gençler sorumsuzdur’ diye sana hiç sorumluluk verilmezse adil mi?”
-- **Ters köşe, B'ye:** “Seni üç kez kandıran birine dördüncü kez sıfırdan mı bakarsın?”
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
 
-### ARKA YÜZ
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
 
-**Soru merdiveni (dk 12–42).** Öğrenci şunu derse, sen şunu sor.
+### SAYFA · 1. VE 2. DURAK
 
-**Basamak 1: Filmden kavrama.** “Judy'nin ailesi ona tilki kovucu sprey (tilkileri tehlikeli sanan ailesinin onu korumak için verdiği sprey) verdi. Önyargı mı, makul önlem mi?”
-- *“Önyargı.”* “Tanımadığımız birine hiç önlem almamalı mıyız? Gece tanımadığın birinden uzak durmak da önyargı mı?”
-- *“Önlem.”* “Kaç tilki tanıyorsun? Bu bilgi nereden geliyor?” (1. günle köprü)
-- *“İkisi de.”* “Önyargı ile önlem arasındaki çizgi nerede? Bir kural söyle.”
-- *“Aile korur.”* “Korumak için bütün bir grubu kötülemek doğru mu? Christof (1. gün filminde Truman'ı ‘koruyan’ yapımcı) da korumak istiyordu.”
+::: durak
+#### 1. durak · yaklaşık 10–20. dk · Park görevi
 
-**Basamak 2: Düşünce deneyi, kimin olacağını bilmediğin şehir.** “Bir şehrin kurallarını sen yazıyorsun ama o şehirde hangi hayvan olarak doğacağını bilmiyorsun: tavşan, tilki, fil ya da fare. Hangi kuralları yazarsın?”
-- *“Herkese aynı kural.”* “Fare ile fil aynı kapıdan mı girsin? Aynı davranmak bazen haksızlık mı?”
-- *“Güçlülere daha çok hak.”* “Ya fare olarak doğarsan?”
-- *“Avcılara özel kural.”* “Ya kimseye zarar vermemiş bir tilki olarak doğarsan?”
-- *“Bilmiyorum.”* “Tek bir kural yaz. En zayıf hayvanı korur mu?”
+**Sahne:** Judy (Zootropolis'in ilk tavşan polisi) ilk iş gününde Şef Bogo'dan (polis teşkilatının başındaki manda) büyük bir dava bekliyor. Bogo onu küçümsüyor ve park cezası yazmakla görevlendiriyor. Judy görevine çıkınca durdur. **Koşul:** Güçlü olan, birini grubuna bakarak yargılıyor.
 
-**Basamak 3: Kamp sorusuna bağlantı.** “Nick haksızlığa uğrayınca ‘Herkes beni düzenbaz sanıyorsa düzenbaz olurum’ dedi. Haksız bir şehirde iyi bir hayat yaşanabilir mi?”
-- *“Evet, kendi dünyanı kurarsın.”* “Yanındaki biri haksızlığa uğruyorsa senin hayatın hâlâ iyi mi?”
-- *“Hayır, önce dünya düzelmeli.”* “O zaman haksız yerde yaşayan herkesin hayatı kötü mü?”
-- *“Nick haklıydı.”* “Nick'in yaptıklarından kim sorumlu: Nick mi, ona öyle davrananlar mı?”
-- *“Bireye bağlı.”* “Judy şehri değiştirdi. Herkes Judy olmak zorunda mı?”
+**Açık Soru:** “Bogo, Judy'nin ne yapabileceğini görmeden ona küçük bir görev verdi. Birine ait olduğu gruba bakarak görev vermek adil olabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-**Basamak 4: İki ilkenin çatışması.** “Sayılara göre doğru görünen bir genelleme, karşındaki tek kişiye haksızlık edebilir. Kendini korumak mı, ona sıfırdan bakmak mı?”
-- *“Sıfırdan bakarım.”* “Bir sokaktaki köpeklerin çoğu ısırıyorsa yanına koşan köpeğe de mi?”
-- *“Kendimi korurum.”* “Nick'e burunluk takan çocuklar da kendilerini koruduklarını düşünüyordu. Fark ne?”
-- *“Genelleme doğruysa sorun yok.”* “‘Gençler sorumsuzdur’ sana uygulandığında ne hissedersin?”
-- *“Duruma göre.”* “Kuralını söyle.”
+**Gizli Sorular:**
+- “Eğer tavşanların çoğu bu işte gerçekten zorlanıyor olsaydı, o zaman Bogo'nun kararı adil olur muydu?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Sana yaşın yüzünden bir şeyin verilmediği bir an oldu mu? O kural adil miydi?”
 
-**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘herkesin eşit olduğu dünya’yı sınadık. Ne ekliyoruz?” Grubun cümlesini 4. gün kartına yaz.
+**Geri çağır:** 4. basamak (genelleme mi birey mi).
+:::
 
-**Defter (dk 55–60):** Bugünkü cevap, değişti mi, kafamı karıştıran soru.
+::: durak
+#### 2. durak · yaklaşık 45–55. dk · Nick'in çocukluğu
 
-**Köprü (3 dk):** “Duvarda dört parça var: gerçek, kendin olmak, iyilik, adalet. Hepsi olsa bile hayatı yaşamaya değer kılan ne? Yarın son filmimiz.” **Hayattan soru görevi:** “Kampta ‘Bu kural herkes için aynı, ama herkes için adil mi?’ dediğin bir an yakala.”
+**Sahne:** Nick (şehirde küçük dolandırıcılıklarla geçinen bir tilki), Judy'ye çocukken izcilere (çocukların yemin edip üniforma giydiği bir topluluk) katılmak istediğini anlatıyor. Diğer çocuklar tilki olduğu için ona güvenmiyor ve ağzına burunluk takıyor. Nick o günden sonra, dünya bir tilkiyi hep sinsi görecekse başka bir şey olmaya çalışmanın anlamı olmadığına karar verdiğini söylüyor. Bu konuşma bitince durdur. **Koşul:** Akranlar birini grubuna bakarak yargılıyor ve bu onu değiştiriyor.
 
-**Tıkanırsam**
-1. **Herkes B'de:** “Gece tek başına dönerken karşından tanımadığın biri geliyor. Yine de sıfırdan mı?”
-2. **Herkes A'da:** “Biri seni sadece yaşına ya da okuluna bakarak yargıladı mı hiç?”
-3. **Herkes “aynı kural”:** “Görme engelli bir arkadaşa sınavda aynı kâğıdı vermek adil mi?”
-4. **Gerçek bir gruba yöneliyor:** “Bu bir genelleme mi? Gerekçen ne? Kaç kişi tanıyorsun?” Bir grubu hedef alan söze izin verme.
-5. **Sessizlik:** İkili konuşma (2 dk): “Kimin olacağını bilmediğin şehir için tek kuralın.”
-6. **Felsefe köşesi:** “Bu şehir deneyini 50 yıl önce John Rawls önermiş.”
+**Açık Soru:** “Herkes Nick'ten bir tilki gibi davranmasını bekledi ve Nick öyle davranmaya başladı. Bir insana grubuna göre davranmak, onu o gruba benzetebilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-**Hassas içerik:** Hayvan benzetmesi gerçek gruplara (köken, din, göç, cinsiyet) uygulanabilir. Engelleme ama kavram düzeyinde tut. Grubu hedef alan söz olursa durdur. Çıplaklar kulübü sahnesi gerekirse ileri sarılabilir. “Gruplan!” oyununda hassas kategori kullanma.
+**Gizli Sorular:**
+- “Eğer bu yüzden düzenbaz olduysa, o zaman yaptıklarından Nick mi sorumlu, ona öyle davrananlar mı, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli · s. 55</span>
+- *“Ben olsam öyle olmazdım.”* derse: “Senin düşüncene göre başkalarının bize nasıl davrandığı bizi hiç değiştirmez, öyle mi? Dün Riley için ne demiştik?” <span class="et">Çıkarımları sınamak · s. 58</span> <span class="et">Bağlantı kurma · s. 38</span>
+
+**Geri çağır:** 3. basamak (kamp sorusuna köprü).
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 65–75. dk · Basın toplantısı · düğüm noktası
+
+**Sahne:** Kayıp hayvanlar bulunuyor ve Judy bir basın toplantısında, avcı hayvanların vahşileşmesinin doğalarından kaynaklanabileceğini ima ediyor. Nick (artık Judy'nin dostu olan tilki) derinden kırılıyor ve gidiyor. Şehirde avcı hayvanlara karşı korku başlıyor. Nick gidince durdur. **Koşul:** Haksızlığı iyi niyetli kahramanın kendisi yapıyor.
+
+**Açık Soru:** “Judy'nin kötü niyeti yoktu, ama sözleri bütün avcı hayvanların korkuyla yargılanmasına yol açtı. Kötü niyeti olmayan biri de haksızlık yapabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer söylediği şey bazı avcı hayvanlar için doğru olsaydı, o zaman haksızlık olmaz mıydı?” <span class="et">Eğer… o zaman · s. 27</span>
+- “İki türlü de düşünelim. Bir haksızlığı ölçerken söyleyenin niyetine mi bakarız, yoksa sözün ne yaptığına mı?” <span class="et">Ya… ya da… · s. 59–60</span>
+
+**Zaman kalırsa:** “Kötü bir niyetin olmadan birini kırdığın bir an oldu mu? Bunu nasıl fark ettin?”
+
+**Geri çağır:** 1. basamak (tilki kovucu sprey).
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · Kavrama Zamanı.** “Filmi birlikte anlatalım. Bir dedektif hikâyesiydi, kim neyi ne zaman öğrendi? Biri başlasın, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–12 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir. Sonra demir at: “Bütün bunların altındaki soru ne?” Tahtaya tek başına yaz: **Adil olmak herkese aynı davranmak mı?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
+
+### SAYFA · MERDİVEN: 1. VE 2. BASAMAK
+
+**1. basamak · Tilki kovucu sprey** *Geri çağır:* “Basın toplantısını hatırlıyor musunuz?” *Açık Soru:* “Judy şehre giderken ailesi ona tilki kovucu sprey (tilkilerin tehlikeli olduğuna inanan ailesinin onu korumak için verdiği sprey) verdi. Bu bir önyargı mı, makul bir önlem mi, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+- *“Önyargı, hiçbir tilkiyi tanımıyorlardı.”* “Tanımadığımız birine karşı hiç önlem almamalı mıyız? Gece tek başına yürürken tanımadığın birinden uzak durmak da önyargı mı?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Önlem, tilkiler tehlikeli olabilir.”* “Kaç tilki tanıyorlardı? Bu bilgi nereden geliyordu? Birinci günü hatırlıyor musunuz: Bunu nasıl biliyoruz?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“İkisi de.”* “Önyargı ile önlem arasındaki çizgi nerede? Bir şeyin önlem sayılması için ne gerekli?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Aile korur, bu normal.”* “Senin düşüncene göre korumak için bütün bir grubu kötülemek doğru olabilir, öyle mi? Christof (1. gün filminde Truman'ı ‘korumak’ için ona yalan söyleyen yapımcı) da korumak istiyordu.” <span class="et">Çıkarımları sınamak · s. 58</span>
+
+**2. basamak · Kimin olacağını bilmediğin şehir** *Açık Soru:* “Eğer yeni bir şehrin kurallarını sen yazsaydın, ama o şehirde hangi hayvan olarak doğacağını bilmeseydin (tavşan da olabilirsin, tilki de, fil de, fare de), hangi kuralları yazardın?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Herkese aynı kural.”* “Fare ile fil aynı kapıdan mı girsin? Zootropolis'te (avcı ve av hayvanlarının bir arada yaşadığı büyük şehir) küçük hayvanlar için ayrı küçük kapılar vardı.” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Güçlülere daha çok hak.”* “Eğer fare olarak doğarsan, o zaman bu kural sana adil gelir mi?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“Avcılara özel kurallar, çünkü tehlikeliler.”* “Eğer tilki olarak doğarsan ve hiç kimseye zarar vermemişsen? Nick'in çocukluğunu hatırlıyor musunuz?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“Ama hangi hayvan olacağımı bilirim.”* “Hiç bilmediğini düşünelim.” <span class="et">Sınır çizen soru · s. 55</span>
+
+### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN
+
+**3. basamak · Kamp sorusuna köprü** *Geri çağır:* “Nick'in çocukluğunu hatırlıyor musunuz?” *Açık Soru:* “Haksız bir şehirde iyi bir hayat yaşanabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+- *“Evet, kendi küçük dünyanı kurarsın.”* “Eğer senin dünyan iyiyken yanındaki biri haksızlığa uğruyorsa, o zaman senin hayatın hâlâ iyi mi?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“Hayır, önce şehrin düzelmesi lazım.”* “Senin düşüncene göre haksız bir yerde yaşayan herkesin hayatı kötü, öyle mi? Haksız bir yerde iyi bir hayat yaşayan tek bir kişi düşünebilir misin?” <span class="et">Çıkarımları sınamak · s. 58</span> <span class="et">Yanlışlama · s. 51</span>
+- *“Bireye bağlı.”* “Judy kurallara karşı gelip şehri değiştirdi. İyi bir hayat için herkes Judy olmak zorunda mı, yoksa başka bir yol var mı?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+- *Grup tek tarafta birleşirse:* “Nick olsaydınız, ‘Kendi küçük dünyamı kurarım’ kararını nasıl savunurdunuz?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+
+**4. basamak · Genelleme mi birey mi** *Geri çağır:* “Park görevini hatırlıyor musunuz?” *Açık Soru:* “Eğer bir grup hakkında, sayılara bakınca doğru görünen bir genelleme olsaydı ama karşındaki tek kişiye bunu uygulamak ona haksızlık etseydi, hangisi daha önemli olurdu: kendini korumak mı, karşındakine sıfırdan bakmak mı?” <span class="et">Eğer durum böyle olsaydı · s. 52</span> <span class="et">Ya… ya da… · s. 59</span>
+- *“Her kişiye sıfırdan bakarım.”* “Seni üç kez kandıran birine dördüncü kez sıfırdan mı bakarsın? Sıfırdan bakmak deneyimi yok saymak mı?” <span class="et">Karşı örnek · s. 51</span>
+- *“Kendimi korurum.”* “Nick'in ağzına burunluk takan çocuklar da kendilerini koruduklarını düşünüyordu. Seninki ile onlarınki arasındaki fark ne?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“Genelleme doğruysa sorun yok.”* “Senin yaşın için yapılan bir genelleme düşün: ‘Gençler sorumsuzdur.’ Bazı gençler için doğru olabilir. Sana uygulandığında adil mi?” <span class="et">Eğer şu şekilde düşünseydik · s. 53</span>
+- *“Duruma göre.”* “Hangi durumda genelleme, hangisinde birey? Kuralını söyle. Birinin söylediği bir kuralla çelişiyor mu?” <span class="et">Fikir çatışması oyunu · s. 57</span>
+
+**Takılırsan.**
+- **Herkes B'de (sıfırdan bakarım):** “Size katılmayan biri ne derdi? Gece tek başına eve dönerken karşıdan tanımadığın biri geliyor. Yine de sıfırdan mı bakarsın?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes A'da (kendimi korurum):** “Biri seni yalnızca yaşına ya da okuluna bakarak yargıladı mı hiç? Ne hissettin?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “herkese aynı kural” diyor:** “Görme engelli bir arkadaşa sınavda aynı kâğıdı vermek adil mi?” <span class="et">Karşı örnek · s. 51</span>
+- **Tartışma gerçek bir gruba yöneliyor:** Kavram düzeyinde tut: “Bu bir genelleme mi? Gerekçen ne? Bu gruptan kaç kişi tanıyorsun?” Bir grubu hedef alan söze izin verme. <span class="et">Varsayımları saptamak · s. 54</span>
+- **Sessizlik:** İki dakika ikili konuşma: “Kimin olacağını bilmediğin şehir için yazacağın tek kuralı anlat.” <span class="et">Konuşma Zamanı · s. 34</span>
+
+### SAYFA · İKİLEM VE KAPANIŞ
+
+**dk 42–50 · Kapanış ikilemi: genelleme mi birey mi (hareketli).** Herkes ayağa kalkar ve bir duvar seçer. “Hangisi daha adil?”
+
+<table class="ikilem"><tr><td><div class="harf">A</div><b>Genellemeyi kullanır, kendimi korurum.</b><div class="ters">A'dakilere: “‘Gençler sorumsuzdur’ diye sana hiçbir sorumluluk verilmezse adil mi?”</div></td><td><div class="harf">B</div><b>Her kişiye sıfırdan bakarım.</b><div class="ters">B'dekilere: “Seni üç kez kandıran birine dördüncü kez sıfırdan mı bakarsın?”</div></td></tr></table>
+
+Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakilere: “Seni ortada tutan ne? Hangi durumda A, hangi durumda B? Yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span> Ters köşe soruları iki tarafa da onlara katılmayan birinin sesiyle sorulur. <span class="et">Hayali muhalif · s. 50</span> “Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?” Bu günün ikilemi en güçlüsü olabilir. Gerekirse iki dakika uzat.
+
+**dk 50–55 · Kamp sorusuna dönüş.** “Dört gündür iyi bir hayatın parçalarını topluyoruz. Bugün ‘herkesin eşit olduğu bir dünya’ cevabını sınadık. Ne ekliyoruz?” Grubun cümlesi ve açık kalan soru 4. gün kartına yazılır.
+
+**dk 55–60 · Gün yaprağı.** Sessiz beş dakika.
+
+**Köprü (3 dk).** “Dört gündür iyi bir hayatın parçalarını topladık. Duvara bakın: gerçek, kendin olmak, iyilik, adalet. Ama bir soru açık: Bunların hepsine sahip bir hayat bile neden yaşamaya değer? Yarın son filmimizde bir adam hayalinin peşinde ölümün kıyısına kadar gidiyor.” **Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Bu kural herkes için aynı, ama herkes için adil mi?’ dediğin bir an yakala.”
+
+**Hassas anlar.**
+- **Gerçek gruplar:** Çocuklar hayvan benzetmesini gerçek gruplara (köken, din, göç, cinsiyet) uygulayabilir. Engelleme ama kavram düzeyinde tut. Ayrımcılığa uğradığını anlatan bir çocuğa teşekkür et, soruyu genele çevir, sonra kısaca yanına git.
+- **Gruptan biri hedef alınırsa:** Hemen durdur: “Burada kimseyi bir grubun üyesi olarak yargılamıyoruz. Bugünkü film bunun ne kadar acı verdiğini anlatıyor.”
+- **Çıplaklar kulübü sahnesi:** Mizahi ve ayrıntısız. Gerekirse ileri sarılabilir.
+- **Enerji oyunu:** “Gruplan!” oyununda hassas kategoriler (din, köken, cinsiyet, beden) kullanma.
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Bugünkü şehir deneyini yaklaşık 50 yıl önce John Rawls adında bir filozof önermiş: Adil kuralları, kim olacağımızı bilmeden seçeriz.”
 
 ---
 

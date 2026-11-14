@@ -26,7 +26,7 @@ GUNLER = {
             son=[("Köprü ve hayattan soru görevi", 3)]),
     3: dict(film=113, oyun="“Ayna”", acilis=[("Dünkü gün kartı", 4), ("Hayattan sorular", 5), ("Hassas içerik uyarısı", 2), ("İzleme görevi", 4)],
             son=[("Köprü ve hayattan soru görevi", 3)]),
-    4: dict(film=108, oyun="“Gruplan!”", acilis=[("Dünkü gün kartı", 4), ("Hayattan sorular", 5), ("İzleme görevi ve “önyargı” kavramı", 6)],
+    4: dict(film=108, oyun="“Gruplan!”", acilis=[("Dünkü gün kartı", 4), ("Hayattan sorular", 5), ("Öncü tartışma ve izleme görevi", 6)],
             son=[("Köprü ve hayattan soru görevi", 3)]),
     5: dict(film=100, oyun="“Kıvılcım”", acilis=[("Dünkü gün kartı", 4), ("Hayattan sorular", 4), ("Yolculuk Duvarı yürüyüşü", 4), ("Hassas içerik notu", 1), ("İzleme görevi", 2)],
             son=[("Varış ve paylaşım çemberi", 25)]),
