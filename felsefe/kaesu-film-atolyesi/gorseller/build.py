@@ -92,6 +92,13 @@ YEDEKLER = [
          A=("Kimseyle yakın olmaz", "Ayrılık acısı çekmez, ama bir yıl boyunca yakın bir arkadaşı olmaz."),
          B=("Yakın arkadaşlar edinir", "Bir yıl sonra ayrılmak çok acıtacak olsa da."),
          hero="Küçük Prens", kapi="Ayrılığın acısını bile bile bir tilkiyle bağ kurdu.", kapi_alt=None),
+    dict(n=5, key="walle", t="t-walle", film="WALL-E", TEMA="ANLAM", tema_alt="Rahat yaşamak ve dolu yaşamak",
+         soru="Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi?",
+         gorev="Film boyunca tek bir soruyu aklında tut: Bu filmde kim gerçekten yaşıyor?",
+         ikilem_q="İkisi birden mümkün değilse hangisini seçersin? Yoksa başka bir yol mu var?",
+         A=("Her şeyin hazır olduğu bir hayat", "Hiçbir şey için çaba göstermezsin, her isteğin anında yapılır."),
+         B=("Çaba isteyen bir hayat", "Bazı şeyler zor, ama baktığın, kurduğun, koruduğun şeyler var."),
+         hero="Kaptan McCrea", kapi="Her şeyin hazır olduğu koltuğundan kalkıp zor olanı seçti.", kapi_alt=None),
 ]
 BYKEY = {d["key"]: d for d in DAYS + YEDEKLER}
 

@@ -336,7 +336,20 @@ Her modülde şu başlıklar var:
 
 Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş yapısı farklıysa bu filmler kullanılabilir. Her birinin yanında programda hangi günün yerine geçebileceği yazıyor.
 
-#### WALL-E (Andrew Stanton) · 5. günün yerine geçebilir
+#### Lego Filmi (The Lego Movie, Phil Lord ve Christopher Miller) · 1. günün yerine geçer
+
+- **Yeni derinlikte modül (aynı durak, farklı yol):** [moduller/yedek-gun1-lego-filmi.md](moduller/yedek-gun1-lego-filmi.md). Görseller: `gorseller/pdf/yedek-gun1-lego-*`, gün yaprağı, rozet, soru kaynakları.
+- **Farklı yol:** Truman Show “aldatılmak” yolundan gelir. Bu film “sorgulamamak” yolundan: Kimse bizi aldatmasa da sorgulamadan kabul ettiklerimizi biliyor muyuz? **Açık Soru:** “Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?”
+- **IMDb:** https://www.imdb.com/title/tt1490017/
+- **Yıl / süre:** 2014 · yaklaşık 100 dk · **Yaş sınırı:** MPAA PG · Türkiye: doğrulanamadı
+- **Özet:** Talimatlara göre yaşayan sıradan inşaat işçisi Emmet, bir kehanetteki “Özel” sanılır ve her şeyi yapıştırıp sabitlemek isteyen Lord Business'a karşı talimatsız inşa edebilen Usta İnşaatçılara katılır. Kehanetin uydurma olduğunu öğrenir. Sonunda bütün dünyanın bir bodrumda bir çocuğun oyunu olduğunu görür.
+- **Felsefi temalar:** Bilmek ve sorgusuz kabul (**Sokrates**), alışkanlık ve otorite, inanç ile bilgi, kurallar ve yaratıcılık.
+- **Atlanacak / dikkat edilecek sahneler:** Atlanacak sahne yok. Bir karakterin ölümü kısa ve komik bir dille işleniyor.
+
+#### WALL-E (Andrew Stanton) · 5. günün yerine geçer
+
+- **Yeni derinlikte modül (aynı durak, farklı yol):** [moduller/yedek-gun5-wall-e.md](moduller/yedek-gun5-wall-e.md). Felsefe Makinesi yöntemiyle: tek Açık Soru, üç durak, merdiven, Beş Kapı ve Varış. Görseller: `gorseller/pdf/yedek-gun5-walle-*`, gün yaprağı, rozet, soru kaynakları.
+- **Başka bir ilk cevap:** Soul “hayallerine ulaşmak” cevabını sınar. Bu film “Hiçbir şeyin eksik olmadığı, rahat bir hayat” cevabını sınar. **Açık Soru:** “Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi?”
 
 - **IMDb:** https://www.imdb.com/title/tt0910970/ · Türkçe Vikipedi'deki adı: *VOL-İ*
 - **Yıl / süre:** 2008 · 98 dk · **Yaş sınırı:** MPAA G · Türkiye: doğrulanamadı
@@ -346,17 +359,12 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
   1. *Açılış:* WALL-E boş Dünya'da çalışıyor, eşya biriktiriyor ve eski bir müzikal kasetini izliyor. Neredeyse hiç diyalog yok.
   2. *Axiom'a varış:* Koltuklarında süzülen, ekrandan başka bir şeye bakmayan insanlar. Biri koltuğundan düşer, bir başkası ekranı kapanınca etrafını ilk kez fark eder.
   3. *Kaptan ile otopilot AUTO:* AUTO gemide hayatta kalacaklarını söyler. Kaptan "Hayatta kalmak istemiyorum, yaşamak istiyorum!" diye karşılık verir.
-- **Durma noktası (yaklaşık filmin ortası):** WALL-E Axiom'a ulaşıp koltuklardaki insanları ilk gördüğü bölümden sonra. **Soru:** "Bu insanlar mutlu mu? Neye bakarak karar verdiniz?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:** Yok. Filmin büyük bölümü diyalogsuz, küçüklerin dikkatini kaybedebileceği yavaş bir açılışı var. İzleme görevi burada özellikle işe yarar.
-- **Sorular:**
-  - **Görev sorusu:** "Hayatta kalmak" ile "yaşamak" arasındaki fark ne?
-  - *İyi yaşam:* (1) Her ihtiyacının karşılandığı bir hayatta eksik olan ne olabilir? (2) Axiom'daki insanlar mutlu muydu, yoksa sadece rahat mıydı?
-  - *İnsan ve makine:* (3) Filmde kim daha "insan": Axiom'daki insanlar mı, WALL-E mi? (4) WALL-E'nin EVE'e duyduğu şey sevgi mi, sevgiye benzeyen bir program mı? Aradaki farkı nasıl anlarız?
-  - *Sorumluluk:* (5) AUTO kendisine verilen emre uyuyordu. Kuralına uyan biri kötü olabilir mi? (6) Önceki nesillerin kirlettiği bir dünyadan sonraki nesil sorumlu mu?
-  - **Eğer'leme:** "Peki ya Axiom'daki insanlara Dünya'ya dönüp dönmemeyi sorsaydık ve çoğu 'kalalım' deseydi?"
-- **Kapanış ikilemi:** Hiç zorlanmadığın, hiç sıkılmadığın ama hiçbir şeyi kendin yapmadığın bir hayat mı, yoksa zor ve yorucu ama kendi ellerinle kurduğun bir hayat mı?
 
-#### Küçük Prens (The Little Prince, Mark Osborne) · 5. günün yerine geçebilir
+#### Küçük Prens (The Little Prince, Mark Osborne) · 3. günün yerine geçer
+
+- **Yeni derinlikte modül (aynı durak, farklı yol):** [moduller/yedek-gun3-kucuk-prens.md](moduller/yedek-gun3-kucuk-prens.md). Görseller: `gorseller/pdf/yedek-gun3-prens-*`, gün yaprağı, rozet, soru kaynakları.
+- **Neden 3. gün:** 5. günün yedeği WALL-E. Küçük Prens'in asıl gücü dostluk ve bağ kurmak, yani “öteki”. İlk cevabın “sevilmek” yarısını sınar. **Açık Soru:** “Sevmek ile sevilmek aynı şey mi?”
 
 - **IMDb:** https://www.imdb.com/title/tt1754656/
 - **Yıl / süre:** 2015 (Fransız yapımı) · yaklaşık 106 dk (kaynaklarda 106–108) · **Yaş sınırı:** MPAA PG (hafif tematik öğeler) · Türkiye: doğrulanamadı (Netflix'te yayınlandı)
@@ -366,15 +374,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
   1. *Açılış:* Okul mülakatı ve annenin duvardaki Hayat Planı. Kızın gününde oyuna yer yok.
   2. *Tilki bölümü (stop-motion):* Tilki "evcilleştirme"yi, yani bağ kurmayı anlatır. "Asıl görülmesi gereken gözle görülmez" sözü buradadır.
   3. *Yetişkinler dünyası (son bölüm):* Her şeyin işe yarar olmak zorunda olduğu gri şehir ve büyüyüp hikâyesini unutmuş "Bay Prens".
-- **Durma noktası (yaklaşık filmin ortası):** Tilki bölümü bitip kızın kendi hayatına dönüldüğünde. **Soru:** "Gözle görülmeyen ama gerçek olan bir şeye örnek verebilir misiniz?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:** Atlanacak sahne yok. Pilotun hastaneye kaldırılması ve Prens'in gezegenine "dönüşü" (kitaptaki yılan bölümü) ölüm imgesi taşır. Film bunu yumuşak işler. Yas yaşayan öğrenci varsa açılışta haber verin.
-- **Sorular:**
-  - **Görev sorusu:** Büyümek kaçınılmaz, peki "büyümüş biri" olmak da kaçınılmaz mı?
-  - *Büyümek:* (1) Çocukken bilip büyüdükçe unuttuğun bir şey var mı? Unutmak kayıp mı, gereklilik mi?
-  - *Özsel olan:* (2) Bir şeyin faydalı olmaması onu değersiz yapar mı? Arkadaşlık faydalı mıdır? (3) Görünmeyen bir şeyin gerçek olduğunu nereden biliriz?
-  - *Bağ kurmak:* (4) Tilki, evcilleştirilirse Prens'in onun için "dünyada tek" olacağını söylüyor. Bir şeyi değerli yapan, ona harcadığımız zaman mı? (5) Kaybedeceğini bildiğin bir şeyle bağ kurmaya değer mi?
-  - **Eğer'leme:** "Peki ya Hayat Planı'na uyarak gerçekten mutlu olsaydı?"
-- **Kapanış ikilemi:** Plana uyarsan iyi bir okula girmen ve "başarılı" olman neredeyse kesin. Uymazsan ne olacağını bilmiyorsun ama zamanın senin. Hangisini seçersin? Kendi çocuğun olsaydı ona hangisini önerirdin?
 
 #### Vahşi Robot (The Wild Robot, Chris Sanders) · 2. günün yerine geçer
 

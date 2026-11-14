@@ -1422,6 +1422,63 @@ Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller
 
 *Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
 
+## Yedek film · 5. günün yerine · WALL-E · Anlam (sentez ve varış)
+
+**Künye:** *WALL-E*, Andrew Stanton, 2008, yaklaşık 98 dk, MPAA G · IMDb: https://www.imdb.com/title/tt0910970/
+
+Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun5-wall-e.md](moduller/yedek-gun5-wall-e.md). Moderatör kitapçığında “Yedek filmler” bölümü.
+
+- **Günün Açık Sorusu (tahtada tek başına):** **Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi?** <span class="et">Açık Soru · s. 34</span>
+- **İzleme görevi:** **“Film boyunca tek bir soruyu aklınızda tutun: Bu filmde kim gerçekten yaşıyor? Film bitince ne düşüneceksiniz, bakalım.”**
+
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
+
+Üç durak aynı kavramı (yaşamaya değer bir hayat) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
+
+### Durak 1 · yaklaşık 10–20. dk · Filiz
+
+**Sahne:** WALL-E çöpleri sıkıştırıyor, ilginç bulduğu küçük eşyaları biriktiriyor, tek arkadaşı bir hamam böceği. EVE (Dünya'da yaşam izi arayan yeni, parlak robot) geliyor. WALL-E ona son bulduğu şeyi, yaşayan bir filizi gösteriyor ve EVE filizi alıp bekleme moduna geçiyor. Bu an bitince durdur.
+
+**Koşul:** Hemen her şey eksik, ama bir merak ve bir bağ var.
+
+**Açık Soru:** “WALL-E'nin hemen hiçbir şeyi yok: ne bir arkadaşı ne yeni bir şeyi. Ama küçük eşyaları biriktiriyor ve bir filizi koruyor. Eksik bir hayat yine de yaşamaya değer olabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “WALL-E'nin hayatını yaşamaya değer kılmak için ne gerekli? Merak yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Senin biriktirdiğin, başkasına sıradan gelen ama senin için değerli bir şey var mı?”
+
+**Tartışmada geri çağır:** 3. basamak (senin filizin).
+
+### Durak 2 · yaklaşık 35–45. dk · Axiom · düğüm noktası
+
+**Sahne:** WALL-E, EVE'in peşinden Axiom'a ulaşıyor. Gemideki insanlar yüzyıllardır uçan koltuklarda dolaşıyor, her istekleri robotlar tarafından yerine getiriliyor, gözleri ekranlarda. Kaptan bile gemiyi otomatik pilota bırakmış. Gemiyi ilk kez gördüğümüz bölüm bitince durdur.
+
+**Koşul:** Her şey var, hiçbir çaba yok.
+
+**Açık Soru:** “Axiom'da hiçbir şey eksik değil ve kimse hiçbir şey için çaba göstermiyor. Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “Eğer sen de Axiom'da doğsaydın, bu hayatın eksik olduğunu nasıl anlardın?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Rahat olmak kötü değil ki.”* derse: “Evet ve… senin için rahatlığın tadını çıkardığın bir an ile hiçbir şey yapmadan geçen bir gün aynı şey mi?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+
+**Tartışmada geri çağır:** 1. basamak.
+
+### Durak 3 · yaklaşık 75–88. dk · Kaptan ayağa kalkıyor
+
+**Sahne:** Kaptan McCrea (Axiom'un yüzyıllardır otomatik pilota bırakılmış kaptanı) EVE'in kayıtlarında Dünya'yı görüyor ve geri dönmeye karar veriyor. Otomatik pilot onu durdurmaya çalışınca koltuğundan kalkıyor ve gemiyi kendi eline alıyor. Kaptan otomatik pilotu kapatınca durdur.
+
+**Koşul:** Rahatı bırakıp zor olanı seçmek.
+
+**Açık Soru:** “Kaptan, her şeyin hazır olduğu koltuğunu bırakıp zor bir yolu seçti. Bir insan rahatı neden bırakır?” <span class="et">Açık Soru · s. 34</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Dünya'ya dönmek çok zor bir hayat demekse, yine de dönmeye değer mi? Ya da gemide rahatça kalmak?” <span class="et">Ya… ya da… · s. 59–60</span>
+- “Kolay olanı bırakıp zor olanı seçtiğin bir an oldu mu? Neden?”
+
+**Tartışmada geri çağır:** 2. basamak (her şeyin hazır olduğu hayat).
+
+*Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
 ---
 
 # Ek: Alternatif model (görevli izleme)

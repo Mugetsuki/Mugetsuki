@@ -852,8 +852,9 @@ Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 | Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Bana verilen bir şey ne zaman benim olur?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
 | Küçük Prens | 3. gün (Öteki) | “İyi davranmak” yerine “bağ kurmak”: İlk cevabın “sevilmek” yarısını sınar. Soru: “Sevmek ile sevilmek aynı şey mi?” | Grup Mucize'yi izlemişse, zorbalık konusu grupta hassassa ya da daha şiirsel bir film isteniyorsa |
 | 12 Kızgın Adam | 4. gün (Toplum) | “Eşitlik” yerine **başka bir ilk cevabı** sınar: “Kimseyle ters düşmemek.” Soru: “Bir grubun verdiği karar ne zaman adil olur?” | Lise ağırlıklı grupta, ya da Başlangıç yapraklarında “herkesle iyi geçinmek” cevabı sıksa |
+| WALL-E | 5. gün (Anlam) | “Amaç” yerine “rahatlık”: Başka bir ilk cevabı sınar: “Hiçbir şeyin eksik olmadığı rahat bir hayat.” Soru: “Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi?” Beş Kapı ve Varış aynı | Grup Soul'u izlemişse, küçük yaş ağırlıklıysa ya da son gün görsel, az konuşmalı bir film isteniyorsa |
 
-*Sıradaki yedekler: WALL-E (5. gün), Küçük Prens (3. gün), Lego Filmi (1. gün).*
+*Beş günün her biri için bir yedek hazır. Kitapçıkta yedekler gün sırasıyla duruyor.*
 
 **Yedek film gösterilirse yapılacaklar:**
 1. **Rozet:** `rozet-yapragi.pdf`'ten yedek filmin rozetini kes. Başlangıç ve Varış yapraklarındaki patikada o günün rozetinin üstüne, rozet rozete oturacak şekilde yapıştır. Etiket kâğıdına basıldıysa yapıştırıcı gerekmez.
@@ -1467,6 +1468,175 @@ Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakil
 - **Sigara ve yaş:** Neredeyse herkes sigara içiyor, dönemin normu olduğunu tek cümleyle söyle. Film siyah-beyaz ve konuşma ağırlıklı, 11–12 yaş ağırlıklı grupta izleme görevini sık hatırlat.
 
 **Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Yaklaşık 2.400 yıl önce Atina'da 500 kişilik bir jüri, Sokrates adlı bir filozofu oy çokluğuyla ölüme mahkûm etti. Çoğunluk karar verdi. Sizce adil miydi?”
+
+---
+
+## YEDEK · 5. GÜN · WALL-E
+
+### SAYFA · GÜN VE AKIŞ
+
+**IMDb:** <https://www.imdb.com/title/tt0910970/>
+
+**Bugün ne oluyor?** Dünden devralınan soru: “Gerçek, kendin olmak, iyilik, adalet… Bunların hepsine sahip bir hayat bile neden yaşamaya değer?”
+- **Sınadığımız ilk cevap:** “İyi bir hayat, hiçbir şeyin eksik olmadığı, rahat bir hayattır.”
+- **Günün Açık Sorusu (tahtada tek başına):** **Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi?** <span class="et">Açık Soru · s. 34</span>
+- **Kamp sorusuna köprü:** Bu gün kamp sorusunun kendisine döner. Beş günün parçaları Beş Kapı'da yan yana konur, her çocuk Varış yaprağına kendi cevabını ve kendi büyük sorusunu yazar.
+
+[[ÜST BLOK SONU]]
+
+**Günün akışı** (yaklaşık 3 sa 46 dk)
+
+| Saat | Ne yapıyoruz | Süre |
+|---|---|---|
+| 0:00 | Dünkü gün kartı | 4 dk |
+| 0:04 | Hayattan sorular | 4 dk |
+| 0:08 | Yolculuk Duvarı yürüyüşü (hareketli) | 4 dk |
+| 0:12 | Hassas içerik notu | 1 dk |
+| 0:13 | İzleme görevi tahtaya | 2 dk |
+| 0:15 | Film, üç kısa durakla (6'şar dk) | 98 + 18 dk |
+| 2:11 | Ara ve enerji oyunu “Kıvılcım” | 10 dk |
+| 2:21 | Tartışma ve Beş Kapı | 60 dk |
+| 3:21 | Varış ve paylaşım çemberi | 25 dk |
+
+**Hassas içerik notu (filmden önce):** “Bugünkü filmde Dünya çöple dolmuş ve insanlar uzaya gitmiş. Kötü bir son yok, ama çevreyle ilgili bazı sahneler insanı düşündürebilir. Zorlanan bana işaret etsin.”
+
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
+
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Bu filmde kim gerçekten yaşıyor? Film bitince ne düşüneceksiniz, bakalım.”</p>
+
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
+
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
+
+### SAYFA · 1. VE 2. DURAK
+
+::: durak
+#### 1. durak · yaklaşık 10–20. dk · Filiz
+
+**Sahne:** WALL-E çöpleri sıkıştırıyor, ilginç bulduğu küçük eşyaları biriktiriyor, tek arkadaşı bir hamam böceği. EVE (Dünya'da yaşam izi arayan yeni, parlak robot) geliyor. WALL-E ona son bulduğu şeyi, yaşayan bir filizi gösteriyor ve EVE filizi alıp bekleme moduna geçiyor. Bu an bitince durdur. **Koşul:** Hemen her şey eksik, ama bir merak ve bir bağ var.
+
+**Açık Soru:** “WALL-E'nin hemen hiçbir şeyi yok: ne bir arkadaşı ne yeni bir şeyi. Ama küçük eşyaları biriktiriyor ve bir filizi koruyor. Eksik bir hayat yine de yaşamaya değer olabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “WALL-E'nin hayatını yaşamaya değer kılmak için ne gerekli? Merak yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Senin biriktirdiğin, başkasına sıradan gelen ama senin için değerli bir şey var mı?”
+
+**Geri çağır:** 3. basamak (senin filizin).
+:::
+
+::: durak
+#### 2. durak · yaklaşık 35–45. dk · Axiom · düğüm noktası
+
+**Sahne:** WALL-E, EVE'in peşinden Axiom'a ulaşıyor. Gemideki insanlar yüzyıllardır uçan koltuklarda dolaşıyor, her istekleri robotlar tarafından yerine getiriliyor, gözleri ekranlarda. Kaptan bile gemiyi otomatik pilota bırakmış. Gemiyi ilk kez gördüğümüz bölüm bitince durdur. **Koşul:** Her şey var, hiçbir çaba yok.
+
+**Açık Soru:** “Axiom'da hiçbir şey eksik değil ve kimse hiçbir şey için çaba göstermiyor. Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “Eğer sen de Axiom'da doğsaydın, bu hayatın eksik olduğunu nasıl anlardın?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Rahat olmak kötü değil ki.”* derse: “Evet ve… senin için rahatlığın tadını çıkardığın bir an ile hiçbir şey yapmadan geçen bir gün aynı şey mi?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+
+**Geri çağır:** 1. basamak.
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 75–88. dk · Kaptan ayağa kalkıyor
+
+**Sahne:** Kaptan McCrea (Axiom'un yüzyıllardır otomatik pilota bırakılmış kaptanı) EVE'in kayıtlarında Dünya'yı görüyor ve geri dönmeye karar veriyor. Otomatik pilot onu durdurmaya çalışınca koltuğundan kalkıyor ve gemiyi kendi eline alıyor. Kaptan otomatik pilotu kapatınca durdur. **Koşul:** Rahatı bırakıp zor olanı seçmek.
+
+**Açık Soru:** “Kaptan, her şeyin hazır olduğu koltuğunu bırakıp zor bir yolu seçti. Bir insan rahatı neden bırakır?” <span class="et">Açık Soru · s. 34</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Dünya'ya dönmek çok zor bir hayat demekse, yine de dönmeye değer mi? Ya da gemide rahatça kalmak?” <span class="et">Ya… ya da… · s. 59–60</span>
+- “Kolay olanı bırakıp zor olanı seçtiğin bir an oldu mu? Neden?”
+
+**Geri çağır:** 2. basamak (her şeyin hazır olduğu hayat).
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · His turu ve Kavrama Zamanı.** “Tek kelimeyle, film sana ne hissettirdi?” Pas serbest. Sonra: “Filmin ilk yarısında neredeyse hiç konuşma yoktu. Ne olduğunu birlikte anlatalım, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–10 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir. Sonra demir at: “Hepsinin altında kamp sorumuz var.” Tahtaya tek başına yaz: **Rahat bir hayat ile yaşamaya değer bir hayat aynı şey mi?** <span class="et">Demir atmak · s. 48</span>
+
+### SAYFA · MERDİVEN: 1. VE 2. BASAMAK
+
+**1. basamak · Kim gerçekten yaşıyor?** *Geri çağır:* “Axiom'u hatırlıyor musunuz?” *Açık Soru:* “WALL-E'nin hemen hiçbir şeyi yoktu, Axiom'dakilerin her şeyi vardı. Hangisi daha çok yaşıyordu, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli · s. 55</span>
+- *“WALL-E, çünkü meraklıydı.”* “Senin düşüncene göre yaşamak için merak gerekli, öyle mi? Merakı olmayan biri yaşamıyor mu?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Axiom'dakiler, her şeyleri vardı.”* “Eğer her şeyin olsaydı ama hiçbir şey seni şaşırtmasaydı, o zaman iyi yaşıyor olur muydun?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“WALL-E bir robot, yaşamıyor ki.”* “Evet ve… WALL-E'yi bırakalım. Senin bir gününü ‘dolu’ yapan ne?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+- *“İkisi de eksikti.”* “O zaman yaşamaya değer bir hayat için ne gerekli? Bir liste yapalım.” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+
+**2. basamak · Her şey hazır** *Geri çağır:* “Kaptanın ayağa kalktığı anı hatırlıyor musunuz?” *Açık Soru:* “Eğer hiçbir şey için çaba göstermen gerekmeseydi ve her isteğin anında yerine getirilseydi, bu hayatı ister miydin?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Eğer durum böyle olsaydı · s. 52</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+- *“İsterim, çok rahat olur.”* “Bir oyunu hiç çaba göstermeden kazansan, hep kazansan, o oyun yine zevkli olur mu?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“İstemem, sıkılırım.”* “Senin düşüncene göre zorluk olmadan anlam olmaz, öyle mi? O zaman en zor hayat en anlamlı hayat mı?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Ama öyle bir hayat olmaz.”* “Ama ya olsaydı? Hiçbir şeyin ters gitmeyeceğini düşünelim.” <span class="et">Yeniden demir atmak · s. 54</span>
+- *“Bazı şeylerde isterim.”* “Hangi şeylerde çaba istersin, hangilerinde istemezsin? Bir ölçüt söyle. Yoksa başka bir şey mi belirliyor?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+
+### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN
+
+**3. basamak · Senin filizin** *Geri çağır:* “Filizi hatırlıyor musunuz?” *Açık Soru:* “Filmde küçük bir filiz bütün bir gemiyi eve döndürdü. Bir şeyi büyütmek, korumak, ona bakmak iyi bir hayatın neresinde?” <span class="et">Açık Soru · s. 34</span>
+- *Somut bir örnek (kardeşim, hayvanım, bir arkadaşlık):* “Ona bakmak sana ne veriyor? Bu bir yük mü, bir değer mi, yoksa ikisi birden mi?” <span class="et">Açma soruları · s. 36</span>
+- *“Hiçbir şeye bakmıyorum.”* “Eğer bakacağın bir şey olsaydı, ne olmasını isterdin?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“Bakmak yorucu.”* “Senin düşüncene göre yorucu olan bir şey iyi hayatın parçası olamaz, öyle mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Anlamadım.”* Anlamış bir çocuk kendi kelimeleriyle anlatsın. Sonra: “Truman kapıdan çıktı, Kaptan koltuğundan kalktı. İkisi neyi seçti?” <span class="et">Akran ağı · s. 60</span> <span class="et">Bağlantı kurma · s. 38</span>
+
+**Takılırsan.**
+- **Herkes “rahatlık kötü” diyor:** “Size katılmayan biri ne derdi? Hasta ya da çok yorgun biri için rahatlık bir armağan değil mi?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “rahatlık iyi” diyor:** “Size katılmayan biri ne derdi? Axiom'dakiler mutlu muydu?” <span class="et">Hayali muhalif · s. 50</span>
+- **Beş Kapı'da herkes tek köşede:** O köşenin ters köşe sorusunu sor, sonra: “Bu köşeyi kimse seçmedi. Biri bu köşeyi savunsa ne derdi?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+- **Son gün yorgunluğu:** Merdiveni iki basamakla bitirip Beş Kapı'ya erken geç.
+- **Sessizlik:** İki dakika ikili konuşma: “Baktığın, koruduğun küçük bir şeyi anlat.” <span class="et">Konuşma Zamanı · s. 34</span>
+
+### SAYFA · BEŞ KAPI, VARIŞ VE KAPANIŞ
+
+**dk 35–45 · Beş Kapı (hareketli).** Odanın beş köşesine, Yolculuk Duvarı'ndaki beş günün “Bugün eklediğimiz parça” cümleleri asılır. Her köşede grubun **kendi sözleri** yazar, senin sözlerin değil. Örnek köşeler: gerçek · kendin olmak · iyilik · adalet · yaşamanın kendisi.
+
+“Herkes ayağa. Beş köşede beş günün parçası var. Son büyük soru: **İyi bir hayat için hangisi olmazsa olmaz?** Bir köşe seçin ve önüne gidin. İki köşe arasında durmak da serbest.” <span class="et">Sine qua non · s. 62</span> <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+
+Her köşe iki dakika içinde gerekçesini toplasın ve bir sözcü seçsin. Sözcülerden sonra her köşeye, ona katılmayan birinin sesiyle bir ters köşe sorusu: <span class="et">Hayali muhalif · s. 50</span>
+- **Gerçek köşesine:** “Gerçek ama kimsenin seni sevmediği bir hayat iyi mi?”
+- **Kendin olmak köşesine:** “Kendin ama yalnız bir hayat iyi mi?”
+- **İyilik köşesine:** “İyi ama yalan içinde bir hayat iyi mi?”
+- **Adalet köşesine:** “Adil ama hiç sevinç olmayan bir hayat iyi mi?”
+- **Yaşamanın kendisi köşesine:** “Keyifli ama başkalarının haksızlığa uğradığı bir dünyada iyi mi?”
+
+“Başka bir köşeye geçmek isteyen var mı? Seni ne ikna etti?” Bitirirken: “Beş film, beş soru. Ama hepsi aynı büyük soruya çıktı. Ve görüyorsunuz, tek bir köşe yetmiyor.”
+
+**dk 45–56 · Kampın son tartışması: parçalar çatışırsa.** “Bu parçalar bazen çatışıyor. Truman gerçeği seçince mutluluğu riske attı. Kaptan rahatını bırakıp zor olanı seçti. Judy (4. gün filminin tavşan polisi) haksızlığa yol açtığını anlayınca rozetini bıraktı. İki parçan çatıştığında nasıl seçersin? Kendi hayatından bir örnek bulabilir misin?” <span class="et">Fikir çatışması oyunu · s. 57</span>
+
+Bu bölümde yalnızca soru sor ve tahtaya yaz. Amaç, Varış'tan önce çocuğun kendi hayatından bir çatışmayı adlandırması. “Çünkü” istemeye devam et.
+
+**dk 56–60 · 5. gün yaprağı.** “WALL-E yaprağınızı doldurun: bugün kafanızı en çok karıştıran soru ve kampta fark ettiğiniz, baktığınız ya da koruduğunuz küçük bir şey. Kamp sorusuna bugünkü cevabınızı birazdan Varış yaprağına yazacaksınız.”
+
+**Hassas anlar.**
+- **Bedenler:** Axiom'daki insanlar çok hareketsiz yaşıyor. Kimsenin bedeniyle dalga geçilmesine izin verme: “Burada insanların bedenini değil, nasıl yaşadıklarını konuşuyoruz.”
+- **Çevre kaygısı:** Çöple dolu Dünya bazı çocuklarda kaygı uyandırabilir. Filmin sonunda gezegen yeniden yeşeriyor. Kaygıyı dinle, büyütme. Finalde WALL-E kısa bir süre her şeyi unutuyor, sonra geri geliyor.
+- **“Hayatı yaşamaya değer kılan ne?” sorusu:** Bu soru bir çocukta kendi hayatına dair karanlık bir düşünce çağırabilir. Bunu ciddiye al, sakin ve sıcak kal, o çocukla kısaca konuş ve aynı gün kamp sorumlusuyla konuş.
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Yaklaşık 2.300 yıl önce Aristoteles, mutluluğun sahip olunan değil, yapılan bir şey olduğunu söylemiş.”
+
+### SAYFA · VARIŞ (25 DK)
+
+Çocuklar Başlangıç yaprağını ve Varış yaprağını önlerine koyar. Her adımda tek bir cümle söylersin, sonra sessizlik.
+
+- **Yan yana koyma** (3 dk): “Dosyanızdan Başlangıç yaprağını çıkarın. İlk gün ne yazmıştınız? Sesli okumak yok, sadece kendinize okuyun.”
+- **Şimdiki cevabım** (4 dk): “Şimdi aynı soruya bugünkü cevabınız: ‘Bence iyi bir hayat … çünkü …’”
+- **Ne değişti, neden?** (4 dk): “Ne değişti, neden? Hiçbir şey değişmediyse neden değişmediğini yazın. Bu da iyi bir cevap.”
+- **Benim büyük sorum** (5 dk): “Yapraklarınızdaki ‘kafamı karıştıran sorulara’ bakın. Birini seçin ya da yenisini yazın. Bu sizin büyük sorunuz. Altına ‘Şimdilik cevabım … çünkü …’ yazın.”
+- **Hayatımda nerede?** (3 dk): “Bu soru günlük hayatınızda nerede karşınıza çıkıyor? Bir yer, bir an, bir kişi.” Ardından “Kamp genel olarak”, ikinci yapraktaki beş ifade ve izin kutusu.
+- **Paylaşım çemberi** (6 dk): “Herkes büyük sorusunu tek cümleyle söylesin. Pas serbest. İsteyen şimdilik cevabını da okusun.”
+
+**Kampın son sözü.** “Beş gün boyunca birlikte düşündünüz, birbirinizi dinlediniz, bazen fikir değiştirdiniz, bazen değiştirmeden nedenini söylediniz. Kamp bitiyor ama büyük sorularınız bitmiyor. Onlar sizinle geliyor. Teşekkür ederim.”
+
+Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 
 ---
 

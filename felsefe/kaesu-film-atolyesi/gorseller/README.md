@@ -44,7 +44,7 @@ Her yedek film kendi görselleriyle gelir. Yedek film gösterilirse o günün af
 | `pdf/defter-yaprak-yedek-gun4-12-kizgin-adam.pdf` | Gün yaprağı | A4 dikey |
 | `pdf/rozet-yapragi.pdf` | Rozet (bütün rozetlerle birlikte) | A4, %100 |
 
-Moderatör kitapçığının sonundaki “Yedek filmler” bölümünde her yedeğin ön-arka tam sayfası var. Hazır yedekler: Vahşi Robot (2. gün), 12 Kızgın Adam (4. gün). Sıradakiler: WALL-E (5. gün), Küçük Prens (3. gün), Lego Filmi (1. gün).
+Moderatör kitapçığının sonundaki “Yedek filmler” bölümünde her yedeğin ön-arka tam sayfası var. Hazır yedekler, gün sırasıyla: Lego Filmi (1. gün), Vahşi Robot (2. gün), Küçük Prens (3. gün), 12 Kızgın Adam (4. gün), WALL-E (5. gün). Her yedeğin `yedek-gunN-…-afis`, `-not-karti`, `-ikilem` PDF'leri, gün yaprağı, rozeti ve `soru-kaynaklari-yedek-…` sayfaları var.
 
 ## Kamp geneli
 
@@ -80,7 +80,7 @@ Bu ürünler Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı #F
 
 - **Nasıl kullanılır:** Bir gün yedek film gösterilirse, o filmin rozetini kesikli çizgiden kesin. Başlangıç ve Varış yapraklarındaki patikada o günün rozetinin üstüne, rozet rozete oturacak şekilde yapıştırın. Parça, eski rozeti ve altındaki etiketi tamamen kapatır.
 - **Set mantığı:** Bir set, bir çocuğun Başlangıç ve Varış yaprakları içindir. Yani her rozetten 2 kopya.
-- **Bir A4'te kaç set var?** Sayfaya 48 parça sığıyor (6 sütun × 8 satır). Şu anki içerik 7 rozet (5 ana film, Vahşi Robot ve 12 Kızgın Adam), yani set başına 14 parça. Böylece **bir A4'te 3 set** çıkıyor. Bütün yedek filmler eklendiğinde (5 ana ve 5 yedek, set başına 20 parça) **bir A4'te 2 set** olacak. 20 çocuk için 10 A4 yeter.
+- **Bir A4'te kaç set var?** Sayfaya 48 parça sığıyor (6 sütun × 8 satır). İçerik 10 rozet (5 ana film ve 5 yedek film), yani set başına 20 parça. Böylece **bir A4'te 2 set** çıkıyor. 20 çocuk için 10 A4 yeter.
 - **Baskı ipucu:** Rozet yaprağını **A4 etiket (sticker) kağıdına** basarsanız yapıştırıcı gerekmez. Kesip arkasındaki kâğıdı soyup yapıştırmanız yeter. Mat etiket kağıdı krem zemini daha doğru gösterir.
 
 ### Moderatör kitapçığı ve formlar

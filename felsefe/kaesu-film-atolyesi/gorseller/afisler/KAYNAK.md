@@ -16,3 +16,4 @@ Bu afişler yalnızca **moderatör kitapçığında**, filmi tanımak için kü�
 | `yedek-gun4-12adam.jpg` | 12 Angry Men (1957), yedek film | https://en.wikipedia.org/wiki/File:12_Angry_Men_(1957_film_poster).jpg (Wikimedia Commons) |
 | `yedek-gun1-lego.jpg` | The Lego Movie (2014), yedek film | https://en.wikipedia.org/wiki/File:The_Lego_Movie_poster.jpg |
 | `yedek-gun3-prens.jpg` | The Little Prince (2015), yedek film | https://en.wikipedia.org/wiki/File:The_Little_Prince_(2015_film)_poster.png |
+| `yedek-gun5-walle.jpg` | WALL-E (2008), yedek film | https://en.wikipedia.org/wiki/File:WALL-E_poster.jpg |
