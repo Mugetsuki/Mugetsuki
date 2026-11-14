@@ -1,0 +1,94 @@
+/* Kaesu Film Atölyesi · Filya renkleriyle form ve kitapçık örnekleri
+   Renkler ve kurallar: ../filya-marka/project/README.md ve tokens.json. Logo kullanılmaz.
+   - Zemin krem, metin koyu. Sarı yalnızca dolgu, turuncu sayfa başına tek vurgu (dolgu).
+   - Sarı ya da turuncu metin yok. Başlıklarda yalnızca ilk kelimenin baş harfi büyük. */
+
+@font-face { font-family: "Albert Sans"; src: url(fonts/AlbertSans-400.ttf); font-weight: 400; }
+@font-face { font-family: "Albert Sans"; src: url(fonts/AlbertSans-600.ttf); font-weight: 600; }
+@font-face { font-family: "Albert Sans"; src: url(fonts/AlbertSans-700.ttf); font-weight: 700; }
+@font-face { font-family: "Albert Sans"; src: url(fonts/AlbertSans-800.ttf); font-weight: 800; }
+@font-face { font-family: "Literata"; src: url(fonts/Literata-400.ttf); font-weight: 400; }
+@font-face { font-family: "Literata"; src: url(fonts/Literata-600.ttf); font-weight: 600; }
+
+:root {
+  --koyu: #202B23; --krem: #F3EEC8; --sari: #FFD85F; --turuncu: #F47A3C;
+  --surface: var(--krem); --raised: #FAF7E3; --sunk: #EAE3B6;
+  --line: #D9D2A6; --line-strong: #6E7A6F; --ink: var(--koyu); --muted: #4C584F; --hl-soft: #F9E59A;
+}
+
+@page { size: A4; margin: 0; background: var(--krem); }
+@page kitap { size: A4; margin: 12mm 13mm 12mm 13mm; background: var(--krem); }
+
+* { box-sizing: border-box; }
+html { font-family: "Albert Sans", sans-serif; font-size: 11pt; line-height: 1.35; color: var(--ink); }
+body { margin: 0; }
+h1, h2, h3, p { margin: 0; }
+
+.sheet { position: relative; width: 210mm; height: 297mm; padding: 14mm 15mm; break-after: page; background: var(--krem); overflow: hidden; }
+.sheet:last-child { break-after: auto; }
+
+.label { font-weight: 600; font-size: 9.5pt; letter-spacing: 0.08em; color: var(--muted); }
+.title { font-family: "Literata"; font-weight: 600; color: var(--ink); line-height: 1.12; }
+.muted { color: var(--muted); }
+
+/* Yazı çizgileri */
+.lines div { height: 8mm; border-bottom: 0.3mm solid var(--line-strong); }
+.lines.tight div { height: 7.2mm; }
+.fill { display: inline-block; border-bottom: 0.3mm solid var(--line-strong); }
+
+/* Kutular ve yuvarlaklar */
+.cb { display: inline-block; width: 4.4mm; height: 4.4mm; border: 0.35mm solid var(--line-strong); border-radius: 1.2mm; background: #fff; vertical-align: -0.9mm; }
+.dot { display: inline-block; width: 5.2mm; height: 5.2mm; border: 0.35mm solid var(--line-strong); border-radius: 50%; background: #fff; vertical-align: middle; }
+
+/* Etiketler */
+.pill { display: inline-block; border-radius: 99mm; padding: 1mm 3.5mm; font-weight: 700; font-size: 10pt; }
+.pill.sari { background: var(--sari); color: var(--koyu); }
+.pill.turuncu { background: var(--turuncu); color: var(--koyu); }
+.pill.cizgi { border: 0.35mm solid var(--line-strong); color: var(--ink); }
+
+/* Yüzeyler */
+.blok-sari { background: var(--sari); border-radius: 7mm; padding: 6mm 7mm; }
+.kart { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4mm 5mm; }
+
+/* Defter */
+.ust { display: flex; justify-content: space-between; align-items: flex-end; }
+.kimlik { margin-top: 5mm; font-weight: 700; }
+.kimlik .row { display: flex; align-items: flex-end; gap: 3mm; margin-bottom: 3mm; }
+.alan-baslik { display: flex; align-items: center; gap: 3mm; margin-top: 7mm; }
+.soru-etiketi { font-weight: 700; margin-top: 3mm; }
+table.olcek { width: 100%; border-collapse: collapse; table-layout: fixed; }
+table.olcek th { font-size: 9.5pt; font-weight: 700; color: var(--muted); text-align: center; padding: 0 0 1.5mm; }
+table.olcek td { padding: 1.7mm 0; border-top: 0.3mm solid var(--line); vertical-align: middle; }
+table.olcek td.c { text-align: center; }
+.gun { margin-top: 5mm; }
+.gun .bas { display: flex; align-items: center; gap: 3mm; margin-bottom: 1.5mm; }
+.gun .bas .film { font-family: "Literata"; font-weight: 600; font-size: 14pt; }
+.keyif { display: flex; align-items: center; gap: 2.5mm; margin-top: 2.5mm; font-weight: 700; }
+.keyif span.n { font-weight: 600; color: var(--muted); font-size: 9.5pt; }
+.ipucu { font-size: 10pt; color: var(--muted); }
+
+/* Moderatör kitapçığı (akışlı sayfa) */
+.kitap { page: kitap; break-after: page; font-size: 9.6pt; line-height: 1.3; }
+.kitap:last-child { break-after: auto; }
+.kitap .bant { background: var(--koyu); color: var(--krem); border-radius: 5mm; padding: 4mm 6mm; display: flex; justify-content: space-between; align-items: center; margin-bottom: 4mm; }
+.kitap .bant .t { font-family: "Literata"; font-weight: 600; font-size: 19pt; line-height: 1.1; }
+.kitap .bant .s { font-size: 10pt; margin-top: 1mm; }
+.kitap .afis { width: 28mm; }
+.kitap table.ust-blok { margin: 0 0 2mm; }
+.kitap table.ust-blok td { border: 0; background: none; padding: 0; vertical-align: top; }
+.kitap table.ust-blok td.afis-hucre { width: 32mm; padding-left: 4mm; }
+.kitap .afis img { width: 28mm; border-radius: 2mm; display: block; }
+.kitap .afis .k { font-size: 7.5pt; color: var(--muted); margin-top: 1mm; line-height: 1.2; }
+.kitap h3 { display: none; }
+.kitap h2 { display: none; }
+.kitap p { margin: 0 0 1.5mm; }
+.kitap strong { font-weight: 700; }
+.kitap a { color: var(--ink); }
+.kitap ul, .kitap ol { margin: 0 0 2mm; padding-left: 5mm; }
+.kitap li { margin-bottom: 0.7mm; }
+.kitap table { width: 100%; border-collapse: collapse; margin: 1mm 0 2.6mm; clear: none; }
+.kitap th, .kitap td { border: 0.25mm solid var(--line-strong); padding: 0.9mm 2mm; text-align: left; vertical-align: top; }
+.kitap th { background: var(--hl-soft); font-weight: 700; }
+.kitap td { background: var(--raised); }
+.kitap .vurgu { background: var(--sari); border-radius: 4mm; padding: 3mm 4mm; margin: 2mm 0 3mm; }
+.kitap li em { font-style: normal; background: var(--hl-soft); border-radius: 1mm; padding: 0 1mm; }
