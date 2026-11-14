@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Pikora hikâye kaynağı</title>
+<!-- Kullanım: hikaye.html?h=<kategori>-<sıra> (ör. urunler-1). Boyut 1080×1920. "?liste" bütün anahtarları yazar. -->
+<link rel="stylesheet" href="../../pikora-site/tokens.css">
+<style>
+  @font-face { font-family: "Baloo 2"; src: url("../../pikora-site/fonts/baloo-2-latin-ext-wght-normal.woff2") format("woff2-variations"); font-weight: 400 800; unicode-range: U+0100-02BA, U+1E00-1E9F, U+20A0-20C0; }
+  @font-face { font-family: "Baloo 2"; src: url("../../pikora-site/fonts/baloo-2-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 400 800; unicode-range: U+0000-00FF, U+0131, U+2000-206F; }
+  @font-face { font-family: "Nunito"; src: url("../../pikora-site/fonts/nunito-latin-ext-wght-normal.woff2") format("woff2-variations"); font-weight: 200 1000; unicode-range: U+0100-02BA, U+1E00-1E9F, U+20A0-20C0; }
+  @font-face { font-family: "Nunito"; src: url("../../pikora-site/fonts/nunito-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 200 1000; unicode-range: U+0000-00FF, U+0131, U+2000-206F; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; }
+  body { background: var(--ip-krem); color: var(--renk-metin); font: 500 42px/1.42 "Nunito", sans-serif; }
+  svg { display: block; }
+  /* Üst 250 ve alt 280 px Instagram arayüzü için boş kalır */
+  .s { position: absolute; inset: 250px 76px 280px; display: flex; flex-direction: column; gap: 40px; }
+  .etiket { align-self: flex-start; display: flex; align-items: center; gap: 14px; padding: 10px 28px 10px 14px; border-radius: 99px; background: var(--ip-sut); box-shadow: var(--golge-1); font: 800 28px/1.2 "Nunito"; letter-spacing: .14em; text-transform: uppercase; }
+  .etiket i { width: 34px; height: 34px; border-radius: 50%; background: var(--k); }
+  h1 { font: 600 112px/1.04 "Baloo 2"; letter-spacing: -.01em; text-wrap: balance; }
+  h1.kucuk { font-size: 92px; }
+  .yumusak { color: var(--renk-metin-yumusak); }
+  .kunye { margin-top: auto; display: flex; align-items: center; justify-content: space-between; color: var(--renk-marka); font: 700 38px/1 "Baloo 2"; }
+  .kunye svg { height: 62px; width: auto; }
+  .kutu { padding: 40px 44px; border-radius: 48px; background: var(--ip-sut); box-shadow: var(--golge-1); }
+  .kutu h2 { font: 600 60px/1.1 "Baloo 2"; margin-bottom: 8px; }
+  .vurgu { background: var(--renk-marka); color: var(--ip-sut); }
+  .hardal { background: color-mix(in srgb, var(--ip-hardal) 30%, var(--ip-sut)); font-weight: 700; }
+  .adim { display: flex; gap: 32px; align-items: flex-start; }
+  .adim > span { flex: none; display: grid; place-items: center; width: 92px; height: 92px; border-radius: var(--kose-ilmek); font: 800 50px/1 "Baloo 2"; }
+  .buyuk { font: 700 80px/1.2 "Nunito"; }
+  .izgara { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px 24px; text-align: center; font: 600 36px/1.1 "Baloo 2"; }
+  .izgara svg { width: 190px; height: 190px; margin: 0 auto 6px; }
+  .izgara img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 36px; margin-bottom: 8px; box-shadow: var(--golge-1); }
+  .izgara .fiyat { display: grid; place-items: center; align-self: start; aspect-ratio: 1; border-radius: 36px; background: var(--renk-marka); color: var(--ip-sut); font: 700 64px/1.05 "Baloo 2"; }
+  .izgara.kolye .fiyat { aspect-ratio: auto; height: 190px; }
+  .izgara.dort { grid-template-columns: repeat(4, 1fr); gap: 34px 18px; font-size: 30px; }
+  .izgara.dort img { border-radius: 28px; }
+  .izgara.dort .fiyat { font-size: 52px; border-radius: 28px; }
+  .aile { display: flex; align-items: center; gap: 28px; }
+  .aile i { flex: none; width: 76px; height: 76px; border-radius: var(--kose-ilmek); background: var(--r); box-shadow: 0 0 0 3px var(--renk-cizgi); }
+  .aile b { display: block; font: 600 56px/1.1 "Baloo 2"; }
+  .aile span { font-size: 34px; color: var(--renk-metin-yumusak); }
+  .tek { position: relative; border-radius: 56px; overflow: hidden; box-shadow: var(--golge-2); background: color-mix(in srgb, var(--aile-r) 30%, var(--ip-sut)); }
+  .tek img, .tek svg { width: 100%; aspect-ratio: 1; object-fit: cover; }
+  .rozet { position: absolute; left: 28px; bottom: 28px; padding: 8px 22px; border-radius: 99px; background: var(--renk-etiket-zemin); color: var(--ip-sut); font: 700 26px/1.3 "Nunito"; }
+  .satir { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .hap { padding: 12px 36px; border-radius: 99px; background: var(--renk-marka); color: var(--ip-sut); font: 700 68px/1.1 "Baloo 2"; white-space: nowrap; }
+  .balon { position: relative; padding: 52px 56px; border-radius: 64px; background: var(--ip-sut); box-shadow: var(--golge-2); font: 600 76px/1.16 "Baloo 2"; }
+  .balon::after { content: ""; position: absolute; left: 150px; bottom: -58px; border: 34px solid transparent; border-top-color: var(--ip-sut); border-left-color: var(--ip-sut); }
+  .kedi { width: 600px; height: 600px; margin: 40px 0 0 30px; }
+  .kadro { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px 20px; text-align: center; font: 600 40px/1.1 "Baloo 2"; }
+  .kadro svg { width: 290px; height: 290px; margin: 0 auto; }
+  .mesaj { align-self: flex-end; max-width: 860px; padding: 40px 46px; border-radius: 48px 48px 10px 48px; background: #DCF3D3; box-shadow: var(--golge-1); font-size: 40px; line-height: 1.42; white-space: pre-line; }
+  .form div { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 34px 40px; border-bottom: 3px dashed var(--renk-cizgi); font: 600 46px/1.2 "Baloo 2"; }
+  .form div:last-child { border: 0; }
+  .form u { flex: none; width: 420px; height: 78px; border-radius: 22px; background: var(--ip-sut); border: 3px solid var(--renk-cizgi); text-decoration: none; }
+  .bosluk { flex: 1; min-height: 380px; border: 5px dashed color-mix(in srgb, var(--ip-bordo) 40%, var(--ip-krem)); border-radius: 56px; display: grid; place-items: center; text-align: center; padding: 40px; font-size: 34px; color: var(--renk-metin-yumusak); }
+  .sade { background: var(--ip-sut); }
+  .sade .kutu:not(.vurgu):not(.hardal) { background: var(--ip-krem); box-shadow: none; }
+</style>
+</head>
+<body>
+<script src="../../pikora-site/urunler.js"></script>
+<script src="../../pikora-site/cizim.js"></script>
+<script>
+(function () {
+  var C = window.PIKORA_CIZIM, U = window.PIKORA_URUNLER, A = window.PIKORA_AILELER, IG = "@" + window.PIKORA_AYAR.instagram;
+  var DESTEK = "Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır.";
+  var KAT = { urunler: ["Ürünler", "#F4A5B8"], siparis: ["Sipariş", "#A6DCC9"], kadro: ["Kadro", "#E3A72F"], pay: ["Pay", "#F07A5E"], sorular: ["Sorular", "#BBA8DC"] };
+  var LOGO = '<svg viewBox="0 -8 650 178"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M30 140 V40 H62 A28 28 0 0 1 62 96 H30 M120 140 V40 M165 40 V140 M226 40 L172 92 L228 140 M380 140 V40 H412 A28 28 0 0 1 412 96 H380 M408 96 L442 140 M470 140 L507 40 L544 140 M484 104 H530" stroke="#8A2335" stroke-width="22"/><circle cx="300" cy="90" r="50" stroke="#F07A5E" stroke-width="22"/><path d="M266 66 C290 80 300 110 284 134 M290 42 C318 62 330 100 318 136 M254 98 C280 96 320 112 346 104" stroke="#E3A72F" stroke-width="9"/><path d="M544 140 C566 156 598 146 596 122 C594 100 566 104 570 124 C574 144 606 152 630 136" stroke="#E3A72F" stroke-width="9"/></g><path d="M120 26 C108 18 104 4 114 1 C118 0 120 3 120 5 C120 3 122 0 126 1 C136 4 132 18 120 26 Z" fill="#F07A5E"/></svg>';
+  function kedi(govde, sargi, uc, cls) {
+    return '<svg class="' + (cls || "") + '" viewBox="0 0 512 512"><path d="M128 182 L138 58 L222 118 Z M384 182 L374 58 L290 118 Z" fill="' + govde + '" stroke="' + govde + '" stroke-width="18" stroke-linejoin="round"/><circle cx="256" cy="266" r="150" fill="' + govde + '"/>' +
+      '<path d="M152 196 C222 236 250 326 206 394 M236 124 C326 176 360 286 322 398 M116 296 C196 286 316 336 394 306" fill="none" stroke="' + sargi + '" stroke-width="20" stroke-linecap="round"/>' +
+      '<path d="M396 326 C446 356 476 406 446 456 C426 486 396 466 416 446" fill="none" stroke="' + uc + '" stroke-width="20" stroke-linecap="round"/></svg>';
+  }
+  var KEDI = { bombay: ["#1D1716", "#E3A72F", "#F07A5E"], tekir: ["#7A5B3E", "#1D1716", "#E3A72F"], sarman: ["#EE7B26", "#FFFAF2", "#8A2335"], smokin: ["#1D1716", "#FFFAF2", "#A6DCC9"], smokin2: ["#1D1716", "#FFFAF2", "#F4A5B8"] };
+  var k = function (ad, cls) { return kedi(KEDI[ad][0], KEDI[ad][1], KEDI[ad][2], cls); };
+  var tur = function (t) { return U.filter(function (u) { return u.tur === t; }); };
+  var gorsel = function (u) { return u.gorsel ? '<img src="../../pikora-site/' + u.gorsel + '-960.webp" alt="">' : C.kolyeSVG(u.cizim); };
+  function tek(id) {
+    var u = U.filter(function (x) { return x.id === id; })[0];
+    return '<div class="tek" style="--aile-r:' + A[u.aile].renk + '">' + gorsel(u) + '<span class="rozet">' + (u.gorsel ? "tasarım görseli" : "tasarım çizimi") + '</span></div>' +
+      '<div class="satir"><div><p class="yumusak" style="font-weight:800;font-size:28px;letter-spacing:.14em;text-transform:uppercase">' + A[u.aile].ad + " ailesi · " + u.tur + '</p><h1 class="kucuk">' + u.ad + '</h1></div><span class="hap">' + u.fiyat + ' ₺</span></div><p class="yumusak">' + u.tarif + " Sipariş için yaz.</p>";
+  }
+  var aileSatir = function (anahtar) {
+    return '<div class="aile" style="--r:' + A[anahtar].renk + '"><i></i><div><b>' + A[anahtar].ad + "</b><span>" + U.filter(function (u) { return u.aile === anahtar; }).map(function (u) { return u.ad; }).join(" · ") + "</span></div></div>";
+  };
+  var adim = function (n, renk, baslik, metin) { return '<div class="kutu adim"><span style="background:' + renk + '">' + n + "</span><div><h2>" + baslik + "</h2><p class=\"yumusak\">" + metin + "</p></div></div>"; };
+  var soru = function (s, c, ek) { return "<h1 class=\"kucuk\">" + s + '</h1><div class="kutu"><p style="font-size:56px;line-height:1.36">' + c + "</p></div>" + (ek ? '<div class="kutu hardal"><p style="font-size:46px">' + ek + "</p></div>" : ""); };
+
+  var H = {
+    /* ---------- ÜRÜNLER ---------- */
+    "urunler-1": '<h1>Yedi kolye</h1><div class="izgara kolye">' + tur("kolye").map(function (u) { return "<div>" + C.boncukSVG(u) + u.ad + "</div>"; }).join("") + '<div class="fiyat">300 ₺</div></div><p class="yumusak">Krem ya da nane ipte, elde örülür. Hepsi profildeki gönderilerde.</p>',
+    "urunler-2": '<h1>Yedi bandana</h1><div class="izgara dort">' + tur("bandana").map(function (u) { return "<div>" + gorsel(u) + u.ad + "</div>"; }).join("") + '<div class="fiyat">390 ₺</div></div><p class="yumusak" style="font-size:32px">Görseller tasarım örneğidir. Her ürün elde örülür ve biraz farklı olabilir.</p>',
+    "urunler-3": '<h1>Beş aile, on dört tasarım</h1>' + ["bahce", "meyve", "gokyuzu", "deniz", "zarafet"].map(aileSatir).join(""),
+    "urunler-4": tek("bandana-gece-hilali"),
+    "urunler-5": tek("kolye-pembe-bahar"),
+
+    /* ---------- SİPARİŞ ---------- */
+    "siparis-1": '<h1>Üç ilmekte sipariş</h1>' + adim(1, "#F07A5E", "Beğendiğini seç", "Yedi kolye, yedi bandana. Hepsi profilde.") + adim(2, "#E3A72F", "Bize yaz", "Instagram ya da WhatsApp. Ölçüyü ve teslimi orada konuşuruz.") + adim(3, "#A6DCC9", "Sıranı örelim", "Her parça elde örülür. Ne zaman hazır olacağını baştan söyleriz."),
+    "siparis-2": '<h1>Ölçü nasıl alınır?</h1>' + adim(1, "#F07A5E", "Mezurayı al", "Mezura yoksa bir ip de olur; sonra cetvelle ölçersin.") + adim(2, "#E3A72F", "Boynunu ölç", "Kedin sakinken, boynunun çevresini sıkmadan ölç.") + adim(3, "#A6DCC9", "Bize yaz", "Kaç santim çıktığını yaz. Ölçüyü kedinin boynuna göre birlikte belirleriz.") + '<p class="yumusak">Ölçemediysen sorun değil, mesajda birlikte bakarız.</p>',
+    "siparis-3": '<h1>Ne yazacağını bilemedin mi?</h1><p class="yumusak">Şöyle bir mesaj yeter:</p><div class="mesaj">Merhaba Pikora! Şunları istiyorum:\n• Bordo Güneş (kolye)\n• Gün Işığı (bandana)\nKedimin adı: Fıstık\nBoyun ölçüsü: 22 cm</div><p class="yumusak">Sitede ürünleri ipine dizersen bu mesaj kendiliğinden hazırlanır.</p>',
+    "siparis-4": '<h1>Fiyatlar</h1><div class="kutu satir"><h2>Kolye</h2><span class="hap">300 ₺</span></div><div class="kutu satir"><h2>Bandana</h2><span class="hap">390 ₺</span></div><p class="yumusak">Gönderimi mesajda konuşuruz.</p><div class="kutu hardal"><p>' + DESTEK + "</p></div>",
+
+    /* ---------- KADRO (kedi sesi) ---------- */
+    "kadro-1": '<h1>Kadro: beş kedi</h1><p class="yumusak">Pikora, beş sahiplenilmiş kedinin evinde doğdu. İp kontrolü onlardan sorulur.</p><div class="kadro"><div>' + k("bombay") + "Bombay</div><div>" + k("tekir") + "Tekir</div><div>" + k("sarman") + "Sarman</div><div>" + k("smokin") + "Smokin</div><div>" + k("smokin2") + "Smokin iki</div></div>",
+    "kadro-2": '<div class="balon">Bugünün ip kontrolü: Bombay.<br>Sonuç: onaylandı, iki kez yuvarlandı.</div>' + k("bombay", "kedi"),
+    "kadro-3": '<div class="balon">Yumak masadaydı. Artık değil.<br>Kim yaptı, bilmiyorum.</div>' + k("tekir", "kedi"),
+    "kadro-4": '<div class="balon">Saat sabahın üçü.<br>Örgü sepetinin içinde ne var, bakmam lazım.</div>' + k("sarman", "kedi"),
+    "kadro-5": '<div class="balon">Bu kutu sipariş kutusuymuş.<br>Bence benim kutum.</div>' + k("smokin", "kedi"),
+
+    /* ---------- PAY (insan sesi, sade) ---------- */
+    "pay-1": '<p class="buyuk">Pikora bir sosyal girişim.</p><div class="kutu vurgu"><p style="font-weight:700;font-size:50px;line-height:1.3">' + DESTEK + '</p></div><p class="yumusak">Senden ayrıca bağış istemiyoruz; pay, Pikora\'nın kendi satış gelirinden ayrılır.</p>',
+    "pay-2": '<h1 class="kucuk">Pay nasıl hesaplanır?</h1><div class="kutu"><h2>1 · Satış fiyatı</h2></div><div class="kutu"><h2>2 · − Ürün giderleri</h2><p class="yumusak">İp, parça, ambalaj, örücü ücreti ve gönderim.</p></div><div class="kutu vurgu"><h2>3 · × %10 = patilere ayrılan pay</h2></div><p class="yumusak">Küçük bir pay: satış azken pay da az olur. Olduğu gibi yazıyoruz.</p>',
+    "pay-3": '<h1 class="kucuk">Pay Notu nedir?</h1><div class="kutu"><p>Biriken payı mama olarak teslim ediyor, her teslimi Pay Notu\'nda kısaca yazıyoruz: ne kadar pay ayrıldı, ne teslim edildi. Belgeleri saklıyoruz.</p></div><div class="kutu hardal"><p>Henüz teslim yok; ilk teslim Pay Notu\'nda yazılacak.</p></div>',
+    "pay-4": '<h1 class="kucuk">Kim örüyor?</h1><div class="kutu"><h2>Bugün</h2><p>Her Pikora elde örülür. Kimin ördüğünü, ustalar izin verdikçe anlatacağız.</p></div><div class="kutu"><h2>Hedefimiz</h2><p>Evinden üreten ilmek ustası kadınlarla, emeğin karşılığını baştan konuşarak ve hesabını göstererek çalışmak.</p></div>',
+    "pay-5": '<h1 class="kucuk">Pay Notu</h1><div class="kutu form"><div>Ay<u></u></div><div>Ayrılan pay<u></u></div><div>Teslim edilen<u></u></div><div>Teslim yeri<u></u></div></div><p class="yumusak" style="font-size:32px">Şablon: boş alanları Instagram\'ın yazı aracıyla doldur. Teslim yapılmadan paylaşma.</p>',
+
+    /* ---------- SORULAR ---------- */
+    "sorular-1": soru("Ölçüyü nasıl bileceğim?", "Kedinin boynunu mezurayla, sıkmadan ölç ve kaç santim çıktığını yaz. Ölçüyü kedinin boynuna göre mesajda birlikte belirleriz."),
+    "sorular-2": soru("Ne zaman hazır olur?", "Her parça elde, ilmek ilmek örülür. Ne zaman hazır olacağını sipariş verirken baştan söyleriz."),
+    "sorular-3": soru("Kedim takınca nelere dikkat edeyim?", "Ürünler dekoratiftir. İlk günlerde gözetim altında tak; kedin rahatsız olursa çıkar.", "İp ve yumak oyunları yalnız gözetim altında: ip yutulursa tehlikeli olabilir."),
+    "sorular-4": soru("Görseldekiyle aynı mı gelir?", "Her ürün elde örülür; renk ve ölçü görselden biraz farklı olabilir. Fabrika değil: her parça biraz farklı çıkar.", "Profildeki görseller tasarım örneğidir. Gerçek fotoğraflar geldikçe değiştireceğiz."),
+    "sorular-5": '<h1>Aklına takılan bir ilmek var mı?</h1><p class="yumusak">Sor, cevaplayalım.</p><div class="bosluk">Soru çıkartmasını buraya koy</div>'
+  };
+
+  var q = new URLSearchParams(location.search);
+  if (q.has("liste")) { document.body.textContent = Object.keys(H).join(" "); return; }
+  var h = q.get("h") || "urunler-1", kat = h.split("-")[0];
+  if (kat === "pay") document.body.className = "sade";
+  document.body.innerHTML = '<div class="s" style="--k:' + KAT[kat][1] + '"><p class="etiket"><i></i>' + KAT[kat][0] + "</p>" + H[h] + '<div class="kunye">' + LOGO + "<span>" + IG + "</span></div></div>";
+})();
+</script>
+</body>
+</html>

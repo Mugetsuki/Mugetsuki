@@ -40,6 +40,21 @@ Beş kapak, 1080×1920. Instagram kapağı ortadaki daireden keser.
 ## 5. Hikâye (`5-hikaye/`)
 `hikaye-zemin.png`: boş zemin (1080×1920). Üst kısım boş; yazıyı Instagram'ın yazı aracıyla eklersin.
 
+## 6. Öne çıkanlara göre hikâyeler (`6-hikayeler/`, 1080×1920)
+Her klasör bir öne çıkan başlığı. Hikâyeyi paylaş, sonra "Öne çıkar" ile aynı adlı başlığa ekle. Üst ve alt kısımlar Instagram arayüzü için boş bırakıldı.
+
+| Öne çıkan | Hikâyeler |
+|---|---|
+| **Ürünler** | 1 yedi kolye · 2 yedi bandana · 3 beş aile · 4 Gece Hilali · 5 Pembe Bahar |
+| **Sipariş** | 1 üç ilmekte sipariş · 2 ölçü nasıl alınır · 3 örnek mesaj · 4 fiyatlar |
+| **Kadro** | 1 beş kedi · 2 Bombay'ın ip kontrolü · 3 Tekir ve yumak · 4 Sarman, sabahın üçü · 5 Smokin ve kutu |
+| **Pay** | 1 Pikora bir sosyal girişim · 2 pay nasıl hesaplanır · 3 Pay Notu nedir · 4 kim örüyor · 5 Pay Notu şablonu (boş, doldurulur) |
+| **Sorular** | 1 ölçü · 2 ne zaman hazır · 3 takınca nelere dikkat · 4 görseldekiyle aynı mı · 5 soru kutusu zemini |
+
+- Başka bir ürünün tek ürün hikâyesi için `kaynak/hikaye.html` içindeki `tek("ürün-id")` satırını çoğalt.
+- Kadro'da kedilerin adı yok, renkleriyle anılıyorlar (Bombay, Tekir, Sarman, Smokin). Adlar gelince `kaynak/hikaye.html`'de değişir.
+- Kadro hikâyeleri kedi sesiyle; Pay, fiyat ve güvenlik hikâyeleri insan sesiyle yazıldı (marka kitindeki ses tonu kuralı).
+
 ## Yazarken dikkat
 - Destek cümlesi her yerde aynı: "Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır." "Satışın %10'u", "bağış yapıyoruz", "hayat kurtar" denmez.
 - Gerçek teslim yapılmadan "teslim ettik / aktardık" yazılmaz.
