@@ -242,13 +242,15 @@ def kitap_b():
 # --------------------------------------------------------------------------------------
 # Soru kaynakları: 1. gün yaprağındaki soruların filmdeki dayanakları (soru-kaynaklari-gun1.md'den)
 # --------------------------------------------------------------------------------------
-def soru_kaynaklari():
+def kartli_sayfalar(dosya, ust_etiket, baslik, alt):
+    """`### SAYFA · ad` ile bölünmüş, `::: sınıf … :::` kartları içeren bir örneği .kb sayfalarına çevirir."""
     import markdown
-    md = (ROOT / "soru-kaynaklari-gun1.md").read_text(encoding="utf-8")
+    md = (ROOT / dosya).read_text(encoding="utf-8")
 
     def conv(text):
         text = re.sub(r"(?m)^((?![ \t]*(?:[-*]|\d+\.)[ \t]).+)\n([ \t]*(?:[-*]|\d+\.)[ \t])", r"\1\n\n\2", text)
-        return markdown.markdown(text, extensions=["tables", "md_in_html"])
+        html = markdown.markdown(text, extensions=["tables", "md_in_html"])
+        return html.replace("<table>", '<table class="akis">')
 
     def bloklar(text):
         parcalar = re.split(r"(?ms)^::: (\w+)\n(.*?)^:::\n", text)
@@ -261,11 +263,23 @@ def soru_kaynaklari():
     toplam = len(sayfalar) // 2
 
     def bant(no, ad):
-        return (f'<div class="bant"><table><tr><td><div class="label" style="color:var(--krem)">SORU KAYNAKLARI · 1. GÜN YAPRAĞI</div>'
-                f'<div class="t">The Truman Show</div><div class="s">Bu soru nereden çıktı? · Kamp sorusu: İyi bir hayat nedir?</div></td>'
+        return (f'<div class="bant"><table><tr><td><div class="label" style="color:var(--krem)">{ust_etiket}</div>'
+                f'<div class="t">{baslik}</div><div class="s">{alt}</div></td>'
                 f'<td style="text-align:right"><span class="pill sari">{no}/{toplam} · {ad}</span></td></tr></table></div>')
 
     return "".join(f'<section class="kb">{bant(i + 1, sayfalar[2 * i].strip())}{bloklar(sayfalar[2 * i + 1])}</section>' for i in range(toplam))
+
+
+# Soru kaynakları: 1. gün yaprağındaki soruların filmdeki dayanakları (soru-kaynaklari-gun1.md'den)
+def soru_kaynaklari():
+    return kartli_sayfalar("soru-kaynaklari-gun1.md", "SORU KAYNAKLARI · 1. GÜN YAPRAĞI", "The Truman Show",
+                           "Bu soru nereden çıktı? · Kamp sorusu: İyi bir hayat nedir?")
+
+
+# 1. gün, Felsefe Makinesi (Worley) yöntemiyle yeniden kurulmuş sorular (truman-worley-yontemiyle.md'den)
+def truman_worley():
+    return kartli_sayfalar("truman-worley-yontemiyle.md", "FELSEFE MAKİNESİ YÖNTEMİYLE · 1. GÜN", "The Truman Show",
+                           "Her sorunun yanında Worley aracı ve kitap sayfası · Günün sorusu: Bilmek nedir?")
 
 
 # --------------------------------------------------------------------------------------
@@ -350,6 +364,7 @@ URUNLER = {
     "dusunce-yolculugu-ornek": ("Düşünce yolculuğum · örnek", defter, 2),
     "moderator-gun1-ornek": ("Moderatör kitapçığı · 1. gün · örnek", kitap, 2),
     "soru-kaynaklari-gun1": ("Soru kaynakları · 1. gün · örnek", soru_kaynaklari, 4),
+    "truman-worley-yontemiyle": ("1. gün · Felsefe Makinesi yöntemiyle · örnek", truman_worley, 6),
     "moderator-B-gun1-ornek": ("Moderatör kitapçığı · 1. gün · B modeli, sade dil · örnek", kitap_b, 4),
     "defter-yaprak-baslangic-ornek": ("Düşünce yolculuğum · Başlangıç yaprağı · örnek", defter_baslangic, 2),
     "defter-yaprak-gun1-ornek": ("Düşünce yolculuğum · 1. gün yaprağı · örnek", defter_gun1, 1),
