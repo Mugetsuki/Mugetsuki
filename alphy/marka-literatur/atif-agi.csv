@@ -1,0 +1,69 @@
+kaynak_id,kaynak,kaynak_dil,kaynak_yil,atif_yapilan_id,atif_yapilan,atif_yapilan_dil,atif_yapilan_yil,dil_gecisi,tespit_yontemi
+W2498718107,"Keller, 2016",EN,2016,W2464835077,"Batra ve Keller, 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W2971385170,"Šerić vd., 2020",EN,2020,W2464835077,"Batra ve Keller, 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W2802794224,"Bilgin, 2018",EN,2018,W2298460427,"Chinomona, 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W2767752368,"Seo ve Park, 2018",EN,2018,W2464238462,"Godey vd., 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W2802794224,"Bilgin, 2018",EN,2018,W2464238462,"Godey vd., 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W2997875840,"Ebrahim, 2020",EN,2020,W2464238462,"Godey vd., 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W4200537022,"Hamşıoğlu ve Nalcı, 2021",TR,2021,W2464238462,"Godey vd., 2016",EN,2016,TR→EN,OpenAlex referenced_works
+W3157148010,"Tan ve Çolakoğlu, 2021",TR,2021,W2464238462,"Godey vd., 2016",EN,2016,TR→EN,OpenAlex referenced_works
+W4213344938,"Aydın, 2022",TR,2022,W2464238462,"Godey vd., 2016",EN,2016,TR→EN,OpenAlex referenced_works
+W4385452212,"Wei vd., 2023",EN,2023,W2464238462,"Godey vd., 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W4387377681,"Dilek ve Çatı, 2023",TR,2023,W2464238462,"Godey vd., 2016",EN,2016,TR→EN,OpenAlex referenced_works
+W4401746035,"Choubey ve Sharma, 2026",EN,2026,W2498718107,"Keller, 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W7163313815,"Mossarg ve Apaydın, 2026",EN,2026,W2498718107,"Keller, 2016",EN,2016,EN→EN,PDF kaynakça taraması
+W3012919489,"Öcel, 2020",TR,2020,W2133085133,"Schivinski ve Dabrowski, 2016",EN,2016,TR→EN,OpenAlex referenced_works
+W4385452212,"Wei vd., 2023",EN,2023,W2133085133,"Schivinski ve Dabrowski, 2016",EN,2016,EN→EN,OpenAlex referenced_works
+W2899351518,"Lou ve Yuan, 2019",EN,2019,W2748757111,"Evans vd., 2017",EN,2017,EN→EN,OpenAlex referenced_works
+W3113724837,"Erdoğan ve Mucan Özcan, 2020",TR,2020,W2748757111,"Evans vd., 2017",EN,2017,TR→EN,OpenAlex referenced_works
+W3130696862,"Baruönü, 2021",TR,2021,W2748757111,"Evans vd., 2017",EN,2017,TR→EN,OpenAlex referenced_works
+W3173514888,"Ünlükaya ve Tosun, 2021",TR,2021,W2748757111,"Evans vd., 2017",EN,2017,TR→EN,OpenAlex referenced_works
+W4283458545,"Ali ve Temizkan, 2022",TR,2022,W2748757111,"Evans vd., 2017",EN,2017,TR→EN,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W2748757111,"Evans vd., 2017",EN,2017,TR→EN,OpenAlex referenced_works
+W4387377681,"Dilek ve Çatı, 2023",TR,2023,W2778251241,"Kalyoncuoğlu, 2017",TR,2017,TR→TR,OpenAlex referenced_works
+W4393316646,"Şancı ve Özkan, 2024",TR,2024,W2778251241,"Kalyoncuoğlu, 2017",TR,2017,TR→TR,PDF kaynakça taraması
+W2997875840,"Ebrahim, 2020",EN,2020,W2802794224,"Bilgin, 2018",EN,2018,EN→EN,OpenAlex referenced_works
+W4200537022,"Hamşıoğlu ve Nalcı, 2021",TR,2021,W2802794224,"Bilgin, 2018",EN,2018,TR→EN,OpenAlex referenced_works
+W4297243286,"Karahan, 2022",TR,2022,W2802794224,"Bilgin, 2018",EN,2018,TR→EN,OpenAlex referenced_works
+W4385452212,"Wei vd., 2023",EN,2023,W2802794224,"Bilgin, 2018",EN,2018,EN→EN,OpenAlex referenced_works
+W4387377681,"Dilek ve Çatı, 2023",TR,2023,W2802794224,"Bilgin, 2018",EN,2018,TR→EN,OpenAlex referenced_works
+W2802794224,"Bilgin, 2018",EN,2018,W2767752368,"Seo ve Park, 2018",EN,2018,EN→EN,OpenAlex referenced_works
+W2997875840,"Ebrahim, 2020",EN,2020,W2767752368,"Seo ve Park, 2018",EN,2018,EN→EN,OpenAlex referenced_works
+W4200537022,"Hamşıoğlu ve Nalcı, 2021",TR,2021,W2767752368,"Seo ve Park, 2018",EN,2018,TR→EN,OpenAlex referenced_works
+W4385452212,"Wei vd., 2023",EN,2023,W2767752368,"Seo ve Park, 2018",EN,2018,EN→EN,OpenAlex referenced_works
+W4387377681,"Dilek ve Çatı, 2023",TR,2023,W2767752368,"Seo ve Park, 2018",EN,2018,TR→EN,OpenAlex referenced_works
+W4391140735,"Begtimur ve Alizade, 2024",TR,2024,W2767752368,"Seo ve Park, 2018",EN,2018,TR→EN,OpenAlex referenced_works
+W4213344938,"Aydın, 2022",TR,2022,W2997935453,"Avcı ve Yıldız, 2019",TR,2019,TR→TR,OpenAlex referenced_works
+W4297243286,"Karahan, 2022",TR,2022,W2997935453,"Avcı ve Yıldız, 2019",TR,2019,TR→TR,PDF kaynakça taraması
+W4381429640,"Sarıoğlu, 2023",TR,2023,W2997935453,"Avcı ve Yıldız, 2019",TR,2019,TR→TR,OpenAlex referenced_works
+W4393316646,"Şancı ve Özkan, 2024",TR,2024,W2913177016,"Bianchi vd., 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W4210649955,"Uğurhan ve Yaşar, 2021",TR,2021,W2899351518,"Lou ve Yuan, 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W3130696862,"Baruönü, 2021",TR,2021,W2899351518,"Lou ve Yuan, 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W4213344938,"Aydın, 2022",TR,2022,W2899351518,"Lou ve Yuan, 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W4283458545,"Ali ve Temizkan, 2022",TR,2022,W2899351518,"Lou ve Yuan, 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W2899351518,"Lou ve Yuan, 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W4210649955,"Uğurhan ve Yaşar, 2021",TR,2021,W2999336501,"Oyman ve Akıncı, 2019",TR,2019,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W2999336501,"Oyman ve Akıncı, 2019",TR,2019,TR→TR,OpenAlex referenced_works
+W2953499781,"Yıldız, 2019",TR,2019,W2898305899,"Ramesh vd., 2019",EN,2019,TR→EN,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W2953499781,"Yıldız, 2019",TR,2019,TR→TR,OpenAlex referenced_works
+W4382049719,"Özkan ve Yerezhep, 2023",TR,2023,W3013147138,"Aslan Çetin ve Öziç, 2020",TR,2020,TR→TR,PDF kaynakça taraması
+W4200537022,"Hamşıoğlu ve Nalcı, 2021",TR,2021,W2997875840,"Ebrahim, 2020",EN,2020,TR→EN,OpenAlex referenced_works
+W4385452212,"Wei vd., 2023",EN,2023,W2997875840,"Ebrahim, 2020",EN,2020,EN→EN,OpenAlex referenced_works
+W4382049719,"Özkan ve Yerezhep, 2023",TR,2023,W2997875840,"Ebrahim, 2020",EN,2020,TR→EN,OpenAlex referenced_works
+W4387377681,"Dilek ve Çatı, 2023",TR,2023,W2997875840,"Ebrahim, 2020",EN,2020,TR→EN,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W3113724837,"Erdoğan ve Mucan Özcan, 2020",TR,2020,TR→TR,OpenAlex referenced_works
+W4382049719,"Özkan ve Yerezhep, 2023",TR,2023,W3113724837,"Erdoğan ve Mucan Özcan, 2020",TR,2020,TR→TR,PDF kaynakça taraması
+W3013147138,"Aslan Çetin ve Öziç, 2020",TR,2020,W2913701832,"Sokolova ve Kefi, 2020",EN,2020,TR→EN,OpenAlex referenced_works
+W4210649955,"Uğurhan ve Yaşar, 2021",TR,2021,W2913701832,"Sokolova ve Kefi, 2020",EN,2020,TR→EN,OpenAlex referenced_works
+W4283458545,"Ali ve Temizkan, 2022",TR,2022,W2913701832,"Sokolova ve Kefi, 2020",EN,2020,TR→EN,PDF kaynakça taraması
+W4381429640,"Sarıoğlu, 2023",TR,2023,W3130696862,"Baruönü, 2021",TR,2021,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W4210649955,"Uğurhan ve Yaşar, 2021",TR,2021,TR→TR,OpenAlex referenced_works
+W7171834159,"Günay, 2026",TR,2026,W4210649955,"Uğurhan ve Yaşar, 2021",TR,2021,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W3128559334,"Özdemir vd., 2021",TR,2021,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W3173514888,"Ünlükaya ve Tosun, 2021",TR,2021,TR→TR,OpenAlex referenced_works
+W4390168557,"Orhan ve Akyol, 2023",TR,2023,W3173514888,"Ünlükaya ve Tosun, 2021",TR,2021,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W4283458545,"Ali ve Temizkan, 2022",TR,2022,TR→TR,OpenAlex referenced_works
+W4387377681,"Dilek ve Çatı, 2023",TR,2023,W4213344938,"Aydın, 2022",TR,2022,TR→TR,OpenAlex referenced_works
+W7171834159,"Günay, 2026",TR,2026,W4213344938,"Aydın, 2022",TR,2022,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W4282913043,"Başaran ve Yıldız, 2022",TR,2022,TR→TR,OpenAlex referenced_works
+W4381429640,"Sarıoğlu, 2023",TR,2023,W4297243286,"Karahan, 2022",TR,2022,TR→TR,OpenAlex referenced_works
