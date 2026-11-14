@@ -197,6 +197,49 @@ def kitap():
 
 
 # --------------------------------------------------------------------------------------
+# Moderatör kitapçığı: 1. gün, B modeli ve sade dil (moderator-B-gun1-ornek.md'den)
+# --------------------------------------------------------------------------------------
+def kitap_b():
+    import markdown
+    md = (ROOT / "moderator-B-gun1-ornek.md").read_text(encoding="utf-8")
+    md = re.sub(r"<!--.*?-->", "", md, flags=re.S)
+
+    def conv(text):
+        text = re.sub(r"(?m)^((?![ \t]*(?:[-*]|\d+\.)[ \t]).+)\n([ \t]*(?:[-*]|\d+\.)[ \t])", r"\1\n\n\2", text)
+        html = markdown.markdown(text, extensions=["tables"])
+        return html.replace("<table>", '<table class="akis">', 1)
+
+    def bloklar(text):
+        parcalar = re.split(r"(?ms)^::: durak\n(.*?)^:::\n", text)
+        out = []
+        for i, p in enumerate(parcalar):
+            out.append(f'<div class="durak">{conv(p)}</div>' if i % 2 else conv(p))
+        return "".join(out)
+
+    sayfalar = re.split(r"(?m)^### SAYFA · (.+)\n", md)[1:]
+    imdb = "https://www.imdb.com/title/tt0120382/"
+    toplam = len(sayfalar) // 2
+
+    def bant(no, ad):
+        return (f'<div class="bant"><table><tr><td><div class="label" style="color:var(--krem)">MODERATÖR KİTAPÇIĞI · 1. GÜN</div>'
+                f'<div class="t">The Truman Show</div><div class="s">Bilgi · Kamp sorusu: İyi bir hayat nedir?</div></td>'
+                f'<td style="text-align:right"><span class="pill sari">{no}/{toplam} · {ad}</span></td></tr></table></div>')
+
+    afis = (f'<div class="afis"><img src="../afis/gun1-truman.jpg" alt="The Truman Show afişi">'
+            f'<div class="k">Peter Weir, 1998, 103 dk<br><a href="{imdb}">imdb.com/title/tt0120382</a><br>Afiş: İngilizce Vikipedi</div></div>')
+    out = []
+    for i in range(toplam):
+        ad, govde = sayfalar[2 * i].strip(), sayfalar[2 * i + 1]
+        if "[[ÜST BLOK SONU]]" in govde:
+            ust, alt = govde.split("[[ÜST BLOK SONU]]", 1)
+            icerik = f'<table class="ust-blok"><tr><td>{conv(ust)}</td><td class="afis-hucre">{afis}</td></tr></table>{bloklar(alt)}'
+        else:
+            icerik = bloklar(govde)
+        out.append(f'<section class="kb">{bant(i + 1, ad.lower().capitalize() if False else ad)}{icerik}</section>')
+    return "".join(out)
+
+
+# --------------------------------------------------------------------------------------
 # Defter yaprakları (gün gün dağıtılan, ferah): Başlangıç ve 1. gün örneği
 # --------------------------------------------------------------------------------------
 def ust_serit(sag_etiket):
@@ -277,6 +320,7 @@ def defter_gun1():
 URUNLER = {
     "dusunce-yolculugu-ornek": ("Düşünce yolculuğum · örnek", defter, 2),
     "moderator-gun1-ornek": ("Moderatör kitapçığı · 1. gün · örnek", kitap, 2),
+    "moderator-B-gun1-ornek": ("Moderatör kitapçığı · 1. gün · B modeli, sade dil · örnek", kitap_b, 4),
     "defter-yaprak-baslangic-ornek": ("Düşünce yolculuğum · Başlangıç yaprağı · örnek", defter_baslangic, 2),
     "defter-yaprak-gun1-ornek": ("Düşünce yolculuğum · 1. gün yaprağı · örnek", defter_gun1, 1),
 }
@@ -291,7 +335,10 @@ def main():
         inceleme.mkdir(parents=True, exist_ok=True)
     HTML.mkdir(exist_ok=True)
     hata = False
+    secim = [a for a in sys.argv[1:] if not a.startswith("--") and (inceleme is None or a != str(inceleme))]
     for ad, (baslik, fn, beklenen) in URUNLER.items():
+        if secim and not any(x in ad for x in secim):
+            continue
         hp = HTML / f"{ad}.html"
         hp.write_text(doc(baslik, fn()), encoding="utf-8")
         pp = ROOT / f"{ad}.pdf"

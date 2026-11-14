@@ -127,3 +127,34 @@ table.olcek td.c { text-align: center; }
 .gun-bant .ilerleme i.on { background: var(--sari); }
 
 .yaprak.gun .alan { margin-top: 6.5mm; }
+
+/* ---------- Kitapçık, B modeli ve sade dil (örnek, 2026-11-14) ---------- */
+.kb { page: kitap; break-after: page; font-size: 11pt; line-height: 1.45; }
+.kb:last-child { break-after: auto; }
+.kb .bant { background: var(--koyu); color: var(--krem); border-radius: 5mm; padding: 4.5mm 6mm; margin-bottom: 5mm; }
+.kb .bant table { width: 100%; border-collapse: collapse; }
+.kb .bant td { border: 0; padding: 0; background: none; vertical-align: middle; }
+.kb .bant .t { font-family: "Literata"; font-weight: 600; font-size: 21pt; line-height: 1.1; }
+.kb .bant .s { font-size: 10.5pt; margin-top: 1mm; }
+.kb p { margin: 0 0 2.2mm; }
+.kb ul { margin: 0 0 3mm; padding-left: 5mm; }
+.kb li { margin-bottom: 1.1mm; }
+.kb li em { font-style: normal; background: var(--hl-soft); border-radius: 1mm; padding: 0 1mm; }
+.kb table.ust-blok { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+.kb table.ust-blok td { border: 0; background: none; padding: 0; vertical-align: top; }
+.kb table.ust-blok td.afis-hucre { width: 31mm; padding-left: 5mm; }
+.kb .afis img { width: 26mm; border-radius: 2mm; display: block; }
+.kb .afis .k { font-size: 7.5pt; color: var(--muted); margin-top: 1mm; line-height: 1.25; }
+.kb table.akis { width: 100%; border-collapse: collapse; margin: 1mm 0 4mm; font-size: 10pt; }
+.kb table.akis th, .kb table.akis td { border-bottom: 0.25mm solid var(--line); padding: 0.9mm 1.5mm; text-align: left; }
+.kb table.akis th { color: var(--muted); font-weight: 600; font-size: 9pt; }
+.kb .durak { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 3.5mm 5mm 2mm; margin: 0 0 3.5mm; break-inside: avoid; }
+.kb .durak h4 { font-family: "Literata"; font-weight: 600; font-size: 12.5pt; margin: 0 0 1.5mm; }
+.kb .durak p:last-child { margin-bottom: 1.2mm; }
+.kb .ara { font-family: "Literata"; font-weight: 600; font-size: 13pt; margin: 4mm 0 2mm; }
+.kb .soru-kutu { background: var(--sari); border-radius: 4mm; padding: 2.5mm 5mm; margin: 1mm 0 3mm; }
+.kb a { color: var(--ink); }
+.kb table.ikilem { width: calc(100% + 6mm); border-collapse: separate; border-spacing: 3mm 0; margin: 2mm -3mm 4mm; }
+.kb table.ikilem td { width: 50%; background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4mm 5mm; vertical-align: top; }
+.kb table.ikilem .harf { font-family: "Literata"; font-weight: 600; font-size: 26pt; line-height: 1; margin-bottom: 2mm; }
+.kb table.ikilem .ters { margin-top: 3mm; padding-top: 2.5mm; border-top: 0.3mm dashed var(--line-strong); font-size: 10pt; }
