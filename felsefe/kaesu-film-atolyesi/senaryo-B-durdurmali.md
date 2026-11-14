@@ -542,9 +542,10 @@ Tam modül: [moduller/gun3-mucize.md](moduller/gun3-mucize.md) · Toplam süre: 
 - **Dünden devralınan soru:** “‘Ben’ hep başkalarıyla birlikte oluşuyor. Başkaları benim iyi hayatımın neresinde?”
 - **Sınanan ilk cevap:** “İyi bir hayat, iyi biri olmaktır, sevilmektir.”
 - **Kavram:** İyilik.
-- **Günün kavram sorusu:** İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?
-- **Kamp sorusuna bağlanan soru:** Başkalarına nasıl davrandığım benim iyi hayatımın bir parçası mı?
-- **Neden bu film:** Film aynı olayları birkaç farklı kişinin gözünden anlatıyor ve herkesin görünmeyen bir derdi olduğunu gösteriyor. İyiliğin, haklılığın ve affetmenin çatıştığı anlar bol.
+- **Günün Açık Sorusu (tahtada tek başına):** **İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?** <span class="et">Açık Soru · s. 34</span>
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için iyi biri olmak gerekli mi, yeterli mi?
+- **Neden bu film:** Film aynı olayları birkaç kişinin gözünden anlatıyor ve herkesin görünmeyen bir derdi olduğunu gösteriyor. İyiliğin, haklılığın ve affetmenin çatıştığı anlar bol.
+- **Düğüm noktası:** 2. durak (Jack'in kavgası). İyi olmak bir bedel istediğinde “iyi insan” ile “iyi hayat” en çok ayrışıyor.
 
 ## Günün akışı
 
@@ -563,41 +564,69 @@ En uzun film bu gün. Jenerik atlanabilir.
 
 ## Açılış (15 dk)
 
-**Dünkü gün kartı (4 dk).** Bir öğrenci 2. gün kartını okur. Moderatör: “Dün ‘ben’ hep başkalarıyla birlikte oluşuyor dedik. Bugün başkalarına bakıyoruz: Onlara nasıl davrandığım benim iyi hayatımın bir parçası mı?”
+**Dünkü gün kartı (4 dk).** Bir çocuk 2. gün kartını okur. Bağla: “Dün ‘ben’ hep başkalarıyla birlikte oluşuyor dedik. Bugün başkalarına bakıyoruz.”
 
 **Hayattan sorular (5 dk).** Dün akşam seçilen 2–3 “Burada başka biri gibi davranıyorum” sorusu okunur. Biri 2. gün kartına yazılır.
 
-**Hassas içerik uyarısı (2 dk).** “Bugünkü filmde zorbalık var. Bir sahnede bir karakter çok kırıcı ve ağır bir şey söylüyor. Ayrıca bir evcil hayvanın ölümü var. Zorlanan olursa bana işaret etsin.”
+**Hassas içerik notu (2 dk).** “Bugünkü filmde zorbalık var. Bir sahnede bir çocuk çok kırıcı ve ağır bir şey söylüyor. Bir de ailenin köpeği ölüyor. Zorlanan olursa bana işaret etsin.”
 
-**İzleme görevi (4 dk).** **“Film birkaç kişinin gözünden anlatılıyor. Ekranda yeni bir isim çıkınca o kişinin derdi ne? O kişi kime iyi, kime haksız davranıyor?”**
+## İzleme görevi
+
+Tahtaya yaz, film boyunca orada kalsın: <span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span>
+
+**“Film boyunca tek bir soruyu aklınızda tutun: İyi biri olan herkesin hayatı iyi mi gidiyor? Film bitince ne düşüneceksiniz, bakalım.”**
 
 ## Film ve duraklar
 
-### Durak 1: Bay Browne'ın ilk dersinden sonraki ilk sahne geçişi (filmin ilk bölümü)
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
 
-**Süre:** 6 dk
+Üç durak aynı kavramı (iyilik) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
 
-“Bay Browne (Auggie'nin her ay tahtaya bir ilke yazan öğretmeni) şunu yazdı: ‘Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç.’ Haklı olmak ile nazik olmak ne zaman çatışır? Bir örnek ver.”
+### Durak 1 · yaklaşık 40–55. dk · Cadılar Bayramı
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Sahne:** Cadılar Bayramı'nda Auggie (yüz farklılığıyla doğmuş, okula ilk kez başlayan 10 yaşındaki çocuk) beklenmedik bir kostümle sınıfa giriyor. Jack (Auggie'nin okuldaki ilk yakın arkadaşı) onu tanımıyor ve Julian'ın (Auggie'ye zorbalık eden sınıf arkadaşı) grubunun yanında Auggie'yi arkasından kötülüyor. Auggie her şeyi duyuyor. Bu sahne bitince durdur ve önce tek cümle söyle: “Jack biraz önce çok kırıcı ve ağır bir şey söyledi. İnsanlar bazen bir grupta kabul görmek için gerçekte düşünmedikleri ağır şeyler söyler.”
 
-### Durak 2: Cadılar Bayramı sahnesinden sonra (yaklaşık ortası)
+**Koşul:** Kimse duymadığını sanıyor.
 
-**Süre:** 6 dk
+**Açık Soru:** “Jack, Auggie'nin duymadığını sandığı bir anda onu kötüledi. Bir insan yalnızca duyulduğunu bildiğinde iyi davranıyorsa, iyi biri midir?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-Önce tek cümle: “Jack biraz önce çok kırıcı ve ağır bir şey söyledi. İnsanlar bazen bir grupta kabul görmek için gerçekte düşünmedikleri ağır şeyler söyler.” “Jack (Auggie'nin okuldaki ilk yakın arkadaşı) bir grubun yanında arkadaşını kötüledi. Yalnızken söylemeyeceğimiz bir şeyi kalabalıkta söylüyorsak, hangisi gerçekten ‘biz’iz?”
+**Gizli Sorular:**
+- “Eğer Jack bunu yalnızken hiç söylemeyecek biriyse, hangisi gerçek Jack: yalnızken mi, kalabalıkta mı?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“Jack kötü biri.”* derse: “Senin düşüncene göre bir kez kötü davranan biri kötü biridir, öyle mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Tartışmada geri çağır:** 2. basamak (görünmezlik yüzüğü).
 
-### Durak 3: Müdür odasında Julian'ın ailesiyle yapılan görüşmeden sonra (son bölüm)
+### Durak 2 · yaklaşık 60–75. dk · Jack'in kavgası · düğüm noktası
 
-**Süre:** 6 dk
+**Sahne:** Jack hatasını anlıyor ve bilim fuarı için Julian yerine Auggie'yle çalışmayı seçiyor. Julian, Auggie'ye hakaret edince Jack ile Julian kavga ediyor. Julian arkadaşlığı bitiriyor, Jack okuldan iki günlük uzaklaştırma alıyor. Uzaklaştırma kararı verilince durdur.
 
-“Julian'ın (Auggie'ye zorbalık eden sınıf arkadaşı) annesi sınıf fotoğrafından Auggie'yi sildirmişti. Bir çocuğun yaptığından ailesi ne kadar sorumlu?”
+**Koşul:** İyi olmak bir bedel istiyor.
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Açık Soru:** “Jack, Auggie'nin yanında durdu ve bunun için bir grubu ve okulda iki gününü kaybetti. İyi olmak sana bir şey kaybettiriyorsa, iyi bir insan olmak iyi bir hayat yaşamak mıdır, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
 
-**Cadılar Bayramı cümlesi:** Jack, Auggie gibi görünseydi kendini öldüreceğini söyler. Atlanmaz, durakta yukarıdaki tek cümleyle ele alınır. Konu intihar üzerine açılmaz. Bir öğrenci açarsa kısa ve ciddi cevap verilir: “Bu çok önemli bir konu ve şaka değil. İstersen sonra seninle ayrıca konuşalım.” Oturumdan sonra o öğrenciyle konuşulur.
+**Gizli Sorular:**
+- “Eğer iyi davranmak sana hep bir şey kaybettirseydi, yine iyi davranır mıydın?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- “İki türlü de düşünelim. Eğer Jack kavga etmeden arkadaşını savunabilseydi? Ya da kavga tek yol olsaydı? Doğru bir sebep, yanlış bir yolu haklı çıkarır mı?” <span class="et">Ya… ya da… · s. 59–60</span>
+
+**Zaman kalırsa:** “Senin hayatında iyi davrandığın için bir şey kaybettiğin bir an oldu mu? Yine yapar mıydın?”
+
+**Tartışmada geri çağır:** 3. basamak (kamp sorusuna köprü).
+
+### Durak 3 · yaklaşık 90–100. dk · Müdürün odası
+
+**Sahne:** Müdür Tushman (okulun müdürü), Julian'ın ailesine nefret notlarını ve Auggie'nin silindiği sınıf fotoğrafını gösteriyor. Annesi Julian'ı savunuyor ve Julian uzaklaştırma alıyor. Çıkarken Julian, Müdür Tushman'dan özür diliyor ve affediliyor. Bu an bitince durdur.
+
+**Koşul:** Kötülük yapan özür diliyor.
+
+**Açık Soru:** “Julian aylarca Auggie'ye kötü davrandı, sonra özür diledi. Kötü şeyler yapmış bir insan yine de iyi biri olabilir mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer Julian'ın annesi onu böyle davranmaya alıştırdıysa, o zaman yaptıklarından Julian sorumlu mu?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Müdür onu affetti. Affetmek her zaman iyi midir? Affedilmemesi gereken bir şey bulabilir misin?” <span class="et">Yanlışlama · s. 51</span>
+
+**Tartışmada geri çağır:** 4. basamak (kırılan güven).
+
+*Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
 
 ## Ara (10 dk)
 
@@ -607,75 +636,73 @@ En uzun film bu gün. Jenerik atlanabilir.
 
 ## Tartışma (60 dk)
 
-### dk 0–5 · İlk tepki
+Hamleler cevap veren çocuğa değil, gruba sorulur: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
 
-“Film bana … hissettirdi.” Pas serbest.
+### dk 0–5 · His turu ve Kavrama Zamanı
+
+Önce bir dakika: “Tek kelimeyle, film sana ne hissettirdi?” Pas serbest. Sonra: “Filmi birlikte anlatalım. Film birkaç kişinin gözünden anlatılıyordu: Auggie, Via, Jack. Biri başlasın, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
 
 ### dk 5–12 · Soruların altındaki soru
 
-| Öğrencinin sorusu (film sorusu) | İnsan sorusuna çevrilmiş hali |
+Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Çocukların film sorularını insan sorusuna çevir:
+
+| Çocuğun sorusu (film sorusu) | İnsan sorusuna çevrilmiş hâli |
 |---|---|
 | “Jack neden Auggie'yi kötüledi?” | “Bir grubun içindeyken yaptığımız şeyden tek başımıza mı sorumluyuz?” |
 | “Julian (Auggie'ye zorbalık eden çocuk) neden öyleydi?” | “Bir insan kötü mü doğar, kötü mü olur?” |
-| “Via (Auggie'nin, ailesinin ilgisinin hep kardeşine gittiğini hisseden lise öğrencisi ablası) neden kırgındı?” | “Adil olmak herkese eşit ilgi göstermek mi?” |
-| “Summer (öğle yemeğinde Auggie'nin yanına kendiliğinden oturan kız) neden Auggie'nin yanına oturdu?” | “Birine acıdığımız için mi, onu sevdiğimiz için mi iyilik yaparız? Fark eder mi?” |
+| “Via (Auggie'nin, ailesinin ilgisinin hep kardeşine gittiğini hisseden ablası) neden kırgındı?” | “Adil olmak herkese eşit ilgi göstermek mi?” |
+| “Summer (öğle yemeğinde Auggie'nin yanına kendiliğinden oturan kız) neden Auggie'nin yanına oturdu?” | “Birine acıdığımız için mi, onu sevdiğimiz için mi iyilik yaparız?” |
 
-Moderatör: “Bu soruların hepsinin altında aynı şey var: İyi olmak ne demek? Ve iyi biri olmak, iyi bir hayat yaşamak mı demek?” Tahtaya: **İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?**
+Sonra demir at: “Bütün bunların altındaki soru ne?” Tahtaya tek başına yaz: **İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
 
 ### dk 12–42 · Soru merdiveni
 
-**Basamak 1: Filmden kavrama (yaklaşık 7 dk)**
+**1. basamak · Haklı mı, nazik mi? (yaklaşık 7 dk)** *Açık Soru:* “Bay Browne (Auggie'nin her ay tahtaya bir ilke yazan öğretmeni) şunu yazdı: ‘Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç.’ Bu her zaman doğru mu?” <span class="et">Açık Soru · s. 34</span>
 
-“Bay Browne (Auggie'nin öğretmeni) tahtaya şu ilkeyi yazdı: ‘Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç.’ Bu ilke her zaman doğru mu?”
+| Çocuk şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Evet, nazik olmak hep daha iyi.” | “Nazik olmanın yanlış olacağı tek bir durum bulabilir misin? Mesela bir doktor, nazik olmak için hastasından hastalığını saklamalı mı?” | <span class="et">Yanlışlama · s. 51</span> |
+| “Nazik olmak bazen yalan söylemek.” | “Senin düşüncene göre nazik olmak bazen gerçeği saklamak, öyle mi? Birinci günün sorusunu hatırlıyor musunuz: Gerçeği bilmek gerekli mi?” | <span class="et">Çıkarımları sınamak · s. 58</span> <span class="et">Bağlantı kurma · s. 38</span> |
+| “Duruma göre.” | “Hangi durumda? Nazik olmanın doğru olması için ne gerekli?” | <span class="et">Ne gerekli? Ne yeterli? · s. 51</span> |
+| “İkisi birden olunur.” | “O zaman ikisinin çatıştığı bir an düşünebiliyor musun? Yoksa hiç çatışmazlar mı?” | <span class="et">İkili karşıtlıkları çözmek · s. 56</span> |
 
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Evet, nazik olmak hep daha iyi.” | “Arkadaşın çok zayıf bir resim yapmış ve bir yarışmaya göndermek üzere. Nazik olup ‘Harika’ dersen kaybetmesine sebep olmaz mısın? Nazik olmak, yalan söylemek mi?” (Karşı örnek) |
-| “Hayır, doğruyu söylemek lazım.” | “Auggie'nin yüzünün farklı olduğu doğru. Ama bunu ona söylemek gerekli mi? Doğru olan her şey söylenmeli mi?” |
-| “Duruma göre.” | “Hangi durumda? Kuralını söyle: ne zaman nazik, ne zaman haklı?” |
-| “İkisi birden olunur.” | “Nasıl? Bir örnek ver. Yine de ikisinin çatıştığı bir an düşünebiliyor musun?” |
+**2. basamak · Görünmezlik yüzüğü (yaklaşık 8 dk)** *Geri çağır:* “Cadılar Bayramı'nı hatırlıyor musunuz? Jack duyulmadığını sanıyordu.” *Açık Soru:* “Eğer seni görünmez yapan bir yüzük bulsaydın ve kimse ne yaptığını görmeseydi, kimse seni övmeseydi ya da cezalandırmasaydı, yine iyi davranır mıydın?” <span class="et">Eğer durum böyle olsaydı · s. 52–53</span>
 
-**Basamak 2: Düşünce deneyi, görünmezlik yüzüğü (yaklaşık 8 dk)**
+| Çocuk şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Hayır, kimse görmezse fark etmez.” | “Senin düşüncene göre iyi davranmamızın tek sebebi görülmek, öyle mi?” | <span class="et">Çıkarımları sınamak · s. 58</span> |
+| “Ama yine de yakalanabilirim.” | “Yakalanmanın hiçbir şekilde mümkün olmadığını düşünelim.” | <span class="et">Sınır çizen soru · s. 55</span> |
+| “Evet, çünkü vicdanım rahatsız olur.” | “Peki vicdan nereden geliyor? Kimse görmese de içinde biri mi seni izliyor?” | <span class="et">Açma soruları · s. 36</span> |
+| “Belki biri görür.” | “Eğer gerçekten kimse görmüyorsa, o zaman?” | <span class="et">“Belki” problemi · s. 53</span> |
 
-“Seni görünmez yapan bir yüzük buldun. Kimse ne yaptığını görmeyecek. Kimse seni övmeyecek, kimse cezalandırmayacak. Yine de iyi davranır mısın? Neden?”
+**3. basamak · Kamp sorusuna köprü (yaklaşık 7 dk)** *Geri çağır:* “Jack'in kavgasını hatırlıyor musunuz?” *Açık Soru:* “İyi bir hayat için iyi biri olmak gerekli mi, yeterli mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
 
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Hayır, kimse görmüyorsa önemli değil.” | “O zaman iyi olmamızın tek nedeni görülmek mi? Jack, Auggie'nin duymadığını sandığında onu kötüledi. Gerçek Jack o muydu?” |
-| “Evet, çünkü vicdanım var.” | “Vicdan nereden geliyor? Seni kimse görmese de sen kendini görüyorsun, öyle mi?” |
-| “Biraz yaramazlık yaparım.” | “Nerede durursun? Neden orada?” (Sınır arama) |
-| “İyilik yapmak beni mutlu ediyor.” | “Kendini iyi hissetmek için iyilik yapmak hâlâ iyilik mi? Kimse teşekkür etmese de yapar mısın?” |
+| Çocuk şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Yeterli. İyi biri isen hayatın iyi olur.” | “Via (Auggie'nin ablası) yıllarca ailesinden ilgi istemedi, ‘iyi kız’ oldu, ama çok yalnızdı.” Gruba: “Bu iyi bir karşı örnek mi?” | <span class="et">Karşı örnek · s. 51</span> |
+| “Gerekli değil. Kötü insanlar da mutlu.” | “Eğer kötü biri çok mutluysa, o zaman iyi bir hayat mı yaşıyor? Birinci gün mutluluk hakkında ne demiştik?” | <span class="et">Eğer… o zaman · s. 27</span> <span class="et">Bağlantı kurma · s. 38</span> |
+| “Hem gerekli hem değil.” | “O zaman sence gerekli mi, yeterli mi? Yoksa başka bir şey mi?” | <span class="et">İkili karşıtlıkları çözmek · s. 56</span> |
+| Grup tek tarafta birleşirse | “Jack olsaydınız, kavgadan sonra iyi biri olmanın size ne kazandırdığını nasıl savunurdunuz?” | <span class="et">Farklı bakış açıları · s. 60–61</span> |
 
-**Basamak 3: Kamp sorusuna bağlantı (yaklaşık 7 dk)**
+**4. basamak · Kırılan güven (yaklaşık 8 dk)** *Geri çağır:* “Müdürün odasını hatırlıyor musunuz?” *Açık Soru:* “Eğer en yakın arkadaşın, sen yokken seni başkalarına kötüleseydi ve sonra içtenlikle özür dileseydi, onu affetmek zorunda olur muydun?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Eğer sanatı · s. 27</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
 
-“Via (Auggie'nin ablası) yıllarca ailesinden ilgi istemedi, ‘iyi kız’ oldu, ama çok yalnızdı. İyi biri olmak, iyi bir hayatı garanti eder mi?”
-
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Evet, iyilik geri döner.” | “Her zaman mı? Auggie iyi bir çocuktu, yine de zorbalığa uğradı. İyi olup da kötü şeyler yaşayan birini düşünebilir misin?” |
-| “Hayır, iyi insanlar da kaybeder.” | “O zaman neden iyi olalım? İyilik kendi başına mı değerli, yoksa getirdiği şey için mi?” |
-| “Önce kendine iyi davranmalısın.” | “Kendine iyi davranmak ile bencillik arasındaki sınır nerede? Via ne zaman kendini düşünmeliydi?” |
-| “Sevilmek yeter.” | “Julian'ı da annesi çok seviyordu. Sevilmek bizi iyi yapar mı?” |
-
-**Basamak 4: Düşünce deneyi, kırılan güven (yaklaşık 8 dk)**
-
-“Jack, Auggie'yi kötüledi, sonra içtenlikle özür diledi ve Auggie onu affetti. Biri özür dilediğinde onu affetmek zorunda mıyız? Affetmek bir iyilik mi, bir borç mu?”
-
-| Öğrenci şunu derse | Sen şunu sor |
-|---|---|
-| “Evet, özür dilediyse affetmeli.” | “Aynı şeyi üçüncü kez yaparsa? Affetmenin bir sınırı var mı?” |
-| “Hayır, güven bir kez kırıldı.” | “Sen hiç hata yapmadın mı? Senin hatanı hiç affetmeyen birine ne derdin?” |
-| “Affederim ama unutmam.” | “Affetmek ile unutmak arasındaki fark ne? Unutmadan gerçekten affedebilir miyiz?” |
-| “Özrün ne kadar içten olduğuna bağlı.” | “Bir özrün içten olduğunu nasıl anlarız?” (1. günle köprü: “Nasıl biliriz?”) |
+| Çocuk şunu derse | Gruba şunu sor | Araç |
+|---|---|---|
+| “Evet, affetmeliyim.” | “Senin düşüncene göre affetmek bir borç, öyle mi? Borçsa hâlâ iyilik mi?” | <span class="et">Çıkarımları sınamak · s. 58</span> |
+| “Hayır, güven bir kez kırılır.” | “Herkes bir hatada bitirilseydi, kimin arkadaşı kalırdı?” | <span class="et">Eğer durum böyle olsaydı · s. 52</span> |
+| “Ama özrün içten olduğunu bilemem.” | “İçten olduğunu kesin bildiğini düşünelim.” | <span class="et">Sınır çizen soru · s. 55</span> |
+| “Duruma göre.” | “Affetmek için ne gerekli? Özür yeter mi?” | <span class="et">Ne gerekli? Ne yeterli? · s. 51</span> |
 
 ### dk 42–50 · Kapanış ikilemi: kırılan güven (hareketli)
 
 “Ayağa kalkıyoruz. Bu soruyu ‘sen’ diye değil, ‘bir insan’ diye soruyorum. Bir insanın en yakın arkadaşı, o yokken onu başkalarına kötülemiş. Sonra içtenlikle özür diliyor.
 **A duvarı:** Arkadaşlığa eskisi gibi devam etmeli.
 **B duvarı:** Güveni bir kez kırılan bu arkadaşlığı bitirmeli.
-Seçin ve yürüyün.”
+Tarafınızı seçin. Ortada durmak serbest.” <span class="et">Ya… ya da… · s. 59</span>
 
-Ters köşe soruları:
+Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+
+Her taraftan 2–3 gerekçe al. Sonra iki tarafa da, onlara katılmayan birinin sesiyle ters köşe sorusu sor: <span class="et">Hayali muhalif · s. 50</span>
 - **A tarafına:** “Arkadaşı bu kez onu değil, küçük kardeşini herkesin önünde kötüledi. Yine de eskisi gibi devam eder mi?”
 - **B tarafına:** “O arkadaş daha önce onu üç kez korumuştu. Bir hata, üç iyiliği siler mi?”
 
@@ -683,17 +710,13 @@ Ters köşe soruları:
 
 ### dk 50–55 · Kamp sorusuna dönüş
 
-“Dün ‘kendin olmak’ı sınadık. Bugün ‘iyi biri olmak’ı sınadık. İyi bir hayat sorusuna bugün ne ekliyoruz?”
-
-Grubun varabileceği yerlere örnekler:
+“Dün ‘kendin olmak’ı sınadık. Bugün ‘iyi biri olmak’ı sınadık. İyi bir hayat sorusuna bugün ne ekliyoruz?” Grubun cümlesi ve açık kalan soru 3. gün kartına yazılır. Grubun varabileceği yerler (sen söylemezsin, yalnızca tanırsın):
 - “İyi bir hayat başkalarını da içerir. Onlara nasıl davrandığım benim hayatımın parçası.”
 - “İyi olmak iyi bir hayatı garanti etmez, ama iyi olmadan iyi bir hayat da eksik kalabilir.”
 
-Grubun cümlesi ve açık kalan soru 3. gün kartına yazılır.
+### dk 55–60 · Gün yaprağı
 
-### dk 55–60 · Defter: 3. gün
-
-“Kamp sorusuna bugünkü cevabınız: değişti mi? Bugün kafanızı en çok karıştıran soru.”
+“Kamp sorusuna bugünkü cevabınız: değişti mi? Değişmediyse ‘Değişmedi, çünkü …’ yazın. Altına bugün kafanızı en çok karıştıran soru.”
 
 ## Kapanış: gerilim ve köprü (3 dk)
 
@@ -701,29 +724,30 @@ Grubun cümlesi ve açık kalan soru 3. gün kartına yazılır.
 
 **Hayattan soru görevi:** “Yarın sabaha kadar kampta kimsenin görmediği bir anı yakala ve kendine sor: ‘Kimse görmeseydi yine böyle davranır mıydım?’”
 
-## Tartışma tek cevapla kapanırsa (3. gün)
+## Takılırsan (Gizli Sorular)
 
-| Durum | Hamle |
-|---|---|
-| Herkes “nazik ol” diyor | “Bir doktor hastasına nazik olmak için hastalığını saklamalı mı?” |
-| Herkes A'da (devam etmeli) | “Bir insan sana her hafta zarar verip her hafta özür dilese? İyilik, kendine zarar verilmesine izin vermek mi?” |
-| Herkes B'de (bitirmeli) | “Herkes bir hatada bitirilseydi, kimin arkadaşı kalırdı?” |
-| Herkes “Julian kötü” diyor | “Julian'ı kim öyle yaptı? Bir çocuğu kötü yapan şeyden o çocuk tek başına sorumlu mu?” |
-| Sessizlik | İkili konuşma (2 dk): “Yanındakine, kimse görmediğinde yaptığın iyi ya da kötü bir şeyi anlat. İstemiyorsan uydurma bir örnek de olur.” |
+| Durum | Hamle | Araç |
+|---|---|---|
+| Herkes “nazik ol” diyor | “Size katılmayan biri ne derdi? Bir arkadaşın çok zayıf bir resmi yarışmaya göndermek üzere. ‘Harika’ dersen kaybetmesine sebep olmaz mısın?” | <span class="et">Hayali muhalif · s. 50</span> |
+| Herkes A'da (devam etmeli) | “Bir insan sana her hafta zarar verip her hafta özür dilese? İyilik, kendine zarar verilmesine izin vermek mi?” | <span class="et">Karşı örnek · s. 51</span> |
+| Herkes B'de (bitirmeli) | “Kendi yaptığın bir hatayı düşün. Senin için de bitirilmesini ister miydin?” | <span class="et">Hayali muhalif · s. 50</span> |
+| Herkes “Julian kötü” diyor | “Evet ve… o zaman bir insan kötü mü doğar, kötü mü olur?” | <span class="et">Demir atmak · s. 48</span> |
+| Sessizlik | İki dakika ikili konuşma: “Kimse görmediğinde yaptığın iyi ya da kötü bir şeyi anlat. İstemiyorsan uydurma bir örnek de olur.” | <span class="et">Konuşma Zamanı · s. 34</span> |
 
 ## Hassas içerik
 
-- **Cadılar Bayramı cümlesi:** Duraklar bölümüne bakın. Atlanmaz, tek cümleyle ele alınır.
-- **Zorbalık:** Grupta zorbalık yaşamış ya da yapmış öğrenciler olabilir. İsim verilmesine izin vermeyin: “Burada kimsenin adını konuşmuyoruz, fikirleri konuşuyoruz.” Kampta süren bir zorbalık varsa aynı gün kamp sorumlusuna bildirin.
-- **Görünüş:** Biri Auggie'nin görünüşüyle dalga geçerse durdurun: “Bu grupta kimsenin görünüşüyle dalga geçmiyoruz. Bugünkü film tam olarak bunu konuşuyor.”
-- **Daisy (ailenin yaşlı köpeği) ölür:** Yakın zamanda evcil hayvanını kaybeden öğrenciye önceden söyleyin.
+- **Cadılar Bayramı cümlesi:** Jack, Auggie gibi görünseydi kendini öldüreceğini söylüyor. Atlanmaz, durakta tek cümleyle ele alınır. Bir çocuk bu konuyu açarsa kısa ve ciddi cevap ver: “Bu çok önemli bir konu ve şaka değil. İstersen sonra seninle ayrıca konuşalım.” Sonra o çocukla mutlaka konuş.
+- **Zorbalık:** İsim verilmesine izin verme: “Burada kimsenin adını konuşmuyoruz, fikirleri konuşuyoruz.” Kampta süren bir zorbalık fark edersen aynı gün kamp sorumlusuyla konuş.
+- **Görünüş:** Biri Auggie'nin görünüşüyle dalga geçerse durdur: “Bu grupta kimsenin görünüşüyle dalga geçmiyoruz. Bugünkü film tam olarak bunu konuşuyor.”
+- **Daisy'nin (ailenin yaşlı köpeği) ölümü:** Yakın zamanda evcil hayvanını kaybeden çocuğa önceden söyle.
 
 ## Moderatör için felsefe köşesi
 
+Felsefe en sonda, çocuklar felsefe yaptıktan sonra söylenir. <span class="et">s. 65</span>
 - **Platon, Gyges'in yüzüğü:** Platon *Devlet*'te görünmez yapan bir yüzük hikâyesiyle sorar: “İnsanlar yakalanmayacaklarını bilseler de adil davranır mı?”
-- **Aristoteles:** İyi insan, iyi davranışları alışkanlık haline getiren kişidir. İyi bir hayat (eudaimonia) de böyle bir karakterle yaşanan hayattır.
+- **Aristoteles:** İyi insan, iyi davranışları alışkanlık hâline getiren kişidir. İyi bir hayat (eudaimonia) da böyle bir karakterle yaşanan hayattır.
 
-Söylenebilecek tek cümle: “Görünmezlik yüzüğü sorusunu 2.400 yıl önce Platon da sormuş: Kimse görmese insanlar yine iyi davranır mı?”
+Söylenebilecek tek cümle: “Görünmezlik yüzüğü sorusunu yaklaşık 2.400 yıl önce Platon da sormuş: Kimse görmese insanlar yine iyi davranır mı?”
 
 ---
 
