@@ -23,6 +23,7 @@
   <nav class="ust-nav" aria-label="Sayfa içi">
     <a href="#urunler">Ürünler</a>
     <a href="#siparis">Nasıl sipariş verilir</a>
+    <a href="#pay">Pay</a>
   </nav>
   <button class="ip-dugme" id="ip-dugme" type="button" aria-haspopup="dialog">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 7 C7 13 17 13 22 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="7" cy="12.6" r="2.6" fill="currentColor"/><circle cx="12" cy="14" r="2.6" fill="currentColor"/><circle cx="17" cy="12.6" r="2.6" fill="currentColor"/></svg>
@@ -51,6 +52,7 @@
       </h1>
       <p class="slogan">İlmek ilmek, pati pati</p>
       <p class="giris-metin">Pikora, beş sahiplenilmiş kedinin evinde doğdu. Kolyeler ve bandanalar elde, ilmek ilmek örülür.</p>
+      <a class="pay-seridi" href="#pay"><b>Sosyal girişim</b><span>Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır.</span></a>
       <div class="giris-dugmeler">
         <a class="dugme" href="#urunler">Ürünlere bak</a>
         <a class="dugme dugme-ikincil" href="#siparis">Nasıl sipariş verilir?</a>
@@ -86,10 +88,33 @@
       <h2>Üç ilmekte sipariş</h2>
       <ol class="adimlar">
         <li class="gir"><span class="adim-no">1</span><h3>İpine diz</h3><p>Beğendiğin kolye ve bandanaları seç. Seçtiklerin sağ üstteki “İpim”de birikir.</p></li>
-        <li class="gir"><span class="adim-no">2</span><h3>Bize yaz</h3><p>Hazır mesajı WhatsApp ya da Instagram'dan gönder. Fiyatı, kedinin boyun ölçüsünü ve teslimi orada konuşuruz.</p></li>
+        <li class="gir"><span class="adim-no">2</span><h3>Bize yaz</h3><p>Hazır mesajı WhatsApp ya da Instagram'dan gönder. Kedinin boyun ölçüsünü ve teslimi orada konuşuruz.</p></li>
         <li class="gir"><span class="adim-no">3</span><h3>Sıranı örelim</h3><p>Her parça elde örülür. Ne zaman hazır olacağını baştan söyleriz.</p></li>
       </ol>
       <button class="dugme" type="button" data-ip-ac>İpimi aç</button>
+    </section>
+
+    <!-- ================= Pay (sosyal fayda) ================= -->
+    <section class="bolum bolum-pay" id="pay" data-ip>
+      <div class="pay-ust">
+        <div>
+          <p class="ust-yazi">03 · Sosyal girişim</p>
+          <h2>Patiler için ayrılan pay</h2>
+          <p class="bolum-metin">Pikora bir sosyal girişim: kazandığının bir kısmını, kuralı baştan belli olacak şekilde barınaktaki hayvanlara ayırır.</p>
+          <p class="pay-metin">Her Pikora'nın satışından önce ip, parça, ambalaj, örücü ücreti ve gönderim gibi ürün giderleri düşülür. Kalanın %10'unu barınaktaki hayvanlar için ayırıyoruz. Biriken payı mama olarak teslim ediyor, her teslimi Pay Notu'nda kısaca yazıyoruz.</p>
+        </div>
+        <ol class="pay-hesap" aria-label="Pay nasıl hesaplanır">
+          <li><span>1</span>Satış fiyatı</li>
+          <li><span>2</span>− Ürün giderleri</li>
+          <li class="pay-sonuc"><span>3</span>× %10 = patilere ayrılan pay</li>
+        </ol>
+      </div>
+      <div class="pay-kartlar">
+        <div class="pay-kart"><h3>Pay Notu</h3><p>Her teslimden sonra kısa bir not: ne kadar pay ayrıldı, ne teslim edildi. Belgeleri saklıyoruz.</p><p class="pay-durum">Henüz teslim yok; ilk teslim Pay Notu'nda yazılacak. Küçük bir pay: satış azken pay da az olur. Olduğu gibi yazıyoruz.</p></div>
+        <div class="pay-kart"><h3>Bugün</h3><p>Her Pikora elde örülür. Kimin ördüğünü, ustalar izin verdikçe burada anlatacağız.</p></div>
+        <div class="pay-kart"><h3>Hedefimiz</h3><p>Evinden üreten ilmek ustası kadınlarla, emeğin karşılığını baştan konuşarak ve hesabını göstererek çalışmak.</p></div>
+      </div>
+      <p class="kucuk">Senden ayrıca bağış istemiyoruz; pay, Pikora'nın kendi satış gelirinden ayrılır.</p>
     </section>
   </main>
 
@@ -97,6 +122,7 @@
     <div class="ip-son" id="ip-son" aria-hidden="true"></div>
     <h2>Bir ip, bir söz</h2>
     <p>Abartmadan söyleriz, olduğu gibi yazarız. Sorun, önerin, kedinin fotoğrafı: hepsine açığız.</p>
+    <a class="dugme dugme-ikincil" id="ig-bag" href="https://www.instagram.com/pikora.pati/" target="_blank" rel="noopener">Instagram: @pikora.pati</a>
     <p class="uyari">İp ve yumak oyunları yalnız gözetim altında: ip yutulursa tehlikeli olabilir. Ürünler dekoratiftir; kedin rahatsız olursa çıkar.</p>
     <p class="kucuk">Her ürün elde örülür; renk ve ölçü görselden biraz farklı olabilir. Görseller tasarım örneğidir. Bu site çerez kullanmaz, veri toplamaz; seçtiklerin yalnızca bu cihazda durur.</p>
     <p class="kucuk">Pikora · Baloo 2 ve Nunito: SIL Open Font License 1.1</p>
@@ -115,6 +141,7 @@
   <div class="panel-ip" id="panel-ip" aria-hidden="true"></div>
   <ul class="panel-liste" id="panel-liste"></ul>
   <p class="panel-bos" id="panel-bos">İpin şimdilik boş. Beğendiğin ürünün altındaki “İpime diz” düğmesine bas, burada birikir.</p>
+  <p class="panel-toplam" id="panel-toplam"></p>
   <form class="panel-form" id="panel-form">
     <label>Kedinin adı <span>(istersen)</span><input name="ad" type="text" autocomplete="off" maxlength="40"></label>
     <label>Boyun ölçüsü, cm <span>(biliyorsan)</span><input name="olcu" type="text" inputmode="decimal" autocomplete="off" maxlength="6"></label>
@@ -122,10 +149,12 @@
     <button class="dugme dugme-wa" type="button" id="wa-gonder">WhatsApp'tan sipariş ver</button>
     <button class="dugme dugme-ikincil" type="button" id="ig-gonder">Mesajı kopyala, Instagram'dan yaz</button>
     <p class="panel-durum" id="panel-durum" role="status"></p>
+    <p class="kucuk">Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır.</p>
   </form>
 </dialog>
 
 <script src="urunler.js"></script>
+<script src="cizim.js"></script>
 <script src="uygulama.js"></script>
 </body>
 </html>

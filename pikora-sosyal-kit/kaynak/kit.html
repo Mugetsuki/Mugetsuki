@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Pikora sosyal kit kaynağı</title>
+<!-- Kullanım: kit.html?t=<şablon>[&u=<ürün id>]. Pencere boyu = görsel boyu. uret.sh hepsini PNG'ye çevirir. -->
+<link rel="stylesheet" href="../../pikora-site/tokens.css">
+<style>
+  @font-face { font-family: "Baloo 2"; src: url("../../pikora-site/fonts/baloo-2-latin-ext-wght-normal.woff2") format("woff2-variations"); font-weight: 400 800; unicode-range: U+0100-02BA, U+1E00-1E9F, U+20A0-20C0; }
+  @font-face { font-family: "Baloo 2"; src: url("../../pikora-site/fonts/baloo-2-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 400 800; unicode-range: U+0000-00FF, U+0131, U+2000-206F; }
+  @font-face { font-family: "Nunito"; src: url("../../pikora-site/fonts/nunito-latin-ext-wght-normal.woff2") format("woff2-variations"); font-weight: 200 1000; unicode-range: U+0100-02BA, U+1E00-1E9F, U+20A0-20C0; }
+  @font-face { font-family: "Nunito"; src: url("../../pikora-site/fonts/nunito-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 200 1000; unicode-range: U+0000-00FF, U+0131, U+2000-206F; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 100vw; height: 100vh; overflow: hidden; }
+  body { background: var(--ip-krem); color: var(--renk-metin); font: 500 34px/1.45 "Nunito", sans-serif; }
+  .b { font-family: "Baloo 2", sans-serif; font-weight: 600; line-height: 1.1; letter-spacing: -.01em; }
+  svg { display: block; }
+  .tam { width: 100vw; height: 100vh; display: grid; place-items: center; }
+  .kunye { display: flex; align-items: center; justify-content: space-between; color: var(--renk-marka); font: 700 34px/1 "Baloo 2"; }
+  .kunye svg { height: 54px; width: auto; }
+
+  /* Ürün gönderisi 1080×1350 */
+  .urun { height: 100vh; padding: 56px 56px 44px; display: flex; flex-direction: column; }
+  .urun-gorsel { position: relative; width: 968px; height: 968px; border-radius: 56px; overflow: hidden; background: color-mix(in srgb, var(--aile) 30%, var(--ip-sut)); box-shadow: var(--golge-2); }
+  .urun-gorsel img, .urun-gorsel svg { width: 100%; height: 100%; object-fit: cover; }
+  .rozet { position: absolute; left: 28px; bottom: 28px; padding: 8px 22px; border-radius: 99px; background: var(--renk-etiket-zemin); color: var(--ip-sut); font: 700 24px/1.3 "Nunito"; }
+  .urun-alt { flex: 1; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px 24px; padding-top: 26px; }
+  .aile { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 24px; letter-spacing: .14em; text-transform: uppercase; color: var(--renk-metin-yumusak); }
+  .aile i { width: 20px; height: 20px; border-radius: 50%; background: var(--aile); box-shadow: 0 0 0 2px var(--renk-cizgi); }
+  .urun h1 { font-size: 84px; }
+  .fiyat { grid-row: 1 / 3; grid-column: 2; padding: 14px 34px; border-radius: 99px; background: var(--renk-marka); color: var(--ip-sut); font: 700 60px/1.1 "Baloo 2"; }
+  .urun .kunye { grid-column: 1 / 3; align-self: end; }
+
+  /* Metin gönderileri 1080×1350 */
+  .yazi { height: 100vh; padding: 96px 84px 64px; display: flex; flex-direction: column; gap: 34px; }
+  .yazi h1 { font-size: 112px; margin-bottom: 10px; }
+  .yazi .ust { font-weight: 800; font-size: 26px; letter-spacing: .16em; text-transform: uppercase; color: var(--renk-marka); }
+  .yazi .kunye { margin-top: auto; }
+  .adim { display: flex; gap: 34px; align-items: flex-start; padding: 32px 40px; border-radius: 44px; background: var(--ip-sut); box-shadow: var(--golge-1); }
+  .adim span { flex: none; display: grid; place-items: center; width: 84px; height: 84px; border-radius: var(--kose-ilmek); font: 800 44px/1 "Baloo 2"; }
+  .adim h2 { font: 600 58px/1.1 "Baloo 2"; margin-bottom: 8px; }
+  .adim p { color: var(--renk-metin-yumusak); font-size: 34px; line-height: 1.36; }
+  .buyuk { font: 700 82px/1.2 "Nunito"; }
+  .hesap { display: grid; gap: 18px; }
+  .hesap div { padding: 32px 40px; border-radius: 34px; background: var(--ip-krem); font: 600 56px/1.2 "Baloo 2"; }
+  .hesap .son { background: var(--renk-marka); color: var(--ip-sut); }
+  .boncuklar { display: flex; justify-content: space-between; }
+  .boncuklar svg { width: 104px; height: 104px; }
+  .tanis { text-align: center; align-items: center; justify-content: center; gap: 40px; }
+  .tanis .logo { width: 760px; }
+  .tanis .slogan { color: var(--renk-marka); font-size: 76px; }
+  .tanis p { max-width: 800px; font-size: 40px; color: var(--renk-metin-yumusak); }
+  .tanis .kunye { margin-top: 30px; }
+</style>
+</head>
+<body>
+<script src="../../pikora-site/urunler.js"></script>
+<script src="../../pikora-site/cizim.js"></script>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), t = q.get("t") || "avatar", C = window.PIKORA_CIZIM;
+  var U = window.PIKORA_URUNLER, A = window.PIKORA_AILELER, IG = "@" + window.PIKORA_AYAR.instagram;
+  var DESTEK = "Ürün giderleri düşülünce kalanın %10'u barınaktaki hayvanlara ayrılır.";
+  var LOGO = '<svg class="logo" viewBox="0 -8 650 178"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M30 140 V40 H62 A28 28 0 0 1 62 96 H30 M120 140 V40 M165 40 V140 M226 40 L172 92 L228 140 M380 140 V40 H412 A28 28 0 0 1 412 96 H380 M408 96 L442 140 M470 140 L507 40 L544 140 M484 104 H530" stroke="#8A2335" stroke-width="22"/><circle cx="300" cy="90" r="50" stroke="#F07A5E" stroke-width="22"/><path d="M266 66 C290 80 300 110 284 134 M290 42 C318 62 330 100 318 136 M254 98 C280 96 320 112 346 104" stroke="#E3A72F" stroke-width="9"/><path d="M544 140 C566 156 598 146 596 122 C594 100 566 104 570 124 C574 144 606 152 630 136" stroke="#E3A72F" stroke-width="9"/></g><path d="M120 26 C108 18 104 4 114 1 C118 0 120 3 120 5 C120 3 122 0 126 1 C136 4 132 18 120 26 Z" fill="#F07A5E"/></svg>';
+  var KUNYE = '<div class="kunye">' + LOGO + "<span>" + IG + "</span></div>";
+  // Yumak kedi (marka kitindeki A-avatar); renkler değişebilir
+  function kedi(govde, sargi, uc) {
+    return '<path d="M128 182 L138 58 L222 118 Z M384 182 L374 58 L290 118 Z" fill="' + govde + '" stroke="' + govde + '" stroke-width="18" stroke-linejoin="round"/><circle cx="256" cy="266" r="150" fill="' + govde + '"/>' +
+      '<path d="M152 196 C222 236 250 326 206 394 M236 124 C326 176 360 286 322 398 M116 296 C196 286 316 336 394 306" fill="none" stroke="' + sargi + '" stroke-width="20" stroke-linecap="round"/>' +
+      '<path d="M396 326 C446 356 476 406 446 456 C426 486 396 466 416 446" fill="none" stroke="' + uc + '" stroke-width="20" stroke-linecap="round"/>';
+  }
+  var KALP = '<path transform="translate(256 262) scale(15)" d="M0 12C-12 4-16-10-6-13C-2-14 0-11 0-9C0-11 2-14 6-13C16-10 12 4 0 12Z" fill="#F07A5E"/>';
+  var IKON = {
+    urunler: '<g transform="translate(96 96) scale(5)">' + C.motif({ motif: "cicek", yaprak: 6, renk: "#F4A5B8", gobek: "#E3A72F", yapraklar: ["#A6DCC9", "#A6DCC9"] }, 32, 32, 26) + "</g>",
+    siparis: '<path d="M96 150 a54 54 0 0 1 54-54 h212 a54 54 0 0 1 54 54 v130 a54 54 0 0 1-54 54 h-110 l-84 78 v-78 h-18 a54 54 0 0 1-54-54 Z" fill="#A6DCC9" stroke="#1E2A4F" stroke-width="16" stroke-linejoin="round"/><circle cx="190" cy="216" r="17" fill="#1E2A4F"/><circle cx="256" cy="216" r="17" fill="#1E2A4F"/><circle cx="322" cy="216" r="17" fill="#1E2A4F"/>',
+    kadro: '<g transform="translate(28 20) scale(.9)">' + kedi("#8A2335", "#F07A5E", "#E3A72F") + "</g>",
+    pay: KALP,
+    sorular: '<text x="256" y="372" text-anchor="middle" font-family="Baloo 2" font-weight="700" font-size="360" fill="#8A2335">?</text>'
+  };
+  var HALKA = { urunler: "#F4A5B8", siparis: "#A6DCC9", kadro: "#E3A72F", pay: "#F07A5E", sorular: "#BBA8DC" };
+  var h = "";
+
+  if (t === "avatar" || t === "avatar-ters") {
+    var ters = t === "avatar-ters";
+    document.body.style.background = ters ? "#8A2335" : "#F7EEDD";
+    h = '<div class="tam"><svg viewBox="0 0 512 512" style="width:84vmin;height:84vmin">' + (ters ? kedi("#F7EEDD", "#F07A5E", "#E3A72F") : kedi("#8A2335", "#F07A5E", "#E3A72F")) + "</svg></div>";
+  } else if (t.indexOf("kapak-") === 0) {
+    var k = t.slice(6);
+    h = '<div class="tam"><svg viewBox="0 0 1080 1080" style="width:100vw;height:100vw"><circle cx="540" cy="540" r="330" fill="#FFFAF2" stroke="' + HALKA[k] + '" stroke-width="26"/><circle cx="540" cy="540" r="368" fill="none" stroke="' + HALKA[k] + '" stroke-width="6" stroke-dasharray="2 22" stroke-linecap="round"/><svg x="290" y="290" width="500" height="500" viewBox="0 0 512 512">' + IKON[k] + "</svg></svg></div>";
+  } else if (t === "urun") {
+    var u = U.filter(function (x) { return x.id === q.get("u"); })[0], a = A[u.aile];
+    var g = u.gorsel ? '<img src="../../pikora-site/' + u.gorsel + '-960.webp" alt="">' : C.kolyeSVG(u.cizim);
+    h = '<div class="urun" style="--aile:' + a.renk + '"><div class="urun-gorsel">' + g + '<span class="rozet">' + (u.gorsel ? "tasarım görseli" : "tasarım çizimi") + "</span></div>" +
+      '<div class="urun-alt"><p class="aile"><i></i>' + a.ad + " ailesi · " + u.tur + '</p><h1 class="b">' + u.ad + '</h1><span class="fiyat">' + u.fiyat + " ₺</span>" + KUNYE + "</div></div>";
+  } else if (t === "tanisma") {
+    h = '<div class="yazi tanis">' + LOGO + '<p class="b slogan">İlmek ilmek, pati pati</p><p>Pikora, beş sahiplenilmiş kedinin evinde doğdu. Kolyeler ve bandanalar elde, ilmek ilmek örülür.</p>' +
+      '<div class="boncuklar" style="width:860px">' + U.filter(function (x, i) { return i % 2 === 0; }).map(C.boncukSVG).join("") + '</div><div class="kunye"><span>' + IG + "</span></div></div>";
+  } else if (t === "siparis") {
+    h = '<div class="yazi"><p class="ust">Nasıl sipariş verilir</p><h1 class="b">Üç ilmekte sipariş</h1>' +
+      '<div class="adim"><span style="background:#F07A5E">1</span><div><h2>Beğendiğini seç</h2><p>Yedi kolye, yedi bandana. Hepsi profildeki gönderilerde.</p></div></div>' +
+      '<div class="adim"><span style="background:#E3A72F">2</span><div><h2>Bize yaz</h2><p>Instagram ya da WhatsApp. Kedinin boyun ölçüsünü ve teslimi orada konuşuruz.</p></div></div>' +
+      '<div class="adim"><span style="background:#A6DCC9">3</span><div><h2>Sıranı örelim</h2><p>Her parça elde örülür. Ne zaman hazır olacağını baştan söyleriz.</p></div></div>' + KUNYE + "</div>";
+  } else if (t === "pay") { // insan sesi: sade, süssüz
+    document.body.style.background = "#FFFAF2";
+    h = '<div class="yazi"><p class="ust">Pikora bir sosyal girişim</p><p class="buyuk">' + DESTEK + '</p>' +
+      '<div class="hesap"><div>Satış fiyatı</div><div>− Ürün giderleri</div><div class="son">× %10 = patilere ayrılan pay</div></div>' +
+      '<p style="font-size:39px;color:var(--renk-metin-yumusak)">Biriken payı mama olarak teslim ediyor, her teslimi Pay Notu\'nda kısaca yazıyoruz. Senden ayrıca bağış istemiyoruz.</p>' + KUNYE + "</div>";
+  } else if (t === "hikaye-zemin") {
+    h = '<svg viewBox="0 0 1080 1920" style="width:100vw;height:100vh;position:absolute"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3A72F"/><stop offset=".35" stop-color="#F07A5E"/><stop offset=".7" stop-color="#BBA8DC"/><stop offset="1" stop-color="#8A2335"/></linearGradient></defs>' +
+      '<path d="M1140 300 C980 330 1010 520 1026 760 C1040 1010 1000 1210 1030 1420 C1050 1570 900 1650 640 1680" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="round"/>' +
+      '<g transform="translate(600 1680)"><circle r="42" fill="#F07A5E" stroke="#FFFAF2" stroke-width="6"/><path d="M-22-18C2-6 12 16 0 34M-4-34C22-18 30 10 22 34M-34 10C-10 6 18 18 36 10" fill="none" stroke="#E3A72F" stroke-width="8" stroke-linecap="round"/></g>' +
+      '<svg x="90" y="1630" width="330" height="100" viewBox="0 -8 650 178">' + LOGO.replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "") + "</svg></svg>";
+  }
+  document.body.insertAdjacentHTML("afterbegin", h);
+})();
+</script>
+</body>
+</html>
