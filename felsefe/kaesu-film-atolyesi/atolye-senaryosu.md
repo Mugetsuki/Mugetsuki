@@ -14,7 +14,8 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 **Bu atölye ne yapar, ne yapmaz?** Felsefe atölyesi ders vermez. Moderatör doğru cevabı söylemez, filmin “mesajını” da öğretmez. Bu sayfada “çocuğa bırakılan” diye yazdıklarımız birer mesaj değil, **açılan bir kapı ve kazanılan bir beceri**. Kapıdan girip girmemek, girince nereye varmak çocuğun işi. Ama becerinin kazanıldığını görebiliriz. Bunu aşağıda “A noktasından B noktasına” diye yazdık.
 
 **Bir günün şekli**
-- **Film, durdurularak izlenir.** Üç durakta film durur, bir sahnenin altında kalan şey sorulur: bir bakış, bir sessizlik, bir nesne, söylenmeyen bir şey.
+- **Sorular Peter Worley'nin *Felsefe Makinesi* yöntemiyle kuruldu.** Her gün tahtada tek bir Açık Soru durur, sorular “eğer” ile kurulur, moderatör fikrini söylemez, konuşma çocuktan çocuğa akar.
+- **Film, durdurularak izlenir.** Üç durakta film durur. Her durak günün kavramını yeni bir koşulla sınar, biri “düğüm noktası”dır.
 - **60 dakika tartışma.** Önce “soruların altındaki soru”: Çocukların film soruları bir insan sorusuna çevrilir. Sonra dört basamaklı bir soru merdiveni: filmden kavrama, oradan bir düşünce deneyine, oradan kamp sorusuna. Sonunda ayağa kalkılan bir ikilem: iki duvar, iki taraf, iki tarafa da zor bir soru.
 - **Defter.** Her çocuğun “Düşünce Yolculuğum” defterine o günün yaprağı eklenir. Sabah Başlangıç yaprağı, beşinci gün Varış yaprağı.
 
@@ -46,12 +47,12 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 
 **Sınanan ilk cevap:** “İyi bir hayat mutlu bir hayattır.”
 
-<p class="ana">Bilmek nedir? Hiç yanılmadığımız bir şey var mı?</p>
+<p class="ana">Bilmek nedir?</p>
 
 **Kilit sorular**
-- Truman (hayatı habersizce canlı yayınlanan film kahramanı) otuz yıl boyunca “Babam denizde boğuldu” diye biliyordu. Bu bilgi miydi?
-- Şu an rüya görmediğini nasıl kanıtlarsın?
-- Seni ömür boyu mutlu edecek ama gerçek olmayan bir makineye bağlanır mısın?
+- Düğüm noktası: Truman'ın (hayatı habersizce canlı yayınlanan film kahramanı) elinde arkadaşının sözünden başka kanıt yok. Birinin sözüne dayanarak bildiğimiz bir şey gerçekten bilgi midir, yoksa sadece bir güven mi?
+- Eğer şu an rüya görüyor olsaydın, bunu nasıl anlardın?
+- Eğer seni ömür boyu mutlu edecek ama gerçek olmayan bir makine olsaydı, bağlanır mıydın?
 
 <div class="kalan"><b>Çocuğa bırakılan.</b> <i>Kapı:</i> “Biliyorum” ile “inanıyorum” aynı şey olmayabilir, mutluluk da gerçeğe dayanmak isteyebilir. <i>Beceri:</i> “Bunu nereden biliyorum?” diye sorabilmek.</div>
 :::
@@ -68,9 +69,9 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 <p class="ana">“Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa?</p>
 
 **Kilit sorular**
-- Riley'nin (filmin 13 yaşındaki kahramanı) eski “Ben iyi bir insanım” inancı mı gerçek Riley'di, Kaygı'nın (zihnindeki yeni duygu) kurduğu “Ben yeterince iyi değilim” inancı mı?
-- Bloklardan bir evin her gün bir bloğunu değiştirsen, bir yıl sonra hâlâ aynı ev mi? On yıl önceki sen ile bugünkü sen aynı kişi misiniz?
-- Kaygı'yı kasaya kilitlersen bir daha hiç kaygılanmayacaksın, ama geleceğe hazırlanmanı sağlayan ses de susacak. Kilitler misin?
+- Düğüm noktası: Riley (filmin 13 yaşındaki kahramanı) yeni bir gruba girmek için başka biri gibi davranıyor. Bir insan başka biri gibi davrandığında kendini mi kaybediyor, büyüyor mu, yoksa başka bir şey mi oluyor?
+- Eğer bloklardan bir evin her gün bir bloğunu değiştirseydin, bir yıl sonra hâlâ aynı ev olur muydu? On yıl önceki sen ile bugünkü sen aynı kişi misiniz?
+- Eğer kendi kaygını kasaya kilitleyebilseydin, ama geleceğe hazırlanmanı sağlayan ses de sussaydı, kilitler miydin?
 
 <div class="kalan"><b>Çocuğa bırakılan.</b> <i>Kapı:</i> “Ben” sabit bir şey değil, biraz da kurduğum bir şey olabilir. <i>Beceri:</i> Bir duyguya “iyi mi, kötü mü?” yerine “Bana ne söylüyor?” diye bakabilmek.</div>
 :::
@@ -89,9 +90,9 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 <p class="ana">İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?</p>
 
 **Kilit sorular**
-- Bay Browne'un (Auggie'nin öğretmeni) ilkesi: “Haklı olmak ile nazik olmak arasında seçim yapman gerekirse nazik olanı seç.” Bu her zaman doğru mu?
-- Seni görünmez yapan bir yüzük bulsan, kimse seni övmese de cezalandırmasa da iyi davranır mısın?
-- Biri içtenlikle özür dilediğinde onu affetmek zorunda mıyız?
+- Düğüm noktası: Jack (Auggie'nin ilk yakın arkadaşı) arkadaşının yanında durdu ve bunun için bir grubu kaybetti. İyi olmak sana bir şey kaybettiriyorsa, iyi bir insan olmak iyi bir hayat yaşamak mıdır?
+- Eğer seni görünmez yapan bir yüzük bulsaydın ve yakalanmanın hiçbir yolu olmasaydı, yine iyi davranır mıydın?
+- Kötü şeyler yapmış bir insan yine de iyi biri olabilir mi?
 
 <div class="kalan"><b>Çocuğa bırakılan.</b> <i>Kapı:</i> Başkaları benim iyi hayatımın dışında değil, içinde. <i>Beceri:</i> Aynı olaya birden fazla kişinin gözünden bakabilmek.</div>
 :::
@@ -108,9 +109,9 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 <p class="ana">Adil olmak herkese aynı davranmak mı?</p>
 
 **Kilit sorular**
-- Judy'nin (şehre giden tavşan polis) ailesinin verdiği tilki kovucu sprey bir önyargı mı, makul bir önlem mi?
-- Bir şehrin kurallarını yazıyorsun, ama orada hangi hayvan olarak doğacağını bilmiyorsun. Hangi kuralları yazarsın?
-- Sayılara bakınca doğru görünen bir genelleme, karşındaki tek kişiye haksızlık edebilir. Kendini korumak mı, ona sıfırdan bakmak mı?
+- Düğüm noktası: Judy'nin (şehrin ilk tavşan polisi) kötü niyeti yoktu, ama sözleri bütün bir grubun korkuyla yargılanmasına yol açtı. Kötü niyeti olmayan biri de haksızlık yapabilir mi?
+- Eğer bir şehrin kurallarını yazsaydın, ama orada kim olarak doğacağını bilmeseydin, hangi kuralları yazardın?
+- Sayılara bakınca doğru görünen bir genelleme, karşındaki tek kişiye haksızlık edebilir. Kendini korumak mı, ona sıfırdan bakmak mı, yoksa başka bir yol mu?
 
 <div class="kalan"><b>Çocuğa bırakılan.</b> <i>Kapı:</i> İyi bir hayat yalnızca benim elimde değil, birlikte kurduğumuz düzene de bağlı. <i>Beceri:</i> Bir kuralı iki kez sınamak: “Herkes için aynı mı?” ve “Herkes için adil mi?”</div>
 :::
@@ -129,7 +130,7 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 <p class="ana">Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?</p>
 
 **Kilit sorular**
-- Joe (hayali caz piyanisti olmak olan müzik öğretmeni) yirmi yıllık hayaline ulaştı, sonra boşluk hissetti. Bir hedefe ulaşmak neden bazen mutlu etmez?
+- Düğüm noktası: Joe (hayali caz piyanisti olmak olan müzik öğretmeni) yirmi yıllık hayaline ulaştı ama aradığını bulamadı. Hayatı yaşamaya değer kılan amaca ulaşmak mı, yaşamanın kendisi mi, yoksa başka bir şey mi?
 - Okyanusu arayan genç balığa “Zaten içindesin” denir. Senin “sadece su” sandığın okyanus ne olabilir?
 - Beş Kapı (beş günün parçası odanın beş köşesinde): İyi bir hayat için hangisi olmazsa olmaz?
 
@@ -151,4 +152,4 @@ Beş gün boyunca tek bir soruyu düşünüyoruz. Her çocuğun ilk gün verebil
 - **Gerekçe benim sesim.** “Bence” demekle yetinmem, “çünkü” derim. İyi bir gerekçe duyarsam fikrimi değiştiririm, değiştirmezsem nedenini söylerim.
 :::
 
-**Yedek filmler.** Her yedek aynı durağa farklı yoldan varır ve soruları kopyalanmaz. Hazır: Vahşi Robot (2. gün) ve 12 Kızgın Adam (4. gün, “uyum” cevabını sınar). Sırada: Lego Filmi (1. gün), Küçük Prens (3. gün) ve WALL-E (5. gün).
+**Yedek filmler.** Her gün için bir yedek hazır. Her yedek aynı durağa farklı yoldan varır, soruları kopyalanmaz: Lego Filmi (1. gün, sorgusuz kabul), Vahşi Robot (2. gün, bana verilen), Küçük Prens (3. gün, sevmek ve sevilmek), 12 Kızgın Adam (4. gün, “uyum” cevabını sınar), WALL-E (5. gün, “rahat bir hayat” cevabını sınar).
