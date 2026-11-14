@@ -1,6 +1,6 @@
 # 3. gün · Mucize (Wonder) · Öteki
 
-Kaesu Akademi Film Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
+Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 Kampın omurgası: [../kamp-omurgasi.md](../kamp-omurgasi.md) · Önceki gün: [gun2-ters-yuz-2.md](gun2-ters-yuz-2.md) · Sonraki gün: [gun4-zootropolis.md](gun4-zootropolis.md)
 
 **Künye:** *Wonder* (Türkiye'deki adı *Mucize*), Stephen Chbosky, 2017, 113 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt2543472/

@@ -1,6 +1,6 @@
 # 4. gün · Zootropolis · Toplum
 
-Kaesu Akademi Film Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
+Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 Kampın omurgası: [../kamp-omurgasi.md](../kamp-omurgasi.md) · Önceki gün: [gun3-mucize.md](gun3-mucize.md) · Sonraki gün: [gun5-soul.md](gun5-soul.md)
 
 **Künye:** *Zootopia* (Türkiye'deki adı *Zootropolis: Hayvanlar Şehri*), Byron Howard ve Rich Moore, 2016, 108 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt2948356/

@@ -1,6 +1,6 @@
 # 1. gün · The Truman Show · Bilgi
 
-Kaesu Akademi Film Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
+Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 Kampın omurgası: [../kamp-omurgasi.md](../kamp-omurgasi.md) · Sonraki gün: [gun2-ters-yuz-2.md](gun2-ters-yuz-2.md)
 
 Bu modül iki model için de geçerli:

@@ -78,7 +78,7 @@ def gun_blok(n):
 
 def defter():
     s1 = f'''<section class="sheet">
-  <div class="label">KAESU FİLM ATÖLYESİ</div>
+  <div class="label">KAESU FELSEFE ATÖLYESİ</div>
   <div class="title" style="font-size:30pt;margin-top:1mm">Düşünce yolculuğum</div>
   <div class="kimlik">
     <div class="row"><span>Kamp adım:</span>{fill()}</div>
@@ -97,13 +97,13 @@ def defter():
   <div class="ipucu">Bilmiyorsan “bilmiyorum” yaz. Bu da bir cevap.</div>{lines(2)}
 </section>'''
     s2 = f'''<section class="sheet">
-  <div class="label">KAESU FİLM ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
+  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
   <div class="title" style="font-size:22pt;margin-top:1mm">Her günün sonunda</div>
   <p class="muted" style="margin-top:1mm">Beş dakika, sessiz. Kimse not vermeyecek. Kamp adım: {fill("55mm")}</p>
   {gun_blok(1)}{gun_blok(2)}{gun_blok(3)}
 </section>'''
     s3 = f'''<section class="sheet">
-  <div class="label">KAESU FİLM ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
+  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
   <div class="title" style="font-size:22pt;margin-top:1mm">Her günün sonunda</div>
   <p class="muted" style="margin-top:1mm">Beş dakika, sessiz. Kamp adım: {fill("55mm")}</p>
   {gun_blok(4)}{gun_blok(5)}
@@ -113,7 +113,7 @@ def defter():
   </div>
 </section>'''
     s4 = f'''<section class="sheet">
-  <div class="label">KAESU FİLM ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
+  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
   <div class="alan-baslik" style="margin-top:1mm"><div class="title" style="font-size:24pt">Varış</div><span class="pill turuncu">5. gün · son</span></div>
   <p style="margin-top:1.5mm">Önce ilk sayfayı aç ve ilk gün ne yazdığını oku. Sesli okumak yok.</p>
   <div class="soru-etiketi">1. Şimdi: Bence iyi bir hayat … çünkü …</div>{lines(2, "tight")}
@@ -196,7 +196,7 @@ def gozlem():
     r3 = "".join(f"<tr><td>{x}</td><td>{cent[: len(cent) // 2]}</td></tr>" for x in gost)
     gun = '<span class="gun-kutu">' + "".join(f"<i>{i}</i>" for i in range(1, 6)) + "</span>"
     on = f'''<section class="sheet">
-  <div class="form-bas"><div class="label">KAESU FİLM ATÖLYESİ · GÖZLEMCİ İÇİN</div><div class="title">Gözlem formu</div></div>
+  <div class="form-bas"><div class="label">KAESU FELSEFE ATÖLYESİ · GÖZLEMCİ İÇİN</div><div class="title">Gözlem formu</div></div>
   <div class="form-satir"><span>Gün:</span>{gun}<span style="margin-left:6mm">Model:</span>{cb()} B {cb()} C<span style="margin-left:6mm">Gözlemci:</span>{fill()}</div>
   <div class="form-satir"><span>Katılımcı sayısı:</span>{fill("18mm")}<span style="margin-left:6mm">Gözlenen dilim: dk</span>{fill("12mm")}<span>– dk</span>{fill("12mm")}</div>
   <div class="bolum">1. Gerekçe düzeyi · Soru merdiveninde her konuşmaya bir çentik</div>
@@ -244,8 +244,8 @@ def veli():
                "Çocuğumun <b>yüzünün görünmediği</b> fotoğrafları (arkadan, eller, defterler) kullanılabilir."]
     rows = "".join(f'<div class="izin"><div>{cb()}</div><div>{t}</div></div>' for t in izinler)
     return f'''<section class="sheet" style="font-size:11.5pt;line-height:1.42">
-  <div class="form-bas"><div class="label">KAESU FİLM ATÖLYESİ</div><div class="title">Veli onay formu</div></div>
-  <p>Kaesu Akademi Film Atölyesi'nde çocuğunuzun atölyeyle ilgili görüşleri ve kamp sırasındaki fotoğrafları, atölyeyi değerlendirmek ve tanıtmak için kullanılabilir. Lütfen izin verdiğiniz her madde için kutuyu <b>ayrı ayrı</b> işaretleyin. İşaretlemediğiniz maddeler için izin vermemiş sayılırsınız.</p>
+  <div class="form-bas"><div class="label">KAESU FELSEFE ATÖLYESİ</div><div class="title">Veli onay formu</div></div>
+  <p>Kaesu Akademi Felsefe Atölyesi'nde çocuğunuzun atölyeyle ilgili görüşleri ve kamp sırasındaki fotoğrafları, atölyeyi değerlendirmek ve tanıtmak için kullanılabilir. Lütfen izin verdiğiniz her madde için kutuyu <b>ayrı ayrı</b> işaretleyin. İşaretlemediğiniz maddeler için izin vermemiş sayılırsınız.</p>
   <div style="margin-top:7mm">
     <div class="form-satir"><span>Çocuğun adı soyadı:</span>{fill()}</div>
     <div class="form-satir"><span>Veli adı soyadı:</span>{fill()}</div>

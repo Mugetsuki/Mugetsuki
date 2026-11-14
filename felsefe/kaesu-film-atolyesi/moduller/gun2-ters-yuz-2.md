@@ -1,6 +1,6 @@
 # 2. gün · Ters Yüz 2 · Benlik
 
-Kaesu Akademi Film Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
+Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 Kampın omurgası: [../kamp-omurgasi.md](../kamp-omurgasi.md) · Önceki gün: [gun1-truman.md](gun1-truman.md) · Sonraki gün: [gun3-mucize.md](gun3-mucize.md)
 
 **Künye:** *Inside Out 2*, Kelsey Mann, 2024, 96 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt22022452/

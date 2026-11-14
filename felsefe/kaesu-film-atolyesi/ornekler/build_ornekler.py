@@ -50,7 +50,7 @@ def defter():
                    for k, t in IFADELER)
     on = f'''<section class="sheet">
   <div class="ust">
-    <div><div class="label">KAESU FİLM ATÖLYESİ</div><div class="title" style="font-size:30pt;margin-top:1mm">Düşünce yolculuğum</div></div>
+    <div><div class="label">KAESU FELSEFE ATÖLYESİ</div><div class="title" style="font-size:30pt;margin-top:1mm">Düşünce yolculuğum</div></div>
   </div>
   <div class="kimlik">
     <div class="row"><span>Kamp adım:</span><span class="fill" style="flex:1"></span></div>
@@ -82,7 +82,7 @@ def defter():
     <div class="keyif">Bugün atölye: <span class="n">hiç sevmedim</span> {dot()} {dot()} {dot()} {dot()} {dot()} <span class="n">çok sevdim</span></div>
   </div>'''
     arka = f'''<section class="sheet">
-  <div class="label">KAESU FİLM ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
+  <div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM</div>
   <div class="title" style="font-size:22pt;margin-top:1mm">Her günün sonunda</div>
   <p class="muted" style="margin-top:1mm">Beş dakika, sessiz. Kimse not vermeyecek. Kamp adım: <span class="fill" style="width:55mm"></span></p>
   {bloklar}
@@ -120,9 +120,86 @@ def kitap():
             f'<section class="kitap">{bant("ARKA YÜZ")}{conv(arka)}</section>')
 
 
+# --------------------------------------------------------------------------------------
+# Defter yaprakları (gün gün dağıtılan, ferah): Başlangıç ve 1. gün örneği
+# --------------------------------------------------------------------------------------
+def ust_serit(sag_etiket):
+    return (f'<div class="ust-serit"><div class="label">KAESU FELSEFE ATÖLYESİ · DÜŞÜNCE YOLCULUĞUM<br>'
+            f'<span style="letter-spacing:0;font-weight:400">filmlerle düşünmek · {sag_etiket}</span></div>'
+            f'<div class="ad"><span>Kamp adım:</span><span class="fill"></span></div></div>')
+
+
+def yaprak_baslangic():
+    on = f'''<section class="sheet yaprak">
+  {ust_serit("Başlangıç yaprağı")}
+  <div class="title" style="font-size:32pt;margin-top:8mm">Düşünce yolculuğum</div>
+  <div class="kimlik" style="margin-top:4mm;font-size:12pt">
+    <div class="row"><span>Yaşım:</span><span class="fill" style="width:18mm"></span><span style="margin-left:10mm">{cb()} Ortaokul</span><span style="margin-left:5mm">{cb()} Lise</span></div>
+  </div>
+  <div class="blok-sari" style="margin-top:5mm">
+    <div class="label" style="color:var(--koyu)">KAMP SORUSU</div>
+    <div class="title" style="font-size:36pt;margin-top:1mm">İyi bir hayat nedir?</div>
+  </div>
+  <div class="alan-baslik" style="margin-top:8mm"><div class="title" style="font-size:20pt">Başlangıç</div><span class="pill turuncu">1. gün · filmden önce</span></div>
+  <p style="margin-top:2mm">Daha hiçbir film izlemeden, şu an ne düşünüyorsun? Doğru cevap yok. Beşinci gün bu yaprağı yeniden okuyacaksın.</p>
+  <div class="alan"><div class="alan-etiket">Bence iyi bir hayat …</div>{lines(4, "genis")}</div>
+  <div class="alan"><div class="alan-etiket">… çünkü</div>{lines(4, "genis")}</div>
+  <div class="alt-not">Arka yüzde devam ediyor.</div>
+</section>'''
+    rows = "".join(f'<tr><td><b>{k}.</b> {t}</td>' + "".join(f'<td class="c">{dot()}</td>' for _ in range(5)) + "</tr>" for k, t in IFADELER)
+    arka = f'''<section class="sheet yaprak">
+  {ust_serit("Başlangıç yaprağı · arka yüz")}
+  <div class="alan" style="margin-top:9mm">
+    <div class="alan-etiket">Bu cümlelere ne kadar katılıyorsun?</div>
+    <div class="alan-ipucu">Her satırda bir yuvarlak işaretle. 1 = hiç katılmıyorum, 5 = tamamen katılıyorum.</div>
+    <div class="kart" style="margin-top:4mm;padding:4mm 6mm">
+      <table class="olcek"><tr><th style="width:56%"></th><th>1<br>hiç</th><th>2</th><th>3</th><th>4</th><th>5<br>tamamen</th></tr>{rows}</table>
+    </div>
+  </div>
+  <div class="alan" style="margin-top:12mm">
+    <div class="alan-etiket">Günlük hayatımda felsefe … karşıma çıkar.</div>
+    <div class="alan-ipucu">Bilmiyorsan “bilmiyorum” yaz. Bu da bir cevap.</div>{lines(4, "genis")}
+  </div>
+  <div class="alt-not">Bu yaprak senin yolculuğunun başlangıcı. Kamp boyunca her gün bir yaprak daha ekleyeceğiz.</div>
+</section>'''
+    return on + arka
+
+
+def yaprak_gun(n, film, kavram, hayattan_ipucu):
+    noktalar = "".join(f'<div class="sk">{dot()}{i}</div>' for i in range(1, 6))
+    return f'''<section class="sheet yaprak">
+  {ust_serit(f"{n}. gün yaprağı")}
+  <div class="alan-baslik" style="margin-top:8mm"><span class="pill sari" style="font-size:12pt">{n}. gün</span><div class="title" style="font-size:26pt">{film}</div></div>
+  <div class="soru-kutu">
+    <div class="label" style="color:var(--koyu)">BUGÜNÜN SORUSU</div>
+    <div class="title" style="font-size:18pt;margin-top:1mm">{kavram}</div>
+    <div style="margin-top:2mm;font-size:10.5pt">Kamp sorusu: İyi bir hayat nedir?</div>
+  </div>
+  <div class="alan"><div class="alan-etiket">Kamp sorusuna bugünkü cevabım</div>
+    <div class="alan-ipucu">“İyi bir hayat … çünkü …” Değişmediyse “Değişmedi, çünkü …” yaz. Bu da iyi bir cevap.</div>{lines(4, "genis")}</div>
+  <div class="alan"><div class="alan-etiket">Bugün kafamı en çok karıştıran soru</div>{lines(2, "genis")}</div>
+  <div class="alan"><div class="alan-etiket">Hayattan bir soru</div>
+    <div class="alan-ipucu">{hayattan_ipucu}</div>{lines(2, "genis")}</div>
+  <div class="alan"><div class="alan-etiket">Bugünkü atölye nasıldı?</div>
+    <div class="keyif-genis"><span class="ipucu">hiç sevmedim</span>{noktalar}<span class="ipucu">çok sevdim</span></div></div>
+  <div class="alt-not">Yaprağını moderatöre ver. Yarın sabah dosyana eklenmiş olarak geri gelecek.</div>
+</section>'''
+
+
+def defter_baslangic():
+    return yaprak_baslangic()
+
+
+def defter_gun1():
+    return yaprak_gun(1, "The Truman Show", "Bilmek nedir? Hiç yanılmadığımız bir şey var mı?",
+                      "Kampta “Bundan gerçekten emin miyim?” dediğin bir an. Yarın sabaha kadar yakalayıp buraya yaz.")
+
+
 URUNLER = {
     "dusunce-yolculugu-ornek": ("Düşünce yolculuğum · örnek", defter, 2),
     "moderator-gun1-ornek": ("Moderatör kitapçığı · 1. gün · örnek", kitap, 2),
+    "defter-yaprak-baslangic-ornek": ("Düşünce yolculuğum · Başlangıç yaprağı · örnek", defter_baslangic, 2),
+    "defter-yaprak-gun1-ornek": ("Düşünce yolculuğum · 1. gün yaprağı · örnek", defter_gun1, 1),
 }
 
 

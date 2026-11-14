@@ -1,4 +1,4 @@
-# Kaesu Film Atölyesi · Görsel Kit
+# Kaesu Felsefe Atölyesi · Görsel Kit
 
 Bu klasörde 5 günlük kampın bütün basılı malzemesi var: günlük afişler, not kartları, ikilem tabelaları, kamp afişleri ve formlar.
 
@@ -46,6 +46,8 @@ Bu dört ürün Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı
 | `pdf/moderator-kitapcigi.pdf` | Altın kurallar, kamp omurgası ve her gün için ön-arka yaprak. Her günün ön yüzünde filmin küçük afişi ve IMDb bağlantısı var | A4 dikey, 12 sayfa | **Çift yüz**: 1–2. sayfa bir yaprak, sonra her gün bir yaprak | 1 takım (+1 yedek) |
 | `pdf/form-gozlem.pdf` | 1. sayfa gözlem formu, 2. sayfa rubrik | A4 dikey, 2 sayfa | **Çift yüz** | Her gün 1 (5 adet) |
 | `pdf/form-veli-onay.pdf` | Veli onay formu: rapor, alıntı ve fotoğraf için ayrı ayrı izin kutuları | A4 dikey, 1 sayfa | Tek yüz | Kamptan önce, öğrenci sayısı kadar |
+
+**Defter değişiyor:** Genel Müdür dört sayfalık defteri sıkışık buldu. Yerine gün gün dağıtılan ferah yapraklar geliyor. Başlangıç ve 1. gün yaprağı onay için `../ornekler/` klasöründe (bkz. `../ornekler/DEFTER-YAPRAKLARI.md`). Onaydan sonra `defter-dusunce-yolculugum.pdf` yaprak setiyle değiştirilecek.
 
 **Kaldırılan eski formlar:** iki ayrı anket, çıkış kartı, Felsefe Her Yerde kartı ve kartpostal. Hepsi deftere katıldı (bkz. [../olcme-degerlendirme.md](../olcme-degerlendirme.md)).
 

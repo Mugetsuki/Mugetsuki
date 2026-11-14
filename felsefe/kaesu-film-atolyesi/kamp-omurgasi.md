@@ -1,6 +1,6 @@
 # Kamp omurgası: “İyi bir hayat nedir?”
 
-Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş
+Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · **Durum: Genel Müdür tarafından onaylandı**
 
 Bu belge kampın kalbidir. Günlük modüller [moduller/](moduller/) klasöründe. Senaryolar, moderatör kitapçığı ve ölçme belgesi bu omurgaya göre yazıldı. Onaya sunulan ilk örnekler [ornekler/](ornekler/) klasöründe duruyor:

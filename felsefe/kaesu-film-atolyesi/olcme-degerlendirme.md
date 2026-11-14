@@ -1,6 +1,6 @@
 # Ölçme ve değerlendirme
 
-Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş
+Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-12 · Defter temelli sürüm: 2026-11-14
 İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md)** · [moduller/](moduller/) · [moderator-kagidi.md](moderator-kagidi.md) · [senaryo-C-gorevli-izleme.md](senaryo-C-gorevli-izleme.md) · [senaryo-B-durdurmali.md](senaryo-B-durdurmali.md)
 
@@ -276,7 +276,7 @@ Basılı hâli: `gorseller/pdf/form-veli-onay.pdf`
 
 *Genel Müdür'ün doldurup kurumla paylaşacağı 1–2 sayfalık rapor. Köşeli parantez içindeki yerler doldurulacak.*
 
-> # Kaesu Akademi Film Atölyesi · Kamp sonu raporu
+> # Kaesu Akademi Felsefe Atölyesi · Kamp sonu raporu
 >
 > **Kamp:** [tarih aralığı] · [yer]
 > **Katılımcı:** [sayı] öğrenci · Ortaokul [sayı], lise [sayı] · Yaş aralığı [__–__]

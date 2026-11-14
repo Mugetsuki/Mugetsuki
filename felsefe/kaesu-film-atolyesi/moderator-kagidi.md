@@ -1,6 +1,6 @@
 # Moderatör kitapçığı
 
-Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş
+Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 
 **Bu dosya nedir?** Kampta elinizde duracak kitapçığın kaynağı.

@@ -1,4 +1,4 @@
-# Kaesu Akademi Film Atölyesi: 5 Günlük Ortaokul–Lise Kampı
+# Kaesu Akademi Felsefe Atölyesi: 5 Günlük Ortaokul–Lise Kampı
 
 Hazırlayan: Felsefe Departmanı (desk-8) · İlk sürüm: 2026-11-11 · Revizyon: 2026-11-11
 Hedef grup: 11–17 yaş, karışık ortaokul–lise · Kamp: 5 gün, her gün bir film baştan sona, ardından yaklaşık 60 dakika tartışma

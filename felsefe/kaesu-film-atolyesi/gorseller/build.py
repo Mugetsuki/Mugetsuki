@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Kaesu Film Atölyesi görsel kitini üretir.
+"""Kaesu Felsefe Atölyesi görsel kitini üretir.
 
 Ne yapar:
   1. html/  klasörüne her ürün için bir HTML kaynağı yazar (stil: ../kit.css).
@@ -274,7 +274,7 @@ def soru_pt(q):
 def poster(d):
     return f'''<section class="sheet poster {d["t"]}">
   <div class="band">{motif(d["key"])}
-    <div class="scrim badge"><div class="kicker">KAESU FİLM ATÖLYESİ</div><div class="day">{d["n"]}. GÜN</div></div>
+    <div class="scrim badge"><div class="kicker">KAESU FELSEFE ATÖLYESİ</div><div class="day">{d["n"]}. GÜN</div></div>
   </div>
   <div class="body">
     <div class="film">{d["film"]}</div>
@@ -283,7 +283,7 @@ def poster(d):
     <div class="label">GÜNÜN ANA SORUSU</div>
     <div class="soru" style="font-size:{soru_pt(d["soru"])}pt">{d["soru"]}</div>
   </div>
-  <div class="footer">{STRIPE}Kaesu Akademi · Film Atölyesi · 5 günlük kamp</div>
+  <div class="footer">{STRIPE}Kaesu Akademi · Felsefe Atölyesi · filmlerle düşünmek · 5 günlük kamp</div>
 </section>'''
 
 
@@ -323,7 +323,7 @@ def legend():
 def wall_pages():
     soru = f'''<section class="sheet land t-camp"><div style="position:absolute;left:14mm;right:14mm;top:12mm">
   {STRIPE}
-  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FİLM ATÖLYESİ</div>
+  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FELSEFE ATÖLYESİ</div>
   <div class="camp-title" style="font-size:104pt;margin-top:3mm">SORU DUVARI</div>
   <p style="font-size:21pt;font-weight:700;margin-top:6mm;line-height:1.25">Her günün seçilen sorusu burada birikir. Altına, kapanış ikileminde çoğunluğun hangi duvarı seçtiğini yazarız.</p>
 </div>
@@ -331,7 +331,7 @@ def wall_pages():
     alanlar = "".join(f'<span class="pill">{a}</span>' for a in ["Yemekte", "Oyunda", "Odada", "Bir konuşmada", "Kurallarda", "Arkadaşlıkta"])
     hayat = f'''<section class="sheet land t-camp"><div style="position:absolute;left:14mm;right:14mm;top:12mm">
   {STRIPE}
-  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FİLM ATÖLYESİ · FELSEFE HER YERDE</div>
+  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FELSEFE ATÖLYESİ · FELSEFE HER YERDE</div>
   <div class="camp-title" style="font-size:92pt;margin-top:3mm">HAYATTAN SORULAR</div>
   <p style="font-size:21pt;font-weight:700;margin-top:6mm;line-height:1.25">Filmlerin dışında, kamp hayatında yakaladığımız felsefi sorular. Kartını buraya as.</p>
   <div style="margin-top:9mm">{alanlar}</div>
@@ -365,17 +365,17 @@ def rules_pages():
     rows = "".join(f'<div class="rule-row"><div class="num">{i}</div><div><div class="t">{t}</div><div class="s">{s}</div></div></div>'
                    for i, (t, s) in enumerate(rules, 1))
     p1 = f'''<section class="sheet t-camp"><div style="position:absolute;left:14mm;right:14mm;top:14mm">{STRIPE}
-  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FİLM ATÖLYESİ</div>
+  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FELSEFE ATÖLYESİ</div>
   <div class="camp-title" style="font-size:50pt;margin-top:3mm;margin-bottom:14mm">Topluluk<br>Kurallarımız</div>
   {rows}</div><div class="footer">{STRIPE}Burada birini yenmeye değil, birlikte daha iyi düşünmeye çalışıyoruz.</div></section>'''
     bubbles = "".join(f'<div class="bubble">{b}</div>' for b in
                       ["Katılıyorum, çünkü…", "Katılmıyorum, çünkü…", "…’nın söylediğine eklemek istiyorum…", "Fikrimi değiştirdim, çünkü…", "Bir örnek vereyim…"])
     p2 = f'''<section class="sheet t-camp"><div style="position:absolute;left:14mm;right:14mm;top:14mm">{STRIPE}
-  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FİLM ATÖLYESİ</div>
+  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FELSEFE ATÖLYESİ</div>
   <div class="camp-title" style="font-size:50pt;margin-top:3mm;margin-bottom:12mm">Konuşma<br>Kalıpları</div>
   {bubbles}</div><div class="footer">{STRIPE}</div></section>'''
     p3 = f'''<section class="sheet t-camp"><div style="position:absolute;left:14mm;right:14mm;top:14mm">{STRIPE}
-  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FİLM ATÖLYESİ</div>
+  <div class="kicker" style="margin-top:9mm;color:var(--camp-dark)">KAESU FELSEFE ATÖLYESİ</div>
   <div class="camp-title" style="font-size:50pt;margin-top:3mm;margin-bottom:12mm">Felsefi soru<br>nedir?</div>
   <p class="serif" style="font-size:38pt;font-weight:800;line-height:1.12">Cevabı filmde olmayan, akıllı insanların bile farklı cevaplar verebileceği soru.</p>
   <p style="font-size:24pt;font-weight:700;margin-top:14mm">Genelde şöyle başlar:</p>

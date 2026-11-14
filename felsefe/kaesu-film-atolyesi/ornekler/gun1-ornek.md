@@ -1,6 +1,6 @@
 # Örnek modül: 1. gün · The Truman Show
 
-Kaesu Akademi Film Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
+Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 **Durum: onay bekleyen örnek.** Kampın omurgası: [../kamp-omurgasi.md](../kamp-omurgasi.md). Onaydan sonra 2–5. günler bu derinlikte yazılacak, senaryolar ve moderatör kitapçığı buna göre güncellenecek.
 
 Bu modül iki model için de geçerli:

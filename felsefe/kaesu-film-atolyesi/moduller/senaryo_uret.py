@@ -73,7 +73,7 @@ Film her gün önceden belirlenmiş **2 ya da 3 noktada** durdurulur. Her durakt
     ),
 }
 
-GIRIS = """Kaesu Akademi Film Atölyesi · 5 günlük kamp · 11–17 yaş, karışık grup
+GIRIS = """Kaesu Akademi Felsefe Atölyesi · 5 günlük kamp · 11–17 yaş, karışık grup
 Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14 · Bu dosya `moduller/senaryo_uret.py` ile günlük modüllerden üretilir, elle düzenlenmez.
 İlgili dosyalar: **[kamp-omurgasi.md](kamp-omurgasi.md) (kampın kalbi)** · [moduller/](moduller/) (günlük modüller) · [{diger}]({diger}) (diğer senaryo) · [moderator-kagidi.md](moderator-kagidi.md) (moderatör kitapçığı) · [olcme-degerlendirme.md](olcme-degerlendirme.md) (defter ve ölçme)
 

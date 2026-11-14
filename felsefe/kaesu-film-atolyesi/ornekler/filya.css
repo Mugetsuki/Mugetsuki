@@ -1,4 +1,4 @@
-/* Kaesu Film Atölyesi · Filya renkleriyle form ve kitapçık örnekleri
+/* Kaesu Felsefe Atölyesi · Filya renkleriyle form ve kitapçık örnekleri
    Renkler ve kurallar: ../filya-marka/project/README.md ve tokens.json. Logo kullanılmaz.
    - Zemin krem, metin koyu. Sarı yalnızca dolgu, turuncu sayfa başına tek vurgu (dolgu).
    - Sarı ya da turuncu metin yok. Başlıklarda yalnızca ilk kelimenin baş harfi büyük. */
@@ -92,3 +92,22 @@ table.olcek td.c { text-align: center; }
 .kitap td { background: var(--raised); }
 .kitap .vurgu { background: var(--sari); border-radius: 4mm; padding: 3mm 4mm; margin: 2mm 0 3mm; }
 .kitap li em { font-style: normal; background: var(--hl-soft); border-radius: 1mm; padding: 0 1mm; }
+
+/* ---------- Defter yaprakları (gün gün dağıtılan, ferah) ---------- */
+.yaprak { padding: 15mm 17mm 14mm; font-size: 12pt; line-height: 1.4; }
+.yaprak .ust-serit { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; padding-bottom: 3mm; border-bottom: 0.4mm solid var(--line); }
+.yaprak .ust-serit .label { font-size: 9.5pt; }
+.yaprak .ust-serit .ad { display: flex; align-items: flex-end; gap: 2mm; font-weight: 700; font-size: 11pt; width: 78mm; }
+.yaprak .ust-serit .ad .fill { flex: 1; }
+.yaprak .alan { margin-top: 8mm; }
+.yaprak .alan-etiket { font-weight: 700; font-size: 13pt; }
+.yaprak .alan-ipucu { font-size: 10.5pt; color: var(--muted); margin-top: 0.5mm; }
+.lines.genis div { height: 11mm; border-bottom: 0.35mm solid var(--line-strong); }
+.yaprak .dot { width: 8mm; height: 8mm; border-width: 0.45mm; }
+.yaprak table.olcek td { padding: 4mm 0; font-size: 12pt; }
+.yaprak table.olcek th { font-size: 10.5pt; }
+.yaprak .keyif-genis { display: flex; align-items: center; gap: 5mm; margin-top: 3mm; }
+.yaprak .keyif-genis .sk { text-align: center; font-weight: 700; font-size: 10.5pt; }
+.yaprak .keyif-genis .sk .dot { display: block; margin: 0 auto 1mm; }
+.yaprak .soru-kutu { background: var(--hl-soft); border-radius: 5mm; padding: 5mm 6mm; margin-top: 6mm; }
+.yaprak .alt-not { position: absolute; left: 17mm; right: 17mm; bottom: 12mm; font-size: 10pt; color: var(--muted); border-top: 0.4mm solid var(--line); padding-top: 2.5mm; }

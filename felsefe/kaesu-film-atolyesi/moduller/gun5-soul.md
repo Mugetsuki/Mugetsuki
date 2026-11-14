@@ -1,6 +1,6 @@
 # 5. gün · Soul · Anlam (sentez ve varış)
 
-Kaesu Akademi Film Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
+Kaesu Akademi Felsefe Atölyesi · 11–17 yaş · Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 Kampın omurgası: [../kamp-omurgasi.md](../kamp-omurgasi.md) · Önceki gün: [gun4-zootropolis.md](gun4-zootropolis.md)
 
 **Künye:** *Soul*, Pete Docter ve Kemp Powers, 2020, yaklaşık 100 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt2948372/
