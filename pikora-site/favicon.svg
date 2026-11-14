@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t">
+<title id="t">Pikora küçük simge</title>
+
+<rect width="512" height="512" rx="0" fill="#8A2335"/>
+<path d="M128 182 L138 58 L222 118 Z M384 182 L374 58 L290 118 Z" fill="#F7EEDD" stroke="#F7EEDD" stroke-width="18" stroke-linejoin="round"/>
+<circle cx="256" cy="266" r="150" fill="#F7EEDD"/>
+<path d="M186 144 C296 196 306 326 236 406" fill="none" stroke="#8A2335" stroke-width="40" stroke-linecap="round"/>
+</svg>

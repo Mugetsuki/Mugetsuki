@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Pikora marka token'ları · sürüm 1.1 · 2026-10-10
+   1.1: başlık fontu Fredoka → Baloo 2 (Fredoka'da ş ğ İ Ş Ğ yok; tarayıcı ölçümüyle doğrulandı).
+   Başka değer değişmedi · sahibi: Kimlik ve Marka Kiti (K4)
+   Kopyalayın, değiştirmeyin: K5 bu dosyayı 04-site/src/ altına kopyalar.
+   Palet: 14 tasarım görselindeki ip renklerinden alındı (urun-katalogu.md).
+   Kontrast hesapları: renk-ve-kontrast.md (WCAG 2.x göreli parlaklık).
+   ========================================================================== */
+
+/* Yerel fontlar (OFL 1.1, lisanslar fonts/ içinde). Dış font servisi yok. */
+@font-face {
+  font-family: "Baloo 2";
+  src: url("fonts/baloo-2-latin-ext-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Baloo 2";
+  src: url("fonts/baloo-2-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/nunito-latin-ext-wght-normal.woff2") format("woff2-variations");
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/nunito-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  /* ---- 1. İp renkleri (ham palet) --------------------------------------
+     Her rengin hangi tasarımdan geldiği renk-ve-kontrast.md'de. */
+  --ip-krem:      #F7EEDD; /* kolyelerin krem örgü ipi · ana zemin */
+  --ip-sut:       #FFFAF2; /* açık zemin, kart */
+  --ip-bordo:     #8A2335; /* Bordo Güneş / Bordo Papyon / Bordo Zarafet · ana marka rengi */
+  --ip-bordo-koyu:#5E1424; /* bordo üzerinde basma/hover */
+  --ip-hardal:    #E3A72F; /* Bordo Güneş merkezi, Gün Işığı güneşi */
+  --ip-mercan:    #F07A5E; /* Mercan Çiçek, Minik Balık yüzgeci */
+  --ip-nane:      #A6DCC9; /* Mint Çiçek ipi, Minik Balık gövdesi */
+  --ip-lavanta:   #BBA8DC; /* Lavanta Çiçek */
+  --ip-lacivert:  #1E2A4F; /* Gün Işığı gövdesi */
+  --ip-portakal:  #EE7B26; /* Minik Portakal, Portakal Bahçesi */
+  --ip-pembe:     #F4A5B8; /* Pembe Bahar, Pembe Bahçe */
+  --ip-zeytin:    #5F6E2E; /* Zeytin Dalı yaprakları */
+  --ip-gece:      #1D1716; /* Gece Hilali gövdesi; bombay kedinin rengi */
+  --ip-gokyuzu:   #A8CDE6; /* Gece Hilali hilali, Gün Işığı kenarı */
+
+  /* ---- 2. Anlamsal renkler (bunları kullanın) --------------------------- */
+  --renk-zemin:          var(--ip-krem);
+  --renk-zemin-acik:     var(--ip-sut);
+  --renk-zemin-koyu:     var(--ip-lacivert);   /* gece sahneleri */
+  --renk-metin:          #2A1B1E;              /* mürekkep: krem üstünde 14.31:1 */
+  --renk-metin-yumusak:  #5B4A4C;              /* krem üstünde 7.21:1 */
+  --renk-metin-ters:     var(--ip-sut);        /* bordo/lacivert/gece üstünde */
+  --renk-marka:          var(--ip-bordo);      /* krem üstünde 7.68:1 */
+  --renk-marka-basili:   var(--ip-bordo-koyu);
+  --renk-vurgu-1:        var(--ip-hardal);     /* yalnız dolgu/süs; metin değil */
+  --renk-vurgu-2:        var(--ip-mercan);     /* yalnız dolgu/süs; metin değil */
+  --renk-vurgu-3:        var(--ip-nane);
+  --renk-odak:           var(--ip-lacivert);   /* klavye odak halkası */
+  --renk-cizgi:          rgba(42, 27, 30, 0.14);
+  --renk-etiket-zemin:   rgba(29, 23, 22, 0.78); /* "tasarım görseli" rozeti; sut metin ≥ 10:1 */
+
+  /* Koleksiyon aileleri (ürün kümesi rengi; K2'nin urun-sistemi.md'si ile eşlenir) */
+  --aile-bahce:    var(--ip-pembe);    /* Pembe Bahar, Pembe Bahçe, Mint Çiçek, Mercan Çiçek, Lavanta Çiçek */
+  --aile-meyve:    var(--ip-portakal); /* Minik Portakal, Portakal Bahçesi, Zeytin Dalı */
+  --aile-gokyuzu:  var(--ip-lacivert); /* Gece Hilali, Gün Işığı, Bordo Güneş */
+  --aile-deniz:    var(--ip-nane);     /* Minik Balık */
+  --aile-zarafet:  var(--ip-bordo);    /* Bordo Papyon, Bordo Zarafet */
+
+  /* İplik karakterlerinin renkleri (kurucunun 5 kedisinden; adlar [Kurucudan bekleniyor]) */
+  --kedi-bombay:   var(--ip-gece);
+  --kedi-tekir:    #7A5B3E;  /* çizgiler: --ip-gece */
+  --kedi-sarman:   var(--ip-portakal);
+  --kedi-smokin:   var(--ip-gece); /* göğüs/pati dolgusu: --ip-sut */
+  --kopek-arkadas: var(--ip-hardal);
+
+  /* ---- 3. Yazı ---------------------------------------------------------- */
+  --font-baslik: "Baloo 2", "Nunito", ui-rounded, "Arial Rounded MT Bold", system-ui, sans-serif;
+  --font-govde:  "Nunito", ui-rounded, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* Akışkan ölçek (390 px → 1440 px) */
+  --yazi-xs:   0.8125rem;                           /* 13 px: yalnız rozet/etiket */
+  --yazi-sm:   0.9375rem;                           /* 15 px */
+  --yazi-md:   1.0625rem;                           /* 17 px: gövde */
+  --yazi-lg:   clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --yazi-xl:   clamp(1.6rem, 1.3rem + 1.4vw, 2.4rem);
+  --yazi-2xl:  clamp(2.2rem, 1.6rem + 2.8vw, 3.8rem);
+  --yazi-dev:  clamp(3rem, 2rem + 5.5vw, 6.5rem);   /* açılış başlığı */
+
+  --agirlik-govde: 450;
+  --agirlik-kalin: 750;
+  --agirlik-baslik: 600;
+  --satir-sik:  1.05;
+  --satir-baslik: 1.15;
+  --satir-govde: 1.6;
+  --harf-baslik: -0.01em;
+  --olcu-metin: 62ch; /* satır uzunluğu sınırı */
+
+  /* ---- 4. Boşluk (4 px tabanlı) ---------------------------------------- */
+  --b-1: 0.25rem;  --b-2: 0.5rem;  --b-3: 0.75rem; --b-4: 1rem;
+  --b-5: 1.5rem;   --b-6: 2rem;    --b-7: 3rem;    --b-8: 4rem;
+  --b-9: 6rem;     --b-10: 8rem;
+  --kenar-bosluk: clamp(1rem, 0.5rem + 2.5vw, 3rem); /* telefonda 16 px */
+  --sahne-bosluk: clamp(4rem, 3rem + 6vw, 9rem);
+
+  /* ---- 5. Köşe (yumuşak, "yumak" hissi) --------------------------------- */
+  --kose-sm: 8px;
+  --kose-md: 16px;
+  --kose-lg: 28px;
+  --kose-hap: 999px;
+  --kose-ilmek: 46% 54% 52% 48% / 55% 45% 55% 45%; /* hafif yamuk "yumak" leke biçimi */
+
+  /* ---- 6. Gölge (sıcak, bordo tonlu; gri değil) ------------------------- */
+  --golge-1: 0 1px 2px rgba(94, 20, 36, 0.10), 0 2px 6px rgba(94, 20, 36, 0.06);
+  --golge-2: 0 4px 10px rgba(94, 20, 36, 0.10), 0 12px 28px rgba(94, 20, 36, 0.08);
+  --golge-3: 0 10px 24px rgba(94, 20, 36, 0.14), 0 28px 60px rgba(94, 20, 36, 0.10);
+  --golge-ip: 0 3px 0 var(--ip-bordo-koyu); /* "basılabilir" düğme alt kenarı */
+
+  /* ---- 7. Çizgi (iplik) ------------------------------------------------- */
+  --ip-kalinlik-ince:  2.5px;
+  --ip-kalinlik:       4px;   /* karakterler (viewBox 200 birim içinde) */
+  --ip-kalinlik-kalin: 7px;
+
+  /* ---- 8. HAREKET (hareket-ilkeleri.md ile birebir) --------------------- */
+  /* Süreler */
+  --sure-anlik:   120ms;  /* basma geri bildirimi */
+  --sure-hizli:   220ms;  /* hover, küçük durum değişimi */
+  --sure-orta:    420ms;  /* kart girişi, rozet "pıt" */
+  --sure-yavas:   720ms;  /* sahne öğesi girişi */
+  --sure-orgu:    1400ms; /* ip çizimi (stroke-dashoffset) tek parça */
+  --sure-dongu:   2600ms; /* boşta kuyruk sallama, yumak yuvarlanma döngüsü */
+  --sure-salinim: 3200ms; /* çamaşır ipinde sallanma döngüsü */
+
+  /* Eğriler */
+  --egri-cikis:   cubic-bezier(0.22, 1, 0.36, 1);      /* yumuşak varış (giriş öğeleri) */
+  --egri-zipla:   cubic-bezier(0.34, 1.56, 0.64, 1);   /* hafif taşan "pıt" (ürün, rozet, pati) */
+  --egri-cek:     cubic-bezier(0.65, 0, 0.35, 1);      /* ip çekme / çözülme (iki uç yavaş) */
+  --egri-giris:   cubic-bezier(0.55, 0, 1, 0.45);      /* çıkış/kaybolma */
+  --egri-orgu:    cubic-bezier(0.45, 0.05, 0.25, 1);   /* ip çizimi: hızlı başlar, sona doğru düğümlenir */
+  --egri-yay: linear(0, 0.006, 0.025 2.8%, 0.101 6.1%, 0.539 18.9%, 0.721 25.3%, 0.849 31.5%,
+                     0.937 38.1%, 0.968 41.8%, 0.991 45.7%, 1.006 50.1%, 1.015 55%, 1.017 63.9%,
+                     1.001 85.4%, 1); /* yay (spring) yaklaşımı; desteklenmezse --egri-zipla */
+
+  /* Gecikmeler ve basamaklama */
+  --gecikme-kisa: 80ms;
+  --gecikme-orta: 160ms;
+  --basamak:      60ms;   /* liste öğeleri arası (14 ürün: en çok 14×60 = 840 ms) */
+  --basamak-max:  600ms;  /* basamak toplamı bunu aşmaz; aşarsa grupla */
+
+  /* Mesafeler */
+  --kayma-kisa: 12px;   /* giriş kayması */
+  --kayma-orta: 32px;
+  --sallanma-aci: 4deg; /* çamaşır ipi, kuyruk */
+  --zipla-olcek: 1.06;  /* pati/rozet "pıt" tepe ölçeği */
+  --bas-olcek: 0.97;    /* düğmeye basınca */
+
+  /* Katmanlar */
+  --z-arka: -1; --z-icerik: 1; --z-karakter: 5; --z-ust: 50; --z-odak: 100;
+
+  /* Kırılım noktaları (bilgi amaçlı; media query içinde var() çalışmaz) */
+  --kirilim-tablet: 768px;
+  --kirilim-masaustu: 1100px;
+}
+
+/* Hareket azaltma: süreleri sıfıra yakın, mesafeleri sıfır yap.
+   Öğeler son hâlinde (çizilmiş, görünür) durur; içerik eksilmez. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --sure-anlik: 0ms;  --sure-hizli: 0ms;  --sure-orta: 0ms;  --sure-yavas: 0ms;
+    --sure-orgu: 0ms;   --sure-dongu: 0ms;  --sure-salinim: 0ms;
+    --gecikme-kisa: 0ms; --gecikme-orta: 0ms; --basamak: 0ms; --basamak-max: 0ms;
+    --kayma-kisa: 0px; --kayma-orta: 0px; --sallanma-aci: 0deg; --zipla-olcek: 1; --bas-olcek: 1;
+  }
+}
+
+/* Koyu sahne yardımcısı (gece sahneleri için; tüm site koyu tema değildir) */
+.pikora-gece {
+  --renk-zemin: var(--ip-lacivert);
+  --renk-metin: var(--ip-sut);
+  --renk-metin-yumusak: var(--ip-gokyuzu);
+  --renk-marka: var(--ip-pembe);
+}

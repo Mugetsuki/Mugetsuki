@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pikora · İlmek ilmek, pati pati</title>
+<meta name="description" content="Pikora: elde, ilmek ilmek örülen kedi kolyeleri ve bandanaları. Beğendiğini ipine diz, siparişi WhatsApp ya da Instagram'dan tamamla.">
+<meta name="theme-color" content="#F7EEDD">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/baloo-2-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="stil.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="atla" href="#urunler">Ürünlere geç</a>
+
+<header class="ust">
+  <a class="ust-ad" href="#giris" aria-label="Pikora, sayfanın başı">
+    <svg viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="266" r="170" fill="#F07A5E"/><path d="M152 176 C232 226 260 326 210 414 M246 104 C346 166 380 296 336 420 M100 300 C196 286 326 340 420 306" fill="none" stroke="#E3A72F" stroke-width="30" stroke-linecap="round"/></svg>
+    <span>Pikora</span>
+  </a>
+  <nav class="ust-nav" aria-label="Sayfa içi">
+    <a href="#urunler">Ürünler</a>
+    <a href="#siparis">Nasıl sipariş verilir</a>
+  </nav>
+  <button class="ip-dugme" id="ip-dugme" type="button" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 7 C7 13 17 13 22 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="7" cy="12.6" r="2.6" fill="currentColor"/><circle cx="12" cy="14" r="2.6" fill="currentColor"/><circle cx="17" cy="12.6" r="2.6" fill="currentColor"/></svg>
+    İpim <span class="ip-sayi" id="ip-sayi" aria-live="polite">0</span>
+  </button>
+</header>
+
+<div class="sayfa" id="sayfa">
+  <svg class="ip-yolu" id="ip-yolu" aria-hidden="true" focusable="false"></svg>
+
+  <main>
+    <!-- ================= Giriş ================= -->
+    <section class="giris" id="giris" data-ip>
+      <h1 class="logo-kap">
+        <svg class="logo" viewBox="0 -8 650 178" role="img" aria-label="Pikora">
+          <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path class="harf" d="M30 140 V40 H62 A28 28 0 0 1 62 96 H30 M120 140 V40 M165 40 V140 M226 40 L172 92 L228 140 M380 140 V40 H412 A28 28 0 0 1 412 96 H380 M408 96 L442 140 M470 140 L507 40 L544 140 M484 104 H530" stroke="#8A2335" stroke-width="22"/>
+            <g class="logo-yumak">
+              <circle cx="300" cy="90" r="50" stroke="#F07A5E" stroke-width="22"/>
+              <path d="M266 66 C290 80 300 110 284 134 M290 42 C318 62 330 100 318 136 M254 98 C280 96 320 112 346 104" stroke="#E3A72F" stroke-width="9"/>
+            </g>
+            <path class="ip-ucu" id="logo-ip-ucu" d="M544 140 C566 156 598 146 596 122 C594 100 566 104 570 124 C574 144 606 152 630 136" stroke="#E3A72F" stroke-width="9"/>
+          </g>
+          <path class="i-noktasi" d="M120 26 C108 18 104 4 114 1 C118 0 120 3 120 5 C120 3 122 0 126 1 C136 4 132 18 120 26 Z" fill="#F07A5E"/>
+        </svg>
+      </h1>
+      <p class="slogan">İlmek ilmek, pati pati</p>
+      <p class="giris-metin">Pikora, beş sahiplenilmiş kedinin evinde doğdu. Kolyeler ve bandanalar elde, ilmek ilmek örülür.</p>
+      <div class="giris-dugmeler">
+        <a class="dugme" href="#urunler">Ürünlere bak</a>
+        <a class="dugme dugme-ikincil" href="#siparis">Nasıl sipariş verilir?</a>
+      </div>
+      <p class="kaydir">Kaydır, ip seni götürsün <span aria-hidden="true">↓</span></p>
+    </section>
+
+    <!-- ================= Ürünler ================= -->
+    <section class="bolum" id="urunler">
+      <div class="bolum-bas" data-ip>
+        <p class="ust-yazi">01 · Ürünler</p>
+        <h2>İpe dizdik, seç beğen</h2>
+        <p class="bolum-metin">Yedi kolye, yedi bandana. Bir boncuğa dokun, kartı seni bulsun. Beğendiğini ipine diz; siparişi mesajla birlikte tamamlarız.</p>
+
+        <div class="raf" id="kolyeler">
+          <div class="raf-bas"><h3>Kolyeler</h3><span>7 tasarım</span></div>
+          <div class="boncuk-ipi" data-boncuk="kolye"></div>
+          <div class="izgara" data-izgara="kolye"></div>
+        </div>
+      </div>
+
+      <div class="raf" id="bandanalar" data-ip>
+        <div class="raf-bas"><h3>Bandanalar</h3><span>7 tasarım</span></div>
+        <div class="boncuk-ipi" data-boncuk="bandana"></div>
+        <div class="izgara" data-izgara="bandana"></div>
+      </div>
+      <noscript><p class="bolum-metin">Ürünleri görmek için tarayıcında JavaScript'in açık olması gerekiyor.</p></noscript>
+    </section>
+
+    <!-- ================= Sipariş ================= -->
+    <section class="bolum bolum-siparis" id="siparis" data-ip>
+      <p class="ust-yazi">02 · Sipariş</p>
+      <h2>Üç ilmekte sipariş</h2>
+      <ol class="adimlar">
+        <li class="gir"><span class="adim-no">1</span><h3>İpine diz</h3><p>Beğendiğin kolye ve bandanaları seç. Seçtiklerin sağ üstteki “İpim”de birikir.</p></li>
+        <li class="gir"><span class="adim-no">2</span><h3>Bize yaz</h3><p>Hazır mesajı WhatsApp ya da Instagram'dan gönder. Fiyatı, kedinin boyun ölçüsünü ve teslimi orada konuşuruz.</p></li>
+        <li class="gir"><span class="adim-no">3</span><h3>Sıranı örelim</h3><p>Her parça elde örülür. Ne zaman hazır olacağını baştan söyleriz.</p></li>
+      </ol>
+      <button class="dugme" type="button" data-ip-ac>İpimi aç</button>
+    </section>
+  </main>
+
+  <footer class="alt" data-ip>
+    <div class="ip-son" id="ip-son" aria-hidden="true"></div>
+    <h2>Bir ip, bir söz</h2>
+    <p>Abartmadan söyleriz, olduğu gibi yazarız. Sorun, önerin, kedinin fotoğrafı: hepsine açığız.</p>
+    <p class="uyari">İp ve yumak oyunları yalnız gözetim altında: ip yutulursa tehlikeli olabilir. Ürünler dekoratiftir; kedin rahatsız olursa çıkar.</p>
+    <p class="kucuk">Her ürün elde örülür; renk ve ölçü görselden biraz farklı olabilir. Görseller tasarım örneğidir. Bu site çerez kullanmaz, veri toplamaz; seçtiklerin yalnızca bu cihazda durur.</p>
+    <p class="kucuk">Pikora · Baloo 2 ve Nunito: SIL Open Font License 1.1</p>
+  </footer>
+</div>
+
+<!-- Ürün ayrıntısı -->
+<dialog class="pencere" id="ayrinti" aria-labelledby="ayrinti-ad"></dialog>
+
+<!-- İpim (seçilenler) -->
+<dialog class="pencere pencere-yan" id="ip-panel" aria-labelledby="ip-baslik">
+  <div class="panel-bas">
+    <h2 id="ip-baslik">İpim</h2>
+    <button class="kapat" type="button" data-kapat aria-label="Kapat">×</button>
+  </div>
+  <div class="panel-ip" id="panel-ip" aria-hidden="true"></div>
+  <ul class="panel-liste" id="panel-liste"></ul>
+  <p class="panel-bos" id="panel-bos">İpin şimdilik boş. Beğendiğin ürünün altındaki “İpime diz” düğmesine bas, burada birikir.</p>
+  <form class="panel-form" id="panel-form">
+    <label>Kedinin adı <span>(istersen)</span><input name="ad" type="text" autocomplete="off" maxlength="40"></label>
+    <label>Boyun ölçüsü, cm <span>(biliyorsan)</span><input name="olcu" type="text" inputmode="decimal" autocomplete="off" maxlength="6"></label>
+    <p class="kucuk">Ölçüyü bilmiyorsan sorun değil, mesajda birlikte bakarız.</p>
+    <button class="dugme dugme-wa" type="button" id="wa-gonder">WhatsApp'tan sipariş ver</button>
+    <button class="dugme dugme-ikincil" type="button" id="ig-gonder">Mesajı kopyala, Instagram'dan yaz</button>
+    <p class="panel-durum" id="panel-durum" role="status"></p>
+  </form>
+</dialog>
+
+<script src="urunler.js"></script>
+<script src="uygulama.js"></script>
+</body>
+</html>
