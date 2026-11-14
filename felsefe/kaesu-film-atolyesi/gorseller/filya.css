@@ -152,3 +152,29 @@ table.form td { background: var(--raised); }
 .rz-et.uc { width: 30mm; }
 .rz-parca { position: absolute; }
 .kitap code { font-family: "Albert Sans"; font-weight: 700; font-size: 1em; }
+
+/* Atölyenin kısa senaryosu (build_filya.py atolye_senaryosu): sade, ferah; turuncu yalnızca bantta tek nokta */
+.sn { page: kitap; break-after: page; font-size: 10.6pt; line-height: 1.42; }
+.sn:last-child { break-after: auto; }
+.sn .bant { background: var(--koyu); color: var(--krem); border-radius: 5mm; padding: 4.5mm 6mm; margin-bottom: 5mm; }
+.sn .bant table { width: 100%; border-collapse: collapse; }
+.sn .bant td { border: 0; padding: 0; vertical-align: middle; }
+.sn .bant .t { font-family: "Literata"; font-weight: 600; font-size: 21pt; line-height: 1.1; }
+.sn .bant .s { font-size: 10.5pt; margin-top: 1mm; }
+.sn .bant .nokta { display: inline-block; width: 3.2mm; height: 3.2mm; border-radius: 50%; background: var(--turuncu); margin-right: 2.5mm; vertical-align: middle; }
+.sn p { margin: 0 0 2.2mm; }
+.sn ul { margin: 0 0 2.6mm; padding-left: 5mm; }
+.sn li { margin-bottom: 0.9mm; }
+.sn h4 { font-family: "Literata"; font-weight: 600; font-size: 14pt; margin: 0 0 2mm; }
+.sn .giris { background: var(--sari); border-radius: 4mm; padding: 4mm 6mm 2mm; margin: 0 0 4mm; }
+.sn .gun, .sn .varis { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 3.5mm 6mm 2mm; margin: 0 0 3.5mm; }
+.sn .ana { font-family: "Literata"; font-weight: 600; font-size: 12.5pt; background: var(--hl-soft); border-radius: 2.5mm; padding: 2mm 4mm; margin: 1mm 0 2.6mm; }
+.sn .kalan { border-top: 0.35mm solid var(--line); padding-top: 2mm; margin-top: 1mm; }
+.sn .kalan i { font-style: normal; font-weight: 600; }
+.sn table.ab { width: 100%; border-collapse: collapse; margin: 1mm 0 3mm; font-size: 9.8pt; }
+.sn table.ab th, .sn table.ab td { border-bottom: 0.25mm solid var(--line); padding: 1.1mm 1.6mm; text-align: left; vertical-align: top; }
+.sn table.ab th { color: var(--muted); font-weight: 600; font-size: 9pt; }
+.sn table.ab td:first-child { font-weight: 600; width: 24mm; }
+.sn table.hat { border-collapse: collapse; margin: 0 0 4mm; }
+.sn table.hat td { padding: 1.2mm 2.2mm; font-size: 11pt; }
+.sn table.hat td:nth-child(odd) { background: var(--sunk); border-radius: 2mm; }

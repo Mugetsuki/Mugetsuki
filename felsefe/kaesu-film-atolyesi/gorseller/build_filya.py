@@ -8,7 +8,9 @@
 
 Stil: filya.css. HTML kaynakları html/ altında, PNG önizlemeler onizleme/ altında.
 Film görselleri (afiş, not kartı, ikilem, Beş Kapı) build.py ile üretilir.
-Kullanım: ~/.local/share/kaesu-gorsel-venv/bin/python build_filya.py [--inceleme KLASÖR]
+  pdf/atolye-senaryosu.pdf            Atölyenin kısa senaryosu (4 sayfa); kaynak: ../atolye-senaryosu.md
+
+Kullanım: ~/.local/share/kaesu-gorsel-venv/bin/python build_filya.py [ÜRÜN ...] [--inceleme KLASÖR]
 """
 import pathlib
 import re
@@ -217,6 +219,36 @@ def veli():
 </section>'''
 
 
+# --------------------------------------------------------------------------------------
+# Atölyenin kısa senaryosu (../atolye-senaryosu.md): Genel Müdür için 4 sayfalık özet
+# --------------------------------------------------------------------------------------
+def atolye_senaryosu():
+    import markdown
+    md = (ROOT.parent / "atolye-senaryosu.md").read_text(encoding="utf-8")
+
+    def conv(text):
+        text = re.sub(r"(?m)^((?![ \t]*(?:[-*]|\d+\.)[ \t]).+)\n([ \t]*(?:[-*]|\d+\.)[ \t])", r"\1\n\n\2", text)
+        html = markdown.markdown(text, extensions=["tables", "md_in_html"])
+        return html.replace("<table>", '<table class="ab">')
+
+    def bloklar(text):
+        parcalar = re.split(r"(?ms)^::: (\w+)\n(.*?)^:::\n", text)
+        out = [conv(parcalar[0])]
+        for i in range(1, len(parcalar), 3):
+            out.append(f'<div class="{parcalar[i]}">{conv(parcalar[i + 1])}</div>{conv(parcalar[i + 2])}')
+        return "".join(out)
+
+    sayfalar = re.split(r"(?m)^### SAYFA · (.+)\n", md)[1:]
+    toplam = len(sayfalar) // 2
+
+    def bant(no, ad):
+        return (f'<div class="bant"><table><tr><td><div class="label" style="color:var(--krem)">KAESU FELSEFE ATÖLYESİ · FİLMLERLE DÜŞÜNMEK</div>'
+                f'<div class="t">Atölyenin kısa senaryosu</div><div class="s">Kamp sorusu: İyi bir hayat nedir? · 5 gün · 11–17 yaş</div></td>'
+                f'<td style="text-align:right"><span class="nokta"></span><span class="pill sari">{no}/{toplam} · {ad}</span></td></tr></table></div>')
+
+    return "".join(f'<section class="sn">{bant(i + 1, sayfalar[2 * i].strip())}{bloklar(sayfalar[2 * i + 1])}</section>' for i in range(toplam))
+
+
 URUNLER = {
     "defter-yaprak-0-baslangic": ("Düşünce yolculuğum · Başlangıç yaprağı", yp.yaprak_baslangic, 2),
     "defter-yaprak-1-gun1": ("Düşünce yolculuğum · 1. gün", gun_yapragi(1), 1),
@@ -232,6 +264,7 @@ URUNLER = {
     "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 17),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
+    "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),
 }
 
 
@@ -245,7 +278,10 @@ def main():
     for d in (HTML_DIR, PDF_DIR, PNG_DIR):
         d.mkdir(exist_ok=True)
     hata = False
+    secim = [a for a in sys.argv[1:] if not a.startswith("--") and (inceleme is None or a != str(inceleme))]
     for ad, (baslik, fn, beklenen) in URUNLER.items():
+        if secim and ad not in secim:
+            continue
         hp = HTML_DIR / f"{ad}.html"
         hp.write_text(doc(baslik, fn()), encoding="utf-8")
         pp = PDF_DIR / f"{ad}.pdf"
