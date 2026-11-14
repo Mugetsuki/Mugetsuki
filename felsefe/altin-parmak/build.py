@@ -46,6 +46,7 @@ EK_CSS = """
 
 def satir_ici(html):
     html = html.replace("{K}", '<span class="tk">Kitapta</span>').replace("{E}", '<span class="te">Bizim ek</span>')
+    html = html.replace("{Ö}", '<span class="tk">Önerim</span>')
     return re.sub(r"\[\[(.+?)\]\]", r'<span class="et">\1</span>', html)
 
 
@@ -74,8 +75,8 @@ def doc(body):
             f'<style>{EK_CSS}</style></head><body>{body}</body></html>')
 
 
-def oturum():
-    md = (ROOT / "altin-parmak-oturum.md").read_text(encoding="utf-8")
+def sayfali(dosya, ust, alt):
+    md = (ROOT / dosya).read_text(encoding="utf-8")
     bas, govde = md.split("\n### SAYFA · ", 1)
     giris = "\n".join(bas.splitlines()[1:])
     sayfalar = re.split(r"(?m)^### SAYFA · (.+)\n", "### SAYFA · " + govde)[1:]
@@ -84,8 +85,63 @@ def oturum():
     for i in range(toplam):
         ad, metin = sayfalar[2 * i].strip(), sayfalar[2 * i + 1]
         ek = f'<div class="giris">{conv(giris)}</div>' if i == 0 else ""
-        out.append(f'<section class="kb">{bant("FELSEFE MAKİNESİ · TEK OTURUM", "Altın Parmak", "Kral Midas’ın dileği · dil, anlam, açıklık ve kesinlik", f"{i + 1}/{toplam} · {ad}")}{ek}{bloklar(metin)}</section>')
+        out.append(f'<section class="kb">{bant(ust, "Altın Parmak", alt, f"{i + 1}/{toplam} · {ad}")}{ek}{bloklar(metin)}</section>')
     return doc("".join(out))
+
+
+def oturum():
+    return sayfali("altin-parmak-oturum.md", "FELSEFE MAKİNESİ · TEK OTURUM", "Kral Midas’ın dileği · dil, anlam, açıklık ve kesinlik")
+
+
+def yaratici():
+    return sayfali("altin-parmak-yaratici.md", "SENİN KATABİLECEKLERİN · BİZİM EK", "Oyun, nesne, ritüel, beden, kapanış hediyesi")
+
+
+KARTLAR = ["üzüm", "su", "kızı", "gül", "kendi eli", "kıyafeti", "sandalye", "hava",
+           "gölgesi", "bir şarkı", "kedi", "bastığı yer", "saçı", "gözyaşı", "bir anı", "altın para"]
+
+MALZEME_CSS = """
+.mz { page: kitap; break-after: page; }
+.mz:last-child { break-after: auto; }
+.mz .bant { padding: 3mm 5mm; margin-bottom: 3mm; }
+.mz .bant .t { font-size: 16pt; }
+.mz .yon { font-size: 9.5pt; color: var(--muted); margin: 0 0 3mm; }
+.mz table.izgara { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.mz table.izgara td { border: 0.35mm dashed var(--line-strong); text-align: center; vertical-align: middle; padding: 0; }
+.mz .kart { height: 44mm; border: 0; border-radius: 0; background: none; padding: 3mm; }
+.mz .kart .k { font-size: 7.5pt; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+.mz .kart .w { font-family: "Literata"; font-weight: 600; font-size: 19pt; margin-top: 7mm; }
+.mz .bolge td { height: 30mm; font-family: "Literata"; font-weight: 600; font-size: 17pt; }
+.mz .bolge td.s { background: var(--sari); } .mz .bolge td.r { background: var(--raised); } .mz .bolge td.u { background: var(--sunk); }
+.mz .dk { height: 76mm; text-align: left !important; vertical-align: top !important; padding: 5mm 6mm !important; background: var(--raised); }
+.mz .dk .bas { display: flex; justify-content: space-between; align-items: center; }
+.mz .dk .t { font-family: "Literata"; font-weight: 600; font-size: 15pt; }
+.mz .dk .ad { font-size: 8.5pt; color: var(--muted); }
+.mz .dk .s { font-weight: 700; font-size: 9.5pt; margin-top: 3mm; }
+.mz .dk .c { height: 6.4mm; border-bottom: 0.3mm solid var(--line-strong); }
+.mz .dk .sec { font-size: 9.5pt; margin-top: 2mm; }
+.mz .dk .dot { width: 3.6mm; height: 3.6mm; vertical-align: -0.6mm; margin: 0 1mm 0 2.5mm; }
+.mz .dk .dot:first-child { margin-left: 0; }
+"""
+
+
+def malzeme():
+    satirlar = []
+    for r in range(4):
+        hucre = "".join(f'<td><div class="kart"><div class="k">ALTINA DÖNÜŞÜR MÜ?</div><div class="w">{KARTLAR[4 * r + c]}</div></div></td>' for c in range(4))
+        satirlar.append(f"<tr>{hucre}</tr>")
+    s1 = (f'<section class="kb mz">{bant("BASILACAK MALZEME · 1/2", "Altına dönüşür mü? kartları", "Tek kopya bas, kesik çizgilerden kes · 5–9 yaşta 8 kartla oyna", "A4")}'
+          f'<p class="yon">Tahtadaki son dileğe göre her kart bir bölgeye konur, nedeni söylenir. Hiçbir kartın yerini sen onaylama.</p>'
+          f'<table class="izgara">{"".join(satirlar)}</table>'
+          f'<table class="izgara bolge" style="margin-top:5mm"><tr><td class="s">Altına döner</td><td class="r">Dönmez</td><td class="u">Emin değilim</td></tr></table></section>')
+    dk = ('<div class="bas"><span class="t">Dilek kartım</span><span class="ad">Adım: ..................</span></div>'
+          '<div class="s">Dilerim ki</div><div class="c"></div><div class="c"></div><div class="c"></div>'
+          '<div class="s">Bir cin bu dileği nasıl bozabilir?</div><div class="c"></div><div class="c"></div>'
+          '<div class="s">Bu dilek gerçekleşse mutlu olur muydum?</div>'
+          '<div class="sec"><span class="dot"></span>Evet <span class="dot"></span>Hayır <span class="dot"></span>Bilmiyorum</div>')
+    s2 = (f'<section class="kb mz">{bant("BASILACAK MALZEME · 2/2", "Dilek kartım", "Bir A4’te 6 kart · 12 çocuk için 2 kopya · kartlar okunmaz, eve gider", "A4")}'
+          f'<table class="izgara">' + "".join(f'<tr><td class="dk">{dk}</td><td class="dk">{dk}</td></tr>' for _ in range(3)) + '</table></section>')
+    return doc(f"<style>{MALZEME_CSS}</style>{s1}{s2}")
 
 
 def kopya():
@@ -107,5 +163,6 @@ def yaz(ad, html, beklenen=None):
 
 
 if __name__ == "__main__":
-    ok = yaz("altin-parmak-oturum", oturum()) & yaz("altin-parmak-kopya", kopya(), 1)
+    ok = yaz("altin-parmak-oturum", oturum(), 13) & yaz("altin-parmak-kopya", kopya(), 1)
+    ok &= yaz("altin-parmak-yaratici", yaratici(), 5) & yaz("altin-parmak-malzeme", malzeme(), 2)
     sys.exit(0 if ok else 1)
