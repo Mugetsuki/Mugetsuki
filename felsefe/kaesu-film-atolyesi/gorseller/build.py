@@ -85,6 +85,13 @@ YEDEKLER = [
          A=("Kitabı kullanırım", "Mutlu ama nedenini bilmediğim bir hayat."),
          B=("Kendi yolumu bulurum", "Kullanmam. Yanılsam da kendim düşünürüm."),
          hero="Emmet", kapi="Talimat kitabını bırakıp kendi parçasını kurdu.", kapi_alt=None),
+    dict(n=3, key="prens", t="t-prens", film="Küçük Prens", TEMA="ÖTEKİ", tema_alt="Sevmek, sevilmek ve bağ",
+         soru="Sevmek ile sevilmek aynı şey mi?",
+         gorev="Film boyunca tek bir soruyu aklında tut: Bu filmde kim sevilmek istiyor, kim sevmeyi biliyor?",
+         ikilem_q="Bir insan yeni bir şehre taşınıyor ve bir yıl sonra yine taşınacağını biliyor. Ne yapmalı? Yoksa başka bir yol mu var?",
+         A=("Kimseyle yakın olmaz", "Ayrılık acısı çekmez, ama bir yıl boyunca yakın bir arkadaşı olmaz."),
+         B=("Yakın arkadaşlar edinir", "Bir yıl sonra ayrılmak çok acıtacak olsa da."),
+         hero="Küçük Prens", kapi="Ayrılığın acısını bile bile bir tilkiyle bağ kurdu.", kapi_alt=None),
 ]
 BYKEY = {d["key"]: d for d in DAYS + YEDEKLER}
 

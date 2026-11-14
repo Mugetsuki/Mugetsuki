@@ -850,6 +850,7 @@ Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 |---|---|---|---|
 | Lego Filmi | 1. gün (Bilgi) | “Aldatılmak” yerine “sorgulamamak”: Kimse bizi aldatmasa da sorgusuz kabul ettiklerimizi biliyor muyuz? Soru: “Sorgulamadan kabul ettiğimiz bir şeyi gerçekten biliyor muyuz?” | Grup Truman Show'u izlemişse, küçük yaş ağırlıklıysa ya da neşeli bir başlangıç isteniyorsa |
 | Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Bana verilen bir şey ne zaman benim olur?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
+| Küçük Prens | 3. gün (Öteki) | “İyi davranmak” yerine “bağ kurmak”: İlk cevabın “sevilmek” yarısını sınar. Soru: “Sevmek ile sevilmek aynı şey mi?” | Grup Mucize'yi izlemişse, zorbalık konusu grupta hassassa ya da daha şiirsel bir film isteniyorsa |
 | 12 Kızgın Adam | 4. gün (Toplum) | “Eşitlik” yerine **başka bir ilk cevabı** sınar: “Kimseyle ters düşmemek.” Soru: “Bir grubun verdiği karar ne zaman adil olur?” | Lise ağırlıklı grupta, ya da Başlangıç yapraklarında “herkesle iyi geçinmek” cevabı sıksa |
 
 *Sıradaki yedekler: WALL-E (5. gün), Küçük Prens (3. gün), Lego Filmi (1. gün).*
@@ -1162,6 +1163,158 @@ Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakil
 - **Doğada ölüm ve ayrılık:** Hayvanların ölümü, göç ve final duygusal olabilir. Yakın zamanda kayıp yaşamış çocuğa önceden söyle, film sonrası arayı kısaltma.
 
 **Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Aristoteles ‘Bir şeyi yapa yapa o oluruz’ demiş, Sartre ‘Bizden ne yapıldığı değil, onunla ne yaptığımız önemli’ demiş.”
+
+---
+
+## YEDEK · 3. GÜN · Küçük Prens
+
+### SAYFA · GÜN VE AKIŞ
+
+**IMDb:** <https://www.imdb.com/title/tt1754656/>
+
+**Bugün ne oluyor?** Dünden devralınan soru: “‘Ben’ hep başkalarıyla birlikte oluşuyor. Başkaları benim iyi hayatımın neresinde?”
+- **Sınadığımız ilk cevap:** “İyi bir hayat, iyi biri olmaktır, sevilmektir.” Bu film cevabın ikinci yarısını, “sevilmek”i sınar.
+- **Günün Açık Sorusu (tahtada tek başına):** **Sevmek ile sevilmek aynı şey mi?** <span class="et">Açık Soru · s. 34</span>
+- **Kamp sorusuna köprü:** İyi bir hayat için sevilmek mi gerekli, sevmek mi?
+
+[[ÜST BLOK SONU]]
+
+**Günün akışı** (yaklaşık 3 sa 34 dk)
+
+| Saat | Ne yapıyoruz | Süre |
+|---|---|---|
+| 0:00 | Dünkü gün kartı | 4 dk |
+| 0:04 | Hayattan sorular | 5 dk |
+| 0:09 | Hassas içerik notu | 2 dk |
+| 0:11 | İzleme görevi tahtaya | 4 dk |
+| 0:15 | Film, üç durakla (6'şar dk) | 108 + 18 dk |
+| 2:21 | Ara ve enerji oyunu “Ayna” | 10 dk |
+| 2:31 | Tartışma | 60 dk |
+| 3:31 | Köprü ve hayattan soru görevi | 3 dk |
+
+**Hassas içerik notu (filmden önce):** “Bugünkü film yumuşak ve şiirsel. Ama içinde ayrılıklar var: yaşlı bir adam hastaneye kaldırılıyor, hikâyedeki çocuğun sonu hüzünlü. Zorlanan olursa bana işaret etsin.”
+
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
+
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Bu filmde kim sevilmek istiyor, kim sevmeyi biliyor? Film bitince ne düşüneceksiniz, bakalım.”</p>
+
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
+
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
+
+### SAYFA · 1. VE 2. DURAK
+
+::: durak
+#### 1. durak · yaklaşık 25–35. dk · Gül
+
+**Sahne:** Havacı (kızın komşusu, yaşlı ve emekli pilot) kıza Küçük Prens'in hikâyesini anlatıyor. Küçük Prens gezegeninde bir gülü büyütüyor. Gül onun arkadaşı oluyor ama bencil davranıyor. İkisi de birbirini nasıl seveceğini bilmeyecek kadar genç, ayrılıyorlar. Küçük Prens gezegeninden yola çıkınca durdur. **Koşul:** Sevilmek isteyen biri sevmeyi bilmiyor.
+
+**Açık Soru:** “Gül çok sevilmek istiyordu ama nasıl seveceğini bilmiyordu. Sevilmek istemek ile sevmeyi bilmek aynı şey mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Sevmeyi bilmek için ne gerekli? Birini çok istemek yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Biri seni çok sevdiği hâlde sana kötü davrandığı oldu mu? O zaman o sevgi miydi?”
+
+**Geri çağır:** 1. basamak (Gül).
+:::
+
+::: durak
+#### 2. durak · yaklaşık 45–55. dk · Tilki'nin vedası · düğüm noktası
+
+**Sahne:** Küçük Prens Dünya'da bir tilkiyle dost oluyor. Tilki vedalaşırken ona hep yüreğiyle bakmasını öğütlüyor. Ardından Havacı kıza doldurulmuş oyuncak bir tilki hediye ediyor ve yakında Küçük Prens'i bulmaya gideceğini söylüyor. Bu an bitince durdur. **Koşul:** Bağ kuruldu, şimdi ayrılık var.
+
+**Açık Soru:** “Tilki, Küçük Prens'le bağ kurdu ve şimdi ayrılıyorlar. Birine bağlanmak bizi ayrılık acısına da açıyorsa, sevmek yine de değer mi, yoksa başka bir şey mi gerekir?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “Eğer hiç kimseye bağlanmasaydın hiç ayrılık acısı çekmezdin. O zaman daha mı iyi bir hayat yaşardın?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Bir arkadaşın taşındığında ya da okul değiştirdiğinde ne hissettin? Keşke hiç tanışmasaydık der miydin?”
+
+**Geri çağır:** 4. basamak ve ikilem.
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 85–95. dk · Bay Prens
+
+**Sahne:** Kız Küçük Prens'i buluyor, ama o büyümüş, “Bay Prens” olmuş: İş Adamı'nın (bütün yıldızları kasasına kilitleyen, herkesi kendine çalıştıran adam) gezegeninde kaygılı bir temizlikçi. Geçmişini hiç hatırlamıyor. Sonra Havacı'nın sayfalarındaki koyun kutusu çizimini görünce hatırlamaya başlıyor. Hatırlamaya başladığı an durdur. **Koşul:** Sevdiklerini unutan biri.
+
+**Açık Soru:** “Bay Prens Gül'ü ve Tilki'yi unutmuştu. Bir insan sevdiklerini unutursa, onları sevmeye devam eder mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer sevgi bir anıysa, o zaman unutunca biter mi? Eğer anı değilse, nerede durur?” <span class="et">Ya… ya da… · s. 59–60</span>
+- “Bir eşya, bir koku, bir çizim sana birini hatırlattı mı hiç?”
+
+**Geri çağır:** 2. basamak (iki hayat).
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · His turu ve Kavrama Zamanı.** “Tek kelimeyle, film sana ne hissettirdi?” Pas serbest. Sonra: “Film iki hikâye anlatıyordu: kızın hikâyesi ve Küçük Prens'in hikâyesi. Birlikte anlatalım, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–12 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir. Sonra demir at: “Bütün bunların altındaki soru ne?” Tahtaya tek başına yaz: **Sevmek ile sevilmek aynı şey mi?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
+
+### SAYFA · MERDİVEN: 1. VE 2. BASAMAK
+
+**1. basamak · Gül** *Geri çağır:* “Gül'ü hatırlıyor musunuz?” *Açık Soru:* “Gül sevilmek istiyordu ama bencil davrandı. Sevilmek isteyen biri sevmeyi bilmeyebilir mi?” <span class="et">Açık Soru · s. 34</span>
+- *“Evet, sadece kendini düşünüyordu.”* “Senin düşüncene göre sevmek, kendini düşünmemek demek, öyle mi? Kendini hiç düşünmeyen biri iyi sever mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Hayır, sevilmek isteyen sever de.”* “Sevilmek isteyip sevmeyi bilmeyen tek bir kişi bulabilir misin? Bir hikâyeden, bir filmden?” <span class="et">Yanlışlama · s. 51</span>
+- *“Gül sadece bir çiçek.”* “Evet ve… Gül'ü bırakalım. Senin hayatında sevilmek isteyen ama karşısındakini yoran biri var mı?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+- *“İkisi de çok gençti.”* “Eğer sevmek öğrenilen bir şeyse, o zaman nereden öğreniriz?” <span class="et">Eğer… o zaman · s. 27</span>
+
+**2. basamak · İki hayat** *Geri çağır:* “Bay Prens'i hatırlıyor musunuz?” *Açık Soru:* “Eğer iki hayattan birini seçmen gerekseydi: Birincisinde herkes seni seviyor ama sen kimseyi gerçekten sevmiyorsun. İkincisinde birkaç kişiyi çok seviyorsun ama seni pek az kişi tanıyor. Hangisi daha iyi bir hayat olurdu?” <span class="et">Eğer durum böyle olsaydı · s. 52</span> <span class="et">Ya… ya da… · s. 59</span>
+- *“Birincisi, herkes seviyor.”* “Senin düşüncene göre sevilmek, sevmekten daha önemli, öyle mi? Kimseyi sevmeyen biri ne hisseder?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“İkincisi, sevmek daha değerli.”* “Seni pek az kişi tanıyor. Hiç yalnız hissetmez misin? Size katılmayan biri ne derdi?” <span class="et">Hayali muhalif · s. 50</span>
+- *“İkisi de eksik.”* “O zaman iyi bir hayat için ne gerekli: sevmek mi, sevilmek mi, ikisi mi, yoksa başka bir şey mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Ama herkesin sevdiği biri olmaz ki.”* “Ama ya olsaydı? Gerçekten herkesin sevdiğini düşünelim.” <span class="et">Yeniden demir atmak · s. 54</span>
+
+### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN
+
+**3. basamak · Kamp sorusuna köprü** *Geri çağır:* “Kızın annesinin planını hatırlıyor musunuz?” *Açık Soru:* “İyi bir hayat için sevilmek mi gerekli, sevmek mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Sevilmek.”* “Truman'ı (1. günün filmindeki, hayatı habersizce yayınlanan kahraman) herkes seviyordu, ama o sevginin çoğu bir roldü. Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span> <span class="et">Bağlantı kurma · s. 38</span>
+- *“Sevmek.”* “Eğer sevdiğin hiç kimse seni sevmeseydi, hayatın yine iyi olur muydu?” <span class="et">Eğer… o zaman · s. 27</span>
+- *“İkisi birden.”* “Çatıştıklarında? Sevdiğin biri için sevilmeyecek bir şey yapman gerekse? Yoksa başka bir yol mu var?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+- *Grup tek tarafta birleşirse:* “Kızın annesi olsaydınız, kızınızın her dakikasını planlamayı sevgi olarak nasıl savunurdunuz?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+
+**4. basamak · Hiç bağlanmamak** *Geri çağır:* “Tilki'nin vedasını hatırlıyor musunuz?” *Açık Soru:* “Eğer hiç kimseye bağlanmadığın, bu yüzden de hiç ayrılık acısı çekmediğin bir hayat seçebilseydin, seçer miydin?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Eğer sanatı · s. 27</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+- *“Seçerim, acı istemem.”* “Senin düşüncene göre acıdan kaçmak, sevinçten vazgeçmeye değer, öyle mi? Bağ kurmadan sevinç olur mu?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Seçmem, acı da sevginin parçası.”* “Acı çekmeden sevmenin tek bir örneğini bulabilir misin?” <span class="et">Yanlışlama · s. 51</span>
+- *“Ama hiç bağlanmamak imkânsız.”* “Ama ya mümkün olsaydı? Hiç kimseyi özlemeyeceğini düşünelim.” <span class="et">Sınır çizen soru · s. 55</span>
+- *“Bazılarına bağlanırım.”* “Kime bağlanacağına nasıl karar verirsin? Bir ölçüt söyle.” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+
+**Takılırsan.**
+- **Herkes B'de (arkadaş edinir):** “Size katılmayan biri ne derdi? Çok kez taşınmış, her seferinde çok üzülmüş biri için de B mi doğru?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes A'da (arkadaş edinmez):** “Size katılmayan biri ne derdi? Bir yıl, bir ömrün ne kadarı?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “sevmek ve sevilmek aynı” diyor:** “Birini sevip onun seni sevmediği tek bir örnek bulabilir misin?” <span class="et">Yanlışlama · s. 51</span>
+- **Konu hikâyenin olaylarına kaydı:** “Evet ve… o zaman sevmek ile sevilmek aynı şey mi?” <span class="et">Demir atmak · s. 48</span>
+- **Sessizlik:** İki dakika ikili konuşma: “Seni bir yere, bir kişiye, bir hayvana bağlayan küçük bir şeyi anlat.” <span class="et">Konuşma Zamanı · s. 34</span>
+
+### SAYFA · İKİLEM VE KAPANIŞ
+
+**dk 42–50 · Kapanış ikilemi: bağ (hareketli).** Herkes ayağa kalkar ve bir duvar seçer. “Bu soruyu ‘sen’ diye değil, ‘bir insan’ diye soruyorum. Bir insan yeni bir şehre taşınıyor. Biliyor ki bir yıl sonra yine taşınacak.”
+
+<table class="ikilem"><tr><td><div class="harf">A</div><b>Kimseyle yakın arkadaş olmaz.</b> Ayrılık acısı çekmez.<div class="ters">A'dakilere: “Bir yıl boyunca kimseyle gülmeden, kimseye bir şey anlatmadan yaşamak nasıl bir yıl olur?”</div></td><td><div class="harf">B</div><b>Yakın arkadaşlar edinir.</b> Bir yıl sonra ayrılmak çok acıtacak olsa da.<div class="ters">B'dekilere: “Ayrılık o kadar acıtırsa ki bir sonraki şehirde kimseye yaklaşamazsa?”</div></td></tr></table>
+
+Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span> Ters köşe soruları iki tarafa da onlara katılmayan birinin sesiyle sorulur. <span class="et">Hayali muhalif · s. 50</span> “Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?”
+
+**dk 50–55 · Kamp sorusuna dönüş.** “Dün ‘kendin olmak’ı sınadık. Bugün ‘sevilmek’i sınadık. İyi bir hayat sorusuna bugün ne ekliyoruz?” Grubun cümlesi ve açık kalan soru 3. gün kartına yazılır.
+
+**dk 55–60 · Gün yaprağı.** Sessiz beş dakika.
+
+**Köprü (3 dk).** “Bugün tek tek bağlara baktık: Gül, Tilki, Havacı ve kız. Ama İş Adamı'nın gezegeninde bütün yıldızlar bir kasaya kilitlenmişti ve herkes ona çalışıyordu. Bir kişiyi sevmek yetmeyebilir. Bütün bir düzen birine haksızlık ederse ne olur? Yarın bütün bir şehre bakacağız.” **Hayattan soru görevi:** “Yarın sabaha kadar kampta birinin sana bir şey öğrettiği ya da senin birine bir şey öğrettiğin, aranızda küçük bir bağ kurulduğu bir an yakala.”
+
+**Hassas anlar.**
+- **Hüzünlü son:** Küçük Prens'in hikâyesinde, yılan sokmasıyla Gül'e dönmeye gittiği anlatılır ve kızı çok üzer. Havacı hastaneye kaldırılır. Yakın zamanda birini kaybetmiş bir çocuğa önceden kısaca söyle.
+- **Anne ve plan:** Kızın annesi tek başına çocuk büyüten, kızına sıkı bir plan yapan bir anne. Bir çocuk kendi ailesini anlatırsa teşekkür et, kimseyi örnek gösterme, sonra kısaca yanına git.
+- **Taşınma ve ayrılık:** İkilem, sık taşınmış ya da arkadaşlarından ayrılmış çocuklara dokunabilir. Kişisel gerekçe isteme, soruyu duvara sor: “Bu tarafı seçen biri ne düşünüyor olabilir?”
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Yaklaşık 2.300 yıl önce Aristoteles dostlukları üçe ayırmış: işimize yarayanlar, hoşumuza gidenler ve iyi oldukları için sevdiklerimiz. Sizin dostluklarınız hangisine benziyor?”
 
 ---
 

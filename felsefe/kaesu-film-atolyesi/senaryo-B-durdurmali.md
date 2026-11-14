@@ -1308,6 +1308,63 @@ Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller
 
 *Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
 
+## Yedek film · 3. günün yerine · Küçük Prens · Öteki
+
+**Künye:** *The Little Prince* (Türkiye'deki adı *Küçük Prens*), Mark Osborne, 2015, yaklaşık 108 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt1754656/ · Antoine de Saint-Exupéry'nin 1943 tarihli kitabından.
+
+Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun3-kucuk-prens.md](moduller/yedek-gun3-kucuk-prens.md). Moderatör kitapçığında “Yedek filmler” bölümü.
+
+- **Günün Açık Sorusu (tahtada tek başına):** **Sevmek ile sevilmek aynı şey mi?** <span class="et">Açık Soru · s. 34</span>
+- **İzleme görevi:** **“Film boyunca tek bir soruyu aklınızda tutun: Bu filmde kim sevilmek istiyor, kim sevmeyi biliyor? Film bitince ne düşüneceksiniz, bakalım.”**
+
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
+
+Üç durak aynı kavramı (sevgi ve bağ) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
+
+### Durak 1 · yaklaşık 25–35. dk · Gül
+
+**Sahne:** Havacı (kızın komşusu, yaşlı ve emekli pilot) kıza Küçük Prens'in hikâyesini anlatıyor. Küçük Prens gezegeninde bir gülü büyütüyor. Gül onun arkadaşı oluyor ama bencil davranıyor. İkisi de birbirini nasıl seveceğini bilmeyecek kadar genç, ayrılıyorlar. Küçük Prens gezegeninden yola çıkınca durdur.
+
+**Koşul:** Sevilmek isteyen biri sevmeyi bilmiyor.
+
+**Açık Soru:** “Gül çok sevilmek istiyordu ama nasıl seveceğini bilmiyordu. Sevilmek istemek ile sevmeyi bilmek aynı şey mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Sevmeyi bilmek için ne gerekli? Birini çok istemek yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Biri seni çok sevdiği hâlde sana kötü davrandığı oldu mu? O zaman o sevgi miydi?”
+
+**Tartışmada geri çağır:** 1. basamak (Gül).
+
+### Durak 2 · yaklaşık 45–55. dk · Tilki'nin vedası · düğüm noktası
+
+**Sahne:** Küçük Prens Dünya'da bir tilkiyle dost oluyor. Tilki vedalaşırken ona hep yüreğiyle bakmasını öğütlüyor. Ardından Havacı kıza doldurulmuş oyuncak bir tilki hediye ediyor ve yakında Küçük Prens'i bulmaya gideceğini söylüyor. Bu an bitince durdur.
+
+**Koşul:** Bağ kuruldu, şimdi ayrılık var.
+
+**Açık Soru:** “Tilki, Küçük Prens'le bağ kurdu ve şimdi ayrılıyorlar. Birine bağlanmak bizi ayrılık acısına da açıyorsa, sevmek yine de değer mi, yoksa başka bir şey mi gerekir?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “Eğer hiç kimseye bağlanmasaydın hiç ayrılık acısı çekmezdin. O zaman daha mı iyi bir hayat yaşardın?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Bir arkadaşın taşındığında ya da okul değiştirdiğinde ne hissettin? Keşke hiç tanışmasaydık der miydin?”
+
+**Tartışmada geri çağır:** 4. basamak ve ikilem.
+
+### Durak 3 · yaklaşık 85–95. dk · Bay Prens
+
+**Sahne:** Kız Küçük Prens'i buluyor, ama o büyümüş, “Bay Prens” olmuş: İş Adamı'nın (bütün yıldızları kasasına kilitleyen, herkesi kendine çalıştıran adam) gezegeninde kaygılı bir temizlikçi. Geçmişini hiç hatırlamıyor. Sonra Havacı'nın sayfalarındaki koyun kutusu çizimini görünce hatırlamaya başlıyor. Hatırlamaya başladığı an durdur.
+
+**Koşul:** Sevdiklerini unutan biri.
+
+**Açık Soru:** “Bay Prens Gül'ü ve Tilki'yi unutmuştu. Bir insan sevdiklerini unutursa, onları sevmeye devam eder mi?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “Eğer sevgi bir anıysa, o zaman unutunca biter mi? Eğer anı değilse, nerede durur?” <span class="et">Ya… ya da… · s. 59–60</span>
+- “Bir eşya, bir koku, bir çizim sana birini hatırlattı mı hiç?”
+
+**Tartışmada geri çağır:** 2. basamak (iki hayat).
+
+*Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
 ## Yedek film · 4. günün yerine · 12 Kızgın Adam · Toplum
 
 **Künye:** *12 Angry Men* (Türkçe Vikipedi'deki adı *12 Öfkeli Adam*), Sidney Lumet, 1957, 96 dk, siyah-beyaz, o dönemin “Approved” belgesi · IMDb: https://www.imdb.com/title/tt0050083/
