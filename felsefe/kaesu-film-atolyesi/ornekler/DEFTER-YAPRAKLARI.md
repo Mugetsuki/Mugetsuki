@@ -25,3 +25,9 @@ Toplam 7 yaprak, 9 yüz. Her yaprağın üstünde “Kamp adım: ____” satır�
 - Kamp sonunda dosya çocukta kalır. Raporlama için moderatör önce fotokopi ya da fotoğraf alır (izin kutularına göre).
 
 **Daha ucuz yol:** Basit bir A4 karton kapak yaprağı (kamp adı ve kamp sorusu yazılı) ve kamp sonunda sol üstten tek zımba. Gün içinde yapraklar moderatördeki zarflarda (kamp adına göre) bekler.
+
+## Görsel dil
+
+- **Gün yaprakları:** Üstte, o günün filminin özgün soyut motifiyle (film görsel kitindeki aynı SVG) bir başlık bandı var. Bandın üstünde krem zeminli bir etiket (“1. gün · The Truman Show”) ve sağ üstte beş noktalı “Yolculuk” göstergesi duruyor. O günün noktası sarı. Motif yalnızca bantta. Yazma alanları krem zeminde ve motifsiz kalıyor.
+- **Başlangıç ve Varış yaprakları:** Beş duraklı bir patika. Her durak, filminin küçük motifiyle işaretli bir daire. Başlangıçta yolun başı turuncu “Buradasın” noktasıyla vurgulanıyor. Varışta yolun sonu vurgulanacak.
+- **Kurallar:** Karakter, afiş ya da logo yok, yalnızca özgün SVG. Motif renkleri filmin paletinden gelir. Sayfanın geri kalanı Filya renklerinde. Siyah-beyaz baskıda patika ve motifler gri tonlarda okunur kalıyor.

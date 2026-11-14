@@ -111,3 +111,19 @@ table.olcek td.c { text-align: center; }
 .yaprak .keyif-genis .sk .dot { display: block; margin: 0 auto 1mm; }
 .yaprak .soru-kutu { background: var(--hl-soft); border-radius: 5mm; padding: 5mm 6mm; margin-top: 6mm; }
 .yaprak .alt-not { position: absolute; left: 17mm; right: 17mm; bottom: 12mm; font-size: 10pt; color: var(--muted); border-top: 0.4mm solid var(--line); padding-top: 2.5mm; }
+
+/* ---------- Yaprak görselleri ---------- */
+.yol { position: relative; width: 176mm; height: 50mm; margin-top: 4mm; }
+.yol svg { position: absolute; left: 0; top: 0; width: 176mm; height: 38mm; }
+.yol .et { position: absolute; top: 38.5mm; width: 30mm; text-align: center; font-size: 9pt; font-weight: 700; color: var(--ink); line-height: 1.15; }
+.yol .et span { display: block; font-weight: 400; color: var(--muted); font-size: 8.5pt; }
+.gun-bant { position: relative; height: 32mm; border-radius: 6mm; overflow: hidden; margin-top: 6mm; background: var(--koyu); }
+.gun-bant svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.gun-bant .etiket { position: absolute; left: 5mm; bottom: 4mm; background: var(--krem); color: var(--koyu); border-radius: 4mm; padding: 2.5mm 5mm 2.5mm 4mm; display: flex; align-items: center; gap: 3mm; }
+.gun-bant .etiket .title { font-size: 22pt; white-space: nowrap; }
+.gun-bant .etiket .pill { white-space: nowrap; flex: none; }
+.gun-bant .ilerleme { position: absolute; right: 5mm; top: 4mm; background: var(--krem); border-radius: 99mm; padding: 1.4mm 3.5mm; display: block; white-space: nowrap; font-size: 8.5pt; font-weight: 700; color: var(--koyu); line-height: 4.4mm; }
+.gun-bant .ilerleme i { display: inline-block; vertical-align: -0.9mm; margin-left: 1.4mm; width: 4mm; height: 4mm; border-radius: 50%; border: 0.35mm solid var(--koyu); background: #fff; }
+.gun-bant .ilerleme i.on { background: var(--sari); }
+
+.yaprak.gun .alan { margin-top: 6.5mm; }
