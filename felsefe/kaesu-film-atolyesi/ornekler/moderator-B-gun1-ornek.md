@@ -4,10 +4,10 @@
 
 **Bu örnekte ne değişti?**
 - **Tek akış, B modeli.** C/B sütunları yok. Durma noktaları ana metin: dakika, sahne tarifi, 1–2 soru.
-- **Duraklar alt metni soruyor:** bir nesne (Sylvia'nın hırkası), birinin söylemediği şey (Marlon'un söyletilen sözü), bir bakış ve dokunuş (Christof'un ekrandaki yüze dokunması). Her durak bir merdiven basamağına bağlı. Tartışmada “O sahneyi hatırlıyor musunuz?” diye geri çağrılıyor.
+- **Duraklar alt metni soruyor:** bir nesne (dergilerden birleştirilen Sylvia yüzü), birinin söylemediği şey (Marlon'un söyletilen sözü), bir bakış ve dokunuş (Christof'un ekrandaki yüze dokunması). Her durak bir merdiven basamağına bağlı. Tartışmada “O sahneyi hatırlıyor musunuz?” diye geri çağrılıyor.
 - **Sade dil:** “sen” diye, bir kolaylaştırıcıya yazılmış notlar gibi. Resmî uyarılar yok. Hassas notlar kısa ve “şöyle yumuşatabilirsin” tonunda.
 - **Ferah sayfa:** 9 pt yerine 11 pt. Her sayfanın tek bir işi var: gün ve akış, film ve duraklar, tartışma, ikilem ve kapanış.
-- **Dakikalar yaklaşık.** Kamptan önceki ön izlemede kendi kopyada işaretlenmeli.
+- **Dakikalar yaklaşık aralık.** Sahneler film özetleriyle karşılaştırıldı, dakikalar zaman damgalı bir kaynakla doğrulanamadı. Kamptan önceki ön izlemede kendi kopyada işaretlenmeli.
 
 <!--
 Örnek: Moderatör kitapçığı, 1. gün, B modeline göre tek akış ve sade dil.
@@ -47,11 +47,11 @@ Basılı hâli: moderator-B-gun1-ornek.pdf (build_ornekler.py moderator-B ile ü
 ### SAYFA · FİLM VE DURAKLAR
 
 ::: durak
-#### 1. durak · yaklaşık 30. dk · Sylvia'nın hırkası
+#### 1. durak · yaklaşık 25–35. dk · Dergilerden bir yüz
 
-**Sahne:** Truman bodrumda, yıllardır sakladığı kırmızı bir hırkaya ve dergilerden kesip birleştirdiği bir kadın yüzüne bakıyor. Ardından geçmişe dönüyoruz: Sylvia (Truman'ın gençliğinde tanıştığı, ona her şeyin bir oyun olduğunu anlatmaya çalışan kız) bir şey söylemeye çalışırken bir adam onu sürükleyip götürüyor. Geri dönüş bitince durdur.
+**Sahne:** Truman bodrumda, karısından gizli, dergilerden kestiği parçalarla bir kadın yüzü birleştirmeye çalışıyor. Bu yüz, gençliğinde tanıştığı Sylvia'nın (Truman'a her şeyin bir oyun olduğunu anlatmaya çalışan, sonra “Fiji'ye taşınıyoruz” denerek götürülen kız) yüzü. Geçmişe dönüşte Sylvia'nın bir şey söylemeye çalışırken götürüldüğünü görüyoruz. Bu bölüm bitince durdur.
 
-**Sor:** “Truman bu hırkayı (Sylvia'dan kalan kırmızı hırka) yıllardır saklıyor ve karısına hiç göstermiyor. Bir insan bir şeyi neden saklar? Truman'ın kimseye söylemediği şey ne?”
+**Sor:** “Truman bu yüzü (dergi kupürlerinden birleştirdiği Sylvia yüzü) karısından saklıyor. Bir insan bir şeyi neden saklar? Truman'ın kimseye söylemediği şey ne?”
 
 **Zaman kalırsa:** “Sylvia tek kişi, kasaba yüzlerce kişi. Truman hangisine inanmalı? Neye bakarak?”
 
@@ -59,9 +59,9 @@ Basılı hâli: moderator-B-gun1-ornek.pdf (build_ornekler.py moderator-B ile ü
 :::
 
 ::: durak
-#### 2. durak · yaklaşık 68. dk · Köprüdeki söz
+#### 2. durak · yaklaşık 65–72. dk · İskeledeki söz
 
-**Sahne:** Kaçma denemesi başarısız olmuş, Truman yıkılmış. Gece su kenarında en yakın arkadaşı Marlon (Truman'ın çocukluk arkadaşı; aslında şovda rol yapan bir oyuncu) yanına oturuyor ve “Sana asla yalan söylemem” diyor. Biz bu cümleyi, kontrol odasındaki Christof'un (şovun yaratıcısı; Truman'ın hayatını yöneten yapımcı) ona fısıldadığını görüyoruz. Truman görmüyor. Hemen ardından babasıyla kucaklaşma sahnesi geliyor. O sahne bitince durdur.
+**Sahne:** Kaçma denemesi başarısız olmuş, Truman yıkılmış. Gece bir iskelede en yakın arkadaşı Marlon (Truman'ın çocukluk arkadaşı; aslında şovda rol yapan bir oyuncu) yanına oturuyor ve “Sana asla yalan söylemem” diyor. Biz bu cümleyi, kontrol odasındaki Christof'un (şovun yaratıcısı; Truman'ın hayatını yöneten yapımcı) ona fısıldadığını görüyoruz. Truman görmüyor. Hemen ardından babasıyla kucaklaşma sahnesi geliyor. O sahne bitince durdur.
 
 **Sor:** “Marlon o cümleyi söylerken Truman'ın gözünün içine bakıyor. Biz cümleyi başkasının yazdığını biliyoruz. Truman neden inanıyor? Sen birinin doğruyu söylediğine neye bakarak karar verirsin?”
 
@@ -71,7 +71,7 @@ Basılı hâli: moderator-B-gun1-ornek.pdf (build_ornekler.py moderator-B ile ü
 :::
 
 ::: durak
-#### 3. durak · yaklaşık 80. dk · Ekrandaki yüz
+#### 3. durak · yaklaşık 75–82. dk · Ekrandaki yüz
 
 **Sahne:** Christof gece kontrol odasında, dev ekranda uyuyan Truman'ın yüzüne parmaklarıyla dokunuyor. Kısa süre sonra ekip Truman'ın ortadan kaybolduğunu fark ediyor. Arama başlayınca durdur.
 
@@ -94,13 +94,13 @@ Basılı hâli: moderator-B-gun1-ornek.pdf (build_ornekler.py moderator-B ile ü
 
 **dk 12–42 · Soru merdiveni.** Dört basamak, her biri 7–8 dakika. Öğrenci şunu derse, sen şunu sor.
 
-**1. basamak: Bilgi mi, inanç mı?** *Geri çağır:* “Köprüdeki sözü hatırlıyor musunuz?” Sonra: “Truman otuz yıl ‘Arkadaşım bana yalan söylemez, karım beni seviyor’ diye biliyordu. Bu bilgi miydi?”
+**1. basamak: Bilgi mi, inanç mı?** *Geri çağır:* “İskeledeki sözü hatırlıyor musunuz?” Sonra: “Truman otuz yıl ‘Arkadaşım bana yalan söylemez, karım beni seviyor’ diye biliyordu. Bu bilgi miydi?”
 - *“Hayır, yanlıştı.”* “Senin ‘biliyorum’ dediğin ama yanlış çıkabilecek bir şey var mı?”
 - *“Onun için bilgiydi.”* “Biri ‘Dünya düz’ diye ‘biliyorsa’ bu bilgi mi? Bilmek ile inanmak arasındaki fark ne?”
 - *“Marlon gözünün içine bakıyordu.”* “Göz de rol yapabiliyorsa neye bakacağız?”
 - *“Herkes öyle söylüyordu.”* “Seahaven'da (Truman'ın yaşadığı kasaba; aslında dev bir stüdyo seti) herkes aynı şeyi söylüyordu. Çok kişinin söylemesi bir şeyi doğru yapar mı?”
 
-**2. basamak: Rüya.** *Geri çağır:* “Hırkayı hatırlıyor musunuz? Truman'ın elinde kanıt yoktu, ama bir şeylerin eksik olduğunu seziyordu.” Sonra: “Dün gece rüyanda her şeyi gerçek sandın. Şu an rüya görmediğini nasıl kanıtlarsın?”
+**2. basamak: Rüya.** *Geri çağır:* “Dergilerden birleştirilen yüzü hatırlıyor musunuz? Truman'ın elinde kanıt yoktu, ama bir şeylerin eksik olduğunu seziyordu.” Sonra: “Dün gece rüyanda her şeyi gerçek sandın. Şu an rüya görmediğini nasıl kanıtlarsın?”
 - *“Kendimi çimdiklerim.”* “Rüyanda hiç acı hissetmedin mi?”
 - *“Uyanınca anlarım.”* “Ya uyandığın yer de bir rüyaysa? Sezmek, bilmek mi?”
 - *“Hiçbir şey bilemeyiz.”* “Bu cümleyi bildiğimizi nasıl biliyoruz?” Bu nokta son değil, merdivenin ortası.

@@ -240,6 +240,35 @@ def kitap_b():
 
 
 # --------------------------------------------------------------------------------------
+# Soru kaynakları: 1. gün yaprağındaki soruların filmdeki dayanakları (soru-kaynaklari-gun1.md'den)
+# --------------------------------------------------------------------------------------
+def soru_kaynaklari():
+    import markdown
+    md = (ROOT / "soru-kaynaklari-gun1.md").read_text(encoding="utf-8")
+
+    def conv(text):
+        text = re.sub(r"(?m)^((?![ \t]*(?:[-*]|\d+\.)[ \t]).+)\n([ \t]*(?:[-*]|\d+\.)[ \t])", r"\1\n\n\2", text)
+        return markdown.markdown(text, extensions=["tables", "md_in_html"])
+
+    def bloklar(text):
+        parcalar = re.split(r"(?ms)^::: (\w+)\n(.*?)^:::\n", text)
+        out = [conv(parcalar[0])]
+        for i in range(1, len(parcalar), 3):
+            out.append(f'<div class="{parcalar[i]}">{conv(parcalar[i + 1])}</div>{conv(parcalar[i + 2])}')
+        return "".join(out)
+
+    sayfalar = re.split(r"(?m)^### SAYFA · (.+)\n", md)[1:]
+    toplam = len(sayfalar) // 2
+
+    def bant(no, ad):
+        return (f'<div class="bant"><table><tr><td><div class="label" style="color:var(--krem)">SORU KAYNAKLARI · 1. GÜN YAPRAĞI</div>'
+                f'<div class="t">The Truman Show</div><div class="s">Bu soru nereden çıktı? · Kamp sorusu: İyi bir hayat nedir?</div></td>'
+                f'<td style="text-align:right"><span class="pill sari">{no}/{toplam} · {ad}</span></td></tr></table></div>')
+
+    return "".join(f'<section class="kb">{bant(i + 1, sayfalar[2 * i].strip())}{bloklar(sayfalar[2 * i + 1])}</section>' for i in range(toplam))
+
+
+# --------------------------------------------------------------------------------------
 # Defter yaprakları (gün gün dağıtılan, ferah): Başlangıç ve 1. gün örneği
 # --------------------------------------------------------------------------------------
 def ust_serit(sag_etiket):
@@ -320,6 +349,7 @@ def defter_gun1():
 URUNLER = {
     "dusunce-yolculugu-ornek": ("Düşünce yolculuğum · örnek", defter, 2),
     "moderator-gun1-ornek": ("Moderatör kitapçığı · 1. gün · örnek", kitap, 2),
+    "soru-kaynaklari-gun1": ("Soru kaynakları · 1. gün · örnek", soru_kaynaklari, 4),
     "moderator-B-gun1-ornek": ("Moderatör kitapçığı · 1. gün · B modeli, sade dil · örnek", kitap_b, 4),
     "defter-yaprak-baslangic-ornek": ("Düşünce yolculuğum · Başlangıç yaprağı · örnek", defter_baslangic, 2),
     "defter-yaprak-gun1-ornek": ("Düşünce yolculuğum · 1. gün yaprağı · örnek", defter_gun1, 1),
