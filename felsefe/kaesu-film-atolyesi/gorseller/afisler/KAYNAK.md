@@ -12,3 +12,4 @@ Bu afişler yalnızca **moderatör kitapçığında**, filmi tanımak için kü�
 | `gun3-wonder.jpg` | Wonder (2017) | https://en.wikipedia.org/wiki/File:Wonder_(film).png |
 | `gun4-zoo.jpg` | Zootopia (2016) | https://en.wikipedia.org/wiki/File:Zootopia_(movie_poster).jpg |
 | `gun5-soul.jpg` | Soul (2020) | https://en.wikipedia.org/wiki/File:Soul_(2020_film)_poster.jpg |
+| `yedek-gun2-robot.jpg` | The Wild Robot (2024), yedek film | https://en.wikipedia.org/wiki/File:The_Wild_Robot_poster.jpg |

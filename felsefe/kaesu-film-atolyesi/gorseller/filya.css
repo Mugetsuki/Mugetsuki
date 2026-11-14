@@ -151,3 +151,4 @@ table.form td { background: var(--raised); }
 .rz-et span { display: block; color: var(--muted); font-size: 7.8pt; white-space: nowrap; }
 .rz-et.uc { width: 30mm; }
 .rz-parca { position: absolute; }
+.kitap code { font-family: "Albert Sans"; font-weight: 700; font-size: 1em; }

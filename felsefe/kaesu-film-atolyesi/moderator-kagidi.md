@@ -521,3 +521,111 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 6. **Felsefe köşesi:** “Bu soruyu 2.300 yıl önce Aristoteles de sormuş. Onun cevabı da tek bir parça değildi.”
 
 **Hassas içerik:** Açılıştaki kaza ve “öte” sahneleri yası tetikleyebilir. Yas yaşayan öğrenciye önceden söyle. “Hayatı yaşamaya değer kılan ne?” sorusu karanlık bir düşünce çağırırsa ciddiye al, protokolü uygula, aynı gün yetkiliye bildir.
+
+---
+
+## YEDEK FİLMLER
+
+**Yaklaşım: aynı durak, farklı yol.** Yedek film asıl filmin kopyası değildir. Aynı günün kavramını ve kamp sorusunu taşır, ama kendi soru merdiveni, kendi düşünce deneyi ve kendi köprü cümleleriyle gelir. Her yedeğin tam modülü `moduller/yedek-*.md` dosyasında.
+
+| Yedek film | Yerine geçtiği gün | Asıl filmden farkı | Ne zaman seçilir |
+|---|---|---|---|
+| Vahşi Robot | 2. gün (Benlik) | “Ben değişiyor mu?” yerine “Ben, yapıldığım şey mi, seçtiğim şey mi?” | Grup Ters Yüz 2'yi izlemişse ya da küçük yaş ağırlıklıysa |
+
+*Diğer yedek filmler (12 Kızgın Adam, WALL-E, Küçük Prens ve 1. gün için bir yedek) onaydan sonra eklenecek.*
+
+**Yedek film gösterilirse yapılacaklar:**
+1. **Rozet:** `rozet-yapragi.pdf`'ten yedek filmin rozetini kes. Başlangıç ve Varış yapraklarındaki patikada o günün rozetinin üstüne, rozet rozete oturacak şekilde yapıştır. Etiket kâğıdına basıldıysa yapıştırıcı gerekmez.
+2. **Gün yaprağı:** O günün yaprağı yerine yedek filmin yaprağını dağıt (`defter-yaprak-yedek-*.pdf`).
+3. **Duvar ve görseller:** Günün afişi, not kartı ve ikilem tabelaları yerine yedek filminkileri kullan (`gorseller/pdf/yedek-*`).
+4. **Köprüler:** Yedek sayfasındaki “dünden” ve “yarına” köprü cümlelerini kullan. Diğer günlerin sayfaları değişmez.
+
+---
+
+## YEDEK · 2. GÜN · Vahşi Robot
+
+### ÖN YÜZ
+
+**IMDb:** <https://www.imdb.com/title/tt29623480/>
+
+- **Yerine geçtiği gün:** 2. gün (Benlik). Ters Yüz 2 yerine.
+- **Sınanan ilk cevap:** “İyi bir hayat kendin olabildiğin hayattır.” Bu film cevabın içindeki varsayımı sınar: “Kendin”, sana verilen doğa mı?
+- **Günün kavram sorusu:** Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?
+- **Kamp sorusuna bağlanan soru:** İyi bir hayat için doğana uygun mu yaşamalı, yoksa kim olacağını kendin mi seçmelisin?
+- **İzleme görevi:** Roz (adada mahsur kalan, insanlara hizmet için yapılmış robot) programında olmayan neler yapmaya başlıyor? Hangi anda “Bu artık bir makine değil” dedin?
+
+[[ÜST BLOK SONU]]
+
+**Zaman çizelgesi**
+
+| Bölüm | C | B |
+|---|---|---|
+| Dünkü gün kartı, hayattan sorular | 9 dk | 9 dk |
+| Hassas içerik uyarısı (doğada ölüm, annesiz yavru) | 2 dk | 2 dk |
+| İzleme görevi | 4 dk (kart) | 4 dk (sözlü) |
+| Film (102 dk) + duraklar | 1 × 5 dk | 2 × 6 dk |
+| Ara + “Duygu heykelleri” | 10 dk | 10 dk |
+| Tartışma | 60 dk | 60 dk |
+| Köprü ve hayattan soru görevi | 3 dk | 3 dk |
+| **Toplam** | **~3 sa 15 dk** | **~3 sa 22 dk** |
+
+**Durma noktaları**
+
+| C (1 yazma durağı) | B (2 konuşmalı durak) |
+|---|---|
+| **1. Roz'un yavru kazı büyütmeyi kendine görev edindiği bölüm bitince.** Yaz: “Roz şu an ne için çalışıyor?” Sor: “Brightbill'e (Roz'un büyüttüğü yetim kaz yavrusu) bakmayı ‘görev’ olarak üstlendi. Bir şeyi görev olduğu için yapmak ile isteyerek yapmak arasında fark var mı?” | **1.** Aynı yer, aynı soru. |
+| | **2. Brightbill sürüyle göçe çıkınca.** “Birini sevmek, onun gitmesine izin vermek mi? Seni sen yapan biri gidince sen yine aynı kişi misin?” (su molası) |
+
+**Dünden köprü (açılış):** “Dün Truman'ın hayatının başkaları tarafından yazıldığını gördük. Bugün hayatı bir fabrikada programlanmış biriyle tanışacağız. Kendi hayatımızın ne kadarı bize ait?”
+
+**Soruların altındaki soru (dk 5–12):** “Fink (adada kimsenin güvenmediği yalnız tilki) neden Roz'a yardım etti?” sorusu “Herkesin ‘kötü’ dediği biri iyi olmayı seçebilir mi?” olur. Ortak soru: **Bizi biz yapan ne?**
+
+**Kapanış ikilemi: fabrika ayarı (dk 42–50).** Roz'u fabrika ayarlarına döndürebilirler. Kusursuz çalışacak ama adada öğrendiği her şeyi ve Brightbill'i unutacak.
+- **A:** Fabrika ayarına dönerim.
+- **B:** Bugünkü hâlimle kalırım.
+- **Ters köşe, A'ya:** “Brightbill sana uçup geliyor ve sen onu tanımıyorsun. Yine de?”
+- **Ters köşe, B'ye:** “Adada öğrendiklerin yüzünden bazen yanlış karar verip acı çekiyorsun. ‘Bozuk’ olmak gerçekten daha iyi mi?”
+
+### ARKA YÜZ
+
+**Soru merdiveni (dk 12–42).** Öğrenci şunu derse, sen şunu sor.
+
+**Basamak 1: Filmden kavrama.** “Roz, Brightbill'e annelik etmeye başladı. Bu bir ‘görev’ miydi, yoksa sevgi mi?”
+- *“Görev, o bir robot.”* “Görevi bitince de onu düşünmeye devam etti. Görev bitince süren şeyin adı ne?”
+- *“Sevgi.”* “Bir robot sevebilir mi? Sevgiyi neye bakarak anlarız?” (1. günle köprü)
+- *“İkisi aynı.”* “Annenin sana bakması bir görev mi? Görev olunca değeri azalır mı?”
+- *“Programı öyle.”* “O zaman senin iyiliğin de bir ‘program’ mı?”
+
+**Basamak 2: Düşünce deneyi, bal yapmak istemeyen arı.** “Kovanın kuralı: herkes bal yapar. Bir arı bal yapmaktan hoşlanmıyor, çiçeklerin resmini yapmak istiyor. Doğası bal yapmak mı, ne istediği mi?”
+- *“Bal yapmalı.”* “Doğduğumuz şey kim olacağımızı belirler mi? Çiftçinin çocuğu çiftçi mi olmalı?”
+- *“İstediğini yapmalı.”* “Herkes yalnızca istediğini yaparsa kovan yaşar mı?”
+- *“Başka kovan bulmalı.”* “Ada da Roz'un kovanı değildi ama evini orada buldu. Ait olduğun yeri seçebilir misin?”
+- *“Bilmiyorum.”* “Senin ‘Ama ben böyle yapılmışım’ dediğin bir şey var mı?”
+
+**Basamak 3: Kamp sorusuna bağlantı.** “Roz'un ‘kendi’ hangisi: fabrikadan çıktığı hâli mi, adadaki hâli mi?”
+- *“Fabrika hâli.”* “Senin gerçek hâlin doğduğun gündeki hâlin mi?”
+- *“Adadaki hâli.”* “Bizi yaşadıklarımız mı yapıyor? Kötü şeyler yaşayan biri kötü mü olur?”
+- *“İkisi birden.”* “Hangi parçasını seçemezdi? Senin seçemediğin bir parçan var mı?”
+- *“Kendini seçti.”* “Fink adada herkesin gözünde ‘kurnaz tilki’ydi. Başkalarının verdiği ad da bizi yapar mı?”
+
+**Basamak 4: Düşünce deneyi, fabrika ayarı.** “Kusursuz ama hatırasız mı, hatalı ama kendin mi?”
+- *“Dönmem, anılarım benim.”* “Bir şeyi unutursan biraz daha az mı ‘sen’ olursun?”
+- *“Dönerim, acı çekmem.”* “Acı çekmeyen ama kimseyi tanımayan biri iyi bir hayat mı yaşıyor?” (deneyim makinesi)
+- *“Brightbill için dönmem.”* “Seni sen yapan başkalarıyla bağın mı? ‘Ben’ yalnız başına var olabilir mi?”
+- *“Bilmiyorum.”* “Biri ‘kusursuz ol’, diğeri ‘hatırla’ diyor. Hangisi daha yüksek sesle konuşuyor?”
+
+**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘kendin olmak’ı bir robotla sınadık. Ne ekliyoruz?” Grubun cümlesini 2. gün kartına yaz.
+
+**Gün yaprağı (dk 55–60):** Vahşi Robot yaprağı.
+
+**Yarına köprü (3 dk):** “Roz'u en çok Brightbill, Fink ve adanın hayvanları değiştirdi. ‘Ben’ başkalarıyla birlikte oluşuyor. Başkaları benim iyi hayatımın neresinde? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Kampta ‘Ben böyle biriyim, değişmem’ dediğin ya da duyduğun bir an yakala.”
+
+**Tıkanırsam**
+1. **Herkes B'de:** “Çok acı bir anıyı silebilseydin ve bu seni mutlu etseydi? Her anıyı korumak zorunda mıyız?”
+2. **Herkes “istediğini yap” diyor:** “İstediğimiz şey ile ihtiyaç duyulan şey çatışırsa?”
+3. **Herkes “Roz sevgiyle yaptı” diyor:** “Roz'un hissettiğini nereden biliyoruz? Peki birbirimizin?”
+4. **Olaylara kaydı:** “Roz'u bırakalım. Senin ‘ben böyle yapılmışım’ dediğin bir şey?”
+5. **Sessizlik:** İkili konuşma (2 dk): “Seçemediğin bir özelliğin ve seçtiğin bir özelliğin.”
+6. **Felsefe köşesi:** “Aristoteles ‘Her şeyin bir amacı vardır’, Sartre ‘İnsan amacını kendisi seçer’ demiş. Roz hangisine benziyor?”
+
+**Hassas içerik:** Brightbill annesiz kalır. Grupta evlat edinilmiş ya da koruyucu aile yanında büyüyen öğrenci olabilir. “Gerçek anne” ifadesini kullanma, gelirse genelleştir: “Birini anne ya da baba yapan ne?” Doğada avlanma ve ölüm şakaları var. Göç ve final duygusal, arayı kısaltma.

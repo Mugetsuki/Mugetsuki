@@ -222,7 +222,7 @@ URUNLER = {
     "defter-dusunce-yolculugum": ("Düşünce yolculuğum · bütün yapraklar", tum_defter, 10),
     "defter-yaprak-yedek-gun2-vahsi-robot": ("Düşünce yolculuğum · yedek film · Vahşi Robot", yedek_yaprak_robot, 1),
     "rozet-yapragi": ("Rozet yaprağı", rozet_yapragi, 1),
-    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 12),
+    "moderator-kitapcigi": ("Moderatör kitapçığı", kitapcik, 15),
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
 }

@@ -13,6 +13,7 @@ import re
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 MODULLER = ["gun1-truman.md", "gun2-ters-yuz-2.md", "gun3-mucize.md", "gun4-zootropolis.md", "gun5-soul.md"]
+YEDEKLER = ["yedek-gun2-vahsi-robot.md"]   # her yedek için senaryoya kısa ek
 
 # Günlerin zaman dilimleri: (ad, dakika). "FILM" yer tutucusu duraklarla birlikte filmi temsil eder.
 GUNLER = {
@@ -232,6 +233,28 @@ def duraklar(govde, model):
     return "\n".join(out) + ("\n" + ek + "\n" if ek else "")
 
 
+def yedek_eki(dosya, model):
+    """Yedek film için kısa ek: künye, yerine geçtiği gün, izleme görevi ve modele özgü durma noktaları."""
+    md = (HERE / dosya).read_text(encoding="utf-8")
+    head, secs = sections(md)
+    title = head.split("\n", 1)[0].lstrip("# ").strip()
+    kunye = re.search(r"\*\*Künye:\*\*[^\n]*", head).group(0)
+    d = dict(secs)
+    yeri = next((v for k, v in secs if k.startswith("Günün yolculuktaki yeri")), "")
+    kavram = re.search(r"\*\*Günün kavram sorusu:\*\*[^\n]*", yeri)
+    acilis = next((v for k, v in secs if k.startswith("Açılış")), "")
+    izleme = re.search(r"\*\*İzleme görevi[^\n]*\n(?:.*\n)*?(\*\*“[^\n]*”\*\*)", acilis)
+    duraklar_metni = duraklar(next(v for k, v in secs if k.startswith("Duraklar")), model)
+    out = [f"## {title}\n\n{kunye}\n\nTam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/{dosya}](moduller/{dosya}). Moderatör kitapçığında “Yedek filmler” bölümü.\n"]
+    if kavram:
+        out.append(f"- {kavram.group(0)}")
+    if izleme:
+        out.append(f"- **İzleme görevi:** {izleme.group(1)}")
+    out.append("")
+    out.append(duraklar_metni.replace("### Durak", "### Durak"))
+    return "\n".join(out) + "\n"
+
+
 def gun_bolumu(dosya, model):
     md = (HERE / dosya).read_text(encoding="utf-8")
     n = int(re.match(r"gun(\d)", dosya).group(1))
@@ -259,7 +282,11 @@ def main():
     for model, dosya, diger in (("C", "senaryo-C-gorevli-izleme.md", "senaryo-B-durdurmali.md"), ("B", "senaryo-B-durdurmali.md", "senaryo-C-gorevli-izleme.md")):
         g = GENEL[model]
         metin = g["baslik"] + "\n\n" + GIRIS.format(diger=diger, oz=g["oz"], malzeme_ek=g["malzeme_ek"], alt_soru=g["alt_soru"])
-        metin += "\n" + "".join(gun_bolumu(m, model) for m in MODULLER) + BC_NOTU
+        metin += "\n" + "".join(gun_bolumu(m, model) for m in MODULLER)
+        metin += ("# Yedek filmler: kısa ek\n\nYedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme görevi, durma noktaları ve sorular (aşağıda), "
+                  "soru merdiveni, ikilem ve köprüler (modülde ve kitapçıkta). Patikadaki rozet `rozet-yapragi.pdf`'ten yapıştırılır, gün yaprağı yerine yedeğin yaprağı dağıtılır.\n\n"
+                  + "".join(yedek_eki(m, model) for m in YEDEKLER) + "\n---\n\n")
+        metin += BC_NOTU
         metin = re.sub(r"\n{3,}", "\n\n", metin)
         (ROOT / dosya).write_text(metin, encoding="utf-8")
         print(dosya, len(metin.splitlines()), "satır")

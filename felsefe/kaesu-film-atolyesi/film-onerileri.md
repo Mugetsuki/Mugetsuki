@@ -374,8 +374,9 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
   - **Eğer'leme:** "Peki ya Hayat Planı'na uyarak gerçekten mutlu olsaydı?"
 - **Kapanış ikilemi:** Plana uyarsan iyi bir okula girmen ve "başarılı" olman neredeyse kesin. Uymazsan ne olacağını bilmiyorsun ama zamanın senin. Hangisini seçersin? Kendi çocuğun olsaydı ona hangisini önerirdin?
 
-#### Vahşi Robot (The Wild Robot, Chris Sanders) · 2. günün yerine geçebilir (küçük yaş ağırlıklı grupta)
+#### Vahşi Robot (The Wild Robot, Chris Sanders) · 2. günün yerine geçer
 
+- **Yeni derinlikte modül (aynı durak, farklı yol):** [moduller/yedek-gun2-vahsi-robot.md](moduller/yedek-gun2-vahsi-robot.md). Sorular, duraklar, düşünce deneyleri ve ikilem orada. Görseller: `gorseller/pdf/yedek-gun2-robot-*`, gün yaprağı ve rozet.
 - **IMDb:** https://www.imdb.com/title/tt29623480/
 - **Yıl / süre:** 2024 · 102 dk · **Yaş sınırı:** MPAA PG (aksiyon/tehlike, tematik öğeler) · Türkiye: Beyazperde "6 yaş altı aile eşliğinde" notu veriyor, resmi kayıt doğrulanamadı.
 - **Özet:** Bir kargo kazasında ıssız bir adaya düşen hizmet robotu Roz, yapacak bir görev arıyor. Kazayla bir kaz yuvasını ezer ve tek kalan yumurtadan çıkan yavru kaz Brightbill onu annesi sanır. Roz, kurnaz tilki Fink'in de yardımıyla yavruya yemek yemeyi, yüzmeyi ve göç için uçmayı öğretmeye çalışır.
@@ -384,15 +385,7 @@ Programdaki bir film bulunamazsa, grup daha önce izlemişse ya da grubun yaş y
   1. *Yuva kazası:* Roz bir kovalamaca sırasında kaz yuvasını ezer ve tek yumurtayı kurtarır.
   2. *"Programlandığından fazlası olmak":* Roz, hayatta kalmak için bazen programlandığından daha fazlası olmak gerektiğini söyler.
   3. *Kış fırtınası:* Birbirini avlayan hayvanlar Roz'un sığınağında ateşkes yapar.
-- **Durma noktası (yaklaşık ilk üçte bir):** Roz'un yavruya bakmayı kendine görev olarak belirlediği bölümden sonra. **Soru:** "Bir makine anne olabilir mi? Anne olmak için ne gerekir?" **Süre:** 5 dk.
 - **Atlanacak / dikkat edilecek sahneler:** Atlanacak sahne yok. Hayvan ölümleri (ezilen yuvadaki yumurtalar dahil) ve küçük bir sahnede ölüm şakaları var. Ortaokul için uygun.
-- **Sorular:**
-  - **Görev sorusu:** Doğamıza aykırı davranmak mümkün mü?
-  - *Doğa ve seçim:* (1) Fink bir tilki ve tilkiler kaz yer. Doğasına aykırı davranması doğru mu? (2) Roz'da "nazik olmak" diye bir program yoktu ama nazik oldu. Bu nereden geldi?
-  - *Bakım:* (3) Roz, Brightbill'in annesi mi? (4) Yuvayı Roz kazayla ezdi. Kazayla yapılan bir şeyden sorumlu muyuz?
-  - *Bir arada yaşamak:* (5) Fırtınada avcılar ve avlar ateşkes yaptı. Ortak bir tehlike olmadan barış mümkün mü?
-  - **Eğer'leme:** "Peki ya Roz fabrika ayarlarına dönebilseydi ve bunu istemeseydi? Bir makinenin 'istemesi' ne demek?"
-- **Kapanış ikilemi:** Roz eski programına dönerse kusursuz ve güvenli çalışacak ama adada edindiği her şeyi unutacak. Yeni haliyle kalırsa "bozuk" sayılacak. Hangisini seçmeli? Bir insan için "fabrika ayarına dönmek" ne demek olurdu?
 
 #### 12 Kızgın Adam (12 Angry Men, Sidney Lumet) · 4. günün yerine geçebilir (lise ağırlıklı grupta)
 

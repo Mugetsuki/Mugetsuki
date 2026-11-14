@@ -28,6 +28,20 @@ Dosya adlarında: `gun1-truman` The Truman Show, `gun2-io2` Ters Yüz 2, `gun3-w
 
 **5. gün notu:** Programda 5. gün kapanış ikilemi yerine **Beş Kapı** etkinliği yapılır. `gun5-soul-ikilem.pdf` tabelaları "isteğe bağlı" diye işaretli. Yalnızca Soul ayrı bir oturumda kullanılırsa gerekir.
 
+## Yedek filmler (aynı durak, farklı yol)
+
+Her yedek film kendi görselleriyle gelir. Yedek film gösterilirse o günün afişi, not kartı ve ikilem tabelaları yerine bunlar kullanılır. Ayrıca patikaya rozeti yapıştırılır ve gün yaprağı yerine yedeğin yaprağı dağıtılır.
+
+| Dosya | İçerik | Kağıt |
+|---|---|---|
+| `pdf/yedek-gun2-robot-afis.pdf` | Vahşi Robot (2. günün yerine): günün afişi | A4 dikey |
+| `pdf/yedek-gun2-robot-not-karti.pdf` | Filme özel izleme görevli not kartı (4 × A6) | A4 dikey, kesim çizgili |
+| `pdf/yedek-gun2-robot-ikilem.pdf` | Fabrika ayarı ikilemi: A ve B tabelaları | A4 yatay, 2 sayfa |
+| `pdf/defter-yaprak-yedek-gun2-vahsi-robot.pdf` | Gün yaprağı | A4 dikey |
+| `pdf/rozet-yapragi.pdf` | Rozet (bütün rozetlerle birlikte) | A4, %100 |
+
+Moderatör kitapçığının sonundaki “Yedek filmler” bölümünde her yedeğin ön-arka tam sayfası var. Diğer yedekler onaydan sonra eklenecek.
+
 ## Kamp geneli
 
 | Dosya | İçerik | Kağıt | Nasıl basılır | Kaç adet |

@@ -1079,6 +1079,37 @@ Söylenebilecek tek cümle: “Bugün sorduğunuz soruyu 2.300 yıl önce Aristo
 
 ---
 
+# Yedek filmler: kısa ek
+
+Yedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme görevi, durma noktaları ve sorular (aşağıda), soru merdiveni, ikilem ve köprüler (modülde ve kitapçıkta). Patikadaki rozet `rozet-yapragi.pdf`'ten yapıştırılır, gün yaprağı yerine yedeğin yaprağı dağıtılır.
+
+## Yedek film · 2. günün yerine · Vahşi Robot · Benlik
+
+**Künye:** *The Wild Robot* (Türkiye'deki adı *Vahşi Robot*), Chris Sanders, 2024, 102 dk, MPAA PG · IMDb: https://www.imdb.com/title/tt29623480/
+
+Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun2-vahsi-robot.md](moduller/yedek-gun2-vahsi-robot.md). Moderatör kitapçığında “Yedek filmler” bölümü.
+
+- **Günün kavram sorusu:** Bizi biz yapan, yapıldığımız şey mi, yoksa seçtiklerimiz mi?
+- **İzleme görevi:** **“Roz (adada mahsur kalan robot) programında olmayan neler yapmaya başlıyor? Sen izlerken hangi anda ‘Bu artık bir makine değil’ dedin?”**
+
+### Durak 1: Roz'un yavru kazı büyütmeyi kendine görev edindiği bölüm bitince (yaklaşık ilk üçte bir)
+
+**Süre:** 6 dk
+
+“Roz, Brightbill'e (Roz'un büyütmeye başladığı yetim kaz yavrusu) bakmayı bir ‘görev’ olarak üstlendi. Bir şeyi görev olduğu için yapmak ile isteyerek yapmak arasında fark var mı? Dışarıdan bakan bu farkı görebilir mi?”
+
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+
+### Durak 2: Brightbill'in sürüyle göçe çıktığı bölümden sonra (son üçte birin başı). Ön izlemede yerini işaretleyin.
+
+**Süre:** 6 dk
+
+“Roz, Brightbill'i uçabilsin diye eğitti ve şimdi onu uğurladı. Birini sevmek, onun gitmesine izin vermek mi? Seni sen yapan biri gidince sen yine aynı kişi misin?” (Su molası)
+
+*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+
+---
+
 # B mi, C mi? Hangisini ne zaman seçmeli?
 
 *Bu not iki senaryo dosyasında da aynıdır.*
