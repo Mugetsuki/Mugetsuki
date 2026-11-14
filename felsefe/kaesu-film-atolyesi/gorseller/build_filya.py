@@ -289,6 +289,31 @@ def atolye_senaryosu():
     return "".join(f'<section class="sn">{bant(i + 1, sayfalar[2 * i].strip())}{bloklar(sayfalar[2 * i + 1])}</section>' for i in range(toplam))
 
 
+# --------------------------------------------------------------------------------------
+# Soru kaynakları (../soru-kaynaklari/*.md): yapraktaki her sorunun filmdeki dayanağı
+# --------------------------------------------------------------------------------------
+SORU_KAYNAKLARI = {
+    # ürün adı: (kaynak dosya, bant üst etiketi, film, beklenen sayfa)
+    "soru-kaynaklari-gun1": ("gun1-truman.md", "SORU KAYNAKLARI · 1. GÜN YAPRAĞI", "The Truman Show", 4),
+    "soru-kaynaklari-gun2": ("gun2-ters-yuz-2.md", "SORU KAYNAKLARI · 2. GÜN YAPRAĞI", "Ters Yüz 2", 4),
+    "soru-kaynaklari-gun3": ("gun3-mucize.md", "SORU KAYNAKLARI · 3. GÜN YAPRAĞI", "Mucize (Wonder)", 4),
+    "soru-kaynaklari-gun4": ("gun4-zootropolis.md", "SORU KAYNAKLARI · 4. GÜN YAPRAĞI", "Zootropolis", 4),
+    "soru-kaynaklari-gun5": ("gun5-soul.md", "SORU KAYNAKLARI · 5. GÜN VE VARIŞ YAPRAĞI", "Soul", 4),
+}
+
+
+def soru_kaynagi(ad):
+    dosya, ust, film, _ = SORU_KAYNAKLARI[ad]
+
+    def uret():
+        md = (ROOT.parent / "soru-kaynaklari" / dosya).read_text(encoding="utf-8")
+        sayfalar = re.split(r"(?m)^### SAYFA · (.+)\n", md)[1:]
+        toplam = len(sayfalar) // 2
+        return "".join(f'<section class="kb">{kb_bant(ust, film, "Bu soru nereden çıktı? · Kamp sorusu: İyi bir hayat nedir?", f"{i + 1}/{toplam} · {sayfalar[2 * i].strip()}")}'
+                       f'{kb_html(sayfalar[2 * i + 1])}</section>' for i in range(toplam))
+    return uret
+
+
 URUNLER = {
     "defter-yaprak-0-baslangic": ("Düşünce yolculuğum · Başlangıç yaprağı", yp.yaprak_baslangic, 2),
     "defter-yaprak-1-gun1": ("Düşünce yolculuğum · 1. gün", gun_yapragi(1), 1),
@@ -306,6 +331,7 @@ URUNLER = {
     "form-veli-onay": ("Veli onay formu", veli, 1),
     "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),
 }
+URUNLER.update({ad: (f"Soru kaynakları · {v[2]}", soru_kaynagi(ad), v[3]) for ad, v in SORU_KAYNAKLARI.items()})
 
 
 def main():
