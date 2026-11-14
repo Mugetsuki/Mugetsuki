@@ -66,8 +66,8 @@ DAYS = [
 YEDEKLER = [
     dict(n=2, key="robot", t="t-robot", film="Vahşi Robot", TEMA="BENLİK", tema_alt="Bana verilen ve benim seçtiğim",
          soru="Bana verilen bir şey ne zaman gerçekten “benim” olur?",
-         gorev="Roz (adada mahsur kalan robot) programında olmayan neler yapmaya başlıyor? Sen izlerken hangi anda “Bu artık bir makine değil” dedin?",
-         ikilem_q="Bir kapıdan geçersen en başa dönersin. Doğuştan getirdiklerin kalır, ama öğrendiklerin, alışkanlıkların, yaşadıkların ve sana takılan adlar silinir. Geçer misin?",
+         gorev="Film boyunca tek bir soruyu aklında tut: Roz’a verilen şeylerden hangileri zamanla onun oluyor?",
+         ikilem_q="Bir kapıdan geçersen en başa dönersin. Doğuştan getirdiklerin kalır, ama öğrendiklerin, alışkanlıkların, yaşadıkların ve sana takılan adlar silinir. Geçer misin? Yoksa başka bir yol mu var?",
          A=("Kapıdan geçerim", "Temiz bir sayfadan, sıfırdan başlarım. Herkes beni yeniden tanır."),
          B=("Bugünkü hâlimle kalırım", "Geçmem. Bütün yaşadıklarımla, öğrendiklerimle ve sevdiklerimle kalırım."),
          hero="Roz", kapi="Kendisine verilenin üstüne kendi seçtiği biri oldu.", kapi_alt=None),

@@ -863,94 +863,153 @@ Dosyalar toplanır. Kamp sonunda dosya çocuğa verilir.
 
 ## YEDEK · 2. GÜN · Vahşi Robot
 
-### ÖN YÜZ
+### SAYFA · GÜN VE AKIŞ
 
 **IMDb:** <https://www.imdb.com/title/tt29623480/>
 
-- **Yerine geçtiği gün:** 2. gün (Benlik). Ters Yüz 2 yerine.
-- **Aynı durak, farklı yol:** Ters Yüz 2 zamanı sorar (“ben” değişiyor). Bu film kökeni sorar: “Ben”in parçaları nereden geliyor?
-- **Sınanan ilk cevap:** “İyi bir hayat kendin olabildiğin hayattır.” Varsayım: “Kendin” sana hazır verilmiş bir şeydir (“Ben böyleyim”).
-- **Günün kavram sorusu:** Bana verilen bir şey ne zaman gerçekten “benim” olur?
-- **Kamp sorusuna bağlanan soru:** İyi bir hayat için bana verilenle barışmak mı gerekir, yoksa ondan kendime ait bir şey kurmak mı?
-- **İzleme görevi:** Roz (adada mahsur kalan, insanlara hizmet için programlanmış robot) programında olmayan neler yapmaya başlıyor? Hangi anda “Bu artık bir makine değil” dedin?
+**Bugün ne oluyor?** Dünden devralınan soru: “Dışarıdaki dünyayı bilmek zor. Peki kendimizi biliyor muyuz? Truman kapıdan çıktığında kim olacak?”
+- **Sınadığımız ilk cevap:** “İyi bir hayat kendin olabildiğin hayattır.” Bu film bu cevabın içindeki varsayımı sınar: “Kendin” sana hazır verilmiş bir şey mi (“Ben böyleyim”)?
+- **Günün Açık Sorusu (tahtada tek başına):** **Bana verilen bir şey ne zaman gerçekten “benim” olur?** <span class="et">Açık Soru · s. 34</span>
+- **Kamp sorusuna köprü:** İyi bir hayat için bana verilenle barışmak mı gerekir, yoksa ondan kendime ait bir şey kurmak mı?
 
 [[ÜST BLOK SONU]]
 
-**Film yalnızca köprü.** Roz'un programı = doğuştan getirdiklerimiz. Adada öğrendikleri = ailemizin öğrettikleri. Hayvanların ona taktığı “canavar” adı = bize biçilen roller. Her gün tekrarladığı görevler = alışkanlıklar. “Biz robot değiliz” denirse: “Haklısın, Roz'u bırakalım. Ailenden aldığın bir huy var mı? Şimdi o kimin?”
+**Günün akışı** (yaklaşık 3 sa 28 dk)
 
-**Zaman çizelgesi**
-
-| Bölüm | C | B |
+| Saat | Ne yapıyoruz | Süre |
 |---|---|---|
-| Dünkü gün kartı, hayattan sorular | 9 dk | 9 dk |
-| Hassas içerik uyarısı (doğada ölüm, annesiz yavru) | 2 dk | 2 dk |
-| İzleme görevi | 4 dk (kart) | 4 dk (sözlü) |
-| Film (102 dk) + duraklar | 1 × 5 dk | 2 × 6 dk |
-| Ara + “Duygu heykelleri” | 10 dk | 10 dk |
-| Tartışma | 60 dk | 60 dk |
-| Köprü ve hayattan soru görevi | 3 dk | 3 dk |
-| **Toplam** | **~3 sa 15 dk** | **~3 sa 22 dk** |
+| 0:00 | Dünkü gün kartı | 4 dk |
+| 0:04 | Hayattan sorular | 5 dk |
+| 0:09 | Hassas içerik notu | 2 dk |
+| 0:11 | İzleme görevi tahtaya | 4 dk |
+| 0:15 | Film, üç durakla (6'şar dk) | 102 + 18 dk |
+| 2:15 | Ara ve enerji oyunu “Duygu heykelleri” | 10 dk |
+| 2:25 | Tartışma | 60 dk |
+| 3:25 | Köprü ve hayattan soru görevi | 3 dk |
 
-**Durma noktaları**
+**Hassas içerik notu (filmden önce):** “Bugünkü film bir adada geçiyor. Hayvanlar birbirini avlıyor, bazı sahnelerde hayvanlar ölüyor. Bir de annesi olmayan bir yavrunun büyütülmesini izleyeceğiz. Zorlanan olursa bana işaret etsin.”
 
-| C (1 yazma durağı) | B (2 konuşmalı durak) |
-|---|---|
-| **1. Roz'un yavru kazı büyütmeyi kendine görev edindiği bölüm bitince.** Yaz: “Roz şu an ne için çalışıyor?” Sor: “Brightbill'e (Roz'un büyüttüğü yetim kaz yavrusu) bakmayı ‘görev’ olarak üstlendi. Bir şeyi görev olduğu için yapmak ile isteyerek yapmak arasında fark var mı?” | **1.** Aynı yer, aynı soru. |
-| | **2. Brightbill sürüyle göçe çıkınca.** “Birini sevmek, onun gitmesine izin vermek mi? Seni sen yapan biri gidince sen yine aynı kişi misin?” (su molası) |
+::: kaynak
+#### İZLEME GÖREVİ (FİLMDEN ÖNCE, TAHTAYA YAZILIR)
 
-**Dünden köprü (açılış):** “Dün Truman'ın hayatının başkaları tarafından yazıldığını gördük. Bugün hayatı programlanmış biriyle tanışacağız. Ama asıl soru bizimle ilgili: Hayatımızın ne kadarı bize hazır verildi, ne kadarını biz seçtik?”
+<p class="yaprakta">“Film boyunca tek bir soruyu aklınızda tutun: Roz'a (adada mahsur kalan yardımcı robot) verilen şeylerden hangileri zamanla onun oluyor? Film bitince ne düşüneceksiniz, bakalım.”</p>
 
-**Soruların altındaki soru (dk 5–12):** “Roz gerçekten hissediyor muydu?” sorusu “Bize öğretilen bir davranışı yaparken o davranış bizim mi olur?” olur. Ortak soru: **Bana verilen bir şey ne zaman gerçekten “benim” olur?**
+<span class="et">Demir atmak · s. 48</span> <span class="et">Sandalye'deki açılış · s. 65</span> Soru film boyunca tahtada kalır, her durakta ona dönülür.
+:::
 
-**Kapanış ikilemi: en baştan başlama kapısı (dk 42–50).** “Bir kapıdan geçersen en başa dönersin. Doğuştan getirdiklerin (mizaç, yetenek, görünüş) kalır. Öğrendiklerin, alışkanlıkların, yaşadıkların ve sana takılan adlar silinir.”
-- **A:** Kapıdan geçerim, sıfırdan başlarım.
-- **B:** Geçmem, bugünkü hâlimle kalırım.
-- **Ters köşe, A'ya:** “En yakın arkadaşın seni tanımayacak. Kapıdan çıkan hâlâ sen misin?”
-- **Ters köşe, B'ye:** “Sevmediğin alışkanlıkların ve ‘Sen zaten böylesin’ de seninle kalıyor. Onları da ‘ben’ diye mi taşıyacaksın?”
+<div class="soru-kutu">Duraklarda nasıl? Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span></div>
 
-### ARKA YÜZ
+### SAYFA · 1. VE 2. DURAK
 
-**Soru merdiveni (dk 12–42).** Öğrenci şunu derse, sen şunu sor.
+::: durak
+#### 1. durak · yaklaşık 15–25. dk · Bir görev
 
-**Basamak 1: Filmden kavrama.** “Roz hayvanların dilini onları izleyerek öğrendi, sonra Brightbill'e bakmaya başladı. Bu şefkat kimin: onu yapanların mı, ona öğreten adanın mı, Roz'un mu?”
-- *“Fabrikanın.”* “Program ‘yardım et’ diyordu, ‘sev’ demiyordu. Konuştuğun dili sana kim öğretti? O dil şimdi kimin?”
-- *“Roz'un, seçti.”* “Biri sana nazik olmayı öğretti. Nazik davranman seçimin mi, alışkanlığın mı?”
-- *“Adanın.”* “Başka bir şehirde büyüseydin bugünkü sen olur muydun?”
-- *“Biz robot değiliz.”* “Haklısın. Ailenden aldığın bir huy var mı? Onu seçmedin. Şimdi o kimin?”
+**Sahne:** Roz bir yumurtayı korur, yumurtadan çıkan yavru kaz onu annesi sanır. Bir opossum anne, Roz'a yavruyu kış göçünden önce yemek yiyebilir, yüzebilir ve uçabilir hâle getirme görevini “verir”. Roz yavruya Brightbill adını koyunca durdur. **Koşul:** Bir şey görev olarak verildi.
 
-**Basamak 2: Düşünce deneyi, yetenekli ama istemeyen Deniz.** “Deniz on üç yaşında, ailesinde herkes müzisyen. Kemanda gerçekten yetenekli. Herkes ‘Kanında var, sen zaten böylesin’ diyor. Ama Deniz kemanı sevmiyor, robot yapmak istiyor. Deniz'in ‘kendisi’ hangisi: yeteneği mi, isteği mi?”
-- *“Bırakmalı.”* “Verilen bir yeteneği kullanmamak kayıp mı, hak mı? Orkestranın tek kemancısıysa?”
-- *“Çalmalı.”* “Neden yetenek, istekten daha ‘gerçek’ Deniz sayılsın?”
-- *“Çala çala sever.”* “O zaman o sevgi kimin: Deniz'in mi, ailenin mi?”
-- *“‘Sen böylesin’ demek yanlış.”* “Sana hiç söylendi mi? Söylenene benzemeye başladın mı?”
+**Açık Soru:** “Roz, Brightbill'e bakmayı bir görev olarak üstlendi. Bir insana verilen bir görev, ne zaman onun kendi isteği olur?” <span class="et">Açık Soru · s. 34</span>
 
-**Basamak 3: Kamp sorusuna bağlantı.** “‘Kendin ol’ derken hangi ‘kendin’: doğduğun hâl mi, sana öğretilenler mi, seçtiklerin mi?”
-- *“Doğduğum hâl.”* “Doğduğun gün konuşamıyordun. Sonradan öğrendiklerin ‘sen’ değil mi?”
-- *“Seçtiklerim.”* “Adını, ilk dilini, yüzünü seçmedin. Seçmediğin parçalar ‘sahte’ mi?”
-- *“Hepsi.”* “Mizacın utangaç ama sahneye çıkmak istiyorsun. ‘Kendin ol’ hangisini söylüyor?”
-- *“Başkalarının dediği.”* “Fink (herkesin ‘kurnaz’ dediği yalnız tilki) bir süre öyle davrandı. Takılan ad bir gün ‘bizim’ olur mu?”
+**Gizli Sorular:**
+- “Eğer dışarıdan bakan biri farkı göremiyorsa, görev olarak yapmak ile isteyerek yapmak arasında fark var mı?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Önce zorla yapıp sonra sevdiğin bir şey oldu mu? Bir dersi, bir sporu, bir görevi?”
 
-**Basamak 4: Düşünce deneyi, değiştirme düğmesi.** “Sevmediğin bir özelliğini bir düğmeyle anında değiştirebilirsin. Ya da aylarca uğraşıp kendin değiştirirsin. Hangisinin sonucu daha çok ‘senin’?”
-- *“Basarım.”* “Yeni hâlini düğme verdi. O da sana ‘verildi’. Hangisi daha çok senin?”
-- *“Basmam, o da benim.”* “Zarar veren bir huy olsa da mı?”
-- *“Kendim değiştiririm.”* “Emek bir şeyi bizim mi yapıyor?” (Aristoteles)
-- *“Bilmiyorum.”* “Arkadaşın bir gecede değişse aynı arkadaşın mı?”
+**Geri çağır:** 1. basamak (şefkat kimin?).
+:::
 
-**Kamp sorusuna dönüş (dk 50–55):** “Bugün ‘kendin olmak’ı sınadık. Ne ekliyoruz?” Örnek: “Bize verilen bir şey, onu bilerek sürdürdüğümüzde bizim olur.” Grubun cümlesini 2. gün kartına yaz.
+::: durak
+#### 2. durak · yaklaşık 40–50. dk · Brightbill öğreniyor
 
-**Gün yaprağı (dk 55–60):** Vahşi Robot yaprağı.
+**Sahne:** Brightbill büyüyor ve diğer kazlar onu dışlıyor. Sonra Roz'un, yanlışlıkla, onun ilk ailesinin ölümüne yol açtığını öğreniyor ve ihanete uğramış hissediyor. Bu bölüm bitince durdur. **Koşul:** Aile ve köken bize verilmiş.
 
-**Yarına köprü (3 dk):** “Roz'u en çok başkaları değiştirdi. Bizi de ailemiz, arkadaşlarımız, bize ‘sen böylesin’ diyenler değiştiriyor. Başkaları benim iyi hayatımın neresinde? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Kampta ‘Sen zaten böylesin’ ya da ‘Ben böyle biriyim’ dediğin veya duyduğun bir an yakala.”
+**Açık Soru:** “Brightbill'i Roz doğurmadı, ama büyüttü. Bir aileyi aile yapan şey bize verilir mi, yoksa birlikte mi kurulur, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
 
-**Tıkanırsam**
-1. **Herkes B'de:** “Herkesin lakap taktığı biri için kapı yeni bir başlangıç. Onun için de ‘geçmemeli’ der misiniz?”
-2. **Herkes A'da:** “Kapıdan çıkan kişi size ‘Merhaba, ben yeniyim’ dese, onu ‘sen’ sayar mısınız?”
-3. **Herkes “seçtiklerimiz”:** “Seçme biçimimiz de bize verilmiş olabilir mi?”
-4. **Olaylara kaydı:** “Roz'u bırakalım. Ailenden aldığın bir huy?”
-5. **Sessizlik:** İkili konuşma (2 dk): “Sana verilmiş ve sonra ‘benim’ dediğin bir şey.”
-6. **Felsefe köşesi:** “Aristoteles ‘Yapa yapa o oluruz’, Sartre ‘Bizden yapılanla ne yaptığımız önemli’ demiş. Hangisine yakınsın?”
+**Gizli Sorular:**
+- “Bir aileyi aile yapmak için ne gerekli? Aynı evde yaşamak yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Diğer kazlar onu ‘farklı’ diye dışladı. Eğer bir grup sana bir ad takıyorsa, o ad senin olur mu?” <span class="et">Eğer… o zaman · s. 27</span>
 
-**Hassas içerik:** “Gerçek anne” ifadesini kullanma, gelirse genelleştir: “Birini anne ya da baba yapan ne?” “Kanında var” sözünde “aile = kan” varsayımına katılma. Kimsenin etiketini (tembel, yaramaz) örnek yapma. Kapı ikileminde A'dakilerden kişisel gerekçe isteme. Doğada ölüm şakaları var. Final duygusal, arayı kısaltma.
+**Geri çağır:** 3. basamak (kamp sorusuna köprü).
+:::
+
+### SAYFA · 3. DURAK VE TARTIŞMANIN BAŞI
+
+::: durak
+#### 3. durak · yaklaşık 55–65. dk · Verici · düğüm noktası
+
+**Sahne:** Brightbill göçe çıkıyor. Roz ne yapacağını bilemiyor, fabrikaya sinyal gönderen vericisini açıyor, ama hemen kapatıyor. Vericiyi kapattığı an durdur. **Koşul:** Verilen program ile kendi kurduğu hayat çatışıyor.
+
+**Açık Soru:** “Roz'un programı onu fabrikaya çağırıyor, ama o adada kalmayı seçiyor. Bir insana verilen bir şey ile kendi kurduğu hayat çatıştığında, hangisi gerçekten onundur?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Roz fabrikaya dönseydi, adada öğrendikleri boşa mı giderdi? Ya da adada kalırsa programı ondan silinir mi?” <span class="et">Ya… ya da… · s. 59–60</span>
+- *“O bir robot, seçemez ki.”* derse: “Haklı olabilirsin, Roz'u bırakalım. Senin ailenin senden beklediği bir şey ile senin istediğin şey çatıştığı oldu mu?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+
+**Geri çağır:** 4. basamak (değiştirme düğmesi) ve ikilem.
+:::
+
+*Dakikalar yaklaşıktır. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
+
+<p class="ara">Film bitince: 60 dakika</p>
+
+Hamleleri cevap veren çocuğa değil, gruba sor: “Buna ne diyeceksiniz?” <span class="et">Ağ dinamiği · s. 44</span>
+
+**dk 0–5 · His turu ve Kavrama Zamanı.** “Tek kelimeyle, film sana ne hissettirdi?” Pas serbest. Sonra: “Filmi birlikte anlatalım. Biri başlasın, her biriniz şu ana kadar söylenmemiş bir şey eklesin.” <span class="et">Kavrama Zamanı · s. 35</span>
+
+**dk 5–12 · Soruların altındaki soru.** Tahtadaki durak satırlarından iki zıt cevabı yan yana koy. Film sorularını insan sorusuna çevir. Sonra demir at: “Hepimize doğarken bir şeyler verildi, ailemiz bize bir şeyler öğretti, başkaları bize ‘sen böylesin’ dedi. Bütün bunların altındaki soru ne?” Tahtaya tek başına yaz: **Bana verilen bir şey ne zaman gerçekten “benim” olur?** <span class="et">Karşıtlıkları ortaya çıkarmak · s. 56–57</span> <span class="et">Demir atmak · s. 48</span>
+
+### SAYFA · MERDİVEN: 1. VE 2. BASAMAK
+
+**1. basamak · Şefkat kimin?** *Geri çağır:* “Görevi hatırlıyor musunuz?” *Açık Soru:* “Roz (insanlara hizmet etmek için programlanmış yardımcı robot) hayvanların dilini onları izleyerek öğrendi, sonra Brightbill'e (Roz'un büyüttüğü yetim kaz yavrusu) bakmaya başladı. Roz'un şefkati kimin: onu yapanların mı, ona öğreten adanın mı, Roz'un kendisinin mi, yoksa başka bir şey mi?” <span class="et">Çoktan seçmeli · s. 55</span>
+- *“Fabrikanın, öyle programlanmış.”* “Senin düşüncene göre başkasının öğrettiği şey hiç senin olmaz, öyle mi? Konuştuğun dili sana kim öğretti? O dil şimdi kimin?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Roz'un, kendisi seçti.”* “Seçtiğini neye bakarak anlıyoruz? Biri sana nazik olmayı öğretti ve sen nazik davranıyorsun. Bu senin seçimin mi, alışkanlığın mı?” <span class="et">Açma soruları · s. 36</span>
+- *“Adanın, hayvanlardan öğrendi.”* “Eğer başka bir şehirde büyüseydin bugünkü sen olur muydun? Olmasaydın, şu anki sen daha mı az ‘sen’ olurdun?” <span class="et">Eğer durum böyle olsaydı · s. 52</span>
+- *“O bir robot, hissetmez ki.” / “Biz robot değiliz.”* “Evet ve… Roz'u bir kenara bırakalım. Ailenden aldığın bir alışkanlık, bir söz, bir huy var mı? Onu kendin seçmedin. Şimdi o kimin?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+
+**2. basamak · Yetenekli ama istemeyen Deniz** *Açık Soru:* “Eğer on üç yaşındaki Deniz'in ailesinde üç kuşaktır herkes müzisyen olsaydı, Deniz'in de kemanda büyük bir yeteneği olsaydı ve herkes ‘Kanında var, sen zaten böylesin’ deseydi, ama Deniz kemandan hoşlanmayıp robot yapmak isteseydi: Deniz'in ‘kendisi’ hangisi olurdu, yeteneği mi, isteği mi?” <span class="et">Eğer durum böyle olsaydı · s. 52</span> <span class="et">Ya… ya da… · s. 59</span>
+- *“Sevmiyorsa bırakmalı.”* “Okul orkestrasının tek kemancısı Deniz. O bırakırsa konser yapılamayacak. Şimdi?” <span class="et">Fikir çatışması oyunu · s. 57</span>
+- *“Yeteneği varsa çalmalı.”* “Senin düşüncene göre yetenek, istekten daha ‘gerçek’ Deniz, öyle mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Belki çala çala sever.”* “Eğer çala çala severse, o zaman o sevgi kimin: Deniz'in mi, onu çalmaya iten ailenin mi? Roz'un görevi de böyle mi başladı?” <span class="et">“Belki” problemi · s. 53</span> <span class="et">Bağlantı kurma · s. 38</span>
+- *“‘Sen zaten böylesin’ demek yanlış.”* “Sana hiç böyle bir şey söylendi mi? Söylenen şeye zamanla benzemeye başladın mı?” <span class="et">Açma soruları · s. 36</span>
+
+### SAYFA · MERDİVEN: 3. VE 4. BASAMAK, TAKILIRSAN
+
+**3. basamak · Kamp sorusuna köprü** *Geri çağır:* “Brightbill'in öğrendiği anı hatırlıyor musunuz?” *Açık Soru:* “İyi bir hayat için bana verilenle barışmak mı gerekli, yoksa ondan kendime ait bir şey kurmak mı?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Doğduğum hâl, gerçek ben o.”* “Doğduğun gün konuşamıyordun, okuyamıyordun. Sonradan öğrendiklerin ‘sen’ değil mi?” Gruba: “Bu iyi bir karşı örnek mi?” <span class="et">Karşı örnek · s. 51</span>
+- *“Seçtiklerim.”* “Hangi parçanı gerçekten seçtin? Adını, ilk dilini seçmedin. Seçmediğin parçalar ‘sahte’ mi?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Hepsi birden.”* “Peki çatıştıklarında? Mizacın utangaç ama sen sahneye çıkmak istiyorsun. Hangisi? Yoksa başka bir şey mi?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span>
+- *Grup tek tarafta birleşirse:* “Fink (herkesin ‘kurnaz, güvenilmez’ dediği tilki) olsaydınız, başkalarının taktığı adı nasıl çıkarıp attığınızı nasıl anlatırdınız?” <span class="et">Farklı bakış açıları · s. 60–61</span>
+
+**4. basamak · Değiştirme düğmesi** *Geri çağır:* “Vericiyi hatırlıyor musunuz?” *Açık Soru:* “Eğer sende sevmediğin bir özelliği (çabuk sinirlenmek, utangaçlık, erteleme) anında değiştiren bir düğme olsaydı, basar mıydın, yoksa aylarca uğraşarak kendin mi değiştirirdin? Hangisinin sonunda çıkan özellik daha çok ‘senin’ olurdu?” <span class="et">Eğer sanatı · s. 27</span> <span class="et">Ya… ya da… · s. 59</span>
+- *“Basarım, kim istemez.”* “Yeni sakinliğini sen kazanmadın, düğme verdi. Doğuştan gelen sinirliliğin gibi o da sana ‘verildi’. Hangisi daha çok senin?” <span class="et">Bağlantı kurma · s. 38</span>
+- *“Basmam, o da benim bir parçam.”* “Senin düşüncene göre ‘benim’ demek onu korumak zorunda olmak, öyle mi? Başkalarına zarar veren bir huy olsa da mı?” <span class="et">Çıkarımları sınamak · s. 58</span>
+- *“Kendim çalışarak değiştiririm.”* “Bir şeyi bizim yapmak için emek gerekli mi? Emek yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- *“Ama öyle bir düğme yok ki.”* “Ama ya olsaydı? Hiçbir yan etkisi olmadığını düşünelim.” <span class="et">Yeniden demir atmak · s. 54</span>
+
+**Takılırsan.**
+- **Herkes B'de (kapıdan geçmem):** “Size katılmayan biri ne derdi? Biri çok zor bir yıl geçirmiş, herkes ona bir lakap takmış. Kapı ona yeni bir başlangıç veriyor. Onun için de ‘geçmemeli’ der misiniz?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes A'da (kapıdan geçerim):** “Kapıdan çıkan kişi size ‘Merhaba, ben yeniyim’ dese, onu ‘sen’ sayar mısınız?” <span class="et">Hayali muhalif · s. 50</span>
+- **Herkes “seçtiklerimiz bizi yapar” diyor:** “Seçerken kullandığın zevkleri, korkuları sen mi seçtin? Seçmediğin tek bir zevk bulabilir misin?” <span class="et">Yanlışlama · s. 51</span>
+- **Konu Roz'un olaylarına kaydı:** “Evet ve… ailenden aldığın bir huyun var mı? Onu sahiplendin mi?” <span class="et">Demir atmak · s. 48</span>
+- **Sessizlik:** İki dakika ikili konuşma: “Sana verilmiş ve sonra ‘benim’ dediğin bir şeyi anlat: bir yemek, bir şarkı, bir söz, bir huy.” <span class="et">Konuşma Zamanı · s. 34</span>
+
+### SAYFA · İKİLEM VE KAPANIŞ
+
+**dk 42–50 · Kapanış ikilemi: en baştan başlama kapısı (hareketli).** Herkes ayağa kalkar ve bir duvar seçer. “Bir sabah bir kapı buluyorsun. Kapıdan geçersen en başa dönersin. Doğuştan getirdiklerin seninle kalır: mizacın, yeteneklerin, görünüşün. Ama öğrendiklerin, alışkanlıkların, yaşadıkların ve başkalarının sana taktığı adlar silinir.”
+
+<table class="ikilem"><tr><td><div class="harf">A</div><b>Kapıdan geçerim.</b> Temiz bir sayfadan başlarım.<div class="ters">A'dakilere: “En yakın arkadaşın seni tanımayacak, sen de onu. Kapıdan çıkan kişi hâlâ sen misin?”</div></td><td><div class="harf">B</div><b>Geçmem.</b> Bugünkü hâlimle, bütün yaşadıklarımla kalırım.<div class="ters">B'dekilere: “Sevmediğin alışkanlıkların da, sana yapışan ‘Sen zaten böylesin’ de seninle kalıyor. Bunları da ‘ben’ diye taşıyacak mısın?”</div></td></tr></table>
+
+Ortada durmak serbest. <span class="et">Ya… ya da… · s. 59</span> Ortadakilere: “Seni ortada tutan ne? A mı, B mi, yoksa başka bir yol mu?” <span class="et">İkili karşıtlıkları çözmek · s. 56</span> Ters köşe soruları iki tarafa da onlara katılmayan birinin sesiyle sorulur. <span class="et">Hayali muhalif · s. 50</span> “Yer değiştirmek isteyen var mı? Seni ne ikna etti?” Yerinde kalanlara: “Seni yerinde tutan ne?” Zor bir şey yaşamış bir çocuk için A duvarı çekici olabilir. Kişisel gerekçe isteme, soruyu duvara sor: “Bu tarafı seçen biri ne düşünüyor olabilir?”
+
+**dk 50–55 · Kamp sorusuna dönüş.** “Dün ‘mutlu olmak yetmeyebilir, gerçek de önemli’ dedik. Bugün ‘kendin olmak’ı sınadık. İyi bir hayat sorusuna ne ekliyoruz?” Grubun cümlesi ve açık kalan soru 2. gün kartına yazılır.
+
+**dk 55–60 · Gün yaprağı.** Sessiz beş dakika.
+
+**Köprü (3 dk).** “Roz'u en çok ne değiştirdi? Brightbill'e, Fink'e ve adanın hayvanlarına bakması. Bizi de en çok başkaları değiştiriyor: ailemiz, arkadaşlarımız, bize ‘sen böylesin’ diyenler. Ama başkaları benim iyi hayatımın neresinde? Onlara nasıl davrandığım da benim hayatımın bir parçası mı? Yarın başkalarına bakacağız.” **Hayattan soru görevi:** “Yarın sabaha kadar kampta ‘Sen zaten böylesin’ ya da ‘Ben böyle biriyim’ dediğin veya duyduğun bir an yakala. Gerçekten öyle mi?”
+
+**Hassas anlar.**
+- **Annesiz yavru ve evlat edinme:** Grupta evlat edinilmiş ya da koruyucu aile yanında büyüyen çocuklar olabilir. “Gerçek anne” gibi ifadeler kullanma. Bir çocuktan gelirse sakin bir soruyla genelleştir: “Birini anne ya da baba yapan ne?” Biri kendi ailesini anlatırsa teşekkür et, sonra kısaca yanına git.
+- **“Kanında var” ve etiketler:** Deniz deneyinde bu söz bilerek tartışmaya açılıyor. Kimsenin etiketi örnek olarak kullanılmaz: “Burada kimsenin adını konuşmuyoruz, fikirleri konuşuyoruz.”
+- **Doğada ölüm ve ayrılık:** Hayvanların ölümü, göç ve final duygusal olabilir. Yakın zamanda kayıp yaşamış çocuğa önceden söyle, film sonrası arayı kısaltma.
+
+**Felsefe köşesi** (en sonda, tek cümle) <span class="et">s. 65</span> “Aristoteles ‘Bir şeyi yapa yapa o oluruz’ demiş, Sartre ‘Bizden ne yapıldığı değil, onunla ne yaptığımız önemli’ demiş.”
 
 ---
 

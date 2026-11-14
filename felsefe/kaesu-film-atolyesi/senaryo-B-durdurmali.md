@@ -1200,24 +1200,56 @@ Yedek film gösterilirse o günün akışı aynı kalır. Değişen: izleme gör
 
 Tam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/yedek-gun2-vahsi-robot.md](moduller/yedek-gun2-vahsi-robot.md). Moderatör kitapçığında “Yedek filmler” bölümü.
 
-- **Günün kavram sorusu:** Bana verilen bir şey ne zaman gerçekten “benim” olur?
-- **İzleme görevi:** **“Roz (adada mahsur kalan robot) programında olmayan neler yapmaya başlıyor? Sen izlerken hangi anda ‘Bu artık bir makine değil’ dedin?”**
+- **Günün Açık Sorusu (tahtada tek başına):** **Bana verilen bir şey ne zaman gerçekten “benim” olur?** <span class="et">Açık Soru · s. 34</span>
+- **İzleme görevi:** **“Film boyunca tek bir soruyu aklınızda tutun: Roz'a (adada mahsur kalan yardımcı robot) verilen şeylerden hangileri zamanla onun oluyor? Film bitince ne düşüneceksiniz, bakalım.”**
 
-### Durak 1: Roz'un yavru kazı büyütmeyi kendine görev edindiği bölüm bitince (yaklaşık ilk üçte bir)
+**Duraklarda nasıl?** Filmi durdur, ışığı yarıya aç. Açık Soruyu tek başına sor ve tahtaya yaz. Yarım dakika sessizlik, bir dakika yanındakiyle konuşma, sonra 3–4 cevap. Cevapları onaylama, birbirine bağla. Bir durak 6 dakikayı geçmesin. <span class="et">Düşünme için zaman · s. 37</span> <span class="et">Konuşma Zamanı · s. 34</span>
 
-**Süre:** 6 dk
+Üç durak aynı kavramı (verilen ve benim olan) her seferinde yeni bir koşulla sınar. <span class="et">Bölümlü uyaran · s. 65–68</span>
 
-“Roz, Brightbill'e (Roz'un büyütmeye başladığı yetim kaz yavrusu) bakmayı bir ‘görev’ olarak üstlendi. Bir şeyi görev olduğu için yapmak ile isteyerek yapmak arasında fark var mı? Dışarıdan bakan bu farkı görebilir mi?”
+### Durak 1 · yaklaşık 15–25. dk · Bir görev
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Sahne:** Roz bir yumurtayı korur, yumurtadan çıkan yavru kaz onu annesi sanır. Bir opossum anne, Roz'a yavruyu kış göçünden önce yemek yiyebilir, yüzebilir ve uçabilir hâle getirme görevini “verir”. Roz yavruya Brightbill adını koyunca durdur.
 
-### Durak 2: Brightbill'in sürüyle göçe çıktığı bölümden sonra (son üçte birin başı). Ön izlemede yerini işaretleyin.
+**Koşul:** Bir şey görev olarak verildi.
 
-**Süre:** 6 dk
+**Açık Soru:** “Roz, Brightbill'e bakmayı bir görev olarak üstlendi. Bir insana verilen bir görev, ne zaman onun kendi isteği olur?” <span class="et">Açık Soru · s. 34</span>
 
-“Roz, Brightbill'i uçabilsin diye eğitti ve şimdi onu uğurladı. Birini sevmek, onun gitmesine izin vermek mi? Seni sen yapan biri gidince sen yine aynı kişi misin?” (Su molası)
+**Gizli Sorular:**
+- “Eğer dışarıdan bakan biri farkı göremiyorsa, görev olarak yapmak ile isteyerek yapmak arasında fark var mı?” <span class="et">Eğer… o zaman · s. 27</span>
+- “Önce zorla yapıp sonra sevdiğin bir şey oldu mu? Bir dersi, bir sporu, bir görevi?”
 
-*Önce yarım dakika düşünme, sonra 3–4 cevap. Yardımcı her cevabı tahtaya tek satırla yazar. Durak 7 dakikayı geçmesin.*
+**Tartışmada geri çağır:** 1. basamak (şefkat kimin?).
+
+### Durak 2 · yaklaşık 40–50. dk · Brightbill öğreniyor
+
+**Sahne:** Brightbill büyüyor ve diğer kazlar onu dışlıyor. Sonra Roz'un, yanlışlıkla, onun ilk ailesinin ölümüne yol açtığını öğreniyor ve ihanete uğramış hissediyor. Bu bölüm bitince durdur.
+
+**Koşul:** Aile ve köken bize verilmiş.
+
+**Açık Soru:** “Brightbill'i Roz doğurmadı, ama büyüttü. Bir aileyi aile yapan şey bize verilir mi, yoksa birlikte mi kurulur, yoksa başka bir şey mi?” <span class="et">Açık Soru · s. 34</span> <span class="et">Çoktan seçmeli, “yoksa başka bir şey mi?” · s. 55, 66</span>
+
+**Gizli Sorular:**
+- “Bir aileyi aile yapmak için ne gerekli? Aynı evde yaşamak yeter mi?” <span class="et">Ne gerekli? Ne yeterli? · s. 51</span>
+- “Diğer kazlar onu ‘farklı’ diye dışladı. Eğer bir grup sana bir ad takıyorsa, o ad senin olur mu?” <span class="et">Eğer… o zaman · s. 27</span>
+
+**Tartışmada geri çağır:** 3. basamak (kamp sorusuna köprü).
+
+### Durak 3 · yaklaşık 55–65. dk · Verici · düğüm noktası
+
+**Sahne:** Brightbill göçe çıkıyor. Roz ne yapacağını bilemiyor, fabrikaya sinyal gönderen vericisini açıyor, ama hemen kapatıyor. Vericiyi kapattığı an durdur.
+
+**Koşul:** Verilen program ile kendi kurduğu hayat çatışıyor.
+
+**Açık Soru:** “Roz'un programı onu fabrikaya çağırıyor, ama o adada kalmayı seçiyor. Bir insana verilen bir şey ile kendi kurduğu hayat çatıştığında, hangisi gerçekten onundur?” Ardından: “Nedenini söyleyebilir misin?” <span class="et">Açık Soru · s. 34</span> <span class="et">Kapalı uçlu soruyu açmak · s. 59</span>
+
+**Gizli Sorular:**
+- “İki türlü de düşünelim. Eğer Roz fabrikaya dönseydi, adada öğrendikleri boşa mı giderdi? Ya da adada kalırsa programı ondan silinir mi?” <span class="et">Ya… ya da… · s. 59–60</span>
+- *“O bir robot, seçemez ki.”* derse: “Haklı olabilirsin, Roz'u bırakalım. Senin ailenin senden beklediği bir şey ile senin istediğin şey çatıştığı oldu mu?” <span class="et">Demir atmak, “Evet ve…” · s. 48</span>
+
+**Tartışmada geri çağır:** 4. basamak (değiştirme düğmesi) ve ikilem.
+
+*Dakikalar yaklaşıktır. Sahnelerin sırası film özetiyle karşılaştırıldı, ama dakikalar zaman damgalı bir kaynakla doğrulanmadı. Kamptan önce filmi bir kez izle ve duraklarını kendi oynatıcında işaretle.*
 
 ## Yedek film · 4. günün yerine · 12 Kızgın Adam · Toplum
 

@@ -229,9 +229,9 @@ def yedek_eki(dosya, model):
     kunye = re.search(r"\*\*Künye:\*\*[^\n]*", head).group(0)
     d = dict(secs)
     yeri = next((v for k, v in secs if k.startswith("Günün yolculuktaki yeri")), "")
-    kavram = re.search(r"\*\*Günün kavram sorusu:\*\*[^\n]*", yeri)
-    acilis = next((v for k, v in secs if k.startswith("Açılış")), "")
-    izleme = re.search(r"\*\*İzleme görevi[^\n]*\n(?:.*\n)*?(\*\*“[^\n]*”\*\*)", acilis)
+    kavram = re.search(r"\*\*Günün (?:kavram sorusu|Açık Sorusu)[^*]*:\*\*[^\n]*", yeri)
+    acilis = next((v for k, v in secs if k.startswith("Açılış")), "") + next((v for k, v in secs if k.startswith("İzleme görevi")), "")
+    izleme = re.search(r"\*\*İzleme görevi[^\n]*\n(?:.*\n)*?(\*\*“[^\n]*”\*\*)", acilis) or re.search(r"(?m)^(\*\*“[^\n]*”\*\*)$", acilis)
     duraklar_metni = duraklar(next(v for k, v in secs if k.startswith("Duraklar")), model)
     out = [f"## {title}\n\n{kunye}\n\nTam modül (soru merdiveni, düşünce deneyleri, ikilem, köprüler): [moduller/{dosya}](moduller/{dosya}). Moderatör kitapçığında “Yedek filmler” bölümü.\n"]
     if kavram:
