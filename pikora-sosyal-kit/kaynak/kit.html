@@ -93,7 +93,7 @@
     h = '<div class="urun" style="--aile:' + a.renk + '"><div class="urun-gorsel">' + g + '<span class="rozet">' + (u.gorsel ? "tasarım görseli" : "tasarım çizimi") + "</span></div>" +
       '<div class="urun-alt"><p class="aile"><i></i>' + a.ad + " ailesi · " + u.tur + '</p><h1 class="b">' + u.ad + '</h1><span class="fiyat">' + u.fiyat + " ₺</span>" + KUNYE + "</div></div>";
   } else if (t === "tanisma") {
-    h = '<div class="yazi tanis">' + LOGO + '<p class="b slogan">İlmek ilmek, pati pati</p><p>Pikora, beş sahiplenilmiş kedinin evinde doğdu. Kolyeler ve bandanalar elde, ilmek ilmek örülür.</p>' +
+    h = '<div class="yazi tanis">' + LOGO + '<p class="b slogan">İlmek ilmek, pati pati</p><p>Pikora, altı sahiplenilmiş kedinin evinde doğdu. Kolyeler ve bandanalar elde, ilmek ilmek örülür.</p>' +
       '<div class="boncuklar" style="width:860px">' + U.filter(function (x, i) { return i % 2 === 0; }).map(C.boncukSVG).join("") + '</div><div class="kunye"><span>' + IG + "</span></div></div>";
   } else if (t === "siparis") {
     h = '<div class="yazi"><p class="ust">Nasıl sipariş verilir</p><h1 class="b">Üç ilmekte sipariş</h1>' +
