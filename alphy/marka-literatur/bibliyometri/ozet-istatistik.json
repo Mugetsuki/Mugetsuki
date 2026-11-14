@@ -1,0 +1,394 @@
+{
+ "makale": 50,
+ "tr": 31,
+ "en": 19,
+ "kenar": 68,
+ "kenar_openalex": 62,
+ "kenar_pdf": 6,
+ "dil_gecisi": {
+  "EN→EN": 17,
+  "TR→EN": 29,
+  "TR→TR": 22
+ },
+ "yalniz": [
+  "Erkan ve Evans, 2016",
+  "Manser Payne vd., 2017",
+  "Karayel Bilbil ve Orha Hazar, 2024",
+  "Koçyiğit, 2017",
+  "Özdemir Çakır, 2020",
+  "Aslan Çetin ve Korucuk, 2019",
+  "Ayas, 2020",
+  "Dağlı, 2021",
+  "Eravcı, 2022"
+ ],
+ "en_cok_atif_alan": [
+  [
+   "Godey vd., 2016",
+   8
+  ],
+  [
+   "Seo ve Park, 2018",
+   6
+  ],
+  [
+   "Evans vd., 2017",
+   6
+  ],
+  [
+   "Bilgin, 2018",
+   5
+  ],
+  [
+   "Lou ve Yuan, 2019",
+   5
+  ],
+  [
+   "Ebrahim, 2020",
+   4
+  ],
+  [
+   "Sokolova ve Kefi, 2020",
+   3
+  ],
+  [
+   "Avcı ve Yıldız, 2019",
+   3
+  ],
+  [
+   "Schivinski ve Dabrowski, 2016",
+   2
+  ],
+  [
+   "Batra ve Keller, 2016",
+   2
+  ]
+ ],
+ "en_cok_atif_yapan": [
+  [
+   "Sarıoğlu, 2023",
+   13
+  ],
+  [
+   "Dilek ve Çatı, 2023",
+   6
+  ],
+  [
+   "Wei vd., 2023",
+   5
+  ],
+  [
+   "Hamşıoğlu ve Nalcı, 2021",
+   4
+  ],
+  [
+   "Bilgin, 2018",
+   3
+  ],
+  [
+   "Ebrahim, 2020",
+   3
+  ]
+ ],
+ "kopru": [
+  [
+   "Godey vd., 2016",
+   "EN",
+   4,
+   4
+  ],
+  [
+   "Bilgin, 2018",
+   "EN",
+   3,
+   5
+  ],
+  [
+   "Seo ve Park, 2018",
+   "EN",
+   3,
+   4
+  ],
+  [
+   "Ebrahim, 2020",
+   "EN",
+   3,
+   4
+  ],
+  [
+   "Sarıoğlu, 2023",
+   "TR",
+   11,
+   2
+  ],
+  [
+   "Dilek ve Çatı, 2023",
+   "TR",
+   2,
+   4
+  ],
+  [
+   "Aydın, 2022",
+   "TR",
+   3,
+   2
+  ],
+  [
+   "Uğurhan ve Yaşar, 2021",
+   "TR",
+   3,
+   2
+  ],
+  [
+   "Lou ve Yuan, 2019",
+   "EN",
+   5,
+   1
+  ],
+  [
+   "Evans vd., 2017",
+   "EN",
+   5,
+   1
+  ],
+  [
+   "Ali ve Temizkan, 2022",
+   "TR",
+   1,
+   3
+  ],
+  [
+   "Erdoğan ve Mucan Özcan, 2020",
+   "TR",
+   2,
+   1
+  ],
+  [
+   "Baruönü, 2021",
+   "TR",
+   1,
+   2
+  ],
+  [
+   "Özkan ve Yerezhep, 2023",
+   "TR",
+   2,
+   1
+  ],
+  [
+   "Karahan, 2022",
+   "TR",
+   2,
+   1
+  ],
+  [
+   "Ünlükaya ve Tosun, 2021",
+   "TR",
+   2,
+   1
+  ],
+  [
+   "Schivinski ve Dabrowski, 2016",
+   "EN",
+   1,
+   1
+  ],
+  [
+   "Yıldız, 2019",
+   "TR",
+   1,
+   1
+  ],
+  [
+   "Şancı ve Özkan, 2024",
+   "TR",
+   1,
+   1
+  ],
+  [
+   "Aslan Çetin ve Öziç, 2020",
+   "TR",
+   1,
+   1
+  ]
+ ],
+ "kumeler": [
+  [
+   "Ali ve Temizkan, 2022",
+   "Avcı ve Yıldız, 2019",
+   "Aydın, 2022",
+   "Baruönü, 2021",
+   "Başaran ve Yıldız, 2022",
+   "Evans vd., 2017",
+   "Günay, 2026",
+   "Karahan, 2022",
+   "Lou ve Yuan, 2019",
+   "Orhan ve Akyol, 2023",
+   "Oyman ve Akıncı, 2019",
+   "Sarıoğlu, 2023",
+   "Uğurhan ve Yaşar, 2021",
+   "Özdemir vd., 2021",
+   "Ünlükaya ve Tosun, 2021"
+  ],
+  [
+   "Begtimur ve Alizade, 2024",
+   "Bilgin, 2018",
+   "Chinomona, 2016",
+   "Dilek ve Çatı, 2023",
+   "Ebrahim, 2020",
+   "Godey vd., 2016",
+   "Hamşıoğlu ve Nalcı, 2021",
+   "Schivinski ve Dabrowski, 2016",
+   "Seo ve Park, 2018",
+   "Tan ve Çolakoğlu, 2021",
+   "Wei vd., 2023",
+   "Öcel, 2020"
+  ],
+  [
+   "Batra ve Keller, 2016",
+   "Choubey ve Sharma, 2026",
+   "Keller, 2016",
+   "Mossarg ve Apaydın, 2026",
+   "Šerić vd., 2020"
+  ],
+  [
+   "Aslan Çetin ve Öziç, 2020",
+   "Erdoğan ve Mucan Özcan, 2020",
+   "Sokolova ve Kefi, 2020",
+   "Özkan ve Yerezhep, 2023"
+  ],
+  [
+   "Bianchi vd., 2019",
+   "Kalyoncuoğlu, 2017",
+   "Şancı ve Özkan, 2024"
+  ],
+  [
+   "Ramesh vd., 2019",
+   "Yıldız, 2019"
+  ]
+ ],
+ "uc_halkali_zincir_sayisi": 65,
+ "zincir_ornek": [
+  "Godey vd., 2016 ← Seo ve Park, 2018 ← Bilgin, 2018",
+  "Godey vd., 2016 ← Seo ve Park, 2018 ← Ebrahim, 2020",
+  "Chinomona, 2016 ← Bilgin, 2018 ← Ebrahim, 2020",
+  "Godey vd., 2016 ← Bilgin, 2018 ← Ebrahim, 2020",
+  "Seo ve Park, 2018 ← Bilgin, 2018 ← Ebrahim, 2020",
+  "Godey vd., 2016 ← Seo ve Park, 2018 ← Wei vd., 2023",
+  "Chinomona, 2016 ← Bilgin, 2018 ← Wei vd., 2023",
+  "Godey vd., 2016 ← Bilgin, 2018 ← Wei vd., 2023",
+  "Seo ve Park, 2018 ← Bilgin, 2018 ← Wei vd., 2023",
+  "Godey vd., 2016 ← Ebrahim, 2020 ← Wei vd., 2023",
+  "Seo ve Park, 2018 ← Ebrahim, 2020 ← Wei vd., 2023",
+  "Bilgin, 2018 ← Ebrahim, 2020 ← Wei vd., 2023",
+  "Batra ve Keller, 2016 ← Keller, 2016 ← Choubey ve Sharma, 2026",
+  "Batra ve Keller, 2016 ← Keller, 2016 ← Mossarg ve Apaydın, 2026",
+  "Evans vd., 2017 ← Lou ve Yuan, 2019 ← Sarıoğlu, 2023",
+  "Ramesh vd., 2019 ← Yıldız, 2019 ← Sarıoğlu, 2023",
+  "Evans vd., 2017 ← Erdoğan ve Mucan Özcan, 2020 ← Sarıoğlu, 2023",
+  "Evans vd., 2017 ← Baruönü, 2021 ← Sarıoğlu, 2023",
+  "Lou ve Yuan, 2019 ← Baruönü, 2021 ← Sarıoğlu, 2023",
+  "Evans vd., 2017 ← Ünlükaya ve Tosun, 2021 ← Sarıoğlu, 2023",
+  "Lou ve Yuan, 2019 ← Uğurhan ve Yaşar, 2021 ← Sarıoğlu, 2023",
+  "Sokolova ve Kefi, 2020 ← Uğurhan ve Yaşar, 2021 ← Sarıoğlu, 2023",
+  "Oyman ve Akıncı, 2019 ← Uğurhan ve Yaşar, 2021 ← Sarıoğlu, 2023",
+  "Evans vd., 2017 ← Ali ve Temizkan, 2022 ← Sarıoğlu, 2023",
+  "Lou ve Yuan, 2019 ← Ali ve Temizkan, 2022 ← Sarıoğlu, 2023",
+  "Sokolova ve Kefi, 2020 ← Ali ve Temizkan, 2022 ← Sarıoğlu, 2023",
+  "Bilgin, 2018 ← Karahan, 2022 ← Sarıoğlu, 2023",
+  "Avcı ve Yıldız, 2019 ← Karahan, 2022 ← Sarıoğlu, 2023",
+  "Evans vd., 2017 ← Lou ve Yuan, 2019 ← Aydın, 2022",
+  "Evans vd., 2017 ← Lou ve Yuan, 2019 ← Uğurhan ve Yaşar, 2021",
+  "Evans vd., 2017 ← Lou ve Yuan, 2019 ← Baruönü, 2021",
+  "Godey vd., 2016 ← Seo ve Park, 2018 ← Hamşıoğlu ve Nalcı, 2021",
+  "Chinomona, 2016 ← Bilgin, 2018 ← Hamşıoğlu ve Nalcı, 2021",
+  "Godey vd., 2016 ← Bilgin, 2018 ← Hamşıoğlu ve Nalcı, 2021",
+  "Seo ve Park, 2018 ← Bilgin, 2018 ← Hamşıoğlu ve Nalcı, 2021",
+  "Godey vd., 2016 ← Ebrahim, 2020 ← Hamşıoğlu ve Nalcı, 2021",
+  "Seo ve Park, 2018 ← Ebrahim, 2020 ← Hamşıoğlu ve Nalcı, 2021",
+  "Bilgin, 2018 ← Ebrahim, 2020 ← Hamşıoğlu ve Nalcı, 2021",
+  "Evans vd., 2017 ← Lou ve Yuan, 2019 ← Ali ve Temizkan, 2022",
+  "Godey vd., 2016 ← Ebrahim, 2020 ← Özkan ve Yerezhep, 2023"
+ ],
+ "yillar": {
+  "2016": [
+   0,
+   6
+  ],
+  "2017": [
+   2,
+   2
+  ],
+  "2018": [
+   0,
+   2
+  ],
+  "2019": [
+   4,
+   3
+  ],
+  "2020": [
+   5,
+   3
+  ],
+  "2021": [
+   7,
+   0
+  ],
+  "2022": [
+   5,
+   0
+  ],
+  "2023": [
+   4,
+   1
+  ],
+  "2024": [
+   3,
+   0
+  ],
+  "2025": [
+   0,
+   0
+  ],
+  "2026": [
+   1,
+   2
+  ]
+ },
+ "yontem": {
+  "Anket + kovaryans tabanlı YEM": 23,
+  "Anket + regresyon / PROCESS": 10,
+  "Anket + PLS-YEM": 6,
+  "Anket + betimsel / t-testi / ANOVA": 5,
+  "Kavramsal / derleme": 4,
+  "Deney": 1,
+  "Nitel (görüşme)": 1
+ },
+ "anket": 44,
+ "yem": 29,
+ "es_olusum": {
+  "Farkındalık–Tutum": 2,
+  "Farkındalık–Güven": 3,
+  "Farkındalık–Satın alma niyeti": 8,
+  "Farkındalık–Sadakat": 7,
+  "Farkındalık–BPİ": 4,
+  "Tutum–Güven": 5,
+  "Tutum–Satın alma niyeti": 13,
+  "Tutum–Sadakat": 1,
+  "Tutum–BPİ": 2,
+  "Güven–Satın alma niyeti": 9,
+  "Güven–Sadakat": 10,
+  "Güven–BPİ": 1,
+  "Satın alma niyeti–Sadakat": 6,
+  "Satın alma niyeti–BPİ": 4,
+  "Sadakat–BPİ": 4
+ },
+ "kavram_frekans": {
+  "Farkındalık": 15,
+  "Tutum": 15,
+  "Güven": 19,
+  "Satın alma niyeti": 27,
+  "Sadakat": 21,
+  "BPİ": 11
+ }
+}
