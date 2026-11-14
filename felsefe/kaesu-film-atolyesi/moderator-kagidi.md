@@ -53,7 +53,7 @@ Hazırlayan: Felsefe Departmanı (desk-8) · 2026-11-14
 |---|---|---|---|---|
 | 1 | The Truman Show | “Mutlu olmak.” | Bilmek nedir? Hiç yanılmadığımız bir şey var mı? | Kendimizi biliyor muyuz? |
 | 2 | Ters Yüz 2 | “Kendin olmak.” | “Kendin ol” ne demek, eğer “ben” sürekli değişiyorsa? | Başkaları benim iyi hayatımın neresinde? |
-| 3 | Wonder | “İyi biri olmak, sevilmek.” | İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi? | Bir grup birine haksızlık ederse? |
+| 3 | Mucize (Wonder) | “İyi biri olmak, sevilmek.” | İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi? | Bir grup birine haksızlık ederse? |
 | 4 | Zootropolis | “Herkesin eşit olması.” | Adil olmak herkese aynı davranmak mı? | Hepsi olsa bile hayatı yaşamaya değer kılan ne? |
 | 5 | Soul | “Hayallerine ulaşmak.” | Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi? | Sentez: herkesin kendi büyük sorusu |
 

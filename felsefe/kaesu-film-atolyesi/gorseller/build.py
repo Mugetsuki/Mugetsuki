@@ -7,7 +7,7 @@ Ne yapar:
   3. onizleme/ klasörüne her sayfanın PNG önizlemesini yazar (pypdfium2, 72 dpi).
 
 Kullanım:
-  python build.py                      # hepsini üret
+  python build.py                      # film görselleri ve kamp afişlerini üret (formlar ve kitapçık: build_filya.py)
   python build.py --inceleme KLASÖR    # ayrıca 110 dpi inceleme PNG'leri yaz
 
 Gerekenler: weasyprint, pypdfium2, markdown (README'ye bakın).
@@ -36,9 +36,9 @@ DAYS = [
     dict(n=2, key="io2", t="t-io2", film="Ters Yüz 2", TEMA="BENLİK", tema_alt="Zihin ve kimlik",
          soru="Beni “ben” yapan ne: anılarım mı, duygularım mı, seçimlerim mi?",
          gorev="Riley’nin “ben kimim” cümlesi film boyunca nasıl değişiyor? Hangi duygunun haklı olduğunu düşündüğün anları yaz.",
-         ikilem_q="Bir hap var: Yutarsan hiç kaygı hissetmeyeceksin, ama geleceğe hazırlanma yeteneğin de azalacak. Yutar mısın?",
-         A=("Hapı yutarım", "Kaygısız bir hayat isterim, geleceği daha az düşünmek pahasına da olsa."),
-         B=("Hapı yutmam", "Kaygıyla birlikte yaşarım, geleceğe hazırlanma yeteneğimi korurum."),
+         ikilem_q="Kaygı’yı, filmde Neşe’ye yapıldığı gibi kavanoza kapatıp sırlar kasasına kilitleyebilirsin. Bir daha hiç kaygılanmazsın, ama geleceğe hazırlanmanı sağlayan ses de susar. Kilitler misin?",
+         A=("Kaygı’yı kasaya kilitlerim", "Kaygısız bir hayat isterim, geleceği daha az düşünmek pahasına da olsa."),
+         B=("Kaygı konsolda kalsın", "Kaygıyla birlikte yaşarım, geleceğe hazırlanma yeteneğimi korurum."),
          hero="Riley", kapi="Mükemmel bir “ben” yerine iyisi ve kötüsüyle karmaşık bir “ben”i kabul etti.", kapi_alt=None),
     dict(n=3, key="wonder", t="t-wonder", film="Wonder", TEMA="ÖTEKİ", tema_alt="Bireysel etik",
          soru="Haklı olmak ile iyi (nazik) olmak çatıştığında hangisini seçmeli?",
@@ -264,17 +264,6 @@ def lines(n):
     return '<div class="lines">' + "<div></div>" * n + "</div>"
 
 
-def cb(cls=""):
-    return f'<span class="cb {cls}"></span>'
-
-
-CODE = '<span class="code">' + "<i></i>" * 5 + "</span>"
-
-
-def daybox(n=5):
-    return '<span class="daybox">' + "".join(f"<i>{i}</i>" for i in range(1, n + 1)) + "</span>"
-
-
 # --------------------------------------------------------------------------------------
 # Günlük ürünler
 # --------------------------------------------------------------------------------------
@@ -399,238 +388,6 @@ def rules_pages():
 
 
 # --------------------------------------------------------------------------------------
-# Formlar (olcme-degerlendirme.md)
-# --------------------------------------------------------------------------------------
-LIKERT_A = ["Cevabı kesin olmayan zor sorular üzerine düşünmekten hoşlanırım.",
-            "Felsefe yalnızca filozofların ve çok bilgili insanların işidir.",
-            "Günlük hayatımda “neden?”, “doğru mu?” gibi sorular sorarım.",
-            "Bir film izlerken aklıma filmin dışında da önemli olan sorular gelir.",
-            "Bir fikrimi söylerken nedenini de açıklarım.",
-            "Biri benden farklı düşündüğünde onu sonuna kadar dinlerim.",
-            "İyi bir gerekçe duyarsam fikrimi değiştirebilirim.",
-            "Arkadaşlık, kurallar ve adalet gibi konular felsefenin konusudur.",
-            "Bir grubun önünde fikrimi söylemekte rahatım.",
-            "Felsefe sıkıcıdır."]
-LIKERT_C = ["Bu atölyeyi sevdim.", "Atölyelerde sık sık sıkıldım.", "Bu atölyeyi bir arkadaşıma önerirdim.",
-            "Tartışmalarda fikrimin önemsendiğini hissettim."]
-SCALE = ["Hiç katıl&shy;mıyorum", "Katıl&shy;mıyorum", "Karar&shy;sızım", "Katılı&shy;yorum", "Tamamen katılı&shy;yorum"]
-
-
-def likert(items, start):
-    head = "<tr><th style='width:82mm'></th>" + "".join(f"<th>{s}</th>" for s in SCALE) + "</tr>"
-    rows = "".join(f'<tr><td><b>{i}.</b> {t}</td>' + "".join(f'<td class="c">{cb()}</td>' for _ in SCALE) + "</tr>"
-                   for i, t in enumerate(items, start))
-    return f'<table class="lik">{head}{rows}</table>'
-
-
-def form_head(title, kicker="KAESU FİLM ATÖLYESİ"):
-    return f'{STRIPE}<div class="form-head" style="margin-top:4mm"><div><div class="kicker">{kicker}</div><div class="ttl">{title}</div></div></div>'
-
-
-def survey(final):
-    title = "Kamp Sonu Anketi" if final else "Kamp Başı Anketi"
-    ident = (f'<div style="display:flex;justify-content:space-between;align-items:center;font-weight:800">'
-             f'<div>Kodum: {CODE}</div><div>Yaşım: <span class="fill" style="min-width:14mm"></span></div>'
-             f'<div>{cb()} Ortaokul &nbsp; {cb()} Lise</div></div>')
-    howto = ('<div style="margin-top:3mm;border:0.3mm solid var(--line);border-radius:2mm;padding:2mm 3mm;font-size:10pt">'
-             '<b>Kodunu şöyle oluştur:</b> Annenin ya da seni büyüten kişinin adının <b>ilk iki harfi</b> + doğduğun <b>günün</b> rakamı (iki hane) '
-             '+ oturduğun sokağın ya da mahallenin <b>ilk harfi</b>. Örnek: Zeynep, 7 Mart, Çınar Sokak ise kodun <b>ZE07Ç</b>. Her formda aynı kodu yaz.</div>')
-    p1 = f'''<section class="sheet t-camp"><div class="form">{form_head(title)}
-  {ident}{howto}
-  <p style="margin-top:3mm;font-weight:700">Sınav değil, doğru ya da yanlış cevap yok. Her cümle için sana en uygun kutuyu işaretle.</p>
-  <div class="sec">BÖLÜM A</div>{likert(LIKERT_A, 1)}
-  <div class="sec">BÖLÜM B · Kısa yazman yeterli. Bilmiyorsan “bilmiyorum” yazabilirsin.</div>
-  <div class="q-open"><div class="qt">11. Felsefe nedir? Kendi sözlerinle anlat.</div>{lines(3)}</div>
-  <div class="q-open"><div class="qt">12. Günlük hayatında felsefe nerede karşına çıkar? Bir örnek yaz.</div>{lines(3)}</div>
-</div></section>'''
-    if not final:
-        return p1
-    opts = " &nbsp; ".join(f'<span style="white-space:nowrap">{cb()} {o}</span>' for o in ["Film", "Duraklar", "Soru yazmak", "Tartışma", "Duvara yürüme / köşe seçme", "Oyunlar", "Hayattan Sorular"])
-    p2 = f'''<section class="sheet t-camp"><div class="form">{form_head("Kamp Sonu Anketi · 2. sayfa")}
-  <div style="font-weight:800">Kodum: {CODE}</div>
-  <div class="sec">BÖLÜM C · Kamp hakkında</div>{likert(LIKERT_C, 13)}
-  <div class="q-open"><div class="qt">17. Bu kampta öğrendiğim ya da fark ettiğim en önemli şey:</div>{lines(6)}</div>
-  <div class="q-open"><div class="qt">18. En çok hangi bölümü sevdin? (Birden fazla işaretleyebilirsin)</div><p style="margin-top:2mm;line-height:2">{opts}</p></div>
-  <div class="q-open"><div class="qt">19. Bir şeyi değiştirebilseydin neyi değiştirirdin?</div>{lines(5)}</div>
-  <p style="margin-top:8mm;font-weight:800;font-size:13pt">Teşekkürler! Beş gün boyunca birlikte düşündük.</p>
-</div></section>'''
-    return p1 + p2
-
-
-FACES = [(-6, "Çok kötü"), (-3, "Kötü"), (0, "İdare eder"), (3, "İyi"), (6, "Çok iyi")]
-
-
-def face(k):
-    # k: ağız eğrisi (- üzgün, + mutlu)
-    return (f'<svg viewBox="0 0 30 30" style="width:11mm;height:11mm"><circle cx="15" cy="15" r="13" fill="#fff" stroke="#16161d" stroke-width="1.6"/>'
-            f'<circle cx="10.5" cy="12" r="1.6" fill="#16161d"/><circle cx="19.5" cy="12" r="1.6" fill="#16161d"/>'
-            f'<path d="M9,{20 - k * 0.3:.1f} Q15,{20 + k:.1f} 21,{20 - k * 0.3:.1f}" fill="none" stroke="#16161d" stroke-width="1.8" stroke-linecap="round"/></svg>')
-
-
-def exit_cards():
-    faces = "".join(f'<div style="flex:1;text-align:center">{face(k)}<div style="font-size:11pt;font-weight:800">{i}</div>{cb()}</div>'
-                    for i, (k, _) in enumerate(FACES, 1))
-    one = f'''<div class="card">
-      {STRIPE}
-      <div class="serif" style="font-weight:900;font-size:19pt;color:var(--camp-dark);margin-top:2.5mm;white-space:nowrap">ÇIKIŞ KARTI</div>
-      <div style="font-weight:800;margin-top:1.5mm">Gün: {daybox()}</div>
-      <div style="font-weight:800;margin-top:1.5mm">Kodum: {CODE}</div>
-      <div class="lbl" style="color:var(--camp-dark)">BUGÜNKÜ ATÖLYE NASILDI?</div>
-      <div style="display:flex;margin-top:1mm">{faces}</div>
-      <div class="lbl" style="color:var(--camp-dark)">BUGÜN AKLIMDA KALAN SORU</div>{lines(2)}
-      <div class="lbl" style="color:var(--camp-dark)">BUGÜN FARK ETTİĞİM FELSEFİ BİR AN</div>
-      <div style="font-size:11pt;color:var(--ink-soft)">Kamp hayatında: yemekte, oyunda, odada… Yoksa boş bırak.</div>{lines(2)}
-    </div>'''
-    cells = "".join(f'<div class="cell c{i}">{one}</div>' for i in range(4))
-    return f'<section class="sheet t-camp"><div class="grid4">{cells}</div>{CUTS4}</section>'
-
-
-def fhy_cards():
-    where = "".join(f'<div style="width:50%;margin-bottom:1.6mm">{cb()} {w}</div>' for w in ["Yemekte", "Oyunda", "Odada", "Bir konuşmada", "Kurallarla ilgili", "Başka: ______"])
-    one = f'''<div class="card">
-      {STRIPE}
-      <div class="serif" style="font-weight:900;font-size:19pt;color:var(--camp-dark);margin-top:2.5mm">FELSEFE HER YERDE</div>
-      <div style="display:flex;justify-content:space-between;font-weight:800;margin-top:2mm"><div>Gün: {daybox(4)}</div></div>
-      <div style="font-weight:800;margin-top:2mm">Kodum: {CODE}</div>
-      <div class="lbl" style="color:var(--camp-dark)">KAMP HAYATINDA YAKALADIĞIM SORU</div>{lines(4)}
-      <div class="lbl" style="color:var(--camp-dark)">NEREDE YAKALADIM?</div>
-      <div style="display:flex;flex-wrap:wrap;margin-top:1.5mm;font-weight:600">{where}</div>
-      <div style="margin-top:auto;font-weight:700">{cb()} Bu kartın panoya asılmasına izin veriyorum.</div>
-    </div>'''
-    cells = "".join(f'<div class="cell c{i}">{one}</div>' for i in range(4))
-    return f'<section class="sheet t-camp"><div class="grid4">{cells}</div>{CUTS4}</section>'
-
-
-def postcards():
-    q = lambda t, n: f'<div style="margin-top:2.2mm"><div style="font-weight:800">{t}</div>{lines(n)}</div>'
-    one = f'''<table style="width:100%;border-collapse:collapse;table-layout:fixed"><tr>
-      <td style="width:50%;vertical-align:top;padding:0 3.5mm 0 0">
-        {STRIPE}
-        <div class="serif" style="font-weight:900;font-size:17pt;color:var(--camp-dark);margin-top:2mm">Sevgili <span class="fill" style="min-width:40mm"></span>,</div>
-        <div style="font-size:11pt;color:var(--ink-soft);margin-top:1mm">İstediğin soruları cevapla, hepsini cevaplamak zorunda değilsin.</div>
-        {q("1. Bu kampı hiç bilmeyen birine anlatsam şöyle derdim:", 4)}
-        {q("2. Kampta aklımda kalan bir an ya da soru:", 4)}
-      </td>
-      <td style="vertical-align:top;padding:0 0 0 3.5mm">
-        {q("3. Kamp bittikten sonra da aklımda kalacak bir soru var mı? Varsa nerede, ne olurken aklıma gelir? (Yoksa “yok” yaz.)", 3)}
-        {q("4. Değişmesini istediğim bir şey:", 3)}
-        <div style="margin-top:3mm;font-weight:800">Kodum: {CODE}</div>
-        <div style="margin-top:1.5mm;font-weight:800">Yaşım: <span class="fill" style="min-width:12mm"></span></div>
-        <div style="margin-top:3mm;border:0.35mm solid var(--camp-dark);border-radius:2mm;padding:2mm 3mm;font-size:11pt">
-          <b>Yazdıklarım kullanılabilir mi?</b> Birini işaretle. Hiçbirini işaretlemezsen kullanılmaz.<br>
-          {cb("sm")} Hiçbir yerde kullanılmasın.<br>{cb("sm")} Adım olmadan kullanılabilir.<br>{cb("sm")} Adım ve yaşımla kullanılabilir. Adım: <span class="fill" style="min-width:22mm"></span>
-        </div>
-      </td></tr></table>'''
-    cells = "".join(f'<div class="cell2 c{i}">{one}</div>' for i in range(2))
-    return f'<section class="sheet t-camp">{cells}{CUTS2}</section>'
-
-
-def observation():
-    tally = lambda n: "".join(cb("sm") + (" " if (i + 1) % 5 == 0 else "") for i in range(n))
-    lv = [("1 · Yalnızca iddia", "“Bence yanlış.”"), ("2 · Tek gerekçe", "“…çünkü…”"), ("3 · Gerekçe + destek", "örnek, filmden an"), ("4 · Gerekçe + karşı görüş", "başkasına cevap, koşul")]
-    rows = "".join(f"<tr><td><b>{a}</b><br><span style='color:var(--ink-soft)'>{b}</span></td><td>{tally(20)}</td><td></td></tr>" for a, b in lv)
-    trio = "".join(f"<tr><td>{i}</td><td></td><td></td></tr>" for i in range(1, 9))
-    p1 = f'''<section class="sheet t-camp"><div class="form">{form_head("Gözlem Formu", "KAESU FİLM ATÖLYESİ · GÖZLEMCİ İÇİN")}
-  <div style="display:flex;justify-content:space-between;font-weight:800;line-height:2">
-    <div>Gün: {daybox()}</div><div>Model: {cb()} B {cb()} C</div><div>Gözlemci: <span class="fill" style="min-width:35mm"></span></div></div>
-  <div style="font-weight:800;line-height:2">Katılımcı sayısı: <span class="fill"></span> &nbsp; Gözlenen dilim: dk <span class="fill" style="min-width:10mm"></span> – dk <span class="fill" style="min-width:10mm"></span></div>
-  <div class="sec">1. GEREKÇE DÜZEYİ · Her konuşmada ilgili satıra bir çentik</div>
-  <table class="plain"><tr><th style="width:50mm">Düzey</th><th>Çentik</th><th style="width:18mm">Toplam</th></tr>{rows}
-    <tr><td colspan="2" style="text-align:right"><b>3 ve 4’ün oranı</b></td><td><b>%</b></td></tr></table>
-  <div class="sec">2. ÜÇLÜLERİN SORULARI · Düzey için arka yüzdeki rubriğe bakın</div>
-  <table class="plain"><tr><th style="width:13mm">Üçlü</th><th>Soru (kısaca)</th><th style="width:22mm">Düzey 1–4</th></tr>{trio}
-    <tr><td colspan="2" style="text-align:right"><b>3 ve 4’ün oranı</b></td><td><b>%</b></td></tr></table>
-  <div class="sec">3. DAVRANIŞ GÖSTERGELERİ · Moderatör kağıdından aktarın</div>
-  <table class="plain"><tr><th>Gerekçe kullandı</th><th>Başkasının fikrine atıf</th><th>Günlük hayata bağlantı</th><th>Fikir değiştirip nedenini söyledi</th><th>Bugüne özel</th></tr>
-    <tr><td style="height:9mm"></td><td></td><td></td><td></td><td></td></tr></table>
-  <div class="sec">4. KATILIM</div>
-  <p style="line-height:2">En az bir kez konuşan öğrenci: <span class="fill"></span> / <span class="fill"></span> (% <span class="fill" style="min-width:12mm"></span>) &nbsp; Ortaokullu: <span class="fill" style="min-width:12mm"></span> &nbsp; Liseli: <span class="fill" style="min-width:12mm"></span></p>
-  <div class="sec">5. NOT · Dikkat çeken bir cümle (isimsiz), enerji, değişmesi gereken</div>{lines(2)}
-</div></section>'''
-    sq = [("1", "Film sorusu", "Cevabı filmde var. Bir olayı ya da bilgiyi soruyor.", "Truman neden tekneye bindi?"),
-          ("2", "Görüş sorusu", "Kişisel tercih ya da tahmin soruyor, bir kavramı tartışmaya açmıyor.", "Sen Truman olsan ne yapardın?"),
-          ("3", "Felsefi soru", "Genel ve tartışmaya açık. Bir kavram ya da değer içeriyor (adil, gerçek, doğru, iyi). Akıllı insanlar farklı cevaplar verebilir.", "Birini korumak için ona yalan söylemek doğru mu?"),
-          ("4", "Derin felsefi soru", "Bir kavramın ne olduğunu sorguluyor, iki kavramı karşılaştırıyor ya da bir varsayımı açığa çıkarıyor.", "Bir şeyin gerçek olduğunu bilmek için ne gerekir?")]
-    gq = [("1", "Yalnızca iddia", "Bir fikir söylüyor, nedenini söylemiyor.", "Bence yanlış."),
-          ("2", "Tek gerekçe", "“Çünkü” ile bir neden veriyor.", "Yanlış, çünkü yalan söylemek kötü."),
-          ("3", "Gerekçe + destek", "Nedene bir örnek, filmden bir an ya da hayattan bir durum ekliyor.", "…çünkü Christof ona yalan söyledi ve Truman otuz yıl kendi hayatını yaşayamadı."),
-          ("4", "Gerekçe + karşı görüş", "Başka birinin fikrine cevap veriyor, karşı örnek veriyor ya da fikrinin geçerli olduğu koşulu belirtiyor.", "Elif korumak için yalan söylenebilir dedi. Ama bence koruma da yalanı haklı çıkarmaz, çünkü…")]
-    rub = lambda data: "<table class='plain'><tr><th style='width:8mm'>#</th><th style='width:34mm'>Adı</th><th style='width:76mm'>Gözlemlenebilir tanım</th><th>Örnek</th></tr>" + "".join(
-        f"<tr><td><b>{a}</b></td><td><b>{b}</b></td><td>{c}</td><td><i>“{e}”</i></td></tr>" for a, b, c, e in data) + "</table>"
-    p2 = f'''<section class="sheet t-camp"><div class="form">{form_head("Gözlem Rubriği", "GÖZLEM FORMUNUN ARKA YÜZÜ")}
-  <div class="sec">RUBRİK 1 · SORU KALİTESİ</div>
-  <p>Üçlülerin soruları, çıkış kartındaki “aklımda kalan soru” ve Felsefe Her Yerde kartları bu rubrikle puanlanır.</p>{rub(sq)}
-  <div class="sec" style="margin-top:7mm">RUBRİK 2 · GEREKÇE DÜZEYİ</div>
-  <p>Sorgulama bölümündeki her konuşma bir puan alır.</p>{rub(gq)}
-  <div class="sec" style="margin-top:7mm">GÖZLEMCİ YOKSA</div>
-  <p>Kolaylaştırıcı yalnızca sorgulama bölümünün 10 dakikalık bir diliminde puanlama yapsın (C’de dk 22–47, B’de dk 10–35 içinden). Her gün aynı dilimi seçin.</p>
-</div></section>'''
-    rows5 = ["Gerekçe 3–4 oranı (%)", "Üçlü soruları 3–4 oranı (%)", "Çıkış kartı sorusu 3–4 oranı (%)", "Konuşan öğrenci oranı (%)",
-             "Keyif ortalaması (1–5)", "Keyif 1–2 veren oran (%)", "“Felsefi an” anlamlı dolu oranı (%)", "Yeni Hayattan Sorular kartı"]
-    t5 = "<table class='plain'><tr><th style='width:62mm'></th>" + "".join(f"<th>{i}. gün</th>" for i in range(1, 6)) + "</tr>" + "".join(
-        f"<tr><td style='height:13mm'><b>{r}</b></td>" + "<td></td>" * 5 + "</tr>" for r in rows5) + "</table>"
-    p3 = f'''<section class="sheet t-camp"><div class="form">{form_head("Beş Günlük Özet", "KAMP SONU RAPORUNA AKTARILIR")}
-  <p style="margin-bottom:3mm">Her akşam o günün sütununu doldurun. Kamp sonunda bu tablo rapor şablonuna aktarılır.</p>{t5}
-</div></section>'''
-    return p1 + p2 + p3
-
-
-def consent():
-    items = ["Çocuğumun anket ve kartlardaki cevapları, <b>adı olmadan</b>, atölyenin değerlendirme raporunda kullanılabilir.",
-             "Çocuğumun yazdığı ya da söylediği cümleler, <b>adı olmadan</b> (örneğin “13 yaşında bir katılımcı”), atölyeyi tanıtan materyallerde alıntılanabilir.",
-             "Çocuğumun cümleleri <b>adı ve yaşıyla</b> alıntılanabilir. (Çocuğun kendisi de kamp sırasında ayrıca onay verecektir.)",
-             "Çocuğumun <b>yüzünün göründüğü</b> fotoğrafları atölyeyi tanıtan materyallerde kullanılabilir.",
-             "Çocuğumun <b>yüzünün görünmediği</b> fotoğrafları (arkadan, eller, kartlar) kullanılabilir."]
-    rows = "".join(f'<div style="display:flex;gap:3mm;margin-bottom:4mm;font-size:11.5pt"><div>{cb()}</div><div>{t}</div></div>' for t in items)
-    return f'''<section class="sheet t-camp"><div class="form">{form_head("Veli Onay Formu")}
-  <p style="font-size:11.5pt;line-height:1.4">Kaesu Akademi Film Atölyesi’nde çocuğunuzun atölyeyle ilgili görüşleri ve kamp sırasındaki fotoğrafları, atölyeyi değerlendirmek ve tanıtmak için kullanılabilir. Lütfen izin verdiğiniz her madde için kutuyu <b>ayrı ayrı</b> işaretleyin. İşaretlemediğiniz maddeler için izin vermemiş sayılırsınız.</p>
-  <p style="margin-top:6mm;line-height:2.4;font-size:11.5pt">Çocuğun adı soyadı: <span class="fill" style="min-width:60mm"></span><br>Veli adı soyadı: <span class="fill" style="min-width:64mm"></span></p>
-  <div style="margin-top:6mm">{rows}</div>
-  <p style="margin-top:4mm;font-size:11.5pt;line-height:1.4">Veli izin verse de çocuk, kamp sonunda kendi kartında ayrıca karar verir. İkisinden biri “hayır” derse kullanılmaz. Ad kullanımı için hem velinin hem çocuğun açık onayı gerekir.</p>
-  <p style="margin-top:4mm;font-size:11.5pt;line-height:1.4">Bu form, kurumun KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) aydınlatma metniyle birlikte verilir. İzninizi istediğiniz zaman geri alabilirsiniz.</p>
-  <p style="margin-top:6mm;line-height:2.4;font-size:11.5pt">Geri alma talebi için: <span class="fill" style="min-width:90mm"></span><br>Tarih: <span class="fill" style="min-width:40mm"></span> &nbsp;&nbsp; İmza: <span class="fill" style="min-width:50mm"></span></p>
-</div></section>'''
-
-
-# --------------------------------------------------------------------------------------
-# Moderatör kağıdı: ../moderator-kagidi.md dosyasından dönüştürülür
-# --------------------------------------------------------------------------------------
-def moderator_pages():
-    import markdown
-    md = (ROOT.parent / "moderator-kagidi.md").read_text(encoding="utf-8")
-
-    def conv(text):
-        text = re.sub(r"_{3,}", "\u0001", text)
-        text = re.sub(r"(?m)^((?![ \t]*(?:[-*]|\d+\.)[ \t]).+)\n([ \t]*(?:[-*]|\d+\.)[ \t])", r"\1\n\n\2", text)
-        out = markdown.markdown(text, extensions=["tables", "smarty"], extension_configs={"smarty": {"smart_angled_quotes": False}})
-        out = out.replace("☐", '<span class="cb"></span>').replace("\u0001", '<span class="fill"></span>')
-        out = out.replace("<th>Gösterge</th>", '<th style="width:42%">Gösterge</th>')
-        return out
-
-    sections = re.split(r"^## ", md, flags=re.M)[1:]
-    pages = []
-    for sec in sections:
-        title, body = sec.split("\n", 1)
-        title = title.strip()
-        if title.startswith("MODERATÖRÜN"):
-            body = body.split("\n---")[0]
-            pages.append(f'<section class="flowpage mod gold t-camp">{STRIPE}<h2 style="margin-top:4mm">Moderatörün Altın Kuralları</h2>{conv(body)}</section>')
-            continue
-        m = re.match(r"(\d)\. GÜN", title)
-        if not m:
-            continue
-        d = DAYS[int(m.group(1)) - 1]
-        front = body.split("### ÖN YÜZ", 1)[1].split("### ARKA YÜZ", 1)[0]
-        back = body.split("### ARKA YÜZ", 1)[1].split("\n---")[0]
-        for side, part in (("ÖN YÜZ", front), ("ARKA YÜZ", back)):
-            head = (f'<div class="mhead">{motif(d["key"])}<div class="scrim"><b>{d["n"]}. GÜN · {d["film"]}</b> · {d["TEMA"]}</div>'
-                    f'<div class="side">{side}</div></div>')
-            extra = f'<div class="notes">Notlarım</div>{lines(4)}' if side == "ARKA YÜZ" else ""
-            pages.append(f'<section class="flowpage mod {d["t"]}">{head}{conv(part)}{extra}</section>')
-    return "".join(pages)
-
-
-# --------------------------------------------------------------------------------------
 # Ürün listesi: dosya adı -> (başlık, gövde, beklenen sayfa sayısı)
 # --------------------------------------------------------------------------------------
 def products():
@@ -643,14 +400,6 @@ def products():
     p["kamp-soru-duvari-basliklari"] = ("Soru Duvarı ve Hayattan Sorular", wall_pages(), 2)
     p["kamp-bes-kapi"] = ("Beş Kapı köşe kartları", door_pages(), 5)
     p["kamp-topluluk-kurallari"] = ("Topluluk Kuralları", rules_pages(), 3)
-    p["form-anket-kamp-basi"] = ("Kamp başı anketi", survey(False), 1)
-    p["form-anket-kamp-sonu"] = ("Kamp sonu anketi", survey(True), 2)
-    p["form-cikis-karti"] = ("Çıkış kartı", exit_cards(), 1)
-    p["form-felsefe-her-yerde-karti"] = ("Felsefe Her Yerde kartı", fhy_cards(), 1)
-    p["form-kartpostal"] = ("Kartpostal", postcards(), 1)
-    p["form-gozlem"] = ("Gözlem formu", observation(), 3)
-    p["form-veli-onay"] = ("Veli onay formu", consent(), 1)
-    p["moderator-kagidi"] = ("Moderatör kağıdı", moderator_pages(), 11)
     return p
 
 

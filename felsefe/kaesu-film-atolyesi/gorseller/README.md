@@ -36,18 +36,22 @@ Dosya adlarında: `gun1-truman` The Truman Show, `gun2-io2` Ters Yüz 2, `gun3-w
 | `pdf/kamp-bes-kapi.pdf` | Beş Kapı köşe kartları. Her sayfa bir filmin kimliğinde: kahraman ve onun seçimi | A4 dikey, 5 sayfa | %100 ölçek | 1 takım. 5. gün odanın beş köşesine asılır |
 | `pdf/kamp-topluluk-kurallari.pdf` | 1. Topluluk Kurallarımız (4 kural). 2. Konuşma Kalıpları. 3. Felsefi soru nedir? | A4 dikey, 3 sayfa | %100 ölçek | 1 takım. Kamp boyunca asılı kalır |
 
-## Formlar
+## Defter, kitapçık ve formlar (Filya renkleri)
+
+Bu dört ürün Filya'nın renk kurallarıyla (koyu #202B23, krem #F3EEC8, sarı #FFD85F, turuncu #F47A3C) ve Literata, Albert Sans fontlarıyla basılır. Logo kullanılmaz. Zemin krem olduğu için ev yazıcısı kenarda 3–5 mm beyaz bırakır, bu normaldir.
 
 | Dosya | İçerik | Kağıt | Nasıl basılır | Kaç adet |
 |---|---|---|---|---|
-| `pdf/form-anket-kamp-basi.pdf` | Kamp başı anketi: Bölüm A (10 madde) ve Bölüm B (2 açık uçlu soru) | A4 dikey, 1 sayfa | %100 ölçek | Öğrenci sayısı kadar |
-| `pdf/form-anket-kamp-sonu.pdf` | Kamp sonu anketi: aynı A ve B bölümleri + Bölüm C (memnuniyet ve 3 açık soru) | A4 dikey, 2 sayfa | **Çift yüz** (uzun kenardan çevir) | Öğrenci sayısı kadar |
-| `pdf/form-cikis-karti.pdf` | Günlük çıkış kartı: keyif ölçeği (5 yüz ifadesi), aklımda kalan soru, fark ettiğim felsefi an | A4 dikey, sayfada 4 adet A6 | %100 ölçek, 4'e kesin | Her gün öğrenci sayısı ÷ 4 sayfa |
-| `pdf/form-felsefe-her-yerde-karti.pdf` | "Felsefe Her Yerde" kartı: kamp hayatında yakalanan soru, nerede yakalandığı, panoya asma izni | A4 dikey, sayfada 4 adet A6 | %100 ölçek, 4'e kesin | 1–4. günler için her gün öğrenci sayısı ÷ 4 sayfa |
-| `pdf/form-kartpostal.pdf` | 5. gün kapanış kartpostalı: 4 açık soru ve alıntı izni kutusu | A4 dikey, sayfada 2 adet A5 | %100 ölçek, ortadan ikiye kesin | Öğrenci sayısı ÷ 2 sayfa |
-| `pdf/form-gozlem.pdf` | 1. sayfa gözlem formu. 2. sayfa gözlem rubriği (soru kalitesi ve gerekçe düzeyi). 3. sayfa beş günlük özet tablosu | A4 dikey, 3 sayfa | 1–2. sayfa **çift yüz**. 3. sayfa ayrı | 1. sayfa: her gün 1 (5 adet). Rubrik: arkasına. Özet: 1 |
-| `pdf/form-veli-onay.pdf` | Veli onay formu: rapor, alıntı ve fotoğraf için ayrı ayrı izin kutuları | A4 dikey, 1 sayfa | %100 ölçek | Kamptan önce, öğrenci sayısı kadar |
-| `pdf/moderator-kagidi.pdf` | 1. sayfa Moderatörün Altın Kuralları. Ardından her gün için **ön yüz** (amaç, zaman çizelgesi, izleme görevi, B ve C durakları, sorular, ikilem) ve **arka yüz** (hassas içerik, "Tıkanırsam" hamleleri, gözlem alanı, notlar) | A4 dikey, 11 sayfa | 1. sayfayı tek yüz basın. 2–11. sayfaları **çift yüz** basın (uzun kenardan çevir). Böylece her gün tek bir yaprak olur | 1 takım (+1 yedek) |
+| `pdf/defter-dusunce-yolculugum.pdf` | **Düşünce Yolculuğum** defteri: 1. sayfa Başlangıç (ilk cevap, beş ifade), 2. sayfa 1–3. gün, 3. sayfa 4–5. gün, 4. sayfa Varış (şimdiki cevap, ne değişti, büyük soru, alıntı izni). Kapakta “Kamp adım: ______” satırı | A4 dikey, 4 sayfa | **Çift yüz** (uzun kenardan çevir), 2 yaprak, sol üstten zımbala | Öğrenci sayısı kadar (+2 yedek) |
+| `pdf/moderator-kitapcigi.pdf` | Altın kurallar, kamp omurgası ve her gün için ön-arka yaprak. Her günün ön yüzünde filmin küçük afişi ve IMDb bağlantısı var | A4 dikey, 12 sayfa | **Çift yüz**: 1–2. sayfa bir yaprak, sonra her gün bir yaprak | 1 takım (+1 yedek) |
+| `pdf/form-gozlem.pdf` | 1. sayfa gözlem formu, 2. sayfa rubrik | A4 dikey, 2 sayfa | **Çift yüz** | Her gün 1 (5 adet) |
+| `pdf/form-veli-onay.pdf` | Veli onay formu: rapor, alıntı ve fotoğraf için ayrı ayrı izin kutuları | A4 dikey, 1 sayfa | Tek yüz | Kamptan önce, öğrenci sayısı kadar |
+
+**Kaldırılan eski formlar:** iki ayrı anket, çıkış kartı, Felsefe Her Yerde kartı ve kartpostal. Hepsi deftere katıldı (bkz. [../olcme-degerlendirme.md](../olcme-degerlendirme.md)).
+
+**Afişler:** `afisler/` klasöründeki film afişleri yalnızca moderatör kitapçığında kullanılır (telif). Kaynakları `afisler/KAYNAK.md`'de.
+
+**Not:** Film görselleri (günlük afiş, not kartı, ikilem tabelaları, Beş Kapı) ve kamp afişleri henüz eski içerikte. Tek istisna Ters Yüz 2 ikilem tabelası: hap imgesi kaldırıldı, yerine onaylanan kasa imgesi kondu. Bu görseller Parça 3'te yeni içeriğe ve Yolculuk Duvarı'na göre güncellenecek.
 
 ## Tasarım sistemi
 
@@ -81,11 +85,12 @@ curl -fsSL https://bootstrap.pypa.io/get-pip.py | ~/.local/share/kaesu-gorsel-ve
 ~/.local/share/kaesu-gorsel-venv/bin/pip install weasyprint pypdfium2 markdown
 ```
 
-Üretim:
+Üretim (iki betik var: `build.py` film görselleri ve kamp afişleri, `build_filya.py` defter, kitapçık ve formlar):
 
 ```bash
 cd felsefe/kaesu-film-atolyesi/gorseller
-~/.local/share/kaesu-gorsel-venv/bin/python build.py                  # hepsi
+~/.local/share/kaesu-gorsel-venv/bin/python build.py                  # film görselleri, kamp afişleri
+~/.local/share/kaesu-gorsel-venv/bin/python build_filya.py            # defter, moderatör kitapçığı, gözlem ve veli formu
 ~/.local/share/kaesu-gorsel-venv/bin/python build.py gun3 kartpostal  # yalnızca adında bunlar geçenler
 ~/.local/share/kaesu-gorsel-venv/bin/python build.py --inceleme /tmp/inceleme   # ek olarak 110 dpi inceleme PNG'leri
 ```
