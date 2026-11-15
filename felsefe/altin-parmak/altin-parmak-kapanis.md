@@ -1,27 +1,19 @@
 # Altın Parmak · kapanış metni
 
-Hikâyenin sonu okunduktan sonra sesli söylenir. Felsefe en sonda söylenir: çocuklara ne yapmaları gerektiğini değil, az önce ne yaptıklarını anlatırsın (Worley, s. 65). Felsefeciler kitabın “Daha fazla okuma” listesinden (s. 117). {E} etiketli cümle listede yok, bizim eklememiz; istemezsen atla. Basılı hâli: `altin-parmak-kapanis.pdf`.
+Lise (14–17 yaş) için tek sürüm. Hikâyenin sonu okunduktan sonra sesli söylenir, yaklaşık 1 dakika. Felsefeciler kitabın “Daha fazla okuma” listesinden (s. 117). {E} etiketli cümle listede yok, bizim eklememiz; istemezsen atla. Basılı hâli: `altin-parmak-kapanis.pdf`.
 
-### SAYFA · SESLİ OKUNACAK
-
-::: oku
-#### (a) Çocuklara · yaklaşık 50 saniye
-
-Bugün Altın Parmak hikâyesini konuştuk. Kral Midas tek bir cümle kurdu: “Dokunduğum her şey altına dönsün.” Cümle tam söylendiği gibi gerçekleşti. Ama Midas'ın demek istediği bu değildi.
-
-Siz bugün bir filozofun yaptığını yaptınız. Bir cümlenin tam olarak ne dediğine baktınız. “Her şey” ve “nesne” gibi kelimelerin ne kadar büyük olduğunu gördünüz. Frege ve Russell adında iki filozof da bunun üzerine çok düşündü: Söylediğimiz ile demek istediğimiz arasındaki boşluğu nasıl küçültürüz?
-
-Çok eskiden yaşamış Aristoteles, bir düşünceden başka bir düşüncenin nasıl çıktığını inceledi. Siz de “Bu dilek dilenirse ne olur?” diye sorarken bunu yaptınız. Mill adlı bir filozof ise mutluluğu düşündü. Midas her şeye sahipti, ama mutlu değildi.
-
-Size bir soru bırakıyorum. Cevabını bugün bulmanız gerekmiyor: **Her istediğimizi elde etseydik, mutlu olur muyduk?**
-:::
+### SAYFA · LİSE SÜRÜMÜ
 
 ::: oku
-#### (b) Velilere ve yetişkinlere · en fazla 1 dakika
+#### Sesli okunacak · yaklaşık 1 dakika
 
-Bugün çocuklarla *Felsefe Makinesi* kitabından Altın Parmak oturumunu yaptık. Midas'ın dileği kelimesi kelimesine gerçekleşiyor ve felakete dönüşüyor, çünkü söylediği ile demek istediği aynı değil.
+Midas'ın sorunu, dileğinin gerçekleşmemesi değildi. Dileği kelimesi kelimesine gerçekleşti. Sorun buydu.
 
-Kitap bu oturumu analitik felsefeye dayandırıyor. Frege ve Russell, günlük dilin gizlediği belirsizlikleri ayıklamaya çalıştı. Çocuklar da bugün “her şey”, “nesne”, “ihtiyaç” gibi kelimelerin sınırını aradı. “Bu dilek dilenirse ne olur?” diye sorarken Aristoteles'in kıyas mantığını, yani öncülden sonuç çıkarmayı kullandılar. Aristoteles'in aşırılık ile eksiklik arasındaki ölçü fikri de Midas'ın açgözlülüğüne ayna tutuyor. {E} Mill ve faydacılık ise şunu soruyor: Daha fazlasına sahip olmak bizi daha mutlu eder mi?
+Biz de her gün Midas'ın cümlesine benzer cümleler kuruyoruz. Okumadan “Kabul ediyorum” kutusunu işaretliyoruz. “Tamam” yazıyoruz, karşı taraf bambaşka bir “tamam” okuyor. Frege ve Russell, dilin bu kaygan yerlerini temizlemek için mantığı baştan kurdu: Cümle tam olarak ne söylüyor, biz ne demek istiyoruz?
 
-Çocuklar bugün bir cevap ezberlemedi. Bir cümleyi dikkatle okumayı ve açığını aramayı denedi. Evde onlara şunu sorabilirsiniz: **Her istediğini elde etseydin, mutlu olur muydun?**
+Aristoteles çok daha önce şunu gösterdi: Bir öncülü kabul ettiysen, sonucunu da kabul etmiş olursun. “Dokunduğum her şey” dediysen, kızın da o “her şey”in içindedir. Bir dilek, bir söz, bir kural: Hepsi sonuçlarını yanında getirir. Aristoteles'e göre iyi olan, iki aşırılığın arasında bir yerdedir; “her şey” ise ölçünün tam tersidir. {E}
+
+Mill başka bir yerden sordu: Mutluluk, istediğine sahip olmak mı? Midas'ın sarayı altınla doluydu, ama yiyebileceği tek bir lokma yoktu.
+
+Size bir soru bırakıyorum: **Sorun, istediğimizi doğru söyleyememek mi, yoksa gerçekten ne istediğimizi bilmemek mi?**
 :::
