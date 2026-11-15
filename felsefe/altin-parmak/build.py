@@ -24,6 +24,10 @@ EK_CSS = """
 .kb .te { border: 0.3mm dashed var(--line-strong); color: var(--ink); }
 .kb .giris { font-size: 10pt; color: var(--muted); margin-bottom: 4mm; }
 .kb .giris p { margin-bottom: 1.5mm; }
+/* kapanış metni */
+.kb .oku { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4mm 6mm 2mm; margin: 0 0 4mm; }
+.kb .oku h4 { font-weight: 700; font-size: 9.5pt; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 2mm; }
+.kb .oku p { font-size: 12.6pt; line-height: 1.45; margin: 0 0 2.2mm; }
 /* kopya kâğıdı */
 .kopya { font-size: 10.4pt; line-height: 1.36; }
 .kopya .bant { padding: 3mm 5mm; margin-bottom: 3mm; }
@@ -91,6 +95,10 @@ def sayfali(dosya, ust, alt):
 
 def oturum():
     return sayfali("altin-parmak-oturum.md", "FELSEFE MAKİNESİ · TEK OTURUM", "Kral Midas’ın dileği · dil, anlam, açıklık ve kesinlik")
+
+
+def kapanis():
+    return sayfali("altin-parmak-kapanis.md", "KAPANIŞ METNİ · SESLİ OKUNUR", "Hikâyenin sonundan sonra · felsefe en sonda")
 
 
 def yaratici():
@@ -164,5 +172,6 @@ def yaz(ad, html, beklenen=None):
 
 if __name__ == "__main__":
     ok = yaz("altin-parmak-oturum", oturum(), 13) & yaz("altin-parmak-kopya", kopya(), 1)
+    ok &= yaz("altin-parmak-kapanis", kapanis(), 1)
     ok &= yaz("altin-parmak-yaratici", yaratici(), 5) & yaz("altin-parmak-malzeme", malzeme(), 2)
     sys.exit(0 if ok else 1)
