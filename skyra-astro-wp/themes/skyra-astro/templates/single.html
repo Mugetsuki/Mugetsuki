@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","tagName":"div","className":"sk-header-part"} /-->
+
+<!-- wp:group {"tagName":"main","className":"sk-main sk-article","layout":{"type":"default"}} -->
+<main class="wp-block-group sk-main sk-article"><!-- wp:group {"tagName":"article","layout":{"type":"default"}} -->
+<article class="wp-block-group"><!-- wp:group {"className":"sk-container sk-article__head","layout":{"type":"default"}} -->
+<div class="wp-block-group sk-container sk-article__head"><!-- wp:skyra/breadcrumbs /-->
+
+<!-- wp:post-terms {"term":"category","className":"sk-article__cat"} /-->
+
+<!-- wp:post-title {"level":1} /-->
+
+<!-- wp:post-excerpt {"className":"sk-article__lead","moreText":""} /-->
+
+<!-- wp:group {"className":"sk-article__meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group sk-article__meta"><!-- wp:post-author-name /-->
+
+<!-- wp:post-date /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-featured-image {"className":"sk-article__cover"} /-->
+
+<!-- wp:post-content {"layout":{"type":"constrained"},"className":"sk-article__content"} /--></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"sk-container sk-article__more","layout":{"type":"default"}} -->
+<section class="wp-block-group sk-container sk-article__more"><!-- wp:heading -->
+<h2 class="wp-block-heading">Okumaya devam et</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":7,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"className":"sk-postgrid"} -->
+<div class="wp-block-query sk-postgrid"><!-- wp:post-template -->
+<!-- wp:post-featured-image {"isLink":false} /-->
+
+<!-- wp:post-terms {"term":"category"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true} /-->
+
+<!-- wp:post-date /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"div","className":"sk-footer-part"} /-->

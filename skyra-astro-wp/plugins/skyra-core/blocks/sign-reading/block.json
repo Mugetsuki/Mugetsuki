@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/sign-reading",
+	"title": "Burç günlük okuması",
+	"category": "skyra",
+	"icon": "format-quote",
+	"description": "Bir burç için bugünün ve yarının okuması.",
+	"textdomain": "skyra",
+	"attributes": {
+		"sign": {
+			"type": "string",
+			"default": ""
+		},
+		"variant": {
+			"type": "string",
+			"default": "page"
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php",
+	"viewScript": "skyra-ui",
+	"usesContext": [
+		"postId",
+		"postType"
+	]
+}

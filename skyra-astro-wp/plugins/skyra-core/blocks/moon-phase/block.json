@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/moon-phase",
+	"title": "Ay fazı",
+	"category": "skyra",
+	"icon": "visibility",
+	"description": "Güncel Ay fazı, aydınlanma, Ay'ın burcu ve sonraki Yeni Ay/Dolunay.",
+	"textdomain": "skyra",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Ay fazı"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Ay bugün hangi hikâyeyi anlatıyor?"
+		},
+		"intro": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php",
+	"viewScript": "skyra-ui"
+}

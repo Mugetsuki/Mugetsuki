@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/daily-horoscopes",
+	"title": "Günlük burç yorumları",
+	"category": "skyra",
+	"icon": "format-quote",
+	"description": "12 burç için günün okuması; mobilde kaydırmalı, masaüstünde ızgara.",
+	"textdomain": "skyra",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Günlük burç yorumları"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Bugün burcunda ne var?"
+		},
+		"intro": {
+			"type": "string",
+			"default": ""
+		},
+		"layout": {
+			"type": "string",
+			"default": "carousel"
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php",
+	"viewScript": "skyra-ui"
+}

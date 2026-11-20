@@ -1,0 +1,56 @@
+[
+	{
+		"id": "tek",
+		"name": "Tek Kart",
+		"short": "Bugün üzerine düşünmek için tek bir odak.",
+		"board": { "w": 1.6, "h": 2.2 },
+		"positions": [
+			{ "label": "Odak", "role": "Şu an üzerine düşünmen için öne çıkan tema.", "x": 0.8, "y": 1.1 }
+		]
+	},
+	{
+		"id": "uc",
+		"name": "Üç Kart",
+		"short": "Kökler, şimdi ve olası yön.",
+		"board": { "w": 3.9, "h": 1.9 },
+		"positions": [
+			{ "label": "Kökler", "role": "Bugünkü durumu besleyen geçmiş deneyimler ve alışkanlıklar.", "x": 0.65, "y": 0.95 },
+			{ "label": "Şimdi", "role": "Şu anda en çok dikkat isteyen tema.", "x": 1.95, "y": 0.95 },
+			{ "label": "Olası yön", "role": "Bugünkü eğilim sürerse öne çıkabilecek tema; kesin bir sonuç değil, düşünmeye bir davet.", "x": 3.25, "y": 0.95 }
+		]
+	},
+	{
+		"id": "kelt",
+		"name": "Kelt Haçı",
+		"short": "On kartla bir duruma derinlemesine bakış.",
+		"board": { "w": 5.65, "h": 7.2 },
+		"positions": [
+			{ "label": "Şimdiki durum", "role": "Konunun merkezindeki hâl.", "x": 2.05, "y": 3.6 },
+			{ "label": "Kesişen etki", "role": "Durumu zorlayan ya da dengeleyen etken.", "x": 2.05, "y": 3.6, "rot": 90 },
+			{ "label": "Temel", "role": "Konunun altında yatan kökler; çoğu zaman fark edilmeyen taraf.", "x": 2.05, "y": 5.45 },
+			{ "label": "Yakın geçmiş", "role": "Geride kalmaya başlayan ama hâlâ izi süren deneyim.", "x": 0.7, "y": 3.6 },
+			{ "label": "Bilinçli hedef", "role": "Ulaşmak istediğin ya da en iyi hâliyle hayal ettiğin şey.", "x": 2.05, "y": 1.75 },
+			{ "label": "Yaklaşan tema", "role": "Yakın zamanda gündemine gelebilecek tema; bir olasılık olarak.", "x": 3.4, "y": 3.6 },
+			{ "label": "Sen", "role": "Bu konuya karşı tutumun ve kendini konumlandırışın.", "x": 4.95, "y": 6.3 },
+			{ "label": "Çevren", "role": "Çevrendeki insanların ve koşulların etkisine dair senin gözlemin.", "x": 4.95, "y": 4.5 },
+			{ "label": "Umutlar ve kaygılar", "role": "Bu konuda içinde birlikte taşıdığın beklenti ve endişeler.", "x": 4.95, "y": 2.7 },
+			{ "label": "Olası yön", "role": "Bugünkü eğilim sürerse öne çıkabilecek tema; kesin bir sonuç değil, düşünmeye bir davet.", "x": 4.95, "y": 0.9 }
+		]
+	},
+	{
+		"id": "iliski",
+		"name": "İlişki Açılımı",
+		"short": "Bir ilişkiye kendi bakış açından yedi kartla bakış.",
+		"note": "Bu açılım diğer kişinin duygularını ya da düşüncelerini bildirmez. Karşı tarafla ilgili pozisyonlar, ilişkiyi senin nasıl algıladığın üzerine düşünmen içindir.",
+		"board": { "w": 3.9, "h": 5.7 },
+		"positions": [
+			{ "label": "Sen", "role": "Bu ilişkide kendini nasıl konumlandırdığın.", "x": 0.65, "y": 0.95 },
+			{ "label": "Aranızdaki bağ", "role": "İlişkiyi bir arada tutan ortak tema.", "x": 1.95, "y": 0.95 },
+			{ "label": "Diğer kişiye bakışın", "role": "Diğer kişiyi bu dönemde nasıl gördüğün; onun iç dünyası değil, senin algın.", "x": 3.25, "y": 0.95 },
+			{ "label": "Senin ihtiyacın", "role": "Bu ilişkide karşılanmasını istediğin ihtiyaç.", "x": 0.65, "y": 2.85 },
+			{ "label": "Zorlayan tema", "role": "İlişkide üzerine konuşulması iyi gelebilecek zorluk.", "x": 1.95, "y": 2.85 },
+			{ "label": "Onun ihtiyacına dair tahminin", "role": "Diğer kişinin neye ihtiyaç duyduğuna dair senin varsayımın; onunla konuşarak sınayabilirsin.", "x": 3.25, "y": 2.85 },
+			{ "label": "Olası yön", "role": "Bugünkü eğilim sürerse ilişkide öne çıkabilecek tema; kesin bir sonuç değil, düşünmeye bir davet.", "x": 1.95, "y": 4.75 }
+		]
+	}
+]

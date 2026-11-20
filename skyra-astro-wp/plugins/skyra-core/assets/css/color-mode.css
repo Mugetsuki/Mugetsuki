@@ -1,0 +1,81 @@
+/*
+ * Light/dark mode for non-Skyra themes (loaded by Color_Mode). The head
+ * script always sets data-theme, so only [data-theme="dark"] is needed.
+ * Palette follows the Skyra Astro theme's dark tokens.
+ */
+
+/* ------------------------------------------------------------- Toggle */
+.sk-mode-toggle {
+	display: inline-grid;
+	place-items: center;
+	flex: none;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	border-radius: 12px;
+	border: 1px solid var(--skyra-line, var(--color-border));
+	background: transparent;
+	color: inherit;
+	cursor: pointer;
+	transition: background-color 180ms ease-out, border-color 180ms ease-out;
+}
+.sk-mode-toggle[hidden] { display: none; }
+@media (hover: hover) { .sk-mode-toggle:hover { background: var(--skyra-pearl, var(--color-secondary)); } }
+.sk-mode-toggle .skyra-icon--theme-light, :root[data-theme="dark"] .sk-mode-toggle .skyra-icon--theme-dark { display: none; }
+:root[data-theme="dark"] .sk-mode-toggle .skyra-icon--theme-light { display: block; }
+.sk-mode-toggle.is-floating { position: fixed; right: 16px; bottom: 16px; z-index: 50; background: var(--skyra-paper, var(--color-surface)); box-shadow: 0 12px 32px rgba(41, 35, 51, .12); }
+
+/* ------------------------------------------------------ Dark palette */
+:root[data-theme="dark"] {
+	color-scheme: dark;
+
+	/* Skyra Core blocks */
+	--color-primary: #CDB8E7;
+	--color-secondary: #332A43;
+	--color-accent: #DFA6BC;
+	--color-accent-text: #DFA6BC;
+	--color-background: #17131F;
+	--color-surface: #241E2E;
+	--color-surface-raised: #2D2539;
+	--color-text: #F5F0F8;
+	--color-text-muted: #C0B4CB;
+	--color-border: #4B4058;
+	--color-control: #9D8CA9;
+	--color-hover: #DDCAF2;
+	--color-on-primary: #241E2E;
+	--color-night: #100D17;
+	--color-blush: #3A2A38;
+	--color-sand: #2C2530;
+	--color-error: #FFB1BE;
+	--color-success: #9BD2B8;
+	--el-ates: #DFA6BC;
+	--el-toprak: #CDBB9C;
+	--el-hava: #8F7AAE;
+	--el-su: #CDB8E7;
+	--shadow-sm: 0 2px 8px rgba(0, 0, 0, .2);
+	--shadow-md: 0 12px 32px rgba(0, 0, 0, .24);
+	--shadow-lg: 0 24px 60px rgba(0, 0, 0, .32);
+	--gradient-dawn: radial-gradient(ellipse at 75% 20%, #3A2B4B 0%, #1C1726 55%, #17131F 100%);
+	--gradient-lunar: linear-gradient(145deg, #2D2539, #3B2F4D);
+	--gradient-night: linear-gradient(135deg, #100D17, #2A2139);
+
+	/* Skyra Editorial theme */
+	--skyra-ink: #F5F0F8;
+	--skyra-paper: #17131F;
+	--skyra-navy: #CDB8E7;
+	--skyra-violet: #DDCAF2;
+	--skyra-muted: #C0B4CB;
+	--skyra-line: #4B4058;
+	--skyra-pearl: #332A43;
+}
+
+/* Skyra Editorial surfaces that are hard-coded white or use ink/navy as a fill. */
+:root[data-theme="dark"] :is(.skyra-card, .skyra-facts, .skyra-empty, .skyra-zodiac-card, .skyra-orbit),
+:root[data-theme="dark"] .skyra-reading .wp-block-post-content blockquote,
+:root[data-theme="dark"] .skyra-header-search .wp-block-search__inside-wrapper,
+:root[data-theme="dark"] .skyra-library :where(input, select) { background: #241E2E; }
+:root[data-theme="dark"] .skyra-toc { background: #2D2539; border-color: #4B4058; }
+:root[data-theme="dark"] :is(.skyra-footer, .skyra-brand__logo) { background: #100D17; }
+:root[data-theme="dark"] .skyra-weekly { background: #241E2E; border: 1px solid #4B4058; }
+:root[data-theme="dark"] :is(.skyra-footer, .skyra-footer a, .skyra-weekly p, .skyra-weekly time, .skyra-weekly .skyra-card__meta) { color: #EDE8F5; }
+:root[data-theme="dark"] :is(.skyra-library button, .skyra-library input[type=submit], .skyra-library .page-numbers.current, .skyra-pagination .current) { color: #241E2E; }

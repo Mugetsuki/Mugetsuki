@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/breadcrumbs",
+	"title": "İçerik yolu",
+	"category": "skyra",
+	"icon": "arrow-right-alt2",
+	"description": "Sayfa yolu (breadcrumb).",
+	"textdomain": "skyra",
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

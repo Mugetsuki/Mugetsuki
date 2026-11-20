@@ -1,0 +1,19 @@
+{
+	"name": "skyra-astro-wp",
+	"private": true,
+	"description": "Skyra Astro WordPress teması + Skyra Core eklentisi: yerel geliştirme ve testler.",
+	"scripts": {
+		"start": "wp-playground-cli server --port 9400 --mount ./plugins/skyra-core:/wordpress/wp-content/plugins/skyra-core --mount ./plugins/skyra-tarot:/wordpress/wp-content/plugins/skyra-tarot --mount ./themes/skyra-astro:/wordpress/wp-content/themes/skyra-astro --blueprint ./blueprint.json --login",
+		"test": "npm run test:php && npm run test:engine",
+		"test:php": "php-wasm-cli tests/lint.php .",
+		"test:engine": "node tests/engine-accuracy.mjs",
+		"test:e2e": "node tests/e2e.mjs http://127.0.0.1:9400"
+	},
+	"devDependencies": {
+		"@php-wasm/cli": "^3.1.56",
+		"@wp-playground/cli": "^3.1.56",
+		"astronomy-engine": "^2.1.19",
+		"axe-core": "^4.13.0",
+		"playwright": "^1.55.0"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/newsletter",
+	"title": "Bülten",
+	"category": "skyra",
+	"icon": "email",
+	"description": "Çift onaylı e-posta bülteni kayıt formu.",
+	"textdomain": "skyra",
+	"attributes": {
+		"variant": {
+			"type": "string",
+			"default": "panel"
+		},
+		"eyebrow": {
+			"type": "string",
+			"default": "Bülten"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Gökyüzünden haftalık bir not."
+		},
+		"intro": {
+			"type": "string",
+			"default": "Her pazartesi: haftanın Ay fazları, retro ve burç geçişleri, kısa bir okuma önerisi. İstediğin zaman ayrılabilirsin."
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php",
+	"viewScript": "skyra-ui"
+}

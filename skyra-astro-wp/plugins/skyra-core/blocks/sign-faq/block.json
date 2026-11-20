@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/sign-faq",
+	"title": "Burç SSS ve ilişkiler",
+	"category": "skyra",
+	"icon": "editor-help",
+	"description": "Sık sorulan sorular, aynı elementten burçlar ve uyum bağlantıları.",
+	"textdomain": "skyra",
+	"attributes": {
+		"sign": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php",
+	"usesContext": [
+		"postId",
+		"postType"
+	]
+}

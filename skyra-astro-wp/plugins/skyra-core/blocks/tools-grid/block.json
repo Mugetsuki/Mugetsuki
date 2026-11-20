@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/tools-grid",
+	"title": "Astroloji araçları",
+	"category": "skyra",
+	"icon": "grid-view",
+	"description": "Yedi aracın editoryal ızgarası.",
+	"textdomain": "skyra",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Astroloji araçları"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Kendini keşfetmenin yolları"
+		},
+		"intro": {
+			"type": "string",
+			"default": "Her araç gerçek gökyüzü hesabıyla çalışır; sonuçlar yorum için bir başlangıç noktasıdır."
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

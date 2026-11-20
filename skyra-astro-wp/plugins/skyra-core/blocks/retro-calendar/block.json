@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/retro-calendar",
+	"title": "Retro takvimi",
+	"category": "skyra",
+	"icon": "image-rotate",
+	"description": "Yılın retro dönemleri, gezegen bazında zaman çizelgesi.",
+	"textdomain": "skyra",
+	"attributes": {
+		"year": {
+			"type": "integer",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php"
+}

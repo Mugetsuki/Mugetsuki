@@ -1,0 +1,12 @@
+/*
+ * Footer balance while the newsletter is off: the theme reserves a fourth
+ * column for it. Applies only when that slot is empty, so turning the
+ * newsletter back on restores the theme's layout untouched.
+ */
+.sk-footer__news:not(:has(*)) { display: none; }
+@media (min-width: 768px) and (max-width: 1023px) {
+	.sk-footer__grid:not(:has(.sk-footer__news *)) .sk-footer__brand { grid-column: 1 / -1; }
+}
+@media (min-width: 1024px) {
+	.sk-footer__grid:not(:has(.sk-footer__news *)) { grid-template-columns: 1fr auto auto; column-gap: clamp(64px, 9vw, 144px); }
+}

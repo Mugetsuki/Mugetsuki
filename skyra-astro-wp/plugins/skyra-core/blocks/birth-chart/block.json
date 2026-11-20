@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra/birth-chart",
+	"title": "Doğum haritası",
+	"category": "skyra",
+	"icon": "chart-pie",
+	"description": "Doğum haritası formu ve sonucu. Ana sayfa çeşidi adım adım ilerler.",
+	"textdomain": "skyra",
+	"attributes": {
+		"variant": {
+			"type": "string",
+			"default": "full"
+		},
+		"eyebrow": {
+			"type": "string",
+			"default": "Doğum haritası"
+		},
+		"heading": {
+			"type": "string",
+			"default": "Gökyüzünün sana özel halini keşfet."
+		},
+		"intro": {
+			"type": "string",
+			"default": "Doğduğun anda gökyüzünün konumu, sana özel astrolojik haritanı oluşturur."
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			]
+		}
+	},
+	"editorScript": "skyra-editor",
+	"style": "skyra-blocks",
+	"render": "file:./render.php",
+	"viewScript": "skyra-tools"
+}

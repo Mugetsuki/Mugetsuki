@@ -1,0 +1,90 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Gece",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#CDB8E7"
+				},
+				{
+					"slug": "secondary",
+					"name": "Secondary",
+					"color": "#332A43"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#DFA6BC"
+				},
+				{
+					"slug": "background",
+					"name": "Background",
+					"color": "#17131F"
+				},
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#241E2E"
+				},
+				{
+					"slug": "raised",
+					"name": "Surface raised",
+					"color": "#2D2539"
+				},
+				{
+					"slug": "text",
+					"name": "Text primary",
+					"color": "#F5F0F8"
+				},
+				{
+					"slug": "muted",
+					"name": "Text secondary",
+					"color": "#C0B4CB"
+				},
+				{
+					"slug": "border",
+					"name": "Border",
+					"color": "#4B4058"
+				},
+				{
+					"slug": "control",
+					"name": "Control border",
+					"color": "#9D8CA9"
+				},
+				{
+					"slug": "hover",
+					"name": "Hover",
+					"color": "#DDCAF2"
+				},
+				{
+					"slug": "on-primary",
+					"name": "On primary",
+					"color": "#241E2E"
+				},
+				{
+					"slug": "night",
+					"name": "Night",
+					"color": "#100D17"
+				},
+				{
+					"slug": "blush",
+					"name": "Pudra (dekoratif)",
+					"color": "#3A2A38"
+				},
+				{
+					"slug": "sand",
+					"name": "Açık bej (dekoratif)",
+					"color": "#2C2530"
+				}
+			]
+		}
+	},
+	"styles": {
+		"css": ":root{--color-accent-text:#DFA6BC;--color-error:#FFB1BE;--color-success:#9BD2B8;--el-ates:#DFA6BC;--el-toprak:#CDBB9C;--el-hava:#8F7AAE;--el-su:#CDB8E7;--shadow-md:0 12px 32px rgba(0,0,0,.24);--gradient-dawn:radial-gradient(ellipse at 75% 20%,#3A2B4B 0%,#1C1726 55%,#17131F 100%);--gradient-lunar:linear-gradient(145deg,#2D2539,#3B2F4D);--gradient-night:linear-gradient(135deg,#100D17,#2A2139);color-scheme:dark}.sk-theme-toggle{display:none!important}"
+	},
+	"description": "Site genelinde koyu görünüm (editör seçimi). Ziyaretçi bazlı açık/koyu geçişi bu varyasyonda kapanır."
+}

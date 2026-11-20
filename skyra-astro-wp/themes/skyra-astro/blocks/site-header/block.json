@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skyra-theme/site-header",
+	"title": "Skyra header",
+	"category": "theme",
+	"icon": "align-wide",
+	"description": "Logo, ana menü (Görünüm → Menüler), tema anahtarı ve harita çağrısı.",
+	"textdomain": "skyra",
+	"supports": { "html": false, "multiple": false, "reusable": false },
+	"render": "file:./render.php"
+}
