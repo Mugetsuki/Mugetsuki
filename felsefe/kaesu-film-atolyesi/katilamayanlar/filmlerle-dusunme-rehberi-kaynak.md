@@ -67,8 +67,6 @@ Ortada durmak da serbest. Hangisini seçtin, çünkü…?
 
 > **İzleme görevi:** Film boyunca tek bir soruyu aklında tut: Riley değiştiğinde hâlâ Riley mi?
 
-**Bilmen iyi olur:** Filmin sonuna doğru Riley çok yoğun bir kaygı yaşıyor, bir panik atak geçiriyor. Zorlanırsan ara verebilir, yanındaki bir büyükle konuşabilirsin. Son yarım saatte durak yok, final maçını kesintisiz izle.
-
 ### 1. durak · yaklaşık 25–35. dakika · Sökülen benlik
 
 **Sahne:** Kampta işler ters gidince Kaygı, Riley'nin benlik duygusunu zihnin arkasına fırlatıyor. (Benlik duygusu: Riley'nin anılarından büyüyen, "Ben iyi bir insanım" diyen inançlar.) Neşe ve eski duygular kavanozlara kapatılıp kasaya gönderiliyor. Bu bölüm bitince durdur.
@@ -113,8 +111,6 @@ Ortada durmak da serbest. Hangisini seçtin, çünkü…?
 **Filmin büyük sorusu:** İyi bir insan olmak ile iyi bir hayat yaşamak aynı şey mi?
 
 > **İzleme görevi:** Film boyunca tek bir soruyu aklında tut: İyi biri olan herkesin hayatı iyi mi gidiyor?
-
-**Bilmen iyi olur:** Bu filmde zorbalık var. Bir sahnede bir çocuk çok kırıcı ve ağır bir şey söylüyor. Bir de ailenin yaşlı köpeği Daisy ölüyor. Zorlanırsan ara verebilir, yanındaki bir büyükle konuşabilirsin.
 
 ### 1. durak · yaklaşık 40–55. dakika · Cadılar Bayramı
 
@@ -207,8 +203,6 @@ Ortada durmak da serbest. Hangisini seçtin, çünkü…?
 **Filmin büyük sorusu:** Hayatı yaşamaya değer kılan bir amaca ulaşmak mı, yaşamanın kendisi mi?
 
 > **İzleme görevi:** Film boyunca tek bir soruyu aklında tut: Bir hayatı yaşamaya değer kılan ne?
-
-**Bilmen iyi olur:** Film, bir adamın bir kazayla ruhlar dünyasına düşmesiyle başlıyor. Mizahlı ve hayal ürünü anlatılmış, ama yakın zamanda bir kayıp yaşadıysan duygusal gelebilir. Zorlanırsan yanındaki bir büyükle konuşabilirsin.
 
 ### 1. durak · yaklaşık 25–35. dakika · Kayıp ruhlar
 

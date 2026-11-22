@@ -124,7 +124,6 @@ def film_bolumu(baslik, govde):
     buyuk = re.search(r"\*\*Filmin büyük sorusu:\*\* (.+)", ust).group(1)
     izleme = re.search(r"> \*\*İzleme görevi:\*\* (.+)", ust).group(1)
     izleme_on, _, izleme_soru = izleme.partition(": ")
-    bilmen = re.search(r"\*\*Bilmen iyi olur:\*\* (.+)", ust)
     ilerleme = "".join('<i class="on"></i>' if i == n else "<i></i>" for i in range(1, 6))
     url = f"https://www.imdb.com/title/{imdb}/"
     afis_html = (f'<div class="afis"><img src="../afisler/{afis}" alt="{ad} afişi">'
@@ -137,8 +136,6 @@ def film_bolumu(baslik, govde):
             f'<div class="title">{il(buyuk)}</div></div></td><td class="afis-hucre">{afis_html}</td></tr></table>',
             f'<div class="kaynak"><h4>İZLEME GÖREVİ · FİLMDEN ÖNCE OKU</h4><p>{il(izleme_on)}:</p>'
             f'<p class="yaprakta">{il(izleme_soru)}</p></div>']
-    if bilmen:
-        html.append(f'<div class="bilmen"><p><b>Bilmen iyi olur:</b> {il(bilmen.group(1))}</p></div>')
     html.append('<div class="ara">Üç durak</div>')
     for s in alt:
         sb, sg = s.split("\n", 1)
