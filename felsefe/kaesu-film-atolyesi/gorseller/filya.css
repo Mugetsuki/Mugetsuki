@@ -214,3 +214,72 @@ table.form td { background: var(--raised); }
 .kb .kaynak p.yaprakta { font-family: "Literata"; font-weight: 600; font-size: 13pt; line-height: 1.3; margin: 0 0 2.5mm; }
 .kb .et { display: inline-block; background: var(--sunk); border: 0.25mm solid var(--line); border-radius: 99mm; padding: 0 2mm; margin: 0 0.6mm 0.4mm 0; font-size: 7.8pt; font-weight: 600; line-height: 1.55; color: var(--ink); white-space: nowrap; vertical-align: 1px; }
 .kb table.akis td .et { white-space: normal; }
+
+/* ---------- Filmlerle düşünme rehberi (katılamayanlar için, çocuğa hitap; ferah) ---------- */
+@page rehber { size: A4; margin: 15mm 16mm 17mm 16mm; background: var(--krem);
+  @bottom-center { content: "Filmlerle düşünme rehberi · " counter(page); font-family: "Albert Sans"; font-size: 8.5pt; color: #4C584F; } }
+@page rehber-kapak { size: A4; margin: 0; background: var(--krem); }
+.rh { page: rehber; break-before: page; font-size: 11.8pt; line-height: 1.5; }
+.rh p { margin: 0 0 2.6mm; }
+.rh .ust-serit { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 2.5mm; border-bottom: 0.4mm solid var(--line); }
+.rh .ust-serit .label { font-size: 9pt; }
+.rh .gun-bant { margin-top: 5mm; height: 34mm; }
+.rh .gun-bant .etiket .title { font-size: 21pt; }
+.rh table.ust-blok { width: 100%; border-collapse: collapse; margin: 5mm 0 3mm; }
+.rh table.ust-blok td { border: 0; padding: 0; vertical-align: top; }
+.rh table.ust-blok td.afis-hucre { width: 33mm; padding-left: 6mm; }
+.rh .afis img { width: 27mm; border-radius: 2mm; display: block; }
+.rh .afis .k { font-size: 7.5pt; color: var(--muted); margin-top: 1mm; line-height: 1.25; }
+.rh .afis a { color: var(--ink); }
+.rh .buyuk { background: var(--hl-soft); border-radius: 5mm; padding: 4mm 6mm; margin-top: 3mm; }
+.rh .buyuk .title { font-size: 16.5pt; margin-top: 1mm; line-height: 1.25; }
+.rh .kaynak { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4mm 6mm 2mm; margin: 0 0 4mm; break-inside: avoid; }
+.rh .kaynak h4 { font-weight: 700; font-size: 9.5pt; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 1.5mm; }
+.rh .kaynak p.yaprakta { font-family: "Literata"; font-weight: 600; font-size: 14pt; line-height: 1.35; margin: 0 0 2mm; }
+.rh .bilmen { border: 0.35mm dashed var(--line-strong); border-radius: 4mm; padding: 3.5mm 6mm 1.5mm; margin: 0 0 4mm; font-size: 11pt; break-inside: avoid; }
+.rh .ara { font-family: "Literata"; font-weight: 600; font-size: 15pt; margin: 6mm 0 3mm; break-after: avoid; }
+.rh .durak { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4.5mm 6mm 2.5mm; margin: 0 0 4.5mm; break-inside: avoid; }
+.rh .durak .ust { display: flex; justify-content: space-between; align-items: center; }
+.rh .durak .ust .label { font-size: 9pt; }
+.rh .durak h4 { font-family: "Literata"; font-weight: 600; font-size: 15pt; margin: 0.5mm 0 2.5mm; }
+.rh .durak .soru { background: var(--hl-soft); border-radius: 3mm; padding: 3mm 4.5mm; margin: 1mm 0 3mm; }
+.rh .durak .soru p { margin: 0 0 1.5mm; }
+.rh .durak .soru p:last-child { margin: 0; }
+.rh .durak .daha { font-size: 10.8pt; color: var(--muted); }
+.rh .durak .daha b { color: var(--ink); }
+.rh .bitince { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4.5mm 6mm 2mm 6mm; margin: 0 0 4.5mm; break-inside: avoid; }
+.rh .bitince ul { margin: 0 0 2mm; padding-left: 5mm; }
+.rh .bitince li { margin-bottom: 2mm; }
+.rh .taraf { break-inside: avoid; }
+.rh .son { break-inside: avoid; }
+.rh .taraf .giris { font-size: 12pt; margin-bottom: 3mm; }
+.rh table.ikilem { width: calc(100% + 8mm); border-collapse: separate; border-spacing: 4mm 0; margin: 0 -4mm 3mm; }
+.rh table.ikilem td { width: 50%; background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 4.5mm 5.5mm; vertical-align: top; }
+.rh table.ikilem .harf { font-family: "Literata"; font-weight: 600; font-size: 28pt; line-height: 1; margin-bottom: 2mm; }
+.rh .ortada { font-size: 11pt; color: var(--muted); }
+/* kapak */
+.rh-kapak { page: rehber-kapak; position: relative; width: 210mm; height: 297mm; padding: 22mm 20mm; overflow: hidden; }
+.rh-kapak .ust-label { font-weight: 700; font-size: 10pt; letter-spacing: 0.1em; color: var(--muted); }
+.rh-kapak .baslik { font-family: "Literata"; font-weight: 600; font-size: 40pt; line-height: 1.08; margin-top: 6mm; }
+.rh-kapak .alt { font-size: 15pt; margin-top: 4mm; }
+.rh-kapak .vurgu { width: 22mm; height: 2.2mm; border-radius: 99mm; background: var(--turuncu); margin-top: 8mm; }
+.rh-kapak .blok-sari { margin-top: 10mm; }
+.rh-kapak .filmler { margin-top: 10mm; }
+.rh-kapak .film { display: flex; align-items: center; gap: 6mm; margin-bottom: 4.5mm; }
+.rh-kapak .film .sw { position: relative; width: 46mm; height: 19mm; border-radius: 3mm; overflow: hidden; flex: none; background: var(--koyu); }
+.rh-kapak .film .sw svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.rh-kapak .film .ad { font-family: "Literata"; font-weight: 600; font-size: 16pt; line-height: 1.15; }
+.rh-kapak .film .bs { font-size: 11.5pt; color: var(--muted); }
+/* kullanım */
+.rh .adim { display: flex; gap: 6mm; align-items: flex-start; margin-bottom: 7mm; font-size: 13pt; }
+.rh .adim .no { flex: none; width: 10mm; height: 10mm; border-radius: 50%; background: var(--sari); font-family: "Literata"; font-weight: 600; font-size: 14pt; text-align: center; line-height: 10mm; }
+.rh .adim p { margin: 1.5mm 0 0; }
+.rh .unutma { background: var(--hl-soft); border-radius: 5mm; padding: 6mm 8mm; margin-top: 10mm; font-size: 13.5pt; }
+.rh .sayfa-baslik { font-family: "Literata"; font-weight: 600; font-size: 26pt; line-height: 1.1; margin: 7mm 0 6mm; }
+/* senin cevabın */
+.rh .alan { margin-top: 6mm; break-inside: avoid; }
+.rh .alan-etiket { font-weight: 700; font-size: 12.5pt; }
+.rh .alan-ipucu { font-size: 11pt; color: var(--ink); margin-top: 0.5mm; }
+.rh .lines div { height: 8.5mm; }
+.rh .parcalar { display: flex; flex-wrap: wrap; gap: 2.5mm 6mm; margin: 3mm 0 1mm; font-size: 11.5pt; }
+.rh .parcalar .dot { width: 5mm; height: 5mm; vertical-align: -1.2mm; margin-right: 1.5mm; }

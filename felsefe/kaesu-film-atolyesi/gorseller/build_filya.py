@@ -9,6 +9,7 @@
 Stil: filya.css. HTML kaynakları html/ altında, PNG önizlemeler onizleme/ altında.
 Film görselleri (afiş, not kartı, ikilem, Beş Kapı) build.py ile üretilir.
   pdf/atolye-senaryosu.pdf            Atölyenin kısa senaryosu (4 sayfa); kaynak: ../atolye-senaryosu.md
+  pdf/filmlerle-dusunme-rehberi.pdf   Atölyeye katılamayanlar için rehber; kaynak: ../katilamayanlar/filmlerle-dusunme-rehberi-kaynak.md (rehber.py)
 
 Kullanım: ~/.local/share/kaesu-gorsel-venv/bin/python build_filya.py [ÜRÜN ...] [--inceleme KLASÖR]
 """
@@ -19,6 +20,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 import yapraklar as yp  # defter yaprakları ve rozetler
+import rehber  # Filmlerle düşünme rehberi (katılamayanlar için)
 HTML_DIR, PDF_DIR, PNG_DIR = ROOT / "html", ROOT / "pdf", ROOT / "onizleme"
 
 GUNLER = {
@@ -356,6 +358,7 @@ URUNLER = {
     "form-gozlem": ("Gözlem formu", gozlem, 2),
     "form-veli-onay": ("Veli onay formu", veli, 1),
     "atolye-senaryosu": ("Atölyenin kısa senaryosu", atolye_senaryosu, 4),
+    "filmlerle-dusunme-rehberi": ("Filmlerle düşünme rehberi", rehber.rehber, 18),
 }
 URUNLER.update({ad: (f"Soru kaynakları · {v[2]}", soru_kaynagi(ad), v[3]) for ad, v in SORU_KAYNAKLARI.items()})
 
