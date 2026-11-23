@@ -1,1 +1,10 @@
 __pycache__/
+
+# Çocuk verisi asla git'e girmez (transkript, rapor metni, rapor PDF'i, önizleme, form fotoğrafı).
+# Bunlar yalnızca E:\Users\pc\Kaesu-Felsefe-Atolyesi\ altında durur. Şablon: cocuk-raporu-sablonu.md
+transkript*.md
+*-rapor.md
+*-rapor.pdf
+*-rapor-s*.png
+Cocuk-Formlari/
+Cocuk-Raporlari/

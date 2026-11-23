@@ -283,3 +283,56 @@ table.form td { background: var(--raised); }
 .rh .lines div { height: 8.5mm; }
 .rh .parcalar { display: flex; flex-wrap: wrap; gap: 2.5mm 6mm; margin: 3mm 0 1mm; font-size: 11.5pt; }
 .rh .parcalar .dot { width: 5mm; height: 5mm; vertical-align: -1.2mm; margin-right: 1.5mm; }
+
+/* Çocuk raporu (cocuk_rapor.py) · moderatör için, akışlı A4, çocuk verisi içermez */
+@page cocuk { size: A4; margin: 12mm 14mm 14mm 14mm; background: var(--krem);
+  @bottom-center { content: "Çocuk raporu · " string(kampadi) " · " counter(page); font-family: "Albert Sans"; font-size: 8.5pt; color: #4C584F; } }
+.cr { page: cocuk; font-size: 10pt; line-height: 1.4; }
+.cr p { margin: 0 0 2mm; }
+.cr ul, .cr ol { margin: 0 0 2mm; padding-left: 5mm; }
+.cr li { margin-bottom: 1mm; }
+.cr-kimlik { background: var(--koyu); color: var(--krem); border-radius: 6mm; padding: 5mm 7mm 4.5mm; }
+.cr-kimlik .label { color: var(--krem); font-size: 8.5pt; }
+.cr-kimlik .satir { display: flex; align-items: center; justify-content: space-between; margin-top: 2mm; }
+.cr-kimlik .ad { font-family: "Literata"; font-weight: 600; font-size: 30pt; line-height: 1.05; string-set: kampadi content(); }
+.cr-kimlik .cipler .pill { margin-left: 2mm; font-size: 10pt; }
+.cr-kimlik .vurgu { width: 18mm; height: 1.8mm; border-radius: 99mm; background: var(--turuncu); margin-top: 3mm; }
+.cr-kimlik .okur { font-size: 8.5pt; margin-top: 2mm; }
+.cr-bolum { margin-top: 4.5mm; }
+.cr-bolum h2 { font-family: "Literata"; font-weight: 600; font-size: 13.5pt; line-height: 1.2; margin: 0 0 2mm; break-after: avoid; }
+.cr-bolum.kirilmaz { break-inside: avoid; }
+.cr-bolum.yeni-sayfa { break-before: page; margin-top: 0; }
+.cr .kart .label { font-size: 8.5pt; margin-bottom: 1.5mm; }
+table.cr-ikili { width: 100%; border-collapse: collapse; table-layout: fixed; }
+table.cr-ikili td { vertical-align: top; padding: 0; }
+table.cr-ikili td.ok { width: 8mm; text-align: center; vertical-align: middle; font-size: 16pt; font-weight: 700; }
+table.cr-ikili .kart { padding: 3.5mm 4.5mm 1.5mm; }
+table.cr-ikili .kart p { font-family: "Literata"; font-size: 10.6pt; line-height: 1.4; }
+table.cr-ikili .kart.var { background: var(--hl-soft); border-color: var(--hl-soft); }
+.cr-metin { margin-top: 3mm; }
+.cr-olcek { background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 3mm 4mm 2.5mm; }
+.cr-olcek svg { width: 100%; display: block; }
+.cr-olcek .lejant { font-size: 8.5pt; color: var(--muted); margin-top: 1mm; }
+.cr-olcek .lejant .n { display: inline-block; width: 3mm; height: 3mm; border-radius: 50%; border: 0.35mm solid var(--koyu); vertical-align: -0.5mm; margin: 0 1mm 0 3mm; }
+.cr-olcek .lejant .n.bos { background: var(--raised); margin-left: 0; }
+.cr-olcek .lejant .n.dolu { background: var(--sari); }
+.cr-gun { display: flex; gap: 4mm; background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 3mm 4mm 1.2mm; margin-bottom: 2.5mm; break-inside: avoid; }
+.cr-gun .sol { width: 29mm; flex: none; }
+.cr-gun .sw { position: relative; width: 29mm; height: 11mm; border-radius: 2.5mm; overflow: hidden; background: var(--koyu); }
+.cr-gun .sw svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.cr-gun .gn { font-size: 8.5pt; font-weight: 700; letter-spacing: 0.06em; color: var(--muted); margin-top: 1.5mm; }
+.cr-gun .fa { font-family: "Literata"; font-weight: 600; font-size: 11.5pt; line-height: 1.15; }
+.cr-gun .pu { font-size: 8.5pt; color: var(--muted); margin-top: 1mm; }
+.cr-gun .sag { flex: 1; font-size: 9.6pt; line-height: 1.36; }
+.cr-gun .sag p { margin: 0 0 1.3mm; }
+.cr-gun .et { font-weight: 700; font-size: 7.8pt; letter-spacing: 0.05em; color: var(--muted); text-transform: uppercase; margin-right: 1.5mm; }
+.cr-gun .gz { background: var(--hl-soft); border-radius: 2.5mm; padding: 1.2mm 2.5mm; }
+.cr-iz { border-left: 1.2mm solid var(--sari); padding: 0.3mm 0 0.3mm 4mm; margin-bottom: 2.4mm; orphans: 2; widows: 2; }
+.cr-iz .t { break-after: avoid; }
+.cr-iz .t { font-weight: 700; margin-bottom: 0.8mm; }
+.cr-iz p { margin: 0; }
+.cr-buyuk { background: var(--sari); border-radius: 5mm; padding: 3.5mm 6mm 1.5mm; }
+.cr-izin .pill { margin-bottom: 2.5mm; }
+table.cr-ikiz { width: 100%; border-collapse: collapse; table-layout: fixed; break-inside: avoid; }
+table.cr-ikiz td { vertical-align: top; padding: 0; }
+table.cr-ikiz td + td { padding-left: 7mm; }
