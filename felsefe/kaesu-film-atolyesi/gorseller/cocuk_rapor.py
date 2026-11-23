@@ -35,14 +35,6 @@ CUMLELER = {
     "D": "Felsefe filozofların ve büyüklerin işidir.",
     "E": "Sıradan şeylerin altında da büyük sorular vardır.",
 }
-IZIN = {
-    "ad-yas": "Adı ve yaşıyla kullanılabilir",
-    "adsiz": "Adı olmadan kullanılabilir",
-    "yok": "Hiçbir yerde kullanılmasın",
-    "isaretsiz": "Hiçbir kutu işaretli değil: kullanılmaz",
-}
-IZLER = ["Gerekçe kuruyor mu?", "Ayrım yapıyor mu?", "Örnek ya da karşı örnek veriyor mu?",
-         "Kendi hayatına taşıyor mu?", "Soru üretiyor mu?"]
 
 
 def oku(md_yolu):
@@ -117,8 +109,7 @@ def kimlik(b):
             f'<div class="cipler"><span class="pill sari">{b["yas"]} yaş</span>'
             f'<span class="pill sari">{_html.escape(b["okul"])}</span>'
             f'<span class="pill sari">{gun}/5 gün tamamlandı</span></div></div>'
-            f'<div class="vurgu"></div>'
-            f'<div class="okur">Okur: moderatör · Kaynak: defterin 10 yaprağı, kamp adıyla</div></div>')
+            f'<div class="vurgu"></div></div>')
 
 
 def bolum(baslik, ic, cls=""):
@@ -157,20 +148,14 @@ def gun_gun(govde):
     return "".join(out)
 
 
-def izler(govde):
-    a = dict(alt(govde))
-    eksik = [i for i in IZLER if i not in a]
-    if eksik:
-        sys.exit("Düşünme izleri bölümünde eksik başlık: " + ", ".join(eksik))
-    return "".join(f'<div class="cr-iz"><div class="t">{i}</div>{md(a[i])}</div>' for i in IZLER)
+def maddeler(govde, en_az, en_cok, ad):
+    n = len(re.findall(r"(?m)^- ", govde))
+    if not en_az <= n <= en_cok:
+        sys.exit(f"{ad}: {en_az}–{en_cok} madde olmalı, {n} madde var.")
+    return md(govde)
 
 
-def izin_bolumu(b, govde):
-    return f'<div class="cr-izin"><span class="pill cizgi">{IZIN[b["izin"]]}</span>{md(govde)}</div>'
-
-
-ZORUNLU = ["Başlangıç ve varış", "Ölçek", "Gün gün", "Düşünme izleri", "Benim büyük sorum",
-           "Güçlü yanlar", "Sorulabilecek iki soru", "Moderatöre not", "İzin"]
+ZORUNLU = ["Başlangıç ve varış", "Ölçek", "Gün gün", "Düşünme izleri", "Benim büyük sorum", "Güçlü yanlar"]
 
 
 def rapor_html(md_yolu):
@@ -182,18 +167,13 @@ def rapor_html(md_yolu):
         f'<div class="cr">{kimlik(b)}',
         bolum("Kamp sorusu: başlangıç ve varış", basla_varis(s["Başlangıç ve varış"])),
         bolum("Beş cümle: başlangıçtan varışa", olcek_bolumu(b, s["Ölçek"]), "kirilmaz"),
-        bolum("Gün gün", gun_gun(s["Gün gün"]), "yeni-sayfa"),
-        bolum("Düşünme izleri", izler(s["Düşünme izleri"])),
-        bolum("Benim büyük sorum", f'<div class="cr-buyuk">{md(s["Benim büyük sorum"])}</div>', "kirilmaz"),
+        bolum("Gün gün", gun_gun(s["Gün gün"])),
+        bolum("Düşünme izleri", f'<div class="cr-izler">{maddeler(s["Düşünme izleri"], 3, 4, "Düşünme izleri")}</div>',
+              "kirilmaz"),
         '<table class="cr-ikiz"><tr><td>',
-        bolum("Güçlü yanlar", md(s["Güçlü yanlar"])),
+        bolum("Benim büyük sorum", f'<div class="cr-buyuk">{md(s["Benim büyük sorum"])}</div>'),
         '</td><td>',
-        bolum("Sonraki atölye için iki soru", md(s["Sorulabilecek iki soru"])),
-        '</td></tr></table>',
-        '<table class="cr-ikiz"><tr><td>',
-        bolum("Moderatöre not", md(s["Moderatöre not"])),
-        '</td><td>',
-        bolum("İzin durumu (Varış, 8. madde)", izin_bolumu(b, s["İzin"])),
+        bolum("Güçlü yanlar", maddeler(s["Güçlü yanlar"], 1, 3, "Güçlü yanlar")),
         '</td></tr></table>',
         "</div>"])
     return (f'<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>Çocuk raporu · {b["kamp_adi"]}</title>'

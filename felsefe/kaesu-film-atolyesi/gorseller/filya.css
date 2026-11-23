@@ -297,7 +297,6 @@ table.form td { background: var(--raised); }
 .cr-kimlik .ad { font-family: "Literata"; font-weight: 600; font-size: 30pt; line-height: 1.05; string-set: kampadi content(); }
 .cr-kimlik .cipler .pill { margin-left: 2mm; font-size: 10pt; }
 .cr-kimlik .vurgu { width: 18mm; height: 1.8mm; border-radius: 99mm; background: var(--turuncu); margin-top: 3mm; }
-.cr-kimlik .okur { font-size: 8.5pt; margin-top: 2mm; }
 .cr-bolum { margin-top: 4.5mm; }
 .cr-bolum h2 { font-family: "Literata"; font-weight: 600; font-size: 13.5pt; line-height: 1.2; margin: 0 0 2mm; break-after: avoid; }
 .cr-bolum.kirilmaz { break-inside: avoid; }
@@ -327,12 +326,9 @@ table.cr-ikili .kart.var { background: var(--hl-soft); border-color: var(--hl-so
 .cr-gun .sag p { margin: 0 0 1.3mm; }
 .cr-gun .et { font-weight: 700; font-size: 7.8pt; letter-spacing: 0.05em; color: var(--muted); text-transform: uppercase; margin-right: 1.5mm; }
 .cr-gun .gz { background: var(--hl-soft); border-radius: 2.5mm; padding: 1.2mm 2.5mm; }
-.cr-iz { border-left: 1.2mm solid var(--sari); padding: 0.3mm 0 0.3mm 4mm; margin-bottom: 2.4mm; orphans: 2; widows: 2; }
-.cr-iz .t { break-after: avoid; }
-.cr-iz .t { font-weight: 700; margin-bottom: 0.8mm; }
-.cr-iz p { margin: 0; }
-.cr-buyuk { background: var(--sari); border-radius: 5mm; padding: 3.5mm 6mm 1.5mm; }
-.cr-izin .pill { margin-bottom: 2.5mm; }
+.cr-buyuk { background: var(--sari); border-radius: 5mm; padding: 3.5mm 5mm 1.5mm; }
+.cr-izler ul { list-style: none; padding: 0; margin: 0; }
+.cr-izler li { border-left: 1.2mm solid var(--sari); padding: 0.3mm 0 0.3mm 4mm; margin-bottom: 2mm; }
 table.cr-ikiz { width: 100%; border-collapse: collapse; table-layout: fixed; break-inside: avoid; }
 table.cr-ikiz td { vertical-align: top; padding: 0; }
 table.cr-ikiz td + td { padding-left: 7mm; }
