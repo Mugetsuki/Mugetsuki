@@ -34,6 +34,7 @@ Defterin 10 fotoğrafı sırayla: 01 başlangıç ön, 02 başlangıç arka, 03�
 kamp_adi: <kamp adı>
 yas: <yaş>
 okul: <ilkokul | ortaokul | lise>
+etiket: <isteğe bağlı ek kimlik etiketi, ör. “sürpriz misafir”>
 tamamlanan_gun: <0–5>
 olcek_baslangic: A? B? C? D? E?
 olcek_varis: A? B? C? D? E?
@@ -58,7 +59,7 @@ kaynak: Cocuk-Formlari/<Ad>/transkript.md
 
 ## Gün gün
 
-### 1 · <o günün atölye puanı>
+### 1 · <o günün atölye puanı; ölçek dışı işaret varsa olduğu gibi, ör. “∞ (ölçek dışı)”>
 - Cevap: “<kısa alıntı, gerekirse …>”
 - Karıştıran: “<kısa alıntı>” ya da “Günün sorusunu aynen yazmış.”
 - Gözlem: <tek kısa cümle>
@@ -67,7 +68,8 @@ kaynak: Cocuk-Formlari/<Ad>/transkript.md
 ### 3 · …
 ### 4 · …
 ### 5 · …
-(5. gün yaprağında kamp sorusu alanı yok: “Bu yaprakta kamp sorusu alanı yok; cevabı Varış'ta.”)
+(5. gün yaprağında kamp sorusu alanı yok: “Bu yaprakta kamp sorusu alanı yok; cevabı Varış'ta.”
+Boş bırakılmış alan kısa ve nötr yazılır: “Bu gün kamp sorusu alanı boş.” Rapor eksiklik listesine dönmez, yazılanlara odaklanır.)
 
 ## Düşünme izleri
 - **<kısa başlık>:** <tek cümle> “<kısa alıntı>”
@@ -109,6 +111,6 @@ Bir sorunun atölyeden mi geldiğini anlamak için o günün modülündeki sorul
 - **Alıntılar düzeltilmez.** Kısaltma “…” ile gösterilir, `[?]` işaretleri korunur.
 - **Yapay uyarı ve kollayıcı cümle yok.**
 - **Parantez kuralı:** Filmden bir kişi, yer, sahne ya da kavram geçerse ardından kısa bir hatırlatıcı parantez.
-- **Yaşa göre okuma:** Okul ve yaş kimlik şeridinde yazar. Küçük bir çocuk için kısa ya da boş satırlar eksik değil, o yaşın yazısıdır; kendi yazdıklarıyla okunur.
-- **Başka çocuklar:** Bir çocuğun yazısında başka bir çocuğun kamp adı geçiyorsa, o cümle rapora alınmaz.
+- **Yaşa göre okuma:** Okul ve yaş kimlik şeridinde yazar. Küçük bir çocuk için kısa ya da boş satırlar eksik değil, o yaşın yazısıdır; kendi yazdıklarıyla okunur, daha büyük çocuklarla kıyaslanmaz.
+- **Başka çocuklar:** Bir raporda başka bir çocuğun adı geçmez. Çocuğun yazısında başka bir çocuğun kamp adı varsa “bir arkadaşı” diye yazılır; adı geçen cümle olduğu gibi alıntılanmaz. Kampta geçen başka kişi adları da (görevli, moderatör) alıntıya alınmaz.
 - **Raporda olmayanlar:** izin bölümü, moderatöre not, sonraki atölye için soru önerisi (Genel Müdür kararı, 2026-11-24).

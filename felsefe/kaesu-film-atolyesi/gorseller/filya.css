@@ -315,14 +315,16 @@ table.cr-ikili .kart.var { background: var(--hl-soft); border-color: var(--hl-so
 .cr-olcek .lejant .n { display: inline-block; width: 3mm; height: 3mm; border-radius: 50%; border: 0.35mm solid var(--koyu); vertical-align: -0.5mm; margin: 0 1mm 0 3mm; }
 .cr-olcek .lejant .n.bos { background: var(--raised); margin-left: 0; }
 .cr-olcek .lejant .n.dolu { background: var(--sari); }
-.cr-gun { display: flex; gap: 4mm; background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; padding: 3mm 4mm 1.2mm; margin-bottom: 2.5mm; break-inside: avoid; }
-.cr-gun .sol { width: 29mm; flex: none; }
+table.cr-gun { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--raised); border: 0.35mm solid var(--line); border-radius: 4mm; margin-bottom: 2.5mm; break-inside: avoid; }
+table.cr-gun tr { break-inside: avoid; }
+table.cr-gun td { vertical-align: top; padding: 3mm 4mm 1.2mm 0; }
+table.cr-gun td.sol { width: 33mm; padding-left: 4mm; }
 .cr-gun .sw { position: relative; width: 29mm; height: 11mm; border-radius: 2.5mm; overflow: hidden; background: var(--koyu); }
 .cr-gun .sw svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
 .cr-gun .gn { font-size: 8.5pt; font-weight: 700; letter-spacing: 0.06em; color: var(--muted); margin-top: 1.5mm; }
 .cr-gun .fa { font-family: "Literata"; font-weight: 600; font-size: 11.5pt; line-height: 1.15; }
 .cr-gun .pu { font-size: 8.5pt; color: var(--muted); margin-top: 1mm; }
-.cr-gun .sag { flex: 1; font-size: 9.6pt; line-height: 1.36; }
+.cr-gun .sag { font-size: 9.6pt; line-height: 1.36; }
 .cr-gun .sag p { margin: 0 0 1.3mm; }
 .cr-gun .et { font-weight: 700; font-size: 7.8pt; letter-spacing: 0.05em; color: var(--muted); text-transform: uppercase; margin-right: 1.5mm; }
 .cr-gun .gz { background: var(--hl-soft); border-radius: 2.5mm; padding: 1.2mm 2.5mm; }

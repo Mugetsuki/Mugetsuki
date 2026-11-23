@@ -108,7 +108,9 @@ def kimlik(b):
             f'<div class="satir"><div class="ad">{_html.escape(b["kamp_adi"])}</div>'
             f'<div class="cipler"><span class="pill sari">{b["yas"]} yaş</span>'
             f'<span class="pill sari">{_html.escape(b["okul"])}</span>'
-            f'<span class="pill sari">{gun}/5 gün tamamlandı</span></div></div>'
+            f'<span class="pill sari">{gun}/5 gün tamamlandı</span>'
+            + (f'<span class="pill sari">{_html.escape(b["etiket"])}</span>' if b.get("etiket") else "")
+            + '</div></div>'
             f'<div class="vurgu"></div></div>')
 
 
@@ -131,6 +133,12 @@ def olcek_bolumu(b, govde):
             f'<span class="ince">(aynıysa iç içe)</span></div></div><div class="cr-metin">{md(govde)}</div>')
 
 
+def puan_yaz(puan):
+    """'4' -> '4/5'; ölçek dışı işaret (ör. '∞ (ölçek dışı)') olduğu gibi yazılır."""
+    puan = puan.strip()
+    return f"{puan}/5" if puan.isdigit() else _html.escape(puan)
+
+
 def gun_gun(govde):
     out = []
     for bas, ic in alt(govde):
@@ -139,12 +147,12 @@ def gun_gun(govde):
         key, film = GUNLER[n]
         alanlar = dict(re.findall(r"(?m)^- (Cevap|Karıştıran|Gözlem):\s*(.+)$", ic))
         out.append(
-            f'<div class="cr-gun"><div class="sol"><div class="sw">{kit.motif(key)}</div>'
+            f'<table class="cr-gun"><tr><td class="sol"><div class="sw">{kit.motif(key)}</div>'
             f'<div class="gn">{n}. gün</div><div class="fa">{film}</div>'
-            f'<div class="pu">Atölye puanı: {puan.strip()}/5</div></div><div class="sag">'
+            f'<div class="pu">Atölye puanı: {puan_yaz(puan)}</div></td><td class="sag">'
             f'<p><span class="et">Kamp sorusuna cevabı</span> {il(alanlar.get("Cevap", "(boş)"))}</p>'
             f'<p><span class="et">Kafasını karıştıran soru</span> {il(alanlar.get("Karıştıran", "(boş)"))}</p>'
-            f'<p class="gz"><span class="et">Gözlem</span> {il(alanlar.get("Gözlem", ""))}</p></div></div>')
+            f'<p class="gz"><span class="et">Gözlem</span> {il(alanlar.get("Gözlem", ""))}</p></td></tr></table>')
     return "".join(out)
 
 
