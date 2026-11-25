@@ -21,7 +21,7 @@ Defterin 10 fotoğrafı sırayla: 01 başlangıç ön, 02 başlangıç arka, 03�
 - Okunamayan yer: `[okunamadı]`. Emin olunmayan kelime: kelimeden sonra `[?]`.
 - Silinmiş ya da üstü çizili yazı ayrıca belirtilir: okunabiliyorsa “(silinmiş, okunabilen: …)”.
 - Günün sorusu aynen yazılmışsa not düşülür: “(Günün sorusunun aynısı.)”
-- Ölçekler: başlangıç A–E, varış A–E, her günün “atölye nasıldı” puanı, kamp genel puanı. Ölçek dışına çizilen işaretler (kendi yuvarlağı, “∞” gibi) olduğu gibi tarif edilir.
+- Ölçekler: başlangıç A–E, varış A–E, her günün “atölye nasıldı” puanı, kamp genel puanı. 5'in üstüne çizilen işaretler (kendi yuvarlağı, 6, “∞”, “∞+∞” gibi) olduğu gibi tarif edilir; transkriptte yorum eklenmez.
 - Varış 8. madde (izin) olduğu gibi yazılır. Hiçbir kutu işaretli değilse açıkça belirtilir. Çizgiye ad yazılıp kutu boş bırakıldıysa bu da yazılır. (İzin transkriptte kalır, rapora girmez.)
 - Dosyanın başına bir özet tablosu konur (ölçekler, puanlar, izin).
 
@@ -59,7 +59,7 @@ kaynak: Cocuk-Formlari/<Ad>/transkript.md
 
 ## Gün gün
 
-### 1 · <o günün atölye puanı; ölçek dışı işaret varsa olduğu gibi, ör. “∞ (ölçek dışı)”>
+### 1 · <o günün atölye puanı: 1–5, ya da 5'in üstündeki işaret olduğu gibi, ör. “6”, “∞”, “∞+∞”, “5 (yanına ∞)”>
 - Cevap: “<kısa alıntı, gerekirse …>”
 - Karıştıran: “<kısa alıntı>” ya da “Günün sorusunu aynen yazmış.”
 - Gözlem: <tek kısa cümle>
@@ -88,6 +88,12 @@ Boş bırakılmış alan kısa ve nötr yazılır: “Bu gün kamp sorusu alanı
 
 PDF: `~/.local/share/kaesu-gorsel-venv/bin/python gorseller/cocuk_rapor.py "<E:>/Cocuk-Raporlari/<Ad>-rapor.md" --onizleme "<E:>/Cocuk-Raporlari/_calisma/onizleme"`
 PDF `.md` ile aynı klasöre yazılır. Her sayfa önizlemeden kontrol edilir.
+
+## Puan 5'in üstündeyse
+
+Günlük puanda ya da kamp genel puanında 5'in üstündeki bir işaret (6, ∞, “∞+∞” vb.) **“çok beğendi”** diye okunur; “ölçek dışı” denmez (Genel Müdür kararı, 2026-11-25). Bazı çocuklar atölyeyi çok beğendikleri için 5'ten yüksek puan vermek istiyor.
+- Transkriptte yazılan değer aynen kalır.
+- Rapor metninde işaret ham hâliyle yazılır (“∞”, “6”, “5 (yanına ∞)”); “çok beğendi” etiketini üretici ekler: “∞ (çok beğendi)”, “5 (yanına ∞: çok beğendi)”.
 
 ## Düşünme izleri: neye bakılır
 

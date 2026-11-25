@@ -133,10 +133,23 @@ def olcek_bolumu(b, govde):
             f'<span class="ince">(aynıysa iç içe)</span></div></div><div class="cr-metin">{md(govde)}</div>')
 
 
+COK_BEGENDI = "çok beğendi"
+
+
 def puan_yaz(puan):
-    """'4' -> '4/5'; ölçek dışı işaret (ör. '∞ (ölçek dışı)') olduğu gibi yazılır."""
+    """Atölye puanını yazar. 1–5: '4' -> '4/5'.
+    5'in üstündeki işaret (6, ∞, ∞+∞ …) ölçek hatası değil, "çok beğendi" demektir (Genel Müdür kararı):
+    yazılan olduğu gibi gösterilir, yanına "çok beğendi" eklenir.
+      '6' -> '6 (çok beğendi)' · '∞' -> '∞ (çok beğendi)' · '5 (yanına ∞)' -> '5 (yanına ∞: çok beğendi)'"""
     puan = puan.strip()
-    return f"{puan}/5" if puan.isdigit() else _html.escape(puan)
+    if puan.isdigit() and 1 <= int(puan) <= 5:
+        return f"{puan}/5"
+    m = re.fullmatch(r"(\d)\s*\(yanına\s*(.+?)\)", puan)
+    if m:
+        return _html.escape(f"{m.group(1)} (yanına {m.group(2)}: {COK_BEGENDI})")
+    if "(" in puan:
+        sys.exit(f"Atölye puanı anlaşılmadı: '{puan}'. 5'in üstündeki işareti olduğu gibi yazın (ör. '∞', '6', '5 (yanına ∞)').")
+    return _html.escape(f"{puan} ({COK_BEGENDI})")
 
 
 def gun_gun(govde):
