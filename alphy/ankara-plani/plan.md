@@ -1,10 +1,10 @@
-# Ankara Planı · 26–29 Kasım
+# Ankara Planı · 25–29 Kasım
 
-25 Kasım 2026 (güncelleme 2) · Claude Docs: https://claude.ai/artifact/TAAkrCnZbQxGJQZCREEe7V
+25 Kasım 2026 (güncelleme 3) · Claude Docs: https://claude.ai/artifact/TAAkrCnZbQxGJQZCREEe7V
 
-Cuma akşamı sabit: Fazıl Say konseri, 9 bilet alındı. Cumartesi akşamı arkadaşlarla toplu meyhane. Kahvaltılar evde, gündüz akraba ziyaretleri.
+Varış bu gece (Çarşamba) 23:00. Perşembe akşamı karaoke ya da caz. Cuma akşamı sabit: Fazıl Say konseri, 9 bilet alındı. Cumartesi akşamı arkadaşlarla toplu meyhane. Kahvaltılar evde, gündüz akraba ziyaretleri.
 
-**Varsayımlar:** Merkezde kalıyoruz (Kızılay–Kavaklıdere arası), kahvaltı evde. Ulaşım metro + taksi, araba yok. Bütçe orta: kişi başı ~3.500–8.000 TL (konaklama, yol ve alınmış konser bileti hariç). Alkol isteğe bağlı. Arkadaşlarla grup en fazla 9–10 kişi.
+**Varsayımlar:** Merkezde kalıyoruz (Kızılay–Kavaklıdere arası), kahvaltı evde. Ulaşım metro + taksi, araba yok. Bütçe orta: kişi başı ~4.500–10.500 TL (konaklama, yol ve alınmış konser bileti hariç). Alkol isteğe bağlı. Arkadaşlarla grup en fazla 9–10 kişi.
 
 ## Hava
 
@@ -20,13 +20,22 @@ Kaynak: [MGM 5 günlük tahmin](https://ankara.mgm.gov.tr/tahmin-tum-merkezler.a
 
 ## Gün gün
 
-Sabahlar evde kahvaltıyla başlıyor, dışarı çıkış 11:00 gibi. Ziyaret kayarsa gündüz önerisini atla, akşamı koru.
+Sabahlar evde kahvaltıyla başlıyor, dışarı çıkış 11:00 gibi. Akraba ziyareti Perşembe, Cuma, Cumartesi 4–5 saat; Pazar ~2 saat. Ziyaret kayarsa gündüz önerisini atla, akşamı koru.
 
-### Perşembe 26 · varış (23:00 sonrası)
+### Çarşamba 25 · varış (bu gece 23:00 sonrası)
 
-- **Aç geldiysek:** [Rumeli İşkembecisi](https://www.yeniankara.com.tr/ankara/ankarada-24-saat-acik-mekanlar-nerede-iste-gece-acik-adresler-181393), Kızılay Bayındır-1 Sok., 24 saat açık. Çorba ~250–400 TL (tahmini).
-- **Bir şey içmek istersek:** Aylak Teras, Kızılay Konur Sok. 63, 01:00'e kadar.
-- **Yorgunsak:** Doğrudan uyku; Cuma sabahı boş.
+- **Yorgunsak (önerim):** Doğrudan eve, uyku. Perşembe uzun gün.
+- **Aç geldiysek:** [Rumeli İşkembecisi](https://www.yeniankara.com.tr/ankara/ankarada-24-saat-acik-mekanlar-nerede-iste-gece-acik-adresler-181393), Kızılay Bayındır-1 Sok., 7/24 açık (Eylül 2026 listesi). Çorba ~250–400 TL (tahmini).
+- **Bir şey içmek istersek:** Aylak Teras, Kızılay Konur Sok. 63, her gün 11:00–01:00; Nil Rock Bar, Konur Sok. 31, her gün 02:00'ye kadar ([Ekim 2026 listesi](https://www.ankaraeniyi.com/en-iyi-ankara-mekanlari/)). Çarşamba da açık; 00:30'dan sonra gitmeyin.
+
+### Perşembe 26 · karaoke ya da caz
+
+- **Sabah:** Evde kahvaltı.
+- **12:00–17:00:** Akraba ziyareti (4–5 saat).
+- **Akşam A · arkadaşlarla (karaoke):** 19:00 Kızılay'da akşam yemeği. 20:30 [Konur Karaoke](https://www.konurkaraoke.com/kizilay-karaoke/) özel oda, Kızılay Konur Sok. 28/B. Tel 0544 738 75 12, [online rezervasyon](https://www.konurkaraoke.com/book-a-table/). Fiyat paket bazında; kişi sayısını söyleyip sor. Sonra aynı sokakta Nil Rock Bar.
+- **Akşam B · üçümüz (sakin caz):** 18:30 Tunalı/Kavaklıdere'de akşam yemeği. 20:00 [Ankara Caz Festivali: Jakub Mizeracki Trio](https://konserbilet.com/etkinlikler/30-uluslararasi-ankara-caz-festivali-jakub-mizeracki-trio-turk-amerikan-dernegi-merkezi-2026-11-26-bubilet), Türk-Amerikan Derneği, ~750 TL. Sonra Tunalı'da Kıtır (00:00'a kadar).
+- **Biletli diğer seçenekler:** [Miray Akovalıgil stand-up](https://www.bubilet.com.tr/ankara/etkinlik/miray-akovaligil-ya-bende-bir-sey-yoksa), Ankara Sanat Tiyatrosu Bilkent Sahne, 20:30, 1.200 TL (Bilkent'e taksi ~25 dk) · [Oi Va Voi](https://konserbilet.com/etkinlikler/oi-va-voi-jolly-joker-ankara-2026-11-26-biletix), Jolly Joker, 21:00, ~600 TL · [Hikmet Melih](https://konserbilet.com/etkinlikler/hikmet-melih-konseri-soldout-performance-hall-ankara-2026-11-26-bubilet), SoldOut, 21:30, ~490 TL · [Karsu](https://www.bubilet.com.tr/ankara/etkinlik/karsu), Congresium, 21:00, 1.600 TL'den · [Özge Arslan](https://konserbilet.com/etkinlikler/ozge-arslan-solo-konser-cankaya-belediyesi-yilmaz-guney-sahnesi-2026-11-26-bubilet), Çankaya Yılmaz Güney Sahnesi, 20:00, ~889 TL.
+- Coppelia (Ankara DOB, 26 Kasım 20:00) tükendi.
 
 ### Cuma 27 · Fazıl Say akşamı
 
@@ -73,7 +82,7 @@ Sabahlar evde kahvaltıyla başlıyor, dışarı çıkış 11:00 gibi. Ziyaret k
 
 **Meyhane dışında toplu seçenekler**
 
-- **Karaoke odası:** [Konur Karaoke](https://www.konurkaraoke.com/kizilay-karaoke/), Kızılay Konur Sok. 28/B, tel 0544 738 75 12, [online rezervasyon](https://www.konurkaraoke.com/book-a-table/). Fiyat paket bazında; oda kapasitesini sor.
+- **Karaoke odası:** [Konur Karaoke](https://www.konurkaraoke.com/kizilay-karaoke/), Kızılay Konur Sok. 28/B, tel 0544 738 75 12, [online rezervasyon](https://www.konurkaraoke.com/book-a-table/). Fiyat paket bazında; oda kapasitesini sor. Perşembe yapıldıysa atla.
 - **Konser (yan seçenek):** [Büyük Ev Ablukada](https://www.bubilet.com.tr/ankara/etkinlik/buyuk-ev-ablukada-konseri), Holly Stone Performance Hall, 21:00, 1.400–1.750 TL. Tarih [grubun sitesinde](https://buyukevablukada.com/) de 28 Kasım; 27 Aralık İstanbul konseri.
 - **Masa oyunu:** Da Vinci Board Game Cafe, Beştepe (Neorama). Giriş 300 TL, 00:00'a kadar; merkezden taksiyle ~20 dk.
 - Bowling ve bilardo için fiyatı ve açık olduğu doğrulanabilen merkezi bir yer bulamadım.
@@ -86,15 +95,19 @@ Sabahlar evde kahvaltıyla başlıyor, dışarı çıkış 11:00 gibi. Ziyaret k
 
 ## Yapılacaklar
 
-Fazıl Say biletleri alındı. Şimdi en acil iş WhatsApp'ı atıp Cumartesi meyhane masasını ayırtmak.
+Fazıl Say biletleri alındı. En acil iş: WhatsApp'ı yola çıkmadan atmak; cevaplar Perşembe öğlene kadar gelsin.
 
-**Bugün (Çarşamba 25)**
+**Bu akşam (Çarşamba 25, yola çıkmadan)**
 
 - [x] Fazıl Say, Cuma 20:00: 9 bilet alındı.
-- [ ] WhatsApp mesajını arkadaşlara at (aşağıda). Cevap için son tarih Perşembe 18:00.
-- [ ] Cuma 18:00 yemeği: Kovan Bistronomy'yi (0549 310 00 62) ara, 9 kişilik yer ve tam adres sor.
+- [ ] WhatsApp mesajını at (aşağıda). Cevap için son tarih Perşembe 12:00.
 
-**Perşembe 26, 18:00'e kadar**
+**Perşembe 26, sabah (11:00'e kadar)**
+
+- [ ] Perşembe akşamı seçimi: arkadaş gelecekse Konur Karaoke'yi ara (0544 738 75 12) ve 20:30 için oda ayırt; gelmeyecekse caz biletini al (~750 TL).
+- [ ] Cuma 18:00 yemeği: Kovan Bistronomy'yi ara (0549 310 00 62), 9 kişilik yer ve tam adres sor.
+
+**Perşembe 26, 15:00'e kadar**
 
 - [ ] Cuma ve Cumartesi için kesin kişi sayısını topla.
 - [ ] Cumartesi 19:30 meyhane rezervasyonu, 8–10 kişi (Gedikli ya da Müjgan; telefonlar yukarıda).
@@ -107,13 +120,19 @@ Fazıl Say biletleri alındı. Şimdi en acil iş WhatsApp'ı atıp Cumartesi me
 
 **Cumartesi 28, öğleden sonra**
 
-- [ ] Meyhane sonrası seçildiyse karaoke odası ya da Flashback biletleri.
+- [ ] Meyhane sonrası seçildiyse Flashback biletleri.
 
 ## WhatsApp mesajı
 
 Kopyala, kendi ağzına göre düzelt, bugün at.
 
-> Selam! Perşembe gece Ankara'ya geliyoruz, Pazar akşam dönüyoruz. Cuma akşamı 20:00'de CSO Ada'da Fazıl Say'ın Umut Senfonisi konseri var, 9 kişilik bilet aldım, gelmek isteyen herkese yer var. Öncesinde 18:00 gibi bir şeyler yiyip 19:15'te salonun önünde buluşuruz. Cumartesi akşamı da 19:30 gibi hep beraber meyhaneye gidelim diyorum, sonrasına orada bakarız. Hangi akşam(lar) varısınız? Bilet ve masa için Perşembe akşam 18:00'e kadar kaç kişi olduğunuzu yazarsanız süper olur.
+> Selam! Bu gece Ankara'ya geliyoruz, Pazar akşam dönüyoruz. Gündüzleri akrabalardayız ama akşamlar boş:
+>
+> - Perşembe akşam: Konur Sokak'ta karaoke odası düşünüyoruz, 20:30 gibi.
+> - Cuma akşam: 20:00'de CSO Ada'da Fazıl Say'ın Umut Senfonisi konseri var, 9 kişilik bilet aldım, gelmek isteyen herkese yer var. 19:15'te salonun önünde buluşuruz.
+> - Cumartesi akşam: 19:30 gibi hep beraber meyhane.
+>
+> Hangi akşam(lar) varısınız? Oda, bilet ve masa için yarın (Perşembe) öğlene kadar yazarsanız süper olur.
 
 ## Yedekler
 
@@ -129,16 +148,17 @@ Akşam planlarının hepsi kapalı mekanda; hava planları bozmaz. Yedekler ası
 
 ## Bütçe
 
-Kişi başı yaklaşık 3.500–8.000 TL (konaklama, yol ve alınmış Fazıl Say bileti hariç). Farkı en çok meyhane seçimi açıyor.
+Kişi başı yaklaşık 4.500–10.500 TL, 4 akşam (konaklama, yol ve alınmış Fazıl Say bileti hariç). Farkı en çok meyhane seçimi açıyor.
 
 | Kalem | Kişi başı (TL) |
 | --- | --- |
 | Cumartesi meyhane | 1.300–2.500 (Müjgan'da 5.000'e çıkabilir) |
+| Perşembe akşam yemeği + karaoke ya da caz bileti | 600–2.000 |
 | Cuma konser öncesi yemek | 400–900 |
-| Cuma ve Cumartesi gece devam (bar, parti) | 300–2.000 |
-| Öğle + çay/kahve (3 gün) | 600–1.200 |
-| Taksi (bölüşülü) + metro | 500–800 |
-| Perşembe gece çorba | 250–400 |
+| Perşembe–Cumartesi gece devam (bar, parti) | 300–2.200 |
+| Öğle + çay/kahve (4 gün) | 800–1.600 |
+| Taksi (bölüşülü) + metro | 600–1.000 |
+| Çarşamba gece çorba | 250–400 |
 | Müzeler (Anıtkabir ücretsiz; Müzekart 200 TL) | 0–200 |
 
 Kahvaltılar evde olduğu için bütçeye girmedi. Restoran fiyatları tahmini.
